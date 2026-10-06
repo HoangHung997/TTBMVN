@@ -469,7 +469,7 @@ namespace ExcelAddIn1.Funtion
                     worksheet,
                     row,
                     columns.TechnicalNormColumn,
-                    existing.NormCode,
+                    BuildNormCache(existing),
                     ref changed);
                 WriteTextIfDifferent(
                     worksheet,
@@ -484,14 +484,15 @@ namespace ExcelAddIn1.Funtion
                     existing.Fingerprint,
                     ref changed);
 
+                string displayNorm = FormatNormDisplay(existing.NormCode, existing.VariantCode);
                 if (existing.NormCode.Length > 0 &&
-                    !string.Equals(visibleNorm, existing.NormCode, StringComparison.OrdinalIgnoreCase))
+                    !string.Equals(visibleNorm, displayNorm, StringComparison.OrdinalIgnoreCase))
                 {
                     WriteCellValue(
                         worksheet,
                         row,
                         columns.NormDisplayColumn,
-                        existing.NormCode);
+                        displayNorm);
                     restoredNormCount++;
                     changed = true;
                 }
@@ -564,6 +565,24 @@ namespace ExcelAddIn1.Funtion
                 return false;
             Save(workbook, state.Upsert(item.WithoutBinding(), DateTime.UtcNow));
             return true;
+        }
+
+        public static string FormatNormDisplay(string normCode, string variantCode)
+        {
+            string code = (normCode ?? string.Empty).Trim();
+            string variant = (variantCode ?? string.Empty).Trim();
+            if (code.Length == 0)
+                return string.Empty;
+            return variant.Length == 0 ? code : code + " / " + variant;
+        }
+
+        private static string BuildNormCache(EstimateV2WorkItemState item)
+        {
+            if (item == null || item.NormCode.Length == 0)
+                return string.Empty;
+            return item.VariantCode.Length == 0
+                ? item.NormCode
+                : item.NormCode + "|" + item.VariantCode;
         }
 
         private static string TryRecoverByFingerprint(
