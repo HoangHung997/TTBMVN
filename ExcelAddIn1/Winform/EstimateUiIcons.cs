@@ -23,7 +23,8 @@ namespace ExcelAddIn1.Winform
         Calculator,
         Save,
         Lock,
-        Cloud
+        Cloud,
+        Info
     }
 
     internal static class EstimateUiIcons
@@ -165,6 +166,21 @@ namespace ExcelAddIn1.Winform
                                     s * .07f,
                                     s * .06f);
                             }
+                        }
+                        break;
+                    case EstimateUiIconKind.Info:
+                        graphics.DrawEllipse(pen, s * .14f, s * .14f, s * .72f, s * .72f);
+                        using (var font = new Font(
+                            "Segoe UI",
+                            Math.Max(9f, s * .48f),
+                            FontStyle.Bold,
+                            GraphicsUnit.Pixel))
+                        {
+                            graphics.DrawString(
+                                "i",
+                                font,
+                                brush,
+                                new PointF(s * .39f, s * .20f));
                         }
                         break;
                     case EstimateUiIconKind.Save:
