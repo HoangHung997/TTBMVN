@@ -494,7 +494,7 @@ namespace ExcelAddIn1.Funtion
                 EstimateV2WorkItemState normalized = new EstimateV2WorkItemState(
                     rowId,
                     sourceKey,
-                    existing.NormCode.Length > 0 ? existing.NormCode : visibleNorm,
+                    existing.NormCode,
                     existing.VariantCode,
                     existing.PackageId,
                     existing.DataVersion,
