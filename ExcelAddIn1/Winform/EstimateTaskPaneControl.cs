@@ -324,6 +324,27 @@ namespace ExcelAddIn1.Winform
                 return;
             }
 
+            Excel.Worksheet worksheet =
+                sheet as Excel.Worksheet;
+            if (worksheet == null)
+                return;
+
+            try
+            {
+                EstimateV2RegisteredSource source;
+                if (!WorkbookEstimateV2RegistrationService
+                    .TryReadSource(
+                        worksheet,
+                        out source))
+                {
+                    return;
+                }
+            }
+            catch
+            {
+                return;
+            }
+
             rowSyncTimer.Stop();
             rowSyncTimer.Start();
         }
