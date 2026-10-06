@@ -36,6 +36,9 @@ namespace ExcelAddIn1.Winform
         private DataGridView rateGrid;
         private DataGridView ratePreviewGrid;
         private readonly Label statusLabel;
+        private RadioButton optionNew;
+        private RadioButton optionUpdate;
+        private RadioButton optionUsed;
         private WorkbookEstimateV2RatePreview preview;
 
         internal EstimateUnitRatesPaneView(
@@ -244,17 +247,17 @@ namespace ExcelAddIn1.Winform
                 Padding = new Padding(12, 7, 8, 7)
             };
             options.Paint += PaintBorder;
-            AddRadio(
+            optionNew = AddRadio(
                 options,
                 "Sinh mới (tạo đơn giá chưa có)",
                 5,
                 true);
-            AddRadio(
+            optionUpdate = AddRadio(
                 options,
                 "Cập nhật từ VL-NC-M (nếu đã có đơn giá)",
                 31,
                 false);
-            AddRadio(
+            optionUsed = AddRadio(
                 options,
                 "Chỉ sinh định mức đang dùng trong dự toán",
                 57,
@@ -562,6 +565,17 @@ namespace ExcelAddIn1.Winform
             try
             {
                 string[] selected = SelectedRateIds();
+                if (environment == EstimateV2RateEnvironment.Land &&
+                    optionUpdate != null &&
+                    optionUpdate.Checked &&
+                    selected.Length == 0)
+                {
+                    ShowStatus(
+                        "Chưa có đơn giá đã sinh để cập nhật từ VL-NC-M.",
+                        true);
+                    return;
+                }
+
                 WorkbookEstimateV2RateWriteResult result =
                     WorkbookEstimateV2RateSheetWriter.Apply(
                         workbook,
@@ -614,11 +628,23 @@ namespace ExcelAddIn1.Winform
 
         private string[] SelectedRateIds()
         {
-            if (environment != EstimateV2RateEnvironment.Land)
+            if (preview == null)
+                return new string[0];
+
+            if (environment != EstimateV2RateEnvironment.Land ||
+                (optionUsed != null && optionUsed.Checked))
             {
-                return preview?.Items
+                return preview.Items
                     .Select(item => item.Rate.RateId)
-                    .ToArray() ?? new string[0];
+                    .ToArray();
+            }
+
+            if (optionUpdate != null && optionUpdate.Checked)
+            {
+                return preview.Items
+                    .Where(item => item.IsGenerated)
+                    .Select(item => item.Rate.RateId)
+                    .ToArray();
             }
 
             var selected = new List<string>();
@@ -634,7 +660,7 @@ namespace ExcelAddIn1.Winform
                     selected.Add(item.Rate.RateId);
             }
 
-            if (selected.Count == 0 && preview != null)
+            if (selected.Count == 0)
             {
                 selected.AddRange(
                     preview.Items
@@ -920,13 +946,13 @@ namespace ExcelAddIn1.Winform
             return value;
         }
 
-        private static void AddRadio(
+        private static RadioButton AddRadio(
             Control parent,
             string text,
             int top,
             bool isChecked)
         {
-            parent.Controls.Add(new RadioButton
+            var radio = new RadioButton
             {
                 Text = text,
                 Location = new Point(12, top),
@@ -935,7 +961,9 @@ namespace ExcelAddIn1.Winform
                 Checked = isChecked,
                 Font = new Font("Segoe UI", 8.1f),
                 ForeColor = TextDark
-            });
+            };
+            parent.Controls.Add(radio);
+            return radio;
         }
 
         private static void AddProcessStep(
