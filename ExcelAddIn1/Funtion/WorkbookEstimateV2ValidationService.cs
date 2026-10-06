@@ -555,13 +555,9 @@ namespace ExcelAddIn1.Funtion
                              item.Code == "RESOURCE_NAME_MISSING" ||
                              item.Code == "RATE_NAME_MISSING" ||
                              (item.Code == "MANAGED_FORMULA_ERROR" &&
-                              (string.Equals(
-                                   item.WorksheetName,
-                                   "VL-NC-M",
-                                   StringComparison.OrdinalIgnoreCase) ||
-                               item.WorksheetName.StartsWith(
-                                   "DG ",
-                                   StringComparison.OrdinalIgnoreCase)))));
+                              IsRateOrResourceSheet(
+                                  workbook,
+                                  item.WorksheetName))));
 
                     if (!needsRepair)
                         continue;
@@ -594,7 +590,8 @@ namespace ExcelAddIn1.Funtion
                                item.WorksheetName,
                                "THKP-TC",
                                StringComparison.OrdinalIgnoreCase) ||
-                           !IsRateOrResourceSheetName(
+                           !IsRateOrResourceSheet(
+                               workbook,
                                item.WorksheetName))))))
                 {
                     WorkbookEstimateV2CostLinkWriter.Apply(
@@ -617,18 +614,91 @@ namespace ExcelAddIn1.Funtion
                 errors);
         }
 
-        private static bool IsRateOrResourceSheetName(
+        private static bool IsRateOrResourceSheet(
+            Excel.Workbook workbook,
             string worksheetName)
         {
             string name =
                 (worksheetName ?? string.Empty).Trim();
-            return string.Equals(
-                    name,
-                    "VL-NC-M",
-                    StringComparison.OrdinalIgnoreCase) ||
-                name.StartsWith(
-                    "DG ",
-                    StringComparison.OrdinalIgnoreCase);
+            if (name.Length == 0)
+                return false;
+
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet = FindWorksheet(
+                    workbook,
+                    name);
+                if (sheet == null)
+                {
+                    EstimateV2LegacySheetClassification legacy =
+                        EstimateV2CompatibilityRules
+                            .ClassifySheetName(name);
+                    return legacy.Kind ==
+                            EstimateV2LegacySheetKind.ResourcePrices ||
+                        legacy.Kind ==
+                            EstimateV2LegacySheetKind.UnitRateLand ||
+                        legacy.Kind ==
+                            EstimateV2LegacySheetKind.UnitRateWater ||
+                        legacy.Kind ==
+                            EstimateV2LegacySheetKind.UnitRateSea;
+                }
+
+                WorksheetRole role;
+                if (WorksheetRoleService.TryGetRole(
+                    sheet,
+                    out role) &&
+                    (role == WorksheetRole.ResourcePrices ||
+                     role == WorksheetRole.UnitRateLand ||
+                     role == WorksheetRole.UnitRateWater))
+                {
+                    return true;
+                }
+
+                Excel.CustomProperties properties = null;
+                try
+                {
+                    properties = sheet.CustomProperties;
+                    for (int index = 1;
+                        index <= properties.Count;
+                        index++)
+                    {
+                        Excel.CustomProperty property = null;
+                        try
+                        {
+                            property = properties.Item[index];
+                            if (!string.Equals(
+                                property.Name,
+                                "TTBMVN.EstimateV2.UnitRateEnvironment",
+                                StringComparison.OrdinalIgnoreCase))
+                            {
+                                continue;
+                            }
+
+                            string value =
+                                Convert.ToString(
+                                    property.Value,
+                                    CultureInfo.InvariantCulture) ??
+                                string.Empty;
+                            return value.Length > 0;
+                        }
+                        finally
+                        {
+                            Release(property);
+                        }
+                    }
+                }
+                finally
+                {
+                    Release(properties);
+                }
+
+                return false;
+            }
+            finally
+            {
+                Release(sheet);
+            }
         }
 
         private static void AddBindingFindings(
