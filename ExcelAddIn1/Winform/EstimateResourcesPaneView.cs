@@ -35,6 +35,7 @@ namespace ExcelAddIn1.Winform
         private readonly Label laborSummary;
         private readonly Label machineSummary;
         private readonly DataGridView missingGrid;
+        private readonly Label missingTitleLabel;
         private readonly Label statusLabel;
         private WorkbookEstimateV2ResourcePreview preview;
         private PriceProfile previewProfile;
@@ -108,27 +109,35 @@ namespace ExcelAddIn1.Winform
                 groups, 2, "Máy thi công", EstimateUiIconKind.Settings, Amber, AmberSoft);
             content.Controls.Add(groups, 0, content.RowCount++);
 
-            var missingTitle = new Label
-            {
-                Text = "Danh sách khoản mục chưa có giá",
-                Dock = DockStyle.Top,
-                Height = 30,
-                Margin = new Padding(0, 0, 0, 2),
-                ForeColor = Red,
-                Font = new Font("Segoe UI", 9.2f, FontStyle.Bold),
-                TextAlign = ContentAlignment.MiddleLeft
-            };
-            content.Controls.Add(missingTitle, 0, content.RowCount++);
-
             var missingCard = new Panel
             {
                 Dock = DockStyle.Top,
-                Height = 168,
+                Height = 183,
                 Margin = new Padding(0, 0, 0, 9),
                 BackColor = RedSoft,
                 Padding = new Padding(6)
             };
             missingCard.Paint += PaintBorder;
+            var missingLayout = new TableLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                BackColor = RedSoft,
+                ColumnCount = 1,
+                RowCount = 2,
+                Margin = new Padding(0),
+                Padding = new Padding(0)
+            };
+            missingLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 30));
+            missingLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+            missingTitleLabel = new Label
+            {
+                Text = "Danh sách khoản mục chưa có giá (0)",
+                Dock = DockStyle.Fill,
+                ForeColor = Red,
+                Font = new Font("Segoe UI", 9.2f, FontStyle.Bold),
+                TextAlign = ContentAlignment.MiddleLeft,
+                Padding = new Padding(3, 0, 0, 0)
+            };
             missingGrid = new DataGridView
             {
                 Dock = DockStyle.Fill,
@@ -144,26 +153,38 @@ namespace ExcelAddIn1.Winform
             };
             missingGrid.Columns.Add(new DataGridViewTextBoxColumn
             {
+                HeaderText = "STT",
+                Width = 38
+            });
+            missingGrid.Columns.Add(new DataGridViewTextBoxColumn
+            {
                 HeaderText = "Mã hiệu",
-                Width = 91
+                Width = 76
             });
             missingGrid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Tên tài nguyên",
                 AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill,
-                MinimumWidth = 120
+                MinimumWidth = 115
             });
             missingGrid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Đơn vị",
-                Width = 56
+                Width = 52
             });
             missingGrid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Nhóm",
-                Width = 76
+                Width = 74
             });
-            missingCard.Controls.Add(missingGrid);
+            missingGrid.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "",
+                Width = 24
+            });
+            missingLayout.Controls.Add(missingTitleLabel, 0, 0);
+            missingLayout.Controls.Add(missingGrid, 0, 1);
+            missingCard.Controls.Add(missingLayout);
             content.Controls.Add(missingCard, 0, content.RowCount++);
 
             content.Controls.Add(SectionTitle("Chức năng chính"), 0, content.RowCount++);
@@ -183,25 +204,25 @@ namespace ExcelAddIn1.Winform
 
             Button aggregate = FeatureButton(
                 "Tổng hợp tài nguyên",
-                "Từ các công tác, định mức",
+                "Từ các bảng khối lượng, định mức",
                 EstimateUiIconKind.Clipboard,
                 Green,
                 GreenSoft);
             Button price = FeatureButton(
                 "Cập nhật giá",
-                "Mở/đồng bộ bảng giá",
+                "Lấy giá từ bảng giá hoặc nhập thủ công",
                 EstimateUiIconKind.Refresh,
                 Blue,
                 BlueSoft);
             Button labor = FeatureButton(
                 "Sinh công thức NC",
-                "Tạo công thức nhân công",
+                "Tạo công thức tính nhân công từ định mức",
                 EstimateUiIconKind.Link,
                 Color.FromArgb(110, 73, 200),
                 Color.FromArgb(245, 240, 255));
             Button machine = FeatureButton(
                 "Sinh công thức giá ca máy",
-                "Tạo công thức ca máy",
+                "Tạo công thức tính giá ca máy từ định mức",
                 EstimateUiIconKind.Settings,
                 Color.FromArgb(230, 132, 28),
                 AmberSoft);
@@ -226,7 +247,7 @@ namespace ExcelAddIn1.Winform
                 BackColor = BlueSoft,
                 ForeColor = Color.FromArgb(35, 88, 180),
                 Font = new Font("Segoe UI", 8.1f),
-                Text = "Giá trị trong bảng này phải được sinh từ công thức hoặc liên kết; không có kết quả tính toán số chết."
+                Text = "Giá trị trong bảng này được sinh tự động bằng công thức hoặc liên kết từ các bảng giá (VL, nhân công, ca máy), không phải số liệu cố định. Khi cập nhật bảng giá, các giá trị sẽ tự động được cập nhật."
             };
             content.Controls.Add(statusLabel, 0, content.RowCount++);
 
@@ -256,6 +277,8 @@ namespace ExcelAddIn1.Winform
 
                 var missing = BuildMissingItems();
                 missingValue.Text = missing.Count.ToString("N0");
+                missingTitleLabel.Text = "Danh sách khoản mục chưa có giá (" +
+                    missing.Count.ToString("N0") + ")";
                 PopulateMissing(missing);
 
                 materialSummary.Text = FormatGroupSummary(
@@ -411,8 +434,18 @@ namespace ExcelAddIn1.Winform
         private void PopulateMissing(IEnumerable<MissingItem> items)
         {
             missingGrid.Rows.Clear();
+            int index = 1;
             foreach (MissingItem item in items)
-                missingGrid.Rows.Add(item.Code, item.Name, item.Unit, item.Group);
+            {
+                missingGrid.Rows.Add(
+                    index,
+                    item.Code,
+                    item.Name,
+                    item.Unit,
+                    item.Group,
+                    "›");
+                index++;
+            }
         }
 
         private void ActivateResourceSheet()
@@ -679,7 +712,7 @@ namespace ExcelAddIn1.Winform
             {
                 case NormResourceKind.Material: return "Vật liệu";
                 case NormResourceKind.Labor: return "Nhân công";
-                case NormResourceKind.Machine: return "Máy";
+                case NormResourceKind.Machine: return "Máy thi công";
                 default: return kind.ToString();
             }
         }
