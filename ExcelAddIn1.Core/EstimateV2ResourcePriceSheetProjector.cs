@@ -96,15 +96,13 @@ namespace ExcelAddIn1.Core
             if (string.IsNullOrWhiteSpace(second))
                 return string.Empty;
 
-            if (second.IndexOf('-', StringComparison.Ordinal) >= 0 ||
-                second.IndexOf('.', StringComparison.Ordinal) >= 0)
+            if (second.IndexOf('-') >= 0 ||
+                second.IndexOf('.') >= 0)
             {
                 return second;
             }
 
-            int prefixEnd = (first ?? string.Empty).IndexOf(
-                '-',
-                StringComparison.Ordinal);
+            int prefixEnd = (first ?? string.Empty).IndexOf('-');
             if (prefixEnd >= 0)
                 return first.Substring(0, prefixEnd + 1) + second;
             return second;
