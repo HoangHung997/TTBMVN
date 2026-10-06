@@ -733,7 +733,11 @@ namespace ExcelAddIn1.Funtion
             }
 
             CaptureLegacyLaborInputs(sheet, result);
-            CaptureLegacyMaterialPrices(sheet, result, profile);
+            CaptureLegacyMaterialPrices(
+                sheet,
+                result,
+                profile,
+                plan.Materials);
 
             if (profile != null)
             {
@@ -793,20 +797,38 @@ namespace ExcelAddIn1.Funtion
         private static void CaptureLegacyMaterialPrices(
             Excel.Worksheet sheet,
             PreservedInputs result,
-            PriceProfile profile)
+            PriceProfile profile,
+            IEnumerable<EstimateV2ResourceRequirement> materials)
         {
-            if (profile == null)
-                return;
-
             int lastRow = ExistingLastRow(sheet);
-            var byName = profile.Entries
-                .Where(item => item.Kind == PriceResourceKind.Material)
-                .Where(item => !string.IsNullOrWhiteSpace(item.DisplayName))
-                .GroupBy(item => NormalizeText(item.DisplayName), StringComparer.OrdinalIgnoreCase)
-                .Where(group => group.Count() == 1)
+            var candidates = new List<KeyValuePair<string, string>>();
+
+            if (profile != null)
+            {
+                candidates.AddRange(profile.Entries
+                    .Where(item => item.Kind == PriceResourceKind.Material)
+                    .Where(item => !string.IsNullOrWhiteSpace(item.DisplayName))
+                    .Select(item => new KeyValuePair<string, string>(
+                        NormalizeText(item.DisplayName),
+                        item.Code)));
+            }
+
+            candidates.AddRange((materials ??
+                Enumerable.Empty<EstimateV2ResourceRequirement>())
+                .Select(item => new KeyValuePair<string, string>(
+                    NormalizeText(ResourceDisplayName(profile, item.Code)),
+                    item.Code)));
+
+            var byName = candidates
+                .Where(item => item.Key.Length > 0 && item.Value.Length > 0)
+                .GroupBy(item => item.Key, StringComparer.OrdinalIgnoreCase)
+                .Where(group => group
+                    .Select(item => item.Value)
+                    .Distinct(StringComparer.OrdinalIgnoreCase)
+                    .Count() == 1)
                 .ToDictionary(
                     group => group.Key,
-                    group => group.First().Code,
+                    group => group.First().Value,
                     StringComparer.OrdinalIgnoreCase);
 
             for (int row = 1; row <= lastRow; row++)
@@ -901,13 +923,7 @@ namespace ExcelAddIn1.Funtion
             PriceProfilePrice price;
             if (profile != null && profile.TryFind(code, out price))
                 return price.Entry.DisplayName;
-            switch ((code ?? string.Empty).ToUpperInvariant())
-            {
-                case "LAB-QNCN-5": return "Nhân công thợ bậc 5/10";
-                case "LAB-QNCN-7": return "Nhân công thợ bậc 7/10";
-                case "LAB-QNCN-8": return "Nhân công thợ bậc 8/10";
-                default: return code ?? string.Empty;
-            }
+            return EstimateV2ResourceNames.Get(code);
         }
 
         private static string FuelDisplayName(
