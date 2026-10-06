@@ -612,6 +612,11 @@ namespace ExcelAddIn1.Funtion
                     "Định mức");
             }
 
+            PopulateLegacyWorkCodes(
+                sheet,
+                headerRow,
+                lastRow);
+
             RestoreLegacyTailAsValues(
                 sheet,
                 headerRow,
@@ -634,6 +639,52 @@ namespace ExcelAddIn1.Funtion
             messages.Add(
                 sheet.Name +
                 ": đã chuyển layout legacy sang A:L chuẩn V2; dữ liệu nghiệm thu cũ được giữ ở cột ẩn ngoài vùng in.");
+        }
+
+        private static void PopulateLegacyWorkCodes(
+            Excel.Worksheet sheet,
+            int headerRow,
+            int lastRow)
+        {
+            int firstDataRow =
+                HasRateSubHeader(
+                    sheet,
+                    headerRow + 1)
+                    ? headerRow + 2
+                    : headerRow + 1;
+
+            for (int row = firstDataRow;
+                row <= lastRow;
+                row++)
+            {
+                string existingCode =
+                    ReadText(sheet, row, 2);
+                if (existingCode.Length > 0)
+                    continue;
+
+                string description =
+                    ReadText(sheet, row, 4);
+                string unit =
+                    ReadText(sheet, row, 5);
+                string quantity =
+                    ReadText(sheet, row, 6);
+
+                if (description.Length == 0 ||
+                    (unit.Length == 0 &&
+                     quantity.Length == 0))
+                {
+                    continue;
+                }
+
+                WriteText(
+                    sheet,
+                    row,
+                    2,
+                    "CT-L" +
+                    row.ToString(
+                        "D4",
+                        CultureInfo.InvariantCulture));
+            }
         }
 
         private static void RestoreLegacyTailAsValues(
