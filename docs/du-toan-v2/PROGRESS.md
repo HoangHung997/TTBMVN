@@ -16,6 +16,9 @@
 | V2-401 | Link Gia DT TC + THKP-TC | DONE - implementation / runtime pending |
 | V2-501 | Validation / phục hồi / phát hiện lỗi | DONE - implementation / runtime pending |
 | V2-601 | Tương thích file cũ và migration | DONE - implementation / runtime pending |
+| V2-701 | Thiết lập chung theo workbook | DONE - implementation / runtime pending |
+| V2-801 | Gói pháp lý & Dữ liệu | NEXT - cần chốt/mockup UI 09 nếu ảnh chuẩn chưa có |
+| V2-901 | Báo cáo & Xuất in | TODO |
 
 ---
 
@@ -3281,7 +3284,287 @@ Môi trường hiện tại vẫn không có Excel/VSTO runtime phù hợp để
 
 #### Việc tiếp theo
 
-V2-601 dừng ở đây. Roadmap V2 hiện tại chưa định nghĩa task sau V2-601; **chưa triển khai thêm task mới trong lượt này**.
+V2-601 đã chốt ở mức implementation. Task sau đó **V2-701 — Thiết lập chung** đã được triển khai và được ghi riêng ở section bên dưới.
+
+---
+
+## V2-701 — Thiết lập chung theo workbook
+
+**Trạng thái:** DONE - implementation / runtime pending
+
+### UI đã bám ảnh chuẩn 08
+
+Đã đối chiếu trực tiếp:
+
+- `/mnt/data/chuan_UI/08-Thiet-lap-chung.png`
+
+Không tạo form modal mới. Điểm vào là nút **Thiết lập Chung** trên Ribbon, sau đó mở đúng **CustomTaskPane hiện có**, rộng khoảng 430 px.
+
+View chính:
+
+- `ExcelAddIn1/Winform/EstimateSettingsPaneView.cs`
+
+Bố cục hiện có theo ảnh chốt:
+
+- header `Trợ lý Dự toán / Thiết lập chung`;
+- 4 metric: Workbook / Vai trò sheet / Metadata / Tự động lưu;
+- mục 1 `Sheet đầu ra` với 6 mapping;
+- mục 2 `Hành vi cập nhật`;
+- mục 3 `Bảo vệ dữ liệu`;
+- ba nút cuối pane: Lưu thiết lập / Khôi phục mặc định / Mở thư mục cấu hình;
+- icon Save / Lock / Cloud / Info dùng renderer nội bộ, không dùng emoji.
+
+### Core settings policy
+
+Đã thêm:
+
+- `ExcelAddIn1.Core/EstimateV2Settings.cs`
+
+Settings theo workbook gồm:
+
+- `AutoRestoreNormDisplay`;
+- `ValidateOnOpen`;
+- `FormulaLinksRequired`;
+- `AutoSyncRows`;
+- `UseCustomXml`;
+- `HideTechnicalColumns`;
+- `WarnOnMappingLoss`;
+- `AutoSaveEnabled`;
+- `AutoSaveMinutes`.
+
+Ba invariant bắt buộc luôn được policy ép ON:
+
+1. kết quả tính phải là formula/link, không số chết;
+2. binding thật tiếp tục dùng Custom XML;
+3. technical metadata phải ẩn khỏi hồ sơ in.
+
+Auto-save được normalize trong khoảng 1–60 phút, mặc định 5 phút.
+
+### Lưu settings và mapping output
+
+Đã thêm:
+
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2SettingsService.cs`
+
+Settings được lưu bằng **Custom Document Properties** trong chính workbook, không tạo sheet settings visible.
+
+Mapping output gồm 6 slot:
+
+- `CostSummary` -> THKP-TC;
+- `EstimateAppendix` -> Gia DT TC;
+- `UnitRateLand` -> DG Cạn;
+- `UnitRateWater` -> DG Nước;
+- `ResourcePrices` -> VL-NC-M;
+- `UnitRateSea` -> DG Biển.
+
+Identity không phụ thuộc tên tab:
+
+- các output chính dùng Worksheet Role / CodeName;
+- DG Biển dùng custom environment metadata;
+- settings còn lưu expected output map để phát hiện mapping đã bị xóa/đổi sai.
+
+Không cho phép một sheet được gán đồng thời cho nhiều output V2.
+
+Nếu SaveConfiguration lỗi giữa chừng, service rollback:
+
+- worksheet roles;
+- DG Biển environment mapping;
+- expected output maps;
+- settings trước đó.
+
+### Khôi phục mặc định
+
+`Khôi phục mặc định` chỉ reset **behavior settings** về policy mặc định.
+
+Không được:
+
+- xóa Custom XML binding;
+- xóa sheet mapping hiện có;
+- xóa output sheet;
+- reset package pháp lý.
+
+### Runtime behavior đã nối
+
+`EstimateTaskPaneControl` đọc settings theo workbook khi pane được tạo.
+
+Đã nối:
+
+- `ValidateOnOpen`: chỉ reconcile/kiểm tra cấu trúc nhẹ; không gọi full package/validation nặng ở startup;
+- `AutoRestoreNormDisplay`: cho phép bật/tắt việc tự ghi lại ô định mức display bị xóa, nhưng binding thật trong Custom XML không mất;
+- `AutoSyncRows`: nghe `Workbook.SheetChange`, nhưng chỉ debounce khi sheet thay đổi là **registered work source**;
+- debounce row sync: khoảng 650 ms;
+- `WarnOnMappingLoss`: hiện cảnh báo mềm trên Tổng quan/Settings, không khóa module;
+- `AutoSaveEnabled` + phút: dùng timer trong task pane;
+- auto-save chỉ gọi `workbook.Save()` khi workbook đã có path, không read-only và đang dirty; không tự bật Save As cho file mới.
+
+Khi đóng workbook, `EstimateTaskPaneManager.CloseForWorkbook` dispose pane nên timer/event theo pane cũng dừng theo lifecycle workbook.
+
+### Ribbon / navigation
+
+Đã thêm nút:
+
+- `Thiết lập Chung`
+
+trong Ribbon Dự toán.
+
+Luồng:
+
+```text
+Ribbon
+  -> Thiết lập Chung
+       -> EstimateTaskPaneManager.ShowSettings(workbook)
+       -> mở cùng CustomTaskPane
+       -> EstimateSettingsPaneView
+```
+
+Không mở form modal và không tạo task pane thứ hai cho cùng workbook.
+
+### Mapping loss
+
+Service lưu expected mapping theo slot.
+
+Nếu người dùng:
+
+- xóa sheet;
+- gỡ role;
+- đổi mapping sang sheet khác ngoài settings;
+- làm mất environment metadata DG Biển;
+
+thì `MappingLossCount` tăng.
+
+Hành vi hiện tại:
+
+- cảnh báo mềm;
+- module vẫn mở và các chức năng khác vẫn dùng được;
+- người dùng sửa lại trong Thiết lập chung;
+- không tự gán đại một sheet khác.
+
+### Test code đã thêm
+
+Trong `ExcelAddIn1.Tests/Program.cs`:
+
+- `EstimateV2SettingsPolicy`
+
+Test core kiểm tra:
+
+- default settings;
+- các invariant không thể bị tắt qua Normalize;
+- auto-save minutes được clamp đúng min/max.
+
+### File chính đã thêm/cập nhật
+
+- `ExcelAddIn1.Core/EstimateV2Settings.cs`
+- `ExcelAddIn1.Core/ExcelAddIn1.Core.csproj`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2SettingsService.cs`
+- `ExcelAddIn1/Winform/EstimateSettingsPaneView.cs`
+- `ExcelAddIn1/Winform/EstimateTaskPaneControl.cs`
+- `ExcelAddIn1/Winform/EstimateTaskPaneManager.cs`
+- `ExcelAddIn1/Winform/EstimateUiIcons.cs`
+- `ExcelAddIn1/Ribbon1.cs`
+- `ExcelAddIn1/Ribbon1.Designer.cs`
+- `ExcelAddIn1.Tests/Program.cs`
+- `docs/du-toan-v2/UI-CONTRACT.md`
+
+### Commit quan trọng
+
+- `e8299a079c56` — core settings policy;
+- `0761c829530c` — persist workbook settings/output mapping;
+- `688a53a89ce3` — include settings service;
+- `798af7bb3d64` — configurable restore norm display;
+- `81ea48df5f80` — configurable reconcile runtime;
+- `3dd6057a1b3a` — settings pane theo UI 08;
+- `961318845a9c` — áp settings vào task pane runtime;
+- `ac0d73cfdbef` — navigation settings từ task pane manager;
+- `15c653df5d9e` — settings policy tests;
+- `0e9f79a379ef` — rollback settings + sheet mappings;
+- `b7274db94931` — debounce sync chỉ registered work sheet;
+- `c21b429ba119` / `dded04ebf9d6` — Ribbon Thiết lập Chung;
+- `14d867142cd1` — giữ Tổng quan đúng ảnh, settings mở từ Ribbon;
+- `b20160b35b7f` — UI contract V2-701;
+- `43e8a6d6e294` — persist expected output maps + detect mapping loss;
+- `840c02e9702e` / `5ea6e007e7f2` — surface mapping loss mềm trong settings/runtime.
+
+### Tự kiểm tra đã làm
+
+Đã rà soát tĩnh các file V2-701 chính:
+
+- ngoặc code cân bằng ở core/service/view/manager/ribbon;
+- không có conflict marker;
+- không có `TODO/FIXME/NotImplementedException` trong các file V2-701 chính;
+- `EstimateV2Settings.cs`, service và pane đều đã include đúng project;
+- auto-sync chỉ schedule trên registered source;
+- auto-save không Save As workbook mới;
+- mapping loss là warning mềm;
+- reset mặc định không xóa mapping;
+- ba invariant formula/Custom XML/hidden technical luôn ON qua policy.
+
+**Chưa chạy build VSTO/Excel thật và chưa chạy test console trong môi trường hiện tại. Không ghi PASS giả.**
+
+### Checklist runtime bắt buộc
+
+- mở workbook -> Tổng quan vẫn mở ngay, không có settings gate;
+- Ribbon `Thiết lập Chung` -> mở đúng pane 08;
+- pane 08 ở DPI 100/125/150% không tràn;
+- lưu mapping 6 output -> đóng/mở workbook -> mapping còn;
+- rename output sheet -> mapping theo CodeName/Role vẫn đúng;
+- xóa output sheet đã map -> hiện warning mapping loss, module không crash;
+- chọn cùng một sheet cho 2 output -> Save bị từ chối rõ ràng;
+- lỗi giữa SaveConfiguration -> rollback mapping/settings cũ;
+- reset default -> behavior về mặc định nhưng mapping giữ nguyên;
+- tắt AutoRestoreNormDisplay -> xóa ô display không tự viết lại, binding Custom XML vẫn còn;
+- bật AutoSyncRows -> insert/delete/copy/sort trên registered source được reconcile sau debounce;
+- thay đổi sheet không đăng ký -> không chạy reconcile toàn workbook;
+- auto-save bật 5 phút -> chỉ save workbook có path và dirty;
+- workbook mới chưa Save As -> timer không bật hộp Save As;
+- mapping loss warning có thể tắt bằng setting;
+- đóng workbook -> pane/timer/event được dispose sạch;
+- mở workbook không có add-in sau khi đã sinh output -> vẫn xem/tính/in bằng công thức Excel.
+
+### Việc tiếp theo
+
+Task kế tiếp là **V2-801 — Gói pháp lý & Dữ liệu**.
+
+Yêu cầu bắt buộc trước khi code UI:
+
+- đọc `docs/du-toan-v2/HANDOVER.md`;
+- đọc `UI-CONTRACT.md`;
+- kiểm tra `/mnt/data/chuan_UI`.
+- tại thời điểm bàn giao, thư mục chuẩn hiện có ảnh **01–08**; chưa thấy file ảnh chuẩn 09–10 trong thư mục này. Nếu vẫn thiếu khi bắt đầu V2-801, phải dựng/chốt mockup 09 theo đúng ngôn ngữ UI hiện tại trước hoặc bám đặc tả UI contract đã có; không tự chuyển sang form/modal kiểu khác.
+
+V2-801 phải tiếp tục nguyên tắc: package pháp lý là dependency on-demand, **không được quay lại gate startup** và **không tự nâng package pinned lên latest**.
+
+---
+
+## Roadmap còn lại
+
+### V2-801 — Gói pháp lý & Dữ liệu
+
+**Trạng thái:** NEXT
+
+Mục tiêu:
+
+- UI package/pháp lý theo CustomTaskPane;
+- hiển thị rõ package đang pin: PackageId / DataVersion / checksum;
+- phân biệt Installed / Missing / Corrupt / Available;
+- cài/chọn package on-demand;
+- dùng lại package store/offline update/effective-date/transition/migration engine hiện có;
+- nếu đổi package đã pin phải có preview/confirm và rollback an toàn;
+- không thay binding pháp lý âm thầm;
+- không tự chọn `latest` khi package workbook đang pin bị thiếu.
+
+### V2-901 — Báo cáo & Xuất in
+
+**Trạng thái:** TODO
+
+Mục tiêu:
+
+- UI theo phong cách ảnh 10;
+- chọn các sheet hồ sơ chính cần in/xuất;
+- kiểm tra PrintArea/print setup trước khi xuất;
+- không xuất các cột metadata/technical;
+- hỗ trợ bộ output thực tế Cạn/Nước/Biển;
+- không tạo tab báo cáo rác chỉ để xuất;
+- phần export phải dùng workbook hiện tại làm nguồn sự thật.
 
 ---
 
