@@ -34,7 +34,12 @@ namespace ExcelAddIn1.Winform
         private readonly FlowLayoutPanel sheetTiles;
         private readonly Label footerText;
         private readonly Panel overviewRoot;
+        private readonly Timer autoSaveTimer;
+        private readonly Timer rowSyncTimer;
         private Control activeChild;
+        private EstimateV2Settings runtimeSettings;
+        private bool runtimeSyncing;
+        private string runtimeWarning = string.Empty;
 
         internal EstimateTaskPaneControl(Excel.Workbook workbook)
         {
@@ -42,6 +47,20 @@ namespace ExcelAddIn1.Winform
             Dock = DockStyle.Fill;
             BackColor = Color.White;
             AutoScaleMode = AutoScaleMode.Dpi;
+
+            runtimeSettings = LoadRuntimeSettings();
+
+            autoSaveTimer = new Timer();
+            autoSaveTimer.Tick += AutoSaveTimer_Tick;
+
+            rowSyncTimer = new Timer
+            {
+                Interval = 650
+            };
+            rowSyncTimer.Tick += RowSyncTimer_Tick;
+
+            workbook.SheetChange += Workbook_SheetChange;
+            ConfigureRuntimeBehavior(runtimeSettings);
 
             overviewRoot = new Panel
             {
@@ -226,17 +245,204 @@ namespace ExcelAddIn1.Winform
             RefreshOverview();
         }
 
-        private void TryReconcileOnOpen()
+        private EstimateV2Settings LoadRuntimeSettings()
         {
             try
             {
-                WorkbookEstimateV2RegistrationService.ReconcileAll(workbook);
+                return WorkbookEstimateV2SettingsService.Load(
+                    workbook);
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(
+                    ex,
+                    "Load Estimate V2 settings");
+                return EstimateV2SettingsPolicy.Defaults();
+            }
+        }
+
+        private void ConfigureRuntimeBehavior(
+            EstimateV2Settings settings)
+        {
+            EstimateV2Settings normalized =
+                EstimateV2SettingsPolicy.Normalize(
+                    settings);
+            runtimeSettings = normalized;
+
+            int milliseconds =
+                normalized.AutoSaveMinutes *
+                60 * 1000;
+            autoSaveTimer.Interval =
+                Math.Max(
+                    60000,
+                    milliseconds);
+
+            if (normalized.AutoSaveEnabled)
+                autoSaveTimer.Start();
+            else
+                autoSaveTimer.Stop();
+
+            if (!normalized.AutoSyncRows)
+                rowSyncTimer.Stop();
+        }
+
+        private void TryReconcileOnOpen()
+        {
+            if (!runtimeSettings.ValidateOnOpen &&
+                !runtimeSettings.AutoSyncRows)
+            {
+                return;
+            }
+
+            try
+            {
+                EstimateV2ReconcileResult result =
+                    WorkbookEstimateV2RegistrationService
+                        .ReconcileAll(
+                            workbook,
+                            runtimeSettings
+                                .AutoRestoreNormDisplay);
+                UpdateRuntimeWarning(result);
             }
             catch (Exception ex)
             {
                 // Missing/legacy metadata khong duoc phep chan viec mo task pane.
-                RuntimeLogger.Log(ex, "Reconcile Estimate V2 on open");
+                RuntimeLogger.Log(
+                    ex,
+                    "Reconcile Estimate V2 on open");
             }
+        }
+
+        private void Workbook_SheetChange(
+            object sheet,
+            Excel.Range target)
+        {
+            if (runtimeSyncing ||
+                runtimeSettings == null ||
+                !runtimeSettings.AutoSyncRows)
+            {
+                return;
+            }
+
+            rowSyncTimer.Stop();
+            rowSyncTimer.Start();
+        }
+
+        private void RowSyncTimer_Tick(
+            object sender,
+            EventArgs e)
+        {
+            rowSyncTimer.Stop();
+            if (runtimeSyncing ||
+                runtimeSettings == null ||
+                !runtimeSettings.AutoSyncRows)
+            {
+                return;
+            }
+
+            runtimeSyncing = true;
+            try
+            {
+                EstimateV2ReconcileResult result =
+                    WorkbookEstimateV2RegistrationService
+                        .ReconcileAll(
+                            workbook,
+                            runtimeSettings
+                                .AutoRestoreNormDisplay);
+                UpdateRuntimeWarning(result);
+
+                if (overviewRoot != null &&
+                    overviewRoot.Visible &&
+                    result.StateChanged)
+                {
+                    RefreshOverview();
+                }
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(
+                    ex,
+                    "Auto sync Estimate V2 rows");
+            }
+            finally
+            {
+                runtimeSyncing = false;
+            }
+        }
+
+        private void AutoSaveTimer_Tick(
+            object sender,
+            EventArgs e)
+        {
+            if (runtimeSettings == null ||
+                !runtimeSettings.AutoSaveEnabled)
+            {
+                return;
+            }
+
+            try
+            {
+                if (workbook.ReadOnly ||
+                    workbook.Saved ||
+                    string.IsNullOrWhiteSpace(
+                        workbook.Path))
+                {
+                    return;
+                }
+
+                workbook.Save();
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(
+                    ex,
+                    "Auto save Estimate V2 workbook");
+            }
+        }
+
+        private void UpdateRuntimeWarning(
+            EstimateV2ReconcileResult result)
+        {
+            if (result == null ||
+                runtimeSettings == null ||
+                !runtimeSettings.WarnOnMappingLoss)
+            {
+                runtimeWarning =
+                    string.Empty;
+                return;
+            }
+
+            var parts =
+                new List<string>();
+            if (result.RecoveredCount > 0)
+            {
+                parts.Add(
+                    "phục hồi " +
+                    result.RecoveredCount +
+                    " ID");
+            }
+            if (result.DuplicateIdCount > 0)
+            {
+                parts.Add(
+                    "tách " +
+                    result.DuplicateIdCount +
+                    " ID trùng");
+            }
+            if (result.OrphanedCount > 0)
+            {
+                parts.Add(
+                    result.OrphanedCount +
+                    " dòng orphan");
+            }
+
+            runtimeWarning =
+                parts.Count == 0
+                    ? string.Empty
+                    : "Đồng bộ tự động: " +
+                      string.Join(
+                          ", ",
+                          parts) +
+                      ".";
         }
 
         internal void RefreshOverview()
@@ -396,6 +602,8 @@ namespace ExcelAddIn1.Winform
                 footerParts.Add(stateWarning);
             if (profileWarning.Length > 0)
                 footerParts.Add(profileWarning);
+            if (runtimeWarning.Length > 0)
+                footerParts.Add(runtimeWarning);
             footerText.Text =
                 string.Join(" ", footerParts);
         }
@@ -425,8 +633,37 @@ namespace ExcelAddIn1.Winform
                 Font = new Font("Segoe UI", 8.8f),
                 ForeColor = TextMuted
             };
+            var settingsButton = new Button
+            {
+                Size = new Size(34, 34),
+                FlatStyle = FlatStyle.Flat,
+                BackColor = Color.White,
+                ForeColor = TextMuted,
+                Image = EstimateUiIcons.Create(
+                    EstimateUiIconKind.Settings,
+                    21,
+                    GreenDark),
+                Cursor = Cursors.Hand,
+                Anchor = AnchorStyles.Top | AnchorStyles.Right,
+                TabStop = false
+            };
+            settingsButton.FlatAppearance.BorderSize = 0;
+            settingsButton.Click += (s, e) => ShowSettings();
+
             panel.Controls.Add(title);
             panel.Controls.Add(subtitle);
+            panel.Controls.Add(settingsButton);
+            panel.Resize += (s, e) =>
+            {
+                settingsButton.Location =
+                    new Point(
+                        panel.ClientSize.Width - 36,
+                        2);
+                subtitle.Width =
+                    Math.Max(
+                        150,
+                        panel.ClientSize.Width - 42);
+            };
             return panel;
         }
 
@@ -509,6 +746,25 @@ namespace ExcelAddIn1.Winform
             ShowChild(new EstimateCostSummaryPaneView(
                 workbook,
                 ShowOverview));
+        }
+
+        internal void ShowSettings()
+        {
+            ShowChild(new EstimateSettingsPaneView(
+                workbook,
+                ShowOverview,
+                ApplyRuntimeSettings));
+        }
+
+        private void ApplyRuntimeSettings(
+            EstimateV2Settings settings)
+        {
+            runtimeSettings =
+                EstimateV2SettingsPolicy.Normalize(
+                    settings);
+            ConfigureRuntimeBehavior(
+                runtimeSettings);
+            RefreshOverview();
         }
 
         private void ShowOverview()
@@ -1132,6 +1388,40 @@ namespace ExcelAddIn1.Winform
                 valueLabel.Text = value ?? string.Empty;
                 detailLabel.Text = detail ?? string.Empty;
             }
+        }
+
+        protected override void Dispose(
+            bool disposing)
+        {
+            if (disposing)
+            {
+                try
+                {
+                    workbook.SheetChange -=
+                        Workbook_SheetChange;
+                }
+                catch
+                {
+                }
+
+                if (autoSaveTimer != null)
+                {
+                    autoSaveTimer.Stop();
+                    autoSaveTimer.Tick -=
+                        AutoSaveTimer_Tick;
+                    autoSaveTimer.Dispose();
+                }
+
+                if (rowSyncTimer != null)
+                {
+                    rowSyncTimer.Stop();
+                    rowSyncTimer.Tick -=
+                        RowSyncTimer_Tick;
+                    rowSyncTimer.Dispose();
+                }
+            }
+
+            base.Dispose(disposing);
         }
 
         private class EstimateCardPanel : Panel
