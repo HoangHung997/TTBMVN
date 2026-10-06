@@ -43,7 +43,7 @@ namespace ExcelAddIn1.Funtion
         private const string GeneratedProperty = "TTBMVN.EstimateV2.ResourcePrices";
         private const string GeneratedVersion = "1";
         private const int VisibleLastColumn = 6; // A:F
-        private const int MetadataColumnCount = 9;
+        private const int MetadataColumnCount = 11;
 
         private static readonly string[] MetadataHeaders =
         {
@@ -55,7 +55,9 @@ namespace ExcelAddIn1.Funtion
             "__TTB_PARAM1",
             "__TTB_PARAM2",
             "__TTB_PARAM3",
-            "__TTB_PARAM4"
+            "__TTB_PARAM4",
+            "__TTB_PARAM5",
+            "__TTB_PARAM6"
         };
 
         public static WorkbookEstimateV2ResourceWriteResult Apply(
@@ -184,7 +186,7 @@ namespace ExcelAddIn1.Funtion
                 return new WorkbookEstimateV2ResourceWriteResult(
                     sheet.Name,
                     preview.Plan.Materials.Count,
-                    preview.Plan.Labor.Count,
+                    build.LaborCount,
                     preview.Plan.Machines.Count,
                     build.FormulaCount,
                     build.InputCount,
@@ -236,6 +238,39 @@ namespace ExcelAddIn1.Funtion
             int inputCount = 0;
             int missingInputCount = 0;
 
+            var machineDefinitions = new Dictionary<string, MachineRateDefinition>(
+                StringComparer.OrdinalIgnoreCase);
+            var laborRequirements = plan.Labor.ToList();
+            if (machineCatalog != null)
+            {
+                foreach (EstimateV2ResourceRequirement machine in plan.Machines)
+                {
+                    MachineRateDefinition definition = ResolveMachine(
+                        machineCatalog,
+                        machine.Code);
+                    machineDefinitions[machine.Code] = definition;
+                    foreach (MachineOperatorRequirement op in definition.Operators)
+                    {
+                        string normalized = NormalizeLaborCode(op.LaborCode);
+                        if (laborRequirements.Any(item => string.Equals(
+                            NormalizeLaborCode(item.Code),
+                            normalized,
+                            StringComparison.OrdinalIgnoreCase)))
+                            continue;
+
+                        laborRequirements.Add(new EstimateV2ResourceRequirement(
+                            NormResourceKind.Labor,
+                            normalized,
+                            "worker-day",
+                            true,
+                            false,
+                            1,
+                            Enumerable.Empty<string>(),
+                            new[] { packageIdentity }));
+                    }
+                }
+            }
+
             rows.Add(ResourceSheetRow.Title("CÁC PHỤ LỤC"));
             rows.Add(ResourceSheetRow.Title("GIÁ NHÂN CÔNG, CA MÁY VÀ VẬT LIỆU"));
             rows.Add(ResourceSheetRow.Section("I. GIÁ NHÂN CÔNG"));
@@ -254,7 +289,8 @@ namespace ExcelAddIn1.Funtion
             var namedCells = new List<NamedCell>();
 
             int laborIndex = 0;
-            foreach (EstimateV2ResourceRequirement labor in plan.Labor)
+            foreach (EstimateV2ResourceRequirement labor in laborRequirements
+                .OrderBy(item => item.Code, StringComparer.OrdinalIgnoreCase))
             {
                 laborIndex++;
                 int headerRow = rows.Count + 1;
@@ -402,9 +438,7 @@ namespace ExcelAddIn1.Funtion
                 if (machineCatalog == null)
                     throw new InvalidOperationException("Thieu MachineRateCatalog.");
 
-                MachineRateDefinition definition = ResolveMachine(
-                    machineCatalog,
-                    machine.Code);
+                MachineRateDefinition definition = machineDefinitions[machine.Code];
                 int headerRow = rows.Count + 1;
                 rows.Add(ResourceSheetRow.MachineHeader(
                     Roman(machineIndex),
@@ -447,6 +481,10 @@ namespace ExcelAddIn1.Funtion
                     formulaCount += 2;
                 }
 
+                decimal corrosionFactor = IsCorrosiveMachineContext(machine)
+                    ? MachineRateCalculator.CorrosiveEnvironmentFactor
+                    : 1m;
+
                 int repairRow = rows.Count + 1;
                 rows.Add(ResourceSheetRow.MachineDetail(
                     (repairRow - firstDetail + 1).ToString(CultureInfo.InvariantCulture),
@@ -454,15 +492,17 @@ namespace ExcelAddIn1.Funtion
                     "Ca",
                     1m,
                     "=IFERROR(" + HiddenParamReference(metadataStart, repairRow, 6) +
-                        "*" + HiddenParamReference(metadataStart, repairRow, 7) +
-                        "/100/" + HiddenParamReference(metadataStart, repairRow, 8) + ",0)",
+                        "*(" + HiddenParamReference(metadataStart, repairRow, 7) +
+                        "*" + HiddenParamReference(metadataStart, repairRow, 9) +
+                        ")/100/" + HiddenParamReference(metadataStart, repairRow, 8) + ",0)",
                     "=D" + repairRow + "*E" + repairRow,
                     machine.Code,
                     packageIdentity,
                     "REPAIR",
                     definition.ReferencePriceVnd,
                     definition.RepairPercent,
-                    definition.AnnualShifts));
+                    definition.AnnualShifts,
+                    corrosionFactor));
                 formulaCount += 2;
 
                 int depreciationRow = rows.Count + 1;
@@ -474,8 +514,9 @@ namespace ExcelAddIn1.Funtion
                     "=IFERROR((" + HiddenParamReference(metadataStart, depreciationRow, 6) +
                         "-(" + HiddenParamReference(metadataStart, depreciationRow, 6) +
                         "*" + HiddenParamReference(metadataStart, depreciationRow, 7) +
-                        "/100))*" + HiddenParamReference(metadataStart, depreciationRow, 8) +
-                        "/100/" + HiddenParamReference(metadataStart, depreciationRow, 9) + ",0)",
+                        "/100))*(" + HiddenParamReference(metadataStart, depreciationRow, 8) +
+                        "*" + HiddenParamReference(metadataStart, depreciationRow, 10) +
+                        ")/100/" + HiddenParamReference(metadataStart, depreciationRow, 9) + ",0)",
                     "=D" + depreciationRow + "*E" + depreciationRow,
                     machine.Code,
                     packageIdentity,
@@ -483,7 +524,8 @@ namespace ExcelAddIn1.Funtion
                     definition.ReferencePriceVnd,
                     definition.ReferenceRecoverableValuePercent,
                     definition.DepreciationPercent,
-                    definition.AnnualShifts));
+                    definition.AnnualShifts,
+                    corrosionFactor));
                 formulaCount += 2;
 
                 int otherRow = rows.Count + 1;
@@ -508,9 +550,8 @@ namespace ExcelAddIn1.Funtion
                 {
                     int row = rows.Count + 1;
                     EstimateV2ResourceRequirement labor = FindLaborForOperator(
-                        plan,
-                        op.LaborCode,
-                        profile);
+                        laborRequirements,
+                        op.LaborCode);
                     string laborPriceName = EstimateV2ExcelNames.ResourcePrice(
                         NormResourceKind.Labor,
                         labor.Code,
@@ -619,7 +660,8 @@ namespace ExcelAddIn1.Funtion
                 fuelInputs.Values,
                 formulaCount,
                 inputCount,
-                missingInputCount);
+                missingInputCount,
+                laborRequirements.Count);
         }
 
         private static PreservedInputs CapturePreservedInputs(
@@ -778,31 +820,32 @@ namespace ExcelAddIn1.Funtion
         }
 
         private static EstimateV2ResourceRequirement FindLaborForOperator(
-            EstimateV2ResourcePlan plan,
-            string operatorCode,
-            PriceProfile profile)
+            IEnumerable<EstimateV2ResourceRequirement> laborRequirements,
+            string operatorCode)
         {
             string normalized = NormalizeLaborCode(operatorCode);
-            EstimateV2ResourceRequirement match = plan.Labor.FirstOrDefault(item =>
-                string.Equals(
+            EstimateV2ResourceRequirement match =
+                (laborRequirements ?? Enumerable.Empty<EstimateV2ResourceRequirement>())
+                .FirstOrDefault(item => string.Equals(
                     NormalizeLaborCode(item.Code),
                     normalized,
                     StringComparison.OrdinalIgnoreCase));
-            if (match != null)
-                return match;
+            if (match == null)
+            {
+                throw new InvalidOperationException(
+                    "Chua tao gia nhan cong dieu khien may: " + operatorCode + ".");
+            }
+            return match;
+        }
 
-            // May dieu khien co the can mot bac NC khong xuat hien truc tiep trong dinh muc.
-            // Tao requirement ao de writer van sinh/yeu cau input gia NC.
-            string unit = "worker-day";
-            return new EstimateV2ResourceRequirement(
-                NormResourceKind.Labor,
-                normalized,
-                unit,
-                true,
-                false,
-                1,
-                Enumerable.Empty<string>(),
-                plan.Resources.SelectMany(item => item.PackageIdentities));
+        private static bool IsCorrosiveMachineContext(
+            EstimateV2ResourceRequirement machine)
+        {
+            if (machine == null)
+                return false;
+            return machine.NormKeys.Any(key =>
+                key.StartsWith("NORM-030.", StringComparison.OrdinalIgnoreCase) ||
+                key.StartsWith("NORM-040.", StringComparison.OrdinalIgnoreCase));
         }
 
         private static string NormalizeLaborCode(string code)
@@ -811,7 +854,12 @@ namespace ExcelAddIn1.Funtion
             if (value.StartsWith("LAB-", StringComparison.OrdinalIgnoreCase))
                 return value.ToUpperInvariant();
             if (value.StartsWith("bac-", StringComparison.OrdinalIgnoreCase))
-                return "LAB-QNCN-" + value.Substring(4).Replace("-", "/");
+            {
+                string[] parts = value.Substring(4)
+                    .Split(new[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 1)
+                    return "LAB-QNCN-" + parts[0].ToUpperInvariant();
+            }
             return value.ToUpperInvariant();
         }
 
@@ -1013,6 +1061,8 @@ namespace ExcelAddIn1.Funtion
                 matrix[index, meta + 6] = row.Param2;
                 matrix[index, meta + 7] = row.Param3;
                 matrix[index, meta + 8] = row.Param4;
+                matrix[index, meta + 9] = row.Param5;
+                matrix[index, meta + 10] = row.Param6;
             }
 
             foreach (FuelInputDefinition fuel in build.FuelInputs)
@@ -1478,7 +1528,8 @@ namespace ExcelAddIn1.Funtion
                 IEnumerable<FuelInputDefinition> fuelInputs,
                 int formulaCount,
                 int inputCount,
-                int missingInputCount)
+                int missingInputCount,
+                int laborCount)
             {
                 Rows = rows;
                 LastRow = lastRow;
@@ -1488,6 +1539,7 @@ namespace ExcelAddIn1.Funtion
                 FormulaCount = formulaCount;
                 InputCount = inputCount;
                 MissingInputCount = missingInputCount;
+                LaborCount = laborCount;
             }
 
             internal IList<ResourceSheetRow> Rows { get; }
@@ -1498,6 +1550,7 @@ namespace ExcelAddIn1.Funtion
             internal int FormulaCount { get; }
             internal int InputCount { get; }
             internal int MissingInputCount { get; }
+            internal int LaborCount { get; }
         }
 
         private sealed class ResourceSheetRow
@@ -1512,7 +1565,9 @@ namespace ExcelAddIn1.Funtion
                 object param1,
                 object param2,
                 object param3,
-                object param4)
+                object param4,
+                object param5,
+                object param6)
             {
                 RowType = rowType ?? string.Empty;
                 Cells = cells ?? new object[VisibleLastColumn];
@@ -1524,6 +1579,8 @@ namespace ExcelAddIn1.Funtion
                 Param2 = param2;
                 Param3 = param3;
                 Param4 = param4;
+                Param5 = param5;
+                Param6 = param6;
             }
 
             internal string RowType { get; }
@@ -1536,6 +1593,8 @@ namespace ExcelAddIn1.Funtion
             internal object Param2 { get; }
             internal object Param3 { get; }
             internal object Param4 { get; }
+            internal object Param5 { get; }
+            internal object Param6 { get; }
 
             internal static ResourceSheetRow Title(string text)
             {
@@ -1560,7 +1619,7 @@ namespace ExcelAddIn1.Funtion
                      index++)
                     cells[index] = values[index];
                 return new ResourceSheetRow(
-                    "HEADER", cells, "", "", "", "", null, null, null, null);
+                    "HEADER", cells, "", "", "", "", null, null, null, null, null, null);
             }
 
             internal static ResourceSheetRow LaborHeader(
@@ -1579,6 +1638,8 @@ namespace ExcelAddIn1.Funtion
                     "Labor",
                     packageIdentity,
                     "",
+                    null,
+                    null,
                     null,
                     null,
                     null,
@@ -1613,6 +1674,8 @@ namespace ExcelAddIn1.Funtion
                     null,
                     null,
                     null,
+                    null,
+                    null,
                     null);
             }
 
@@ -1644,6 +1707,8 @@ namespace ExcelAddIn1.Funtion
                     null,
                     null,
                     null,
+                    null,
+                    null,
                     null);
             }
 
@@ -1663,6 +1728,8 @@ namespace ExcelAddIn1.Funtion
                     "Machine",
                     packageIdentity,
                     "",
+                    null,
+                    null,
                     null,
                     null,
                     null,
@@ -1692,6 +1759,8 @@ namespace ExcelAddIn1.Funtion
                 object p2 = parameters.Length > 1 ? parameters[1] : null;
                 object p3 = parameters.Length > 2 ? parameters[2] : null;
                 object p4 = parameters.Length > 3 ? parameters[3] : null;
+                object p5 = parameters.Length > 4 ? parameters[4] : null;
+                object p6 = parameters.Length > 5 ? parameters[5] : null;
                 return new ResourceSheetRow(
                     "MACHINE_DETAIL",
                     cells,
@@ -1702,7 +1771,9 @@ namespace ExcelAddIn1.Funtion
                     p1,
                     p2,
                     p3,
-                    p4);
+                    p4,
+                    p5,
+                    p6);
             }
 
             internal static ResourceSheetRow MaterialInput(
@@ -1732,6 +1803,8 @@ namespace ExcelAddIn1.Funtion
                     null,
                     null,
                     null,
+                    null,
+                    null,
                     null);
             }
 
@@ -1740,7 +1813,7 @@ namespace ExcelAddIn1.Funtion
                 var cells = new object[VisibleLastColumn];
                 cells[0] = text;
                 return new ResourceSheetRow(
-                    type, cells, "", "", "", "", null, null, null, null);
+                    type, cells, "", "", "", "", null, null, null, null, null, null);
             }
         }
 
