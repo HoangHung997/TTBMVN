@@ -816,6 +816,7 @@ namespace ExcelAddIn1.Funtion
             Excel.Range subtitle = null;
             Excel.Range header = null;
             Excel.Range direct = null;
+            Excel.Range body = null;
             Excel.Range note = null;
             try
             {
@@ -854,11 +855,10 @@ namespace ExcelAddIn1.Funtion
                 direct.Interior.Color =
                     ColorRgb(242, 248, 231);
 
-                sheet.Range["A5", "G9"]
-                    .Borders.LineStyle =
+                body = sheet.Range["A5", "G9"];
+                body.Borders.LineStyle =
                     Excel.XlLineStyle.xlContinuous;
-                sheet.Range["A5", "G9"]
-                    .Borders.Weight =
+                body.Borders.Weight =
                     Excel.XlBorderWeight.xlThin;
 
                 note = sheet.Range["B11", "G11"];
@@ -877,6 +877,8 @@ namespace ExcelAddIn1.Funtion
             {
                 WorkbookEstimateV2CostLinkService
                     .Release(note);
+                WorkbookEstimateV2CostLinkService
+                    .Release(body);
                 WorkbookEstimateV2CostLinkService
                     .Release(direct);
                 WorkbookEstimateV2CostLinkService
