@@ -113,13 +113,6 @@ namespace ExcelAddIn1.Funtion
             MachineRateCatalog machineCatalog = null;
             if (preview.Plan.Machines.Count > 0)
             {
-                if (profile == null)
-                {
-                    throw new InvalidOperationException(
-                        "Can xac dinh doi tuong luong (HLNS/KHLNS) truoc khi sinh gia ca may. " +
-                        "Hay tao/chon mot ho so gia hoac chon doi tuong luong trong Thiet lap.");
-                }
-
                 RegulationDataModule machineModule;
                 if (!bundle.Modules.TryGetValue(
                     RegulationModuleKind.MachineRate,
@@ -128,9 +121,16 @@ namespace ExcelAddIn1.Funtion
                     throw new InvalidOperationException(
                         "Package dang dung khong co module MachineRate.");
                 }
+
+                // V2 mac dinh theo luong KHLNS neu workbook chua co ho so gia.
+                // Day chi chon bo thong so NC dieu khien may de co the sinh bang;
+                // gia NC/nhien lieu van la input trong Excel va khong bi ghi so chet.
+                MachineRateAudience audience = profile != null
+                    ? profile.LaborAudience
+                    : MachineRateAudience.NonStateSalary;
                 machineCatalog = MachineRateCatalog.Load(
                     machineModule,
-                    profile.LaborAudience);
+                    audience);
             }
 
             Excel.Worksheet sheet = null;
@@ -213,10 +213,19 @@ namespace ExcelAddIn1.Funtion
             if (portfolio.Profiles.Count == 1)
                 return portfolio.Profiles[0];
 
-            // Khong tu y doan khi workbook co dong thoi HLNS va KHLNS.
-            throw new InvalidOperationException(
-                "Workbook co nhieu ho so gia HLNS/KHLNS. " +
-                "Hay chon doi tuong luong trong Thiet lap truoc khi sinh VL-NC-M.");
+            // UI Thiet lap doi tuong luong se duoc hoan thien o task settings.
+            // V2 hien tai uu tien KHLNS vi day la mau su dung chinh; khong chan
+            // viec sinh VL-NC-M chi vi workbook dang luu ca hai profile.
+            PriceProfile preferred;
+            if (portfolio.TryGet(
+                MachineRateAudience.NonStateSalary,
+                out preferred))
+            {
+                return preferred;
+            }
+            return portfolio.Profiles
+                .OrderBy(item => item.LaborAudience)
+                .First();
         }
 
         private static ResourceSheetBuild BuildSheet(
