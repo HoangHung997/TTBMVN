@@ -176,6 +176,13 @@ namespace ExcelAddIn1.Funtion
             if (workbook == null)
                 throw new ArgumentNullException(nameof(workbook));
 
+            Excel.Worksheet generated =
+                FindGeneratedRateSheet(
+                    workbook,
+                    kind);
+            if (generated != null)
+                return generated;
+
             Excel.Worksheet exact =
                 FindWorksheetByNames(
                     workbook,
@@ -1166,6 +1173,126 @@ namespace ExcelAddIn1.Funtion
                         .CostSummary;
                 default:
                     return EstimateV2LegacySheetKind.Unknown;
+            }
+        }
+
+        private static Excel.Worksheet FindGeneratedRateSheet(
+            Excel.Workbook workbook,
+            EstimateV2LegacySheetKind kind)
+        {
+            string expectedEnvironment;
+            switch (kind)
+            {
+                case EstimateV2LegacySheetKind.UnitRateLand:
+                    expectedEnvironment =
+                        EstimateV2RateEnvironment.Land.ToString();
+                    break;
+                case EstimateV2LegacySheetKind.UnitRateWater:
+                    expectedEnvironment =
+                        EstimateV2RateEnvironment.InlandWater.ToString();
+                    break;
+                case EstimateV2LegacySheetKind.UnitRateSea:
+                    expectedEnvironment =
+                        EstimateV2RateEnvironment.Sea.ToString();
+                    break;
+                default:
+                    return null;
+            }
+
+            Excel.Sheets sheets = null;
+            Excel.Worksheet match = null;
+            try
+            {
+                sheets = workbook.Worksheets;
+                for (int index = 1;
+                    index <= sheets.Count;
+                    index++)
+                {
+                    Excel.Worksheet sheet = null;
+                    try
+                    {
+                        sheet = sheets.Item[index]
+                            as Excel.Worksheet;
+                        if (sheet == null)
+                            continue;
+
+                        string environment =
+                            ReadWorksheetProperty(
+                                sheet,
+                                "TTBMVN.EstimateV2.UnitRateEnvironment");
+                        if (!string.Equals(
+                            environment,
+                            expectedEnvironment,
+                            StringComparison.OrdinalIgnoreCase))
+                        {
+                            continue;
+                        }
+
+                        if (match != null)
+                        {
+                            Release(sheet);
+                            sheet = null;
+                            Release(match);
+                            return null;
+                        }
+
+                        match = sheet;
+                        sheet = null;
+                    }
+                    finally
+                    {
+                        Release(sheet);
+                    }
+                }
+
+                Excel.Worksheet result = match;
+                match = null;
+                return result;
+            }
+            finally
+            {
+                Release(match);
+                Release(sheets);
+            }
+        }
+
+        private static string ReadWorksheetProperty(
+            Excel.Worksheet sheet,
+            string name)
+        {
+            Excel.CustomProperties properties = null;
+            try
+            {
+                properties = sheet.CustomProperties;
+                for (int index = 1;
+                    index <= properties.Count;
+                    index++)
+                {
+                    Excel.CustomProperty property = null;
+                    try
+                    {
+                        property = properties.Item[index];
+                        if (string.Equals(
+                            property.Name,
+                            name,
+                            StringComparison.OrdinalIgnoreCase))
+                        {
+                            return Convert.ToString(
+                                property.Value,
+                                CultureInfo.InvariantCulture) ??
+                                string.Empty;
+                        }
+                    }
+                    finally
+                    {
+                        Release(property);
+                    }
+                }
+                return string.Empty;
+            }
+            finally
+            {
+                Release(properties);
             }
         }
 
