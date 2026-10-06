@@ -151,7 +151,11 @@ namespace ExcelAddIn1.Winform
                 "Gắn định mức",
                 "Gắn định mức cho các công tác.",
                 ShowNormBinding);
-            AddStep(stepsPanel, "VL-NC-M", "Kiểm tra, cập nhật giá vật liệu, nhân công, máy thi công.", null);
+            AddStep(
+                stepsPanel,
+                "VL-NC-M",
+                "Kiểm tra, cập nhật giá vật liệu, nhân công, máy thi công.",
+                ShowResources);
             AddStep(stepsPanel, "DG Cạn", "Tính đơn giá cho điều kiện thi công trên cạn.", null);
             AddStep(stepsPanel, "DG Nước", "Tính đơn giá cho điều kiện thi công dưới nước.", null);
             AddStep(stepsPanel, "THKP-TC & Kiểm tra", "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.", null);
@@ -331,6 +335,13 @@ namespace ExcelAddIn1.Winform
         private void ShowNormBinding()
         {
             ShowChild(new EstimateNormBindingPaneView(
+                workbook,
+                ShowOverview));
+        }
+
+        private void ShowResources()
+        {
+            ShowChild(new EstimateResourcesPaneView(
                 workbook,
                 ShowOverview));
         }
