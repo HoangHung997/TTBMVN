@@ -233,7 +233,8 @@ namespace ExcelAddIn1.Funtion
                     rate.UsageCount.ToString(CultureInfo.InvariantCulture) +
                     " công tác",
                     rate));
-                rows.Add(RateSheetRow.Header(rate));
+                rows.Add(RateSheetRow.HeaderTop(rate));
+                rows.Add(RateSheetRow.HeaderBottom(rate));
 
                 int materialTotalRow = WriteResourceSection(
                     workbook,
@@ -988,7 +989,15 @@ namespace ExcelAddIn1.Funtion
                             case "WORK_UNIT":
                                 rowRange.Merge();
                                 break;
-                            case "HEADER":
+                            case "HEADER_TOP":
+                                rowRange.Font.Bold = true;
+                                rowRange.HorizontalAlignment =
+                                    Excel.XlHAlign.xlHAlignCenter;
+                                rowRange.Interior.Color =
+                                    ColorRgb(226, 239, 218);
+                                FormatHeaderPair(sheet, row);
+                                break;
+                            case "HEADER_BOTTOM":
                                 rowRange.Font.Bold = true;
                                 rowRange.HorizontalAlignment =
                                     Excel.XlHAlign.xlHAlignCenter;
@@ -1034,6 +1043,42 @@ namespace ExcelAddIn1.Funtion
             finally
             {
                 Release(visible);
+            }
+        }
+
+        private static void FormatHeaderPair(
+            Excel.Worksheet sheet,
+            int topRow)
+        {
+            Excel.Range range = null;
+            try
+            {
+                for (int column = 1; column <= 5; column++)
+                {
+                    range = sheet.Range[
+                        sheet.Cells[topRow, column],
+                        sheet.Cells[topRow + 1, column]];
+                    range.Merge();
+                    range.HorizontalAlignment =
+                        Excel.XlHAlign.xlHAlignCenter;
+                    range.VerticalAlignment =
+                        Excel.XlVAlign.xlVAlignCenter;
+                    Release(range);
+                    range = null;
+                }
+
+                range = sheet.Range[
+                    sheet.Cells[topRow, 6],
+                    sheet.Cells[topRow, 8]];
+                range.Merge();
+                range.HorizontalAlignment =
+                    Excel.XlHAlign.xlHAlignCenter;
+                range.VerticalAlignment =
+                    Excel.XlVAlign.xlVAlignCenter;
+            }
+            finally
+            {
+                Release(range);
             }
         }
 
@@ -1203,9 +1248,9 @@ namespace ExcelAddIn1.Funtion
                 case EstimateV2RateEnvironment.Land:
                     return "PHỤ LỤC CHI TIẾT ĐƠN GIÁ TRÊN CẠN";
                 case EstimateV2RateEnvironment.InlandWater:
-                    return "PHỤ LỤC CHI TIẾT ĐƠN GIÁ DƯỚI NƯỚC";
+                    return "ĐƠN GIÁ DƯỚI NƯỚC";
                 case EstimateV2RateEnvironment.Sea:
-                    return "PHỤ LỤC CHI TIẾT ĐƠN GIÁ TRÊN BIỂN";
+                    return "ĐƠN GIÁ TRÊN BIỂN";
                 default:
                     throw new ArgumentOutOfRangeException(nameof(environment));
             }
@@ -1388,18 +1433,37 @@ namespace ExcelAddIn1.Funtion
                     rate);
             }
 
-            internal static RateSheetRow Header(
+            internal static RateSheetRow HeaderTop(
                 EstimateV2RateItem rate)
             {
                 return new RateSheetRow(
-                    "HEADER",
+                    "HEADER_TOP",
                     new object[]
                     {
                         "STT",
                         "Thành phần hao phí",
-                        "Đơn vị tính",
+                        "Đơn vị\ntính",
                         "Số lượng",
                         "Đơn giá\n(đồng)",
+                        "Thành tiền (đồng)",
+                        null,
+                        null
+                    },
+                    rate);
+            }
+
+            internal static RateSheetRow HeaderBottom(
+                EstimateV2RateItem rate)
+            {
+                return new RateSheetRow(
+                    "HEADER_BOTTOM",
+                    new object[]
+                    {
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
                         "Vật liệu",
                         "Nhân công",
                         "Máy"
