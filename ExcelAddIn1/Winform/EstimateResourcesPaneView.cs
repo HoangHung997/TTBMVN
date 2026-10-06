@@ -310,9 +310,9 @@ namespace ExcelAddIn1.Winform
                 if (!item.RequiresUnitPrice)
                     continue;
 
-                PriceProfileEntry entry;
+                PriceProfilePrice price;
                 bool hasPrice = previewProfile != null &&
-                    previewProfile.TryFind(item.Code, out entry);
+                    previewProfile.TryFind(item.Code, out price);
                 if (hasPrice)
                     continue;
 
@@ -356,9 +356,9 @@ namespace ExcelAddIn1.Winform
 
         private string ResolveName(string code)
         {
-            PriceProfileEntry entry;
-            if (previewProfile != null && previewProfile.TryFind(code, out entry))
-                return entry.DisplayName;
+            PriceProfilePrice price;
+            if (previewProfile != null && previewProfile.TryFind(code, out price))
+                return price.Entry.DisplayName;
             return code;
         }
 
@@ -370,12 +370,12 @@ namespace ExcelAddIn1.Winform
             int priced = 0;
             foreach (EstimateV2ResourceRequirement item in items)
             {
-                PriceProfileEntry entry;
+                PriceProfilePrice price;
                 if (previewProfile != null &&
                     item.RequiresUnitPrice &&
-                    previewProfile.TryFind(item.Code, out entry))
+                    previewProfile.TryFind(item.Code, out price))
                 {
-                    total += entry.AppliedUnitPriceVnd;
+                    total += price.AppliedUnitPriceVnd;
                     priced++;
                 }
             }
