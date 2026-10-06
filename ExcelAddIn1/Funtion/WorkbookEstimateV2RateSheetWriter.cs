@@ -1055,9 +1055,11 @@ namespace ExcelAddIn1.Funtion
             {
                 for (int column = 1; column <= 5; column++)
                 {
+                    string letter =
+                        ExcelColumnAddress.ToLetters(column);
                     range = sheet.Range[
-                        sheet.Cells[topRow, column],
-                        sheet.Cells[topRow + 1, column]];
+                        letter + topRow.ToString(CultureInfo.InvariantCulture),
+                        letter + (topRow + 1).ToString(CultureInfo.InvariantCulture)];
                     range.Merge();
                     range.HorizontalAlignment =
                         Excel.XlHAlign.xlHAlignCenter;
@@ -1068,8 +1070,8 @@ namespace ExcelAddIn1.Funtion
                 }
 
                 range = sheet.Range[
-                    sheet.Cells[topRow, 6],
-                    sheet.Cells[topRow, 8]];
+                    "F" + topRow.ToString(CultureInfo.InvariantCulture),
+                    "H" + topRow.ToString(CultureInfo.InvariantCulture)];
                 range.Merge();
                 range.HorizontalAlignment =
                     Excel.XlHAlign.xlHAlignCenter;
