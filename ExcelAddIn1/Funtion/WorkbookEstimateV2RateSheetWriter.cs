@@ -274,6 +274,12 @@ namespace ExcelAddIn1.Funtion
                     "=SUM(H" + machineTotalRow + ":H" + machineTotalRow + ")"));
                 formulaCount += 3;
 
+                int grandTotalRow = rows.Count + 1;
+                rows.Add(RateSheetRow.GrandTotal(
+                    rate,
+                    "=SUM(F" + totalRow + ":H" + totalRow + ")"));
+                formulaCount++;
+
                 namedCells.Add(new NamedCell(
                     EstimateV2ExcelNames.RateComponent(rate.RateId, "VL"),
                     totalRow,
@@ -285,6 +291,10 @@ namespace ExcelAddIn1.Funtion
                 namedCells.Add(new NamedCell(
                     EstimateV2ExcelNames.RateComponent(rate.RateId, "M"),
                     totalRow,
+                    8));
+                namedCells.Add(new NamedCell(
+                    EstimateV2ExcelNames.RateComponent(rate.RateId, "TOTAL"),
+                    grandTotalRow,
                     8));
 
                 rows.Add(RateSheetRow.Blank());
@@ -744,6 +754,9 @@ namespace ExcelAddIn1.Funtion
                 DeleteName(
                     workbook,
                     EstimateV2ExcelNames.RateComponent(rateId, "M"));
+                DeleteName(
+                    workbook,
+                    EstimateV2ExcelNames.RateComponent(rateId, "TOTAL"));
             }
         }
 
@@ -992,6 +1005,11 @@ namespace ExcelAddIn1.Funtion
                                 rowRange.Font.Bold = true;
                                 rowRange.Interior.Color =
                                     ColorRgb(255, 248, 204);
+                                break;
+                            case "GRAND_TOTAL":
+                                rowRange.Font.Bold = true;
+                                rowRange.Interior.Color =
+                                    ColorRgb(226, 239, 218);
                                 break;
                             case "BLANK":
                                 rowRange.Borders.LineStyle =
@@ -1458,6 +1476,19 @@ namespace ExcelAddIn1.Funtion
                 cells[7] = machineFormula;
                 return new RateSheetRow(
                     "TOTAL",
+                    cells,
+                    rate);
+            }
+
+            internal static RateSheetRow GrandTotal(
+                EstimateV2RateItem rate,
+                string totalFormula)
+            {
+                var cells = new object[VisibleLastColumn];
+                cells[1] = "Tổng cộng đơn giá";
+                cells[7] = totalFormula;
+                return new RateSheetRow(
+                    "GRAND_TOTAL",
                     cells,
                     rate);
             }
