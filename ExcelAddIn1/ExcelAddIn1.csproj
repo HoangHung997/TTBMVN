@@ -258,6 +258,7 @@
     <Compile Include="Funtion\WorkbookEstimateV2StateService.cs" />
     <Compile Include="Funtion\WorkbookEstimateV2RegistrationService.cs" />
     <Compile Include="Funtion\WorkbookEstimateV2ResourceService.cs" />
+    <Compile Include="Funtion\WorkbookEstimateV2ResourceSheetWriter.cs" />
     <Compile Include="Funtion\WorkbookEstimateCalculationService.cs" />
     <Compile Include="Funtion\WorkbookGeneratedEstimateWriter.cs" />
     <Compile Include="Funtion\WorkbookEstimateAppendixWriter.cs" />
