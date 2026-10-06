@@ -273,12 +273,15 @@ namespace ExcelAddIn1.Funtion
                 new Dictionary<string, FormulaCell>(
                     StringComparer.OrdinalIgnoreCase);
 
+            string resourceWorksheetName =
+                ResolveResourcePriceName(workbook);
             AddBindingFindings(
                 plan,
                 generatedByRate,
                 ratePreviews,
                 warningWorkItems,
-                findings);
+                findings,
+                resourceWorksheetName);
 
             int missingPriceWorkItems =
                 plan.Links.Count(link =>
@@ -706,7 +709,8 @@ namespace ExcelAddIn1.Funtion
             IReadOnlyDictionary<string, bool> generatedByRate,
             IReadOnlyDictionary<string, WorkbookEstimateV2RateItemPreview> ratePreviews,
             ISet<string> warningWorkItems,
-            ICollection<EstimateV2ValidationFinding> findings)
+            ICollection<EstimateV2ValidationFinding> findings,
+            string resourceWorksheetName)
         {
             string[] unbound = plan.Links
                 .Where(item =>
@@ -805,7 +809,7 @@ namespace ExcelAddIn1.Funtion
                         " công tác bị ảnh hưởng. Cập nhật giá VL/NC/M trước khi xuất hồ sơ.",
                     EstimateV2CostIssueSeverity.Warning,
                     missingPrice,
-                    "VL-NC-M"));
+                    resourceWorksheetName));
             }
 
             string[] condition = plan.Links
@@ -1159,7 +1163,8 @@ namespace ExcelAddIn1.Funtion
                                         resource.Kind +
                                         " không còn tồn tại trong VL-NC-M.",
                                     EstimateV2CostIssueSeverity.Error,
-                                    worksheetName: "VL-NC-M",
+                                    worksheetName:
+                                        ResolveResourcePriceName(workbook),
                                     recoverable: true));
                             continue;
                         }
@@ -1754,6 +1759,28 @@ namespace ExcelAddIn1.Funtion
             }
 
             Release(sheet);
+        }
+
+        private static string ResolveResourcePriceName(
+            Excel.Workbook workbook)
+        {
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            WorksheetRole.ResourcePrices,
+                            "VL-NC-M");
+                return sheet == null
+                    ? "VL-NC-M"
+                    : sheet.Name;
+            }
+            finally
+            {
+                Release(sheet);
+            }
         }
 
         private static string ResolveCostSummaryName(
