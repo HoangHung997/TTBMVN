@@ -31,6 +31,7 @@ namespace ExcelAddIn1
             });
 
             SheetChangeCoordinator = new WorkbookSheetChangeCoordinator(Application);
+            Application.WorkbookBeforeClose += Application_WorkbookBeforeClose;
 
         }
 
@@ -38,8 +39,22 @@ namespace ExcelAddIn1
 
 
 
+        private void Application_WorkbookBeforeClose(Excel.Workbook workbook, ref bool cancel)
+        {
+            if (!cancel)
+                ExcelAddIn1.Winform.EstimateTaskPaneManager.CloseForWorkbook(workbook);
+        }
+
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
+            try
+            {
+                Application.WorkbookBeforeClose -= Application_WorkbookBeforeClose;
+            }
+            catch
+            {
+            }
+            ExcelAddIn1.Winform.EstimateTaskPaneManager.CloseAll();
             SheetChangeCoordinator?.Dispose();
             SheetChangeCoordinator = null;
         }
