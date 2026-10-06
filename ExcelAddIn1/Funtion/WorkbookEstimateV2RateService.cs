@@ -251,6 +251,23 @@ namespace ExcelAddIn1.Funtion
             return TryReadNamedDecimal(workbook, name, out value);
         }
 
+        public static bool TryReadRateComponent(
+            Excel.Workbook workbook,
+            string rateId,
+            string component,
+            out decimal value)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+
+            return TryReadNamedDecimal(
+                workbook,
+                EstimateV2ExcelNames.RateComponent(
+                    rateId,
+                    component),
+                out value);
+        }
+
         public static bool IsGenerated(
             Excel.Workbook workbook,
             string rateId)
