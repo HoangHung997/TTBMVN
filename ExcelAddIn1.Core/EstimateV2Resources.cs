@@ -51,7 +51,7 @@ namespace ExcelAddIn1.Core
 
     public sealed class EstimateV2ResourcePlan
     {
-        internal EstimateV2ResourcePlan(
+        public EstimateV2ResourcePlan(
             IEnumerable<EstimateV2ResourceRequirement> resources,
             int boundWorkItemCount,
             int uniqueNormBindingCount)
