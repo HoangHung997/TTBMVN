@@ -189,6 +189,17 @@ namespace ExcelAddIn1.Funtion
                     build.MetadataStartColumn + MetadataColumnCount - 1);
                 ConfigurePrintLayout(sheet, build);
 
+                WorkbookEstimateV2CompatibilityService
+                    .NormalizeOutputSheetName(
+                        workbook,
+                        sheet,
+                        SheetName);
+                WorkbookEstimateV2CompatibilityService
+                    .HideSupersededLegacyOutputs(
+                        workbook,
+                        EstimateV2LegacySheetKind.ResourcePrices,
+                        sheet.CodeName);
+
                 return new WorkbookEstimateV2ResourceWriteResult(
                     sheet.Name,
                     pricePlan.Materials.Count,
