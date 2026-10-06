@@ -15,7 +15,7 @@
 | V2-301 | Sinh DG Cạn / DG Nước / DG Biển | DONE - implementation / runtime pending |
 | V2-401 | Link Gia DT TC + THKP-TC | DONE - implementation / runtime pending |
 | V2-501 | Validation / phục hồi / phát hiện lỗi | DONE - implementation / runtime pending |
-| V2-601 | Tương thích file cũ và migration | NEXT |
+| V2-601 | Tương thích file cũ và migration | DONE - implementation / runtime pending |
 
 ---
 
@@ -2869,12 +2869,419 @@ V2-501 dừng ở đây. Task kế tiếp là **V2-601 — Tương thích file c
 
 ### V2-601 — Migration / compatibility
 
-- 1/2/3 khu vực;
-- VT/DN;
-- file cũ;
-- đổi tên sheet;
-- package cũ/missing;
-- workbook mở được khi add-in không cài.
+**Trạng thái:** DONE - implementation / runtime pending
+
+#### UI đã đối chiếu lại
+
+Đã đọc bộ chuẩn trong:
+
+- `/mnt/data/chuan_UI`
+- đặc biệt `01-Tong-quan.png`, `02-Cong-tac.png`, `08-Thiet-lap-chung.png` và `du-toan-v2-ui-spec.md`.
+
+V2-601 **không tạo thêm wizard/modal migration**. Luồng giữ đúng thiết kế đã chốt:
+
+```text
+Bấm Dự toán
+  -> Tổng quan mở ngay
+  -> vào Công tác
+       -> kiểm tra/migration legacy on-demand
+       -> nếu không chắc VT/DN/bản copy thì không tự chọn
+```
+
+Không đưa package scan/converter nặng trở lại startup gate.
+
+#### Đối chiếu hai workbook mẫu thực tế
+
+Đã kiểm tra cấu trúc workbook:
+
+- `/mnt/data/Du toan RPBM HoaLuNamDinh_Ver1.xlsx`
+- `/mnt/data/Du toan RPBM Pleiku_TP2_QuyNhon_Ver7.2.xlsx`
+
+Mẫu Hoa Lư/Nam Định có:
+
+- `THKP-TC`;
+- `Gia DT TC`;
+- `DG Can`;
+- `DG Nuoc`;
+- `VL-NC-M`;
+- thêm một số tab/copy legacy như `VL-NC-M_VT`;
+- khu vực 1/2... nằm **trong các dòng nhóm của cùng bảng công tác**, không cần kiến trúc sheet riêng cho mỗi khu vực.
+
+Mẫu Pleiku/Quy Nhơn có các alias/copy legacy:
+
+- `Gia DT TC_DN`;
+- `DG Can_VT`;
+- `DG Nuoc_VT`;
+- `DG Can_DN`;
+- `DG Nuoc_DN`;
+- `VL-NC-M_VT`;
+- `VL-NC-M_DN`;
+- `THKP-TC (2)`.
+
+Đây là bằng chứng thực tế để V2-601 xử lý VT/DN và copy cũ theo nguyên tắc **không đoán khi có nhiều lựa chọn**.
+
+#### Core compatibility rules
+
+Đã thêm:
+
+- `ExcelAddIn1.Core/EstimateV2Compatibility.cs`
+
+Có classifier cho:
+
+- `EstimateAppendix`;
+- `CostSummary`;
+- `ResourcePrices`;
+- `UnitRateLand`;
+- `UnitRateWater`;
+- `UnitRateSea`.
+
+Tên sheet được normalize bỏ dấu/ký tự phân cách để nhận các dạng:
+
+```text
+Gia DT TC
+Gia DT TC_DN
+THKP-TC
+THKP-TC (2)
+DG Can / DG Cạn
+DG Can_VT / DG Can_DN
+DG Nuoc / DG Nước
+DG Nuoc_VT / DG Nuoc_DN
+DG Bien / DG Biển
+VL-NC-M
+VL-NC-M_VT / VL-NC-M_DN
+```
+
+Classifier còn tách hint:
+
+- VT / hưởng lương ngân sách;
+- DN / không hưởng lương ngân sách/doanh nghiệp.
+
+#### Không tự nhận text định mức legacy thành binding pháp lý
+
+Đã sửa một lỗi logic quan trọng trong:
+
+- `WorkbookEstimateV2StateService.Reconcile(...)`
+
+Trước đây khi state chưa có binding, reconcile có thể lấy trực tiếp text ở ô `Định mức` đang hiển thị để điền vào `NormCode`.
+
+V2-601 đã bỏ hành vi này.
+
+Từ nay:
+
+```text
+ô Định mức visible
+        = display/cache
+
+binding thật
+        = Custom XML state
+          + PackageId
+          + DataVersion
+          + PackageChecksum
+          + NormCode
+          + VariantCode
+```
+
+Workbook cũ có text định mức không được tự biến thành căn cứ pháp lý hợp lệ. Người dùng vẫn phải gắn/xác nhận định mức qua luồng V2.
+
+#### Migration bảng Gia DT TC legacy
+
+Đã thêm:
+
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CompatibilityService.cs`
+
+Khi vào màn hình `Công tác`, service kiểm tra on-demand.
+
+Nếu chỉ có **một** bảng `Gia DT TC_*` legacy và layout khớp mẫu đã xác minh, converter chuyển:
+
+```text
+Legacy:
+A TT
+B Mô tả
+C Đơn vị
+D Khối lượng
+E Nghiệm thu
+F:H Đơn giá VL/NC/M
+I:K Thành tiền VL/NC/M
+L:N Thành tiền nghiệm thu ...
+```
+
+sang:
+
+```text
+V2:
+A TT
+B Mã công tác
+C Định mức
+D Mô tả công việc
+E Đơn vị
+F Khối lượng
+G:I Đơn giá VL/NC/M
+J:L Thành tiền VL/NC/M
+M... vùng ẩn / dữ liệu legacy / metadata
+```
+
+Converter:
+
+1. chỉ chạy với layout legacy nhận diện chắc chắn;
+2. giữ dữ liệu nghiệm thu/tail cũ ở vùng cột ẩn;
+3. freeze phần tail legacy thành value trước khi xóa cột Nghiệm thu để tránh helper cũ phát sinh `#REF!`;
+4. tạo Mã công tác visible dạng `CT-Lxxxx` cho dòng công tác legacy để fingerprint có anchor ổn định;
+5. không tạo mã cho dòng tiêu đề nhóm/khu vực;
+6. đăng ký source V2 sau khi layout đã chuyển;
+7. binding định mức vẫn để người dùng gắn thủ công.
+
+Nếu layout khác mẫu đã biết, service **không tự dịch cột** mà để người dùng đăng ký thủ công.
+
+#### 1 / 2 / 3 khu vực
+
+Không thêm `KV1/KV2/KV3` vào identity.
+
+Sau migration, dòng nhóm như:
+
+```text
+Các công trình thuộc mật độ khu vực 1
+Các công trình thuộc mật độ khu vực 2
+...
+```
+
+không có đơn vị/khối lượng nên không trở thành WorkItem.
+
+Các dòng công tác thật tiếp tục có:
+
+- WorkItemId riêng;
+- binding định mức riêng;
+- RateId theo định mức + variant;
+- tổng hợp theo WorkItem.
+
+Vì vậy dự án 1/2/3 khu vực dùng cùng một code path.
+
+#### VT / DN
+
+V2-601 tuyệt đối không tự chọn sai audience.
+
+Nếu chỉ có một alias legacy phù hợp, có thể chuẩn hóa nó.
+
+Nếu đồng thời có nhiều bản như:
+
+```text
+DG Can_VT
+DG Can_DN
+VL-NC-M_VT
+VL-NC-M_DN
+```
+
+và chưa có output chuẩn/role duy nhất:
+
+- không tự gán role;
+- không tự đăng ký nhiều `Gia DT TC_*`;
+- không cộng cả hai bộ vào dự toán;
+- ghi status để người dùng xử lý/chọn nguồn phù hợp.
+
+Sau khi writer V2 đã sinh/cập nhật output chuẩn thành công, các copy legacy cùng loại có thể bị **ẩn**, không xóa, nhằm giảm tab rác.
+
+#### Đổi tên sheet
+
+Identity output hiện ưu tiên:
+
+```text
+Worksheet Role
+    -> CodeName
+    -> custom environment metadata
+    -> canonical/legacy alias fallback
+```
+
+Đã nối lại các writer/service:
+
+- VL-NC-M: `ResourcePrices` role;
+- DG Cạn: `UnitRateLand` role;
+- DG Nước: `UnitRateWater` role;
+- DG Biển: custom property `TTBMVN.EstimateV2.UnitRateEnvironment=Sea`;
+- THKP-TC: `CostSummary` role;
+- bảng công tác: registration theo worksheet CodeName.
+
+Vì vậy rename tab không làm mất identity V2.
+
+Đã cập nhật cả:
+
+- validation;
+- Tổng quan;
+- mở VL-NC-M;
+- mở THKP;
+- `Xem chi tiết`;
+- điều hướng tới bảng Gia DT TC đã đăng ký.
+
+#### Metadata không đè vùng visible
+
+`RegisterSelectedRange` không còn mặc định đặt metadata ngay sau cột visible cuối cùng.
+
+V2-601 đặt technical columns tối thiểu:
+
+```text
+sau Khối lượng + 6 cột kết quả
+và
+sau UsedRange hiện hữu
+```
+
+nếu cần.
+
+Do đó bảng A:F sẽ giữ G:L cho đơn giá/thành tiền, còn metadata nằm M trở đi hoặc xa hơn.
+
+#### Package cũ / missing / corrupt
+
+Compatibility service kiểm tra ProjectProfile/package pin theo hướng graceful degradation.
+
+Trạng thái:
+
+- `NotConfigured`;
+- `Ready`;
+- `MissingOrCorrupt`;
+- `ProfileCorrupt`.
+
+Nếu workbook đang pin:
+
+```text
+PackageId@DataVersion#Checksum
+```
+
+mà máy hiện tại thiếu/corrupt package:
+
+- module vẫn mở;
+- giữ nguyên identity đã pin;
+- thông báo package đang thiếu;
+- **không tự chuyển sang package latest**.
+
+`EstimateTaskPaneControl.RefreshOverview` cũng đã được bọc lỗi khi state/profile cũ bị corrupt để dữ liệu legacy không làm task pane crash.
+
+#### Workbook mở khi không có add-in
+
+V2 không dùng UDF của add-in làm kết quả in.
+
+Các output tính toán tiếp tục dùng:
+
+- công thức Excel chuẩn;
+- cell reference;
+- workbook Name đã lưu trong file.
+
+Custom XML / CustomProperties chỉ phục vụ add-in khi chỉnh sửa/validation.
+
+Vì vậy khi máy không cài add-in:
+
+- workbook vẫn mở được;
+- các công thức đã sinh vẫn nằm trong workbook;
+- các sheet in vẫn xem/in được;
+- người dùng chỉ mất các chức năng UI/migration/gắn định mức của add-in.
+
+#### UI
+
+Không thêm pane mới.
+
+`EstimateWorkItemsPaneView` giữ giao diện ảnh 02 và chỉ bổ sung status:
+
+- số bảng legacy đã migrate;
+- cảnh báo VT/DN;
+- package pin thiếu/corrupt;
+- profile corrupt.
+
+`EstimateTaskPaneControl` giữ ảnh 01 nhưng sheet count/step status nhận được sheet đã đổi tên qua persistent identity.
+
+#### Test code đã thêm
+
+Trong `ExcelAddIn1.Tests/Program.cs`:
+
+- `EstimateV2CompatibilityRules`
+
+Test code kiểm tra:
+
+- `DG Cạn` -> Land canonical;
+- `DG Can_VT` -> Land + StateBudgetSalary;
+- `VL-NC-M_DN` -> ResourcePrices + NonStateSalary;
+- `THKP-TC (2)` -> CostSummary alias;
+- `Gia DT TC_DN` -> EstimateAppendix + DN;
+- nhận diện header V2;
+- nhận diện header legacy;
+- không nhầm bảng thiếu Mã công tác/Định mức thành V2.
+
+#### File chính đã thêm/cập nhật
+
+- `ExcelAddIn1.Core/EstimateV2Compatibility.cs`
+- `ExcelAddIn1.Core/ExcelAddIn1.Core.csproj`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CompatibilityService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2RegistrationService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2StateService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2ResourceSheetWriter.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2RateSheetWriter.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CostLinkWriter.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CostLinkService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2ValidationService.cs`
+- `ExcelAddIn1/Winform/EstimateWorkItemsPaneView.cs`
+- `ExcelAddIn1/Winform/EstimateTaskPaneControl.cs`
+- `ExcelAddIn1/Winform/EstimateResourcesPaneView.cs`
+- `ExcelAddIn1/Winform/EstimateCostSummaryPaneView.cs`
+- `ExcelAddIn1.Tests/Program.cs`
+- `docs/du-toan-v2/UI-CONTRACT.md`
+
+#### Commit quan trọng
+
+- `3885f257210a` — classifier legacy/VT-DN;
+- `221ba0f99967` — metadata không đè vùng G:L;
+- `04fbf43984d3` — bỏ auto-binding từ text định mức legacy;
+- `c9e2273edc7b` — compatibility/migration service;
+- `bcd9c1ca7d99` — freeze tail legacy trước structural conversion;
+- `764bb5dc2f0f` — migration on-demand khi vào Công tác;
+- `f39455e52277` — chuẩn hóa VL-NC-M và ẩn copy cũ sau rebuild;
+- `54b94ae2699b` — DG bền vững qua rename;
+- `e879fa94e183` — THKP role identity;
+- `b4c82d5d82a0` — validation theo persistent output identity;
+- `5a2c7d114f6c` — Tổng quan không crash bởi profile/state cũ;
+- `51c6a59a3f78` — core compatibility tests;
+- `f905047915a9` — không auto-register nhiều Gia DT TC VT/DN;
+- `61829470ec34` — DG Biển sống qua rename;
+- `d8e9151bc2e0` — Mã công tác ổn định cho legacy;
+- `5ba23c4f909d` — cập nhật UI contract V2-601.
+
+#### Tự kiểm tra trong môi trường hiện tại
+
+Đã rà soát tĩnh các file V2-601 chính:
+
+- ngoặc `{}`, `()`, `[]` cân bằng ở các file code V2-601 chính;
+- không có conflict marker;
+- không có `TODO/FIXME/NotImplementedException`;
+- compatibility core/service được include đúng một lần trong project tương ứng;
+- migration không tự lấy text Định mức legacy làm legal binding;
+- ambiguous VT/DN không được tự chọn;
+- metadata mới không chồng G:L;
+- rename output được resolve qua Role/CodeName/environment metadata;
+- migration không tạo sheet technical visible;
+- không thêm startup gate mới.
+
+Đã đọc trực tiếp cấu trúc hai file XLSX mẫu để xác minh tên sheet/header/layout legacy. Spreadsheet rendering engine trong môi trường hiện tại không import được hai workbook mẫu, nên đối chiếu cấu trúc được thực hiện từ nội dung XLSX/XML; **không coi đây là Excel runtime test**.
+
+Môi trường hiện tại vẫn không có Excel/VSTO runtime phù hợp để chạy end-to-end. Vì vậy **chưa ghi PASS runtime/build/test console giả**.
+
+#### Checklist runtime bắt buộc
+
+- workbook trống không có sheet dự toán -> bấm Dự toán vẫn mở Tổng quan;
+- workbook Hoa Lư/Nam Định -> vào Công tác không mất dữ liệu và không tạo tab rác;
+- workbook Pleiku/Quy Nhơn -> phát hiện VT/DN, không tự chọn đồng thời hai bộ;
+- `Gia DT TC_DN` duy nhất -> migrate thành A:L V2, dữ liệu nghiệm thu legacy còn ở vùng ẩn;
+- dòng nhóm khu vực 1/2/3 -> không tạo WorkItem;
+- dòng công tác legacy -> có Mã công tác `CT-Lxxxx` + WorkItemId riêng;
+- ô định mức legacy có text -> không tự trở thành binding package V2;
+- tự gắn định mức lại -> save/close/open -> binding còn;
+- rename `VL-NC-M` -> pane vẫn mở đúng sheet;
+- rename `DG Can` / `DG Nuoc` -> writer cập nhật đúng sheet cũ, không tạo bản sao;
+- rename `DG Bien` -> environment metadata resolve đúng;
+- rename `THKP-TC` -> validation/update mở đúng sheet;
+- rename bảng Gia DT TC đã đăng ký -> writer vẫn resolve theo CodeName;
+- missing/corrupt pinned package -> task pane vẫn mở, không tự upgrade latest;
+- sau writer V2 thành công -> alias VT/DN/copy legacy cùng loại bị ẩn chứ không bị xóa;
+- workbook sau khi sinh xong mở trên máy không cài add-in -> công thức/sheet vẫn xem và in được;
+- không phát sinh `#REF!` do structural migration;
+- pane ảnh 01/02/04/05/06/07 vẫn không tràn ở DPI 100/125/150%.
+
+#### Việc tiếp theo
+
+V2-601 dừng ở đây. Roadmap V2 hiện tại chưa định nghĩa task sau V2-601; **chưa triển khai thêm task mới trong lượt này**.
 
 ---
 
