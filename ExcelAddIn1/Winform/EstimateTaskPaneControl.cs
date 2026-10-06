@@ -273,7 +273,23 @@ namespace ExcelAddIn1.Winform
             SetStep(2, SheetExists("VL-NC-M") ? StepState.Done : StepState.Ready);
             SetStep(3, SheetExists("DG Can") ? StepState.Done : StepState.Ready);
             SetStep(4, SheetExists("DG Nuoc") || SheetExists("DG Nước") ? StepState.Done : StepState.Ready);
-            SetStep(5, SheetExists("THKP-TC") ? StepState.Ready : StepState.Ready);
+            bool thkpLinked = false;
+            try
+            {
+                thkpLinked =
+                    WorkbookEstimateV2CostLinkService
+                        .HasDirectCostLinks(workbook);
+            }
+            catch
+            {
+            }
+            SetStep(
+                5,
+                thkpLinked
+                    ? StepState.Done
+                    : total > 0
+                        ? StepState.Ready
+                        : StepState.Ready);
 
             RebuildSheetTiles();
             footerText.Text = "Có thể mở và sử dụng module này ngay cả khi chưa gắn THKP-TC hoặc chưa chọn gói pháp lý.";
