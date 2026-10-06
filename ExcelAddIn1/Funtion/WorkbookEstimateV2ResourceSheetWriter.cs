@@ -886,9 +886,9 @@ namespace ExcelAddIn1.Funtion
             PriceProfile profile,
             string code)
         {
-            PriceProfileEntry entry;
-            if (profile != null && profile.TryFind(code, out entry))
-                return entry.DisplayName;
+            PriceProfilePrice price;
+            if (profile != null && profile.TryFind(code, out price))
+                return price.Entry.DisplayName;
             switch ((code ?? string.Empty).ToUpperInvariant())
             {
                 case "LAB-QNCN-5": return "Nhân công thợ bậc 5/10";
@@ -1846,9 +1846,9 @@ namespace ExcelAddIn1.Funtion
                 decimal value;
                 if (DirectLaborRates.TryGetValue(code, out value))
                     return value;
-                PriceProfileEntry entry;
-                if (profile != null && profile.TryFind(code, out entry))
-                    return profile.FindRequired(code).AppliedUnitPriceVnd;
+                PriceProfilePrice price;
+                if (profile != null && profile.TryFind(code, out price))
+                    return price.AppliedUnitPriceVnd;
                 return null;
             }
 
