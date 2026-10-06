@@ -2078,6 +2078,7 @@ namespace ExcelAddIn1.Tests
                 "WORKITEM");
             var item = new EstimateV2WorkItemState(
                 id,
+                "SheetEstimate",
                 "NORM-020.0200",
                 "density-1",
                 "BQP-RPBM-2025",
@@ -2094,6 +2095,7 @@ namespace ExcelAddIn1.Tests
 
             AssertEqual(1, restored.WorkItems.Count);
             AssertEqual(id, restored.WorkItems[0].WorkItemId);
+            AssertEqual("SheetEstimate", restored.WorkItems[0].SourceKey);
             AssertEqual("NORM-020.0200", restored.WorkItems[0].NormCode);
             AssertEqual("density-1", restored.WorkItems[0].VariantCode);
             AssertEqual("BQP-RPBM-2025", restored.WorkItems[0].PackageId);
@@ -2117,6 +2119,7 @@ namespace ExcelAddIn1.Tests
                     xml.Replace("schemaVersion=\"1\"", "schemaVersion=\"99\"")));
             AssertThrows<ArgumentException>(() => new EstimateV2WorkItemState(
                 "not-a-guid",
+                "SheetEstimate",
                 string.Empty,
                 string.Empty,
                 string.Empty,
