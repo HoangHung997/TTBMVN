@@ -625,6 +625,31 @@ namespace ExcelAddIn1.Winform
                 footerParts.Add(profileWarning);
             if (runtimeWarning.Length > 0)
                 footerParts.Add(runtimeWarning);
+
+            if (runtimeSettings != null &&
+                runtimeSettings.WarnOnMappingLoss)
+            {
+                try
+                {
+                    int mappingLoss =
+                        WorkbookEstimateV2SettingsService
+                            .CountMappingLoss(workbook);
+                    if (mappingLoss > 0)
+                    {
+                        footerParts.Add(
+                            "Phát hiện " +
+                            mappingLoss +
+                            " mapping đầu ra cần kiểm tra trong Thiết lập chung.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    RuntimeLogger.Log(
+                        ex,
+                        "Check Estimate V2 output mappings");
+                }
+            }
+
             footerText.Text =
                 string.Join(" ", footerParts);
         }
