@@ -39,9 +39,10 @@ namespace ExcelAddIn1.Winform
 
             var control = new EstimateTaskPaneControl(workbook);
             CustomTaskPane pane = null;
+            Excel.Window activeWindow = null;
             try
             {
-                object activeWindow = workbook.Application.ActiveWindow;
+                activeWindow = workbook.Application.ActiveWindow;
                 pane = Globals.ThisAddIn.CustomTaskPanes.Add(
                     control,
                     "Trợ lý Dự toán",
@@ -71,6 +72,11 @@ namespace ExcelAddIn1.Winform
                 }
                 control.Dispose();
                 throw;
+            }
+            finally
+            {
+                if (activeWindow != null && Marshal.IsComObject(activeWindow))
+                    Marshal.ReleaseComObject(activeWindow);
             }
         }
 
