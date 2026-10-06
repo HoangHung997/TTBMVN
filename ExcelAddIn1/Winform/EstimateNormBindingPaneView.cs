@@ -362,7 +362,8 @@ namespace ExcelAddIn1.Winform
                         choice.Result.Key,
                         choice.VariantCode,
                         choice.Result.PackageId,
-                        choice.Result.PackageVersion);
+                        choice.Result.PackageVersion,
+                        choice.Result.PackageChecksum);
                 }
 
                 WorkbookEstimateV2RegistrationService.ReconcileAll(workbook);
