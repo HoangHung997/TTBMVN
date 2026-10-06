@@ -756,12 +756,22 @@ namespace ExcelAddIn1.Winform
             Excel.Worksheet sheet = null;
             try
             {
-                sheet =
-                    WorkbookEstimateV2CompatibilityService
-                        .ResolveOutputWorksheet(
-                            workbook,
-                            role,
-                            names);
+                if (kind ==
+                    EstimateV2LegacySheetKind.EstimateAppendix)
+                {
+                    sheet =
+                        ResolveFirstRegisteredEstimateSheet();
+                }
+
+                if (sheet == null)
+                {
+                    sheet =
+                        WorkbookEstimateV2CompatibilityService
+                            .ResolveOutputWorksheet(
+                                workbook,
+                                role,
+                                names);
+                }
                 if (sheet == null)
                 {
                     sheet =
@@ -789,12 +799,22 @@ namespace ExcelAddIn1.Winform
             Excel.Worksheet sheet = null;
             try
             {
-                sheet =
-                    WorkbookEstimateV2CompatibilityService
-                        .ResolveOutputWorksheet(
-                            workbook,
-                            role,
-                            names);
+                if (kind ==
+                    EstimateV2LegacySheetKind.EstimateAppendix)
+                {
+                    sheet =
+                        ResolveFirstRegisteredEstimateSheet();
+                }
+
+                if (sheet == null)
+                {
+                    sheet =
+                        WorkbookEstimateV2CompatibilityService
+                            .ResolveOutputWorksheet(
+                                workbook,
+                                role,
+                                names);
+                }
                 if (sheet == null)
                 {
                     sheet =
@@ -818,6 +838,28 @@ namespace ExcelAddIn1.Winform
             finally
             {
                 Release(sheet);
+            }
+        }
+
+        private Excel.Worksheet ResolveFirstRegisteredEstimateSheet()
+        {
+            EstimateV2RegisteredSource source =
+                WorkbookEstimateV2RegistrationService
+                    .ListRegistered(workbook)
+                    .FirstOrDefault();
+            if (source == null)
+                return null;
+
+            try
+            {
+                return WorkbookEstimateV2CostLinkService
+                    .ResolveWorksheet(
+                        workbook,
+                        source);
+            }
+            catch
+            {
+                return null;
             }
         }
 
