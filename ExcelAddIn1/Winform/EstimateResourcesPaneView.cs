@@ -363,7 +363,7 @@ namespace ExcelAddIn1.Winform
             PriceProfilePrice price;
             if (previewProfile != null && previewProfile.TryFind(code, out price))
                 return price.Entry.DisplayName;
-            return code;
+            return EstimateV2ResourceNames.Get(code);
         }
 
         private string FormatGroupSummary(
