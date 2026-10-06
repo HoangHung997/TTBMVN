@@ -184,6 +184,24 @@ namespace ExcelAddIn1.Funtion
                 new Dictionary<string, WorkbookEstimateV2RateItemPreview>(
                     StringComparer.OrdinalIgnoreCase);
             var rates = new List<EstimateV2RateItem>();
+            WorkbookEstimateV2ResourcePreview resourcePreview = null;
+            try
+            {
+                resourcePreview =
+                    WorkbookEstimateV2ResourceService.BuildPreview(
+                        workbook);
+                packageErrors.AddRange(
+                    resourcePreview.MissingPackageBindings);
+            }
+            catch (Exception ex) when (
+                ex is ArgumentException ||
+                ex is InvalidOperationException ||
+                ex is KeyNotFoundException ||
+                ex is System.IO.IOException ||
+                ex is System.IO.InvalidDataException)
+            {
+                packageErrors.Add(ex.Message);
+            }
 
             foreach (EstimateV2RateEnvironment environment in new[]
             {
@@ -378,6 +396,13 @@ namespace ExcelAddIn1.Funtion
                 overwrittenCells,
                 errorCells);
 
+            ScanResourceNamedCells(
+                workbook,
+                resourcePreview,
+                overwrittenCells,
+                errorCells,
+                findings);
+
             ScanRateNamedCells(
                 workbook,
                 plan,
@@ -520,6 +545,8 @@ namespace ExcelAddIn1.Funtion
                         before.Findings.Any(item =>
                             item.Recoverable &&
                             (item.Code == "RATE_FORMULA_OVERWRITTEN" ||
+                             item.Code == "RESOURCE_FORMULA_OVERWRITTEN" ||
+                             item.Code == "RESOURCE_NAME_MISSING" ||
                              item.Code == "RATE_NAME_MISSING" ||
                              (item.Code == "MANAGED_FORMULA_ERROR" &&
                               (string.Equals(
@@ -993,6 +1020,111 @@ namespace ExcelAddIn1.Funtion
                 finally
                 {
                     Release(sheet);
+                }
+            }
+        }
+
+        private static void ScanResourceNamedCells(
+            Excel.Workbook workbook,
+            WorkbookEstimateV2ResourcePreview preview,
+            IDictionary<string, FormulaCell> overwrittenCells,
+            IDictionary<string, ErrorCell> errorCells,
+            ICollection<EstimateV2ValidationFinding> findings)
+        {
+            if (preview == null)
+                return;
+
+            foreach (EstimateV2ResourceRequirement resource in
+                preview.PriceSheetResources.Where(item =>
+                    item != null &&
+                    item.RequiresUnitPrice &&
+                    item.Kind != NormResourceKind.Material))
+            {
+                foreach (string packageIdentity in
+                    resource.PackageIdentities
+                        .Where(value =>
+                            !string.IsNullOrWhiteSpace(value))
+                        .Distinct(StringComparer.OrdinalIgnoreCase))
+                {
+                    string name =
+                        EstimateV2ExcelNames.ResourcePrice(
+                            resource.Kind,
+                            resource.Code,
+                            resource.Unit,
+                            packageIdentity);
+                    Excel.Range cell = null;
+                    try
+                    {
+                        if (!TryResolveNameRange(
+                            workbook,
+                            name,
+                            out cell))
+                        {
+                            findings.Add(
+                                new EstimateV2ValidationFinding(
+                                    "RESOURCE_NAME_MISSING",
+                                    "Thiếu workbook Name giá " +
+                                        resource.Code,
+                                    "Liên kết giá " +
+                                        resource.Kind +
+                                        " không còn tồn tại trong VL-NC-M.",
+                                    EstimateV2CostIssueSeverity.Error,
+                                    worksheetName: "VL-NC-M",
+                                    recoverable: true));
+                            continue;
+                        }
+
+                        string formula =
+                            Convert.ToString(
+                                cell.Formula,
+                                CultureInfo.InvariantCulture) ??
+                            string.Empty;
+                        Excel.Worksheet sheet =
+                            cell.Worksheet;
+                        try
+                        {
+                            string address =
+                                cell.Address[
+                                    false,
+                                    false,
+                                    Excel.XlReferenceStyle.xlA1,
+                                    false,
+                                    Type.Missing];
+                            string key =
+                                CellKey(
+                                    sheet,
+                                    cell.Row,
+                                    cell.Column);
+
+                            if (!formula.StartsWith(
+                                "=",
+                                StringComparison.Ordinal))
+                            {
+                                overwrittenCells[key] =
+                                    new FormulaCell(
+                                        sheet.Name,
+                                        address,
+                                        string.Empty,
+                                        formula,
+                                        "formula",
+                                        "RESOURCE_FORMULA_OVERWRITTEN");
+                            }
+
+                            AddErrorIfAny(
+                                errorCells,
+                                sheet,
+                                cell,
+                                string.Empty);
+                        }
+                        finally
+                        {
+                            Release(sheet);
+                        }
+                    }
+                    finally
+                    {
+                        Release(cell);
+                    }
                 }
             }
         }
