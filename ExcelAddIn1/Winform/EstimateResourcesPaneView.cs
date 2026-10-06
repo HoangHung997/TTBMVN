@@ -454,42 +454,33 @@ namespace ExcelAddIn1.Winform
 
         private void ActivateResourceSheet()
         {
-            Excel.Sheets sheets = null;
+            Excel.Worksheet worksheet = null;
             try
             {
-                sheets = workbook.Worksheets;
-                for (int index = 1; index <= sheets.Count; index++)
+                worksheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            WorksheetRole.ResourcePrices,
+                            "VL-NC-M");
+                if (worksheet != null)
                 {
-                    Excel.Worksheet worksheet = null;
-                    try
-                    {
-                        worksheet = sheets.Item[index] as Excel.Worksheet;
-                        if (worksheet != null &&
-                            string.Equals(
-                                worksheet.Name,
-                                "VL-NC-M",
-                                StringComparison.OrdinalIgnoreCase))
-                        {
-                            worksheet.Activate();
-                            ShowStatus(
-                                "Đã mở sheet VL-NC-M. Writer V2 sẽ giữ A:F là vùng in và đặt metadata ngoài vùng in.",
-                                false);
-                            return;
-                        }
-                    }
-                    finally
-                    {
-                        Release(worksheet);
-                    }
+                    worksheet.Activate();
+                    ShowStatus(
+                        "Đã mở sheet " +
+                        worksheet.Name +
+                        ". Writer V2 giữ A:F là vùng in và đặt metadata ngoài vùng in.",
+                        false);
+                    return;
                 }
 
                 ShowStatus(
-                    "Workbook chưa có sheet VL-NC-M. Task writer sẽ tạo sheet theo đúng mẫu in khi được bật.",
+                    "Workbook chưa có sheet VL-NC-M. Writer sẽ tạo sheet theo đúng mẫu in khi sinh dữ liệu.",
                     true);
             }
             finally
             {
-                Release(sheets);
+                Release(worksheet);
             }
         }
 
