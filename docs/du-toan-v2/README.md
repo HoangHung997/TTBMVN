@@ -94,9 +94,13 @@ Cac anh duoi day duoc tach rieng vao thu muc `images/` de dung khi doi chieu gia
 
 - [ARCHITECTURE.md](ARCHITECTURE.md): kien truc dich V2.
 - [MIGRATION-PLAN.md](MIGRATION-PLAN.md): ke hoach tiep quan, phan nao giu/phan nao sua va cac moc trien khai.
+- [PROGRESS.md](PROGRESS.md): trang thai task dang lam, task da xong, commit va viec tiep theo.
 
 ## 6. Trang thai
 
-Hien tai moi tao ho so dinh huong V2. **Chua sua logic/code du toan hien co** trong buoc nay.
+Da bat dau trien khai V2.
 
-Buoc code dau tien sau khi chot tai lieu: lap ban do workbook mau Hoa Lu - Nam Dinh, xac dinh vung cong tac, metadata gan dinh muc va prototype luong `Quet cong tac -> Gan dinh muc`.
+- `V2-001` da bo gate `FrmProjectSetup` khoi luong mo module Du toan: bam Du toan se mo workspace ngay, khong bat map THKP/7 role truoc.
+- Task tiep theo la `V2-101`: `WorkItemId + NormBinding` ben vung, luu bang Custom XML Part + cot ky thuat an de chen/xoa/sort dong khong mat mapping.
+
+Xem [PROGRESS.md](PROGRESS.md) de biet trang thai chinh xac va commit moi nhat.
