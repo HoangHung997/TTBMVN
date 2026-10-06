@@ -33,8 +33,11 @@ namespace ExcelAddIn1.Core
 
             foreach (EstimateV2ResourceRequirement item in plan.Resources)
             {
-                string[] candidates = ExpandCodes(item).ToArray();
-                if (candidates.Length == 0)
+                IReadOnlyList<string> candidates = ExpandResourceCodes(
+                    item.Kind,
+                    item.Code,
+                    item.IsLogical);
+                if (candidates.Count == 0)
                     candidates = new[] { item.Code };
 
                 foreach (string code in candidates)
@@ -50,25 +53,27 @@ namespace ExcelAddIn1.Core
                     .ToList());
         }
 
-        private static IEnumerable<string> ExpandCodes(
-            EstimateV2ResourceRequirement item)
+        public static IReadOnlyList<string> ExpandResourceCodes(
+            NormResourceKind kind,
+            string resourceCode,
+            bool isLogical)
         {
-            if (item == null)
-                yield break;
+            string code = (resourceCode ?? string.Empty).Trim();
+            if (code.Length == 0)
+                return new ReadOnlyCollection<string>(new List<string>());
 
-            string code = (item.Code ?? string.Empty).Trim();
-            if (!item.IsLogical || code.Length == 0)
+            var result = new List<string>();
+            if (!isLogical)
             {
-                yield return code;
-                yield break;
+                result.Add(code);
+                return new ReadOnlyCollection<string>(result);
             }
 
-            if (item.Kind == NormResourceKind.Machine &&
+            if (kind == NormResourceKind.Machine &&
                 code.EndsWith(".DIVING", StringComparison.OrdinalIgnoreCase))
             {
-                foreach (string candidate in DivingMachineCandidates)
-                    yield return candidate;
-                yield break;
+                result.AddRange(DivingMachineCandidates);
+                return new ReadOnlyCollection<string>(result);
             }
 
             const string separator = "-OR-";
@@ -78,15 +83,19 @@ namespace ExcelAddIn1.Core
                 string first = code.Substring(0, split).Trim();
                 string second = code.Substring(split + separator.Length).Trim();
                 if (first.Length > 0)
-                    yield return first;
+                    result.Add(first);
                 if (second.Length > 0)
-                    yield return CompleteAlternative(first, second);
-                yield break;
+                {
+                    string completed = CompleteAlternative(first, second);
+                    if (completed.Length > 0)
+                        result.Add(completed);
+                }
+                return new ReadOnlyCollection<string>(
+                    result.Distinct(StringComparer.OrdinalIgnoreCase).ToList());
             }
 
-            // Unknown logical convention: retain the code so the UI can still
-            // expose an input instead of making the whole VL-NC-M step unusable.
-            yield return code;
+            result.Add(code);
+            return new ReadOnlyCollection<string>(result);
         }
 
         private static string CompleteAlternative(
