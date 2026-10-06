@@ -64,6 +64,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2ResourcePlan", TestEstimateV2ResourcePlan);
             Run("EstimateV2PriceSheetProjection", TestEstimateV2PriceSheetProjection);
             Run("EstimateV2RatePlan", TestEstimateV2RatePlan);
+            Run("EstimateV2CostLinkPlan", TestEstimateV2CostLinkPlan);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2347,6 +2348,94 @@ namespace ExcelAddIn1.Tests
                 plan.ForEnvironment(EstimateV2RateEnvironment.Sea).Single();
             AssertTrue(seaRate.Resources.Any(item =>
                 item.ResourceCode == "M010.018-OR-M010.028"));
+        }
+
+        private static void TestEstimateV2CostLinkPlan()
+        {
+            string checksum = new string('A', 64);
+            string packageId = "BQP-RPBM-2025";
+            string version = "2.0.1";
+            string packageIdentity =
+                packageId + "@" + version + "#" + checksum;
+
+            var bound1 = new EstimateV2WorkItemState(
+                "10000000000000000000000000000001",
+                "SRC-A",
+                "NORM-020.0500",
+                "depth-5",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                string.Empty,
+                false);
+            var bound2 = new EstimateV2WorkItemState(
+                "10000000000000000000000000000002",
+                "SRC-A",
+                "NORM-020.0500",
+                "depth-5",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                string.Empty,
+                false);
+            var unbound = new EstimateV2WorkItemState(
+                "10000000000000000000000000000003",
+                "SRC-A",
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                "WORKITEM",
+                string.Empty,
+                false);
+            var missing = new EstimateV2WorkItemState(
+                "10000000000000000000000000000004",
+                "SRC-A",
+                "NORM-020.9999",
+                "x",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                string.Empty,
+                false);
+
+            var state = new EstimateV2State(
+                new[] { bound1, bound2, unbound, missing },
+                DateTime.UtcNow);
+            var rate = new EstimateV2RateItem(
+                "DG-TEST-RATE",
+                packageIdentity,
+                "NORM-020.0500",
+                "depth-5",
+                "Dò tìm trên cạn",
+                "ha",
+                EstimateV2RateEnvironment.Land,
+                2,
+                true,
+                Array.Empty<EstimateV2RateResource>());
+            var ratePlan = new EstimateV2RatePlan(
+                new[] { rate });
+
+            EstimateV2CostLinkPlan plan =
+                EstimateV2CostLinkPlan.Build(
+                    state,
+                    ratePlan);
+
+            AssertEqual(4, plan.TotalCount);
+            AssertEqual(2, plan.ReadyCount);
+            AssertEqual(1, plan.UnboundCount);
+            AssertEqual(1, plan.MissingRateCount);
+            AssertEqual(2, plan.ConditionReviewCount);
+            AssertEqual(
+                "DG-TEST-RATE",
+                plan.Find(bound1.WorkItemId).RateId);
+            AssertEqual(
+                plan.Find(bound1.WorkItemId).RateId,
+                plan.Find(bound2.WorkItemId).RateId);
         }
 
         private static void TestEstimateRateGrouping()
