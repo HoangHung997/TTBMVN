@@ -11,8 +11,8 @@
 | V2-001 | Bỏ gate khởi động Dự toán | DONE - implementation / runtime pending |
 | V2-002 | Task pane UI theo bộ ảnh đã chốt | DONE - shell + 3 màn hình đầu / runtime pending |
 | V2-101 | WorkItemId + binding định mức bền vững | DONE - implementation / runtime pending |
-| V2-201 | Tổng hợp và sinh VL-NC-M | NEXT - đang triển khai |
-| V2-301 | Sinh DG Cạn / DG Nước / DG Biển | TODO |
+| V2-201 | Tổng hợp và sinh VL-NC-M | DONE - implementation / runtime pending |
+| V2-301 | Sinh DG Cạn / DG Nước / DG Biển | NEXT |
 | V2-401 | Link Gia DT TC + THKP-TC | TODO |
 | V2-501 | Validation / phục hồi / phát hiện lỗi | TODO |
 | V2-601 | Tương thích file cũ và migration | TODO |
@@ -218,36 +218,151 @@ Trong `ExcelAddIn1.Tests/Program.cs`:
 
 ## V2-201 — Tổng hợp và sinh VL-NC-M
 
-**Trạng thái:** NEXT - đang triển khai
+**Trạng thái:** DONE - implementation / runtime pending
 
-### Mục tiêu
+### Mục tiêu đã đạt ở code
 
-Từ các WorkItem đã gắn định mức:
+Từ các WorkItem đã gắn định mức, V2 hiện:
 
-1. Load đúng package/version của binding.
-2. Gom **resource unique** đang thực sự dùng:
-   - vật liệu;
-   - nhân công;
-   - máy thi công.
-3. Không dump toàn bộ catalog vào workbook.
-4. Sinh/cập nhật sheet `VL-NC-M` theo đúng mẫu in hiện hành.
-5. Vùng in giữ nguyên biểu mẫu; metadata phụ đặt ở cột ẩn.
-6. Giá người dùng nhập phải được giữ lại khi refresh.
-7. Giá nhân công và giá ca máy phải là **formula/link Excel**, không ghi kết quả chết.
-8. UI phải khớp màn hình `04-VL-NC-M.png` trong UI contract:
-   - 4 metric;
-   - tổng quan theo nhóm;
-   - danh sách thiếu giá;
-   - 4 chức năng chính;
-   - thông báo formula/link ở cuối.
+1. Load đúng package/version/checksum đã pin trong từng binding.
+2. Chỉ gom **resource thực sự đang dùng**, không dump toàn bộ catalog.
+3. Tách resource theo vật liệu / nhân công / máy thi công.
+4. Với resource logic (`-OR-`, `.DIVING`), VL-NC-M sinh các **ứng viên giá vật lý** cần thiết; lựa chọn chính xác dùng ở công tác nào để dành cho bước đơn giá.
+5. Bổ sung cả **nhân công điều khiển máy** từ `MachineRateCatalog`, kể cả khi loại nhân công đó không xuất hiện trực tiếp trong hao phí định mức.
+6. Sinh/cập nhật `VL-NC-M` bằng writer riêng, không ghi kết quả tính toán chết.
+7. Giá người dùng đã nhập được ưu tiên giữ lại khi refresh.
+8. Nhân công và giá ca máy dùng **công thức/liên kết Excel**; các đầu vào được neo bằng workbook Name ổn định.
+9. Metadata đặt ngoài vùng in và bị ẩn; không tạo sheet kỹ thuật visible.
 
-### Hướng triển khai ngay
+### UI đã hoàn thiện theo ảnh chuẩn 04
 
-- Tận dụng `NormCatalog`, `MachineRateCatalog`, `PriceProfile` hiện có.
-- Thêm Core model `EstimateV2ResourcePlan` để gom resource độc lập với Interop.
-- Thêm workbook writer riêng cho `VL-NC-M`, không tái sử dụng writer nào ghi snapshot số chết.
-- Tạo `EstimateResourcesPaneView` theo ảnh chốt trước khi nối writer.
-- Package chỉ được load khi V2-201 cần; missing package chỉ làm màn hình này báo dependency, không đóng module.
+Màn hình `EstimateResourcesPaneView` đã đối chiếu trực tiếp:
+
+- `/mnt/data/chuan_UI/04-VL-NC-M.png`
+
+Đã có:
+
+- 4 metric: Số vật liệu / Số nhân công / Số máy / Thiếu giá;
+- 3 card tổng quan theo nhóm;
+- icon Vật liệu / Nhân công / Máy thi công tự vẽ bằng GDI+;
+- danh sách thiếu giá có STT, mã hiệu, tên tài nguyên, đơn vị, nhóm và nút điều hướng;
+- 4 chức năng chính;
+- icon `fx` cho công thức nhân công và calculator cho giá ca máy;
+- thông báo cuối pane về formula/link, không dùng số chết;
+- giao diện vẫn là CustomTaskPane bên phải, không chiếm vùng Excel chính.
+
+### Writer VL-NC-M
+
+File chính:
+
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2ResourceSheetWriter.cs`
+
+Hành vi chính:
+
+- giữ A:F là vùng biểu mẫu in;
+- giữ lại giá vật liệu, giá nhiên liệu, đầu vào nhân công đã có khi refresh;
+- tạo workbook Name bền vững cho giá resource và input;
+- tính nhân công bằng công thức Excel;
+- tính giá ca máy bằng công thức Excel: nhiên liệu/năng lượng, sửa chữa, khấu hao, chi phí khác, nhân công điều khiển máy;
+- áp dụng hệ số nhiên liệu phụ;
+- áp dụng hệ số môi trường ăn mòn cho ngữ cảnh nước/biển theo calculator hiện có;
+- không xóa các cột unrelated ngoài vùng writer quản lý;
+- tìm và tái sử dụng vị trí metadata cũ để tránh metadata trôi sang phải sau mỗi lần refresh;
+- ẩn toàn bộ cột phụ ngoài A:F.
+
+### Đối chiếu mẫu Excel thực tế
+
+Đã đọc cấu trúc file mẫu:
+
+- `/mnt/data/Du toan RPBM HoaLuNamDinh_Ver1.xlsx`
+- sheet `VL-NC-M`
+
+Writer đã được chỉnh theo đặc điểm in của mẫu:
+
+- dòng 1–2 ẩn;
+- block in chính bắt đầu từ mục `I. GIÁ NHÂN CÔNG`;
+- header phần giá ca máy được lặp khi in;
+- phần `III. GIÁ VẬT LIỆU` là block in riêng;
+- vật liệu có ghi chú `ĐG thị trường`;
+- hướng giấy dọc;
+- in đen trắng;
+- scale 98%;
+- chỉ A:F thuộc vùng in;
+- các cột phụ bị ẩn và nằm ngoài vùng in.
+
+Mẫu hiện hành có PrintArea dạng hai vùng; writer V2 tạo lại cùng nguyên tắc theo số dòng sinh thực tế, không hard-code số dòng của file mẫu.
+
+### Core / service / UI đã thêm hoặc cập nhật
+
+- `ExcelAddIn1.Core/EstimateV2Resources.cs`
+- `ExcelAddIn1.Core/EstimateV2ResourcePriceSheetProjector.cs`
+- `ExcelAddIn1.Core/EstimateV2ResourceNames.cs`
+- `ExcelAddIn1.Core/EstimateV2ExcelNames.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2ResourceService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2ResourceSheetWriter.cs`
+- `ExcelAddIn1/Winform/EstimateResourcesPaneView.cs`
+- `ExcelAddIn1/Winform/EstimateUiIcons.cs`
+- `ExcelAddIn1/Winform/EstimateTaskPaneControl.cs`
+
+### Commit quan trọng
+
+- `3d4ae4f3cead` — unique resource aggregation plan
+- `0c21071546f7` — logical resource price projector
+- `21a2c64a8908` — writer dùng các ứng viên giá vật lý
+- `dc63fff7bce6` — đưa writer VL-NC-M vào project
+- `85dc8569f4f9` — sửa công thức hệ số nhiên liệu phụ
+- `9d046c2d3fe5` — căn vùng in VL-NC-M theo file mẫu
+- `bbd823b83463` — icon riêng theo UI chuẩn
+- `f1449438a336` — chỉnh card VL-NC-M theo ảnh chuẩn
+- `b44fbac63b2d` — đưa nhân công điều khiển máy vào preview/tổng hợp
+
+### Test code đã có
+
+Trong `ExcelAddIn1.Tests/Program.cs`:
+
+- `EstimateV2ResourcePlan`
+- `EstimateV2PriceSheetProjection`
+
+Test projection kiểm tra:
+
+- `M010.DIVING` -> các máy lặn vật lý;
+- `M010.002-OR-M010.003` -> hai ứng viên;
+- vật liệu `MAT-GASOLINE-OR-DIESEL` -> xăng + dầu;
+- merge resource trùng;
+- output price-sheet không còn resource logic.
+
+### Kiểm tra đã thực hiện trong môi trường hiện tại
+
+Đã tự rà soát tĩnh các file V2-201 sau thay đổi:
+
+- cân bằng ngoặc `{}`, `()`, `[]`;
+- không còn `TODO/FIXME/NotImplementedException` trong các file V2-201 chính;
+- đã sửa lỗi kiểu dữ liệu `PriceProfile.TryFind`: API trả `PriceProfilePrice`, không phải `PriceProfileEntry`;
+- đã sửa tham chiếu hidden parameter của hệ số nhiên liệu;
+- đã sửa metadata không bị dịch sang phải qua nhiều lần refresh;
+- đã sửa preview để tính cả nhân công điều khiển máy.
+
+**Chưa chạy build VSTO/Excel thật và chưa chạy bộ test console trong môi trường hiện tại. Không ghi PASS giả.**
+
+### Checklist runtime bắt buộc khi chạy trên máy có Excel/VSTO
+
+- mở task pane -> vào VL-NC-M không lỗi;
+- số VL / NC / Máy trên pane khớp resource writer;
+- công tác có máy yêu cầu NC điều khiển -> NC đó xuất hiện trong pane và sheet;
+- logical resource -> đủ ứng viên giá vật lý, không còn mã logic trong VL-NC-M;
+- sinh mới VL-NC-M -> công thức NC/M hoạt động;
+- nhập giá vật liệu -> refresh -> giá vẫn còn;
+- nhập giá nhiên liệu / NC -> refresh -> giá ca máy cập nhật;
+- refresh nhiều lần -> metadata không chạy sang phải;
+- G:P hoặc các cột phụ legacy không xuất hiện trong vùng in;
+- PrintArea có 2 block giống nguyên tắc file mẫu;
+- dòng tiêu đề 1–2 ẩn; header máy lặp khi in;
+- đóng/mở workbook -> workbook Name và giá nhập vẫn đọc lại được;
+- không có `#REF!`, `#VALUE!`, `#NAME?` trong công thức sinh.
+
+### Việc tiếp theo
+
+V2-201 dừng ở đây. Task kế tiếp là **V2-301 — DG Cạn / DG Nước / DG Biển**; chưa triển khai code V2-301 trong task này.
 
 ---
 
