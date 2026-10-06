@@ -559,10 +559,20 @@ namespace ExcelAddIn1.Winform
                     "M",
                     out machine);
 
-                decimal total =
-                    (hasVl ? vl : 0m) +
-                    (hasNc ? nc : 0m) +
-                    (hasM ? machine : 0m);
+                decimal total;
+                bool hasTotal =
+                    WorkbookEstimateV2RateService.TryReadRateComponent(
+                        workbook,
+                        item.Rate.RateId,
+                        "TOTAL",
+                        out total);
+                if (!hasTotal)
+                {
+                    total =
+                        (hasVl ? vl : 0m) +
+                        (hasNc ? nc : 0m) +
+                        (hasM ? machine : 0m);
+                }
 
                 ratePreviewGrid.Rows.Add(
                     index,
