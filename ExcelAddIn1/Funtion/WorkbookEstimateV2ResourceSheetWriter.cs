@@ -1872,9 +1872,9 @@ namespace ExcelAddIn1.Funtion
                 decimal value;
                 if (FuelPrices.TryGetValue(code, out value))
                     return value;
-                PriceProfileEntry entry;
-                if (profile != null && profile.TryFind(code, out entry))
-                    return profile.FindRequired(code).AppliedUnitPriceVnd;
+                PriceProfilePrice price;
+                if (profile != null && profile.TryFind(code, out price))
+                    return price.AppliedUnitPriceVnd;
                 return null;
             }
         }
