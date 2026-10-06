@@ -109,6 +109,17 @@ namespace ExcelAddIn1.Funtion
                     unitColumn,
                     quantityColumn
                 }.Max();
+                int preferredTechnicalColumn = Math.Max(
+                    quantityColumn + 7,
+                    ExistingLastColumn(worksheet) + 1);
+                if (preferredTechnicalColumn > 16381)
+                {
+                    preferredTechnicalColumn =
+                        Math.Max(
+                            lastVisibleColumn + 1,
+                            quantityColumn + 7);
+                }
+
                 EstimateV2ColumnLayout columns =
                     WorkbookEstimateV2StateService.EnsureTechnicalColumns(
                         worksheet,
@@ -118,7 +129,7 @@ namespace ExcelAddIn1.Funtion
                         descriptionColumn,
                         unitColumn,
                         quantityColumn,
-                        lastVisibleColumn + 1);
+                        preferredTechnicalColumn);
 
                 string address = range.Address[
                     true,
