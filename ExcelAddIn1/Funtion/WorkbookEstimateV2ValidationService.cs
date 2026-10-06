@@ -559,7 +559,8 @@ namespace ExcelAddIn1.Funtion
                     bool needsRepair =
                         before.Findings.Any(item =>
                             item.Recoverable &&
-                            (item.Code == "RATE_FORMULA_OVERWRITTEN" ||
+                            (item.Code == "MISSING_RATE" ||
+                             item.Code == "RATE_FORMULA_OVERWRITTEN" ||
                              item.Code == "RESOURCE_FORMULA_OVERWRITTEN" ||
                              item.Code == "RESOURCE_NAME_MISSING" ||
                              item.Code == "RATE_NAME_MISSING" ||
@@ -593,7 +594,8 @@ namespace ExcelAddIn1.Funtion
                 if (before.TotalWorkItemCount > 0 &&
                     before.Findings.Any(item =>
                         item.Recoverable &&
-                        (item.Code == "COST_FORMULA_OVERWRITTEN" ||
+                        (item.Code == "COST_LAYOUT_PENDING" ||
+                         item.Code == "COST_FORMULA_OVERWRITTEN" ||
                          item.Code == "THKP_FORMULA_OVERWRITTEN" ||
                          item.Code == "THKP_LINK" ||
                          (item.Code == "MANAGED_FORMULA_ERROR" &&
