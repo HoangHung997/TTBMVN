@@ -111,6 +111,14 @@ namespace ExcelAddIn1.Funtion
                     workbook,
                     environment,
                     out created);
+                WorksheetRole? worksheetRole =
+                    RoleForEnvironment(environment);
+                if (worksheetRole.HasValue)
+                {
+                    WorksheetRoleService.SetRole(
+                        sheet,
+                        worksheetRole.Value);
+                }
                 SetWorksheetProperty(
                     sheet,
                     GeneratedProperty,
@@ -169,6 +177,19 @@ namespace ExcelAddIn1.Funtion
                         MetadataStartColumn + MetadataColumnCount - 1,
                         ExistingLastColumn(sheet)));
                 ConfigurePrint(sheet, build);
+
+                string canonicalName =
+                    SheetAliases(environment)[0];
+                WorkbookEstimateV2CompatibilityService
+                    .NormalizeOutputSheetName(
+                        workbook,
+                        sheet,
+                        canonicalName);
+                WorkbookEstimateV2CompatibilityService
+                    .HideSupersededLegacyOutputs(
+                        workbook,
+                        LegacyKindForEnvironment(environment),
+                        sheet.CodeName);
 
                 int missingRateCount = preview.Items.Count(item =>
                     desired.Any(rate => string.Equals(
@@ -821,10 +842,29 @@ namespace ExcelAddIn1.Funtion
             out bool created)
         {
             string[] aliases = SheetAliases(environment);
+            WorksheetRole? role =
+                RoleForEnvironment(environment);
+
+            if (role.HasValue)
+            {
+                Excel.Worksheet byRole =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            role.Value,
+                            aliases);
+                if (byRole != null)
+                {
+                    created = false;
+                    return byRole;
+                }
+            }
+
             Excel.Sheets sheets = null;
             try
             {
                 sheets = workbook.Worksheets;
+                Excel.Worksheet aliasMatch = null;
                 for (int index = 1; index <= sheets.Count; index++)
                 {
                     Excel.Worksheet sheet = null;
@@ -833,15 +873,31 @@ namespace ExcelAddIn1.Funtion
                         sheet = sheets.Item[index] as Excel.Worksheet;
                         if (sheet == null)
                             continue;
-                        if (aliases.Any(alias => string.Equals(
-                            sheet.Name,
-                            alias,
-                            StringComparison.OrdinalIgnoreCase)))
+
+                        string storedEnvironment =
+                            ReadWorksheetProperty(
+                                sheet,
+                                EnvironmentProperty);
+                        if (string.Equals(
+                            storedEnvironment,
+                            environment.ToString(),
+                            StringComparison.OrdinalIgnoreCase))
                         {
                             Excel.Worksheet result = sheet;
                             sheet = null;
+                            Release(aliasMatch);
                             created = false;
                             return result;
+                        }
+
+                        if (aliasMatch == null &&
+                            aliases.Any(alias => string.Equals(
+                                sheet.Name,
+                                alias,
+                                StringComparison.OrdinalIgnoreCase)))
+                        {
+                            aliasMatch = sheet;
+                            sheet = null;
                         }
                     }
                     finally
@@ -850,12 +906,23 @@ namespace ExcelAddIn1.Funtion
                     }
                 }
 
+                if (aliasMatch != null)
+                {
+                    created = false;
+                    return aliasMatch;
+                }
+
                 Excel.Worksheet added =
                     sheets.Add(
                         Type.Missing,
                         sheets.Item[sheets.Count],
                         1,
                         Excel.XlSheetType.xlWorksheet) as Excel.Worksheet;
+                if (added == null)
+                {
+                    throw new InvalidOperationException(
+                        "Khong tao duoc sheet don gia.");
+                }
                 added.Name = aliases[0];
                 created = true;
                 return added;
@@ -1118,6 +1185,77 @@ namespace ExcelAddIn1.Funtion
             finally
             {
                 Release(range);
+            }
+        }
+
+        private static string ReadWorksheetProperty(
+            Excel.Worksheet worksheet,
+            string name)
+        {
+            Excel.CustomProperties properties = null;
+            try
+            {
+                properties = worksheet.CustomProperties;
+                for (int index = 1;
+                    index <= properties.Count;
+                    index++)
+                {
+                    Excel.CustomProperty property = null;
+                    try
+                    {
+                        property = properties.Item[index];
+                        if (string.Equals(
+                            property.Name,
+                            name,
+                            StringComparison.OrdinalIgnoreCase))
+                        {
+                            return Convert.ToString(
+                                property.Value,
+                                CultureInfo.InvariantCulture) ??
+                                string.Empty;
+                        }
+                    }
+                    finally
+                    {
+                        Release(property);
+                    }
+                }
+                return string.Empty;
+            }
+            finally
+            {
+                Release(properties);
+            }
+        }
+
+        private static WorksheetRole? RoleForEnvironment(
+            EstimateV2RateEnvironment environment)
+        {
+            switch (environment)
+            {
+                case EstimateV2RateEnvironment.Land:
+                    return WorksheetRole.UnitRateLand;
+                case EstimateV2RateEnvironment.InlandWater:
+                    return WorksheetRole.UnitRateWater;
+                case EstimateV2RateEnvironment.Sea:
+                default:
+                    return null;
+            }
+        }
+
+        private static EstimateV2LegacySheetKind LegacyKindForEnvironment(
+            EstimateV2RateEnvironment environment)
+        {
+            switch (environment)
+            {
+                case EstimateV2RateEnvironment.Land:
+                    return EstimateV2LegacySheetKind.UnitRateLand;
+                case EstimateV2RateEnvironment.InlandWater:
+                    return EstimateV2LegacySheetKind.UnitRateWater;
+                case EstimateV2RateEnvironment.Sea:
+                    return EstimateV2LegacySheetKind.UnitRateSea;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(environment));
             }
         }
 
