@@ -40,6 +40,7 @@ namespace ExcelAddIn1.Funtion
         internal WorkbookEstimateV2CostPreview(
             EstimateV2CostLinkPlan plan,
             int ratedWorkItemCount,
+            int warningWorkItemCount,
             int formulaErrorWorkItemCount,
             bool thkpLinked,
             IEnumerable<string> packageErrors,
@@ -47,6 +48,7 @@ namespace ExcelAddIn1.Funtion
         {
             Plan = plan ?? throw new ArgumentNullException(nameof(plan));
             RatedWorkItemCount = ratedWorkItemCount;
+            WarningWorkItemCount = warningWorkItemCount;
             FormulaErrorWorkItemCount = formulaErrorWorkItemCount;
             ThkpLinked = thkpLinked;
             PackageErrors = new ReadOnlyCollection<string>(
@@ -65,16 +67,11 @@ namespace ExcelAddIn1.Funtion
         public EstimateV2CostLinkPlan Plan { get; }
         public int TotalWorkItemCount => Plan.TotalCount;
         public int RatedWorkItemCount { get; }
+        public int WarningWorkItemCount { get; }
         public int FormulaErrorWorkItemCount { get; }
         public bool ThkpLinked { get; }
         public IReadOnlyList<string> PackageErrors { get; }
         public IReadOnlyList<EstimateV2CostIssue> Issues { get; }
-
-        public int WarningWorkItemCount =>
-            Plan.UnboundCount +
-            Math.Max(0, Plan.ReadyCount - RatedWorkItemCount) +
-            Plan.ConditionReviewCount +
-            PackageErrors.Count;
 
         public bool CanUpdate =>
             TotalWorkItemCount > 0;
@@ -113,11 +110,34 @@ namespace ExcelAddIn1.Funtion
                 state,
                 packageErrors);
 
+            var generatedByRate =
+                new Dictionary<string, bool>(
+                    StringComparer.OrdinalIgnoreCase);
+            foreach (string rateId in plan.Links
+                .Where(item => item.IsReady)
+                .Select(item => item.RateId)
+                .Distinct(StringComparer.OrdinalIgnoreCase))
+            {
+                generatedByRate[rateId] =
+                    WorkbookEstimateV2RateService.IsGenerated(
+                        workbook,
+                        rateId);
+            }
+
             int rated = plan.Links.Count(item =>
                 item.IsReady &&
-                WorkbookEstimateV2RateService.IsGenerated(
-                    workbook,
-                    item.RateId));
+                generatedByRate.TryGetValue(
+                    item.RateId,
+                    out bool generated) &&
+                generated);
+
+            int warningWorkItems = plan.Links.Count(item =>
+                item.Status != EstimateV2CostLinkStatus.Ready ||
+                !generatedByRate.TryGetValue(
+                    item.RateId,
+                    out bool generated) ||
+                !generated ||
+                item.RequiresConditionReview);
 
             int formulaErrors = CountFormulaErrorWorkItems(
                 workbook);
@@ -179,6 +199,26 @@ namespace ExcelAddIn1.Funtion
                     EstimateV2CostIssueSeverity.Warning));
             }
 
+            if (plan.UnboundCount == 0 &&
+                plan.TotalCount > 0)
+            {
+                issues.Add(new EstimateV2CostIssue(
+                    "BINDING_OK",
+                    "Tất cả công tác đã gắn định mức",
+                    "Không còn WorkItem chưa có binding định mức.",
+                    EstimateV2CostIssueSeverity.Info));
+            }
+
+            if (rated == plan.TotalCount &&
+                plan.TotalCount > 0)
+            {
+                issues.Add(new EstimateV2CostIssue(
+                    "RATE_OK",
+                    "Đủ đơn giá cho tất cả công tác",
+                    "Mỗi WorkItem đã resolve tới RateId có workbook Name VL/NC/M.",
+                    EstimateV2CostIssueSeverity.Info));
+            }
+
             issues.Add(new EstimateV2CostIssue(
                 "FORMULA",
                 formulaErrors == 0
@@ -208,6 +248,7 @@ namespace ExcelAddIn1.Funtion
             return new WorkbookEstimateV2CostPreview(
                 plan,
                 rated,
+                warningWorkItems,
                 formulaErrors,
                 thkpLinked,
                 packageErrors,
