@@ -673,6 +673,7 @@ namespace ExcelAddIn1.Winform
                     .ToArray();
             }
 
+            rateGrid.EndEdit();
             var selected = new List<string>();
             foreach (DataGridViewRow row in rateGrid.Rows)
             {
