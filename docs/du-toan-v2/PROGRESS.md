@@ -2821,6 +2821,7 @@ V2-401 đã chốt. V2-501 đã được triển khai ở section bên dưới.
 - `bb6770a9162c` — cảnh báo layout metadata cũ;
 - `e64a6c46514b` — repair có thể sinh DG thiếu/migrate layout;
 - `7513172b15c7` — giữ Tổng quan nhẹ, full validation chạy on-demand;
+- `c251d0ddb0de` — tránh chạy full scan lặp lại khi bấm Kiểm tra hồ sơ;
 - `2041577ab432` — cập nhật UI contract.
 
 #### Tự kiểm tra trong môi trường hiện tại
