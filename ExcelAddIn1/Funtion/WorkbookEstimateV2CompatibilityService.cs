@@ -168,6 +168,35 @@ namespace ExcelAddIn1.Funtion
                 candidates[0].Name);
         }
 
+        public static Excel.Worksheet ResolveOutputWorksheetByKind(
+            Excel.Workbook workbook,
+            EstimateV2LegacySheetKind kind,
+            params string[] canonicalNames)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+
+            Excel.Worksheet exact =
+                FindWorksheetByNames(
+                    workbook,
+                    canonicalNames);
+            if (exact != null)
+                return exact;
+
+            List<SheetSnapshot> candidates =
+                CaptureSheets(workbook)
+                    .Where(item =>
+                        item.Classification.Kind == kind)
+                    .ToList();
+            if (candidates.Count != 1)
+                return null;
+
+            return ResolveSheet(
+                workbook,
+                candidates[0].CodeName,
+                candidates[0].Name);
+        }
+
         public static bool NormalizeOutputSheetName(
             Excel.Workbook workbook,
             Excel.Worksheet sheet,
