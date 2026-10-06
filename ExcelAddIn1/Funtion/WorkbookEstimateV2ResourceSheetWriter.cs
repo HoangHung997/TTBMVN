@@ -902,9 +902,9 @@ namespace ExcelAddIn1.Funtion
             PriceProfile profile,
             string code)
         {
-            PriceProfileEntry entry;
-            if (profile != null && profile.TryFind(code, out entry))
-                return entry.DisplayName;
+            PriceProfilePrice price;
+            if (profile != null && profile.TryFind(code, out price))
+                return price.Entry.DisplayName;
             return code ?? string.Empty;
         }
 
@@ -1859,9 +1859,9 @@ namespace ExcelAddIn1.Funtion
                 decimal value;
                 if (MaterialPrices.TryGetValue(code, out value))
                     return value;
-                PriceProfileEntry entry;
-                if (profile != null && profile.TryFind(code, out entry))
-                    return profile.FindRequired(code).AppliedUnitPriceVnd;
+                PriceProfilePrice price;
+                if (profile != null && profile.TryFind(code, out price))
+                    return price.AppliedUnitPriceVnd;
                 return null;
             }
 
