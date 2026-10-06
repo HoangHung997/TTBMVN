@@ -587,9 +587,8 @@ namespace ExcelAddIn1.Funtion
                                item.WorksheetName,
                                "THKP-TC",
                                StringComparison.OrdinalIgnoreCase) ||
-                           !item.WorksheetName.StartsWith(
-                               "DG ",
-                               StringComparison.OrdinalIgnoreCase))))))
+                           !IsRateOrResourceSheetName(
+                               item.WorksheetName))))))
                 {
                     WorkbookEstimateV2CostLinkWriter.Apply(
                         workbook);
@@ -609,6 +608,20 @@ namespace ExcelAddIn1.Funtion
                 regenerated,
                 costLinksRebuilt,
                 errors);
+        }
+
+        private static bool IsRateOrResourceSheetName(
+            string worksheetName)
+        {
+            string name =
+                (worksheetName ?? string.Empty).Trim();
+            return string.Equals(
+                    name,
+                    "VL-NC-M",
+                    StringComparison.OrdinalIgnoreCase) ||
+                name.StartsWith(
+                    "DG ",
+                    StringComparison.OrdinalIgnoreCase);
         }
 
         private static void AddBindingFindings(
