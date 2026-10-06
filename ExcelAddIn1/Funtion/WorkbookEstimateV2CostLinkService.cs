@@ -236,10 +236,10 @@ namespace ExcelAddIn1.Funtion
             issues.Add(new EstimateV2CostIssue(
                 "THKP",
                 thkpLinked
-                    ? "Số liệu tổng hợp đã liên kết"
+                    ? "Số liệu tổng hợp khớp"
                     : "THKP-TC chưa được cập nhật bằng liên kết V2",
                 thkpLinked
-                    ? "VL, NC, M và T lấy từ các dòng WorkItem qua workbook Name."
+                    ? "Tổng THKP-TC liên kết với VL, NC, M và T từ các bảng chi tiết."
                     : "Bấm Cập nhật THKP-TC để tạo/cập nhật liên kết.",
                 thkpLinked
                     ? EstimateV2CostIssueSeverity.Info
@@ -253,6 +253,14 @@ namespace ExcelAddIn1.Funtion
                 thkpLinked,
                 packageErrors,
                 issues);
+        }
+
+        public static bool HasDirectCostLinks(
+            Excel.Workbook workbook)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+            return IsThkpDirectCostLinked(workbook);
         }
 
         internal static EstimateV2CostLinkPlan BuildLinkPlan(
