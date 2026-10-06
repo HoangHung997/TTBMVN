@@ -166,7 +166,11 @@ namespace ExcelAddIn1.Winform
                 "DG Nước",
                 "Tính đơn giá cho điều kiện thi công dưới nước.",
                 ShowWaterRates);
-            AddStep(stepsPanel, "THKP-TC & Kiểm tra", "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.", null);
+            AddStep(
+                stepsPanel,
+                "THKP-TC & Kiểm tra",
+                "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.",
+                ShowCostSummary);
             stepsPanel.SizeChanged += (s, e) =>
             {
                 foreach (Control control in stepsPanel.Controls)
@@ -376,6 +380,13 @@ namespace ExcelAddIn1.Winform
             ShowChild(new EstimateUnitRatesPaneView(
                 workbook,
                 EstimateV2RateEnvironment.Sea,
+                ShowOverview));
+        }
+
+        private void ShowCostSummary()
+        {
+            ShowChild(new EstimateCostSummaryPaneView(
+                workbook,
                 ShowOverview));
         }
 
