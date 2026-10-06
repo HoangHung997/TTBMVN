@@ -323,6 +323,7 @@ namespace ExcelAddIn1.Winform
             }
             catch (Exception ex)
             {
+                preview = null;
                 totalValue.Text = "0";
                 ratedValue.Text = "0";
                 warningValue.Text = "!";
@@ -761,43 +762,32 @@ namespace ExcelAddIn1.Winform
 
         private void RunValidationCheck()
         {
-            try
-            {
-                WorkbookEstimateV2ValidationReport report =
-                    WorkbookEstimateV2ValidationService.Scan(
-                        workbook);
-                RefreshPreview();
+            RefreshPreview();
+            if (preview == null)
+                return;
 
-                int errors = report.Findings.Count(item =>
-                    item.Severity ==
-                        EstimateV2CostIssueSeverity.Error);
-                int warnings = report.Findings.Count(item =>
-                    item.Severity ==
-                        EstimateV2CostIssueSeverity.Warning);
+            int errors = preview.Issues.Count(item =>
+                item.Severity ==
+                    EstimateV2CostIssueSeverity.Error);
+            int warnings = preview.Issues.Count(item =>
+                item.Severity ==
+                    EstimateV2CostIssueSeverity.Warning);
 
-                if (errors == 0 &&
-                    warnings == 0)
-                {
-                    ShowStatus(
-                        "Kiểm tra hồ sơ hoàn tất: không phát hiện lỗi/cảnh báo trong các vùng V2 đang quản lý.",
-                        false);
-                }
-                else
-                {
-                    ShowStatus(
-                        "Kiểm tra hồ sơ hoàn tất: " +
-                        errors.ToString("N0") +
-                        " lỗi, " +
-                        warnings.ToString("N0") +
-                        " cảnh báo. Các lỗi ID/ô định mức an toàn đã được reconcile tự động.",
-                        true);
-                }
-            }
-            catch (Exception ex)
+            if (errors == 0 &&
+                warnings == 0)
             {
                 ShowStatus(
-                    "Không kiểm tra được hồ sơ: " +
-                    ex.Message,
+                    "Kiểm tra hồ sơ hoàn tất: không phát hiện lỗi/cảnh báo trong các vùng V2 đang quản lý.",
+                    false);
+            }
+            else
+            {
+                ShowStatus(
+                    "Kiểm tra hồ sơ hoàn tất: " +
+                    errors.ToString("N0") +
+                    " lỗi, " +
+                    warnings.ToString("N0") +
+                    " cảnh báo. Các lỗi ID/ô định mức an toàn đã được reconcile tự động.",
                     true);
             }
         }
