@@ -31,6 +31,16 @@ namespace ExcelAddIn1.Core
             return "TTBMVN_V2_INPUT_" + Hash(canonical).Substring(0, 20);
         }
 
+        public static string RateComponent(
+            string rateId,
+            string component)
+        {
+            string canonical = "RATE|" +
+                (rateId ?? string.Empty).Trim().ToUpperInvariant() + "|" +
+                (component ?? string.Empty).Trim().ToUpperInvariant();
+            return "TTBMVN_V2_RATE_" + Hash(canonical).Substring(0, 20);
+        }
+
         public static string FuelInput(string priceCode)
         {
             string canonical = "FUEL|" +
