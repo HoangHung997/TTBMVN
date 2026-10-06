@@ -59,6 +59,8 @@ namespace ExcelAddIn1.Tests
             Run("EstimateAppendixCalculation", TestEstimateAppendixCalculation);
             Run("EstimateAppendixValidation", TestEstimateAppendixValidation);
             Run("EstimateWorkspaceRoundTrip", TestEstimateWorkspaceRoundTrip);
+            Run("EstimateV2StateRoundTrip", TestEstimateV2StateRoundTrip);
+            Run("EstimateV2Fingerprint", TestEstimateV2Fingerprint);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2064,6 +2066,84 @@ namespace ExcelAddIn1.Tests
             AssertTrue(restored.Rows[5].IsTextRow);
             AssertThrows<InvalidDataException>(() => EstimateWorkspaceSerializer.Deserialize(
                 payload.Replace("description=", "description=X")));
+        }
+
+        private static void TestEstimateV2StateRoundTrip()
+        {
+            string id = "00112233445566778899aabbccddeeff";
+            string fingerprint = EstimateV2Fingerprint.Compute(
+                "TC.01",
+                "Do tim tren can den do sau 0,3m",
+                "ha",
+                "WORKITEM");
+            var item = new EstimateV2WorkItemState(
+                id,
+                "020.0200.1",
+                "BQP-RPBM-2025",
+                "2.0.1",
+                "WORKITEM",
+                fingerprint,
+                false);
+            var state = new EstimateV2State(
+                new[] { item },
+                new DateTime(2026, 10, 6, 2, 0, 0, DateTimeKind.Utc));
+
+            string xml = EstimateV2StateSerializer.Serialize(state);
+            EstimateV2State restored = EstimateV2StateSerializer.Deserialize(xml);
+
+            AssertEqual(1, restored.WorkItems.Count);
+            AssertEqual(id, restored.WorkItems[0].WorkItemId);
+            AssertEqual("020.0200.1", restored.WorkItems[0].NormCode);
+            AssertEqual("BQP-RPBM-2025", restored.WorkItems[0].PackageId);
+            AssertEqual("2.0.1", restored.WorkItems[0].DataVersion);
+            AssertEqual("WORKITEM", restored.WorkItems[0].Kind);
+            AssertEqual(fingerprint, restored.WorkItems[0].Fingerprint);
+            AssertFalse(restored.WorkItems[0].IsOrphaned);
+            AssertTrue(restored.WorkItems[0].HasNormBinding);
+
+            EstimateV2State updated = restored.Upsert(
+                restored.WorkItems[0].WithoutBinding().WithOrphaned(true),
+                DateTime.UtcNow);
+            AssertFalse(updated.WorkItems[0].HasNormBinding);
+            AssertTrue(updated.WorkItems[0].IsOrphaned);
+
+            AssertThrows<ArgumentException>(() => new EstimateV2State(
+                new[] { item, item },
+                DateTime.UtcNow));
+            AssertThrows<InvalidDataException>(() =>
+                EstimateV2StateSerializer.Deserialize(
+                    xml.Replace("schemaVersion=\"1\"", "schemaVersion=\"99\"")));
+            AssertThrows<ArgumentException>(() => new EstimateV2WorkItemState(
+                "not-a-guid",
+                string.Empty,
+                string.Empty,
+                string.Empty,
+                "WORKITEM",
+                string.Empty,
+                false));
+        }
+
+        private static void TestEstimateV2Fingerprint()
+        {
+            string first = EstimateV2Fingerprint.Compute(
+                " tc.01 ",
+                "Do   tim\ntren can",
+                "ha",
+                "workitem");
+            string second = EstimateV2Fingerprint.Compute(
+                "TC.01",
+                "DO TIM TREN CAN",
+                "HA",
+                "WORKITEM");
+            string third = EstimateV2Fingerprint.Compute(
+                "TC.02",
+                "DO TIM TREN CAN",
+                "HA",
+                "WORKITEM");
+
+            AssertEqual(first, second);
+            AssertFalse(string.Equals(first, third, StringComparison.Ordinal));
+            AssertEqual(64, first.Length);
         }
 
         private static void TestEstimateRateGrouping()
