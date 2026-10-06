@@ -237,7 +237,27 @@ namespace ExcelAddIn1.Core
                     resources));
             }
 
-            return new EstimateV2RatePlan(items);
+            IEnumerable<EstimateV2RateItem> merged = items
+                .GroupBy(item => item.RateId, StringComparer.OrdinalIgnoreCase)
+                .Select(group =>
+                {
+                    EstimateV2RateItem first = group.First();
+                    if (group.Count() == 1)
+                        return first;
+                    return new EstimateV2RateItem(
+                        first.RateId,
+                        first.PackageIdentity,
+                        first.NormCode,
+                        first.VariantCode,
+                        first.Title,
+                        first.WorkUnit,
+                        first.Environment,
+                        group.Sum(item => item.UsageCount),
+                        group.Any(item => item.RequiresConditionReview),
+                        first.Resources);
+                });
+
+            return new EstimateV2RatePlan(merged);
         }
 
         public static EstimateV2RateEnvironment ClassifyEnvironment(
