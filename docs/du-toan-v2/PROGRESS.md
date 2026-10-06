@@ -2,7 +2,7 @@
 
 > Tài liệu này là nguồn trạng thái chính cho quá trình tiếp quản và phát triển module Dự toán V2.
 > Mỗi task phải ghi rõ: mục tiêu, thay đổi đã làm, file liên quan, trạng thái kiểm tra và việc tiếp theo.
-> Người tiếp quản sau chỉ cần đọc file này cùng README, ARCHITECTURE, MIGRATION-PLAN và UI-CONTRACT là biết dự án đang ở đâu.
+> Người tiếp quản bắt đầu từ `HANDOVER.md`, sau đó đọc file này cùng README, ARCHITECTURE, MIGRATION-PLAN và UI-CONTRACT để biết dự án đang ở đâu.
 
 ## Trạng thái tổng quan
 
@@ -24,7 +24,7 @@
 
 ## UI CONTRACT — BẮT BUỘC
 
-UI V2 phải bám theo bộ 10 ảnh người dùng đã chốt và được mô tả trong:
+UI V2 phải bám theo bộ ảnh/ngôn ngữ giao diện người dùng đã chốt và được mô tả trong:
 
 - `docs/du-toan-v2/UI-CONTRACT.md`
 
