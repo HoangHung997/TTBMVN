@@ -1,0 +1,57 @@
+mm
+.                                                                   23
+
+3. Trinh tự thực hiện:                                                                                              `
+
+a) Khi máy dò bom phát tín hiệu có vật thé gây nhiễm từ dưới đáy nước tại vị
+trí đang dò tìm (chỉ thị bằng âm thanh hoặc độ lệch của kim đồng hồ), di chuyển
+máy dò theo dây dò để kiểm tra xác định chính xác vị trí tâm của tín hiệu;
+
+b) Thả neo loại 20 kg (đối với các khu vực có lưu tốc dòng chảy trên 1 m/s         )
+và độ sâu nước trên 3 m) và loại 10 kg (đối với các khu vực khác) cạnh vị trí tâm
+tín hiệu vừa xác định, neo được nối với các phao nhựa đường kính trên 0,3 m bằng
+các dây nilon đường kính 12 mm, trên phao có cắm cờ màu đỏ đánh dấu tín hiệu;
+
+c) Khi độ sâu nước dưới 3 m dùng cọc tre (sào) cắm đề đánh dầu vị trí tín hiệu.
+
+Điều 37. Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m                          |
+
+1. Trường hop áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu
+đến 0,5 m tính từ đáy nước.
+
+2. Trang bị: thiết bị bảo vệ người, máy dò, thiết bị lặn, thuyền composit,
+thuyền cao su, thuốn, xéng, dây cáp nilon các loại.
+
+3. Trình tự thực hiện:
+
+a) Sử dụng máy dò xác định chính xác vị trí tín hiệu; thợ lặn mang theo các
+dụng cụ, lặn xuống vị trí tín hiệu đã được đánh dấu, tiền hành kiểm tra xác định
+chính xác vị trí và độ sâu của tín hiệu; kiểm tra bang thudn, dao tim theo đúng kỹ
+thuật cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nổ lạ thì đánh dấu lại dé hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+¢) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh            |
+va phía dưới vi tri tin hiệu vừa xử ly để đảm bảo sạch hết tin hiệu. Nếu còn tin
+hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 38. Lin kiểm tra, đào xử lý tín hiệu ở độ sâu trên 0,5 m đến 1 m              |
+
+1. Trường hợp áp dụng: tất cả các tín hiệu đã được phát hiện và đánh dấu ở           |
+độ sâu lớn hơn 0,5 m đến 1 m tính từ đáy nước.
+
+2. Trang bị: máy dò, thiết bị lặn, thuyền composit có cầu mi ni tự hành,
+thuyền cao su các loại, máy xói và hút bùn cát công suất lớn, phao, neo, thuốn,
+xéng, dây cáp nilon các loại, các trang bị bảo đảm an toàn va bảo hộ lao động.
+
+3. Trình tự thực hiện:                                                                                           |
+
+a) Tập kết phương tiện, sử dụng máy dò bom dé xác định chính xác vi trí tín            |
+hiệu; thợ lặn mang theo các dụng cụ làm tay lặn xuống vị trí tín hiệu đã đánh dấu,            |
+tiến hành việc kiểm tra xác định chính xác vị tri tín hiệu và độ nằm sâu của tín          |
+hiệu; tiến hành các động tác xăm tìm bằng thuốn kết hợp với dùng vòi xói, thận
+trọng đào bới theo đúng yêu cầu kỹ thuật cho đến khi lộ hin vật gây tín hiệu;                      |

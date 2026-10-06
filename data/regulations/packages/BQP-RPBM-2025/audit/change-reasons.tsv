@@ -1,0 +1,249 @@
+module	key	changeType	changedFields	reason	sourceDocumentId	pageFrom	pageTo	reviewStatus
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	added	TT101 Điều 5 và 98/VBHN-BQP hợp nhất sửa đổi QCVN 01:2022/BQP.	VBHN98-2025-BQP	1	6	VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	added	TT101 Điều 7 xác lập ngày hiệu lực 28/10/2025.	TT101-2025-BQP	18	18	VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	added	TT101 Điều 6 bổ sung quy tắc chuyển tiếp.	TT101-2025-BQP	17	18	VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	title,data,sourceDocumentId,pageFrom,pageTo,section	95/VBHN-BQP hợp nhất hiệu lực nền TT121 với sửa đổi TT101 từ 28/10/2025.	VBHN95-2025-BQP	1	2	VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	title,data,sourceDocumentId,pageFrom,pageTo,section	96/VBHN-BQP hợp nhất hiệu lực nền TT122 với sửa đổi TT101 từ 28/10/2025.	VBHN96-2025-BQP	1	2	VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT123-EFFECTIVE	Changed	title,data,sourceDocumentId,pageFrom,section	97/VBHN-BQP hợp nhất hiệu lực nền TT123 với sửa đổi TT101 từ 28/10/2025.	VBHN97-2025-BQP	1	2	VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	added	Bổ sung căn cứ quản lý đã hợp nhất tại 94/VBHN-BQP.	VBHN94-2025-BQP	1	3	VerifiedAgainstOfficialSource
+CostRule	COST-COMMON	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-DIRECT-LABOR-NONSTATE	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	43	43	VerifiedAgainstOfficialSource
+CostRule	COST-DIRECT-LABOR-STATE	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	43	43	VerifiedAgainstOfficialSource
+CostRule	COST-DIRECT-MACHINE	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	43	43	VerifiedAgainstOfficialSource
+CostRule	COST-DIRECT-MATERIAL	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	43	43	VerifiedAgainstOfficialSource
+CostRule	COST-DIRECT-TOTAL	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	43	43	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-01	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-02	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-03	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-04	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-05	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-06	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-07	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K1K4-TERRAIN-08	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-K2-LINEAR	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Phụ lục III khoản 5 giảm tỷ lệ K2 cho dự án theo tuyến.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K2-OTHER	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Phụ lục III khoản 5 giảm tỷ lệ K2 cho các dự án còn lại.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K3-1-TO-5	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K3-FROM-5	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K3-LIMITS	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K3-UNDER-1	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K5-AGRICULTURE	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K5-CIVIL	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K5-INDUSTRIAL	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K5-INFRASTRUCTURE	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K5-TRANSPORT	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	45	45	VerifiedAgainstOfficialSource
+CostRule	COST-K6-OVER-1000	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	46	46	VerifiedAgainstOfficialSource
+CostRule	COST-K6-UNDER-1000	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	46	46	VerifiedAgainstOfficialSource
+CostRule	COST-K7-K10	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	46	46	VerifiedAgainstOfficialSource
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	added	TT101 Phụ lục III khoản 6 bổ sung mức tối thiểu 6.300.000 đồng.	VBHN97-2025-BQP	46	46	VerifiedAgainstOfficialSource
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	added	TT101 Phụ lục III khoản 4 bổ sung mức tối thiểu 6.300.000 đồng.	VBHN97-2025-BQP	44	44	VerifiedAgainstOfficialSource
+CostRule	COST-SPECIAL-CONDITION	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	46	46	VerifiedAgainstOfficialSource
+CostRule	COST-TAX	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	46	46	VerifiedAgainstOfficialSource
+CostRule	COST-TEMPLATE-01	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	48	48	VerifiedAgainstOfficialSource
+CostRule	COST-TEMPLATE-02	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	49	49	VerifiedAgainstOfficialSource
+CostRule	COST-TEMPLATE-03	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	50	50	VerifiedAgainstOfficialSource
+CostRule	COST-TEMPLATE-04	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết CostRule sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	51	51	VerifiedAgainstOfficialSource
+CostRule	COST-TEMPLATE-05	Added	added	TT101 Phụ lục III khoản 7 bổ sung Biểu mẫu 05.	VBHN97-2025-BQP	52	52	VerifiedAgainstOfficialSource
+Geography	GEO-DENSITY-CLASS-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-DENSITY-CLASS-2	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-DENSITY-CLASS-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-DENSITY-CLASS-4	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-DENSITY-CLASS-SPECIAL	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-FOREST-CLASS-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	16	VerifiedAgainstOfficialSource
+Geography	GEO-FOREST-CLASS-2	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	16	VerifiedAgainstOfficialSource
+Geography	GEO-FOREST-CLASS-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	16	VerifiedAgainstOfficialSource
+Geography	GEO-FOREST-CLASS-4	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	16	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-SIGNAL-SPECIAL	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-SIGNAL-ZONE-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-SIGNAL-ZONE-2	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-SIGNAL-ZONE-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-SIGNAL-ZONE-4	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-ZONE-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-ZONE-2	Changed	sourceDocumentId,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-ZONE-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	14	VerifiedAgainstOfficialSource
+Geography	GEO-LAND-ZONE-4	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	5	14	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-AN-GIANG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	13	13	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-BAC-NINH	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-CA-MAU	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-CAN-THO	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	13	13	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-CAO-BANG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DA-NANG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	9	10	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DAK-LAK	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	11	11	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DONG-NAI	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	12	12	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DONG-THAP	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	12	13	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-GIA-LAI	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	10	11	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HA-NOI	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HA-TINH	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	8	9	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HAI-PHONG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	7	7	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	12	12	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HUE	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	9	9	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HUNG-YEN	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	7	7	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-KHANH-HOA	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	11	11	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LAI-CHAU	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LAM-DONG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	11	11	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LANG-SON	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	5	5	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LAO-CAI	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-NGHE-AN	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	8	8	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-NINH-BINH	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	7	7	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-PHU-THO	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	10	10	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-QUANG-NINH	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	7	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-QUANG-TRI	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	9	9	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-SON-LA	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-TAY-NINH	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	12	12	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	5	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-THANH-HOA	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	7	8	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	6	6	VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-VINH-LONG	Added	added	TT101 Phụ lục III khoản 1 thay toàn bộ bảng phân vùng địa bàn sau sắp xếp hành chính.	VBHN97-2025-BQP	13	13	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-SIGNAL-SPECIAL	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-SIGNAL-ZONE-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-SIGNAL-ZONE-2	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-SIGNAL-ZONE-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-ZONE-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-ZONE-2	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Phụ lục III khoản 1 thay danh sách tỉnh, thành phố khu vực 2 dưới biển.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-ZONE-3	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Phụ lục III khoản 1 thay danh sách tỉnh, thành phố khu vực 3 dưới biển.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-SEA-ZONE-SPECIAL	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	14	14	VerifiedAgainstOfficialSource
+Geography	GEO-SOIL-CLASS-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	16	18	VerifiedAgainstOfficialSource
+Geography	GEO-SOIL-CLASS-2	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	16	18	VerifiedAgainstOfficialSource
+Geography	GEO-SOIL-CLASS-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	16	18	VerifiedAgainstOfficialSource
+Geography	GEO-SOIL-CLASS-4	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	16	18	VerifiedAgainstOfficialSource
+Geography	GEO-WATER-SIGNAL-SPECIAL	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-WATER-SIGNAL-ZONE-1	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-WATER-SIGNAL-ZONE-2	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-WATER-SIGNAL-ZONE-3	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+Geography	GEO-WATER-SIGNAL-ZONE-4	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Geography sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	15	15	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.001	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	15	24	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.002	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	15	24	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.003	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	24	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.004	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	24	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.005	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.006	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.007	Changed	title,data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.008	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.009	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.010	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	16	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.011	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	25	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.012	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.013	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.014	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.015	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.016	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.017	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.018	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	17	26	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.019	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	27	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.020	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	27	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.021	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	27	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.022	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	27	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.023	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	27	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.024	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.025	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	18	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.026	Changed	title,data,sourceDocumentId,pageFrom,pageTo,section	Phụ lục IV TT101 xác nhận tên thiết bị M010.026 là Máy điểm hỏa.	VBHN96-2025-BQP	19	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.027	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.028	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.029	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.030	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	28	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.031	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	29	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.032	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	29	VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.033	Changed	data,sourceDocumentId,pageFrom,pageTo,section	TT101 Phụ lục IV thay dữ liệu cơ bản xác định giá ca máy.	VBHN96-2025-BQP	19	29	VerifiedAgainstOfficialSource
+Norm	NORM-000.0100	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	18	19	VerifiedAgainstOfficialSource
+Norm	NORM-000.0200	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	19	19	VerifiedAgainstOfficialSource
+Norm	NORM-000.0300	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	19	20	VerifiedAgainstOfficialSource
+Norm	NORM-000.0400	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	20	20	VerifiedAgainstOfficialSource
+Norm	NORM-010.0100	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	20	21	VerifiedAgainstOfficialSource
+Norm	NORM-010.0200	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	21	21	VerifiedAgainstOfficialSource
+Norm	NORM-010.0300	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	21	21	VerifiedAgainstOfficialSource
+Norm	NORM-010.0400	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	21	22	VerifiedAgainstOfficialSource
+Norm	NORM-020.0100	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	22	23	VerifiedAgainstOfficialSource
+Norm	NORM-020.0200	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	23	23	VerifiedAgainstOfficialSource
+Norm	NORM-020.0300	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	23	24	VerifiedAgainstOfficialSource
+Norm	NORM-020.0400	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	24	24	VerifiedAgainstOfficialSource
+Norm	NORM-020.0500	Changed	title,data,sourceDocumentId,pageFrom,pageTo	TT101 Phụ lục III khoản 2 sửa chiều sâu và hao phí định mức 020.0500.	VBHN97-2025-BQP	24	25	VerifiedAgainstOfficialSource
+Norm	NORM-020.0600	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	25	26	VerifiedAgainstOfficialSource
+Norm	NORM-020.0700	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	26	26	VerifiedAgainstOfficialSource
+Norm	NORM-020.0800	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	26	27	VerifiedAgainstOfficialSource
+Norm	NORM-020.0900	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	27	28	VerifiedAgainstOfficialSource
+Norm	NORM-020.1000	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	28	29	VerifiedAgainstOfficialSource
+Norm	NORM-020.1100	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	29	29	VerifiedAgainstOfficialSource
+Norm	NORM-020.1200	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	29	30	VerifiedAgainstOfficialSource
+Norm	NORM-030.0100	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	30	31	VerifiedAgainstOfficialSource
+Norm	NORM-030.0200	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	31	32	VerifiedAgainstOfficialSource
+Norm	NORM-030.0300	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	32	33	VerifiedAgainstOfficialSource
+Norm	NORM-030.0400	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	33	33	VerifiedAgainstOfficialSource
+Norm	NORM-030.0500	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	33	34	VerifiedAgainstOfficialSource
+Norm	NORM-030.0600	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	34	35	VerifiedAgainstOfficialSource
+Norm	NORM-030.0700	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	35	36	VerifiedAgainstOfficialSource
+Norm	NORM-030.0800	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	36	37	VerifiedAgainstOfficialSource
+Norm	NORM-040.0100	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	37	37	VerifiedAgainstOfficialSource
+Norm	NORM-040.0200	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	37	38	VerifiedAgainstOfficialSource
+Norm	NORM-040.0300	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	38	39	VerifiedAgainstOfficialSource
+Norm	NORM-040.0400	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	39	39	VerifiedAgainstOfficialSource
+Norm	NORM-040.0500	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	39	40	VerifiedAgainstOfficialSource
+Norm	NORM-040.0600	Changed	data,sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết Norm sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN97-2025-BQP	40	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	added	TT101 Phụ lục III khoản 3 bổ sung suất dự toán tạm tính theo héc ta.	VBHN97-2025-BQP	42	42	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-001	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	3	3	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-002	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	3	3	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-003	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	3	3	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-004	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	3	4	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-005	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Điều 2 sửa nội dung điều tương ứng trong Quy trình kỹ thuật.	VBHN95-2025-BQP	4	5	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-006	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	5	7	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-007	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	7	7	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-008	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	7	8	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-009	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	8	9	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-010	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	9	10	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-011	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	10	10	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-012	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Điều 2 sửa nội dung điều tương ứng trong Quy trình kỹ thuật.	VBHN95-2025-BQP	10	13	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-013	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	13	13	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-014	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Điều 2 sửa nội dung điều tương ứng trong Quy trình kỹ thuật.	VBHN95-2025-BQP	13	15	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-015	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	15	16	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-016	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	16	16	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-017	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	16	17	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-018	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	17	17	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-019	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	17	19	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-020	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	19	19	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-021	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	19	20	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-022	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	20	20	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-023	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	20	21	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-024	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	21	21	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-025	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	21	22	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-026	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	22	22	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-027	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	22	23	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-028	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	23	24	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-029	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	24	24	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-030	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	24	25	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-031	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	25	25	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-032	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	25	25	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-033	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	25	25	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-034	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	25	26	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-035	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	26	26	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-036	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	26	27	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-037	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	27	27	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-038	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	27	28	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-039	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	28	29	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-040	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	29	29	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-041	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	29	30	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-042	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	30	30	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-043	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	30	31	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-044	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	31	31	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-045	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	31	31	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-046	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	31	32	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-047	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	32	32	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-048	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	32	33	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-049	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	33	34	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-050	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	34	35	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-051	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	35	35	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-052	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	35	35	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-053	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	35	36	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-054	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	36	36	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-055	Changed	data,sourceDocumentId,pageFrom,pageTo	TT101 Điều 2 sửa nội dung điều tương ứng trong Quy trình kỹ thuật.	VBHN95-2025-BQP	36	37	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-056	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	37	37	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-057	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	37	38	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-058	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	38	38	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-DIEU-059	Changed	sourceDocumentId,pageFrom,pageTo	Đổi nguồn truy vết TechnicalProcess sang văn bản hợp nhất hiệu lực 28/10/2025.	VBHN95-2025-BQP	38	38	VerifiedAgainstOfficialSource
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	added	TT101 Điều 2 khoản 5 thay Mẫu RPBM-13.	VBHN95-2025-BQP	89	90	VerifiedAgainstOfficialSource

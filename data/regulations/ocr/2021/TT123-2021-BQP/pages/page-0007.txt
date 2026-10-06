@@ -1,0 +1,61 @@
+c) Ra phá bom min vật nổ dưới biển tính cho 10.000 m?
+
+A        ,                                   Số lượng tín hiệu
+TT      Phân loại                   -                    -                             -
+khu vực         Trên bê mặt         Đên độ sâu 1m       Đền độ sâu 5m
+đáy nước           tính từ đáy nước | tính từ đáy nước
+
+1       Khu vực 1         Trên 0 đến 15             Trên 0 đến 1            Trên 0 đến 0,1
+2       Khu vực 2        Trên 15 đến 23            Trên 1 đến 3            Trên 0 đến 0,3
+3       Khu vực 3        Trên 23 đến 30            Trên 3 đến 4           Trên 0 đến 0,5
+# | Khe               Trên 30                © Trên4                     Trên 0,5
+
+đặc biệt
+
+6. Phân loại rừng phải phát quang dé dọn mặt bằng
+
+TT
+
+Loại rừng
+
+_“Nội dung
+
+Bãi hoặc đồi tranh, lau, sim mua, cỏ lau, cỏ lác trên địa bàn khô
+ráo. Thỉnh thoảng có cây non hoặc cây có đường kính từ 10 cm
+trở lên.
+
+` «reas `
+
+II
+
+- Rừng cây non, mật độ cây con, dây leo chiếm dưới 2/3 diện
+tích và cứ 100 m” có từ 5 đến 25 cây có đường kính từ 5 cm
+đến 10 cm.
+
+- Đắt có cỏ lau, cỏ lac dầy đặc trên địa hình sình lầy, ngập nước.
+- Đồng đất có các loại cây mắm, cốc, vẹt...trên địa bàn khô ráo.
+
+II
+
+- Rừng cây đã khai thác, cây con, dây leo chiếm hơn 2/3 diện
+
+tích và cứ hơn 100 m? rừng có từ 30 đến 100 cây có đường kính
+từ 5 cm đến 10 cm, xen lẫn cây có đường kính lớn hơn 10 cm.
+
+- Đồng đất có các loại tràm, đước... trên địa bàn khô ráo.
+
+- Đồng đất có các loại cây mắm, cốc, vẹt... địa bàn lầy thụt,
+nước nổi.
+
+IV
+
+- Rừng tre, nứa già, lồ ô hoặc le, mật độ tre nứa, 16 6, le... dầy đặc.
+Thinh thoảng có cây con có đường kính từ 5 cm đến 10 cm, dây
+leo, có lẫn cây có đường kính lớn hơn 10 cm.
+
+- Đồng đất có các loại tràm, đước... trên địa hình lầy thụt, nước nồi.
+
+Ghi chú:
+
+Đồi với các loại cây có đường kính lớn hơn 10 cm được quy đổi ra cây tiêu chuẩn (la
+cây có đường kính từ 10 cm đến 20 cm).

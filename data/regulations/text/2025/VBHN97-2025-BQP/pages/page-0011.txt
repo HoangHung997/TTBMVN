@@ -1,0 +1,36 @@
+11
+TT Tỉnh, thành phố Khu vực Tên địa phưong các xã, phưòìig, đặc khu
+Bình Dương, Phù Mỹ Đông, Phù Mỹ Tây, 
+Phù Mỹ Nam, Phù Mỹ Bắc, Chư Prông, Bàu 
+Cạn, la Boòng, la Lâu, la Pia, la Tôr, la Grai, la 
+Krái, A Hrung, Đức Cơ, la Dơk, la Krêl; các 
+phường Bồng Sơn, Hoài Nhơn, Tam Quan, 
+Hoài Nhơn Đông, Hoài Nhơn Tây, Hoài 
+Nhơn Nam, Hoài Nhơn Bắc.
+Gia Lai Khu vực 2
+Các xã Tây Sơn, Bình Khê, Bình Phú, Bình 
+Hiệp, Bình An, Vân Canh, Canh Vinh, Canh 
+Liên; Các xã Kông Chro, Ya Ma, Chư Krey, 
+SRÓ, Đăk Song, Chơ Long; các phường Quy 
+Nhơn, Quy Nhơn Nam, Quy Nhơn Bắc, Quy 
+Nhơn Tây, Quy Nhơn Đồng, Pleiku, Hội 
+Phú, Thống Nhất, Diên Hồng, An Phú.
+Khu vực 1Các xã, phường còn lại
+Khu vực 3Các xã Ea Ly, Ea Bá, Đức Bình, Sông Hinh, Phú 
+Hòa 1, Phú Hòa 2, Buôn Đôn, Ea Nuôi, Ea Wer.
+23 Đắk Lắk Khu vực 2Các xã Tuy An Bắc, Tuy An Đông, Ồ Loan, 
+Tuy An Nam, Tuy An Tây.
+Khu vực 1Các xã, phường còn lại
+24 Khánh Hòa
+Khu vực 3
+Các xã Ninh Sơn, Lâm Sơn, Anh Dũng, Mỹ 
+Sơn; các phường Nha Trang, Bắc Nha Trang, 
+Tây Nha Trang, Nam Nha Trang, Phan Rang, 
+Đông Hải, Ninh Chử, Bảo An, Đô Vinh.
+Khu vực 2Các xã Bác Ái Đông, Bác Ái, Bác Ái Tây, 
+Ninh Hải, Vĩnh Hải, Xuân HảiẾ
+Khu vực 1Các xã, phường còn lại
+25 Lâm Đồng
+Khu vực 2Các xã Nam Đà, Krông Nô, Nâm Nung, 
+Quảng Phú.
+Khu vực 1Các xã, phường còn lại

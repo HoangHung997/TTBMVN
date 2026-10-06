@@ -1,0 +1,22 @@
+1
+67
+STT Tên phương tiện, hoạt chất Đon vị tínhSố lượng
+18 Máy theo dõi bệnh nhân xách tay (monitor) tối 
+thiếu có 2 thông số: mạch, Sp02, dùng pinCái 01
+CHÚ THÍCH: Thuốc thiết yếu, dụng cụ tiêm truyền và các khoản khác thuộc mục 
+VIII cân phải có đủ như đã nêu tại các mục III, VI, VII trong bảng này.
+Bảng A.3 - Phương tiện y tế khác cho một tổ hỗ trợ y tế của công 
+trường RPBM
+TT Tên phương tiện Đon vị tínhSố lưọng
+1 Bộ dụng cụ hút, rửa dạ dày Bộ 01
+2 Dụng cụ soi thanh quản (có lưỡi đèn và pin)Cái 01
+3 Kìm Magill số 8 Cái 01
+4 Kìm Magill số 9 Cái 01
+5 Dung dịch nước muối rửa 0,9% Lít 10
+6 Máy hút dịch di động dùng nguồn ắc quy hoặc 
+điện xoay chiều 220 v/50 Hz Cái 01
+7 Máy theo dõi bệnh nhân xách tay (monitor) tối 
+thiểu có 2 thông số: Mạch, SpŨ2, dùng pin Cái 02
+8 Bộ ống thông tiểu các cỡ Bộ 02
+9 Bình nước uống 10 L Bình 02
+10 Chăn ủ ấm Cái 02

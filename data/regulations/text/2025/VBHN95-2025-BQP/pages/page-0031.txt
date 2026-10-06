@@ -1,0 +1,36 @@
+31
+4. Tàu bảo đảm hậu cần loại 350 cv: 01 chiếc.
+5. Thuyền gỗ (chở 3 tấn trở lên có máy đẩy và cẩu mi ni tự hành): 01 chiếc.
+6. Thiết bị lặn đến độ sâu 30 m (có thiết bị cấp hơi bề mặt): tối đa 04 bộ.
+7ẻ  Chuông lặn và trang thiết bị đồng bộ kèm theo: 01 bộ.
+8. Thiết bị hút và xói bùn cát: 01 bộ.
+9. Máy nén khí công suất lớn dùng xói bùn, cát: 01 bộ.
+10. Thiết bị ROV: 01 thiết bịẵ
+11 ề  Thiết bị dò tìm BMVN:
+a) Máy dò bom mìn dưới nước: tối đa 03 bộ.
+b) Thiết bị sona và từ kế: 01 bộ.
+c) Dụng cụ cầm tay: số lượng và chủng loại theo yêu cầu nhiệm vụẵ
+Điều 44. Chuần bị mặt bằng
+1. Di chuyển các chướng ngại vật ra khỏi khu vực thi công.
+2. Phát hiện, đánh dấu vị trí chướng ngại vật quá lớn không có điều kiện 
+trục vớt, xử lý (tàu thuyên đăm, neo lớn, dải đá ngầm), để khi thực hiện dò tìm 
+sẽ loại bỏ các vật gây nhiễuẻ
+Điều 45. Điều tiết giao thông
+1. Điều tiết giao thông là việc quan sát phát hiện, thông báo tàu, thuyền 
+đang hoạt động trong khu vực hoặc có dấu hiệu đi qua khu vực đang thi công 
+yêu cầu di chuyến hoặc vòng tránh sang hướng khác.
+2ế  Trang bị: Tàu 350 cv và các thiết bị thông tin tín hiệu gồm cờ, loa, bộ 
+đàm, súng bắn pháo hiệu và pháo hiệu.
+3. Trình tự thực hiện:
+a) Tàu điều tiết giao thông di chuyển trước đội hình hoặc ngoài khu vực thi 
+công, khoảng cách từ 300 m đến 500 m;
+b) Quan sát, phát hiện các tàu, thuyền hoạt động hoặc có dấu hiệu đi qua 
+khu vực thi công, phát tín hiệu đế tàu, thuyền di chuyến hoặc vòng tránh sang 
+hướng khác.
+Điều 46ệ Định vị điểm mốc đánh dấu phạm vi thi công
+1. Điểm mốc đánh dấu trong phạm vi thi công là điểm dùng để khống chế 
+phạm vi thi công.
+2. Trang bị: tàu đến 650 cv có trang bị thiết bị định vị vệ tinh (thiết bị DGPS).
+3. Trình tự thực hiện:
+a) Định vị bằng thiết bị DGPS;
+b) Xác định, đánh dấu các vị trí mốc vào sơ đồ khu vực thi công.

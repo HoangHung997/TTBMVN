@@ -1,0 +1,57 @@
+2
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định mửc 
+tiêu hao 
+nhiên liệu, 
+năng 
+lưoiĩg 
+(lca)
+Nhân 
+công điều 
+khiển 
+máy
+Nguyên giá 
+tham khảo 
+(VND)
+Giá 
+trị thu
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+4 M010.004 Máy xúc loại < 0,4 m3 280 16 4,8 5 29 Lít 
+diezel
+1 X bậc 
+8/10 613.644.600 10
+5 M010.005 Máy khoan đất loại xoắn ruột cà 
+có đường kính >76 mm 258 18 5,3 5 19 Lít 
+diezel
+1  X bậc 
+8/10 38.500.000 10
+6 M010.006 Thiết bị GPS cầm tay 258 14 1,5 4 2 đôi pin 
+tiểu
+1  X bậc 
+5/1 ô 3.580.000 0
+7 MO 10.007 Máy dò mìn dưới nước (MW 
+1630B là đại diện) 258 30 12 5 2 đôi pin 
+đại
+1  X bậc 
+8/10 178.707.000 10
+8 M010.008 Máy dò bom dưới nước đến độ sâu 
+5m (Foerster 4032api là đại diện)258 30 12 5 3 đôi pin 
+trung
+2 X bậc 
+8/10 303.046.800 10
+9 M010.009 Thuyền cao su tiểu 220T (chở 3 người)258 50 20 5 1  X bậc 
+7/10 7.990.000 0
+10 M010.010 Thuyền cao su trung 320S (chở 6 người)258 50 20 5 1 X bậc 
+8/10 12.591.000 0
+11 M010.011 Tàu loại 4200 c v 290 7 2,4 6 3211 Lít 
+diezel 6 X 20 101.976.100.00010
+1

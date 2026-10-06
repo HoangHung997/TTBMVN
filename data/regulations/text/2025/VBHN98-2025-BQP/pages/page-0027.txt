@@ -1,0 +1,36 @@
+27
+2.5.5ế2.1. Nhật ký thi công RPBM: Ghi chép đầy đủ các thông tin hoạt 
+động của từng đơn vị/đội thi công.
+2.5.5.2ề2ẵ  Bản vẽ mặt bằng/bản đồ khu vực RPBM tỷ lệ 1:500 có đánh dấu 
+diện tích RPBM từng ngày của từng đơn vị/đội và các thông tin liên quan đến 
+BMVN tìm được (tọa độ, kiểu loại, độ sâu tìm thấy, phương thức tiêu hủy).
+2.5.5.2.3ẵ  Báo cáo kết quả RPBM gồm các thông tin tối thiểu sau: Địa 
+điểm, phạm vi, diện tích khu vực; số lượng, kiểu loại BMVN; đánh giá mức độ 
+ô nhiễm, phân loại ô nhiễm theo số lượng và chủng loại BMVN tìm được.
+2.5.5.2.4. Hồ sơ quản lý chất lượng trong suốt quá trình thi công theo quy 
+định của Quy trình quản lý chất lượng hoạt động ĐT, KS, RPBM do Bộ Quốc 
+phòng ban hành hoặc quy trình quản lý chất lượng được chấp thuận trong 
+phương án kỹ thuật thi công được duyệt.
+2.6. Tiêu hủy BMVN
+2.6.1. Các loại BMVN phải tiêu hủy tại vị trí phát hiện
+2ữ 6.1.1. Các loại bom đạn chùm được xác định là đã qua quá trình phóng, 
+rải, bắn ném từ bom mẹ.
+2.6.1.2. Các loại mìn chổng người, mìn cháy, mìn khói được xác định là 
+đã qua quá trình cài đặt, phóng, rải.
+2.6.1.3ệ  Các loại lựu đạn tay đã rút chốt an toàn, lựu đạn xoay M406 
+và các biến thể (đầu đạn súng M79), đạn tên lửa chống tăng, đầu đạn B40, B41 
+đã được bắn ra, các loại ngòi/đầu nổ rời.
+2.6.2. Nguyên tắc thu gom, phân loại, vận chuyển về noi tập trung và 
+quản lý
+2ệ6.2.1. Chỉ thực hiện với các loại BMVN không phải tiêu hủy tại vị trí 
+phát hiện.
+2.6.2.2. Các nhân viên chuyên môn kỹ thuật khi thực hiện các công việc 
+này phải được sự cho phép của người chỉ huy cao nhất tại hiện trường.
+2.6.3. Thu gom, phân loại BMVN
+2.6.3.lể  Khi thu gom BMVN dò tìm được vào nơi cất giữ chờ hủy phải tổ 
+chức phân loại và xếp riêng từng chủng loại vào các khu vực khác nhau. Đối với 
+các loại BMVN có chứa chất cháy, chất hóa học phải áp dụng các biện pháp kỹ 
+thuật bảo quản phù hợp với từng loại.
+2.6.3.2. Số lượng các loại BMVN đã thu gom hoặc đã xử lý xong trong 
+từng ngày phải được ghi chép đầy đủ vào sổ theo dõi và nhật ký thi công. 
+BMVN dò tìm được trong ngày phải được đưa về vị trí tạm cất giữ.

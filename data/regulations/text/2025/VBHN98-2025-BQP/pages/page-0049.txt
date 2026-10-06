@@ -1,0 +1,35 @@
+4.2Ế lẵ4. Các chuẩn mực đánh giá chất lượng ĐT, KS, RPBM (tiêu chuẩn, 
+căn cứ, quy trình) phải được cơ quan có thẩm quyền thẩm định, phê duyệt và 
+không thấp hơn các căn cứ được nêu ra trong Quy chuẩn kỹ thuật này.
+4.2.2. Nội dung C O ’ bản của công tác QLCL trong ĐT, KS, RPBM
+Nội dung cơ bản phải bao gồm các hoạt động sau:
+4.2.2.1. Thiết lập hệ thống QLCL, xác định chính sách chất lượng, mục 
+tiêu chất lượng, kế hoạch chất lượng; phân công trách nhiệm và thông báo, tổ 
+chức học tập trong nội bộ.
+4.2.2.2. Hoạt động thẩm định và công nhận (thẩm định năng lực, thẩm 
+định thiết kế, thấm định các kế hoạch, kiểm tra điều kiện thi công).
+4.2.2.3. Hoạt động ĐBCL (tiến hành các biện pháp cần thiết nhằm xây 
+dựng độ tin cậy về chất lượng).
+4.2.2.4. Giám sát chất lượng (theo dõi, kiểm tra, phát hiện và kịp thời 
+khắc phục sai sót).
+4.2.2.5. Kiểm tra nghiệm thu sản phẩm.
+4.2ễ2.6ẵ  Đánh giá chất lượng và cải tiến.
+4.2.3. Các tiêu chuẩn, quy trình QLCL của tổ chức RPBM
+Các tiêu chuẩn, quy trình QLCL do các tổ chức hoạt động khắc phục hậu 
+quả bom mìn lựa chọn và đề xuất áp dụng trong ĐT, KS, RPBM phải đáp ứng 
+các yêu cầu tối thiểu sau:
+4.2.3.1. Đáp ứng các yêu cầu, nhu cầu và mong đợi của các bên liên quan, 
+bao gồm cả vấn đề giới và đa dạng sắc tộcẵ
+4.2.3.2. Đảm bảo sự quản lý, chia sẻ thông tin, kinh nghiệm chuyên môn 
+giữa các bên liên quan.
+4.2.3.3. Thiết lập được chính sách chất lượng, mục tiêu chất lượng trong 
+công tác khắc phục hậu quả bom mìnể
+4.2.3.4. Xác định rõ và phản ánh các quy trình tạo ra các loại sản phẩm, 
+dịch vụ ĐT, KS, RPBM trong phạm vi của hệ thống QLCL và xác định các yêu 
+cầu chất lượng (căn cứ đánh giá) đối với sản phẩm và dịch vụ đó.
+4.2ẽ3.5. Đảm bảo việc thu thập, xử lý các ý kiến phản hồi của các bên liên 
+quan về kết quả công việc.
+4.2.3.6. Xác định các yêu cầu giám sát, phương pháp và kết quả phân tích 
+để đánh giá mức độ tuân thủ quy trình của sản phẩm và dịch vụ, cũng như mức 
+độ hài lòng của các bên liên quan và hiệu suất của hệ thống QLCL.
+47

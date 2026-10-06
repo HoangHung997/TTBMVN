@@ -1,0 +1,38 @@
+29
+4ể  Trường hợp có phát sinh ngoài phương án kỹ thuật thi công thì đơn vị, tổ 
+chức thi công RPBM phôi hợp với chủ đầu tư lập phương án thi công riêng báo 
+cáo cấp có thẩm quyền phê duyệt trước khi thực hiện.
+Điều 40. Huỷ nổ bom mìn vật nổ tại chỗ
+1. Trường hợp áp dụng: tín hiệu là BMVN không an toàn cho trục vớt, thu 
+gom, vận chuyển.
+2. Trang bị: thiết bị bảo vệ người, máy dò, thiết bị lặn, composit, thuyền gỗ 
+sức chở trên 3 tấn có máy đẩy có cẩu mi ni tự hành, thuyền cao su, bộ khí tài gay 
+nô, thuôc nô chịu nước, dây nô chịu nước, kíp điện, dây điện kép, vải gói buộc 
+lượng nô, dây gai, các loại phao, neo, dây nilon.
+3. Trình tự thực hiện:
+a) Tập kết thuyền xử lý, dùng máy dò xác định chính xác lại vị trí tín hiệu 
+đã được thả phao, neo đánh dấu vị trí tín hiệu.
+b) Thực hiện các biện pháp an toàn, thợ lặn kiểm tra trực tiếp đưa lượng nổ đã 
+chuấn bị xuống đặt áp sát và liên kết chặt vào BMVN, bố trí hệ thống gây nổ gồm:
+- Dây nổ dùng để kích nổ có chiều dài bằng chiều sâu mực nước tại vị trí có 
+BMVN (có tính độ chùng của dây khoảng 25% tổng chiều dài dây), một đầu dây 
+được liên kết chặt vào lượng nổ bằng cách cuốn tối thiểu 7 vòng dây nổ vào thỏi 
+thuốc mồi nằm trong lượng nổ (theo đúng kỹ thuật sử dụng thuốc nổ và hoả cụ), 
+đầu dây nổ còn lại được buộc vào một phao nhựa đường kính 30 cm, đế hở đầu 
+dây trên mặt nước;
+- Kíp điện và đường dây gây no điện được chuẩn bị sẵn theo đúng kỹ thuật, 
+kíp điện được liên kết với đầu dây nổ trên mặt nước;
+- Trạm gây nổ được đặt trên thuyền hoặc trên bờ (nếu được), khoảng cách 
+giữa trạm gây nổ tới khu vực bố trí lượng nổ phải được tính toán cụ thể nhằm tránh 
+các ảnh hưởng của sóng nổ và mảnh văng theo quy định tại Điều lệ công tác nổ.
+c) Sau khi kiểm tra an toàn, tiến hành gây nổ theo phương án được phê 
+duyệt;
+d) Sau khi huỷ nổ, thợ lặn mang thiết bị lặn và máy dò bom kiểm tra lại 
+xung quanh và phía dưới vị trí hố huỷ nổ để đảm bảo BMVN đã được huỷ no 
+hếtẽ  Nếu còn tín hiệu thì phải tiến hành xử lý như điểm a, điểm b, điểm c của 
+khoản này.
+Mục 4
+RÀ PHÁ BOM MÌN VẬT NỎ DƯỚI BIẺN
+Điều 41. Điều kiện sử dụng phưong pháp rà phá bom mìn vật nố
+1. Trường hợp vị trí RPBM cách bờ nhỏ hơn 2 hải lý, độ sâu nước nhỏ hơn 
+25 m áp dụng phương pháp RPBM dưới nước quy định tại Mục 3 Chương III

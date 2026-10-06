@@ -1,0 +1,52 @@
+6                                                                  c
+
+3.1. Phương pháp khảo sát xác định định mức các hao phí và các dữ
+liệu cơ ban của giá ca máy
+
+a) Trình tự khảo sát xác định giá ca máy theo các định mức các hao phí và
+các dữ liệu cơ bản của giá ca máy như sau:
+
+- Bước 1: lập danh mục máy và thiết bị thi công rà phá bom min vật nổ
+can xác định giá ca máy.
+
+- Bước 2: khảo sát số liệu làm cơ sở xác định từng định mức hao phí và
+các dữ liệu cơ bản xác định các thành phân chi phí của giá ca máy, trừ máy được
+trang bị quân sự theo quyêt định của cap có thâm quyên;
+
+- Bước 3: tính toán, xác định giá ca máy bình quân.
+
+b) Nội dung khảo sát xác định định mức các hao phí dé tính giá ca máy:
+
+- Định mức khấu hao của máy: khảo sát về mức độ hao mòn của máy
+trong quá trình sử dụng máy do nha sản xuât máy công bô hoặc theo điều kiện
+sử dụng cụ thê của máy;
+
+- Định mức sửa chữa của máy: khảo sát thu thập, tổng hợp số liệu về chi
+phí bảo dưỡng, sửa chữa máy trong cả đời máy từ các hô sơ, tài liệu sau: nhật ký
+thi công dự án, thông kê chi phí bảo dưỡng, sửa chữa máy, các quy định về bảo
+dưỡng, sửa chữa máy; quy đôi tông sô chỉ phí bảo dưỡng, sửa chữa máy thành tỷ
+lệ phân trăm (%) so với nguyên giá máy; phân bô đêu tỷ lệ % chi phí bảo dưỡng,
+sửa chữa máy theo sô năm đời máy.
+
+- Số ca làm việc trong năm của máy: khảo sát thu thập, tổng hợp số liệu về
+thời gian sử dụng máy trong thực tê từ các hô sơ, tài liệu liên quan đên thời gian
+sử dụng máy gôm: nhật ký thi công dự án, báo cáo thông kê định kỳ về thời gian
+sử dụng máy, các quy định và yêu câu kỹ thuật vệ thời gian bảo dưỡng, sửa chữa
+máy, sô liệu thông kê về thời tiệt ảnh hưởng đên thời gian làm việc của máy;
+quy định về thời gian sử dụng và hoạt động cả đời máy trong tài liệu kỹ thuật
+của máy hoặc do nhà sản xuât máy công bô... Bộ sung các yêu tô ảnh hưởng
+đên sô ca làm việc của máy trong năm theo những điều kiện cụ thê của dự án.
+
+- Định mức tiêu hao nhiên liệu, năng lượng: khảo sát số liệu mức nhiên
+liệu, năng lượng của máy tiêu thụ phù hợp với thời gian làm việc thực tê của
+máy trong ca; sô liệu tính toán theo quy định trong tài liệu kỹ thuật của máy do
+nha sản xuât máy công bô về tiêu hao nhiên liệu, năng lượng khi máy hoạt động.
+
+- Số lượng nhân công: khảo sát số lượng công nhân (kỹ thuật viên) điều
+khiên máy, trình độ tay nghê bậc thợ; quy định vê bậc thợ điều khiên máy do
+nhà sản xuất máy công bô.
+
+- Định mức chi phí khác của máy: khảo sát thu thập, tổng hợp số liệu về
+chi phí khác của máy gôm các chi phí cân thiết đề máy hoạt động bình thường,
+có hiệu quả tại dự án; quy đôi giá trị khoản chỉ phí này theo tỷ lệ % so với giá
+tính khâu hao của máy; phân bô chi phí quản lý máy cho sô năm đời máy.

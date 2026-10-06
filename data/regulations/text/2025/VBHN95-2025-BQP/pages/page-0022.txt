@@ -1,0 +1,40 @@
+22
+đa 0,lm, kêt hợp máy dò và thuốn kiểm tra xung quanh vị trí tâm tín hiệu trước 
+khi đào lớp tiêp theo cho đến khi lộ toàn bộ vật gây tín hiệu;
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu 
+gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, 
+thu gom vê nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu 
+gom, vận chuyên hoặc vật nổ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi 
+công (đôi với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung 
+quanh và phía dưới vị trí tín hiệu vừa xử lý đê đảm bảo sạch hết tín hiệu. Nếu 
+còn tín hiệu thì phải tiên hành xử lý theo quy định tại điểm a, điểm b khoản này.
+Điều 26. Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 3 m
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ 
+lớn hơn 0,3m đên 3 m tính từ mặt đât tự nhiên hiện tại trở xuống.
+2. Trang bị: thiết bị bảo vệ người, máy dò bom; thuốn, xẻng, dụng cụ làm 
+tay; chôt an toàn; thuốc no, hoả cụ, khí tài gây nổ; dụng cụ thu gom; máy bơm 
+nước và phụ kiện đi kèm.
+3ề  Trình tự thực hiện:
+a) Kiếm tra và dùng dụng cụ cầm tay thận trọng đào bới tại xung quanh vị trí 
+tâm tín hiệu đã đánh dấu. Đào từ ngoài vào trong, kích thước hố đào tuỳ theo độ 
+lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy dò) khi gần 
+tới vật gây tín hiệu phải kết họp máy dò và thuốn kiểm tra xung quanh vị trí tâm tín 
+hiệu trước khi đào lớp tiếp theo cho đến khi lộ toàn bộ vật gây tín hiệu;
+b) Kiếm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu 
+gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, 
+thu gom về nơi quy định. Trường họp tín hiệu là BMVN không an toàn cho thu 
+gom, vận chuyển hoặc vật nổ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi 
+công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiếm tra lại xung 
+quanh và phía dưới vị trí tín hiệu vừa xử lý đế đảm bảo sạch hết tín hiệu. Neu 
+còn tín hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b khoản này.
+Điều 27. Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 5 m
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ 
+lớn hơn 0,3m đên 5 m tính từ mặt đât tự nhiên hiện tại trở xuông.
+2.Trang bị: thiết bị bảo vệ người, máy dò bom, thuốn, xẻng, dụng cụ làm 
+tay, thuốc nổ, hoả cụ và khí tài gây nổ, dụng cụ thu gom, máy bơm nước và phụ 
+kiện đi kèm, các loại vật tư làm kè chắn chống sạt lở.
+3. Trình tự thực hiện:
+a) Kiểm tra và dùng dụng cụ cầm tay thận trọng đào bới xung quanh vị trí 
+tâm tín hiệu đã đánh dấu. Đào từ ngoài vào trong, kích thước hố đào tuỳ độ lớn

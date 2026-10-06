@@ -1,0 +1,33 @@
+66
+STT Tên phương tiện, hoạt chất Đon vị tínhSố lượng
+50 Tobramycine 0,3% 5 ml Lọ 02
+51 Natri clorld 0,9% 10 ml Lọ 10
+VIII. Thuốc và phương tiện y tế tối thiểu cho phương tiện vận chuyển
+1 Cáng thương với các đai và phương tiện giũ 
+cố định cáng thương vào xe Cái 01
+2 Ván cứng cột sống và mũ giữ đầu (hoặc tương tự)Cái 01
+3 Chăn ủ ấm Cái 02
+4 Bình nước 10 L Bình 01
+5 Phương tiện liên lạc Bộ 01
+6 Dụng cụ báo tín hiệu khói (nếu cần)Cái 01
+7 Đèn nháy Cái 01
+8
+Bình ô xy dung tích 5 L, có đồng hồ đo áp lực và 
+bộ điều chỉnh lưu lượng; dây dẫn ô xy các cỡ 
+người lớn
+Bộ 01
+9 Bóp bóng người lớn loại sử dụng nhiều lần (ambu 
++ mask) Bộ 02
+10 Mặt nạ thanh quản các cỡ dùng cho người lớn 
+(mask thanh quản) Bộ 02
+11 Mặt nạ thở ô xy người lớn Cái 02
+12 Canute Mayo đường miệng và mũi các cỡCái Mỗi cỡ 02 cái
+13 Dây thông khí mũi - họng Cái 02
+14 Ống nội khí quản các số Cái Mỗi số 1 cái
+15 Bộ dụng cụ đặt nội khí quản Bộ 01
+16
+Bộ dụng cụ mở khí quản (bao gồm cả Canule 
+Krishaber hoặc Sjoberg + thuốc gây tê + bơm 
+tiêm + kim, chỉ khâu.. Ế )
+Bộ 01
+17 Dây dẫn ô xy các cỡ Cái Mỗi cỡ 01 cái

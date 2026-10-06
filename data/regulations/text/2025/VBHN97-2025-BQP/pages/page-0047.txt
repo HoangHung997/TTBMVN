@@ -1,0 +1,21 @@
+47
+Phần II
+BIỂU MẢU BẢNG TỎNG HỌP Dự TOÁN
+STT KÝ HIỆU TÊN MẪU
+01 Biểu mẫu 01
+BẢNG TỔNG HỢP Dự TOÁN 
+Điều tra, khảo sát
+02 Biểu mẫu 02
+BẢNG TỔNG HỢP Dự TOÁN 
+Rà phá bom mìn vật nổ là một dự án độc lập 
+sử dụng nguồn vốn Nhà nước
+03 Biểu mẫu 03
+BẢNG TỐNG HỢP Dự TOÁN 
+Rà phá bom mìn vật nổ là một hạng mục 
+của dự án sử dụng nguồn vốn Nhà nước
+04 Biểu mẫu 04
+BẢNG TỔNG HỢP Dự TOÁN 
+Rà phá bom mìn vật nổ sử dụng nguồn vốn khác
+05 Biểu mẫu 05
+THUYẾT MINH Dự TOÁN 
+Rà phá bom mìn vật nố

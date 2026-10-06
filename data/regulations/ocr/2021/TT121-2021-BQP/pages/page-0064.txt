@@ -1,0 +1,34 @@
+s=
+Phụ lục III
+MẪU BIEU RA PHA BOM MIN VẬT NÓ ff ~
+(Ban hành kèm theo Quy trình kỹ thuật điều tra, khảo sát, rà phá bom min vật nó)
+     KÝ RIED
+_ MẪU BIEU KHAO SÁT PHỤC VỤ CHO LẬP PHƯƠNG ÁN
+KỸ THUẬT THI CÔNG VÀ DỰ TOÁN RA PHA BOM MÌN VAT NO
+01 | Mẫu RPBM-01         —             .         BIEN BAN Co                       2
+Bàn giao mặt băng cho khảo sát rà phá bom min vật nô
+02 | Mẫu RPBM-02                        Co         , HAT KY          —_
+Thi công khảo sát rà phá bom mìn vật nô
+BIEN BẢN
+03 | Mẫu RPBM-03 [Nghiệm thu kết quả khảo sát phục vụ cho lập phương án kỹ
+thuật thi công và dự toán rà phá bom mìn vật nổ
+04 | Mẫu RPBM-04             „ii BAO CAO |           |
+Kêt quả thi công khảo sát rà phá bom mìn vật nô                    :
+MẪU BIEU RA PHA BOM MIN VAT NÓ                                        |
+05 | Mẫu RPBM-05         mm             .         BIEN BAN —_            Ca
+Ban giao mặt băng cho thi công ra phá bom min vật nô
+BIEN BẢN
+Mẫu RPBM-06         Kiểm tra quân số, trang bị kỹ thuật trước thi công
+rà phá bom mìn vật nổ
+  Mẫu RPBM-07                                   NHẬT KÝ THỊ CÔNG
+Mẫu RPBM-08                        i"         BIEN BAN       |
+Kiêm tra xác xuât hiện trường
+Mẫu RPBM-09                     a            ˆ BIẾN BẠN          Caz
+Nghiệm thu nội bộ ra phá bom min vật nô
+  Mẫu RPBM-10                      PHIEU YÊU CÂU NGHIỆM THU
+BIEN BẢN
+l1 | MauRPBM-11 | Xác nhận số lượng, chủng loại bom min vật nổ thu gom
+trong thi công
+BIÊN BẢN
+12 | Mẫu RPBM-12 | Nghiệm thu hoàn thành thi công rà phá bom min vật nổ
+đưa vào sử dụng

@@ -1,0 +1,46 @@
+28
+
+Mã số                 Thành phần hao phí               Ponvi| Mức tiêu hao
+Dây nô chịu nước                                         m                    66
+Kíp điện                                            Cái                 2
+Dây điện kép                                               m                    20
+Vải gói thuốc nô                                          me                   1,0
+:                 Day gai                                                kg                 0,2
+040.0500 | Vật liệu khác                                              %VL                  10
+Nhân công:
+Bậc thợ QNCN 7/10                                   Công                0,80
+-Bậc thợ QNCN 8/10                                    Công                0,10
+May thi công:
+Thiết bị định vi DGPS                                       Ca                    0,063
+Thiết bị lặn                                                 Ca                  0,19
+Máy dò mìn Vallon MW 1630B                   Ca                 0,10
+Thuyền cao su trung có máy đây                  Ca                 0,10
+Máy đo thông mạch                                   Ca                 0,02
+Máy điểm hoa                                             Ca                 0,02
+Tàu công suất 650 cv có cầu tự hành             Ca                 0,33
+Tàu không chế giao thông 350 cv                 Ca                 0,33
+Tàu hậu can công suất 350 cv                     Ca                0,04
+1
+
+8. Huy bom min vật nỗ tai chỗ, độ sâu nước lớn hơn 50 m đến 150 m
+
+(MS: 040.0600)
+
+a) Thành phần công việc: sử dụng tàu xử lý, thiết bị ROV hoặc thợ lặn kết
+hợp chuông lặn xuống kiểm tra, bố trí lượng nổ được chuẩn bị sẵn áp sát vào
+BMVN; bố trí đường dây gây nổ theo phương án, tổ chức cảnh giới, quy định tín
+hiệu; gây nổ lượng nổ phá huỷ BMVN theo phương án được duyệt.
+
+b) Định mức hao phí tính cho 1 quả bom mìn, vật nổ
+
+Mức tiêu hao
+s                  .         Pon      Nước sâu | Nước sâu      Nước sâu
+Mã số         Thành phần hao phí          vị        từ 25m        >50m         >100m
+đến 50m | đến100m | đến150m
+Vật liệu:
+Neo bê tông loại 50 kg        Cái           1,0              1,0               1,0
+Dây nilon Ø 14 mm             m           135             280             425
+Phao nhựa Ø 40 cm            Cái          4,0             4,0              4,0
+Thuốc nd TNT ép               kg          10,0            10,0            10,0
+Vải gói lượng nd                 mˆ           1,00             1,00              1,00
+

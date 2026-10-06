@@ -1,0 +1,38 @@
+28
+Mã số Thành phần hao phíĐơn Cấp đất tại vị trí tín hiệu
+vị I II III IV
+Nhân công:
+Bậc thợ QNCN 7/10 Công0,0300 0,0390 0,0461 0,0518
+Bậc thợ QNCN 8/10 Công0,72 0,96 1,40 2,04
+Mảy thỉ côngễ -
+Máy dò bom Vallon 
+1303 AI hoặc Vet 1 Ca 0,008 0,008 0,008 0,008
+Máy xúc loại < 0,4 m3Ca 0,0053 0,0063 0,0090 0,0104
+1 2 3 4
+Ghi chủ: Trường hợp đào đất có nước thì được tỉnh thêm 0,012 ca mảy 
+bơm cho 1 m3 đất đào. Khi thi công khổi lượng đất đào theo nghiệm thu thực tế.
+10. Rà phá bom mìn vật nố ở độ sâu ỉó’n hon 5 m đến 10 m bằng 
+phưong pháp khoan lỗ (MS: 020.10.00)
+a) Thành phần công việc: Đánh dấu các hàng lỗ khoan và tiến hành khoan 
+trên toàn bộ diện tích cần RPBM, khoảng cách giữa các lỗ trong hàng và giữa 
+các hàng là 2 m; độ sâu tối đa của lỗ khoan là 5 m. Thả đầu dò của máy dò bom 
+vào từng lô khoan, dò theo đúng kỹ thuật đê phát hiện hết các tín hiệu đến độ 
+sâu yêu câu, ghi và phân tích các sô liệu đê phát hiện tín hiệu nghi ngờ và đánh 
+dấu trên thực địa để đào và xử lý.
+b) Định mức hao phí tính cho 10.000 m2
+Mã số Thành phần hao phí Đo n vi •
+Độ sâu dò tìm 
+lớn hon 5 m 
+đến 10 m
+Vật liệu:
+Ống nhựa nòng trơn (0 < 76 mm, 
+chiều dài 5,0 m) ống 125
+Cọc gỗ (03 X  50) cm Coc 50
+Dây thừng 010 mm Mét 100
+020.1000 Cờ đỏ (0,4 X 0,6) m Cái 1,00
+Vật liêu khác %VL 1,0
+Nhân công:
+Bậc thợ QNCN 7/10 Công 7,76
+Mảy thi công:
+Máy dò bom Vallon 1303AI Ca 5,17
+1

@@ -1,0 +1,41 @@
+ˆ                                                     11
+1
+!
+- Những ô liền kề với ô màu đỏ (các ô được đánh dấu màu nâu trên bản đồ           -
+kết quả KS);                                                                                                                      [
+- Khu vực 6 nhiễm là một khu vực bao gồm các 6 được xác định là 6        ị
+nhiễm trực tiếp và ô nhiễm gián tiếp liền kề ô mầu đỏ (các ô màu đỏ và các ô         i
+màu nâu liền kề trên bản đồ kết quả KS); trường hợp giữa các khu vực được        ĩ
+xác định là bị ô nhiễm mà có các ô màu xanh hoặc màu vàng xen kẽ, số ô này
+không vượt quá 4 ô hoặc trường hợp sát cạnh một khu vực được xác định là bị
+ô nhiễm mà có không nhiều hơn 4 ô màu xanh hoặc vàng thì ghép vào cùng khu
+vực ô nhiễm.
+b) Khoanh vùng khu vực không ô nhiễm BMVN                            |
+- Những 6 “không 6 nhiễm trực tiếp” được đánh dấu màu xanh;
+- Những ô “không ô nhiễm gián tiếp” được đánh dấu màu nâu;
+- Khu vực không ô nhiễm BMVN: là một khu vực bao gồm các ô “không
+ô nhiễm trực tiếp” và “không ô nhiễm gián tiếp” liền kề trên thực địa (các ô màu
+xanh và màu vàng liền kề trên bản đồ kết qua KS);
+- Những 6 không thể tiếp cận để tiền hành khảo sát được đánh dấu màu
+xám; căn cứ vị trí năm trong khu vực nào để ghép vào khu vực ô nhiễm hay
+không ô nhiễm theo nguyên tắc xác định bằng màu của các ô liền kề hay màu
+của các ô trong cả khu vực.
+Chương III
+RÀ PHÁ BOM MÌN VẬT NÓ
+Mục 1
+CÔNG TAC CHUAN BỊ
+Điều 15. Khảo sát, thu thập số liệu phục vụ lập phương án kỹ thuật thi          |
+công, dự toán rà phá bom mìn vật nỗ
+Đơn vị, tổ chức KS, RPBM có trách nhiệm:
+1. Xây dựng kế hoạch KS, RPBM kèm theo sơ đồ khu vực trình cấp có
+thẳm quyền phê duyệt.
+2. Thông báo bằng văn bản đến chính quyền địa phương và cơ quan quân sự địa
+phương từ cấp huyện trở lên về hoạt động KS, RPBM theo đúng quy định.                                |
+3. Thu thập thông tin về đặc điểm tình hình BMVN (Khu vực ô nhiễm        |
+BMVN, việc bố tri; mức độ đánh phá; chủng loại, tính chất BMVN do các lực
+lượng tham chiến đã sử dụng trong khu vực sẽ thi công RPBM) trong các tài liệu
+hồ sơ lưu trữ, thông tin của chính quyền, lực lượng vũ trang quản ly địa bàn và
+nhân dân địa phương.
+4. Đóng cọc mốc bằng bê tông cốt thép khi thi công RPBM trên cạn; tiền          |
+hanh tha phao, rua khi RPBM dưới nước; thả phao, rùa kết hợp với định vị tọa          |
+độ GPS khi RPBM dưới biên đê đánh dau phạm vi, khu vực thi công RPBM.                   |

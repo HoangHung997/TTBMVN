@@ -1,0 +1,35 @@
+52
+4.2.9. Yêu cầu đánh giá nội bộ và cải tiến
+4.2.9.1. Thời hạn và kế hoạch đánh giá:
+- Tất cả các tổ chức ĐT, KS, RPBM phải lập kế hoạch đánh giá nội bộ hệ 
+thống QLCL của mình với thời hạn không quá 18 tháng kể từ khi mới thiết lập 
+hoặc từ lần đánh giá gần nhất;
+- Việc đánh giá hệ thống QLCL nội bộ phải được tiến hành khi có những 
+thay đổi về khung pháp lý trong lĩnh vực QLCL hoặc sự thay đối của hệ thống tổ 
+chức, hoặc sự thay đối về chức năng, nhiệm vụ, năng lực thi công trong lĩnh vực 
+ĐT, KS, RPBM.
+4.2.9.2. Chuẩn mực đánh giá gồm:
+- Tiêu chuẩn quốc gia TCVN ISO 9001:2015;
+- Chính sách, mục tiêu chất lượng;
+- Các công cụ của hệ thống QLCL;
+- Các văn bản quy phạm pháp luật liên quan đến hoạt động RPBM;
+- Các quy chế, quy định hiện hành liên quan đến các hoạt động thuộc chức 
+năng, nhiệm vụ của các cá nhân trong hệ thống QLCL.
+4.2.9ề3. Cán bộ đánh giá hệ thống QLCL
+4.2.9.3ềlẻ  Tiêu chuẩn cán bộ đánh giá hệ thống QLCL:
+- Được đào tạo về hệ thống QLCL theo tiêu chuẩn quốc gia TCVN ISO 
+9001:2015 ;
+- Có chứng chỉ đạt yêu cầu làm chuyên gia đánh giá hệ thống QLCL theo 
+tiêu chuẩn quốc giaTCVN ISO 9001:2015 do một cơ quan có chức năng đào 
+tạo cấp;
+- Có kinh nghiệm trong lĩnh vực hoạt động RPBM (tối thiểu 2 năm làm 
+việc trong lĩnh vực này);
+- Được thủ trưởng đơn vị đề cử;
+- Độc lập với hoạt động được đánh giá.
+4.2.9.3.2. Trưởng nhóm đánh giá được chỉ định tùy theo từng lần đánh 
+giá; thư ký nhóm đánh giá được trưởng nhóm lựa chọn và phân công trong số 
+đánh giá viên.
+4.2.9ẵ4. Thực hiện hành động khắc phục, phòng ngừa, cải tiến sau đánh giá:
+- Báo cáo kết quả đánh giá và đề xuất các biện pháp khắc phục, phòng 
+ngừa, cải tiến phải được gửi đến lãnh đạo, nhà thầu và các bên liên quan chậm 
+nhất là 5 ngày sau khi kết thúc cuộc đánh giá;

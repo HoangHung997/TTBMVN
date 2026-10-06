@@ -1,0 +1,39 @@
+ˆ                                                           21
+b) Sau khi đã huỷ nổ xong, phải kiểm tra kết quả hủy nỗ và vị trí phát hiện
+tín hiệu để bảo đảm sạch tín hiệu. Trường hợp còn sót BMVN thì phải tiến hành          |
+xử lý tiếp theo quy định tai Mục nay;
+c) Kiểm tra, thu gom trang bị, khí tài gây nổ và mảnh vụn (nếu có) ra khỏi          |
+khu vực thi công.                                                                                                            |
+Muc 3                                                                       |
+RA PHA BOM MIN VAT NO DƯỚI NƯỚC
+Điều 31. Trình tự thực hiện
+1. Xác định khu vực RPBM.
+2. Chuẩn bị mặt bằng.
+3. Rà phá BMVN ở độ sâu đến 0,5 m.
+4. Rà phá BMVN ở độ sâu từ trên 0,5 m đến 3 m hoặc đến 5 m.
+5. Đánh dầu tín hiệu ở độ sâu đến 0,5 m, đến 3 m hoặc đến 5 m.
+6. Lăn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m.
+7. Lan kiểm tra, đào xử lý tín hiệu ở độ sâu từ lớn hơn 0,5 m đến 1m.
+8. Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu từ lớn hơn 1 m đến 3 m hoặc
+đến 5 m.
+9. Huy nổ BMVN tại chỗ dưới nước.
+Điều 32. Xác định khu vực rà phá bom mìn vật nỗ
+1. Căn cứ các mốc đã đánh dấu khi khảo sát hoặc tọa độ được bàn giao, tiến
+hành xác định khu vực cần RPBM dưới nước; vẽ sơ đồ khu vực.
+2. Đóng cọc bê tông cốt thép để đánh dấu trên bờ và thả phao, neo (rùa)
+định vị, đánh dấu dưới nước tại các vị trí cần thiết đề giới hạn khu vực sẽ RPBM
+(Các loại phao, neo (rùa) để định vị và đánh dấu khu vực chỉ áp dụng cho các
+khu vực RPBM có độ sâu nước tối thiểu 3 m và chiều rộng khu vực RPBM tối
+thiểu 50 m).
+Điều 33. Chuẩn bị mặt bằng
+1. Tiền hành phát dọn, đưa ra khỏi khu vực thi công các loại cây (sú, vẹt, cỏ
+lăn, cỏ lác, rong, bèo) hoặc các chướng ngại vật khác.
+|                      2. Phát hiện, đánh dấu vi trí chướng ngại vật quá lớn không có điều kiện
+trục vớt, xử lý (dầm cầu, trụ cầu hỏng, tàu thuyền đắm), dé khi thực hiện dò tìm
+sẽ loại bỏ các vật gây tín hiệu nhiễu.
+Điều 34. Ra phá bom min vật nd ở độ sâu đến 0,5 m
+1. Trường hợp áp dụng: khu vực phải RPBM đến các độ sâu khác nhau tính
+từ đáy nước.
+2. Trang bi: thiét bi bao vé nguoi, may do, thuyén composit có máy đầy;
+thuyền cao su; phao; neo làm bằng các loại vật liệu không nhiễm từ, dây đánh dấu
+đường dò, dây cáp nilon các loại; trang bị bảo đảm an toàn.

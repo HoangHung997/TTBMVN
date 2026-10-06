@@ -1,0 +1,36 @@
+26
+3. Trình tự thực hiện
+a) Sử dụng thuyền composit căng dây kết hợp với các loại phao, neo chia 
+nhỏ khu vực thành các ô dò có kích thước khoảng (25x25) m hoặc (50x50) m 
+hoặc chiều dài, chiều rộng thực tế khu vực RPBM để chia ô; tuỳ theo địa hình và 
+phương án thi công, căng dây chia ô dò thành các dải dò, mỗi dải dò rộng 1  m;
+b) Kiểm tra xác định độ nhiễm từ của đất đáy nước để điều chỉnh máy dò 
+cho phù hợp;
+c) Dùng máy dò bom đặt trên thuyền cao su, tiến hành dò đúng yêu cầu kỹ 
+thuật dọc theo dây đánh dấu đường dò (đầu dò phải luôn thẳng đứng và cách đáy 
+nước từ 0,1 m đến 0,2 m). Sau khi dò xong, tiếp tục chuyển dây để dò dải tiếp theo.
+Trường hợp lưu tốc dòng chảy trên 1  m/s thì phải có biện pháp bảo đảm an 
+toàn, bảo đảm kỹ thuật dò tìm và chất lượng công trình.
+Điều 35. Rà phá bom mìn vật nổ ỏ' độ sâu trên 0,5 m đến 3 m hoặc 5 m
+1. Trường hợp áp dụng: khu vực cần RPBM đến độ sâu 3 m hoặc đến 5 m 
+tính từ đáy nước sau khi đã dò tìm, xử lý ở độ sâu đến 0,5 m.
+2ẳ  Trang bị: thiết bị bảo vệ người, máy dò, thuyền composit hoặc thuyền cao 
+su, phao, neo làm bằng các loại vật liệu không nhiễm từ, dây đánh dấu đường dò, 
+dây cáp nilon các loại, trang bị bảo đảm an toàn.
+3. Trình tự thực hiện:
+a) Xác định độ sâu nước, độ nhiễm từ của đất đáy nước để điều chỉnh máy 
+dò cho phù hợp, máy dò đặt chế độ làm việc phù hợp độ nhiễm từ của lòng đất 
+đáy nước và yêu cầu về độ sâu cần dò tìm;
+b) Sử dụng thuyền composit căng dây kết hợp với phao, neo các loại chia 
+nhỏ khu vực thành các ô dò có kích thước (25x25) m hoặc (50x50) m hoặc 
+chiều dài, chiều rộng thực tế khu vực RPBM để chia ô; tuỳ theo địa hình và 
+phương án thi công, căng dây chia ô dò thành các dải dò rộng 1  m (hướng đường 
+dò trùng với hướng dòng chảy);
+c) Dùng máy dò bom đặt trên thuyền cao su, tiến hành dò đúng yêu cầu kỹ thuật 
+dọc theo dây đánh dấu đường dò (đầu dò phải luôn thẳng đứng và cách đáy nước từ
+0,1 m đến 0,2 m). Sau khi dò xong, tiếp tục chuyển dây để dò sang dải tiếp theo.
+Trường hợp lưu tốc dòng chảy trên 1  m/s thì phải có biện pháp bảo đảm an 
+toàn, bảo đảm kỹ thuật dò tìm và chất lượng công trình.
+Điều 36. Đánh dấu tín hiệu ỏ’ độ sâu đến 0,5 m, đến 3 m hoặc đến 5 m
+1. Trường họp áp dụng: tín hiệu được phát hiện khi dò tìm đến độ sâu 0,5 m, 
+đến 3 m và đến 5 m tính từ đáy nước.

@@ -1,0 +1,33 @@
+12
+- Định mức các hao phí xác định giá ca máy và nguyên giá máy được sàng 
+lọc và xử lý dữ liệu trên cơ sở tổng hợp các thông tin, số liệu khảo sát theo từng 
+nội dung.
+- Trường hợp một trong các định mức hao phí xác định giá ca máy thiếu 
+số liệu khảo sát hoặc không đủ cơ sở, tài liệu để khảo sát số liệu thì được xác 
+định bằng cách tính toán điều chỉnh quy định định mức của các loại máy có 
+cùng tính năng kỹ thuật nhưng khác về công suất hoặc thông số kỹ thuật chủ yếu 
+tại Phụ lục II ban hành kèm theo Thông tư này.
+- Giá ca máy được xác định theo phương pháp xác định các thành phần 
+chi phí cơ bản của giá ca máy trên cơ sở số liệu sau khi phân tích.
+đ) Tổng hợp xử lý số liệu và tính toán xác định giá ca máy.
+- Định mức các hao phí xác định giá ca máy và nguyên giá máy được sàng 
+lọc và xử lý dữ liệu trên cơ sở tổng hợp các thông tin, số liệu khảo sát theo từng 
+nội dung.
+- Giá ca máy được xác định theo phương pháp xác định các thành phần 
+chi phí cơ bản của giá ca máy trên cơ sở số liệu sau khi phân tích
+3.2. Phương pháp khảo sát giá ca máy thuê trên thị trường
+a) Trình tự xác định giá ca máy theo số liệu khảo sát giá thuê máy như sau:
+- Bước 1 : lập danh mục máy và thiết bị thi công rà phá bom mìn vật nổ có 
+thông tin giá thuê máy phổ biến trên thị trường;
+- Bước 2: khảo sát xác định giá thuê máy trên thị trường;
+- Bước 3: tính toán, xác định giá ca máy theo giá ca máy thuê bình quân.
+b) Phạm vi/khu vực khảo sát giá thuê máy: Trên địa bàn thực hiện dự án 
+hoặc các địa bàn lân cận.
+c) Nguyên tắc khảo sát xác định giá ca máy thuê:
+- Giá ca máy thuê trên thị trường được khảo sát thu thập, tổng hợp số liệu, 
+thống kê giá của các nhà cung cấp, cho thuê.
+- Giá ca máy thuê được khảo sát xác định phù hợp với chủng loại máy và 
+thiết bị thi công được sử dụng trong định mức dự toán ban hành, hoặc định mức 
+dự toán rà phá bom mìn vật nổ.
+d) Nội dung khảo sát cần xác định rõ các thông tin sau:
+- Giá ca máy thuê được khảo sát xác định chỉ bao gồm toàn bộ hoặc một

@@ -1,0 +1,49 @@
+22
+
+Thuyền cao su trung                    Ca | 0,014         0.015         0,017
+
+Thiết bị lặn                                Ca | 0,153 | 0,168 | 0,185
+
+Thiết bị xói, hút bùn cát               Ca | 0,125         0,138         0,152
+
+Thuyên composit                              Ca         0,198          0,213          0,230
+1               2               3
+
+Ghi chú: các yếu tổ khác liên quan đến tính toán, lập dự toán áp dụng như Ghi chil tại
+khoản 1, Mục 3 Dinh mức dự toán này.
+
+6. Lặn kiểm tra, đào xử lý tín hiệu dưới nước ở độ sâu lớn hơn 1m
+“ đến 3m tính từ đáy nước (MS: 030.0600)
+
+a) Thành phần công việc: dùng máy dò bom mìn để xác định chính xác vị
+
+trí tín hiệu, lắp và hạ các khung vây bao quanh vị trí tâm tín hiệu đã xác định với
+
+đường kính hố sẽ đào là 3 m; thợ lặn sử dụng thiết bị lặn và các khí tài công
+
+binh xăm tìm; dùng thiết bị xói và hút bùn, cát đào bới tại điểm đã đánh dấu cho
+
+lộ toàn bộ vật gây tín hiệu. Kiểm tra xác định tín hiệu nếu là các vật nhiễm từ
+
+hoặc BMVN an toàn thì trục vớt lên bờ đưa vào nơi quy định, nếu là các loại
+BMVN không an toàn đánh dấu hoặc xử lý theo quy định.
+         b) Định mức hao phí tính cho 1 tín hiệu
+
+Mãsố | Thành phần hao phí          Đơn          Độ sâu của nước (m)
+                                                  vị       05+12 | >12+22 | >22+25
+| Vat ligu:
+Khung vây băng tôn 3 mm và
+teh c d on A 5x5) mm                 Kg | 2432 | 2432 | 2432
+Nhân công:               :
+Bậc thợ QNCN 7/10                  Công | 1,00 | 1,10           1,21
+030.0600 | Mdy thi cong:
+Máy dò bom dưới nước              Ca        0,014        0,015       0,017
+Thuyên cao su trung                     Ca        0,014         0,015         0,017
+Thiét bi lan                              Ca | 0,264        0,290        0,319
+Thiết bi xói và hút bùn cát            Ca | 0,125         0,138         0,152
+Thuyén composit                        Ca | 0,419        0,445 | 0,474
+1              2              3
+
+Ghi chú: các yếu tổ khác liên quan đến tính toán, lập dự toán áp dụng như Ghi chú tại
+khoản 1,  Mục 3 Định mức dự toán nay.
+

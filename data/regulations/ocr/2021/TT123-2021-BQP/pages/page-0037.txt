@@ -1,0 +1,45 @@
+Biểu mẫu 02:  Bảng tổng, hợp dự toán rà phá bom mìn vật nổ là một dự án
+độc lập sử dụng nguồn vốn Nhà nước  He —
+
+......
+
+Ÿ........:..seeeessososoooo co ...S....
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+(Ký tên, đóng dấu)
+
+TEN PON VỊ...........                         Độc lập - Tự do - Hạnh phúc
+verry gày..... tháng...... năm .....
+BANG TONG HỢP DỰ TOÁN
+Dự án:...............................
+Địa điểm: ...........................
+Hạng mục: Ra phá bom min vật nổ
+TT                   Hạng mục                   Ký hiệu              Cách tính             Thành tiên
+I |Chi phí trực tiếp
+1 |Chi phí vật liệu                           VL           Tổng chi phi VL
+2 [Chi phí nhân công                      NC  |Tổng chi phí nhân công
+3 |Chi phí máy                                M           Tổng chỉ phí máy
+* | Cong chỉ phí trực tiếp                  T               VL+NC+M
+H |Chi phi chung                         C              40% * NC
+Cộng giá trị RPBM                     Z                    T+C
+II | Chi phí khác                              K             K1+..K10+...
+1   patible l4pphuong dnl ¡| Tý lệ quy định * Z
+2 | Chi phi lán trai                            K2          Ty lệ quy định * T
+3 |Chi phí thắm định                       K3          Tỷ lệ quy định * Z
+n     FEY            A              .
+4   ông BI tra chât lượng thi     K4       Tỷ lệ quy định * Z
+5 |Chi phí giám sát thi công             K5         Tỷ lệ quy định * Z
+|   6   oh phi an chuyện và tiêu hủy     K6        Tỷ lệ quy định * Z
+7 |Chi phí lập dự án đầu tư               K7         Tỷ lệ theo quy định
+8 | Chi phí kiểm toán                         K8         Tỷ lệ theo quy định
+9 |Chi phí thâm tra, phé duyét QT| K9         Ty lệ theo quy định
+10 |Chi phí Ban QL dự án         K10        Ty 1€ theo quy dinh
+Chi phí dự phòng (nêu có)                          Tỷ lệ theo qui định
+Các chi phí khác (nêu có)                          Tỷ lệ theo qui định
+Cộng giá trị dự toán                   H                   Z+K
+Làm tròn
+Bằng chữ..................
+ĐẠI DIỆN ĐƠN VỊ LẬP DỰ TOÁN             ĐẠI DIỆN CHỦ ĐẦU TƯ
+
+(Ký tên, đóng dấu)

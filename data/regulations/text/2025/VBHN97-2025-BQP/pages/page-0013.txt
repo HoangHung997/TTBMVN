@@ -1,0 +1,37 @@
+13
+TT Tỉnh, thành phốKhu vực Tên địa phương các xã, phường, đặc khu
+Bình Ninh, Tân Phước 1, Tân Phước 2, Tân 
+Phước 3, Tân Hồng, Tân Thành, Tân Hộ 
+Cơ, An Phước, Phú Hựu, Tân Nhuận Đông, 
+Tân Phú Trung.
+Khu vực 1Các xã, phường còn lại
+Khu vực 3
+Các xã Châu Thành, Đông Phước, Phú Hữu, 
+Nhơn Mỹ, An Lạc Thôn, Kế Sách, Thới An 
+Hội, Đại Hải, Phong Nam, An Thạnh, Cù 
+Lao Dung.
+30 Cần Tho’
+Khu vực 2
+Các xã Phong Điền, Nhơn Ái, Trường Long; 
+Vị Thủy, Vĩnh Thuận Đông, Vị Thanh 1, 
+Vĩnh Tường, Vĩnh Viễn, Xà Phiên, Lương 
+Tâm, Phú Lợi, Sóc Trăng, Mỹ Xuyên, Hoà 
+Tú, Gia Hoà, Nhu Gia, Ngọc Tố, Phú Lộc, 
+Vĩnh Lợi, Lâm Tân, Vĩnh Hải, Lai Hoà, Vĩnh 
+Phước, Vĩnh Châu, Khánh Hoà; các phường 
+Thới An Đông, Bình Thủy, Long Tuyền.
+Khu vực 1Các xã, phường còn lại
+31 Vĩnh Long
+Khu vực 2
+Các xã Châu Thành, Song Lộc, Hưng Mỹ, 
+Hòa Minh, Long Hòa, Thới Thuận, Thạnh 
+Phước, Bình Đại, Thạnh Trị, Lộc Thuận, 
+Châu Hưng, Phú Thuận, Càng Long, An 
+Trường, Tân An, Nhị Long, Bình Phú, Long 
+Thành, Đông Hải, Long Vĩnh, Đôn Châu, 
+Ngũ Lạc.
+Khu vực 1Các xã, phường còn lại
+32 An Giang
+Khu vực 2Các xã An Phú, Vĩnh Hậu, Nhơn Hội, Khánh 
+Bình, Phú Hữu.
+Khu vực 1Các xã, phường, đặc khu còn lại.

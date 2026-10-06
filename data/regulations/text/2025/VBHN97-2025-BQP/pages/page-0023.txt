@@ -1,0 +1,40 @@
+23
+Mã số Thành phần hao phí Đon
+vi•
+Loai bãi mìn
+Loai 1 Loai 2 Loai 3 Loai 4
+Cờ đỏ đuôi nheo Cái 2,0 4,0 6,0 8,0
+Biển cấm, biển báo Cái 0,4 0,4 0,4 0,4
+Vât liêu khác %VL 5,0 5,0 5,0 5,0
+Nhân công.ẳ
+Bậc thợ QNCN 8/10 Công 167 182 200 223
+1 2 3 4
+2. Rà phá bom mìn vật nỗ bằng máy dò mìn đến độ sâu 0,3 m hoặc 
+0,5 m (MS: 020.0200)
+a) Thành phần công việc: Dùng máỵ dò mìn, dò tìm trong từng dải theo 
+đúng kỹ thuật; phát hiện hêt các tín hiệu đến độ sâu 0,3 m hoặc 0,5 m, dùng cờ 
+đỏ đánh dấu tín hiệu (độ sâu 0,5 m áp dụng cho dự án đất lâm nghiệp và chỉ thực 
+hiện khi chủ đâu tư yêu câu).
+b) Định mức hao phí tính cho 10.000 m2
+Mã số Thành phần hao phí Đon Loai mât đô
+vị Loại 1 Loại 2Loai 3 Loai 4
+Vật liệu:
+Cọc bằng bê tông cốt thép 
+(o’l2 X 0,12 X 1,2)m Cái 4,0 4,0 4,0 4,0
+Cọc gỗ (0 3 X  50) cmCái 34 34 34 34
+Dây thừng 010 mm Mét 67 67 67 67
+020.0200 Cờ đỏ đuôi nheo Cái 2,0 4,0 6,0 8,0
+Vật liệu khác %VL 5,0 5,0 5,0 5,0
+Nhân công:
+Bậc thợ QNCN 7/10 Công 17,36 19,10 21,00 23,10
+Mảy thỉ công:
+Máy dò mìn VMH3.CS Ca 11,57 12,73 14,00 15,40
+1 2 3 4
+Ghi chủ: Cọc bê tông cốt thép chỉ được áp dụng một lần cho khu vực rà phả 
+bom mìn, nếu đã áp dụng ở độ sâu 0,07 m thì không áp dụng ở các độ sâu khác.
+3. Đào đất, kiểm tra, xử lý tín hiệu đến độ sâu 0,3 m (MS: 020.0300)
+a) Thành phần công việc: Dùng máy dò mìn kết họp thuốn, kiểm tra lại vị 
+trí đã đánh dấu tín hiệu. Dùng dụng cụ cầm tay đào từng lóp đất <0,1 m, đào lộ 
+toàn bộ vật gây tín hiệu. Kiểm tra xác định tín hiệu, xử lý, thu gom chuyển về 
+nơi quy định nếu BMVN an toàn, đánh dấu bằng cờ đỏ để xử lý tại chỗ với 
+BMVN không an toàn hoặc vật nổ lạ.

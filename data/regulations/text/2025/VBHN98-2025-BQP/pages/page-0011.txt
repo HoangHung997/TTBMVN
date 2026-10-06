@@ -1,0 +1,38 @@
+11
+1.4.36. Kiểm tra xác suất
+Kiểm tra đối với một diện tích nhất định tại một vị trí bất kỳ nằm trong 
+tổng diện tích khu vực sau khi ĐT, KS và RPBM.
+1.4Ế 37. Quản lý chất lượng (sau đây viết tắt là QLCL)
+Các hoạt động có điều phối nhằm chỉ đạo và kiểm soát về chất lượng của 
+một tổ chức RPBM.
+1.4.38. Đảm bảo chất lưọng (sau đây viết tắt là ĐBCL)
+Một phần của QLCL, tập trung vào việc đảm bảo các yêu cầu về chất 
+lượng sẽ được đáp ứng. Mục đích của ĐBCL trong RPBM là để khẳng định và 
+củng cố lòng tin của các bên liên quan rằng các hoạt động quản lý và quy trình 
+vận hành đang được áp dụng là phù hợp và sẽ đạt được các yêu cầu đã đề ra một 
+cách an toàn, hiệu quả và năng suất. ĐBCL nội bộ được chính các tổ chức 
+RPBM tự thực hiện; việc giám sát từ bên ngoài do chủ đầu tư và/hoặc tổ chức tư 
+vấn giám sát và/hoặc một cơ quan QLCL thực hiện.
+1.4.39. Kiểm soát chất lưọng (sau đây viết tắt là KSCL)
+Một phần của QLCL, tập trung vào việc đáp ứng các yêu cầu về chất 
+lượng. KSCL liên quan đến việc kiểm tra một sản phẩm đã hoàn thành. Trong 
+bối cảnh RPBM, “sản phẩm” là một khu vực đất đai được làm sạch BMVN đến 
+độ sâu xác định và các thông tin, dữ liệu có liên quan.
+2. QUY ĐỊNH VẺ KỸ THUẬT
+2.1. Yêu cầu tính năng kỹ thuật trang thiết bị cơ bản
+2.1.1. Máy dò mìn
+2.1.1.1. Đông bộ và phụ kiện: Theo tiêu chuẩn của nhà sản xuất.
+2.1.1.2. Độ sâu phát hiện tín hiệu yêu cầu:
+- Mìn bộ binh: Không nhỏ hon 0,13 m tính từ bề mặt mặt đất đến mặt trên 
+của quả mìn;
+- Mìn chổng tăng TM46, TM57, MI5: Không nhỏ hơn 0,6 m tính từ bề 
+mặt mặt đất đến mặt trên của quả mìn.
+2.1.2. Máy dò bom hoặc thiết bị từ kế
+2.1.2ễ  1. Đồng bộ và phụ kiện: Theo tiêu chuẩn của nhà sản xuất.
+2.1Ệ 2.2. Độ sâu phát hiện tín hiệu yêu cầu:
+- Mìn chống tăng TM46, TM57, MI5: Không nhỏ hơn 1,5 m tính từ bề 
+mặt mặt đất đến mặt trên của quả mìn;
+- Bom MK81 (hoặc tương đương): Không nhỏ hơn 3 m tính từ bề mặt mặt 
+đất đến điểm gần nhất của quả bom.
+2.1.3. Bộ thiết bị phát hiện và định vị BMVN dưói biển
+2.1.3.1. Đồng bộ chi tiết và phụ kiện: Theo tiêu chuẩn của nhà sản xuất.

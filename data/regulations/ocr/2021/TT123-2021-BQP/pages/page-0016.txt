@@ -1,0 +1,48 @@
+14
+
+6. Đào đất, kiểm tra, xử lý tín hiệu ở độ sâu đến 1 m (MS: 020.0600)
+
+'a) Thành phần công việc: dùng dụng cụ cầm tay đào đúng yêu cầu kỹ
+thuật cho lộ toàn bộ vật gây tín hiệu (kích thước hb đào trung bình miệng hé:
+1,5 m x 1,5 m, đáy hố: 0,8 m x 0,7 m, độ sâu: 0,5 m; khối lượng dat đào trung
+bình: 0,65 m'/bô).  Kiểm tra xác định tín hiệu, thu gom chuyển về nơi quy định
+
+hoặc xử lý nếu BMVN không an toàn.
+b) Định mức hao phí tính cho 1 m’ đất đào
+
+Mã số          Thành nhần hao phí        Đơn        Cấp đắt tại vị trí tín hiệu
+aso             anh phan hao phi          vi        ĩ         n        mm       TY
+Nhân công:
+Bậc thợ QNCN 8/10                 Công | 0,71       1,04       1,51       2,34
+020.0600      ——¬-
+May thi công:
+Máy dò bom Vallon 1303A1       Ca | 0,008 | 0,008 | 0,008 | 0,008
+1         2      3         4
+
+;      Ghi chu: trường hợp đào dat có nước thi được tinh thêm 0,012 ca máy bơm cho 1 m
+
+dat đào. Khi thi công khôi lượng dat đào theo nghiệm thu thực tê.
+
+7. Đào đất, kiếm tra, xử lý tín hiệu ở độ sâu đến 3 m (MS: 020.0700)
+
+a) Thành phần công việc: dùng dụng cụ cầm tay đào đúng yêu cầu kỹ
+thuật cho lộ toàn bộ vật gây tín hiệu (kích thước hố đào trung bình miệng. hế:
+2mxi,5m, đáy hố: 1mx 1m, độ sâu: 1,5m; khối lượng đất đào trung bình:
+2,86 m`/hồ). Kiểm tra xác định tín hiệu, thu gom chuyển về nơi quy định hoặc
+xử lý nếu BMVN không an toàn.
+
+b) Định mức hao phí tính cho 1 m’ đất đào
+
+LX             Ñ         Ñ            ,        Đơn         Cap dat tại vị trí tín hiệu
+Mã sô         Thành phân hao phí        vi        I         T      TI         TV
+Vật liệu:                                                                       :
+Coc tre (Ø8 x 200) cm           Cọc | 0,20      0,20        0           0
+Ván gỗ dày 3 cm                   m |0,004] 0,004 | 0           0
+     .|Đnnhl0cm. ~~           Kg | 0,15    0,15     0       0
+020.0700 | Vật hệu khác.                      %VL       1,0        1,0        1,0         1,0
+            Nhân công:
+Bậc thợ QNCN 8/10              Công | 0,78       1,14       1,66       2,57
+May thi công:
+Máy dò bom Vallon 1303A1 |: Ca | 0,008 | 0,008 | 0,008 | 0,008
+1           2           3            4
+

@@ -1,0 +1,36 @@
+6
+b) Diện tích hành lang an toàn được quy định cụ thể cho từng loại dự án có 
+xét đến tầm quan trọng của dự án.
+2. Đối với độ sâu được xác định như sau:
+a) Đối với dự án phục vụ việc khai hoang, phục hoá đất canh tác, đất nông 
+nghiệp, lâm nghiệp, diêm nghiệp: độ sâu RPBM là 0,3 m hoặc 0,5 m hoặc 1  m;
+b) Đối với dự án tái định cư, xây dựng nhà có chiều cao dưới 10 m; kênh 
+mương thuỷ lợi, hồ chứa nước, nạo vét luồng lạch có độ sâu nạo vét nhỏ hơn 3 m; 
+đường giao thông đến cấp III, IV, V, giao thông tuyến huyện, tuyến giao thông 
+nông thôn; tuyến cáp quang, cáp điện ngầm, tuyến ống dẫn dầu, dẫn khí đốt, công 
+trình thủy lợi, đê điều, công trình nông nghiệp, phát triển nông thôn và các dự án 
+tương tự có độ sâu đào không quá 3m: độ sâu RPBM là 3 m;
+c) Đối với dự án xây dựng dân dụng có chiều cao 10 m trở lên; xây dựng 
+công nghiệp, đường giao thông cấp I, II, cao tốc, cầu, bến cảng và dự án tương 
+tự; dự án nạo vét luồng lạch có độ sâu nạo vét từ 3 m đến 5 m; các dự án khoan 
+thăm dò hoặc xây dựng công nghiệp khai thác dầu khí, thủy điện, trụ đường dây 
+cao thế, trung thế, công trình thủy lợi, đê điều, công trình nông nghiệp và phát 
+triển nông thôn có độ sâu đào lớn hơn 3 m: độ sâu RPBM là 5 m;
+d) Đối với công trình có tầm quan trọng đặc biệt theo yêu cầu của chủ đầu 
+tư, nhũng nơi có đánh dấu bom chưa nổ nhưng không phát hiện được khi đã dò 
+tìm đến độ sâu 5 m: độ sâu RPBM lớn hơn 5 m.
+3. Đối với hành lang an toàn được xác định như sau:
+a) Đường giao thông cấp I, cấp II: 5 m; đường giao thông cấp III, cấp IV: 3 m; 
+đường giao thông từ cấp V trở xuống, đường giao thông nông thôn: 2 m tính từ 
+mép trên ta luy đào, chân ta luy đắp hoặc mép ngoài rãnh dọc ra phía ngoài về 
+mỗi bên;
+b) Đối với dự án xây dựng dân dụng, công nghiệp: 3 m tính từ mép chu vi 
+đường biên ra phía ngoài;
+c) Nạo vét luồng lạch, độ sâu nạo vét không quá 3 m: 10 m; luồng lạch có 
+độ sâu nạo vét lớn hơn 3 m: 15 m tính từ mép trên ta luy đào của luồng hoặc 
+kênh ra phía ngoài về mỗi bên;
+d) Cầu nhỏ, cống qua đường các loại: 15 m; cầu lớn, cửa đường hầm giao 
+thông, bến cảng: 50 m tính từ mép công trình ra phía ngoài về 4 phía;
+đ) Tuyến đường cáp quang, cáp thông tin, cáp điện ngầm: 1  m đối với 
+trường hợp thi công bằng thủ công và 3 m đối với trường hợp thi công bằng 
+máy, tính từ mép ngoài của công trình ra phía ngoài về mỗi bên;

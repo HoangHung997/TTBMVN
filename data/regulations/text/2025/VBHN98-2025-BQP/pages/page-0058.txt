@@ -1,0 +1,40 @@
+55
+- Thực hiện việc kiểm tra, xác nhận, tổng hợp thông tin KPHQBM trên 
+địa bàn và báo cáo theo quy định tại Điều 22 Thông tư số 195/2019/TT-BQP;
+- Hàng năm phải kiểm tra, báo cáo tình trạng sử dụng đất đai đã được 
+RPBM trên địa bàn, báo cáo về VNMAC trong kỳ báo cáo cuối năm.
+4.3.1.4.4. Chủ đầu tư/chủ dự án có trách nhiệm thu thập, lưu trữ, xử lý và 
+báo cáo về VNMAC các thông tin sau:
+- Thông tin về kế hoạch thực hiện chương trình, dự án, nhiệm vụ khắc 
+phục hậu quả bom mìn thuộc phạm vi quản lý;
+- Báo cáo kết quả thực hiện các chương trình, dự án, hạng mục, nhiệm vụ 
+ĐT, KS, RPBM.
+4.3.2. Các yêu cầu về hệ thống C O ’ sở dữ liệu nội bộ của tổ chức hoạt 
+động khắc phục hậu quả bom mìn
+4ề3.2.1. Đảm bảo xây dựng và thực hiện các chính sách, tiêu chuẩn và quy 
+định cho việc quản lý thông tin. Các chính sách, tiêu chuẩn và quy định này phải phù 
+họp với các quy chuẩn kỹ thuật quốc gia và tiêu chuẩn quốc gia khác có liên quan.
+4.3.2.2. Xác định rõ ràng vai trò của cá nhân và cơ quan phụ trách hệ 
+thông quản lý thông tin trong tô chức và đảm bảo răng cơ quan phụ trách hệ 
+thống quản lý thông tin có quyền truy cập thông tin của các bên liên quan trong
+/V  • 1 /s
+nội bộ.
+4.3.2.3. Xây dựng các quy định về bảo mật thông tin, bảo vệ thiết bị thông 
+tin. Tất cả những người sử dụng thông tin đều phải được phổ biến và ký cam kết 
+bảo mật trước khi họ được phép truy cập vào bất kỳ thành phần nào của hệ 
+thống quản lý thông tin.
+4.3.2.4. Cơ sở dữ liệu của hệ thống quản lý thông tin nội bộ phải có đủ dữ 
+liệu để theo dõi, đánh giá và cải tiến liên tục các quy trình quản lý và thực hiện 
+khắc phục hậu quả bom mìn.
+4.3ề2.5. Dữ liệu được thu thập, lưu trữ và báo cáo phải được QLCL, có độ 
+tin cậy cao đáp ứng nhu cầu nội bộ của tổ chức và đáp ứng các yêu cầu thông tin 
+của các bên liên quan.
+4ễ3.2.6. Cán bộ, nhân viên làm công tác quản lý thông tin phải đáp ứng tối 
+thiểu các năng lực sau:
+- Truy cập, nhập dữ liệu;
+- Kiểm soát chất lượng thông tin;
+- Sử dụng thành thạo, quản lý và cải tiến các quy trình và phần mềm quản 
+lý thông tin;
+- Phân tích dữ liệu/GIS;
+- Quản trị hệ thống;
+- Có chứng chỉ đào tạo, chứng chỉ chuyên môn về hoạt động KPHQBMẵ

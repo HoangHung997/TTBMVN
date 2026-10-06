@@ -1,0 +1,41 @@
+   R                                                       17
+3. Trình tự thực hiện:
+a) Dùng máy dò mìn và thuốn kiểm tra tại vị trí tín hiệu đã đánh dấu, xác
+định chính xác vị trí và kích thước tín hiệu. Dùng xéng đào hé có kích thước tuỳ
+theo độ lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy
+dò), thận trọng bóc dần từng lớp đất từ trên xuống và từ mép vào tim hồ, vừa đào
+vừa kiểm tra. Khi thầy tín hiệu thi dùng dụng cụ cầm tay dé bới đất cho lộ hin vật
+gây tín hiệu;
+b) Kiếm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,             |
+van chuyén hoặc vật nd la thì đánh dấu lại dé hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu cần phải dùng máy dò kiểm tra lại xung
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu
+                        còn tín hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+                      Điều 24. Rà phá bom mìn vật nỗ bằng máy dò bom ở độ sâu lớn hơn
+0,3 m hoặc 0,5 m đến 1 m, đến 3 m, đến 5 m hoặc đến 10 m
+1. Trường hợp áp dụng: khu vực phải RPBM đến độ sâu 1 m, đến 3 m, đến
+5 m hoặc đến 10 m sau khi đã dò tìm, xử lý ở độ sâu đến 0,3 m tính từ mặt đắt tự
+nhiên hiện tại trở xuống. Trừ trường hợp quy định tại khoản 1 Điều 29 của Quy
+trình kỹ thuật này.
+2. Trang bị: thiết bị bảo vệ người, máy dò bom, cờ màu đỏ, cọc gỗ và dây.
+3. Trình tự thực hiện:
+a) Chuẩn bị máy dò, kiểm tra, điều chỉnh máy dò cho phù hợp với độ nhiễm
+từ của đất trong khu vực;
+b) Đóng cọc căng dây đánh dấu dai dò, mỗi dải dò có chiều rộng là 1 m;
+c) Dùng máy dò bom tiến hành dò theo đúng kỹ thuật dé phát hiện hết các
+tín hiệu đến độ sâu yêu cầu. Khi máy dò chỉ thị có tín hiệu ở phía dưới (thông
+qua độ lệch của kim đồng hồ và thay đổi âm thanh của máy), tiền hành dò rộng
+ra xung quanh vi trí nghi ngờ để kiểm tra, xác định tâm tín hiệu, dùng cờ màu đỏ
+cắm sát bên cạnh vị trí tâm tín hiệu để đánh dấu chờ xử lý.
+d) Khi có trên 2 máy cùng dò tìm trong một khu vực diện tích thì khoảng
+cách giữa 2 máy gần nhau tối thiểu > 7 m để tránh các máy gây nhiễu.
+Điều 25. Đào đất kiểm tra, xứ lý tín hiệu đến độ sâu 1m
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ
+lớn hơn 0,3 m đến 1 m tính từ mặt đất tự nhiên hiện tại trở xuống (độ sâu 1 m ap
+dụng cho dự án đất lâm nghiệp và chỉ thực hiện khi có yêu cầu của chủ đầu tư)
+2. Trang bị: thiết bị bảo vệ người, máy dò bom, thuốn, xẻng, dao găm, chết an
+toàn, thuốc nổ, hoả cụ, khí tài gây nổ, dụng cụ thu gom, máy bơm nước và phụ
+kiện đi kèm.

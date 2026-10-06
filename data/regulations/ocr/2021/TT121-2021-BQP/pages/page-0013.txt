@@ -1,0 +1,52 @@
+12                                                       em
+
+5. Khảo sát tại thực địa dé xác định:
+
+a) Cấp rừng, địa hình, cấp đất, độ nhiễm từ của đất, thời tiết, khí hậu, thuỷ
+văn; tình hình dân cư trong khu vực và tìm vị trí dựng lán trại làm nhiệm vụ.
+
+b) Xác định mật độ tín hiệu toàn khu vực bằng cách tiền hành RPBM một
+số bước của quy trình tại một số vị trí được chọn có kích thước từ (25x25) m đến
+(50x50) m mang tính chất đại diện cho từng loại địa hình, đối với những dự án
+RPBM trên cạn và dưới nước có diện tích từ 30 ha trở lên thì tổng diện tích các
+điểm KS phải bằng 1% tổng diện tích cần RPBM; đối với dự án RPBM có diện
+tích nhỏ hơn 30 ha thì tổng diện tích các điểm KS từ 1% đến 3% tổng diện tích
+cần RPBM, tùy theo mặt bằng của dự án. Đối với KS dưới biển các 6 KS thường
+có kích thước (250 x 50) m với tổng diện tích các điểm KS phải bằng 3% khi
+diện tích cần RPBM từ 30 ha trở lên và bằng 5% khi diện tích cần RPBM nhỏ
+hơn 30 ha.
+
+c) Các biên bản trong hồ sơ khảo sát phục vụ lập phương án kỹ thuật thi
+công, dự toán (biên bản bản giao mặt bằng cho KS; nhật ký thi công KS; nghiệm
+thu kết qua KS; báo cáo kết quả thi công KS) thực hiện theo Mẫu RPBM-01,
+Mẫu RPBM-02, Mẫu RPBM-03, Mẫu RPBM-04 tại Phụ lục III ban hành theo
+Quy trình này.
+
+6. Công tác RPBM có tính chất đặc thù nên các dự án có quy mô nhỏ với
+diện tích dưới 30 ha thì giao cho một đơn vị đồng thời thực hiện khảo sát để
+lập phương án kỹ thuật thi công, dự toán và tổ chức thi công RPBM.
+
+Điều 16. Lập phương án kỹ thuật thi công, dự toán rà phá bom mìn
+
+1. Phương án thi công phải thể hiện rõ nhiệm vụ, đặc điểm tình hình có liên
+quan; khối lượng thi công: biện pháp tổ chức thi công, giải pháp kỹ thuật, quy
+trình kỹ thuật, tiêu chuẩn, quy chuẩn kỹ thuật, quy trình quản lý chất lượng được
+áp dụng; sử dụng trang thiết bị; tiền độ thi công: công tác bảo đảm; kiến nghị.
+
+Trường hợp khu vực có địa hình và mật độ tín hiệu BMVN thuộc vùng đất
+bị nhiễm từ nhiều, vùng trút bom trước khi máy bay hạ cánh, khu vực có các loại
+bom đạn chứa chất độc hoá học thì phải có phương án thi công riêng.
+
+2. Nội dung phương án kỹ thuật thi công RPBM gồm.
+
+a) Thực trạng khu vực, diện tích, mức độ ô nhiễm BMVN và các tài liệu
+liên quan đến việc xác định khu vực nghi ngờ ô nhiễm BMVN;
+
+b) Sơ đồ bố trí khu vực thi công:
+
+c) Bản đồ tỷ lệ từ 1/500 đến 1/5000 xác định khu vực ô nhiễm BMVN sau
+khi khảo sát;
+
+d) Bản vẽ kỹ thuật, sơ đồ thể hiện giải pháp kỹ thuật của các công việc đòi
+hỏi có thiết kế đặc biệt (hố đào sâu, chống tạm, thiết bị cần chế tạo thêm, trạm
+nỗi, nhà tạm);

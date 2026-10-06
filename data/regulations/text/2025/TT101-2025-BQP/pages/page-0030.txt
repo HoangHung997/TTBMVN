@@ -1,0 +1,40 @@
+6
+TT Tỉnh, thành phốKhu vực Tên địa phương các xã, phuòng, đặc khu
+Thuận An, Hóa Châu, Mỹ Thượng, Vỹ Dạ, 
+Thuận Hóa, An Cựu, Dương Nỗ, Thủy Xuân, 
+Kim Long, Hương An, Phú Xuân, Hương Trà, 
+Kim Trà, Thanh Thủy, Hương Thủy, Phú Bài, 
+Phong Điền, Phong Thái, Phong Dinh, Phong 
+Phú, Phong Quàng.
+Khu vực 1 Các xã, phường còn lại
+20 Tp Đà Nang
+Khu vực 3
+Các xã Nam Trà My, Trà Tập, Trà Vân, Trà 
+Linh, Trà Leng, Sông Kôn, Sông Vàng, Đông 
+Giang, Bến Hiên, Điện Bàn Tây, Gò Nổi, Thăng 
+Bình, Thăng An, Thăng Trường, Thăng Điền, 
+Thăng Phú, Đồng Dương, Trà Liên, Trà Giáp, 
+Trà Tân, Trà Đốc, Trà My, Hoà Vang, Hoà Tiến, 
+Bà Nà; các phường Điện Bàn, Điện Bàn Đồng, 
+An Thắng, Điện Bàn Bắc, Hoà Xuân.
+Khu vực 2
+Các xã Tân Hiệp, Đại Lộc, Hà Nha, Thượng 
+Đức, Vu Gia, Phú Thuận, Duy Nghĩa, Nam 
+Phước, Duy Xuyên, Thu Bồn, Lãnh Ngọc, 
+Tiên Phước, Thạnh Bình, Sơn cẩm Hà, Tây 
+Hồ, Chiên Đàn, Phú Ninh; các phường Tam 
+Kỳ, Quảng Phú, Hương Trà, Bàn Thạch, Hội 
+An, Hội An Đông, Hội An Tây.
+Khu vực 1 Các xã, phường còn lại
+21 Quảng Ngãi Khu vực 3
+Các xã Tịnh Khê, An Phú, Nghĩa Hành, Đình 
+Cưong, Thiện Tín, Phước Giang, Nghĩa Hành, 
+Đình Cương, Thiện Tín, Phước Giang, Long 
+Phụng, Mỏ Cày, Mộ Đức, Lân Phong, Trường 
+Giang, Ba Gia, Sơn Tịnh, Thọ Phong, Tư Nghĩa, 
+Vệ Giang, Nghĩa Giang, Trà Giang, Sơn Tây, 
+Sơn Tây Thượng, Sơn Tây Hạ, Bờ Y, Sa Loong, 
+Dục Nông, Đăk Kôi, Kon Braih, Đăk Rve, Rờ 
+Kơi, Mô Rai, Đăk Pxi, Đăk Mar, Đăk Ui, Ngọk 
+Réo, Đăk Hà các phường Trương Quang Trọng, 
+Cẩm Thành, Nghĩa Lộ.

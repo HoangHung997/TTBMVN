@@ -1,0 +1,44 @@
+41
+BMVN; bố trí đường dây gây nổ theo phương án, tổ chức cảnh giới, quy định tín 
+hiệu; gây nổ lượng nổ phá huỷ BMVN theo phương án được duyệt.
+b) Định mức hao phí tính cho 1 quả bom mìn, vật nổ
+Mức tiêu hao
+Mã số Thành phần hao phí Đon Nước sâu Nước sâuNước sâu
+vị từ 25 m 
+đến 50 m
+> 50 m 
+đến 100 m
+> 100 m 
+đen 150 m
+Vật liệu:
+Neo bê tông loại 50 kgCái 1,0 1,0 1,0
+Dây nilon 0 14 min m 135 280 425
+Phao nhựa 0 40 cm Cái 4,0 4,0 4,0
+Thuôc nô TNT ép kg 10,0 10,0 10,0
+Vải gói lượng nôm2 1,00 1,00 1,00
+Kíp điện Cái 2,0 2,0 2,0
+Dây nô chịu nước m 165 330 495
+Dây gai kg 0,2 0,2 0,2
+Dây điện kép m 20 20 20
+Vật liệu khác % VL 10 10 10
+Nhân công:
+Bậc thợ QNCN 7/10 Công 0,60 0,76 0,96
+Bậc thợ QNCN 8/10 Công 0,10 0,10 0,10
+Mảy thi công:
+Thiêt bị DGPS Ca 0,063 0,063 0,063
+Thiêt bị lặn ROV hoặcCa 0,15 0,19 0,24chuông lặn và thợ lặn
+Máy đo thông mạch Ca 0,02 0,02 0,02
+040.0600 Máy điêm hoả Ca 0,02 0,02 0,02
+Máy dò mìn Vallon MW 
+1630B Ca 0,08 0,10 0,12
+Thuyên cao su trung có 
+máy đẩy Ca 0,08 0,10 0,12
+Tàu có công suât 650 cv 
+có cẩu mi ni tự hànhCa 0,36 0,39 0,45
+Tàu không chê giao 
+thông 350 cv Ca 0,04 0,04 0,05
+Tàu hậu cân 350 cv Ca 0,04 0,04 0,05
+1 2 2
+Ghi chủ: Trang thiết bị sử dụng trong hủy nổ bom mìn vật nổ ở độ sâu 
+nước lón hơn 50 m chưa được trang bị đồng bộ tại các đơn v/ệ ,ễ  nên khi phải xử 
+lý tín hiệu ở độ sâu nước lớn hơn 50 m đơn vị thi công căn cứ vào định mức

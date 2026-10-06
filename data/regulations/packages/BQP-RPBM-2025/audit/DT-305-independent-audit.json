@@ -1,0 +1,25 @@
+{
+  "audit": "DT-305-independent-source-review",
+  "reviewDate": "2026-08-03",
+  "status": "PASS",
+  "checks": 6534,
+  "recordCount": 248,
+  "moduleCounts": {
+    "TechnicalProcess": 60,
+    "Norm": 42,
+    "CostRule": 37,
+    "MachineRate": 33,
+    "Geography": 69,
+    "Compliance": 7
+  },
+  "sourcePdfCount": 6,
+  "changeReasonCount": 248,
+  "packageChecksum": "E2537C08E7156414585BEFC446E74DD51E79AB8D67A3774B1F5250E7EECCDA90",
+  "errors": [],
+  "warnings": [],
+  "knownLegalDecisions": [
+    "K6 rejects exactly 1000 kg because the source defines only below/above 1000 kg.",
+    "Logical machine resources remain unresolved until the unit-rate workflow supplies the method/depth choice.",
+    "Workbook ChiPhi legacy labels/formulas do not override current legal tables."
+  ]
+}

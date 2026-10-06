@@ -1,0 +1,54 @@
+20
+vận chuyển hoặc vật nd lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng):
+
+c) Sau khi đã xử lý xong tín hiệu cần phải dùng máy kiểm tra lại xung
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu
+còn tín hiệu thì phải tiền hành xử lý như thứ tự đã nêu trên.
+
+Điều 29. Ra phá bom min vật nd ở độ sâu từ trên 5 m đến 10 m bằng
+phương pháp khoan lỗ
+
+1. Điều kiện thực hiện
+
+- Khu vực có địa chất phức tạp, nhiều mảnh, vật kim loại trong lòng đất
+mà máy dò bom khó phát hiện tín hiệu nghị ngờ là BMVN ở độ sâu từ lớn hơn
+5 m đến 10m.
+
+- Những dự án có tầm quan trọng đặc biệt hoặc theo yêu cầu của chủ đầu tư.
+
+2. Trường hợp áp dụng: khu vực phải RPBM ở độ sâu từ trên 5 m đến 10m
+sau khi đã RPBM ở độ sâu đến 5 m tính từ mặt đất tự nhiên hiện tại trở xuống.
+
+3. Trang bị: máy khoan và thiết bị đồng bộ, ống nhựa đường kính tối thiểu
+76 mm; máy dò bom, cờ đỏ đánh dấu tín hiệu, cọc gỗ và dây đánh dấu đường dò,
+thuốn, xéng, dao gam và thiết bị đào đất bằng cơ giới, thuốc nổ, hoa cụ và khí tài
+gây nd, dụng cu thu gom, máy bom nước và phụ kiện đi kèm, các loại vật tư làm
+kè chắn chống sạt lở.
+
+4. Trình tự thực hiện:
+
+a) Tiến hành căng dây đánh dấu vị trí lỗ khoan, với khoảng cách giữa các lỗ
+khoan trong hàng và giữa các hàng là 2 m, tùy độ sâu cần dò tìm, xử lý để quyết
+định độ sâu khoan và số lần khoan, nhưng chiều sâu tối đa của lỗ khoan là 5 m,
+không được khoan đến độ sâu 10 m. Đường kính lỗ khoan tối thiểu 80 mm,
+thành các lỗ khoan phải được bảo vệ bằng hệ thống ống nhựa có đường kính tối
+thiểu 76 mm hoặc vật liệu khác.
+
+b) Sau khi khoan lỗ, lồng ống nhựa vào lỗ khoan xong, tiến hành RPBM
+theo thứ tự các bước như RPBM trên cạn với phương pháp thả đầu dò vào trong
+lỗ khoan, ghi và phân tích các số liệu đo (bao gồm cả số liệu của các lỗ khoan
+lân cận) dé phát hiện các tín hiệu. Việc dao, xử lý các tín hiệu theo quy định tại
+Điều 28 Quy trình này.
+
+Điều 30. Hủy nổ bom mìn vật nỗ tại chỗ
+
+1. Trường hợp áp dụng: bom min, vật nd phát hiện được nhưng không an
+toàn cho thu gom, vận chuyển bắt buộc phải hủy tại chỗ.
+
+2. Trang bị: trang thiết bị bảo hộ lao động, máy dò mìn, thuốn, dao găm,
+xéng, thuốc nd, hoa cụ và khí tài gây nd.
+
+3. Trình tự thực hiện:                                                                                                              ị
+
+a) Dùng lượng nỗ tập trung đặt trực tiếp vào BMVN cần huỷ và gây nỗ;

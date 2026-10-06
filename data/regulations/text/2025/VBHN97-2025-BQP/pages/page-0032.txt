@@ -1,0 +1,40 @@
+32
+đúng yêu cầu kỹ thuật; phát hiện hết tín hiệu từ mặt đất đáy nước xuống độ sâu 
+cần dò tìm.
+b) Định mức hao phí tính cho 10.000 m2
+Mã số Thành phần hao phí Đon Độ sâu của nưóc (m)
+vỉ• 0,5 -H  12>12 + 22 >22 -s- 25
+Vật liệu:
+Mỏ neo loại 50 kg Cái 0,032 0,032 0,032
+Mỏ neo 20 kg Cái 0,064 0,064 0,064
+Phao băng săm ô tô (hoặc 
+phao cứu sinh loại đại)Cái 0,32 0,32 0,32
+Phao nhỏ 012 cm Cái 4,00 4,00 4,00
+Dây nilon 010 mm Mét 105 105 105
+Dây nilon 012 mm Mét 8,00 18,50 27,00
+030.0200 Dây nilon 018 mm Mét 8,64 8,64 8,64
+Vật liệu khác %VL 1,00 1,00 1,00
+Nhân công:
+QNCN bậc 7/10 Công 9,81 10,80 11,88
+Mảy thi công:
+Máy dò bom dưới nướcCa 4,63 5,10 5,61
+Thuyên cao su trung Ca 4,63 5,10 5,61
+Thuyên cao su tiêu Ca 9,26 10,20 11,22
+Thuyên composit Ca 5,10 5,61 6,17
+1 2 3
+Ghi chủ: Các yếu tổ khác Hên quan đến tính toán, lập dự toán áp dụng 
+như Ghi chú tại khoản 1, Mục 3 Định mức dự toán này.
+3. Đánh dấu tín hiệu ỏ* độ sâu đến 0,5 m, đến 3 m hoặc đến 5 m tính 
+từ đáy nước (MS: 030.0300)
+a) Thành phần công việc: Dùng máy dò bom kiểm tra xác định chính xác 
+tâm tín hiệu; thả phao có cắm cờ đỏ, neo đánh dấu tâm tín hiệu theo đúng yêu 
+cầu kỹ thuật.
+b) Định mức hao phí tính cho 1 tín hiệu
+Mã số Thành phần hao phíĐơn
+vi•
+Độ sâu của nước (m)
+0,5*3 >3-12 >12-22 >22-25
+030.0300 Vật liệu:
+Mỏ neo đặc biệt 20 kg Cọc0,00 0,002 0,002 0,002
+Phao nhựa 030 cm Cái 0,00 0,067 0,067 0,067
+Dây nilon 012 mm Mét 0,00 0,16 0,38 0,56

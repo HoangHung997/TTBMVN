@@ -1,0 +1,40 @@
+1.32 Nơi xảy ra sự cố: Tỉnh (thành phố), xã (phường, đặc khu).
+2. Thời gian xảy ra sự cố.
+3. Dạng sự cố.
+Phần 2 - Chi tiết sự cố
+Cung cấp một mô tả chung về cách thức sự việc xảy ra gồm địa điểm, thời 
+gian, nhân sự RPBM, các nhân viên không tham gia RPBM có liên quan, các 
+loại BMVN, các phương tiện, thiết bị liên quan. Đính kèm hình ảnh, sơ đồ 
+và bản đồ sự cố RPBM (bản đồ vị trí và bản đồ chi tiết hiện trường).
+Phần 3 - Điều kiện hiện trường sự cố
+- Mô tả các điều kiện tại hiện trường vào thời điểm xảy ra sự cố về mặt bố 
+trí nơi làm việc, các đánh dấu, mặt đất, địa hình, thảm thực vật và thời tiết:
++ Bố cục và đánh dấu hiện trường: Mô tả bố cục của hiện trường liên quan 
+đên vị trí của sự cố bao gồm khu vực kiếm soát, đánh dấu nơi làm việc nói 
+chung và đánh dấu nơi làm việc cụ thể trong khu vực sự cốữ  Xem xét những yếu 
+tố tác động của thời tiết trên khu vực hiện trường;
++ Mặt đất và địa hình: Mô tả mặt đất về chất đất, độ cứng và độ ẩm. Mô tả 
+địa hình là bằng phang, nhấp nhô hay đồi núi, độ dốc;
++ Thảm thực vật: Mô tả những thảm thực vật về chủng loại, mật độ, kích 
+thước chiều cao của cỏ, cây, bụi rậm và đường kính tối đa của thân thảm thực vật;
++ Thời tiết: Mô tả thời tiết vào thời điểm xảy ra sự cố bom mìn.
+- Cung cấp các hình ảnh để mô tả điều kiện tại hiện trường xảy ra sự cố.
+Phần 4 - Thông tin về đội và nhiệm vụ.
+- Thông tin chi tiết về đội: Cung cấp thông tin chi tiết về số lượng và 
+thành phần của đội (nhân viên RPBM, trưởng nhóm, giám sát, nhân viên y tế); 
+các bằng cấp, chứng chỉ; kinh nghiệm (loại công việc đã làm, địa điểm, điều 
+kiện nơi làm việc và các loại bom mìn đã gặp); việc đào tạo bồi dưỡng gần đây 
+nhất và nội dung đào tạo;
+- Chi tiết nhiệm vụ: Cung cấp thông tin chi tiết về nhiệm vụ, bao gồm 
+các tài liệu ĐT KS, kế hoạch rà phá của nhiệm vụ, các khu vực được rà phá, 
+chiều sâu rà phá, chủng loại và mật độ BMVN dự kiến, thời gian thực hiện, số 
+lượng và chủng loại BMVN đã dò tìm được và bất kỳ vấn đề nào gặp phải 
+trong công việc.
+Phần 5 - Thiết bị và quy trình được sử dụng
+- Thiết bị được sử dụng: Cung cấp thông tin chi tiết của thiết bị được sử 
+dụng tại hiện trường liên quan đến vụ việc (thiết bị dò tìm, thiết bị bảo vệ cá 
+nhân, thiết bị y tế, phương tiện và thiết bị cơ khí);
+70
+32 Khoản này được sửa đổi theo quy định tại Khoản 31 Điều 5 của Thông tư số 101/2025/TT-BQP sửa
+đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn vật nổ, có hiệu lực kể từ ngày 28
+tháng 10 năm 2025.

@@ -1,0 +1,72 @@
+27
+ST
+T Mã hiệu Loại máy và thiết bị Số ca 
+năm
+Định mức (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+lưoìig 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+lưoìig
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(ộ /o)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+19 M011.019 Định vị thủy âm 258 25 10 5 2 X bậc 
+8/10
+517ễ50
+0 511.242.972 10
+20 MOI 1.020 Thiết bị định vị DGPS 258 25 7,5 5 1  X bậc
+5/10
+450.00
+0 508.012ẵ500 10
+21 MOI 1.021 Định vị trên hải đồ 258 25 7,5 5 2 X bậc 
+5/10
+450.00
+0 489.532.000 10
+22 MOI 1.022 Thuyền gỗ (sức chứa > 3 tấn có 
+máy đẩy) 230 11 5,2 6 44 Lít 
+diezel 1  X 2
+Áp 
+dụng 
+đối với 
+thuê 
+tàu lực 
+lượng 
+Hải 
+quân
+258.000.000 10
+23 MOI 1.023
+Thiết bị hút và xói bùn cát (máy 
+nén khí từ 7m3/phút đến 10 
+m3/phút)
+180 13 2 5 111 Lít 
+diezel
+2 X bậc 
+8/10
+517.50
+0 212.000.000 10

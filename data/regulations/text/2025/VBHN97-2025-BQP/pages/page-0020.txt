@@ -1,0 +1,37 @@
+20
+Mã số Thành phần hao phí Đon vỉ • Mức hao phí
+Thiết bị, mảy:
+Máy dò mìn Ca 9,25
+Thiết bị GPS cầm tay Ca 1,0
+1
+c) Đào kiểm tra, xử lý tín hiệu khảo sát (MS: 000.0400)
+- Thành phần công việc: Dùng máy dò mìn, kiểm tra lại vị trí đã đánh dấu 
+tín hiệu. Đào từng lớp tại điểm có tín hiệu cho đến khi lộ vật gây tín hiệu.
+- Định mức chi phí tính cho 1 tín hiệu
+Mã số Thành phần hao phíĐon
+vỉ•
+Cấp đất tại vị trí tín hiệu
+I II III IV
+000.0400
+Nhân công:
+Bậc thợ QNCN 8/10 Công 0,04 0,044 0,049 0,053
+Mảy thi công:
+Máy dò mìn VMH3.CS Ca 0,014 0,014 0,014 0,014
+1 2 3 4
+Chương II
+ĐỊNH MỨC RÀ PHÁ BOM MÌN VẬT NỎ
+Muc 1
+DỌN MẶT BẰNG
+1. Dọn mặt bằng bằng thủ công khu vực là bãi mìn (MS: 010.0100)
+a) Thành phần công việc: Kiểm tra, xác định ranh giới an toàn, phát dọn 
+sạch cây, dây leo; phát đến đâu tiến hành dò mìn đến độ sâu 0,07 m. Thu dọn hết 
+cây và các chướng ngại vật ra khỏi vị trí thi côngế
+b) Định mức hao phí tính cho 10ế000 m2
+Mã số Thành phần hao phíĐon
+vi•
+Loại rừng
+I II III IV
+010.0100
+Nhân công:
+Bậc thợ QNCN 8/10 Công 111 125 143 167
+1 2 3 4

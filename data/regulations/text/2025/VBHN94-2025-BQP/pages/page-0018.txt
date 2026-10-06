@@ -1,0 +1,37 @@
+18
+a) Thiết lập và thông báo địa chỉ để tiếp nhận thông tin khắc phục hậu quả 
+bom mìn vật nố trên địa bàn;
+b) Kiểm tra, xác minh thông tin;
+c) Thu thập, xử lý, lưu trữ thông tin trên địa bàn, xây dựng cơ sở dữ liệu 
+khắc phục hậu quả bom mìn vật nổ tại địa phương;
+d) Cung cấp các thông tin khắc phục hậu quả bom mìn vật nổ trên địa bàn cho 
+các đối tượng sử dụng theo yêu cầu của chính quyền địa phương và cấp có thẩm 
+quyền theo quy định tại Thông tư này và quy định về bảo vệ bí mật nhà nước.
+3. VNMAC có trách nhiệm xây dựng, quản lý cơ sở dữ liệu quốc gia về 
+hoạt động khắc phục hậu quả bom mìn vật nổ sau chiến tranh có nhiệm vụ:
+a) Xây dựng, lưu trữ, xử lý, tích hợp các nguồn dữ liệu về khắc phục hậu 
+quả bom mìn vật nổ; tổng hợp và cung cấp thông tin khắc phục hậu quả bom mìn 
+vật nổ sau chiến tranh; thông tin về các tổ chức, đơn vị được cấp chứng chỉ năng 
+lực cho người sử dụng thông tin theo quy định;
+b) Thực hiện quản trị, bảo đảm các điều kiện cho việc thu thập, lưu trữ 
+thông tin khắc phục hậu quả bom mìn vật nổ trên phạm vi toàn quốc được thông 
+suốt, hiệu quả, chất lượng;
+c) Nghiên cứu, đề xuất và thực hiện các biện pháp kỹ thuật, công nghệ phù 
+họp để quản lý, sao lưu, bảo mật thông tin khắc phục hậu quả bom mìn vật nổ;
+d)28 Kiểm tra, hướng dẫn, hỗ trợ, cung cấp cơ sở hạ tầng thông tin, các 
+phần mềm, công cụ và đào tạo nhân lực cho cơ quan quân sự địa phương, đơn vị, 
+các tổ chức hành động bom mìn trong việc thu thập, xử lý, cung cấp, lưu trữ 
+thông tin trên hệ thống cơ sở dữ liệu bom mìn quốc gia;
+đ) Tổng hợp dữ liệu, lập báo cáo quốc gia về tình hình khắc phục hậu quả 
+bom mìn vật nổ sau chiến tranh hàng năm.
+4. Tổng Giám đốc VNMAC quy định phạm vi, nội dung, tính chất dữ liệu 
+thông tin khắc phục hậu quả bom mìn vật nổ sau chiến tranh được phép cung cấp 
+và truy cập cho người sử dụng thông tin.
+Điều 21. Co’ sỏ* dữ liệu thông tin khắc phục hậu quả bom mìn vật nổ 
+sau chiến tranh
+1. Cơ sở dữ liệu thông tin khắc phục hậu quả bom mìn vật nổ sau chiến 
+tranh ở Việt Nam (sau đây gọi tắt là cơ sở dữ liệu bom mìn) là hệ thống các thông 
+tin về khắc phục hậu quả bom mìn quy định tại Khoản 2 Điều 31 Nghị định
+28 Khoản này được sửa đổi, bổ sung theo quy định tại khoản 10 Điều 1  của Thông tư sổ 101/2025/TT-
+BQP sửa đổi, bổ sung một sổ điều các Thông tư về điều tra, khảo sát, rà phá bom mìn vật nổ, có hiệu lực kể từ
+ngay 28 tháng 10 năm 2025.

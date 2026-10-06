@@ -1,0 +1,38 @@
+39
+5. Kiểm tra, xử lý tín hiệu đến độ sâu 1 m tính từ đáy biển, độ sâu 
+nước đến 50 m (MS: 040Ế 0400)
+a) Thành phần công việc: Tập kết tàu xử lý, thả khoang vây vào vị trí tín 
+hiệu, thợ lặn kết hợp với các loại vòi xói áp lực cao để xói cát, bùn hạ dần các 
+khoang vây xuống đến độ sâu 1 m cho lộ toàn bộ vật tín hiệu. Kiểm tra xác định 
+tín hiệu, nếu là sắt thép hoặc BMVN an toàn thì xử lý an toàn rồi trục vớt lên tàu 
+đưa về nơi quy định; nếu tín hiệu là BMVN không an toàn hoặc vật nổ lạ thì 
+đánh dấu và tổ chức huỷ no tại chỗ theo quy định. Kiểm tra lại xung quanh và 
+phía dưới vị trí tín hiệu vừa xử lý để đảm bảo hết tín hiệu.
+b) Định mức hao phí tính cho 1 tín hiệu
+Mã số Thành phần hao phí Đơn vịMức tiêu hao
+Vật liệu:
+Hệ thống khung vây bằng tôn 3 
+mm và sắt góc (45x45x5) mm Kg 24,32
+Nhân công:
+Bậc thợ QNCN 7/10 Công 3,80
+Máy thi công:
+040.0400
+Máy dò mìn Vallon MW 1630B Ca 0,14
+Máy xói, hút bùn cát Ca 0,23
+Thiết bị lặn Ca 0,74
+Bộ đàm Ca 0,74
+Thuyền cao su trung có máy đẩyCa 0,14
+Tàu công suất 650 cv có cẩu tự hànhCa 0,74
+Tàu khống chế giao thông 350 cvCa 0,74
+Tàu hậu cần 350 cv Ca 0,07
+1
+6. Kiểm tra, xử lý tín hiệu đến độ sâu 1 m tính từ đáy biển, độ sâu 
+nưóc ỉóĩi hon 50 m đến 150 m
+Trường hợp này chủ đầu tư chủ trì phối họp với đơn vị tư vấn khảo sát và 
+đơn vị thi công, căn cứ vào tình hình thực tế, trên cơ sở định mức tại khoản 5 
+(MS: 040.0400) của Định mức dự toán này để lập phương án kỹ thuật thi công 
+và dự toán, trình cấp có thẩm quyền phê duyệt trước khi thực hiện.
+7. Huỷ bom mìn vật nổ tại chỗ, độ sâu nưó’c đến 50 m (MS: 040.0500)
+a) Thành phần công việc: Sử dụng tàu, xác định chính xác lại vị trí tín 
+hiệu, thả phao, neo phụ đánh dấu vị trí tín hiệu; thực hiện các biện pháp an toàn, 
+thợ lặn kiểm tra, bố trí lượng nổ được chuẩn bị áp sát vào BMVN, bố trí đường

@@ -1,0 +1,29 @@
+65
+STT
+r
+Tên phương tiện, hoạt chât Đon vị tínhSố lượng
+r r
+Thuôc chông chóng mặt
+32 Acetyl-DL-Leucine 500 mg Ổng 10
+Nhóm thuốc giảm đau, hạ sốt, chống viêm
+33 Paracetamol 1 g Lọ 05
+34 Paracetamol 500 mg Viên sủi 10
+Dịch truyền
+35 Dung dịch natriclorua 0,9% 500 ml Chai 05
+36 Dung dịch glucose 5% 500 ml Chai 05
+37 Dung dịch glucose 10% 500 ml Chai 05
+38 Dung dịch glucose 10% 500 ml Chai 05
+39 Dung dịch ringer lactate 500 ml Chai 05
+40 Dung dịch Hydroxyethyl starch 6% hoặc dung 
+dịch cao phân tử khác tương đương 500 mlChai 05
+Nhóm thuôc chông dị ửng
+41 Diphenhydramin hydroclorid 10 mg Ống Từ 2 đến 5
+42 Methylprednisoione Natri succinate 40 mgỐng 5
+43 Chlorpheniramine maleate 4 mg Viên nén 20
+44 Loratadin 10 mg Viên nén 10
+Môt số thuốc khác •
+45 Panthenol (thuöc xit bong) Tuýp 01
+46 Calcium chloride 0,5 g/5 ml Ống 05
+47 Kali chlorid 500 mg Ống 05
+48 Kali chlorid 600 mg Viên 10
+49 Oresol Gói 10

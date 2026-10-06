@@ -1,0 +1,71 @@
+28
+ST
+T Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+lượng 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+lưoìig
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+24 M011.024 Máy bộ đàm cầm tay 200 10 3 4 1  X  bậc
+7/10
+495.00
+0 350.000 0
+25 MOI 1.025 Ôm kế 258 11 5,2 6 1  X  bậc
+7/10
+495.00
+0 890.000 0
+26 MOI 1.026 Máy điểm hỏa 258 11 5,2 6 1  X bậc
+7/10
+495.00
+0 1.230.000 0
+27 MOI 1.027 Thuyền composite vs -600 258 25 10 6
+60 Lít 
+xăng E5 
+RON92-
+n
+2 X bậc 
+5/10
+450.00
+0 63.900ẳ000 10
+28 MOI 1.028 Chuông lặn 170 25 7,5 8 2 X  bậc 
+8/10
+517.50
+0 77.160.000 10
+29 MOI 1.029 Độ sâu lặn >0,5m đến 3 m170 25 7,5 8 2 X  bậc 
+8/10
+517.50
+0 31.576.000 10
+30 MOI 1.030 Độ sâu lặn >3 m đến 6 m 170 25 7,5 8 2 X  bậc 
+8/10
+517ế50
+0 32.775.000 10

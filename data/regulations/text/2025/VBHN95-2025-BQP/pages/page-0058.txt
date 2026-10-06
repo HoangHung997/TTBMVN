@@ -1,0 +1,36 @@
+57
+* Chọn các màu tương ứng sau đây:
+Xanh lả cây Không có BMVN
+Đỏ Có BMVN (ô nhiễm trực tiếp)
+Nâu Ô nhiễm giản tiếp
+Vàng Không ô nhiễm gián tiếp
+Xám Không tiêp cận được
+* Mật độ thực vật
+Thưa: dê dàng đi lại và sử dụng mảy dò
+Trung bình: dê dàng đi lại nhưng hạn chế trong việc sử dụng mảy dò 
+DàyỆ *  khỏ tiếp cận khu vực
+rp Ả  A  /\
+* Tông sô ô:...................................................................................................
+Ô xanh lá cây (không ô nhiễm) Ô đỏ (ô nhiễm)
+Ô vàng (không ô nhiễm gián tiếp) Ồ màu nâu (ô liền kề)
+Ồ xám (không tiếp xúc) Tổng số ô trong danh 
+sách
+Diện tích đã khảo sát (m2) Tồng số ô được khảo sát
+Diện tích đã được kiểm tra lại (m2)
+Diên tích nghi ngờ ô nhiễm (m2) :..........
+Diên tích ô nhiễm (m2) :...........................
+Tông sô tín hiêu:.......................; trong đó:
+Là bom mìn, vât n ổ :........; khác:...............
+Mât đô (tín hiêu/10.000 m2) :....................; trong đó:
+Là bom mìn, vât n ổ :.................; khác:...............
+3. Bom mìn, vật nổ tìm thấy
+Ký
+hiêu
+Loại Ô Số
+lượng
+Kích
+thước Vĩ độ Kinh độ Độ sâu 
+(cm)
+Tình
+trạng
+Tổng số vật nổ tìm thấy

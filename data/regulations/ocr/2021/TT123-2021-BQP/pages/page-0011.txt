@@ -1,0 +1,54 @@
+Mã so          Thành phần hao phí         Đơn vị             Mức hao phí
+Vật liệu:
+Cọc gỗ (Ø3 x 120) cm             Cọc                   0,5
+Dây thừng Ø10 mm                    Mét                         67
+Cờ đỏ đuôi nheo                          Cái                         2,0
+000.0300     Vật liệu khác                            % VL                       5,0
+Nhân công:
+Bậc thợ QNCN 8/10                    Công                       2,31
+Thiết bj, máy:
+Máy dò mìn                               Ca                        9,25
+Thiết bi GPS câm tay                 Ca                       1,0
+                                                                   1
+
+c) Đào kiểm tra, xử lý tin hiệu khảo sát (MS: 000.0400)
+
+- Thành phần công việc: dùng máy dò mìn, kiểm tra lại vị trí đã đánh dấu
+tín hiệu. Đào từng lớp tại điểm có tín hiệu cho đến khi lộ vật gây tín hiệu.
+
+- Định mức chi phí tính cho 1 tín hiệu
+
+:                                                                   Á     Ấ     PR    2 gr    «A
+Mãsố | Thanh phin hao phi | Pon vi | — CaP đất tại vị tri tín hiệu
+
+I          II         II        IV
+
+NVhân công:
+
+000.0400 | Bc thợ QNCN 8/10           Công | 0,04 | 0,044 | 0,049 | 0,053
+
+May thi cong:
+
+Máy dò min VMH3.CS         Ca | 0,014 | 0,014 | 0,014 | 0,014
+1           2           3           4
+
+Chương II
+ĐỊNH MỨC RA PHA BOM MIN VAT NO
+Mue 1
+DON MAT BANG
+
+1. Don mặt bằng bằng thủ công khu vực là bãi min (MS: 010.0100)
+
+a) Thành phần công việc: kiểm tra, xác định ranh giới an toàn, phát dọn
+sạch cây, dây leo; phát đến đâu tiến hành dò min đến độ sâu 0,07 m. Thu dọn hết
+cây và các chướng ngại vật ra khỏi vị trí thi công.
+
+b) Định mức hao phí tính cho 10.000 m?
+
+cu              )         Ñ            ]        Pon                   Loai rừng
+Mai so         Thanh phan hao phi         vi         I         II         II       IV
+Nhân công:
+010.0199 hao thợ QNCN 8/10             Cong | 111 | 125 | 143 | 167
+|           2           3          4
+
+Ghi chú: địa bình có độ dốc trên 25 độ, chỉ phí nhân công được tăng 10%.

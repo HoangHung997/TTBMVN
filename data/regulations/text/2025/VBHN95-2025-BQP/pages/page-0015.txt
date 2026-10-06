@@ -1,0 +1,42 @@
+15
+- Những ô không thể tiếp cận để tiến hành khảo sát được đánh dấu màu 
+xám; căn cứ vị trí nằm trong khu vực nào để ghép vào khu vực ô nhiễm hay 
+không ô nhiễm theo nguyên tắc xác định bằng màu của các ô liền kề hay màu 
+của các ô trong cả khu vực.
+Chương III 
+RÀ PHÁ BOM MÌN VẬT NỎ 
+Mục 1
+CÔNG TÁC CHUẨN BỊ
+Điềul5. Khảo sát, thu thập số liệu phục vụ lập phương án kỹ thuật thi 
+công, dự toán rà phá bom mìn vật nổ
+Đơn vị, tổ chức KS, RPBM có trách nhiệm:
+1. Xây dựng kế hoạch KS, RPBM kèm theo sơ đồ khu vực trình cấp có 
+thấm quyền phê duyệt.
+2. Thông báo bằng văn bản đến chính quyền địa phương và cơ quan quân sự địa 
+phương từ cấp xã trở lên về hoạt động KS, RPBM theo đúng quy định.
+3. Thu thâp thông tin về đặc điểm tình hình BMVN (Khu vực ô nhiễm 
+BMVN, việc bo trí; mức độ đánh phá; chủng loại, tính chất BMVN do các lực 
+lượng tham chiên đã sử dụng trong khu vực sẽ thi công RPBM) trong các tài liệu 
+hô sơ lưu trữ, thông tin của chính quyên, lực lượng vũ trang quản lý địa bàn và 
+nhân dân địa phương.
+4. Đóng cọc mốc bằng bê tông cốt thép khi thi công RPBM trên cạn; tiến 
+hành thả phao, rùa khi RPBM dưới nước; thả phao, rùa kêt hợp với định vị tọa 
+dộ GPS khi RPBM dưới biển để đánh dấu phạm vi, khu vực thi công RPBMế
+5. Khảo sát tại thực địa để xác định:
+a) Cấp rừng, địa hình, cấp đất, độ nhiễm từ của đất, thời tiết, khí hậu, thuỷ 
+văn; tình hình dân cư trong khu vực và tìm vị trí dựng lán trại làm nhiệm vụ;
+b) Xác định mật độ tín hiệu toàn khu vực bằng cách tiến hành RPBM một 
+số bước của quy trình tại môt số vị trí được chọn có kích thước từ (25x25) m 
+đên (50x50) m mang tính chât đại diện cho từng loại địa hình, đôi với những dự 
+án RPBM trên cạn và dưới nước có diện tích từ 30 ha trở lên thì tông diện tích 
+các điểm KS phải bằng 1% tổng diện tích cần RPBM; đối với dự án RPBM có 
+diện tích nhỏ hơn 30 ha thì tổng diện tích các điểm KS từ 1% đến 3% tổng diện 
+tích cân RPBM, tùy theo mặt băng của dự án. Đôi với KS dưới biên các ô KS 
+thường có kích thước (250 X 50) m với tổng diện tích các điểm KS phải bằng 
+3% khi diện tích cân RPBM từ 30 ha trở lên và băng 5% khi diện tích cân 
+RPBM nhỏ hơn 30 ha;
+c) Các biên bản trong hồ sơ khảo sát phục vụ lập phương án kỹ thuật thi 
+công, dự toán (biên bản bàn giao mặt băng cho KS; nhật ký thi công KS; nghiệm 
+thu kết quả KS; báo cáo kết quả thi công KS) thực hiện theo Mâu RPBM-01, 
+Mau RPBM-02, Mau RPBM-03, Mau RPBM-04 tại Phụ lục III ban hành theo 
+Quy trình này.

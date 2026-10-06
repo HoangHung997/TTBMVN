@@ -1,0 +1,32 @@
+4
+Phụ lục I
+ĐỊNH MỨC Dự TOÁN RÀ PHÁ BOM MÌN VẬT NỐ•  •  •
+(Ban hành kèm theo Thông tư so 123/2021/TT-BQP 
+ngày 20 tháng 9 năm 2021 của Bộ trưởng Bộ Quốc phòng)
+Phần I
+THUYẾT MINH ĐỊNH MỨC Dự TOÁN
+1. Định mửc dự toán rà phá bom mìn vật nổ
+Định mức rà phá bom mìn vật nổ là định mức kinh tế, kỹ thuật quy định 
+mức hao phí càn thiết về vật liệu, nhân công, máy thi công để hoàn thành một 
+đơn vị khối lượng thi công rà phá bom mìn vật nổ, phù hợp với nội dung công 
+việc, điều kiện và yêu cầu kỹ thuật theo quy định.
+2. Mức hao phí vật liệu, nhân công và máy thi công
+a) Mức hao phí vật liệu là số lượng vật liệu chính, vật liệu phụ (kể cả vật 
+liệu tiêu hao và vật liệu luân chuyển) cần thiết để thực hiện và hoàn thành khối 
+lượng công việc của công tác rà phá bom mìn vật nổ.
+b) Mức hao phí nhân công là số ngày công trực tiếp của kỹ thuật viên và 
+ngày công phục vụ rà phá bom mìn vật nổ. Do tính chất đặc biệt của công tác rà 
+phá bom mìn vật nổ nên kỹ thuật viên được tính theo bậc lương bình quân các 
+chuyên ngành kỹ thuật.
+c) Mức hao phí mảy thỉ công là số ca máy, thiết bị trực tiếp làm việc để 
+hoàn thành một đơn vị khối lượng công việc rà phá bom mìn vật nổ.
+3. Phân loại bãi mìn, mật độ tín hiệu, khu vực áp dụng mật độ tín 
+hiệu bom mìn vật nổ và phân loại rừng, cấp đất
+a) Phân loại bãi mìn
+Bảng 1. Quy định số lượng tín hiệu, tín hiệu là BMVN cho 10.000 m2
+TT Phân ỉoại bãi mìnSố Iưọìig tín hiệuSố lượng tín hiệu là BMVN
+1 Loại 1 Dưới 150 Từ 1 đến dưới 50 quả
+2 Loại 2 Từ 150 đến 300 Từ 50 đến 100 quả
+3 Loại 3 Từ trên 300 đến 450 Từ trên 100 đến 150 quả
+4 Loại 4 Từ trên 450 đến 600 Từ trên 150 đến 200 quả
+5 Loại đặc biệt Trên 600 Trên 200 quả

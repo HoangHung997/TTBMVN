@@ -1,0 +1,37 @@
+Biểu mẫu 03:  Bảng tổng hợp dự toán rà phá bom mìn vật nỗ là một t hạng
+mục của dự án sử dụng nguồn vốn Nhà nước ‡^
+
+mm       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+TÊN PON VL...........                        Độc lập - Tự do - Hạnh phúc
+th, ngày..... tháng...... năm .....
+BANG TONG HỢP DU TOÁN
+Dự án:..............................
+Địa điểm: .......ó2...
+
+Hạng mục: Rà phá bom mìn vật nỗ
+
+`       sÀ
+TT                 Hạng mục           . | Ký hiệu           Cách tính          làn khai
+I [Chi phí trực tiếp
+1 |Chi phí vật liệu                               VL           Tổng chi phi VL
+2 | Chi phi nhân công                           NC [Tông chi phí nhân công
+3 |Chi phí máy                                    M           Tổng chỉ phí máy
+* | Cộng chỉ phí trực tiếp                       T               VL+NC+M
+II | Chi phí chung                                 C                40% * NC
+Cộng giá tri RPBM                         Z                    T+C
+II | Chi phí khác           |                       K              K1+..K6+...
+2 |Chi phí lán trại                                K2         Tỷ lệ quy định * T
+3 | Chi phí thâm định                           K3         Tỷ lệ quy định * Z
+4  lông nh tra chât lượng thi          K4         Tỷ lệ quy định * Z
+5 | Chi phi gidm sit thi cong (néu c6)| K5         Ty lệ quy định * Z
+¢ (Chi phi vận chuyên và tiêu hủy         K6  Tỷ lệ quy định * Z
+bom mìn vật nô
+.. | Chi phí dự phòng (nêu có)                          Tỷ lệ theo quy định *Z
+. |Chi phí khác (nêu có)                                 Tỷ lệ theo quy định
+Cộng giá trị dự toán                         H                    Z+K
+Làm tròn
+BANG CHE: vo. cove eevee ees
+ĐẠI DIEN PON VI LAP DỰ TOÁN              ĐẠI DIEN CHU ĐẦU TU
+
+(Ký tên, đóng dấu)              (Ký tên, đóng dấu)

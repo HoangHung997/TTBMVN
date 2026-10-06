@@ -1,0 +1,53 @@
+17
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định mức 
+tiêu hao 
+nhiên liệu, 
+năng 
+lượng 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+11 M010.011 Tàu loại 4200 cv 290 7 2,4 6 3211 Lít 
+diezel 6x20 101.976.100.00010
+12 M010.012 Tàu loại 2500 cv 290 7 4,5 6 1751 Lít 
+diezel 4 xl6 34.650.000.00
+0 10
+13 M010.013 Tàu loại 1200 cv 290 7 3,75 6 1008 Lít 
+diezel 4x 14 20.115.500.00
+0 10
+14 M010.014 Tàu loai 650C - Tàu dò tìm, xử 
+lý 290 9 4,1 6 573 Lít 
+diezel 3x8 7.685.500.000 10
+15 M010.015
+Tàu loại 350CV (Tàu xử lý, 
+hậu cần, làm trạm nổi, điều 
+tiết giao thông)
+260 10 5 6 202 Lít 
+diezel 2x6 887ế000.000 10
+16 M010ế016 Máy quét bề mặt đáy biển (đại 
+diện siêu âm Sonar Klein 3000)258 25 10 5 3 X bậc 
+8/10 4.115.480.000 10
+17 M010.017 Thiết bị Từ kế Seaquest 258 25 10 5 3 X bậc 
+8/10 6.136.523.020 10
+18 M010ể018 Hệ thống robot ROV có tay 
+gắp xử lý tín hiệu (Đồng bộ258 25 10 5 4 X bậc 25.367.387.79 10

@@ -1,0 +1,30 @@
+52
+3. Khu vực nghi ngờ ô nhiễm bom mìn vật nổ
+Mã
+SHA
+Tọa độ các điêm bao 
+(> 3 điểm)
+Diện tích 
+(tương đối)Vị trí Loại BMVN Ghi
+chúVĩ độKinh độ
+4. Khu vực khẳng định ô nhiễm bom mìn vật nổ
+Mã
+CHA
+Toa đô cá 
+<>3
+1C  đi em bao 
+điểm)
+Diện tích 
+(tưong đối)Vị trí Loại BMVN Ghi
+chúVĩ độ Kỉnh độ
+5. Khu vực không ô nhiễm bom mìn vật nổ
+Mã
+Tọa độ các điềm bao 
+(> 3 điểm)
+Diện tích 
+(tương đối)Vị trí Loại BMVN Ghi chú
+Vĩ độ Kinh độ
+ĐƠN VỊ THựC HIỆN ĐIÈƯ TRA
+(Ký tên, đóng dấu)
+ĐỘI TRƯỞNG
+(Kỷ, ghi rõ họ tên)

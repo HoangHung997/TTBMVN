@@ -1,0 +1,36 @@
+50
+Biểu mẫu 03: Bảng tổng họp dự toán rà phá bom mìn vật nổ là một hạng 
+mục của dự án sử dụng nguồn vốn Nhà nước
+.........ể;.................................... CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TÊN ĐƠN VỊ............. Độc lập - Tự do - Hạnh phúc
+........, ngày....thảng.......năm ......
+BẢNG TỎNG HỢP Dự TOÁN
+Dự án:..........................................
+Địa điểm:......................................
+Hạng mục: Rà phá bom mìn vật nổ
+TT Hạng mục Ký hiệu Cách tính Thành tiền 
+(đồng)
+I Chi phí trực tiêp
+1 Chi phí vật liệu VL Tông chi phí VL
+2 Chi phí nhân công NC Tông chi phí nhân công
+3 Chi phí máy M Tông chi phí máy
+* Cộng chi phí trực tiếpT VL+NC+M
+II Chỉ phí chung c 40% * NC
+Cộng giá trị RPBM z T+C
+IIIChi phí khác K Kl+...K6+.ắ.
+1 Chi phí khảo sát, lập phương án 
+KTTC và dự toán KI Tỷ lệ quy định * z
+2 Chi phí lán trại K2 Tỷ lệ quy định * T
+3 Chi phí thâm định K3 Tỷ lệ quy định * z
+4 Chi phí kiêm tra chât lượng thi 
+công RPBM K4 Tỷ ỉệ quy định * z
+5 Chi phí giám sát thi công (nêu có)K5 Tỷ lệ quy định * z
+6 Chi phí vận chuyên và tiêu hủy 
+bom mìn vật nổ K6 Tỷ lệ quy định * z
+Chi phí dự phòng (nêu có) Tỷ lệ theo quy định *z
+Chi phí khác (nêu có) Tỷ lệ theo quy định
+Cộng giá trị dự toán H Z+K
+Làm tròn
+Băng chữ:.....................................................
+ĐẠI DIỆN ĐƠN VỊ LẬP Dự TOÁN ĐẠI DIỆN CHỦ ĐÀU TƯ•  •  • • • • • r r
+(Kỷ tên, đóng dâu) (Ký tên, đóng dâu)

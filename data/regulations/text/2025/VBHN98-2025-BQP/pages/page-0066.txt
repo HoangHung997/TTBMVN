@@ -1,0 +1,30 @@
+63
+STT Tên phương tiện, hoạt chất Đon vỉ tính • Số ỉượng
+7 Gạc đệm cỡ trung bình Cái 20
+8 Đèn soi tai, đồng tử Cái 01
+9 Băng dính Cuộn 02
+10 Dao mổ tiệt trùng (gồm cả cán và lưỡi dao)Cái 05
+11 Kim liền chỉ (tự tiêu và không tự tiêu) đã tiệt 
+trùng các số Sợi Mỗi số 02 sợi
+12
+Hộp dụng cụ tiểu phẫu (02 kẹp, 02 kéo, 02 kẹp 
+phẫu tích, cán dao, lưỡi dao dùng một lần, kim 
+liền chỉ khâu, kìm kẹp kim)
+Bộ Từ 1 bộ đến 2 
+bộ
+VII. Danh mục thuốc thiết yếu
+Nhóm thuốc tim mach•
+1 Dopamin 200 mg ống 05
+2 Dobutamin 250 mg Ổng 05
+3 Noradrenaline 1 mg Ống 20
+4 Adrenaline 1 mg Ống 20
+5 Atropine sulphate 1/4 mg Ống 20
+6 Nitroglycerine Spray 200 lieu (möi lieu 0,4 mg)Lọ 01
+7 Nifedipin 10 mg Viên nang 10
+8 Captopril 25 mg Viên 10
+9 Amiodaron 150 mg Ống 05
+10 Furosemide 20 mg/2 ml Ống 05
+11 Digoxin 0,25 mg/1 ml Ống 05
+12 Furosemid 40 mg Viên nén 10
+13 Amiodaron 200 mg Viên 10
+14 Nitroglycerin 1 mg/10 ml Ổng 05

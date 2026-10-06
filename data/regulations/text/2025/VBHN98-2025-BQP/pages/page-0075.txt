@@ -1,0 +1,42 @@
+1
+Phụ lục D 
+Hệ thống đánh dấu trong KS, RPBM
+D.l. Điểm chuẩn, điểm tham chiếu: Có thể là một vật thể tự nhiên hoặc 
+cọc bê tông, và ít nhất cần có chứa thông tin về dự án, hạng mục, nhiệm vụ ĐT, 
+KS, RPBM. Từ điểm chuẩn, góc chuẩn Bắc la bàn và khoảng cách so với điểm 
+bắt đầu của nhiệm vụ rà phá phải được ghi lạiệ  Điểm chuẩn cần được đặt bên 
+ngoài khu vực nguy hiểm tại một vị trí dễ nhận biết trên bản đồ và trên thực địa.
+D.2. Cọc điểm đầu: Phải được đặt tại điểm bắt đầu rà phá. Tất cả các phép 
+đo/giá trị đo trong khu vực KS, RPBM đều được lấy từ điểm này, và tùy thuộc 
+vào vị trí của vật liệu nổ đã rà phá, có thể quyết định đặt thêm các điểm bắt đầu 
+đế dễ lập bản đồ trong hoặc sau khi hoàn thành rà phá. Điểm bắt đầu ban đầu 
+cần phải dễ nhìn thấy từ vị trí điểm chuẩn. Phải sử dụng cọc dài 1,2 m với đầu 
+cọc sơn vàng tối thiểu 0,15 m, sau đó sơn trắng ít nhất 0,15 m.
+D.3. Cọc điếm chuyển hướng: Phải được đặt ở mỗi góc trên đường biên 
+ngoài của khu vực khảo sát, RPBM. Phải sử dụng cọc dài 1,2 m với đầu cọc sơn 
+vàng tối thiểu 0,15 m, sau đó sơn trắng tối thiểu 0,15 m. Nếu sử dụng dây cảnh 
+báo để cải thiện tầm nhìn của cọc, phải sử dụng dây viền vàng trắng.
+D.4. Các cọc đánh dấu ranh giới/cọc biên: Phải được đặt mỗi 25 m giữa 
+các điểm uốn. Phải sử dụng cọc dài 1,2 m với đầu cọc sơn đỏ tối thiểu 0,15 m, 
+sau đó sơn trắng tối thiểu 0,15 m. Neu cần, có thể rút ngắn khoảng cách giữa các 
+cọc để có thế quan sát rõ hơn. Neu sử dụng dây cảnh báo để cải thiện tầm nhìn 
+cọc, phải sử dụng dây viền đỏ trắngẳ
+D.5. Cọc đánh dấu ô khảo sát/rà phá: Phải được đặt ở tâm và 4 góc các ô 
+kích thước tối đa (50 X 50) m trong khu vực thi công. Phải sử dụng cọc dài 1,2 
+m với đầu cọc sơn đỏ tối thiểu 0,15 mế  Có thể giảm bớt kích thước ô rà để có thể 
+quan sát tốt hơn.
+D.6. Cọc đánh dấu khu vực an toàn là cọc dài 0,7 m, đầu cọc sơn trắng 
+0,15 m. Các cọc này đánh dấu ranh giới của các khu vực được chỉ định an toàn 
+nằm trong (hoặc ngoài) khu vực nguy hiểm, như hố thử máy dò, hố thu phế liệu 
+kim loại...
+D.7. Các dải dò được đánh dấu bằng dây màu đỏ hoặc trắng đỏ xen kẽ rải 
+dọc hai biên dải dò trên mặt đất. Neu cần, dây có thể được buộc vào cọc đánh 
+dấu dải dò để đảm bảo dây được rải thẳng và được cố định.
+D.8. Cọc đánh dấu dải dò dài 0,30 m. Các cọc này cũng có thể được sử 
+dụng đế đánh dấu (khóa chéo) một dải dò tạm dừng trước một đợt nghỉ dài hoặc 
+khi kết thúc ngày làm việc.
+D.9. Các vật liệu nổ được đánh dấu bằng một bộ gồm 3 cọc dài 0,3 m 
+không sơn đặt theo hình tam giác, nối với nhau bằng dây cảnh báo nguy hiểm. Bộ 
+đánh dấu này thế hiện vị trí của một vật liệu nổ. Trong một sổ trường hợp nhất 
+định (như điều tra, khảo sát), có thể chỉ cần sử dụng dây cảnh báo nguy hiểm.
+72

@@ -1,0 +1,41 @@
+73
+của khu vực dự án, các thông tin địa hình, thời tiết, khí hậu thuỷ vănệ.. làm căn cứ lập 
+phương án kỹ thuật thi công và dự toán thi công RPBM cho dự án, bảo đảm tính 
+chính xác, đúng quy định, bảo đảm tiết kiệmể
+2. Yêu cầu
+- Căn cứ bản vẽ thiết kế, tiến hành đánh dấu phạm vi mặt bằng thi công 
+của dự án tại thực địa và thê hiện chi tiết bằng tọa độ trên bản vẽ thi công RPBM 
+của dự án.
+- Xác định diện tích, mật độ khu vực, tỷ lệ cây cối cần phải phát dọn trên 
+mặt băng thi công.
+- Xác định mật độ tín hiệu độ sâu đến....... m, tính từ mặt đất tự nhiên
+hiện tại trở xuống, cấp đất khi phải đào xử lý tín hiệu.
+- Xác định sơ bộ chủng loại bom mìn vật nổ. Quá trình khảo sát nếu phát 
+hiện bom mìn vật nổ phải thu gom xử lý để đảm bảo an toàn.
+- Thu thập số liệu về địa hình, địa chất, khí hậu thủy văn; điều tra tình 
+hình dân cư, tập quán sinh hoạt, an ninh, trật tự xã hội và các vấn đề có liên 
+quan đến thực hiện nhiệm vụ.
+III. NỘI DUNG THựC HIỆN
+1. Lực lượng, trang bị
+Sử dụng........đội thi công khảo sát hỗn hợp trên cạn và dưới nước, quân
+số........đ/c; thành phần gồm:.........đ/c; phụ trách phân đội___đ/c; kỹ thuật viên:
+...........đ/c; nhân viên y tế.....đ/c.
+Chỉ huy:.........................................................................................
+Những người tham gia thi công khảo sát cán bộ, kỹ thuật viên đã được 
+huấn luyện theo quy đinh và có kinh nghiệm về công tác RPBM.
+2. Thời gian thi công:
+-Bắt đầu từ: ngày .... tháng .... năm.......
+- Hoàn thành: ngày.....tháng.....năm.........
+3. Khối lượng thi công khảo sát bom mìn vật nổ
+a) Phạm vi diện tích thi công khảo sát
+- Diện tích RPBM của dự án:.........ha
+- Diện tích thi công khảo sát:.............ha
+- Tiến hành thi công
+................điếm. Mỗi điểm khảo sát có kích thước ô
+là 25 m X 25 m = 500 m2. Với diện tích khảo sát:.................ha > 1% diện tích
+thi công RPBM của dự án.
+b) Khối lượng thi công khảo sát:
+- Diện tích phát dọn tương đương rừng loại:........ha.
+- Diện tích khảo sát RPBM đến độ sâu 0,3 m.........ha.
+- Xử lý tín hiệu đến độ sâu 0,3 m :.......tín hiệu.
+- Diện tích khảo sát rà phá bom mìn, vật nổ đến độ sâu 5 m:......ha.

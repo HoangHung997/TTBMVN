@@ -1,0 +1,58 @@
+28
+
+3. Trình tự thực hiện:
+
+a) Kiểm tra tình trạng hoạt động của trang bị.
+
+b) Định vị phạm vi khu vực thi công.
+
+c) Lập chương trình chia nhỏ khu vực thành các đường dò theo chiều dài khu
+vực cho thiết bị sona, từ kế làm việc. Căn cứ vào khối lượng thi công trong ngày
+và chiều dài khu vực dò tìm, mỗi đường dò có chiều dài không quá 5 km. Khoảng
+cách giữa 2 đường dò liền kề nhau từ 15 m đến 17 m.
+
+d) Di chuyển tàu doc theo đường dò với vận tốc tối đa 8 km/h, điều chỉnh cáp
+kéo sao cho thiết bị sona, từ kế phải cách mặt đất đáy biến tối thiểu là 10 m. Vệt
+dò sau phải trùm lên vệt dò trước đó từ 3 m đến 5 m. Sau khi dò hết chiều dài
+đường dò thứ nhất trong 6 thi công, di chuyển tàu để dò sang đường dò tiếp theo
+cạnh đường dò trước, cứ như thế cho đến hết phạm vi thi công dự kiến trong ngày.
+
+đ) Ghi, lưu và truyền số liệu thu được.
+
+e) Xử lý số liệu thu được, kết quả cuối cùng sẽ là bản đồ hình ảnh bề mặt
+đáy biển và bản đồ từ tính cùng toạ độ của các vật thể nằm trên bề mặt hoặc năm
+dưới đáy biển mà máy dò phát hiện được.
+
+g) Cung cấp các toạ độ tín hiệu cho tàu xử lý.
+
+Điều 48. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển
+
+1. Trường hợp áp dụng: tín hiệu nim trên bề mặt đáy biển được phát hiện
+khi thực hiện bước dò tìm, độ sâu nước đến 150 m.
+
+2. Trang bị: Tau đến 650 cv có cầu mi ni tự hành, thuyền cao su có máy
+đẩy, thiết bị ROV hoặc chuông lặn, thiết bị DGPS, máy dò min dưới nước.
+
+3. Trình tự thực hiện:
+
+a) Căn cứ sơ đồ tín hiệu đã đánh dấu, định vị xác định vị trí tín hiệu, tập kết
+trang bị phục vụ xử lý, làm công tác chuẩn bị, dùng thiết bị ROV hoặc thợ lặn
+kết hợp chuông lặn, di chuyển tới vị trí đã đánh dấu, tìm tín hiệu thông qua
+Camera lắp trên thiết bị ROV hoặc thợ lặn để xác định chính xác.
+
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 49. Kiếm tra, xử lý tín hiệu đến độ sâu 1m
+
+1. Trường hợp áp dụng: tín hiệu năm ở độ sâu đến 1 m tính từ bề mặt đáy
+biển, độ sâu nước đến 50 m.
+
+|

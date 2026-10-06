@@ -1,0 +1,37 @@
+51
+- Những vấn đề có nguy cơ gây ảnh hưởng đáng kể đến các tổ chức, cá 
+nhân có liên quan.
+4ệ2.8.1ẻ2. Sai sót:
+- Những sai sót độc lập, để phát hiện, dễ khắc phục không đòi hỏi phải tổ 
+chức kiểm tra tìm nguyên nhân và biện pháp khắc phục;
+- Những sai sót do thông tin không chính xác, thiếu hồ sơ hoặc làm sai 
+báo cáo;
+- Những sai sót dẫn đến việc giảm hiệu quả công tác trong nội bộ nhưng 
+không làm ảnh hưởng đến chất lượng dự án và người sử dụng đất sau RPBM;
+- Nhũng sai sót gây ảnh hưởng đến quy trình kỹ thuật và chất lượng sản phẩm;
+- Vi phạm đến lần thứ 3 với cùng sai sót được coi là sai sót cơ bản/sai 
+sót nặng.
+4.2.8.1Ệ 3. Sai sót cần nhắc nhở:
+- Là những sai sót không thuộc hai loại trên nhưng cần được cán bộ, nhân 
+viên trong hệ thống QLCL phát hiện, nhắc nhở và đôn đốc thực hiện việc khắc 
+phục kịp thời, tại chỗ;
+- Sai sót cần nhắc nhở được coi là sai sót nếu vi phạm đến lần thứ 3.
+4.2.8.2. Phương pháp thực hiện:
+- Việc đánh giá mức độ sai sót cần được thảo luận, phân tích rõ nguyên 
+nhân, xem xét hậu quả hoặc nguy cơ hậu quả. Cán bộ QLCL phải trao đổi kỹ với 
+đơn vị, cá nhân vi phạm và với các nhân viên khác trước khi ghi vào báo cáo;
+- Mọi sai sót được phát hiện đều phải được ghi lại vào phiếu phát hiện sai 
+sót và báo cáo tống họp sai sót và được phổ biến rộng rãi như một biện pháp 
+phòng ngừa;
+- Những sai sót cơ bản/sai sót nặng cần điều tra hoặc phân tích nguyên 
+nhân thì phải lập biên bản sai sót;
+- Mọi cá nhân khi tham gia hoạt động ĐT, KS, RPBM đều phải có trách 
+nhiệm phát hiện, ngăn ngừa và báo cáo kịp thời các hiện tượng sai sót hoặc các 
+nguy cơ gây sai sót;
+- Đối với trường họp xảy ra tai nạn nổ BMVN, mọi hoạt động của công 
+trường sẽ tạm thời dừng lại cho đến khi các cơ quan chức năng tìm ra nguyên 
+nhân, khắc phục và phòng ngừa;
+- Đơn vị thi công cùng với tư vấn giám sát phải lập kế hoạch và thực hiện 
+biện pháp khắc phục sai sót và phòng ngừa;
+- Tư vấn giám sát và nhà thầu thi công có trách nhiệm kiểm tra kết quả 
+khắc phục sai sót và báo cáo cho chủ đầu tư.

@@ -1,0 +1,40 @@
+21
+Ghi chủ: Địa hình có độ dốc trên 25 độ, chi phí nhân công được tăng 10%.
+2. Dọn mặt bằng bằng thủ công khu vực không phải là bãi mìn 
+(MS: 010.0200)
+a) Thành phần công việc: Kiểm tra, phát dọn sạch cây, dây leo; thu gom, 
+dọn hết cây và các chướng ngại vật ra khỏi vị trí thi công. Mở lối, đóng cọc, chia 
+ô (25 X 25) m hoặc (50 X 50) m.
+b) Định mức hao phí tính cho 10.000 m2
+Mã số Thành phần hao phíĐon
+vi•
+Loại rừng
+I II m IV
+010.0200
+Nhân công:
+Bậc thợ QNCN 7/10 Công 67 73 83 101
+1 2 3 4
+r _
+Ghi chủ: Địa hình có độ dôc trên 25 độ, chi phí nhân công được tăng 10%.
+3. Dọn mặt bằng bằng thủ công kết họp đốt bàng xăng hoặc dầu 
+(MS: 010.0300)
+a) Thành phần công việc: Kiểm tra, phát cây mở lối rộng 2 m đến 4 m, 
+làm đường công vụ. Phun xăng, dầu đốt trong từng ô; kiểm tra, dọn hết cây, 
+cành chưa cháy hết và các chướng ngại vật ra khỏi vị trí thi công.
+b) Định mức hao phí tính cho 10.000 m2
+Mã số Thành phần hao phíĐon
+vi•
+Loại rừng
+I II III IV
+010.0300
+Vật liệu:
+Xăng, dầu Kg 420 448 476 546
+Nhân công.ể
+Bậc thợ QNCN 7/10 Công 67 73 83 101
+1 2 3 4
+Ghi chủ: Địa hình cổ độ dốc trên 25 độ, chỉ phí nhân công được tăng 10%.
+4. Dọn mặt bằng bằng thủ công kết họp với thuốc nổ (MS: 010ệ0400)
+a) Thành phần công việc: Kiểm tra, dùng lượng nổ dài để phá hàng rào 
+dây thép gai, mở đường phụ, cắm cọc chia ô. Dọn hết mảnh vụn dây thép, cọc 
+thép, chướng ngại vật ra khỏi vị trí thi công.
+b) Định mức hao phí tính cho 1 m hàng rào thép gai

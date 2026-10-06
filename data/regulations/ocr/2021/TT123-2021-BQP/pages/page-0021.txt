@@ -1,0 +1,57 @@
+19
+
+Ghi chú:
+
+phao cứu sinh loại đại)
+Phao nhỏ Ø12 cm                   Cái        4,00          4,00           4,00
+Dây nilon Ø10 mm          Mét     210      210       210
+Dây nilon 912mm                 Mét        8,00          18,50          27,00
+Dây nilon Ø18mm                   Mét        8,64          8,64           8,64
+Vật liệu khác                            % VL       1,00            1,00             1,00
+Nhdn công:
+Bậc thợ QNCN 7/10                 Công | 23,82         26,19          28,80
+May thi công:
+Máy dò bom dưới nước             Ca | 926          10,19          12,22
+Thuyén cao su trung                 Ca | 926          10,19          12,22
+Thuyén cao su tiểu                    Ca        18,52         20,38          24,44
+Thuyén composit                      Ca        10,19         12,12          13,44
+1                2                3
+
+- Ra phá bom min dưới nước áp dụng đối với khu vực có độ sâu nước nhỏ hơn 25 m.
+- Trường hợp thi công tại vùng nước có dòng chảy chỉ phí nhân công và máy theo
+
+bảng trên được điều chỉnh với hệ số như sau.
+
++ Khi lưu tốc của nước > 0 đến 0,5 m/s, được nhân với hệ số 1,1;
+
++ Khi lưu tốc của nước > 0,5 m/s đến 1 m/s, được nhân với hệ số 1,25;
++ Khi lưu tốc của nước > 1 m/s trở lên, được nhân với hệ số 1, 5;
+
++ Xi lưu tốc của nước > 2 m/s khuyến cáo không tiền hành RPBM.
+
+- Trường hợp nước sâu <3 m dùng sào tre cắm trực tiếp dé đánh dầu.
+- Riêng thiết bị lặn chỉ được tính khi độ sâu nước >1,5m.
+
+- Các loại phao, neo (rùa) đề định vị và đánh dấu khu vực chỉ đùng cho các khu vực
+RPBM có độ sâu nước tôi thiểu 3m và chiêu rộng khu vực RPBM tôi thiểu 50 m.
+
+;      - Chỉ đóng cọc moc băng bê tông cốt thép đánh dau phạm vi RPBM ở những khu vực
+tiép giáp với bờ, khoảng cách giữa 2 cọc > 100 m.
+
+2. Ra phá bom min vật nỗ ở độ sâu từ lớn hơn 0,5 m đến 3 m hoặc
+đến 5 m tính từ đáy nước (MS: 030.0200)
+
+a) Thành phần công việc: sử dụng thuyền composit căng dây kết hợp với
+phao, neo các loại ô dò theo quy định. Dùng máy dò bom đặt trên thuyền dò
+đúng yêu cầu kỹ thuật; phát hiện hết tín hiệu từ mặt đất đáy nước xuống độ sâu
+cần dò tìm.
+
+b) Định mức hao phí tính cho 10.000 m?
+
+~ X            \         A            ,       Đơn | ~~ Độsâu của nước (m)
+Mã sô         Thành phân hao phí         vị        05712      12322 | 222725
+Vat liệu:
+030.0200    Mỏ neo loại 50 kg                "Cái         0,032           0,032         0,032
+Mỏ neo 20 kg                       Cái         0,064           0,064          0,064
+Phao bang sim 6 tô (hoặc | Cái        0,32         0,32         0,32
+

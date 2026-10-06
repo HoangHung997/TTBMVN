@@ -1,0 +1,25 @@
+32
+STT Mã hiệu Loại máy và thiết bị
+Chi phí
+Giá ca máy 
+(VNĐ)Khấu hao Sửa chữa
+Nhiên 
+liệu, năng 
+lượng
+Nhân
+công Khác
+15 MOI 1.015 Tàu loại 350CV (Tàu xử lý, hậu cần, 
+làm trạm nổi, điều tiết giao thông)291Ế 687 170.577 3.751.140 4.286.000 204.692 8.704.096
+16 MOI 1.016 Máy quét bề mặt đáy biển (đại diện 
+siêu âm Sonar Klein 3000) 3.589.081 1.595ế147 1.552.500 797ể574 7.534.302
+17 MOI 1.017 Thiết bị Từ kế Seaquest 5.351.619 2.378.497 1.552.500 1.189.249 10.471.865
+18 MOI 1.018 Hệ thống robot ROV có tay gắp xử lý 
+tín hiệu (Đồng bộ thiết bị đi kèm)
+22Ệ  122.72 
+2 9.832.321 2.070.000 4.916.160 38.941.203
+19 MOI 1.019 Định vị thủy âm 445.851 198.156 1.035.000 99.078 1.778.086
+20 MOI 1.020 Thiết bị định vị DGPS 443.034 147.678 450.000 98.452 1.139.164
+21 MOI 1.021 Định vị trên hải đồ 426.917 142.306 900.000 94Ế 871 1.564.094
+22 MOI 1.022 Thuyền gỗ (sức chứa > 3 tấn có máy đẩy)111.052 58.330 817.080 2.987.000 67.304 4.040.767
+23 MO 11.023 Thiết bị hút và xói bùn cát (máy nén 
+khí từ 7m3/phút đến 10 m3/phút)137.800 25.911 2ẵ061.270 1.035.000 58.889 3.318.870

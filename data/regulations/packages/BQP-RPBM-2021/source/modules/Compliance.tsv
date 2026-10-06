@@ -1,0 +1,4 @@
+key	recordType	unit	title	data	sourceDocumentId	pageFrom	pageTo	section	verification
+COMPLIANCE-TT121-EFFECTIVE	EffectiveRule	date	Hiệu lực Quy trình kỹ thuật 2021	effectiveFrom=2021-11-05;package=BQP-RPBM-2021	TT121-2021-BQP	34	34	Điều khoản thi hành	VerifiedAgainstOfficialSource
+COMPLIANCE-TT122-EFFECTIVE	EffectiveRule	date	Hiệu lực phương pháp xác định giá ca máy 2021	effectiveFrom=2021-11-05;package=BQP-RPBM-2021	TT122-2021-BQP	3	3	Điều 8	VerifiedAgainstOfficialSource
+COMPLIANCE-TT123-EFFECTIVE	EffectiveRule	date	Hiệu lực định mức dự toán và quản lý chi phí 2021	effectiveFrom=2021-11-05;package=BQP-RPBM-2021	TT123-2021-BQP	2	2	Điều khoản thi hành	VerifiedAgainstOfficialSource

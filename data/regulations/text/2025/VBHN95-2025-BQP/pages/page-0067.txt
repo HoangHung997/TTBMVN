@@ -1,0 +1,38 @@
+65
+Phu lue III•  •
+MẪU BIÉU RÀ PHÁ BOM MÌN VẬT NỐ
+(Ban hành kèm theo Quy trình kỹ thuật điều tra, khảo sát, rà phá bom mìn vật nổ)
+STT KÝ HIỆU TÊN MẦU
+MẢƯ BIẺU KHẢO SÁT PHỤC vụ CHO LẬP PHƯƠNG ÁN 
+KỸ THUẬT THI CÔNG VÀ Dự TOÁN RÀ PHÁ BOM MÌN VẬT NÓ
+01 Mầu RPBM-01 BIÊN BẢN
+Bàn giao mặt bằng cho khảo sát rà phá bom mìn vật nổ
+02 Mau RPBM-02 NHẬT KÝ 
+Thi công khảo sát rà phá bom mìn vật nổ
+03 Mau RPBM-03
+BIÊN BẢN
+Nghiệm thu kết quả khảo sát phục vụ cho lập phương án 
+kỹ thuật thi công và dự toán rà phá bom mìn vật nổ
+04 Mầu RPBM-04 BÁO CÁO
+Ket quả thi công khảo sát rà phá bom mìn vật nố
+MẪU BIẺU RÀ PHÁ BOM MÌN VẬT NỎ
+05 Mau RPBM-05 BIÊN BẢN
+Bàn giao mặt bằng cho thi công rà phá bom mìn vật nổ
+06 Mau RPBM-06
+BIÊN BẢN
+Kiểm tra quân số, trang bị kỹ thuật trước thi công 
+rà phá bom mìn vật no
+07 Mau RPBM-07 NHẬT KÝ THI CỒNG
+08 Mầu RPBM-08 BIÊN BẢN 
+Kiểm tra xác xuất hiện trường
+09 Mầu RPBM-09 BIÊN BẢN 
+Nghiệm thu nội bộ rà phá bom mìn vật nô
+10 Mầu RPBM-10 PHIẾU YÊU CẦU NGHIỆM THƯ
+11 Mau RPBM-11
+BIÊN BẢN
+Xác nhận số lượng, chủng loại bom mìn vật nố thu gom
+trong thi công
+12 Mầu RPBM-12
+BIÊN BẢN
+Nghiệm thu hoàn thành thi công rà phá bom mìn vật no
+đưa vào sử dụng

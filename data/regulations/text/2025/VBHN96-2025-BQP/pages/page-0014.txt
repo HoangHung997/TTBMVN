@@ -1,0 +1,15 @@
+14
+4. Xác định giá ca máy chờ đợi
+a) Giá ca máy chờ đợi là giá ca máy của các loại máy đã được huy động 
+đến khu vực thi công rà phá bom mìn vật nổ nhưng chưa hoạt động mà nguyên 
+nhân không phải do lỗi của nhà thầuẻ
+b) Giá ca máy chờ đợi gồm chi phí khấu hao (được tính bằng 50% chi phí 
+khấu hao), chi phí nhân công điều khiển (được tính bằng 50% chi phí nhân công 
+điều khiển) và chi phí khác của máy.
+5. Xác định giá thuê máy theo giờ
+a) Giá thuê máy theo giờ là chi phí bên đi thuê trả cho bên cho thuê để 
+được quyền sử dụng máy trong một khoảng thời gian tính theo giờ máy (chưa đủ 
+một ca) để hoàn thành đơn vị khối lượng rà phá bom mìn vật nổ.
+b) Giá máy theo giờ bao gồm chi phí nhiên liệu, năng lượng; chi phí tiền 
+lương thợ điều khiển máy; chi phí khấu hao, chi phí sửa chữa và chi phí khác 
+được tính toán và được phân bồ cho một giờ làm việc./.

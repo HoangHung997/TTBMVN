@@ -1,0 +1,48 @@
+4
+STT KỸ NĂNG KTV
+CÁP1
+KTV  
+CÁP 2
+KTV  
+CÁP 3
+1.5 Có khả năng giải thích những tiêu chuẩn vận 
+hành cũng như các quy trình tổ chức X X X
+1.6
+Có khả năng tiếp thu được những thông tin 
+cần thiết để có thể vận hành một cách an toàn 
+các thiết bị mới
+X X X
+1.7
+Có khả năng vận hành thử một cách hiệu quả 
+các thiết bị và báo cáo lại bất kỳ lỗi nào phát 
+hiện được
+X X X
+1.8 Có thể chuẩn bị thiết bị một cách chính xác 
+để sử dụng X X X
+2 Vận hành thiết bị tìm/tỉêu hủy vật liệu nổ
+2.1 Có khả năng giải thích khả năng, hạn chế 
+cũng như khả năng của thiết bị đang sử dụngX X X
+2.2 Có khả năng giải thích cách vận hành chính 
+xác của thiết bị X X X
+2.3
+Có khả năng giải thích tầm quan trọng của 
+việc vận hành thiết bị đúng theo tiêu chuẩn, 
+cũng như giải thích được những hậu quả của 
+việc vận hành sai
+X X X
+2.4
+Có khả năng giải thích lý do dẫn đên việc có 
+thể đọc sai hướng dẫn sử dụng và kết quả đo 
+đạc, để xử lý lỗi sai phạm
+X X X
+2.5 Có thể vận hành thiết bị một cách chính xác 
+theo hướng dẫn của nhà sản xuất X X X
+2.6 Có khả năng đọc chính xác kết quả đo đạcX X X
+2.7
+Có khả năng đặt nghi vấn khi có những lỗi 
+hiển nhiên về độ chính xác cũng như tính ổn 
+định của kết quả thu được
+X X X
+2.8 Có khả năng điều chỉnh thiết bị đang dùng 
+khi cần thiết X X X
+ậ

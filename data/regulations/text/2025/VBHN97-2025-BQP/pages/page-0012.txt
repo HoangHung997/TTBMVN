@@ -1,0 +1,43 @@
+12
+TT Tỉnh, thành phố Khu vựcTên địa phương các xã, phường, đặc khu
+26 Đồng Nai
+Khu vực 2Các xã Nha Bích, Trị An, Tân An; các 
+phường Minh Hưng, Chơn Thành, Tân Triều.
+Khu vực 1Các xã, phường còn lại
+Khu vực 3
+Các xã Châu Thành, Phước Vinh, Hoà Hội, 
+Ninh Điền, Hảo Đước, Long Chữ, Mỹ Quý, 
+Đông Thành, Đức Huệ.
+27 Tây Ninh
+Khu vực 2
+Các xã Lộc Ninh, cầu Khởi, Truông Mít, 
+Dương Minh Châu; các phường Long Hoa, 
+Hóa Thành, Thanh Điềnế
+Khu vực 1Các xã, phường còn lại
+Khu vực 3
+Các xã Cần Giờ, Phú Giáo, An Thới Đông, 
+Bình Khánh, An Long, Phước Thành, Phước 
+Hoà; các phường phường Tây Nam, Ben Cát, 
+Bà Rịa, Long Hương.
+28 Tp Hồ Chí Minh
+Khu vực 2
+Các xã Vĩnh Lộc, Tân Vĩnh Lộc, Bình Lợi, 
+Tân Nhựt, Bình Chánh, Hưng Long, Bình 
+Hưng; các phường Vĩnh Tân, Bình Cơ, Tân 
+Uyên, Tân Hiệp, Tân Khánh, Đông Hoà, Dĩ 
+An, Tân Đông Hiệp, Thuận An, Thuận Giao, 
+Bình Hoà, Lái Thiêu, An Phú, Chánh Hưng, 
+Phú Định, Bình Đông.
+Khu vực 1Các xã, phường, đặc khu còn lại
+29 Khu vực 3
+Các xã An Hữu, Mỹ Lợi, Mỹ Đức Tây, Mỹ 
+Thiện, Hậu Mỹ, Hội Cư, Cái Bè, Bình Phú, 
+Hiệp Đức, Ngũ Hiệp, Long Tiên, Mỹ 
+Thành, Thạnh Phú, Tân Hương, Châu 
+Thành, Long Hưng, Long Định, Vĩnh Kim, 
+Kim Sơn, Bình Trưng; các phường Gò 
+Công, Long Thuận, Sơn Qui, Bình Xuân.
+Đồng Tháp
+Khu vực 2
+Các xã Mỹ Tịnh An, Lương Hoà Lạc, Tân 
+Thuận Bình, Chợ Gạo, An Thạnh Thủy,

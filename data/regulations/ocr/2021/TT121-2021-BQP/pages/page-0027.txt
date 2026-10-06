@@ -1,0 +1,40 @@
+26
+3. Vận tốc, cấp sóng, cấp gió
+a) Vận tốc dòng hải lưu:
+- Thi công dùng máy dò bom: < 1,0 m/s;
+- Thi công dùng thiết bị sona và từ kế: < 2,5 m/s.
+b) Cấp sóng:
+- Thi công dùng máy dò bom: < cấp 3;
+- Thi công dùng thiết bị sona và từ kế: < cấp 4.
+c) Cấp gió:
+- Thi công dùng máy dò bom: < cấp 3;
+- Thi công dùng thiết bị sona và từ kế: < cấp 5.
+Điều 42. Trình tự thực hiện rà phá bom mìn bằng thiết bị sona, từ kế
+1. Huy động thiết bị.
+2. Chuẩn bị mặt bằng.
+3. Điều tiết giao thông.
+4. Định vị các điểm mốc đánh dấu phạm vi thi công.
+5. Ra phá bom min vật nd trên bề mặt đáy biển và đến độ sâu 1 m.
+6. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển.
+7. Kiểm tra, xử lý tín hiệu đến độ sâu 1 m.
+8. Huỷ bom mìn, vật nd tại chỗ.
+9. Giải thể thiết bị.
+Điều 43. Huy động thiết bị
+Là công tác điều động thiết bị phục vụ cho thi công từ vị trí tập kết đến vị
+trí thi công. Thiết bị cần huy động cho một đội thi công gồm:
+1. Tàu phục vụ dò tìm công suất từ 1.200 cv trở lên: 01 chiếc.
+2. Tàu phục vụ định vị, lặn xử lý tín hiệu từ 350 cv đến 650 cv có cầu mi ni
+tự hành: tối đa 02 chiếc.
+3. Tàu phục vụ điều tiết giao thông loại 350 cv (được trang bị các thiết bị cảnh
+báo, thông tin): tối đa 04 chiếc.
+4. Tàu bảo đảm hậu cần loại 350 cv: 01 chiếc.
+5. Thuyền gỗ (chở 3 tấn trở lên có máy đầy và cầu mi ni tự hành): 01 chiếc.
+6. Thiết bị lặn đến độ sâu 30 m (có thiết bị cấp hơi bề mặt): tối đa 04 bộ.
+7. Chuông lặn và trang thiết bị đồng bộ kèm theo: 01 bộ.
+8. Thiết bị hút và xói bùn cát: 01 bộ.
+9. Máy nén khí công suất lớn dùng xói bùn, cát: 01 bộ.
+10. Thiết bị ROV: 01 thiết bị.
+11. Thiết bị dò tìm BMVN:
+a) Máy dò bom min dưới nước: tối đa 03 bd;
+b) Thiết bị sona và từ kế: 01 bộ;
+¢) Dụng cụ cầm tay: Số lượng và chủng loại theo yêu cầu nhiệm vụ.                                       |

@@ -1,0 +1,59 @@
+23
+
+7. Lặn kiếm tra, đào xử lý tín hiệu dưới nước ở độ sâu lớn hơn 1m
+đến 5 m tính từ đáy nước (MS: 030.0700) .
+
+a) Thành phần công việc: sử dụng thiết bị phụ trợ, tiến hành lắp dựng
+khung vây bao quanh vị trí tâm tín hiệu đã được xác định với đường kính hố đào
+là 5 m, chiều sâu tối đa là 5 m;  thợ lặn dụng thiết bị lặn và các khí tài công binh
+xăm tìm; dùng thiết bị xói và hút bùn, cát áp lực cao đào bới tại điểm đã đánh
+dấu hạ dần hệ thống khung vây đúng kỹ thuật cho lộ toàn bộ tín hiệu. Kiểm tra
+xác định tín hiệu nếu là các vật nhiễm từ hoặc BMVN an toàn thì trục vớt lên bờ
+. đưa vào nơi quy định, nếu là các loại BMVN không an toàn đánh dấu hoặc xử lý
+theo quy định.
+
+b) Định mức hao phí tính cho 1 tín hiệu
+
+Mã số          Thành phần hao phí          Đơn          Độ sâu của nước (m)
+vị |05+12|>12+22 |>22+25
+
+Vật liệu:
+
+Khun   vây băng tôn 3 mm và
+
+la sóc đốc 4553) mm            Kg | 4050 | 4050 | 40,50
+Nhân công:
+
+Bậc thợ QNCN 7/10                    Công | 1,33           1,46           1,61
+
+030.0700 | Mdy thi công:
+May dò bom dưới nước               Ca | 0,014        0,015         0,017
+Thuyén cao su trung                    Ca        0,014        0,015         0,017
+Thiết bi lặn                                  Ca | 0,640         0,704         0,774
+Thiết bi xói và hút bùn cát            Ca | 0,420         0,462         0,510
+Thuyén composit                        Ca        0,640        0,704        0,774
+         1              2              3
+
+Ghi chú: cdc yếu tổ khác liên quan đến tính toán,  lập dự toán dp dụng như Ghi chú tại
+khoản 1, Mục 3 Định mức dự toán này.
+
+8. Huy nổ bom min vật nỗ tại chỗ dưới nước (MS: 030.0800)
+
+a) Thành phần công việc: tổ chức trạm gây nd, gói buộc và bố trí lượng
+nỗ, tra lắp hoa cụ; kiểm tra bảo đảm an toàn, tổ chức cảnh giới, quy định tín
+hiệu; tiền hành gây nd lượng nổ dé kích nổ phá huỷ BMVN theo đúng kỹ thuật
+và phương án được duyệt; huỷ xong kiểm tra kết quả hủy và thu dọn trang bị.
+
+b) Định mức hao phí tính cho 1 quả bom min, vật nổ
+
+Thành phần hao       Đơn                Trọng lượng 1 quả bom mìn (kg)
+
+>3 + | >18 =      . I1 >120
+
+phí    vị | <3       >50+120    >250
+
+15           50                            +250
+Vat liệu:
+
+Thuốc nd TNT bánh | Kg | 0,20 | 0,40 | 1,00 4,00 4,00 | 4,00
+

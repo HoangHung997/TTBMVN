@@ -1,0 +1,34 @@
+Ệ
+PHƯƠNG PHÁP M e  ĐỊNH GIÁ CA MÁY 
+VÀ THIÉT BỊ THI CỒNG RÀ PHÁ BOM MÌN VẬT NỎ
+(Ban hành kèm theo Thong tưẳể 122/2021/TT-BQP 
+ngày 20 tháng 9 năm 2021 cua Bộ trưởng Bộ Quốc phòng)
+1. Giá ca máy và thiết bị thi công rà phá bom mìn vật nổ
+Giá ca máy và thiết bị thi công rà phá bom mìn vật nổ (sau đây gọi là giá 
+ca máy) là mức chi phí bình quân cho một ca làm việc theo quy định của máy và 
+thiết bị thi công rà phá bom mìn vật nổ.
+Giá ca máy gồm chi phí khấu hao, chi phí sửa chữa, chi phí nhiên liệu, 
+năng lượng, chi phí nhân công điều khiển và chi phí khác được xác định trên cơ 
+sở hướng dẫn tại Thông tư số 11/2019/TT-BXD ngày 26 tháng 12 năm 2019 của 
+Bộ Xây dựng; được xác định theo công thức sau:
+C cm  =  C kh  + Csc + C nl  +  C nc  +  C cpk  (1 )
+Trong đó:
+- Ccm * giá ca máy (đồng/ca);
+- Ckh ' chi phí khấu hao (đồng/ca);
+- Csc' chi phí sửa chữa (đồng/ca);
+- C n l -  chi phí nhiên liệu, năng lượng (đồng/ca);
+- C n c -  chi phí nhân công điều khiển (đồng/ca);
+- Ccpk * chi phí khác (đồng/ca).
+2. Xác định các nội dung chi phí trong giá ca máy
+Các khoản mục chi phí trong giá ca máy được xác định trên cơ sở định 
+mức các hao phí xác định giá ca máy quy định tại Phụ lục II Thông tư này và 
+mặt bằng giá nhiên liệu, năng lượng, đơn giá nhân công, nguyên giá ca máy. 
+Trường họp loại máy và thiết bị chưa có trong quy định tại Phụ lục II Thông tư 
+này được xác định theo quy định tại khoản 3 Phụ lục này.
+2.1. Xác định chi phỉ khấu hao
+a) Trong quá trình sử dụng máy, máy bị hao mòn, giảm dần giá trị sử 
+dụng và giá trị của máy do tham gia vào hoạt động rà phá bom mìn vật nổ, do 
+bào mòn của tự nhiên.
+Khấu hao máy là việc tính toán và phân bổ một cách có hệ thống nguyên 
+giá của máy vào chi phí rà phá bom mìn vật nổ trong thời gian trích khấu hao của 
+máy để thu hồi vốn đầu tư máyắ  Khấu hao của máy được tính trong giá ca máy.

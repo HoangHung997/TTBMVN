@@ -1,0 +1,34 @@
+46
+trong thời hạn sử dụng, được kiểm định định kỳ; bảo đảm các chỉ tiêu, tính năng 
+kỹ chiến thuật theo tài liệu kỹ thuật của nhà sản xuất và các tiêu chuẩn, quy 
+chuẩn đã được công bố, ban hành; các máy móc, trang thiết bị có yêu cầu về an 
+toàn phải được kiểm định an toàn; các phương tiện đo, thử nghiệm phải được 
+kiểm định, hiệu chuẩn, kiếm tra kỹ thuật đo lường và còn trong thời hạn hiệu 
+lực. về số lượng phải đảm bảo tối thiểu theo quy định tại Bảng 7.
+Bảng 7 - Thiết bị ĐT, KS, RPBM dùng chung
+STT Loại máy, thiết bị Đon vị tính Số Iưọng
+1 Xe ô tô/xuồng cứu thương Chiếc 1
+2 Xe ô tô chở người trên 9 chỗ Chiếc 1
+3 Máy điểm hỏa điện Chiếc 3
+4 Máy đo kíp Chiếc 3
+5 Máy đẩy thuyền từ 20 cv đến 50 cvChiếc 1
+6 Xe ô tô vận tải từ 1 000 kg Chiếc 1
+7 Xe chuyên chở BMVN Chiếc 1
+4.2. Quản lý chất lượng
+4.2.1. Yêu cầu đối vói hệ thống QLCL
+4.2.1.1.18 Mọi tổ chức RPBM phải thiết lập hệ thống quản lý chất lượng 
+(QLCL) nội bộ phù họp với các yêu cầu về QLCL tại Quy trình quản lý chất 
+lượng trong điều tra, khảo sát và rà phá bom mìn vật nổ ban hành kèm theo 
+Thông tư so 129/2021/TT-BQP.
+4.2Ệ 1.2. Các cán bộ, nhân viên làm công tác QLCL trong ĐT, KS, RPBM 
+tối thiểu phải có chứng chỉ đào tạo kỹ thuật viên ĐT, KS, RPBM cấp II và 
+chứng chỉ đào tạo về QLCL trong ĐT, KS, RPBM.
+4.2.1.3.19 Trang thiết bị chuyên ngành ĐT, KS, RPBM được sử dụng 
+trong công tác khảo sát chất lượng (KSCL) phải có tính năng kỹ thuật và độ 
+chính xác cao, phân cấp chất lượng cấp 1, 2 còn thời hạn kiểm định.
+18 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 17 Điều 5 của Thông tư số 
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn 
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.
+19 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 18 Điều 5 của Thông tư số 
+101/2025/TT-BỌP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn 
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

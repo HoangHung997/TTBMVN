@@ -1,0 +1,49 @@
+ĐỊNH MỨC HAO PHÍ VÀ CÁC DỮ LIỆU cơ BẢN ĐÉ XÁC ĐỊNH GIÁ CA MÁY
+I. MÁY VẬ THIÉT BỊ THI CÔNG RÀ PHÁ BOM MÌN VẬT NỎ 
+ÁP DỤNG CHO ĐỐI TƯỢNG HƯỞNG LƯƠNG TỪ NGÂN SÁCH NHÀ NƯỚC
+Bảng 01
+ĐỊNH MỨC HAO PHÍ VÀ CÁC DỬ LIỆU cơ BẢN ĐẺ XÁC ĐỊNH GIÁ CA MÁY
+STT Mã hiệu Loại máy và thiết bịSô ca 
+năm
+Định mức (%) Định mức 
+tiêu hao 
+nhiên liệu, 
+năng 
+Iưọng 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thu
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+1 2 3 4 5 6 7 8 9 10 11
+1 M010.001 Máy dò mìn trên cạn 
+(VMH3.CS là đại diện) 258 30 12 5 2 đôi pin 
+đại
+1  X bậc 
+8/10 129.877.200 10
+2 M010.002
+Máy dò bom trên cạn đên độ sâu 
+5 m (Vallon 1303AI hoặc 
+Vallon EL 1303D2 là đại diện)ễ
+258 30 12 5 3 đôi pin 
+trung
+1 X bậc 
+8/10 303.046.800 10
+2 Phụ lục này được thay thế theo quy định tại Điều 3 của Thông tư số 101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều 
+tra, khảo sát, rà phá bom mìn vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

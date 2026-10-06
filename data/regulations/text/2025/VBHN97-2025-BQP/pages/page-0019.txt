@@ -1,0 +1,41 @@
+19
+b) Định mức hao phí tính cho 1 xã
+Mã số Thành phần hao phí Đơn vị
+Khu vực
+Đông băng, 
+Trung du
+Miên núi, 
+Hải đảo
+000ắ0100
+Nhân công:
+Cán bộ (đội trưởng)Công 2,0 3,0
+Nhân viên điêu traCông 15 22,5
+Nhân viên phục vụ Công 2,0 3,0
+1 2
+Ghi chú: Phương tiện lại và trang thiết bị phục vụ công tác điều tra được 
+xác định trong phương án và kế hoạch điều tra được cấp có thầm quyền phê duyệt.
+2ắ Khảo sát xác định khu vực ô nhiễm bom mìn vật nỗ
+a) Dọn mặt bằng (MS: 000.0200)
+- Thành phần công việc: Kiểm tra, phát cây, dây leo những vị trí khảo sát 
+có thảm thực vật dầy.
+- Định mức hao phí tính cho 10.000 m2
+Mã số Thành phần hao phí Đơn
+vi•
+Loại rừng
+I II III IV
+000.0200
+Nhân côngề '
+Bậc thợ QNCN 7/10 Công 33,5 37,5 41,5 50,5
+1 2 3 4
+b) Khảo sát (MS: 000.0300)
+- Thành phần công việc: Dùng máy dò mìn, dò tìm trong ô khảo sát theo
+đúng yêu cầu kỹ thuật.
+- Định mức hao phí vị tính cho 10.QQQ m2
+Mã số Thành phần hao phí Đon vi • Mức hao phí
+000.0300 Vật liệu:
+Cọc gỗ (03 X 120) cm Cọc 0,5
+Dây thừng 010 mm Mét 67
+Cờ đỏ đuôi nheo Cái 2,0
+Vật liệu khác % VL 5,0
+Nhân công:
+Bậc thợQNCN 8/10 Công 2,31

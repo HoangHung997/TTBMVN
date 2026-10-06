@@ -1,0 +1,46 @@
+41
+TT Hạng mục công việc Đon vị 
+tính
+Khếi
+Iưọìig
+Tiên độ
+Ghi
+chúTừ
+ngày
+Đên
+ngày
+II Công tác điêu tra
+1 Thông tin điều tra tại cơ quan QS 
+địa phương ĐP
+2 Thông tin điều tra tại BCCB, 
+VNMAC
+CB
+VNMAC
+3 Phỏng vấn lãnh đạo xã Xã
+4 Phỏng vấn trưởng thôn thôn
+5 Phỏng vấn hộ gia đình Hộ
+6 Tổng hợp dữ liệu, phân tích đánh 
+giá chất lượng điều tra Mầu biểu
+III Báo cáo kết quả
+1 Nghiệm thu kết quả điều tra Ngày
+2 Lập biên bản bàn giao kết quả điều traMầu biểu
+3 Cở sở dữ liệu Theo hướng dẫn của BQL dự án
+3. Các yêu cầu kỹ thuật
+a) Danh mục các quy chuẩn, tiêu chuấn, quy trình, cần tuân thủ:
+b) Công tác thu thập và phân tích tài liệu, tài liệu liên quan:
+- Bản đồ do Ban quản lý dự án cung cấp, sử dụng thêm bản đồ của cơ 
+quan địa chính địa phương để xác định khu vực khu vực ô nhiễm BMVNẵ
+- Thu thập thông tin từ phỏng vấn nhân chứng tại địa phương.
+c) Công tác đo vẽ bản đồ: Sử dụng bản đồ (VN2000, 1/500)
+d) Công tác điều tra địa hình, địa chất, thủy văn.
+e) Phương án xử lý sự cố, hỗ trợ y tế.
+g) Công tác bảo đảm chất lượng nội bộ trong điều tra.
+III. HÒ SO
+1. Do tổ trưởng tổ điều tra lập
+- Phiếu phỏng vấn xã.
+- Phiếu phỏng vẫn thôn.
+- Phiếu phỏng vấn hộ gia đình.
+2ế  Do đội trưởng lập
+Báo cáo kết quả điều tra.
+3ề  Dành cho cán bộ y tế 
+Nhật ký khách tham quan

@@ -1,0 +1,35 @@
+key	recordType	unit	title	data	sourceDocumentId	pageFrom	pageTo	section	verification
+NORM-000.0100	NormCatalog	commune	Điều tra xác định khu vực ô nhiễm bom mìn vật nổ	group=000;variants=2	TT123-2021-BQP	10	10	Phụ lục I, Phần II, Chương I, mục 1	VerifiedAgainstOfficialSource
+NORM-000.0200	NormCatalog	m2-10000	Dọn mặt bằng khảo sát	group=000;forestClasses=4	TT123-2021-BQP	10	10	Phụ lục I, Phần II, Chương I, mục 2a	VerifiedAgainstOfficialSource
+NORM-000.0300	NormCatalog	m2-10000	Khảo sát xác định khu vực ô nhiễm	group=000;variants=1	TT123-2021-BQP	10	11	Phụ lục I, Phần II, Chương I, mục 2b	VerifiedAgainstOfficialSource
+NORM-000.0400	NormCatalog	signal	Đào kiểm tra, xử lý tín hiệu khảo sát	group=000;soilClasses=4	TT123-2021-BQP	11	11	Phụ lục I, Phần II, Chương I, mục 2c	VerifiedAgainstOfficialSource
+NORM-010.0100	NormCatalog	m2-10000	Dọn mặt bằng bằng thủ công khu vực là bãi mìn	group=010;forestClasses=4	TT123-2021-BQP	11	12	Phụ lục I, Phần II, Chương II, mục 1	VerifiedAgainstOfficialSource
+NORM-010.0200	NormCatalog	m2-10000	Dọn mặt bằng bằng thủ công khu vực không phải là bãi mìn	group=010;forestClasses=4	TT123-2021-BQP	12	12	Phụ lục I, Phần II, Chương II, mục 2	VerifiedAgainstOfficialSource
+NORM-010.0300	NormCatalog	m2-10000	Dọn mặt bằng bằng thủ công kết hợp đốt bằng xăng hoặc dầu	group=010;forestClasses=4	TT123-2021-BQP	12	12	Phụ lục I, Phần II, Chương II, mục 3	VerifiedAgainstOfficialSource
+NORM-010.0400	NormCatalog	meter-fence	Dọn mặt bằng bằng thủ công kết hợp với thuốc nổ	group=010;variants=2	TT123-2021-BQP	12	13	Phụ lục I, Phần II, Chương II, mục 4	VerifiedAgainstOfficialSource
+NORM-020.0100	NormCatalog	m2-10000	Rà phá, xử lý bom mìn vật nổ bằng thủ công đến độ sâu 0,07 m	group=020;signalDensityClasses=4	TT123-2021-BQP	13	14	Phụ lục I, Phần II, Chương III, mục 1	VerifiedAgainstOfficialSource
+NORM-020.0200	NormCatalog	m2-10000	Rà phá bom mìn vật nổ bằng máy dò mìn đến độ sâu 0,3 m hoặc 0,5 m	group=020;signalDensityClasses=4	TT123-2021-BQP	14	14	Phụ lục I, Phần II, Chương III, mục 2	VerifiedAgainstOfficialSource
+NORM-020.0300	NormCatalog	signal	Đào đất, kiểm tra, xử lý tín hiệu đến độ sâu 0,3 m	group=020;soilClasses=4	TT123-2021-BQP	14	15	Phụ lục I, Phần II, Chương III, mục 3	VerifiedAgainstOfficialSource
+NORM-020.0400	NormCatalog	signal	Đào đất, kiểm tra, xử lý tín hiệu đến độ sâu 0,5 m	group=020;soilClasses=4	TT123-2021-BQP	15	15	Phụ lục I, Phần II, Chương III, mục 4	VerifiedAgainstOfficialSource
+NORM-020.0500	NormCatalog	m2-10000	Rà phá bom mìn vật nổ bằng máy dò bom ở độ sâu lớn hơn 0,3 m đến 10 m	group=020;depthVariants=4	TT123-2021-BQP	15	16	Phụ lục I, Phần II, Chương III, mục 5	VerifiedAgainstOfficialSource
+NORM-020.0600	NormCatalog	m3-excavated	Đào đất, kiểm tra, xử lý tín hiệu ở độ sâu đến 1 m	group=020;soilClasses=4	TT123-2021-BQP	16	16	Phụ lục I, Phần II, Chương III, mục 6	VerifiedAgainstOfficialSource
+NORM-020.0700	NormCatalog	m3-excavated	Đào đất, kiểm tra, xử lý tín hiệu ở độ sâu đến 3 m	group=020;soilClasses=4	TT123-2021-BQP	16	17	Phụ lục I, Phần II, Chương III, mục 7	VerifiedAgainstOfficialSource
+NORM-020.0800	NormCatalog	m3-excavated	Đào đất, kiểm tra, xử lý tín hiệu ở độ sâu đến 5 m	group=020;soilClasses=4	TT123-2021-BQP	17	17	Phụ lục I, Phần II, Chương III, mục 8	VerifiedAgainstOfficialSource
+NORM-020.0900	NormCatalog	m3-excavated	Đào đất, kiểm tra, xử lý tín hiệu ở độ sâu đến 10 m	group=020;soilClasses=4	TT123-2021-BQP	17	18	Phụ lục I, Phần II, Chương III, mục 9	VerifiedAgainstOfficialSource
+NORM-020.1000	NormCatalog	m2-10000	Rà phá bom mìn vật nổ ở độ sâu trên 5 m đến 10 m bằng phương pháp khoan lỗ	group=020;depthVariants=1	TT123-2021-BQP	18	19	Phụ lục I, Phần II, Chương III, mục 10	VerifiedAgainstOfficialSource
+NORM-020.1100	NormCatalog	m3-excavated	Đào kiểm tra, xử lý tín hiệu ở độ sâu đến 10 m	group=020;soilClasses=4	TT123-2021-BQP	19	19	Phụ lục I, Phần II, Chương III, mục 11	VerifiedAgainstOfficialSource
+NORM-020.1200	NormCatalog	bomb	Hủy nổ bom mìn vật nổ tại chỗ trên cạn	group=020;weightClasses=6	TT123-2021-BQP	19	20	Phụ lục I, Phần II, Chương III, mục 12	VerifiedAgainstOfficialSource
+NORM-030.0100	NormCatalog	m2-10000	Rà phá bom mìn vật nổ ở độ sâu đến 0,5 m tính từ đáy nước	group=030;waterDepthClasses=3	TT123-2021-BQP	20	21	Phụ lục I, Phần II, Chương IV, mục 1	VerifiedAgainstOfficialSource
+NORM-030.0200	NormCatalog	m2-10000	Rà phá bom mìn vật nổ ở độ sâu trên 0,5 m đến 3 m hoặc 5 m tính từ đáy nước	group=030;waterDepthClasses=3	TT123-2021-BQP	21	22	Phụ lục I, Phần II, Chương IV, mục 2	VerifiedAgainstOfficialSource
+NORM-030.0300	NormCatalog	signal	Đánh dấu tín hiệu ở độ sâu đến 0,5 m, 3 m hoặc 5 m tính từ đáy nước	group=030;variants=4	TT123-2021-BQP	22	23	Phụ lục I, Phần II, Chương IV, mục 3	VerifiedAgainstOfficialSource
+NORM-030.0400	NormCatalog	signal	Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m tính từ đáy nước	group=030;waterDepthClasses=3	TT123-2021-BQP	23	23	Phụ lục I, Phần II, Chương IV, mục 4	VerifiedAgainstOfficialSource
+NORM-030.0500	NormCatalog	signal	Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu trên 0,5 m đến 1 m tính từ đáy nước	group=030;waterDepthClasses=3	TT123-2021-BQP	23	24	Phụ lục I, Phần II, Chương IV, mục 5	VerifiedAgainstOfficialSource
+NORM-030.0600	NormCatalog	signal	Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu trên 1 m đến 3 m tính từ đáy nước	group=030;waterDepthClasses=3	TT123-2021-BQP	24	25	Phụ lục I, Phần II, Chương IV, mục 6	VerifiedAgainstOfficialSource
+NORM-030.0700	NormCatalog	signal	Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu trên 1 m đến 5 m tính từ đáy nước	group=030;waterDepthClasses=3	TT123-2021-BQP	25	25	Phụ lục I, Phần II, Chương IV, mục 7	VerifiedAgainstOfficialSource
+NORM-030.0800	NormCatalog	bomb	Hủy nổ bom mìn vật nổ tại chỗ dưới nước	group=030;weightClasses=6	TT123-2021-BQP	25	26	Phụ lục I, Phần II, Chương IV, mục 8	VerifiedAgainstOfficialSource
+NORM-040.0100	NormCatalog	point	Định vị các điểm mốc đánh dấu phạm vi thi công dưới biển	group=040;variants=1	TT123-2021-BQP	26	27	Phụ lục I, Phần II, Chương V, mục 2	VerifiedAgainstOfficialSource
+NORM-040.0200	NormCatalog	m2-10000	Rà phá bom mìn vật nổ trên bề mặt đáy biển và đến độ sâu 1 m bằng sona, từ kế	group=040;waterDepthRange=25-150	TT123-2021-BQP	27	28	Phụ lục I, Phần II, Chương V, mục 3	VerifiedAgainstOfficialSource
+NORM-040.0300	NormCatalog	signal	Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển	group=040;methods=2	TT123-2021-BQP	28	28	Phụ lục I, Phần II, Chương V, mục 4	VerifiedAgainstOfficialSource
+NORM-040.0400	NormCatalog	signal	Kiểm tra, xử lý tín hiệu đến độ sâu 1 m tính từ đáy biển, độ sâu nước đến 50 m	group=040;waterDepthMax=50	TT123-2021-BQP	28	29	Phụ lục I, Phần II, Chương V, mục 5	VerifiedAgainstOfficialSource
+NORM-040.0500	NormCatalog	bomb	Hủy bom mìn vật nổ tại chỗ, độ sâu nước đến 50 m	group=040;weightClasses=1	TT123-2021-BQP	29	30	Phụ lục I, Phần II, Chương V, mục 7	VerifiedAgainstOfficialSource
+NORM-040.0600	NormCatalog	bomb	Hủy bom mìn vật nổ tại chỗ, độ sâu nước trên 50 m đến 150 m	group=040;weightClasses=3	TT123-2021-BQP	30	31	Phụ lục I, Phần II, Chương V, mục 8	VerifiedAgainstOfficialSource

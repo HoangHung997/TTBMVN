@@ -1,0 +1,37 @@
+20
+2.4.3.4. Dò tìm bằng chứng bằng máy dò bom: Chỉ áp dụng khi dò tìm hết 
+ô KS bằng máy dò mìn mà chưa tìm thấy bằng chứngẾ  Sử dụng máy dò bom tìm 
+kiếm tiếp đến độ sâu 3 m hoặc 5 m như khi tìm kiếm ở độ sâu 0,3 m; trong 
+quá trình dò tìm, khi phát hiện tín hiệu thì đào xử lý ngay, nếu phát hiện bằng 
+chứng trực tiếp hoặc gián tiếp thì kết thúc KS, chuyển sang ô khác.
+2.4.4. Phương pháp tiến hành KS
+2.4.4.1. Thực hiện việc khảo sát, phản tích xác định các thông tin mật độ 
+tín hiệu, cấp đất, diện tích thảm thực vật, tính chất thảm thực vật, tình hình khí 
+hậu, thủy văn trong khu vực.
+2.4.4.2. Tùy thuộc điều kiện địa hình, thực hiện việc định vị, chia ô KS, 
+mỗi ô KS có kích thước tối đa (50 X 50) m, có xác định tọa độ tâm và đánh số 
+thứ tự.
+2.4.4.3. Quy định về ô liền kề: Là tất cả các ô có cạnh hoặc đỉnh chung 
+với ô KS.
+2ắ4ệ4.4. Quy định tên gọi và màu sắc đánh dấu các ô trên bản vẽ mặt 
+bằng/bản đồ trong quá trình KS như sau:
+- Màu đỏ: “Ô nhiễm trực tiếp” - đối với các ô phát hiện được bằng chứng 
+trực tiếp hoặc gián tiếp;
+- Màu nâu: “Ồ nhiễm gián tiếp” - là các ô liền kề với ô “ô nhiễm trực tiếp”;
+- Màu xanh lá cây: “Không ô nhiễm” - là các ô không tìm thấy bằng 
+chứng trực tiếp hoặc gián tiếp;
+- Màu vàng: “Không ô nhiễm gián tiếp” - là ô liền kề với ít nhất ba ô 
+không ô nhiễm trực tiếp hoặc ô nhiễm gián tiếp;
+- Trường hợp ô đã được đánh dấu màu xanh lá cây hoặc màu vàng trước 
+đó mà ô KS tiếp theo liền, kề là ô màu đỏ thì được chuyển sang thành ô màu nâu 
+theo nguyên tắc ô liền kề ô “ô nhiễm trực tiếp”;
+- Màu xám: “Không xác định” - là những ô vì bất cứ lý do nào đó mà 
+không thể tiến hành KS toàn bộ diện tích.
+2.4.5. Thứ tự KS9
+- KS từng ô theo các nguyên tắc sau: KS ô thứ nhất nếu xác định là ô ô 
+nhiễm trực tiếp (đánh dấu màu đỏ) thì tất cả các ô liền kề không phải tiến hành 
+hoạt động KS và được coi là ô nhiễm gián tiếp, được đánh dấu màu nâu;
+- Neu xác định là ô không ô nhiễm trực tiếp (đánh dấu màu xanh) thì tiếp 
+tục KS các ô liền kề. Các ô có ít nhất ba ô liền kề là ô màu xanh thì được coi là 
+“không ô nhiễm gián tiếp”, được đánh dấu màu vàng và được phép bỏ qua để 
+chuyển sang KS ô kế tiếp.

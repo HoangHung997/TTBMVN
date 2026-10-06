@@ -1,0 +1,40 @@
+*
+Ñ                                                                 3
+duyệt; phải được kiểm tra, kiểm định theo định ky tại cơ sở kiểm định có thẩm         |
+quyền về tình trạng kỹ thuật.                                                                                      |
+3. Quá trình thực hiện ĐT, KS, RPBM phải tuân thủ Quy trình kỹ thuật này,
+không đê xảy ra mât an toàn.             :
+4. Định kỳ kiêm tra kêt quả công tác RPBM theo phương pháp xác suất,
+khối lượng diện tích kiểm tra không ít hơn 1% tổng số diện tích đã thi công.
+5. Đơn vị, tô chức tham gia hoạt động ĐT, KS, RPBM phải có giây phép
+còn hiệu lực hoặc được cấp chứng chỉ năng lực theo quy định.
+6. Kế hoạch, phương án kỹ thuật thi công, dự toán do cấp có thẩm quyền
+phê duyệt.
+Điều 6. Yêu cầu về diện tích, độ sâu, hành lang an toàn trong rà phá bom
+min vật nd
+1. Đối với diện tích gồm:
+a) Diện tích mặt bằng sử dụng của công trình, dự án gồm toàn bộ hoặc một
+phần diện tích được giao quyền sử dụng (căn cứ vào số liệu khảo sát và các tài
+liệu được cung cấp về tình hình ô nhiễm BMVN). Trường hợp khu vực địa hình
+không bing phẳng có độ dốc lớn hơn 10% thì diện tích RPBM được tinh theo
+mặt dốc của địa hình;
+b) Diện tích hành lang an toàn được quy định cụ thể cho từng loại dự án có
+xét đến tầm quan trọng của dự án.
+2. Đối với độ sâu được xác định như sau:
+a) Đối với dự án phục vụ việc khai hoang, phục hoá đất canh tác, đất nông
+nghiệp, lâm nghiệp, diém nghiệp: độ sâu RPBM là 0,3 m hoặc 0,5 m hoặc 1 m;
+b) Đối với dự án tái định cư, xây dựng nhà có chiều cao dưới 10 m; kênh
+mương thuỷ lợi, hồ chứa nước, nạo vét luồng lạch có độ sâu nạo vét nhỏ hơn 3 m;
+đường giao thông đến cấp III, IV, V, giao thông tuyến huyện, tuyến giao thông
+nông thôn; tuyến cáp quang, cáp điện ngằm, tuyến ống dẫn dầu, dẫn khí đốt, công
+trình thủy lợi, đê điều, công trình nông nghiệp, phát triển nông thôn và các dự án
+tương tự có độ sâu đào không quá 3 m: độ sâu RPBM là 3 m;
+c) Đối với dự án xây dựng dân dụng có chiều cao 10 m trở lên; xây dựng
+công nghiệp, đường giao thông cấp I, II, cao tốc, cầu, bến cảng va dự án tương
+tự; dự án nạo vét luồng lạch có độ sâu nạo vét từ 3 m đến 5 m; các dự án khoan
+thăm dò hoặc xây dựng công nghiệp khai thác dầu khí, thủy điện, trụ đường dây
+cao thế, trung thế, công trình thủy lợi, đê điều, công trình nông nghiệp và phát
+triển nông thôn có độ sâu dao lớn hơn 3 m: độ sâu RPBM là 5 m;
+d) Đối với công trình có tầm quan trọng đặc biệt theo yêu cầu của chủ đầu
+tư, những nơi có đánh dấu bom chưa nổ nhưng không phát hiện được khi đã dò
+tìm đến độ sâu 5 m: độ sâu RPBM lớn hơn 5m.

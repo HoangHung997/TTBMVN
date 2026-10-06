@@ -1,0 +1,32 @@
+gọi là nhiên liệu chính. Các loại dầu mỡ bôi trơn, dầu truyền động gọi là nhiên 
+liệu phụ trong một ca làm việc của máy được xác định bằng hệ số so với chi phí 
+nhiên liệu chính.
+b) Chi phí nhiên liệu, năng lượng trong giá ca máy được xác định theo 
+công thức sau:
+CNL  =  y *  đ nu  X g nu  X Kpị ( 4 )
+/'=1
+Trong đó:
+- CNL: chi phí nhiên liệu, năng lượng trong giá ca máy (đồng/ca);
+- ĐNLi: định mức tiêu hao nhiên liệu, năng lượng loại i của thời gian máy 
+làm việc trong một ca;
+- G nlì: giá nhiên liệu loại i;
+- Kpi: hệ số chi phí nhiên liệu phụ loại i;
+- n: số loại nhiên liệu, năng lượng sử dụng trong một ca máy.
+c) Định mức tiêu hao nhiên liệu, năng lượng của thời gian máy làm việc 
+trong một ca của một loại máy và thiết bị thi công được xác định theo quy định 
+tại Phụ lục II ban hành kèm theo Thông tư này.
+d) Giá nhiên liệu, năng lượng được xác định trên cơ sở:
+- Giá xăng, dầu: theo thông cáo báo chí giá xăng dầu của Tập đoàn xăng 
+dầu Việt Nam Petrolimex phù hợp với thời điểm tính giá ca máy;
+- Giá điện: theo quy định về giá bán điện của Nhà nước phù hợp với thời 
+điếm tính giá ca máy.
+đ) Hệ số chi phí nhiên liệu phụ cho một ca máy làm việc, được xác định 
+theo từng loại máy và điều kiện cụ thể của dự án. Hệ số chi phí nhiên liệu phụ 
+có giá trị bình quân như sau:
+- Máy và thiết bị chạy động cơ xăng: 1,02;
+- Máy và thiết bị chạy động cơ diesel: 1,03;
+- Máy và thiết bị chạy động cơ điện: 1,05.
+e) Trường hợp các loại máy để thực hiện một số loại công tác (như khảo 
+sát, thí nghiệm và một số loại công tác khác) mà chi phí nhiên liệu, năng lượng 
+đã tính vào chi phí vật liệu trong đơn giá của công tác đó thì khi xác định giá ca 
+máy không tính thành phần chi phí nhiên liệu, năng lượng.

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.props" Condition="Exists('$(MSBuildToolsPath)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CDE6012C-7F9E-4B42-B0C5-5F62CB7315D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ExcelAddIn1.Core</RootNamespace>
+    <AssemblyName>ExcelAddIn1.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DaodatFeasibility.cs" />
+    <Compile Include="DaodatMath.cs" />
+    <Compile Include="CostRuleCalculator.cs" />
+    <Compile Include="CostRuleCatalog.cs" />
+    <Compile Include="CostRuleEngine.cs" />
+    <Compile Include="ExcelColumnAddress.cs" />
+    <Compile Include="MachineRateCalculator.cs" />
+    <Compile Include="MachineRateCatalog.cs" />
+    <Compile Include="NormCalculator.cs" />
+    <Compile Include="NormCatalog.cs" />
+    <Compile Include="NormSearch.cs" />
+    <Compile Include="ProductKeyCodec.cs" />
+    <Compile Include="ProjectProfile.cs" />
+    <Compile Include="ProjectSetup.cs" />
+    <Compile Include="PriceProfile.cs" />
+    <Compile Include="PriceProfilePortfolio.cs" />
+    <Compile Include="PriceProfileStore.cs" />
+    <Compile Include="UnitRateCalculator.cs" />
+    <Compile Include="EstimateAppendixCalculator.cs" />
+    <Compile Include="EstimateWorkspace.cs" />
+    <Compile Include="CostSummaryCalculator.cs" />
+    <Compile Include="ResultAuditTrail.cs" />
+    <Compile Include="WorkbookValidation.cs" />
+    <Compile Include="VietnameseMoneyWords.cs" />
+    <Compile Include="RegulationPackage.cs" />
+    <Compile Include="RegulationPackageSerializer.cs" />
+    <Compile Include="RegulationPackageStore.cs" />
+    <Compile Include="RegulationPackageResolver.cs" />
+    <Compile Include="RegulationPackagePin.cs" />
+    <Compile Include="RegulationPackageMigration.cs" />
+    <Compile Include="OfflineUpdateModels.cs" />
+    <Compile Include="OfflineUpdateManifestSerializer.cs" />
+    <Compile Include="OfflineUpdatePackageVerifier.cs" />
+    <Compile Include="OfflineUpdateTrustCatalog.cs" />
+    <Compile Include="RegulationPackageActivationStore.cs" />
+    <Compile Include="OfflineUpdateCenterService.cs" />
+    <Compile Include="RegulationDataModule.cs" />
+    <Compile Include="RegulationDataModuleDiff.cs" />
+    <Compile Include="RegulationPackageBundle.cs" />
+    <Compile Include="WorksheetRoles.cs" />
+    <Compile Include="WorksheetRoleMapping.cs" />
+    <Compile Include="WorkbookSheetList.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

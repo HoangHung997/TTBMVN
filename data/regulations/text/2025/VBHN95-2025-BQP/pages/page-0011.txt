@@ -1,0 +1,24 @@
+11
+khảo sát. Mỗi ô đều có thông số định vị tâm của ô, cán bộ quản lý thông tin hoặc 
+đội trưởng tải định vị tâm của ô KS lên hệ thống định vị GPS cầm tay;
+b) Xác định mối nguy hiểm dự kiến xảy ra đối với BMVN trước khi tiếp 
+cận khu vực KS, nhât là đôi với khu vực đã nhiều năm không được sử dụng hoặc 
+khu vực mà kết quả ĐT xác định là bãi mìn;
+c) Tại địa điểm khảo sát, Đội trưởng hướng dẫn kỹ thuật viên về địa hình, 
+bô trí đội hình, phân chia vị trí KS cho từng tổ và kế hoạch ứng phó khi xảy ra 
+tai nạn; kiểm tra trang thiết bị; phân công nhiệm vụ cho thành viên trong đội và 
+từng tổ; Tố trưởng hướng dẫn kỹ thuật viên di chuyển về điểm xuất phát đầu 
+tiên (ô khảo sát đầu tiên) tiến hành tự kiểm tra, điều chỉnh máy dò và thiết bị kỹ 
+thuật, dọn mặt bằng (nếu cần thiết);
+d) Tổ trưởng sử dụng thiết bị GPS xác định tâm điểm của mỗi ô khảo sát 
+quy định tại điểm a khoản này trên thực địa;
+đ) Tại vị trí tâm điểm của mỗi ô khảo sát được dò tìm, xử lý hết các tín hiệu 
+BMVN trong bán kính 1  m trước khi đóng cọc tâm (cọc gỗ dài 1,2 m)ế  Tại vị trí 
+tâm của ô khảo sát, tổ trưởng quan sát, điều hành, hướng dẫn kỹ thuật viên thực 
+hiện nhiệm vụ;
+e) Kỹ thuật viên liên kết một đầu dây vào cọc tâm sau đó kéo dây theo 4 
+hướng Đông, Tây, Nam, Bắc để chia ô ra thành 4 phần. Mỗi dây có độ dài trên 
+25 m và có đánh dấu ở vị trí 25 m theo hình vẽ dưới đây.
+- Trường hợp khu vực có thảm thực vật dầy hoặc địa hình khó khăn, Tố 
+trưởng quyết định không sử dụng dây để chia ô nhưng phải áp dụng phương 
+pháp di chuyển như hình vẽ trên;

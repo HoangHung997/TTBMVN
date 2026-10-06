@@ -1,0 +1,52 @@
+2                                                                  -
+
+c) Nguyên tắc khảo sát xác định giá ca máy thuê:
+
+- Giá ca máy thuê trên thị trường được khảo sát thu thập, tổng hợp số liệu,
+thông kê giá của các nhà cung cap, cho thuê.
+
+- Giá ca máy thuê được khảo sát xác định phù hợp với chủng loại máy và
+thiệt bị thi công được sử dung trong định mức dự toán ban hành, hoặc định mức
+dự toán rà phá bom mìn vật nô.
+
+d) Nội dung khảo sát cần xác định rõ các thông tin sau:
+
+- Giá ca máy thuê được khảo sát xác định chi bao gdm toàn bộ hoặc một
+sô các khoản mục chi phi trong giá ca máy như chi phí khâu hao, chi phí sửa
+chữa, chi phí nhiên liệu, năng lượng, chi phí nhân công điều khiên và chi phí
+khác của máy. Các nội dung chi phí khác liên quan đên việc cho thuê máy đê đủ
+điều kiện cho máy hoạt động, vận hành tại công trường (nêu có) va chi phí vận
+chuyên máy, thiết bi den khu vực thi công, được tách riêng không bao gồm
+trong giá ca máy thuê được khảo sát.
+
+- Giá ca máy thuê được khảo sát xác định tương ứng với đơn vị ca máy
+(theo quy định về thời gian một ca hoạt động sản xuất thi công của định mức dự
+toán rà phá bom min vật nô) và các hình thức cho thuê máy (cho thuê bao gôm
+cả vận hành hoặc chỉ cho thuê máy không bao gôm vận hành) cùng các điều
+kiện cho thuê máy kèm theo.
+
+Trường hợp các nhà cung cấp, cho thuê công bố giá thuê máy theo các
+đơn vị thời gian thuê máy theo giờ, theo ngày, theo tháng hoặc năm thì phải
+được quy đôi về giá thuê theo ca máy đề phục vụ tính toán.
+
+Trường hợp hình thức cho thuê máy bao gồm cả vận hành thì thông tin
+khảo sát cân xác định riêng các khoản mục chỉ phí liên quan đên vận hành máy
+(gÔm chi phí nhiên liệu, năng lượng, chi phí nhân công điều khiên máy) và các
+khoản mục chi phí được phân bô vào giá ca máy thuê (gôm chi phí khâu hao, chi
+phí sửa chữa, chi phí khác).
+
+- Khảo sát thông tin cơ bản của máy về thông số kỹ thuật (chủng loại, công
+suất, kích thước, mức độ tiêu hao nhiên liệu...) xuất xứ, tình trạng của máy.
+
+- Khảo sát thông tin cơ bản về nhà cung cấp, cho thuê.
+
+đ) Tổng hợp xử lý số liệu và tính toán xác định giá ca máy thuê.
+
+Giá ca máy thuê sau khi khảo sát được sàng lọc theo từng loại và công
+suất máy, dong thời được xử lý dữ liệu trước khi tính toán xác định giá ca máy
+thuê bình quân làm cơ sở công bô, cụ thê:
+
+- Các khoản mục chi phí nhiên liệu, năng lượng, chi phí nhân công điều
+khiên máy trong giá ca máy thuê khảo sát được chuân xác theo quy định của nhà
+sản xuất vê mức tiêu hao năng lượng, nhiên liệu, thành phan thợ lái máy và quy
+định xác định giá nhiên liệu, năng lượng, đơn giá nhân công tại khoản 1 Phụ lục

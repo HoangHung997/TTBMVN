@@ -1,0 +1,40 @@
+10
+c) Tín hiệu là sắt, thép hoặc vật nhiễm từ: tiến hành thu gom về vị trí tập kết
+và dùng máy kiểm tra lại vị trí đó, nếu vẫn còn tín hiệu, tiếp tục đào kiểm tra, xử
+lý cho đến khi hết tín hiệu; lưu lại chỉ tiết tín hiệu trong báo cáo kết quả K hàng
+ngày; tiếp tục KS trong ô cho tới khi thời gian quy định cho ô đó kết thúc hoặc
+tới khi tim được BMVN trong ô; di chuyển tới ô tiếp theo;
+d) Tín hiệu là các loại mìn: khi đào, kiểm tra phát hiện tín hiệu là mìn hoặc
+nghỉ ngờ là mìn, kỹ thuật viên phải báo ngay cho Tổ trưởng và thông báo cho các
+kỹ thuật viên khác đang làm việc trong cùng ô phải dừng di chuyển đợi hướng
+dẫn của Tổ trưởng. Sau khi nhận được báo cáo, Tổ trưởng tiền hành:
+- Hướng dẫn các kỹ thuật viên trong ô khảo sát thận trọng rời vị trí thi công
+chuyển về vị trí an toàn;
+- Kiểm tra đánh dấu vị trí min (không thu gom được) dé tiến hành xử lý
+trong thời gian sớm nhất; lưu lại tọa độ trên thiết bị GPS cầm tay; lưu lại chi tiết
+và ghi toa độ trong báo cáo kết quả khảo sát hàng ngày;
+- Chuyển sang KS tại ô tiếp theo.
+Điều 14. Lập báo cáo kết quả khảo sát
+Đội trưởng có trách nhiệm phối hợp với tổ trưởng, cán bộ giám sát chất
+lượng phân tích kết quả KS, lập báo cáo, gồm:
+1. Báo cáo kết qua KS hàng ngày, nội dung thông tin được cập nhật vào báo
+cáo kết quả KS theo Mẫu KS-02 Phụ lục II ban hành kèm theo Quy trình kỹ này.
+2. Báo cáo khu vực ô nhiễm BMVN, nội dung kết quả cập nhật theo từng
+nhiệm vụ Mẫu KS-03 Phụ lục II ban hành kèm theo Quy trình nay.
+3. Báo cáo kết quả hoàn thành KS một khu vực, một nhiệm vụ và kết quả
+này được cập nhật vào hệ thống quản lý thông tin Mẫu KS-04 Phụ lục II ban hành
+kèm theo Quy trình này.
+4. Báo cáo tổng hợp kết quả khảo sát theo Mẫu KS-05 Phụ lục II ban hành
+kèm theo Quy trình này.
+5. Xác định khu vực ô nhiễm BMVN và khu vực không ô nhiễm BMVN.
+a) Xác định khu vực ô nhiễm BMVN:
+Căn cứ vào kết quả khảo sát tại từng ô với các ô màu đỏ liền hoặc không liền
+nhau nim trong khu vực nghỉ ngờ ô nhiễm BMVN, kết hợp với các thông tin quy
+định tại điểm a khoản 2 Điều 10 Quy trình này.
+b) Xác định khu vực không ô nhiễm BMVN: Căn cứ vào kết quả KS có nhiều
+6 màu xanh liền nhau nằm trong khu vực nghỉ ngờ ô nhiễm BMVN sau KS, kết hợp
+với các thông tin quy định tại điểm c khoán 2 Điều 10 Quy trình này.                                                    |
+6. Khoanh vùng khu vực ô nhiễm BMVN và không 6 nhiễm BMVN                                      |
+a) Khoanh vùng khu vực 6 nhiém BMVN
+- Những ô xác định được bằng chứng trực tiếp hoặc gián tiếp về BMVN                    |
+trên thực địa (các 6 được đánh dấu màu đỏ trên bản đồ kết qua KS);

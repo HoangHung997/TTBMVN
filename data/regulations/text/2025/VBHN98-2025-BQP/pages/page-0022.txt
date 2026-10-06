@@ -1,0 +1,41 @@
+22
+- Nhật ký thi công KS: Ghi chép đầy đủ các thông tin hoạt động theo từng 
+ô kể cả các ô được phép không KS;
+- Bản vẽ mặt bằng/bản đồ khu vực KS tỷ lệ 1:500 chia ô và tô màu theo 
+kết quả KS;
+- Bản vẽ mặt bằng/bản đồ tỷ lệ 1:500 khoanh vùng, đánh dấu các khu vực 
+ô nhiễm/không ô nhiễm BMVN sau phân tích đánh giá và tổng hợp kết quả;
+- Thuyết minh kết quả KS kèm theo ảnh chụp (nếu có);
+- Hồ sơ phương án kỹ thuật thi công và dự toán RPBM cho các CHA.
+2.4.10. Khu vực nghi ngò* ô nhiễm BMVN
+Đối với khu vực sau khi ĐT xác định là khu vực nghi ngờ ô nhiễm 
+BMVN và có đủ các căn cứ xác định khả năng có mìn hoặc khi đang tiến hành 
+KS mà có bằng chứng về ô nhiễm mìn thì không hoặc dừng KS, tiến hành lập kế 
+hoạch RPBM mà không tổ chức KS theo quy định tại 2.4
+2.5. Rà phá bom mìn vật nổ
+2.5.1. RPBM trên can khu vưc bãi mìn•  •
+2ề5ẽ  1.1. Dọn mặt bằng:
+- Chỉ được phép tiến hành dọn mặt bằng sau khi thiết lập hệ thống lối vào 
+và các hành lang an toàn trong khu vực thi công. Chiều rộng tối thiểu của lối vào 
+bãi mìn và hành lang an toàn không nhỏ hơn 2 m cho người đi bộ và 4 m cho 
+phương tiện cơ giới;
+- Trước khi phát dọn bằng thủ công phải kiểm tra dây vướng nổ, bẫy mìn;
+- Phương pháp dọn mặt bằng: Thủ công hoặc cơ giới hoặc kết hợp cả thủ 
+công và cơ giới hoặc thủ công kết hợp với đốt thảm thực vật bằng xăng dầu;
+- Chỉ được phép dọn mặt bằng đồng thời với việc RPBM;
+- Chiều cao gốc cây cỏ còn lại sau khi phát dọn không cao quá 0,05 m, 
+cây có đường kính lớn hơn 0,1 m không phải chặt;
+- Khi dọn bằng thủ công kết họp phun xăng dầu để đốt phải đảm 
+bảo không để cháy lan ra ngoài khu vực dò tìm;
+- Khoảng cách tối thiểu giữa hai người trên cùng khu vực phát dọn không 
+nhỏ hơn 15 m.
+2.5.lệ2. Dò tìm BMVN đến độ sâu 0,07 m;
+- Phương pháp: Dò tìm bằng thủ công - thuốn hoặc dò tìm bằng máy dò mìn;
+- Trong quá trình dò tìm khi phát hiện tín hiệu phải tiến hành xử lý xong 
+mới dò tìm tiếp;
+- Khi dò tìm bằng thủ công độ sâu thuốn phải đạt được từ 0,07 m đến 0,1 m;
+- Khi xử lý tín hiệu, với các tín hiệu là BMVN không thu gom, vận 
+chuyển đến khu vực hủy tập trung được thì đánh dấu bằng cờ dấu, cọc dấu chờ 
+đến cuối ca làm việc để hủy tại chỗ; đối với các loại BMVN được phép thu gom, 
+vận chuyến thì chuyển về nơi bảo quản tập trung để hủy theo đợt hoặc khi kết 
+thúc công việc. Việc đánh dấu quy định tại Phụ lục D.

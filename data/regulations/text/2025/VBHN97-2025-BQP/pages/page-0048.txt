@@ -1,0 +1,40 @@
+48
+Biểu mẫu 01: Bảng tổng họp dự toán điều tra, khảo sát
+.......................................... CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TÊN ĐƠN VỊ............. Độc lập - Tự do - Hạnh phức
+........... ngày....thảng.......năm........
+BẢNG TỐNG HỢP Dự TOÁN
+Dự án:...................................................
+Địa điểm:...............................................
+Hạng mục: Điều tra, khảo sát
+TT Hạng mục Ký hiệu Cách tính Thành tiên 
+(đồng)
+I Chi phí trực tiêp
+1 Chi phí vật liệu VL Tông chi phí VL
+2 Chi phí nhân công NC Tông chi phí nhân công
+3 Chi phí máy M Tông chi phí máy
+* Cộng chi phí trực tỉêpT VL+NC+M
+II Chi phí chung c Tỉ lệ quy định * NC
+Cộng giá trị khảo sát z T+C
+IV Chi phí khác K Kl+..ểK4+...
+1 Chi phí lập phương án báo cáo 
+kết quả khảo sát KI Tỷ lệ quy định * z
+2 Chi phí lán trại K2 Tỷ lệ quy định * T
+3 Chi phí thâm định K3 Tỷ lệ quy định * z
+4 Chi phí vận chuyên và tiêu hủy 
+bom mìn vật nổ K4 Tỷ lệ quy định * z
+Chi phí dự phòng (nêu có) Tỷ lệ quy định * z
+Các chi phí khác (nêu có)• ề • Tỉ lệ theo quy định
+Cộng giá trị dự toán H Z+K
+Làm tròn
+Băng chữ:........................................................................
+Ghi chủ:
+- Bảng tong hợp dự toán trên áp dụng đoi với công tác rà phả bom mìn 
+ỉà một dự án độc lập; dự án điểu tra, khảo sát xác định khu vực ỏ nhiễm bom 
+mìn vật no và có thế áp dụng đoi với dự án thuộc Nhóm I (tùy theo yêu cầu 
+của chủ đầu tư).
+- Dự toán chi phí điều tra, khảo sát bom mìn vật no, chỉ phỉ chung, chi phí 
+lập phương án, bảo cảo kết quả khảo sát, chi phí lán trại theo Thông tư của Bộ 
+Xảy dụrĩg hướng dân xác định và quản lý chi phí đầu tư xây dụng.
+ĐẠI DIỆN ĐƠN VỊ LẬP Dự TOÁN ĐẠI DIỆN CHỦ ĐẦU Tư
+(Ký tên, đong dấu) (Kỷ tên, đỏng dấu)

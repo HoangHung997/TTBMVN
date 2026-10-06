@@ -1,0 +1,13 @@
+2
+III. CÁC THONG TIN ĐƯỢC CUNG CAP
+1       Thông tin về các trân ném bom hoặc bắn pháo
+trong khu vực (kèm theo hô sơ nêu có)
+2      Thông tin về các hoạt động rà phá bom mìn trong
+khu vực (kèm theo hô sơ nêu có)
+3      Thông tin về các vụ nổ và nạn nhân bom mìn trong
+khu vực
+|             4       Thông tin về việc phát hiện thấy bom min vật nổ
+trong khu vực
+|                 NHAN VIEN           PON VI THỰC HIEN           CƠ QUAN/ĐƠN VỊ
+DIEU TRA                    DIEU TRA             CUNG CAP THONG TIN
+(Ky, ghi rõ họ tên)            (Ký tên, đóng dau)                (Ký tên, đóng dau)

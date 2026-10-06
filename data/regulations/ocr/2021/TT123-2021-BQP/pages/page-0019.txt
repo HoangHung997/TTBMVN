@@ -1,0 +1,56 @@
+17
+
+Ghi chú:
+
+- Ra phá bom min vật nổ bằng phương pháp khoan lỗ chỉ áp dụng các khu vực có địa
+chất phức tạp, có pha trộn nhiều mảnh, vật kim loại trong lòng đất; những dự án có tằm quan
+trọng đặc biệt và theo yêu cầu của chủ đều tư.
+
+- Do máy khoan đất và thợ khoan chưa được biên chế, trang bị đồng bộ tại các đơn vị
+làm nhiệm vụ RPBM, nên cho phép thuê đơn vi khác có chuyên môn dé thực hiện công tác
+khoan 16; việc xác định đơn giá khoan do đơn vị được thuê khoan lập dự toán. Khi lập dự
+toán RPBM bằng phương pháp khoan lỗ phải bao gồm cả dự toán của công tác khoan.
+
+11. Đào kiểm tra, xứ lý tín hiệu ở độ sâu đến 10 m (MS: 020.1100)
+
+a) Thành phần công việc: dùng máy xúc và khí tài công binh đào đúng
+yêu cầu kỹ thuật cho lộ toàn bộ vật tín hiệu (kích thước trung bình miệng hế:
+4,5 m x 4m, đáy hố: 2m x 1,5 m, độ sâu: 5 m; khối lượng đất đào trung bình:
+47,24 m`/hồ). Kiểm tra xác định tín hiệu, thu gom vận chuyển hoặc xử lý theo
+quy định.
+
+b) Định mức hao phí tính cho 1 m” đất đào
+
+Cấp đất tại vị trí tín hiệu
+
+Mãsố | Thành phần hao phí | Đơn vị
+
+I           H          IH          IV
+Vật liệu:
+Cọctre(Ø8x200)cm | Coc | 020 | 020 | 0.10        0
+Ván gỗ dày 3 cm             m       0,004 | 0,004 | 0,002         0
+Đinh 2 mỏ                       Cái        040 | 040 | 0,20          0
+Dinh 10 cm         Kg   0,15   0,15 | 0,10    0
+Dây thép buộc @2 mm | Kg        0,20 | 0,15 | 0,12          0
+Vật liệu khác                    %VL | 1,00         1,00         1,00            0
+020.1100        —
+Nhân công:
+
+Bậc thợ QNCN 7/10        Công | 0,0300 | 0,0390 | 0,0461 | 0.0518
+Bậc thợ QNCN 8/10         Công       0,72       0,96        1,40        2,04
+
+May thi công:
+Máy dò bom Vallon
+
+0          008 | 0,00
+1303A1                            Ca       0,008 | 0,008 | 0,00              8
+Máy xúc loại < 0,4 m’       Ca | 0,0053 | 0,0063 | 0,0090 | 0.0104
+
+1      2      3      4
+
+12. Hay nổ bom min vật no tai chỗ trên cạn (MS: 020.1200)
+
+a) Thành phần công việc: tổ chức trạm gây nổ, cảnh giới; gói buộc và bd
+trí lượng nổ, tra lắp hoả cụ; thực hiện các biện pháp bảo đảm an toàn, quy định
+tín hiệu; tiền hành gây nổ lượng nd dé kích nổ phá huỷ bom mìn vật nổ theo đúng
+kỹ thuật và phương án được duyệt.

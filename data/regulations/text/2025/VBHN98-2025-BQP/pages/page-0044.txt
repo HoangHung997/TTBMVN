@@ -1,0 +1,29 @@
+42
+Bảng 2.2. Số lượng và thành phần nhân lực tối thiểu phải có đối với 
+một tổ chức/đơn vị thực hiện ĐT, KS, RPBM dưới nước (khu vực không 
+phải là bãi mìn).
+Nhân sự số lượng (ngưòi)
+Đội trưởng, đội phó có chứng chỉ đào tạo2
+Quản lý chất lượng có chứng chỉ đào tạo1
+Kỹ thuật viên cấp 1 có chứng chỉ đào tạo8
+Kỹ thuật viên cấp 2 có chứng chỉ đào tạo2
+Kỹ thuật viên cấp 3 có chứng chỉ đào tạo1
+Nhân viên y tế có chứng chỉ đào tạo 1
+Kỹ thuật viên - thợ lặn có chứng chỉ đào tạo2
+Nhân viên quản lý thông tin (kiêm nhiệm)1
+Nhân sự khác 5
+rp Ẵ ẨTong so: 23
+* Tổ chức thành các bộ phận, gồm:
+- Chỉ huy: 01 đội trưởng và 01 đội phó.
+- Tổ bảo vệ cảnh giới an toàn.
+- Tổ chuẩn bị mặt bằng, dò tìm và đánh dấu tín hiệu.
+- Tổ lặn đào, xử lý tín hiệuề
+- Tổ phục vụ (hậu cần, y tế, vật tư kỹ thuật).
+4.1.3.3.17 Nhân lực phải có đối với một tổ chức/đơn vị thực hiện ĐT, KS, 
+RPBM dưới biển (độ sâu nước lớn hơn 25 m) quy định tại Bảng 3.3.
+Bảng 3.3. Số lượng và thành phần nhân lực tối thiểu phải có đối với 
+một tổ chức/đơn vị thực hiện ĐT, KS, RPBM dưới biển (khu vực không phải 
+là bãi mìn)
+17 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 16 Điều 5 của Thông tư số
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

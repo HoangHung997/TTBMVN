@@ -1,0 +1,44 @@
+10
+TT Tỉnh, thành phố Khu vực Tên địa phương các xã, phường, đặc khu
+Linh, Trà Leng, Sông Kôn, Sông Vàng, Đông 
+Giang, Bến Hiên, Điện Bàn Tây, Gò Nổi, Thăng 
+Bình, Thăng An, Thăng Trường, Thăng Điền, 
+Thăng Phú, Đồng Dương, Trà Liên, Trà Giáp, 
+Trà Tân, Trà Đốc, Trà My, Hoà Vang, Hoà Tiến, 
+Bà Nà; các phường Điện Bàn, Điện Bàn Đông, 
+An Thắng, Điện Bàn Bẳc, Hoà Xuân.
+Khu vực 2
+Các xã Tân Hiệp, Đại Lộc, Hà Nha, Thượng 
+Đức, Vu Gia, Phú Thuận, Duy Nghĩa, Nam 
+Phước, Duy Xuyên, Thu Bồn, Lãnh Ngọc, 
+Tiên Phước, Thạnh Bình, Sơn cẩm Hà, Tây 
+Hồ, Chiên Đàn, Phú Ninh; các phường Tam 
+Kỳ, Quảng Phú, Hương Trà, Bàn Thạch, Hội 
+An, Hội An Đông, Hội An Tây.
+Khu vực 1Các xã, phường còn lại
+21 Quảng Ngãi
+Khu vực 3
+Các xã Tịnh Khê, An Phú, Nghĩa Hành, Đình 
+Cương, Thiện Tín, Phước Giang, Nghĩa Hành, 
+Đình Cương, Thiện Tín, Phước Giang, Long 
+Phụng, Mỏ Cày, Mộ Đức, Lân Phong, Trường 
+Giang, Ba Gia, Sơn Tịnh, Thọ Phong, Tư 
+Nghĩa, Vệ Giang, Nghĩa Giang, Trà Giang, Sơn 
+Tây, Sơn Tây Thượng, Sơn Tây Hạ, Bờ Y, Sa 
+Loong, Dục Nông, Đăk Kôi, Kon Braih, Đăk 
+Rve, Rờ Kơi, Mô Rai, Đăk Pxi, Đăk Mar, Đăk 
+Ui, Ngọk Réo, Đăk Hà các phường Trương 
+Quang Trọng, cẩm Thành, Nghĩa Lộ.
+Khu vực 2
+Các xã Sơn Hạ, Sơn Linh, Sơn Hà, Sơn 
+Thủy, Sơn Kỳ, Nguyễn Nghiêm, Khánh 
+Cường, Ngọk Bay, la Chim, Đăk Rơ Wa, 
+Xốp, Ngọc Linh, Đăk Plô, Đăk Pék, Đăk 
+Môn, Măng Đen, Măng Bút, Kon Plông; các 
+phường Trà Câu, Đức Phổ, Kon Tum, Đăk 
+Cấm, Đăk Bla.
+Khu vực 1Các xã, phường, đặc khu còn lại
+22 Khu vực 3
+Các xã An Hoà, An Lão, An Vinh, An Toàn, 
+Phù Cát, Xuân An, Ngô Mây, Cát Tiến, Đề 
+Gi, Hoà Hội, Hội Sơn, Phù Mỹ, An Lương,

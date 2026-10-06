@@ -1,0 +1,49 @@
+24
+
+b) Kiểm tra xác định vật gây tin hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại dé hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiêm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 39. Lin kiểm tra, đào xử lý tín hiệu dưới nước ở độ sâu trên 1 m
+đến 3 m hoặc đến 5 m
+
+1. Trường hợp áp dụng: tín hiệu đã phát hiện và đánh dấu ở độ sâu đến 3 m,
+đến 5 m, sau khi đã đào đến độ sâu 1 m tính từ đáy nước mà vẫn chưa thấy vật
+gây tín hiệu.
+
+2. Trang bị: máy dò, thiết bị lặn, thuyền composit có cẩu mi ni tự hành,
+thuyền cao su các loại, máy xói và hút bùn cát công suất lớn, khung vây (khoang
+giếng) được chế tạo từ tôn, sắt góc và thiết bị phục vụ lắp đặt, tháo dỡ khung
+vây, phao, neo, thuốn, xẻng, dây cáp nilon các loại, trang bị bảo đảm an toàn và
+thiết bị bảo vệ người.
+
+3. Trình tự thực hiện:
+
+a) Sử dụng máy dò bom xác định chính xác vị trí tín hiệu; thợ lặn mang theo
+dụng cụ kết hợp với vòi xói vừa xăm tìm vừa xói bùn, cát hạ dẫn các khung vây
+cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+b) Trường hợp khu vực có địa chất phức tạp (cát chảy, bùn lỏng) phải tiền
+hành dựng hệ thống khung vây được gia công sẵn bao quanh vị trí tâm tín hiệu
+đã được xác định; thợ lặn kết hợp với các loại vòi xói bùn, cát đào hạ dần khung
+vây cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+c) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hop tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại đề hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+d) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu; nếu còn tín hiệu
+thì phải tiền hành xử lý theo quy định tại điểm a, điểm b, điểm c khoản này.
+
+4. Trường hợp có phát sinh ngoài phương án kỹ thuật thi công thì đơn vị, tổ
+chức thi công RPBM phối hợp với chủ đầu tư lập phương án thị công riêng báo                     |
+cáo cap có thâm quyên phê duyệt trước khi thực hiện.

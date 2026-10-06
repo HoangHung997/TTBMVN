@@ -1,0 +1,36 @@
+# Visual Studio and build output
+.vs/
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+TestResults/
+/packages/
+
+# Generated releases, temporary analysis and local sync metadata
+artifacts/
+tmp/
+.cr/
+sync.ini
+**/sync.ini
+
+# Runtime and tool caches
+*.log
+*.tmp
+*.cache
+**/__pycache__/
+*.py[cod]
+
+# Signing material and private credentials
+*.pfx
+*.p12
+*.pvk
+*.pem
+*.key
+*.snk
+**/license-signing-key*.bin
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

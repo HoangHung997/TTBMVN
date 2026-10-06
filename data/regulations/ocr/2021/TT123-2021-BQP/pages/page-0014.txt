@@ -1,0 +1,50 @@
+12
+
+2. Ra phá bom min vật nổ bằng máy do min đến độ sâu 0,3 m hoặc
+0,5 m (MS: 020. 0200)
+
+a) Thành phần công việc: dùng máy do min, dò tìm trong từng dải theo
+đúng kỹ thuật; phát hiện hết các tín hiệu đến độ sâu 0,3 m hoặc 0,5 m, dùng cờ
+đỏ đánh dấu tín hiệu (độ sâu 0,5 m áp dụng cho dự án đất lâm nghiệp và chỉ thực
+hiện khi chủ đầu tư yêu cầu).
+
+b) Định mức hao phí tính cho 10.000 m?
+
+£1        .        A            ,      Đơn                 Loại mật độ
+Mã số        Thành phân hao phí        vi [Loạil | Loại2    Loại 3 | Loại 4
+
+Vật liệu:
+Cọc băng bê tông cốt thé        Ñ
+0.12 x 0 12x gà a    Pl cai | 40 | 40 | 40 | 40
+Coc gỗ (Ø 3 x 50) cm         Cái       34        34        34        34
+Dây thừng Ø10 mm             Mét | 67         67 |: 67         67
+
+020.0200 | Cờ đỏ đuôi nheo                  Cái | 2,0        4,0         6,0         8,0
+Vật liệu khác                         %VL | 5,0          5,0          5,0          5,0
+Nhân công:
+Bậc thợ QNCN 7/10              Công | 17,36 | 19,10 | 21,00 | 23,10
+May thi công:
+Máy dò mìn VMH3.CS          Ca | 11,57 | 12,73 | 14,00 | 15,40
+
+1          2          3 | 4
+
+Ghi chú: Coc bê tông cốt thép chỉ được áp dụng một lần cho khu vực rà phá bom min,
+nếu đã áp dụng ở độ sâu 0, 07 m thi khong dp dung 4 các độ sâu khác.
+
+3. Đào đất, kiểm tra, xử lý tín hiệu đến độ sâu 0,3 m (MS: 020.0300)
+a) Thành phần công việc: ding máy dò min kết hợp thuốn, kiểm tra lại vị
+trí đã đánh dấu tín hiệu. Dùng dụng cụ cầm tay đào từng lớp đất < 0,1 m, đào lộ
+“toàn bộ vật gây tín hiệu. Kiểm tra xác định tín hiệu, xử lý, thu gom chuyển về `
+nơi quy định néu BMVN an toàn, đánh dấu bằng : cờ đỏ để xử lý tại chỗ với
+BMVN không an toàn hoặc vật nỗ lạ.
+b) Định mức hao phí tính cho 1 tín hiệu
+
+mm          N      :       :                      CA  dat tai vi tri tin hie
+Mãsố | Thanh phan hao phi | Đơn vị      áp dat tại vị trí tín hiệu
+.                         |      I        II       II       IV
+Nhân công:
+020.0300 | ác thợ QNCN 8/10      Công | 0,060 | 0,078 | 0,107 | 0,160
+May thi công:
+| Máy dò min VMH3.CS          Ca | 0,014 | 0014 | 0,014 | 0,014
+1        2 | 3        4
+

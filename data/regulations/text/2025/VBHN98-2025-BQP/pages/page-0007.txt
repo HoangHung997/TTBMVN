@@ -1,0 +1,39 @@
+7
+- Tiêu chuẩn quốc gia TCVN 10299-(1,2,3,4,5,6,7,8,9,10):2014, Khắc 
+phục hậu quả bom mìn, vật nố sau chiến tranh.
+Chú thích: Trường hợp các tài liệu viện dẫn có sự sửa đối, bố sung, thay 
+thế thì thực hiện theo quy định tại văn bản mới.
+1.4Ệ  Giải thích từ ngữ và chữ viết tắt
+Trong Quy chuẩn kỹ thuật này, các từ ngữ dưới đây được hiểu như sau:
+1.4.1. Bom mìn vật nổ (sau đây viết tắt là BMVN)
+Bom mìn vật no là tên gọi chung cho các loại bom, mìn, lựu đạn, quả nổ, 
+ngư lôi, thủy lôi, vật liệu nổ, đầu đạn tên lửa, đạn pháo và đầu đạn pháo, các loại 
+đạn, ngòi nổ, thuốc nổ, phương tiện gây nổ.
+1.4ẵ 2. Điều tra (sau đây viết tắt là ĐT)
+Điều tra BMVN là hoạt động liên quan đến việc thu thập, phân tích, đánh 
+giá các thông tin, dữ liệu về BMVN phỏng vấn nhân chứng và quan sát trực quan 
+tại hiện trường nhằm xác định diện tích đất đai bị ô nhiễm, nghi ngờ ô nhiễm 
+hoặc không bị ô nhiễm BMVN trong một khu vực đất đai nhất định.
+1.4.3. Khảo sát (sau đây viết tắt là KS)
+Là hoạt động thu thập và phân tích dữ liệu bằng các trang thiết bị kỹ thuật 
+đế xác định về sự hiện diện, chủng loại, phân bổ và môi trường xung quanh của 
+BMVN qua đó xác định rõ hơn vị trí ô nhiễm/không ô nhiễm BMVN, nhằm hỗ 
+trợ công tác ưu tiên giải phóng đất đai, lập phương án kỹ thuật thi công và quá 
+trình ra quyết định dựa trên bằng chứng được cung cấp.
+1.4.4. Rà phá bom mìn vật nổ (sau đây viết tắt là RPBM)
+Là hoạt động dò tìm, thu gom, tiêu hủy hoặc vô hiệu hóa BMVN đến độ 
+sâu xác định tại các khu vực được xác định là bị ô nhiễm BMVN nhằm giải 
+phóng đất đai, khôi phục sản xuất, bảo đảm an toàn tính mạng và tài sản của 
+nhân dân.
+1.4.5. Rà phá mìn bằng CO’ giói
+Đề cập đến việc sử dụng máy móc cơ giới trong hoạt động rà phá mìn. 
+Các loại máy móc sử dụng một hoặc nhiều công cụ (thay đổi) khác nhau để tìm 
+kiếm hoặc phá hủy mìn (xe tăng phá mìn, máy xới mìn, máy sàng mìn, máy lăn, 
+máy xúc, máy cày, máy cắt cây phá mìn, nam châm).
+1.4.6. Xử lý BMVN/Explosive Ordnance Disposal (EOD)
+Trong lĩnh vực hoạt động ĐT, KS, RPBM, thuật ngữ này đề cập đến các 
+hành động nhận biết, đánh giá, đảm bảo an toàn, phân loại, cất giữ, vận chuyển 
+và tiêu hủy BMVN.
+1.4.7. Bãi tiêu hủy
+Là khu vực được phép sử dụng chất nổ, lửa hoặc các biện pháp khác 
+để phá hủy BMVN.

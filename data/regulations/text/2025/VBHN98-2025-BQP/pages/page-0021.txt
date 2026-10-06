@@ -1,0 +1,34 @@
+2.4.6. Căn cử xác đinh khu vưc ô nhiễm BMVN•  •
+2.4.6.1. Căn cứ xác định các ô là ô nhiễm BMVN:
+- Là các ô có thu được bằng chứng trực tiếp hoặc bằng chứng gián tiếp về 
+ô nhiễm BMVN trên thực địa (các ô được đánh dấu màu đỏ);
+- Là các ô liền kề với ô màu đỏ (các ô được đánh dấu màu nâu).
+2.4.6.2.8 Căn cứ kết quả khảo sát trong ngày để xác định một khu vực ô 
+nhiễm bom mìn vật nổ, bao gồm các ô ô nhiễm trực tiếp và ô ô nhiễm gián 
+tiếp; trường hợp giữa các khu vực đã xác định ô nhiễm hoặc sát cạnh một khu 
+vực ô nhiễm có các ô không ô nhiễm (ô màu xanh hoặc màu vàng) mà số ô này 
+không vượt quá 4 ô thì có thể ghép vào cùng khu vực ô nhiễm.
+2.4.7. Căn cứ xác định khu vực không ô nhiễm BMVN
+2.4.7.1. Căn cứ xác định ô không ô nhiễm BMVN:
+- Là những ô “không ô nhiễm trực tiếp” (ô được đánh dấu màu xanh);
+- Là những ô “không ô nhiễm gián tiếp” (ô được đánh dấu màu vàng).
+2.4ế7.2. Căn cứ xác định khu vực không ô nhiễm BMVN: Là một khu vực 
+bao gồm các ô “không ô nhiễm trực tiếp” và “không ô nhiễm gián tiếp” liên tiếp.
+2.4ễ7ẽ3. Đối với các ô không xác định (màu xám), tùy theo vị trí nằm trong 
+khu vực nào để ghép vào khu vực ô nhiễm hay không ô nhiễm theo nguyên tắc 
+xác định bằng màu của các ô liền kề hay màu của các ô trong cả khu vực.
+2.4.8. Yêu cầu về kết quả thu đưọ’c sau KS
+Hồ sơ kết quả thu được sau KS phải đáp ứng các yêu cầu sau:
+- Xác định được “khu vực ô nhiễm BMVN” và “khu vực không ô nhiễm 
+BMVN”;
+- Xác định được diện tích của từng khu vực;
+- Vẽ được đường bao quanh các khu vực ô nhiễm với tọa độ GPS tại các 
+điếm chuyến hướng;
+- Xác định được các thông tin: Mật độ tín hiệu, cấp đất, diện tích thảm 
+thực vật phải phát dọn, tình hình khí hậu, thời tiết, thủy vănề
+2.4.9. Hồ sơ kết quả KS
+Hồ sơ kết quả thu được sau KS phải bao gồm:
+21
+8 Điểm nàv được sửa đổi, bổ sung theo quy định tại Khoản 7 Điều 5 của Thông tư số
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

@@ -1,0 +1,42 @@
+45
+2.7 K2 là “Chi phí nhà tạm để ở và điều hành”, thực hiện theo Thông tư số 
+11/2021/TT-BXD ngày 21 tháng 8 năm 2021 của Bộ Xây dựng Hướng dẫn một 
+số nội dung xác định và quản lý chi phí đầu tư xây dựng, được xác định bằng tỉ 
+lệ % trên chi phí trực tiếp của hạng mục RPBM, thực hiện theo bảng sau:
+TT Loại công trình
+Chi phí trực tiếp của hạng mục rà phá bom mìn 
+từng loại, từng nhóm dự án (tỷ đồng)
+<15 <100 <500 <1000 >1000
+1 RPBM các dự án theo tuyến2,2 2,0 1,9 1,8 1,7
+2 RPBM các dự án còn lại1,1 1,0 0,95 0,9 0,85
+3. K3 là chi phí thấm định phương án và dự toán được tính bằng tỷ lệ % 
+theo giá trị dự toán của hạng mục rà phá bom mìn vật nổ;
+- Khi tổng giá trị dự toán dưới 1 tỷ đồng được lấy chi phí là 0,5%.
+- Khi tổng giá trị dự toán từ 1 đến dưới 5 tỷ đồng được lấy chi phí là 0,3%.
+- Khi tổng giá trị dự toán từ 5 tỷ đồng trở lên được lấy chi phí ỉà 0,2%.
+(Mức tối thiếu là 2 triệu đong,ệ  mức tối đa 60 triệu đòng).
+4. K5 là chi phí giám sát thi công rà phá bom mìn vật nổ thực hiện theo 
+quy định tại Thông tư số 16/2019/TT-BXD ngày 26/12/2019 của Bộ Xây dựng 
+về Hướng dẫn xác định chi phí quản lý và tư vấn đầu tư xây dựng (được tính 
+theo tỷ lệ %  của giá trị rà phá bom mìn vật nố):
+TT Loại công trình
+Chi phí rà phá bom mìn vật nổ (chưa có thuế GTGT) 
+của giá gói thầu thi công rà phá bom mìn được duyệt
+(ty đồng)
+<10 20 50 100 200 500 1000 2000
+1 Công trình dân 
+dụng 3,285 2,853 2,435 1,845 1,546 1,188 0,797 0,694
+2 Công trình công 
+nghiệp 3,508 3,137 2,559 2,074 1,604 1,301 0,823 0,716
+3 Công trình giao 
+thông 3,203 2,700 2,356 1,714 1,272 1,003 0,731 0,636
+4
+Công trình nông 
+nghiệp và phát 
+triển nông thôn
+2,598 2,292 2,075 1,545 1,189 0,950 0,631 0,550
+5 Công trình hạ 
+tầng kỹ thuật 2,566 2,256 1,984 1,461 1,142 0,912 0,584 0,509
+7 Khoản này được bổ sung theo quy định tại khoản 5 Phụ lục III ban hành kèm theo Thông tư
+số 101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

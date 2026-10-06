@@ -1,0 +1,41 @@
+13
+RPBM dưới nước là độ sâu được tính từ bề mặt đáy nước tại vị trí rà phá và tại 
+thời điểm rà phá đến độ sâu yêu cầu.
+2.2.I.2.2 Rà phá bom mìn vật nổ đến độ sâu 0,3 m hoặc 0,5 m: Áp dụng 
+cho đất sản xuất nông nghiệp, diêm nghiệp và các dự án rà phá bom mìn làm 
+sạch đất đai.
+2.2.1.3. RPBM đến độ sâu tối thiểu là 1 m: Áp dụng cho đất lâm nghiệp.
+2.2.1.4. RPBM đến độ sâu tối thiểu là 3 m: Áp dụng cho các dự án tái 
+định cư; đất khu dân cư có xây dựng nhà ở có chiều cao dưới 10 m (bao gồm đất 
+ở và đất vườn); các dự án nạo vét luồng lạch có độ sâu nạo vét dưới 3 m; các 
+tuyến cáp quang biển, các tuyến ống dẫn dầu, dẫn khí đốt có độ sâu chôn ống 
+không quá 3 m; các dự án giao thông cấp thấp như đường giao thông đến cấp III, 
+IV, V, giao thông nông thôn; công trình thủy lợi, công trình phòng chống thiên 
+tai, công trình đê điều, công trình chăn nuôi và các công trình nông nghiệp và 
+phát triên nông thôn khác có độ sâu đào móng/đât không quá 3 m.
+2ễ2.1.5. RPBM đến độ sâu tối thiểu là 5 m: Áp dụng cho các dự án xây 
+dựng công trình có chiều cao lớn hơn 10 m; xây dựng công nghiệp, hạ tầng giao 
+thông (đường cap I, II, cao tốc, cầu, bến cảng..ẻ); các dự án nạo vét luồng lạch 
+có độ sâu nạo vét lớn hơn 3 m; các dự án khoan thăm dò hoặc xây dựng công 
+nghiệp, khai thác dầu khí; công trình thủy lợi, công trình phòng chống thiên tai, 
+công trình đê điều, công trình chăn nuôi và các công trình nông nghiệp và phát 
+triên nông thôn khác có độ sâu đào móng/đât lớn hơn 3 m; thủy điện, trụ đường 
+dây điện cao thế, trung thế.
+2ẽ2ẽ1.6. RPBM đến độ sâu lớn hơn 5 m: Chỉ áp dụng cho các công trình 
+có tầm quan trọng đặc biệt và có yêu cầu của chủ đầu tư hoặc những nơi có đánh dấu 
+bom chưa no nhưng không phát hiện được khi đã dò tìm đến độ sâu 5 m.
+2.2.lế7. Đối với diện tích “hành lang an toàn” theo 2.2.2: Độ sâu RPBM 
+trên cạn là 0,3 m, dưới nước và dưới biển là 0,5 m; đối với hành lang an toàn khi 
+nạo vét luồng lạch, độ sâu nạo vét không lớn hơn 3 m thì độ sâu RPBM là 3 m, 
+độ sâu nạo vét lớn hơn 3 m thì độ sâu RPBM là 5 m.
+2.2.2. Hành lang an toàn trong RPBM
+2.2.2ẻl. Là phần diện tích đất liền kề xung quanh khu vực sẽ xây dựng 
+công trình và cần được làm sạch BMVN để tránh tác động của BMVN còn lại 
+trên phần diện tích này tới việc thi công công trình. Be rộng của hành lang an 
+toàn là khoảng cách trên bề mặt tính từ mép ngoài diện tích sử dụng cho công 
+trình đến mép ngoài của khu vực được RPBM.
+2.2.2.2ề  Hành lang an toàn trong RPBM áp dụng khi có đủ các điều kiện sau:
+- Áp dụng với hạng mục RPBM của dự án xây dựng công trình;
+2 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 1 Điều 5 của Thông tư số
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

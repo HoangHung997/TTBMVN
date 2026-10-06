@@ -1,0 +1,39 @@
+24
+Điều 29. Rà phá bom mìn vật nỗ ở độ sâu từ trên 5 m đến 10 m bằng 
+phương pháp khoan lỗ
+1. Điều kiện thực hiện
+- Khu vực có địa chất phức tạp, nhiều mảnh, vật kim loại trong lòng đất 
+mà máy dò bom khó phát hiện tín hiệu nghi ngờ là BMVN ở độ sâu từ lớn hơn
+5 m đến 10 m;
+- Nhũng dự án có tầm quan trọng đặc biệt hoặc theo yêu cầu của chủ đầu tư.
+2ề  Trường hợp áp dụng: khu vực phải RPBM ở độ sâu từ trên 5 m đến 10 m 
+sau khi đã RPBM ở độ sâu đến 5 m tính từ mặt đất tự nhiên hiện tại trở xuống.
+3. Trang bị: máy khoan và thiết bị đồng bộ, ống nhựa đường kính tối thiểu 
+76 mm; máy dò bom, cờ đỏ đánh dấu tín hiệu, cọc gỗ và dây đánh dấu đường 
+dò, thuốn, xẻng, dao găm và thiết bị đào đất bàng cơ giới, thuốc nổ, hoả cụ và 
+khí tài gây no, dụng cụ thu gom, máy bơm nước và phụ kiện đi kèm, các loại vật 
+tư làm kè chắn chống sạt lở.
+4. Trình tự thực hiện:
+a) Tiên hành căng dây đánh dấu vị trí lỗ khoan, với khoảng cách giữa các lỗ 
+khoan trong hàng và giữa các hàng là 2 m, tùy độ sâu cần dò tìm, xử lý để quyết 
+định độ sâu khoan và số lần khoan, nhưng chiều sâu tối đa của lỗ khoan là 5 m, 
+không được khoan đến độ sâu 10 mề  Đường kính lỗ khoan tối thiểu 80 mm, 
+thành các lỗ khoan phải được bảo vệ bằng hệ thống ống nhựa có đường kính tối 
+thiếu 76 mm hoặc vật liệu khác;
+b) Sau khi khoan lỗ, lồng ống nhựa vào lỗ khoan xong, tiến hành RPBM 
+theo thứ tự các bước như RPBM trên cạn với phương pháp thả đầu dò vào trong 
+lỗ khoan, ghi và phân tích các số liệu đo (bao gồm cả số liệu của các lỗ khoan 
+lân cận) để phát hiện các tín hiệu. Việc đào, xử lý các tín hiệu theo quy định tại 
+Điều 28 Quy trình nàyể
+Điều 30. Hủy nỗ bom mìn vật nổ tại chỗ
+1. Trường hợp áp dụng: bom mìn, vật nổ phát hiện được nhưng không an 
+toàn cho thu gom, vận chuyển bắt buộc phải hủy tại chỗ.
+2. Trang bị: trang thiết bị bảo hộ lao động, máy dò mìn, thuốn, dao găm, 
+xẻng, thuốc nổ, hoả cụ và khí tài gây no.
+3. Trình tự thực hiện:
+a) Dùng lượng nổ tập trung đặt trực tiếp vào BMVN cần huỷ và gây nổ;
+b) Sau khi đã huỷ nổ xong, phải kiểm tra kết quả hủy nổ và vị trí phát hiện 
+tín hiệu để bảo đảm sạch tín hiệu. Trường hợp còn sót BMVN thì phải tiến hành 
+xử lý tiếp theo quy định tại Mục này;
+c) Kiểm tra, thu gom trang bị, khí tài gây nổ và mảnh vụn (nếu có) ra khỏi 
+khu vực thi côngể

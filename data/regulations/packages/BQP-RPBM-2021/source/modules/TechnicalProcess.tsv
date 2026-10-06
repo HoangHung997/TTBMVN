@@ -1,0 +1,60 @@
+key	recordType	unit	title	data	sourceDocumentId	pageFrom	pageTo	section	verification
+PROC-TT121-DIEU-001	Article		Phạm vi điều chỉnh	article=1;chapter=General	TT121-2021-BQP	2	2	Điều 1	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-002	Article		Đối tượng áp dụng	article=2;chapter=General	TT121-2021-BQP	2	2	Điều 2	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-003	Article		Quy ước viết tắt	article=3;chapter=General	TT121-2021-BQP	2	2	Điều 3	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-004	Article		Giải thích từ ngữ	article=4;chapter=General	TT121-2021-BQP	2	3	Điều 4	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-005	Article		Yêu cầu đối với hoạt động điều tra, khảo sát, rà phá bom mìn vật nổ	article=5;chapter=General	TT121-2021-BQP	3	4	Điều 5	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-006	Article		Yêu cầu về diện tích, độ sâu, hành lang an toàn trong rà phá bom mìn vật nổ	article=6;chapter=General	TT121-2021-BQP	4	5	Điều 6	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-007	Article		Quy tắc an toàn trong điều tra, khảo sát, rà phá bom mìn vật nổ	article=7;chapter=General	TT121-2021-BQP	5	6	Điều 7	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-008	Article		Công tác chuẩn bị điều tra	article=8;chapter=Investigation	TT121-2021-BQP	6	6	Điều 8	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-009	Article		Điều tra ô nhiễm bom mìn vật nổ	article=9;chapter=Investigation	TT121-2021-BQP	6	7	Điều 9	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-010	Article		Phân tích kết quả, lập báo cáo điều tra	article=10;chapter=Investigation	TT121-2021-BQP	7	8	Điều 10	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-011	Article		Công tác chuẩn bị khảo sát	article=11;chapter=Survey	TT121-2021-BQP	8	8	Điều 11	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-012	Article		Khảo sát xác định khu vực ô nhiễm	article=12;chapter=Survey	TT121-2021-BQP	8	10	Điều 12	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-013	Article		Xử lý tín hiệu khảo sát	article=13;chapter=Survey	TT121-2021-BQP	10	11	Điều 13	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-014	Article		Lập báo cáo kết quả khảo sát	article=14;chapter=Survey	TT121-2021-BQP	11	12	Điều 14	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-015	Article		Khảo sát, thu thập số liệu phục vụ lập phương án kỹ thuật thi công	article=15;chapter=Design	TT121-2021-BQP	12	13	Điều 15	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-016	Article		Lập phương án kỹ thuật thi công, dự toán rà phá bom mìn	article=16;chapter=Design	TT121-2021-BQP	13	14	Điều 16	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-017	Article		Xác định khu vực rà phá bom mìn vật nổ trên cạn	article=17;chapter=Land	TT121-2021-BQP	14	14	Điều 17	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-018	Article		Thứ tự các bước rà phá bom mìn trên cạn	article=18;chapter=Land	TT121-2021-BQP	14	14	Điều 18	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-019	Article		Dọn mặt bằng	article=19;chapter=Land	TT121-2021-BQP	14	16	Điều 19	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-020	Article		Rà phá bom mìn vật nổ bằng thủ công đến độ sâu 0,07 m	article=20;chapter=Land	TT121-2021-BQP	16	17	Điều 20	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-021	Article		Rà phá bom mìn vật nổ bằng máy dò mìn đến độ sâu 0,3 m	article=21;chapter=Land	TT121-2021-BQP	17	17	Điều 21	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-022	Article		Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 0,3 m	article=22;chapter=Land	TT121-2021-BQP	17	17	Điều 22	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-023	Article		Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 0,5 m	article=23;chapter=Land	TT121-2021-BQP	17	18	Điều 23	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-024	Article		Rà phá bom mìn vật nổ bằng máy dò bom ở độ sâu lớn hơn 0,3 m đến 10 m	article=24;chapter=Land	TT121-2021-BQP	18	18	Điều 24	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-025	Article		Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 1 m	article=25;chapter=Land	TT121-2021-BQP	18	19	Điều 25	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-026	Article		Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 3 m	article=26;chapter=Land	TT121-2021-BQP	19	19	Điều 26	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-027	Article		Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 5 m	article=27;chapter=Land	TT121-2021-BQP	19	20	Điều 27	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-028	Article		Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 10 m	article=28;chapter=Land	TT121-2021-BQP	20	21	Điều 28	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-029	Article		Rà phá bom mìn vật nổ ở độ sâu trên 5 m đến 10 m bằng phương pháp khoan lỗ	article=29;chapter=Land	TT121-2021-BQP	21	21	Điều 29	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-030	Article		Hủy nổ bom mìn vật nổ tại chỗ trên cạn	article=30;chapter=Land	TT121-2021-BQP	21	22	Điều 30	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-031	Article		Trình tự thực hiện rà phá dưới nước	article=31;chapter=Water	TT121-2021-BQP	22	22	Điều 31	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-032	Article		Xác định khu vực rà phá bom mìn vật nổ dưới nước	article=32;chapter=Water	TT121-2021-BQP	22	22	Điều 32	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-033	Article		Chuẩn bị mặt bằng dưới nước	article=33;chapter=Water	TT121-2021-BQP	22	22	Điều 33	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-034	Article		Rà phá bom mìn vật nổ ở độ sâu đến 0,5 m dưới nước	article=34;chapter=Water	TT121-2021-BQP	22	23	Điều 34	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-035	Article		Rà phá bom mìn vật nổ ở độ sâu trên 0,5 m đến 3 m hoặc 5 m dưới nước	article=35;chapter=Water	TT121-2021-BQP	23	23	Điều 35	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-036	Article		Đánh dấu tín hiệu ở độ sâu đến 0,5 m, 3 m hoặc 5 m dưới nước	article=36;chapter=Water	TT121-2021-BQP	23	24	Điều 36	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-037	Article		Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m	article=37;chapter=Water	TT121-2021-BQP	24	24	Điều 37	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-038	Article		Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu trên 0,5 m đến 1 m	article=38;chapter=Water	TT121-2021-BQP	24	25	Điều 38	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-039	Article		Lặn kiểm tra, đào xử lý tín hiệu dưới nước ở độ sâu trên 1 m	article=39;chapter=Water	TT121-2021-BQP	25	26	Điều 39	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-040	Article		Hủy nổ bom mìn vật nổ tại chỗ dưới nước	article=40;chapter=Water	TT121-2021-BQP	26	26	Điều 40	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-041	Article		Điều kiện sử dụng phương pháp rà phá bom mìn vật nổ dưới biển	article=41;chapter=Sea	TT121-2021-BQP	26	27	Điều 41	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-042	Article		Trình tự rà phá bom mìn bằng thiết bị sona, từ kế	article=42;chapter=Sea	TT121-2021-BQP	27	27	Điều 42	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-043	Article		Huy động thiết bị rà phá dưới biển	article=43;chapter=Sea	TT121-2021-BQP	27	28	Điều 43	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-044	Article		Chuẩn bị mặt bằng dưới biển	article=44;chapter=Sea	TT121-2021-BQP	28	28	Điều 44	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-045	Article		Điều tiết giao thông	article=45;chapter=Sea	TT121-2021-BQP	28	28	Điều 45	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-046	Article		Định vị điểm mốc đánh dấu phạm vi thi công	article=46;chapter=Sea	TT121-2021-BQP	28	28	Điều 46	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-047	Article		Rà phá bom mìn trên bề mặt đáy biển và đến độ sâu 1 m	article=47;chapter=Sea	TT121-2021-BQP	28	29	Điều 47	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-048	Article		Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển	article=48;chapter=Sea	TT121-2021-BQP	29	29	Điều 48	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-049	Article		Kiểm tra, xử lý tín hiệu đến độ sâu 1 m tính từ đáy biển	article=49;chapter=Sea	TT121-2021-BQP	29	30	Điều 49	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-050	Article		Hủy bom mìn vật nổ tại chỗ dưới biển	article=50;chapter=Sea	TT121-2021-BQP	30	31	Điều 50	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-051	Article		Giải thể thiết bị	article=51;chapter=Sea	TT121-2021-BQP	31	31	Điều 51	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-052	Article		Thu gom, phân loại, vận chuyển bom mìn vật nổ	article=52;chapter=PostProcess	TT121-2021-BQP	31	32	Điều 52	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-053	Article		Bảo quản bom mìn vật nổ	article=53;chapter=PostProcess	TT121-2021-BQP	32	32	Điều 53	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-054	Article		Tiêu hủy bom mìn vật nổ	article=54;chapter=PostProcess	TT121-2021-BQP	32	33	Điều 54	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-055	Article		Kiểm tra chất lượng thi công rà phá bom mìn	article=55;chapter=Quality	TT121-2021-BQP	33	33	Điều 55	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-056	Article		Giám sát thi công	article=56;chapter=Quality	TT121-2021-BQP	33	33	Điều 56	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-057	Article		Nghiệm thu bàn giao	article=57;chapter=Quality	TT121-2021-BQP	33	34	Điều 57	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-058	Article		Điều khoản chuyển tiếp	article=58;chapter=Transition	TT121-2021-BQP	34	34	Điều 58	VerifiedAgainstOfficialSource
+PROC-TT121-DIEU-059	Article		Sửa đổi, bổ sung Quy trình	article=59;chapter=Transition	TT121-2021-BQP	34	34	Điều 59	VerifiedAgainstOfficialSource

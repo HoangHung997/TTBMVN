@@ -1,0 +1,34 @@
+b) Chi phí khấu hao trong giá ca máy được xác định theo công thức sau:
+n _ (G “ GTh )X  Đk h
+°K H  Z  (2)
+Trong đó:
+- Ckh : chi phí khấu hao trong giá ca máy (đồng/ca);
+- G: nguyên giá máy trước thuế (đồng);
+- Gth : giá trị thu hồi (đồng);
+- Đ kh : định mức khấu hao của máy (%/năm);
+- N c a : số ca làm việc của máy trong năm (ca/năm).
+c) Nguyên giá máy:
+- Nguyên giá của máy đế tính giá ca máy được xác định theo giá máy mới 
+(giá mua thực tế và đã được quyết toán theo quy định), phù hợp với mặt bằng thị 
+trường của loại máy sử dụng để thi công rà phá bom mìn vật nổ.
+- Nguyên giá của máy là toàn bộ các chi phí để đầu tư mua máy tính đến 
+thời điếm đưa máy vào trạng thái sẵn sàng sử dụng gồm giá mua máy (không kể 
+chi phí cho vật tư, phụ tùng thay thế mua kèm theo), thuế nhập khẩu (nếu có), 
+chi phí vận chuyển, bốc xếp, bảo quản, chi phí lưu kho, chi phí lắp đặt (lần đầu 
+tại một dự án), chi phí chuyển giao công nghệ (nếu có), chạy thử, các khoản chi 
+phí hợp lệ khác có liên quan trực tiếp đến việc đầu tư máy, không bao gồm thuế 
+giá trị gia tăng.
+- Nguyên giá của máy được xác định trên cơ sở các số liệu sau:
++ Nguyên giá của máy thi công rà phá bom mìn mà được đưa vào trang bị 
+quân sự theo quyết định của cấp có thẩm quyền thì không phải thực hiện khảo 
+sát về nguyên giá;
++ Nguyên giá của máy thi công rà phá bom mìn do đơn vị, tổ chức tham 
+gia rà phá bom mìn tự mua được xác định trên cơ sở khảo sát nguyên giá máy 
+thi công của các nhà cung cấp, cho thuê; giá trên hợp đồng mua bán và các chi 
+phí khác liên quan để đưa máy vào trạng thái sẵn sàng hoạt động; tham khảo 
+nguyên giá máy từ các công trình tương tự đã và đang thực hiện theo nguyên tắc 
+phù hợp với mặt bằng giá máy trên thị trường tại thời điểm tính giá ca máyẽ
+d) Giá trị thu hồi là giá trị phần còn lại của máy sau khi thanh lý, được xác 
+định như sau:
+- Đối với máy có nguyên giá từ 30.000.000 đồng (ba mươi triệu đồng) trở
+6

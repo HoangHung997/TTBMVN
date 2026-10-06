@@ -1,0 +1,49 @@
+Biểu mẫu 04: Bảng tổng hợp dự toán rà phá bom mìn vật nỗ sử dụng nguồn
+vốn khác ¿£
+pa
+
+.....
+
+...........,.............ees.sseeseesso
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+TÊN PON VLỊ...........                          Độc lập - Tự do - Hạnh phúc
+SU., igày..... tháng...... năm .....
+BANG TONG HỢP DỰ TOÁN
+Dự án:..............................
+Địa điểm: .....................1......
+Hạng mục: Rà phá bom mìn vật nỗ
+l                        .             Thanh tién
+TT                Hang muc                 Ký hiệu            Cách tính              (đồng)
+I | Chi phí trực tiếp
+1 | Chi phí vật liệu                             VL           Tong chi phi VL
+2 | Chi phí nhân công                          NC | Tổng chi phí nhân công
+3 | Chi phí máy                                  M            Tông chi phí máy
+* | Cộng chỉ phí trực tiép                     T                VL+NC+M
+II |Chi phí chung _                          C               40% * NC                   \
+II | Thu nhập chịu thuế tinh trước] TL | Tỷ lệ quy định * (T+C)          i
+Cộng giá tri RPBM                         Z                   T+C+TL                    ¬/
+IV | Chi phí khác                               _K              K1+..K6+...               Z
+Chi phí khảo sát, lập phương án                       .         ng
+1  KTTC và dự toán                   KI        Tỷ lệ quy định * Z
+2 | Chi phí lan trại                             K2          Tỷ lệ quy định * T
+3 | Chi phí thâm định                          K3           Tỷ lệ quy định * Z
+Chỉ phí kiêm tra chất lượng thi                          .         _
+4  công RPBM                                 K4          Tỷ lệ quy định   Z
+5 | Chi phí giám sát thi công               K5          Ty lệ quy định * Z
+Chi phí vận chuyên và tiêu hủy                          sa         _
+6  bom min vật nô                             ks          Tỷ lệ quy định * Z
+... | Chỉ phí dự phòng (nêu có)                            Tỉ lệ quy định * Z
+. |Các chi phí khác (nêu có)                c.          Tỉ lệ theo quy định
+Cong gid tri dự toán                            Q                         Z+K
+_                |      Tỷ lệ quy định*(Q -
+V | Thuê giá trị gia tăng                  VAT              (K3+K4))
+Cộng giá tri dự toán sau thuê         H                 Q + VAT
+Lam tron
+Bang chữ..................
+ĐẠI DIEN PON VỊ LAP DỰ TOÁN :             ĐẠI DIỆN CHỦ ĐẦU TƯ
+
+(Ký tên, đóng dầu)
+
+(Ký tên, đóng dấu)

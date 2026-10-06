@@ -1,0 +1,40 @@
+35
+Mã số Thành phần hao phíĐon
+vi•
+Độ sâu của nước (m)
+0,5-12 >12-22 >22 + 25
+Thiêt bị lặn Ca 0,264 0,290 0,319
+Thiêt bị xói và hút bùn cátCa 0,125 0,138 0,152
+Thuyên composit Ca 0,419 0,445 0,474
+1 2 3
+Ghi chủ: Các yếu tố khác liên quan đến tính toán, lập dự toán áp dụng 
+như Ghi chú tại khoản ỉ, Mục 3 Định mức dự toán này.
+7. Lặn kiểm tra, đào xử lý tín hiệu dưói nưóc ở độ sâu lớn hơn 1 m 
+đến 5 m tính từ đáy nước (MS: 030.0700)
+a) Thành phần công việc: Sử dụng thiết bị phụ trợ, tiến hành lắp dựng 
+khung vây bao quanh vị trí tâm tín hiệu đã được xác định với đường kính hố đào 
+là 5 m, chiều sâu tối đa là 5 m; thợ lặn dụng thiết bị lặn và các khí tài công binh 
+xăm tìm; dùng thiết bị xói và hút bùn, cát áp lực cao đào bới tại điểm đã đánh 
+dấu hạ dần hệ thống khung vây đúng kỹ thuật cho lộ toàn bộ tín hiệu. Kiểm tra 
+xác định tín hiệu nếu là các vật nhiễm từ hoặc BMVN an toàn thì trục vớt lên bờ 
+đưa vào nơi quy định, nếu là các loại BMVN không an toàn đánh dấu hoặc xử lý 
+theo quy định.
+b) Định mức hao phí tính cho 1 tín hiệu
+Mã số Thành phần hao phíĐon Độ sâu của nước (m)
+vi• 0,5-12 >12 + 22 >22 + 25
+Vật ỉiệu:
+Khung vây băng tôn 3 mm 
+và sắt góc (45x45x5) mmKg 40,50 40,50 40,50
+Nhân công:
+Bậc thợ QNCN 7/10 Công 1,33 1,46 1,61
+030.0700 Mảy thỉ công:
+Máy dò bom dưới nướcCa 0,014 0,015 0,017
+Thuyên cao su trung Ca 0,014 0,015 0,017
+Thiêt bị lặn Ca 0,640 0,704 0,774
+Thiêt bị xói và hút bùn cátCa 0,420 0,462 0,510
+Thuyên composit Ca 0,640 0,704 0,774
+1 2 3
+Ghi chú.ề  Các yếu tố khác liên quan đến tính toán, lập dự toán áp dụng 
+như Ghi chủ tại khoản 1, Mục 3 Định mức dự toán này.
+8. Huỷ nổ bom mìn vật nổ tại chỗ dưói nưóc (MS: 030.0800)
+a) Thành phần công việc: Tổ chức trạm gây nổ, gói buộc và bố trí lượng

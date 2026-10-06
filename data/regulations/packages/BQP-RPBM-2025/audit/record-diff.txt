@@ -1,0 +1,1185 @@
+﻿Source=BQP-RPBM-2021@1.0.0
+Target=BQP-RPBM-2025@2.0.1
+RecordChanges=248;Added=50;Removed=0;Changed=198
+Module	Key	Change	Field	OldValue	NewValue
+TechnicalProcess	PROC-TT121-DIEU-001	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-001	Changed	SourcePageFrom	2	3
+TechnicalProcess	PROC-TT121-DIEU-001	Changed	SourcePageTo	2	3
+TechnicalProcess	PROC-TT121-DIEU-002	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-002	Changed	SourcePageFrom	2	3
+TechnicalProcess	PROC-TT121-DIEU-002	Changed	SourcePageTo	2	3
+TechnicalProcess	PROC-TT121-DIEU-003	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-003	Changed	SourcePageFrom	2	3
+TechnicalProcess	PROC-TT121-DIEU-003	Changed	SourcePageTo	2	3
+TechnicalProcess	PROC-TT121-DIEU-004	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-004	Changed	SourcePageFrom	2	3
+TechnicalProcess	PROC-TT121-DIEU-004	Changed	SourcePageTo	3	4
+TechnicalProcess	PROC-TT121-DIEU-005	Changed	Data	article=5;chapter=General	article=5;chapter=General;amendedBy=TT101-2025-BQP-Article-2;amendedPart=paragraphs-1-and-4
+TechnicalProcess	PROC-TT121-DIEU-005	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-005	Changed	SourcePageFrom	3	4
+TechnicalProcess	PROC-TT121-DIEU-005	Changed	SourcePageTo	4	5
+TechnicalProcess	PROC-TT121-DIEU-006	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-006	Changed	SourcePageFrom	4	5
+TechnicalProcess	PROC-TT121-DIEU-006	Changed	SourcePageTo	5	7
+TechnicalProcess	PROC-TT121-DIEU-007	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-007	Changed	SourcePageFrom	5	7
+TechnicalProcess	PROC-TT121-DIEU-007	Changed	SourcePageTo	6	7
+TechnicalProcess	PROC-TT121-DIEU-008	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-008	Changed	SourcePageFrom	6	7
+TechnicalProcess	PROC-TT121-DIEU-008	Changed	SourcePageTo	6	8
+TechnicalProcess	PROC-TT121-DIEU-009	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-009	Changed	SourcePageFrom	6	8
+TechnicalProcess	PROC-TT121-DIEU-009	Changed	SourcePageTo	7	9
+TechnicalProcess	PROC-TT121-DIEU-010	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-010	Changed	SourcePageFrom	7	9
+TechnicalProcess	PROC-TT121-DIEU-010	Changed	SourcePageTo	8	10
+TechnicalProcess	PROC-TT121-DIEU-011	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-011	Changed	SourcePageFrom	8	10
+TechnicalProcess	PROC-TT121-DIEU-011	Changed	SourcePageTo	8	10
+TechnicalProcess	PROC-TT121-DIEU-012	Changed	Data	article=12;chapter=Survey	article=12;chapter=Survey;amendedBy=TT101-2025-BQP-Article-2;amendedPart=paragraph-3-point-l-title
+TechnicalProcess	PROC-TT121-DIEU-012	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-012	Changed	SourcePageFrom	8	10
+TechnicalProcess	PROC-TT121-DIEU-012	Changed	SourcePageTo	10	13
+TechnicalProcess	PROC-TT121-DIEU-013	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-013	Changed	SourcePageFrom	10	13
+TechnicalProcess	PROC-TT121-DIEU-013	Changed	SourcePageTo	11	13
+TechnicalProcess	PROC-TT121-DIEU-014	Changed	Data	article=14;chapter=Survey	article=14;chapter=Survey;amendedBy=TT101-2025-BQP-Article-2;amendedPart=paragraph-6-point-a
+TechnicalProcess	PROC-TT121-DIEU-014	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-014	Changed	SourcePageFrom	11	13
+TechnicalProcess	PROC-TT121-DIEU-014	Changed	SourcePageTo	12	15
+TechnicalProcess	PROC-TT121-DIEU-015	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-015	Changed	SourcePageFrom	12	15
+TechnicalProcess	PROC-TT121-DIEU-015	Changed	SourcePageTo	13	16
+TechnicalProcess	PROC-TT121-DIEU-016	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-016	Changed	SourcePageFrom	13	16
+TechnicalProcess	PROC-TT121-DIEU-016	Changed	SourcePageTo	14	16
+TechnicalProcess	PROC-TT121-DIEU-017	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-017	Changed	SourcePageFrom	14	16
+TechnicalProcess	PROC-TT121-DIEU-017	Changed	SourcePageTo	14	17
+TechnicalProcess	PROC-TT121-DIEU-018	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-018	Changed	SourcePageFrom	14	17
+TechnicalProcess	PROC-TT121-DIEU-018	Changed	SourcePageTo	14	17
+TechnicalProcess	PROC-TT121-DIEU-019	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-019	Changed	SourcePageFrom	14	17
+TechnicalProcess	PROC-TT121-DIEU-019	Changed	SourcePageTo	16	19
+TechnicalProcess	PROC-TT121-DIEU-020	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-020	Changed	SourcePageFrom	16	19
+TechnicalProcess	PROC-TT121-DIEU-020	Changed	SourcePageTo	17	19
+TechnicalProcess	PROC-TT121-DIEU-021	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-021	Changed	SourcePageFrom	17	19
+TechnicalProcess	PROC-TT121-DIEU-021	Changed	SourcePageTo	17	20
+TechnicalProcess	PROC-TT121-DIEU-022	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-022	Changed	SourcePageFrom	17	20
+TechnicalProcess	PROC-TT121-DIEU-022	Changed	SourcePageTo	17	20
+TechnicalProcess	PROC-TT121-DIEU-023	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-023	Changed	SourcePageFrom	17	20
+TechnicalProcess	PROC-TT121-DIEU-023	Changed	SourcePageTo	18	21
+TechnicalProcess	PROC-TT121-DIEU-024	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-024	Changed	SourcePageFrom	18	21
+TechnicalProcess	PROC-TT121-DIEU-024	Changed	SourcePageTo	18	21
+TechnicalProcess	PROC-TT121-DIEU-025	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-025	Changed	SourcePageFrom	18	21
+TechnicalProcess	PROC-TT121-DIEU-025	Changed	SourcePageTo	19	22
+TechnicalProcess	PROC-TT121-DIEU-026	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-026	Changed	SourcePageFrom	19	22
+TechnicalProcess	PROC-TT121-DIEU-026	Changed	SourcePageTo	19	22
+TechnicalProcess	PROC-TT121-DIEU-027	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-027	Changed	SourcePageFrom	19	22
+TechnicalProcess	PROC-TT121-DIEU-027	Changed	SourcePageTo	20	23
+TechnicalProcess	PROC-TT121-DIEU-028	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-028	Changed	SourcePageFrom	20	23
+TechnicalProcess	PROC-TT121-DIEU-028	Changed	SourcePageTo	21	24
+TechnicalProcess	PROC-TT121-DIEU-029	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-029	Changed	SourcePageFrom	21	24
+TechnicalProcess	PROC-TT121-DIEU-029	Changed	SourcePageTo	21	24
+TechnicalProcess	PROC-TT121-DIEU-030	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-030	Changed	SourcePageFrom	21	24
+TechnicalProcess	PROC-TT121-DIEU-030	Changed	SourcePageTo	22	25
+TechnicalProcess	PROC-TT121-DIEU-031	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-031	Changed	SourcePageFrom	22	25
+TechnicalProcess	PROC-TT121-DIEU-031	Changed	SourcePageTo	22	25
+TechnicalProcess	PROC-TT121-DIEU-032	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-032	Changed	SourcePageFrom	22	25
+TechnicalProcess	PROC-TT121-DIEU-032	Changed	SourcePageTo	22	25
+TechnicalProcess	PROC-TT121-DIEU-033	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-033	Changed	SourcePageFrom	22	25
+TechnicalProcess	PROC-TT121-DIEU-033	Changed	SourcePageTo	22	25
+TechnicalProcess	PROC-TT121-DIEU-034	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-034	Changed	SourcePageFrom	22	25
+TechnicalProcess	PROC-TT121-DIEU-034	Changed	SourcePageTo	23	26
+TechnicalProcess	PROC-TT121-DIEU-035	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-035	Changed	SourcePageFrom	23	26
+TechnicalProcess	PROC-TT121-DIEU-035	Changed	SourcePageTo	23	26
+TechnicalProcess	PROC-TT121-DIEU-036	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-036	Changed	SourcePageFrom	23	26
+TechnicalProcess	PROC-TT121-DIEU-036	Changed	SourcePageTo	24	27
+TechnicalProcess	PROC-TT121-DIEU-037	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-037	Changed	SourcePageFrom	24	27
+TechnicalProcess	PROC-TT121-DIEU-037	Changed	SourcePageTo	24	27
+TechnicalProcess	PROC-TT121-DIEU-038	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-038	Changed	SourcePageFrom	24	27
+TechnicalProcess	PROC-TT121-DIEU-038	Changed	SourcePageTo	25	28
+TechnicalProcess	PROC-TT121-DIEU-039	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-039	Changed	SourcePageFrom	25	28
+TechnicalProcess	PROC-TT121-DIEU-039	Changed	SourcePageTo	26	29
+TechnicalProcess	PROC-TT121-DIEU-040	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-040	Changed	SourcePageFrom	26	29
+TechnicalProcess	PROC-TT121-DIEU-040	Changed	SourcePageTo	26	29
+TechnicalProcess	PROC-TT121-DIEU-041	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-041	Changed	SourcePageFrom	26	29
+TechnicalProcess	PROC-TT121-DIEU-041	Changed	SourcePageTo	27	30
+TechnicalProcess	PROC-TT121-DIEU-042	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-042	Changed	SourcePageFrom	27	30
+TechnicalProcess	PROC-TT121-DIEU-042	Changed	SourcePageTo	27	30
+TechnicalProcess	PROC-TT121-DIEU-043	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-043	Changed	SourcePageFrom	27	30
+TechnicalProcess	PROC-TT121-DIEU-043	Changed	SourcePageTo	28	31
+TechnicalProcess	PROC-TT121-DIEU-044	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-044	Changed	SourcePageFrom	28	31
+TechnicalProcess	PROC-TT121-DIEU-044	Changed	SourcePageTo	28	31
+TechnicalProcess	PROC-TT121-DIEU-045	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-045	Changed	SourcePageFrom	28	31
+TechnicalProcess	PROC-TT121-DIEU-045	Changed	SourcePageTo	28	31
+TechnicalProcess	PROC-TT121-DIEU-046	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-046	Changed	SourcePageFrom	28	31
+TechnicalProcess	PROC-TT121-DIEU-046	Changed	SourcePageTo	28	32
+TechnicalProcess	PROC-TT121-DIEU-047	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-047	Changed	SourcePageFrom	28	32
+TechnicalProcess	PROC-TT121-DIEU-047	Changed	SourcePageTo	29	32
+TechnicalProcess	PROC-TT121-DIEU-048	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-048	Changed	SourcePageFrom	29	32
+TechnicalProcess	PROC-TT121-DIEU-048	Changed	SourcePageTo	29	33
+TechnicalProcess	PROC-TT121-DIEU-049	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-049	Changed	SourcePageFrom	29	33
+TechnicalProcess	PROC-TT121-DIEU-049	Changed	SourcePageTo	30	34
+TechnicalProcess	PROC-TT121-DIEU-050	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-050	Changed	SourcePageFrom	30	34
+TechnicalProcess	PROC-TT121-DIEU-050	Changed	SourcePageTo	31	35
+TechnicalProcess	PROC-TT121-DIEU-051	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-051	Changed	SourcePageFrom	31	35
+TechnicalProcess	PROC-TT121-DIEU-051	Changed	SourcePageTo	31	35
+TechnicalProcess	PROC-TT121-DIEU-052	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-052	Changed	SourcePageFrom	31	35
+TechnicalProcess	PROC-TT121-DIEU-052	Changed	SourcePageTo	32	35
+TechnicalProcess	PROC-TT121-DIEU-053	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-053	Changed	SourcePageFrom	32	35
+TechnicalProcess	PROC-TT121-DIEU-053	Changed	SourcePageTo	32	36
+TechnicalProcess	PROC-TT121-DIEU-054	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-054	Changed	SourcePageFrom	32	36
+TechnicalProcess	PROC-TT121-DIEU-054	Changed	SourcePageTo	33	36
+TechnicalProcess	PROC-TT121-DIEU-055	Changed	Data	article=55;chapter=Quality	article=55;chapter=Quality;amendedBy=TT101-2025-BQP-Article-2;amendedPart=paragraph-4
+TechnicalProcess	PROC-TT121-DIEU-055	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-055	Changed	SourcePageFrom	33	36
+TechnicalProcess	PROC-TT121-DIEU-055	Changed	SourcePageTo	33	37
+TechnicalProcess	PROC-TT121-DIEU-056	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-056	Changed	SourcePageFrom	33	37
+TechnicalProcess	PROC-TT121-DIEU-056	Changed	SourcePageTo	33	37
+TechnicalProcess	PROC-TT121-DIEU-057	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-057	Changed	SourcePageFrom	33	37
+TechnicalProcess	PROC-TT121-DIEU-057	Changed	SourcePageTo	34	38
+TechnicalProcess	PROC-TT121-DIEU-058	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-058	Changed	SourcePageFrom	34	38
+TechnicalProcess	PROC-TT121-DIEU-058	Changed	SourcePageTo	34	38
+TechnicalProcess	PROC-TT121-DIEU-059	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-DIEU-059	Changed	SourcePageFrom	34	38
+TechnicalProcess	PROC-TT121-DIEU-059	Changed	SourcePageTo	34	38
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	RecordType		TechnicalForm
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	Title		Mẫu RPBM-13 - Biên bản bàn giao mặt bằng đã thi công rà phá bom mìn vật nổ
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	Data		form=RPBM-13;replacedBy=TT101-2025-BQP-Article-2.5
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	SourceDocumentId		VBHN95-2025-BQP
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	SourcePageFrom		89
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	SourcePageTo		90
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	SourceSection		Phụ lục III, Mẫu RPBM-13
+TechnicalProcess	PROC-TT121-FORM-RPBM-13	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-000.0100	Changed	Data	group=000;variants=2	variantCodes=plain-midland,mountain-island;rates=Labor:LAB-TEAM-LEADER:worker-day:2,3|Labor:LAB-INVESTIGATOR:worker-day:15,22.5|Labor:LAB-SUPPORT:worker-day:2,3
+Norm	NORM-000.0100	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-000.0100	Changed	SourcePageFrom	10	18
+Norm	NORM-000.0100	Changed	SourcePageTo	10	19
+Norm	NORM-000.0200	Changed	Data	group=000;forestClasses=4	variantCodes=forest-1,forest-2,forest-3,forest-4;rates=Labor:LAB-QNCN-7:worker-day:33.5,37.5,41.5,50.5
+Norm	NORM-000.0200	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-000.0200	Changed	SourcePageFrom	10	19
+Norm	NORM-000.0200	Changed	SourcePageTo	10	19
+Norm	NORM-000.0300	Changed	Data	group=000;variants=1	variantCodes=standard;rates=Material:MAT-WOOD-STAKE:each:0.5|Material:MAT-ROPE-10MM:m:67|Material:MAT-RED-FLAG:each:2|Material:MAT-OTHER:percent:5|Labor:LAB-QNCN-8:worker-day:2.31|Machine:M010.001:shift:9.25|Machine:M010.006:shift:1
+Norm	NORM-000.0300	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-000.0300	Changed	SourcePageFrom	10	19
+Norm	NORM-000.0300	Changed	SourcePageTo	11	20
+Norm	NORM-000.0400	Changed	Data	group=000;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Labor:LAB-QNCN-8:worker-day:0.04,0.044,0.049,0.053|Machine:M010.001:shift:0.014,0.014,0.014,0.014
+Norm	NORM-000.0400	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-000.0400	Changed	SourcePageFrom	11	20
+Norm	NORM-000.0400	Changed	SourcePageTo	11	20
+Norm	NORM-010.0100	Changed	Data	group=010;forestClasses=4	variantCodes=forest-1,forest-2,forest-3,forest-4;rates=Labor:LAB-QNCN-8:worker-day:111,125,143,167;adjustments=factor:slope-gt-25deg:Labor:*:ratio:1.10
+Norm	NORM-010.0100	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-010.0100	Changed	SourcePageFrom	11	20
+Norm	NORM-010.0100	Changed	SourcePageTo	12	21
+Norm	NORM-010.0200	Changed	Data	group=010;forestClasses=4	variantCodes=forest-1,forest-2,forest-3,forest-4;rates=Labor:LAB-QNCN-7:worker-day:67,73,83,101;adjustments=factor:slope-gt-25deg:Labor:*:ratio:1.10
+Norm	NORM-010.0200	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-010.0200	Changed	SourcePageFrom	12	21
+Norm	NORM-010.0200	Changed	SourcePageTo	12	21
+Norm	NORM-010.0300	Changed	Data	group=010;forestClasses=4	variantCodes=forest-1,forest-2,forest-3,forest-4;rates=Material:MAT-GASOLINE-OR-DIESEL:kg:420,448,476,546|Labor:LAB-QNCN-7:worker-day:67,73,83,101;adjustments=factor:slope-gt-25deg:Labor:*:ratio:1.10
+Norm	NORM-010.0300	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-010.0300	Changed	SourcePageFrom	12	21
+Norm	NORM-010.0300	Changed	SourcePageTo	12	21
+Norm	NORM-010.0400	Changed	Data	group=010;variants=2	variantCodes=single-fence,double-fence;rates=Material:MAT-TNT:kg:2,3|Material:MAT-SLOW-FUSE:m:0.5,1|Material:MAT-ELECTRIC-DETONATOR:each:1.2,1.2|Material:MAT-ELECTRIC-WIRE:m:2,2|Material:MAT-WOOD-STRIP:m:1,1|Material:MAT-BARBED-WIRE:kg:0.1,0.15|Material:MAT-SIGN:each:0.08,0.08|Material:MAT-OTHER:percent:5,5|Labor:LAB-QNCN-8:worker-day:0.17,0.25|Machine:M010.025:shift:0.014,0.014|Machine:M010.026:shift:0.014,0.014;adjustments=factor:slope-gt-25deg:Labor:*:ratio:1.10
+Norm	NORM-010.0400	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-010.0400	Changed	SourcePageFrom	12	21
+Norm	NORM-010.0400	Changed	SourcePageTo	13	22
+Norm	NORM-020.0100	Changed	Data	group=020;signalDensityClasses=4	variantCodes=density-1,density-2,density-3,density-4;rates=Material:MAT-CONCRETE-STAKE:each:4,4,4,4|Material:MAT-WOOD-STAKE:each:2,2,2,2|Material:MAT-WHITE-FLAG:each:90,90,90,90|Material:MAT-RED-FLAG:each:2,4,6,8|Material:MAT-SIGN:each:0.4,0.4,0.4,0.4|Material:MAT-OTHER:percent:5,5,5,5|Labor:LAB-QNCN-8:worker-day:167,182,200,223
+Norm	NORM-020.0100	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0100	Changed	SourcePageFrom	13	22
+Norm	NORM-020.0100	Changed	SourcePageTo	14	23
+Norm	NORM-020.0200	Changed	Data	group=020;signalDensityClasses=4	variantCodes=density-1,density-2,density-3,density-4;rates=Material:MAT-CONCRETE-STAKE:each:4,4,4,4|Material:MAT-WOOD-STAKE:each:34,34,34,34|Material:MAT-ROPE-10MM:m:67,67,67,67|Material:MAT-RED-FLAG:each:2,4,6,8|Material:MAT-OTHER:percent:5,5,5,5|Labor:LAB-QNCN-7:worker-day:17.36,19.10,21,23.10|Machine:M010.001:shift:11.57,12.73,14,15.4
+Norm	NORM-020.0200	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0200	Changed	SourcePageFrom	14	23
+Norm	NORM-020.0200	Changed	SourcePageTo	14	23
+Norm	NORM-020.0300	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Labor:LAB-QNCN-8:worker-day:0.060,0.078,0.107,0.160|Machine:M010.001:shift:0.014,0.014,0.014,0.014;adjustments=add:uxo-signal:Labor:LAB-QNCN-8:worker-day:0.028
+Norm	NORM-020.0300	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0300	Changed	SourcePageFrom	14	23
+Norm	NORM-020.0300	Changed	SourcePageTo	15	24
+Norm	NORM-020.0400	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Labor:LAB-QNCN-8:worker-day:0.070,0.094,0.132,0.199|Machine:M010.001:shift:0.014,0.014,0.014,0.014;adjustments=add:uxo-signal:Labor:LAB-QNCN-8:worker-day:0.028
+Norm	NORM-020.0400	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0400	Changed	SourcePageFrom	15	24
+Norm	NORM-020.0400	Changed	SourcePageTo	15	24
+Norm	NORM-020.0500	Changed	Title	Rà phá bom mìn vật nổ bằng máy dò bom ở độ sâu lớn hơn 0,3 m đến 10 m	Rà phá bom mìn vật nổ bằng máy dò bom ở độ sâu đến 0,5 m, đến 1 m, đến 3 m, đến 5 m hoặc đến 10 m
+Norm	NORM-020.0500	Changed	Data	group=020;depthVariants=4	variantCodes=depth-0.5-or-1,depth-3,depth-5,depth-10;rates=Material:MAT-WOOD-STAKE:each:50,50,50,50|Material:MAT-ROPE-10MM:m:100,100,100,100|Material:MAT-RED-FLAG-LARGE:each:1,1,1,1|Material:MAT-OTHER:percent:5,5,5,5|Labor:LAB-QNCN-7:worker-day:6.40,7.05,7.76,8.54|Machine:M010.002:shift:4.27,4.70,5.17,0|Machine:M010.003:shift:0,0,0,5.69;constraints=requires-condition:depth-0.5-or-1:forestry-salt-independent-or-owner-request
+Norm	NORM-020.0500	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0500	Changed	SourcePageFrom	15	24
+Norm	NORM-020.0500	Changed	SourcePageTo	16	25
+Norm	NORM-020.0600	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Labor:LAB-QNCN-8:worker-day:0.71,1.04,1.51,2.34|Machine:M010.002:shift:0.008,0.008,0.008,0.008;adjustments=add:water-excavation:Machine:M010.023:shift:0.012
+Norm	NORM-020.0600	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0600	Changed	SourcePageFrom	16	25
+Norm	NORM-020.0600	Changed	SourcePageTo	16	26
+Norm	NORM-020.0700	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Material:MAT-BAMBOO-STAKE:each:0.2,0.2,0,0|Material:MAT-WOOD-BOARD:m3:0.004,0.004,0,0|Material:MAT-NAIL-10CM:kg:0.15,0.15,0,0|Material:MAT-OTHER:percent:1,1,1,1|Labor:LAB-QNCN-8:worker-day:0.78,1.14,1.66,2.57|Machine:M010.002:shift:0.008,0.008,0.008,0.008;adjustments=add:water-excavation:Machine:M010.023:shift:0.012
+Norm	NORM-020.0700	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0700	Changed	SourcePageFrom	16	26
+Norm	NORM-020.0700	Changed	SourcePageTo	17	26
+Norm	NORM-020.0800	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Material:MAT-BAMBOO-STAKE:each:0.4,0.4,0.2,0.1|Material:MAT-WOOD-BOARD:m3:0.008,0.008,0.004,0.002|Material:MAT-NAIL-TWO-PRONG:kg:0.4,0.4,0.2,0|Material:MAT-NAIL-10CM:kg:0.15,0.15,0.10,0.05|Material:MAT-WIRE-2MM:kg:0.20,0.15,0.12,0.01|Material:MAT-OTHER:percent:1,1,1,1|Labor:LAB-QNCN-8:worker-day:0.66,0.88,1.28,1.87|Machine:M010.002:shift:0.008,0.008,0.008,0.008;adjustments=add:water-excavation:Machine:M010.023:shift:0.012
+Norm	NORM-020.0800	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0800	Changed	SourcePageFrom	17	26
+Norm	NORM-020.0800	Changed	SourcePageTo	17	27
+Norm	NORM-020.0900	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Material:MAT-BAMBOO-STAKE:each:0.2,0.2,0.1,0|Material:MAT-WOOD-BOARD:m3:0.004,0.004,0.002,0|Material:MAT-NAIL-TWO-PRONG:kg:0.4,0.4,0.2,0|Material:MAT-NAIL-10CM:kg:0.15,0.15,0.10,0|Material:MAT-WIRE-2MM:kg:0.20,0.15,0.12,0|Material:MAT-OTHER:percent:1,1,1,0|Labor:LAB-QNCN-7:worker-day:0.0300,0.0390,0.0461,0.0518|Labor:LAB-QNCN-8:worker-day:0.72,0.96,1.40,2.04|Machine:M010.002-OR-M010.003:shift:0.008,0.008,0.008,0.008|Machine:M010.004:shift:0.0053,0.0063,0.0090,0.0104;adjustments=add:water-excavation:Machine:M010.023:shift:0.012
+Norm	NORM-020.0900	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.0900	Changed	SourcePageFrom	17	27
+Norm	NORM-020.0900	Changed	SourcePageTo	18	28
+Norm	NORM-020.1000	Changed	Data	group=020;depthVariants=1	variantCodes=standard;rates=Material:MAT-SMOOTH-PLASTIC-TUBE:m:125|Material:MAT-WOOD-STAKE:each:50|Material:MAT-ROPE-10MM:m:100|Material:MAT-RED-FLAG-LARGE:each:1|Material:MAT-OTHER:percent:1|Labor:LAB-QNCN-7:worker-day:7.76|Machine:M010.002:shift:5.17;constraints=external-estimate:drilling-cost
+Norm	NORM-020.1000	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.1000	Changed	SourcePageFrom	18	28
+Norm	NORM-020.1000	Changed	SourcePageTo	19	29
+Norm	NORM-020.1100	Changed	Data	group=020;soilClasses=4	variantCodes=soil-1,soil-2,soil-3,soil-4;rates=Material:MAT-BAMBOO-STAKE:each:0.2,0.2,0.1,0|Material:MAT-WOOD-BOARD:m3:0.004,0.004,0.002,0|Material:MAT-NAIL-TWO-PRONG:kg:0.4,0.4,0.2,0|Material:MAT-NAIL-10CM:kg:0.15,0.15,0.10,0|Material:MAT-WIRE-2MM:kg:0.20,0.15,0.12,0|Material:MAT-OTHER:percent:1,1,1,0|Labor:LAB-QNCN-7:worker-day:0.0300,0.0390,0.0461,0.0518|Labor:LAB-QNCN-8:worker-day:0.72,0.96,1.40,2.04|Machine:M010.002-OR-M010.003:shift:0.008,0.008,0.008,0.008|Machine:M010.004:shift:0.0053,0.0063,0.0090,0.0104;adjustments=add:water-excavation:Machine:M010.023:shift:0.012
+Norm	NORM-020.1100	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.1100	Changed	SourcePageFrom	19	29
+Norm	NORM-020.1100	Changed	SourcePageTo	19	29
+Norm	NORM-020.1200	Changed	Data	group=020;weightClasses=6	variantCodes=weight-lt-3,weight-3-15,weight-15-50,weight-50-120,weight-120-250,weight-gt-250;rates=Material:MAT-TNT:kg:0.2,0.4,1,4,4,4|Material:MAT-ELECTRIC-DETONATOR:each:1,1,1,1,1,1|Material:MAT-ELECTRIC-WIRE:m:2,4,6,10,20,20|Material:MAT-CLOTH:m2:0,0,0.4,1,1,1|Material:MAT-TWINE:kg:0,0,0.1,0.1,0.1,0.1|Material:MAT-SIGN:each:0.08,0.08,0.08,0.08,0.08,0.08|Material:MAT-OTHER:percent:1,1,1,1,1,1|Labor:LAB-QNCN-7:worker-day:0.12,0.12,0.14,0.14,0.17,0.17|Labor:LAB-QNCN-8:worker-day:0.060,0.060,0.070,0.070,0.085,0.085|Machine:M010.025:shift:0.014,0.014,0.014,0.014,0.014,0.014|Machine:M010.026:shift:0.014,0.014,0.014,0.014,0.014,0.014
+Norm	NORM-020.1200	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-020.1200	Changed	SourcePageFrom	19	29
+Norm	NORM-020.1200	Changed	SourcePageTo	20	30
+Norm	NORM-030.0100	Changed	Data	group=030;waterDepthClasses=3	variantCodes=water-0.5-12,water-12-22,water-22-25;rates=Material:MAT-ANCHOR-50KG:each:0.032,0.032,0.032|Material:MAT-ANCHOR-20KG:each:0.064,0.064,0.064|Material:MAT-LARGE-FLOAT:each:0.32,0.32,0.32|Material:MAT-SMALL-FLOAT:each:4,4,4|Material:MAT-ROPE-10MM:m:210,210,210|Material:MAT-ROPE-12MM:m:8,18.5,27|Material:MAT-ROPE-18MM:m:8.64,8.64,8.64|Material:MAT-OTHER:percent:1,1,1|Labor:LAB-QNCN-7:worker-day:23.82,26.19,28.8|Machine:M010.008:shift:9.26,10.19,12.22|Machine:M010.010:shift:9.26,10.19,12.22|Machine:M010.009:shift:18.52,20.38,24.44|Machine:M010.027:shift:10.19,12.12,13.44;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0100	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0100	Changed	SourcePageFrom	20	30
+Norm	NORM-030.0100	Changed	SourcePageTo	21	31
+Norm	NORM-030.0200	Changed	Data	group=030;waterDepthClasses=3	variantCodes=water-0.5-12,water-12-22,water-22-25;rates=Material:MAT-ANCHOR-50KG:each:0.032,0.032,0.032|Material:MAT-ANCHOR-20KG:each:0.064,0.064,0.064|Material:MAT-LARGE-FLOAT:each:0.32,0.32,0.32|Material:MAT-SMALL-FLOAT:each:4,4,4|Material:MAT-ROPE-10MM:m:105,105,105|Material:MAT-ROPE-12MM:m:8,18.5,27|Material:MAT-ROPE-18MM:m:8.64,8.64,8.64|Material:MAT-OTHER:percent:1,1,1|Labor:LAB-QNCN-7:worker-day:9.81,10.8,11.88|Machine:M010.008:shift:4.63,5.10,5.61|Machine:M010.010:shift:4.63,5.10,5.61|Machine:M010.009:shift:9.26,10.20,11.22|Machine:M010.027:shift:5.10,5.61,6.17;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0200	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0200	Changed	SourcePageFrom	21	31
+Norm	NORM-030.0200	Changed	SourcePageTo	22	32
+Norm	NORM-030.0300	Changed	Data	group=030;variants=4	variantCodes=water-0.5-3,water-3-12,water-12-22,water-22-25;rates=Material:MAT-SPECIAL-ANCHOR:each:0,0.002,0.002,0.002|Material:MAT-PLASTIC-FLOAT:each:0,0.067,0.067,0.067|Material:MAT-ROPE-12MM:m:0,0.16,0.38,0.56|Material:MAT-BAMBOO-POLE:each:0.2,0,0,0|Material:MAT-OTHER:percent:1,1,1,1|Labor:LAB-QNCN-7:worker-day:0.056,0.056,0.067,0.081|Machine:M010.008:shift:0.014,0.016,0.017,0.019|Machine:M010.010:shift:0.014,0.016,0.017,0.019;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0300	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0300	Changed	SourcePageFrom	22	32
+Norm	NORM-030.0300	Changed	SourcePageTo	23	33
+Norm	NORM-030.0400	Changed	Data	group=030;waterDepthClasses=3	variantCodes=water-0.5-12,water-12-22,water-22-25;rates=Labor:LAB-QNCN-7:worker-day:0.23,0.26,0.29|Machine:M010.008:shift:0.014,0.015,0.017|Machine:M010.DIVING:shift:0.193,0.212,0.233|Machine:M010.027:shift:0.207,0.227,0.250;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0400	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0400	Changed	SourcePageFrom	23	33
+Norm	NORM-030.0400	Changed	SourcePageTo	23	33
+Norm	NORM-030.0500	Changed	Data	group=030;waterDepthClasses=3	variantCodes=water-0.5-12,water-12-22,water-22-25;rates=Labor:LAB-QNCN-7:worker-day:0.23,0.26,0.29|Machine:M010.008:shift:0.014,0.015,0.017|Machine:M010.010:shift:0.014,0.015,0.017|Machine:M010.DIVING:shift:0.153,0.168,0.185|Machine:M010.023:shift:0.125,0.138,0.152|Machine:M010.027:shift:0.198,0.213,0.230;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0500	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0500	Changed	SourcePageFrom	23	33
+Norm	NORM-030.0500	Changed	SourcePageTo	24	34
+Norm	NORM-030.0600	Changed	Data	group=030;waterDepthClasses=3	variantCodes=water-0.5-12,water-12-22,water-22-25;rates=Material:MAT-STEEL-EXCAVATION-FRAME:kg:24.32,24.32,24.32|Labor:LAB-QNCN-7:worker-day:1,1.1,1.21|Machine:M010.008:shift:0.014,0.015,0.017|Machine:M010.010:shift:0.014,0.015,0.017|Machine:M010.DIVING:shift:0.264,0.290,0.319|Machine:M010.023:shift:0.125,0.138,0.152|Machine:M010.027:shift:0.419,0.445,0.474;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0600	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0600	Changed	SourcePageFrom	24	34
+Norm	NORM-030.0600	Changed	SourcePageTo	25	35
+Norm	NORM-030.0700	Changed	Data	group=030;waterDepthClasses=3	variantCodes=water-0.5-12,water-12-22,water-22-25;rates=Material:MAT-STEEL-EXCAVATION-FRAME:kg:40.5,40.5,40.5|Labor:LAB-QNCN-7:worker-day:1.33,1.46,1.61|Machine:M010.008:shift:0.014,0.015,0.017|Machine:M010.010:shift:0.014,0.015,0.017|Machine:M010.DIVING:shift:0.640,0.704,0.774|Machine:M010.023:shift:0.420,0.462,0.510|Machine:M010.027:shift:0.640,0.704,0.774;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0700	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0700	Changed	SourcePageFrom	25	35
+Norm	NORM-030.0700	Changed	SourcePageTo	25	36
+Norm	NORM-030.0800	Changed	Data	group=030;weightClasses=6	variantCodes=weight-lt-3,weight-3-15,weight-15-50,weight-50-120,weight-120-250,weight-gt-250;rates=Material:MAT-TNT:kg:0.2,0.4,1,4,4,4|Material:MAT-ELECTRIC-DETONATOR:each:1,1,2,2,2,2|Material:MAT-ELECTRIC-WIRE:m:2,4,6,10,20,30|Material:MAT-CLOTH:m2:0,0,0.4,1,1,1|Material:MAT-TWINE:kg:0,0.1,0.15,0.2,0.2,0.2|Material:MAT-SIGN:each:0.08,0.08,0.08,0.08,0.08,0.08|Material:MAT-OTHER:percent:1,1,1,1,1,1|Labor:LAB-QNCN-7:worker-day:2.04,2.04,2.04,2.34,2.34,2.34|Labor:LAB-QNCN-8:worker-day:0.34,0.34,0.34,0.39,0.39,0.39|Machine:M010.008:shift:0.014,0.014,0.014,0.014,0.014,0.014|Machine:M010.025:shift:0.014,0.014,0.014,0.014,0.014,0.014|Machine:M010.026:shift:0.014,0.014,0.014,0.014,0.014,0.014|Machine:M010.027:shift:0.17,0.17,0.17,0.19,0.19,0.19|Machine:M010.009:shift:0.34,0.34,0.34,0.39,0.39,0.39|Machine:M010.DIVING:shift:0.08,0.08,0.08,0.1,0.1,0.1;adjustments=factor:current-gt-0-le-0.5:Labor+Machine:*:ratio:1.10|factor:current-gt-0.5-le-1:Labor+Machine:*:ratio:1.25|factor:current-gt-1-le-2:Labor+Machine:*:ratio:1.50;constraints=prohibit-condition:current-gt-2
+Norm	NORM-030.0800	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-030.0800	Changed	SourcePageFrom	25	36
+Norm	NORM-030.0800	Changed	SourcePageTo	26	37
+Norm	NORM-040.0100	Changed	Data	group=040;variants=1	variantCodes=standard;rates=Labor:LAB-QNCN-7:worker-day:0.125|Machine:M010.020:shift:0.042|Machine:M010.021:shift:0.042|Machine:M010.014:shift:0.042|Machine:M010.015:shift:0.042
+Norm	NORM-040.0100	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-040.0100	Changed	SourcePageFrom	26	37
+Norm	NORM-040.0100	Changed	SourcePageTo	27	37
+Norm	NORM-040.0200	Changed	Data	group=040;waterDepthRange=25-150	variantCodes=standard;rates=Labor:LAB-QNCN-7:worker-day:0.33|Labor:LAB-QNCN-8:worker-day:0.17|Machine:M010.013:shift:0.085|Machine:M010.015:shift:0.085|Machine:M010.022:shift:0.009|Machine:M010.020:shift:0.085|Machine:M010.019:shift:0.085|Machine:M010.016:shift:0.085|Machine:M010.017:shift:0.085
+Norm	NORM-040.0200	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-040.0200	Changed	SourcePageFrom	27	37
+Norm	NORM-040.0200	Changed	SourcePageTo	28	38
+Norm	NORM-040.0300	Changed	Data	group=040;methods=2	variantCodes=water-25-50,water-50-150;rates=Labor:LAB-QNCN-7:worker-day:0.92,1.2|Machine:M010.020:shift:0.063,0.063|Machine:M010.018-OR-M010.028:shift:0.23,0.30|Machine:M010.007:shift:0.14,0|Machine:M010.010:shift:0.14,0|Machine:M010.014:shift:0.34,0.41|Machine:M010.015:shift:0.34,0.41|Machine:M010.022:shift:0.035,0.04
+Norm	NORM-040.0300	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-040.0300	Changed	SourcePageFrom	28	38
+Norm	NORM-040.0300	Changed	SourcePageTo	28	39
+Norm	NORM-040.0400	Changed	Data	group=040;waterDepthMax=50	variantCodes=water-25-50;rates=Material:MAT-STEEL-EXCAVATION-FRAME:kg:24.32|Labor:LAB-QNCN-7:worker-day:3.8|Machine:M010.007:shift:0.14|Machine:M010.023:shift:0.23|Machine:M010.DIVING:shift:0.74|Machine:M010.024:shift:0.74|Machine:M010.010:shift:0.14|Machine:M010.014:shift:0.74|Machine:M010.015:shift:0.74|Machine:M010.022:shift:0.07;constraints=external-estimate:water-depth-gt-50-to-150
+Norm	NORM-040.0400	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-040.0400	Changed	SourcePageFrom	28	39
+Norm	NORM-040.0400	Changed	SourcePageTo	29	39
+Norm	NORM-040.0500	Changed	Data	group=040;weightClasses=1	variantCodes=standard;rates=Material:MAT-ANCHOR-CONCRETE-20KG:each:1|Material:MAT-NYLON-ROPE-14MM:m:30|Material:MAT-FLOAT-40L:each:2|Material:MAT-TNT:kg:6|Material:MAT-WATERPROOF-DETONATING-CORD:m:66|Material:MAT-ELECTRIC-DETONATOR:each:2|Material:MAT-ELECTRIC-WIRE:m:20|Material:MAT-CLOTH:m2:1|Material:MAT-TWINE:kg:0.2|Material:MAT-OTHER:percent:10|Labor:LAB-QNCN-7:worker-day:0.8|Labor:LAB-QNCN-8:worker-day:0.1|Machine:M010.020:shift:0.063|Machine:M010.DIVING:shift:0.19|Machine:M010.007:shift:0.1|Machine:M010.010:shift:0.1|Machine:M010.025:shift:0.02|Machine:M010.026:shift:0.02|Machine:M010.014:shift:0.33|Machine:M010.015:shift:0.33|Machine:M010.022:shift:0.04
+Norm	NORM-040.0500	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-040.0500	Changed	SourcePageFrom	29	39
+Norm	NORM-040.0500	Changed	SourcePageTo	30	40
+Norm	NORM-040.0600	Changed	Data	group=040;weightClasses=3	variantCodes=water-25-50,water-50-100,water-100-150;rates=Material:MAT-ANCHOR-50KG:each:1,1,1|Material:MAT-NYLON-ROPE-14MM:m:135,280,425|Material:MAT-FLOAT-40L:each:4,4,4|Material:MAT-TNT:kg:10,10,10|Material:MAT-CLOTH:m2:1,1,1|Material:MAT-ELECTRIC-DETONATOR:each:2,2,2|Material:MAT-WATERPROOF-DETONATING-CORD:m:165,330,495|Material:MAT-TWINE:kg:0.2,0.2,0.2|Material:MAT-ELECTRIC-WIRE:m:20,20,20|Material:MAT-OTHER:percent:10,10,10|Labor:LAB-QNCN-7:worker-day:0.6,0.76,0.96|Labor:LAB-QNCN-8:worker-day:0.1,0.1,0.1|Machine:M010.020:shift:0.063,0.063,0.063|Machine:M010.018-OR-M010.028:shift:0.15,0.19,0.24|Machine:M010.025:shift:0.02,0.02,0.02|Machine:M010.026:shift:0.02,0.02,0.02|Machine:M010.007:shift:0.08,0.1,0.12|Machine:M010.010:shift:0.08,0.1,0.12|Machine:M010.014:shift:0.36,0.39,0.45|Machine:M010.015:shift:0.04,0.04,0.05|Machine:M010.022:shift:0.04,0.04,0.05
+Norm	NORM-040.0600	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Norm	NORM-040.0600	Changed	SourcePageFrom	30	40
+Norm	NORM-040.0600	Changed	SourcePageTo	31	42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	Title		Suất dự toán tạm tính khu vực 1 - non-state-budget
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	Data		funding=non-state-budget;zone=1;landRate=68.8;underwaterTo12mRate=106.2
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-1	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	Title		Suất dự toán tạm tính khu vực 2 - non-state-budget
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	Data		funding=non-state-budget;zone=2;landRate=75.2;underwaterTo12mRate=115.1
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-2	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	Title		Suất dự toán tạm tính khu vực 3 - non-state-budget
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	Data		funding=non-state-budget;zone=3;landRate=83.1;underwaterTo12mRate=126.7
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-3	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	Title		Suất dự toán tạm tính khu vực 4 - non-state-budget
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	Data		funding=non-state-budget;zone=4;landRate=95.1;underwaterTo12mRate=132.1
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-NONSTATE-ZONE-4	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	Title		Suất dự toán tạm tính khu vực 1 - state-budget
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	Data		funding=state-budget;zone=1;landRate=51.2;underwaterTo12mRate=75.2
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-STATE-ZONE-1	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	Title		Suất dự toán tạm tính khu vực 2 - state-budget
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	Data		funding=state-budget;zone=2;landRate=57.2;underwaterTo12mRate=80.4
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-STATE-ZONE-2	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	Title		Suất dự toán tạm tính khu vực 3 - state-budget
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	Data		funding=state-budget;zone=3;landRate=65.3;underwaterTo12mRate=88.8
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-STATE-ZONE-3	Added	Verification		VerifiedAgainstOfficialSource
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	RecordType		ProvisionalEstimateRate
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	Unit		million-vnd-per-ha
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	Title		Suất dự toán tạm tính khu vực 4 - state-budget
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	Data		funding=state-budget;zone=4;landRate=81.1;underwaterTo12mRate=92.4
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	SourceDocumentId		VBHN97-2025-BQP
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	SourcePageFrom		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	SourcePageTo		42
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	SourceSection		Phụ lục I, suất dự toán tạm tính theo héc ta
+Norm	NORM-PROVISIONAL-STATE-ZONE-4	Added	Verification		VerifiedAgainstOfficialSource
+CostRule	COST-COMMON	Changed	Data	code=C;ratePercent=40;base=NC	code=C;ratePercent=40;base=NC;rounding=nearest-vnd-away-from-zero
+CostRule	COST-COMMON	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-COMMON	Changed	SourcePageFrom	32	44
+CostRule	COST-COMMON	Changed	SourcePageTo	33	44
+CostRule	COST-DIRECT-LABOR-NONSTATE	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-DIRECT-LABOR-NONSTATE	Changed	SourcePageFrom	32	43
+CostRule	COST-DIRECT-LABOR-NONSTATE	Changed	SourcePageTo	32	43
+CostRule	COST-DIRECT-LABOR-STATE	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-DIRECT-LABOR-STATE	Changed	SourcePageFrom	32	43
+CostRule	COST-DIRECT-LABOR-STATE	Changed	SourcePageTo	32	43
+CostRule	COST-DIRECT-MACHINE	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-DIRECT-MACHINE	Changed	SourcePageFrom	32	43
+CostRule	COST-DIRECT-MACHINE	Changed	SourcePageTo	32	43
+CostRule	COST-DIRECT-MATERIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-DIRECT-MATERIAL	Changed	SourcePageFrom	32	43
+CostRule	COST-DIRECT-MATERIAL	Changed	SourcePageTo	32	43
+CostRule	COST-DIRECT-TOTAL	Changed	Data	code=T;formula=VL+NC+M	code=T;formula=VL+NC+M;rounding=nearest-vnd-away-from-zero
+CostRule	COST-DIRECT-TOTAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-DIRECT-TOTAL	Changed	SourcePageFrom	32	43
+CostRule	COST-DIRECT-TOTAL	Changed	SourcePageTo	32	43
+CostRule	COST-K1K4-TERRAIN-01	Changed	Data	terrain=plain-open;k1Percent=2;k4Percent=1;totalPercent=3;base=Z	terrain=plain-open;k1Percent=2;k4Percent=1;totalPercent=3;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-01	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-01	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-01	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-02	Changed	Data	terrain=urban-residential;k1Percent=2.5;k4Percent=1;totalPercent=3.5;base=Z	terrain=urban-residential;k1Percent=2.5;k4Percent=1;totalPercent=3.5;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-02	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-02	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-02	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-03	Changed	Data	terrain=midland-or-forest-1;k1Percent=3;k4Percent=1;totalPercent=4;base=Z	terrain=midland-or-forest-1;k1Percent=3;k4Percent=1;totalPercent=4;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-03	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-03	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-03	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-04	Changed	Data	terrain=forest-2;k1Percent=3.5;k4Percent=1;totalPercent=4.5;base=Z	terrain=forest-2;k1Percent=3.5;k4Percent=1;totalPercent=4.5;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-04	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-04	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-04	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-05	Changed	Data	terrain=forest-3;k1Percent=4;k4Percent=1;totalPercent=5;base=Z	terrain=forest-3;k1Percent=4;k4Percent=1;totalPercent=5;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-05	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-05	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-05	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-06	Changed	Data	terrain=forest-4;k1Percent=4.5;k4Percent=1;totalPercent=5.5;base=Z	terrain=forest-4;k1Percent=4.5;k4Percent=1;totalPercent=5.5;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-06	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-06	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-06	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-07	Changed	Data	terrain=underwater;k1Percent=3;k4Percent=1;totalPercent=4;base=Z	terrain=underwater;k1Percent=3;k4Percent=1;totalPercent=4;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-07	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-07	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-07	Changed	SourcePageTo	33	44
+CostRule	COST-K1K4-TERRAIN-08	Changed	Data	terrain=offshore;k1Percent=5;k4Percent=1;totalPercent=6;base=Z	terrain=offshore;k1Percent=5;k4Percent=1;totalPercent=6;base=Z;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K1K4-TERRAIN-08	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K1K4-TERRAIN-08	Changed	SourcePageFrom	33	44
+CostRule	COST-K1K4-TERRAIN-08	Changed	SourcePageTo	33	44
+CostRule	COST-K2-LINEAR	Changed	Data	code=K2;base=T;thresholdBillion=15,100,500,1000;ratesPercent=2.3,2.2,2,1.9,1.8	code=K2;base=T;thresholdBillion=15,100,500,1000;ratesPercent=2.2,2.0,1.9,1.8,1.7;boundary=upper-inclusive;interpolation=step;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT36-2026-BXD-PL3-table-3.7
+CostRule	COST-K2-LINEAR	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K2-LINEAR	Changed	SourcePageFrom	33	45
+CostRule	COST-K2-LINEAR	Changed	SourcePageTo	33	45
+CostRule	COST-K2-OTHER	Changed	Data	code=K2;base=T;thresholdBillion=15,100,500,1000;ratesPercent=1.2,1.1,1,0.95,0.9	code=K2;base=T;thresholdBillion=15,100,500,1000;ratesPercent=1.1,1.0,0.95,0.9,0.85;boundary=upper-inclusive;interpolation=step;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT36-2026-BXD-PL3-table-3.7
+CostRule	COST-K2-OTHER	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K2-OTHER	Changed	SourcePageFrom	33	45
+CostRule	COST-K2-OTHER	Changed	SourcePageTo	33	45
+CostRule	COST-K3-1-TO-5	Changed	Data	code=K3;base=Z;minBillion=1;maxBillionExclusive=5;ratePercent=0.3	code=K3;base=Z;minBillion=1;maxBillionExclusive=5;ratePercent=0.3;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K3-1-TO-5	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K3-1-TO-5	Changed	SourcePageFrom	33	45
+CostRule	COST-K3-1-TO-5	Changed	SourcePageTo	33	45
+CostRule	COST-K3-FROM-5	Changed	Data	code=K3;base=Z;minBillion=5;maxBillionExclusive=none;ratePercent=0.2	code=K3;base=Z;minBillion=5;maxBillionExclusive=none;ratePercent=0.2;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K3-FROM-5	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K3-FROM-5	Changed	SourcePageFrom	33	45
+CostRule	COST-K3-FROM-5	Changed	SourcePageTo	33	45
+CostRule	COST-K3-LIMITS	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K3-LIMITS	Changed	SourcePageFrom	33	45
+CostRule	COST-K3-LIMITS	Changed	SourcePageTo	33	45
+CostRule	COST-K3-UNDER-1	Changed	Data	code=K3;base=Z;minBillion=0;maxBillionExclusive=1;ratePercent=0.5	code=K3;base=Z;minBillion=0;maxBillionExclusive=1;ratePercent=0.5;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K3-UNDER-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K3-UNDER-1	Changed	SourcePageFrom	33	45
+CostRule	COST-K3-UNDER-1	Changed	SourcePageTo	33	45
+CostRule	COST-K5-AGRICULTURE	Changed	Data	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000;ratesPercent=2.598,2.292,2.075,1.545,1.189,0.95,0.631,0.55	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000,5000,8000,10000;ratesPercent=2.598,2.292,2.075,1.545,1.189,0.950,0.631,0.550,0.490,0.420,0.378;boundary=first-upper-inclusive;interpolation=linear;aboveMaximum=external-estimate;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT38-2026-BXD-PL8-table-2.24
+CostRule	COST-K5-AGRICULTURE	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K5-AGRICULTURE	Changed	SourcePageFrom	34	45
+CostRule	COST-K5-AGRICULTURE	Changed	SourcePageTo	34	45
+CostRule	COST-K5-CIVIL	Changed	Data	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000;ratesPercent=3.285,2.853,2.435,1.845,1.546,1.188,0.797,0.694	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000,5000,8000,10000;ratesPercent=3.285,2.853,2.435,1.845,1.546,1.188,0.797,0.694,0.620,0.530,0.478;boundary=first-upper-inclusive;interpolation=linear;aboveMaximum=external-estimate;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT38-2026-BXD-PL8-table-2.24
+CostRule	COST-K5-CIVIL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K5-CIVIL	Changed	SourcePageFrom	34	45
+CostRule	COST-K5-CIVIL	Changed	SourcePageTo	34	45
+CostRule	COST-K5-INDUSTRIAL	Changed	Data	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000;ratesPercent=3.508,3.137,2.559,2.074,1.604,1.301,0.823,0.716	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000,5000,8000,10000;ratesPercent=3.508,3.137,2.559,2.074,1.604,1.301,0.823,0.716,0.640,0.550,0.493;boundary=first-upper-inclusive;interpolation=linear;aboveMaximum=external-estimate;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT38-2026-BXD-PL8-table-2.24
+CostRule	COST-K5-INDUSTRIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K5-INDUSTRIAL	Changed	SourcePageFrom	34	45
+CostRule	COST-K5-INDUSTRIAL	Changed	SourcePageTo	34	45
+CostRule	COST-K5-INFRASTRUCTURE	Changed	Data	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000;ratesPercent=2.566,2.256,1.984,1.461,1.142,0.912,0.584,0.509	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000,5000,8000,10000;ratesPercent=2.566,2.256,1.984,1.461,1.142,0.912,0.584,0.509,0.452,0.390,0.350;boundary=first-upper-inclusive;interpolation=linear;aboveMaximum=external-estimate;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT38-2026-BXD-PL8-table-2.24
+CostRule	COST-K5-INFRASTRUCTURE	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K5-INFRASTRUCTURE	Changed	SourcePageFrom	34	45
+CostRule	COST-K5-INFRASTRUCTURE	Changed	SourcePageTo	34	45
+CostRule	COST-K5-TRANSPORT	Changed	Data	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000;ratesPercent=3.203,2.7,2.356,1.714,1.272,1.003,0.731,0.636	code=K5;base=Z;thresholdBillion=10,20,50,100,200,500,1000,2000,5000,8000,10000;ratesPercent=3.203,2.700,2.356,1.714,1.272,1.003,0.731,0.636,0.550,0.480,0.438;boundary=first-upper-inclusive;interpolation=linear;aboveMaximum=external-estimate;rounding=nearest-vnd-away-from-zero;currentExternalBasis=TT38-2026-BXD-PL8-table-2.24
+CostRule	COST-K5-TRANSPORT	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K5-TRANSPORT	Changed	SourcePageFrom	34	45
+CostRule	COST-K5-TRANSPORT	Changed	SourcePageTo	34	45
+CostRule	COST-K6-OVER-1000	Changed	Data	code=K6;base=Z;minWeightKgExclusive=1000;ratePercent=3	code=K6;base=Z;minWeightKgExclusive=1000;ratePercent=3;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K6-OVER-1000	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K6-OVER-1000	Changed	SourcePageFrom	34	46
+CostRule	COST-K6-OVER-1000	Changed	SourcePageTo	34	46
+CostRule	COST-K6-UNDER-1000	Changed	Data	code=K6;base=Z;maxWeightKgExclusive=1000;ratePercent=5	code=K6;base=Z;maxWeightKgExclusive=1000;ratePercent=5;rounding=nearest-vnd-away-from-zero
+CostRule	COST-K6-UNDER-1000	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K6-UNDER-1000	Changed	SourcePageFrom	34	46
+CostRule	COST-K6-UNDER-1000	Changed	SourcePageTo	34	46
+CostRule	COST-K7-K10	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-K7-K10	Changed	SourcePageFrom	34	46
+CostRule	COST-K7-K10	Changed	SourcePageTo	34	46
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	RecordType		CostMinimum
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	Unit		vnd
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	Title		Chi phí tối thiểu hủy bom mìn vật nổ sau dò tìm đến 4 ha
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	Data		maxAreaHa=4;teamMembers=18;allowancePerPersonDayVnd=350000;minimumVnd=6300000
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	SourceDocumentId		VBHN97-2025-BQP
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	SourcePageFrom		46
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	SourcePageTo		46
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	SourceSection		Phụ lục II, Phần I, mục III.5, mức tối thiểu
+CostRule	COST-MIN-DISPOSAL-UNDER-4HA	Added	Verification		VerifiedAgainstOfficialSource
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	RecordType		CostMinimum
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	Unit		vnd
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	Title		Chi phí tối thiểu khảo sát, lập phương án kỹ thuật thi công và dự toán đến 4 ha
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	Data		maxAreaHa=4;teamMembers=18;allowancePerPersonDayVnd=350000;minimumVnd=6300000
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	SourceDocumentId		VBHN97-2025-BQP
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	SourcePageFrom		44
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	SourcePageTo		44
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	SourceSection		Phụ lục II, Phần I, mục III.1, mức tối thiểu
+CostRule	COST-MIN-SURVEY-DESIGN-UNDER-4HA	Added	Verification		VerifiedAgainstOfficialSource
+CostRule	COST-SPECIAL-CONDITION	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-SPECIAL-CONDITION	Changed	SourcePageFrom	34	46
+CostRule	COST-SPECIAL-CONDITION	Changed	SourcePageTo	34	46
+CostRule	COST-TAX	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-TAX	Changed	SourcePageFrom	34	46
+CostRule	COST-TAX	Changed	SourcePageTo	34	46
+CostRule	COST-TEMPLATE-01	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-TEMPLATE-01	Changed	SourcePageFrom	35	48
+CostRule	COST-TEMPLATE-01	Changed	SourcePageTo	36	48
+CostRule	COST-TEMPLATE-02	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-TEMPLATE-02	Changed	SourcePageFrom	35	49
+CostRule	COST-TEMPLATE-02	Changed	SourcePageTo	37	49
+CostRule	COST-TEMPLATE-03	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-TEMPLATE-03	Changed	SourcePageFrom	35	50
+CostRule	COST-TEMPLATE-03	Changed	SourcePageTo	38	50
+CostRule	COST-TEMPLATE-04	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+CostRule	COST-TEMPLATE-04	Changed	SourcePageFrom	35	51
+CostRule	COST-TEMPLATE-04	Changed	SourcePageTo	39	51
+CostRule	COST-TEMPLATE-05	Added	RecordType		EstimateTemplate
+CostRule	COST-TEMPLATE-05	Added	Unit		vnd
+CostRule	COST-TEMPLATE-05	Added	Title		Thuyết minh dự toán rà phá bom mìn vật nổ
+CostRule	COST-TEMPLATE-05	Added	Data		template=05;parts=legal-basis,estimate-basis,estimate-value;attachments=summary-and-detail
+CostRule	COST-TEMPLATE-05	Added	SourceDocumentId		VBHN97-2025-BQP
+CostRule	COST-TEMPLATE-05	Added	SourcePageFrom		52
+CostRule	COST-TEMPLATE-05	Added	SourcePageTo		52
+CostRule	COST-TEMPLATE-05	Added	SourceSection		Phụ lục II, Phần II, Biểu mẫu 05
+CostRule	COST-TEMPLATE-05	Added	Verification		VerifiedAgainstOfficialSource
+MachineRate	MACHINE-M010.001	Changed	Data	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=2-doi-pin-dai;operators=1-bac-8-10;referencePriceVnd=119970000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=2-doi-pin-dai;operators=1-bac-8-10;referencePriceVnd=129877200;recoverableVatPercent=10;stateCode=M010.001;nonStateCode=M011.001
+MachineRate	MACHINE-M010.001	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.001	Changed	SourcePageFrom	13	15
+MachineRate	MACHINE-M010.001	Changed	SourcePageTo	13	24
+MachineRate	MACHINE-M010.001	Changed	SourceSection	Phụ lục II, Bảng 01, M010.001	Phụ lục II, Bảng 01/03, M010.001/M011.001
+MachineRate	MACHINE-M010.002	Changed	Data	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=3-doi-pin-trung;operators=1-bac-8-10;referencePriceVnd=279930000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=3-doi-pin-trung;operators=1-bac-8-10;referencePriceVnd=303046800;recoverableVatPercent=10;stateCode=M010.002;nonStateCode=M011.002
+MachineRate	MACHINE-M010.002	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.002	Changed	SourcePageFrom	13	15
+MachineRate	MACHINE-M010.002	Changed	SourcePageTo	13	24
+MachineRate	MACHINE-M010.002	Changed	SourceSection	Phụ lục II, Bảng 01, M010.002	Phụ lục II, Bảng 01/03, M010.002/M011.002
+MachineRate	MACHINE-M010.003	Changed	Data	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=3-doi-pin-dai;operators=2-bac-8-10;referencePriceVnd=549862500;recoverableVatPercent=10	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=3-doi-pin-dai;operators=2-bac-8-10;referencePriceVnd=595270500;recoverableVatPercent=10;stateCode=M010.003;nonStateCode=M011.003
+MachineRate	MACHINE-M010.003	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.003	Changed	SourcePageFrom	13	16
+MachineRate	MACHINE-M010.003	Changed	SourcePageTo	13	24
+MachineRate	MACHINE-M010.003	Changed	SourceSection	Phụ lục II, Bảng 01, M010.003	Phụ lục II, Bảng 01/03, M010.003/M011.003
+MachineRate	MACHINE-M010.004	Changed	Data	annualShifts=280;depreciationPercent=16;repairPercent=4.8;otherPercent=5;fuel=29-lit-diesel;operators=1-bac-8-10;referencePriceVnd=566835000;recoverableVatPercent=10	annualShifts=280;depreciationPercent=16;repairPercent=4.8;otherPercent=5;fuel=29-lit-diesel;operators=1-bac-8-10;referencePriceVnd=613644600;recoverableVatPercent=10;stateCode=M010.004;nonStateCode=M011.004
+MachineRate	MACHINE-M010.004	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.004	Changed	SourcePageFrom	13	16
+MachineRate	MACHINE-M010.004	Changed	SourcePageTo	13	24
+MachineRate	MACHINE-M010.004	Changed	SourceSection	Phụ lục II, Bảng 01, M010.004	Phụ lục II, Bảng 01/03, M010.004/M011.004
+MachineRate	MACHINE-M010.005	Changed	Data	annualShifts=258;depreciationPercent=18;repairPercent=5.3;otherPercent=5;fuel=19-lit-diesel;operators=1-bac-8-10;referencePriceVnd=38500000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=18;repairPercent=5.3;otherPercent=5;fuel=19-lit-diesel;operators=1-bac-8-10;referencePriceVnd=38500000;recoverableVatPercent=10;stateCode=M010.005;nonStateCode=M011.005
+MachineRate	MACHINE-M010.005	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.005	Changed	SourcePageFrom	13	16
+MachineRate	MACHINE-M010.005	Changed	SourcePageTo	13	25
+MachineRate	MACHINE-M010.005	Changed	SourceSection	Phụ lục II, Bảng 01, M010.005	Phụ lục II, Bảng 01/03, M010.005/M011.005
+MachineRate	MACHINE-M010.006	Changed	Data	annualShifts=258;depreciationPercent=14;repairPercent=1.5;otherPercent=4;fuel=2-doi-pin-tieu;operators=1-bac-5-10;referencePriceVnd=3580000;recoverableVatPercent=0	annualShifts=258;depreciationPercent=14;repairPercent=1.5;otherPercent=4;fuel=2-doi-pin-tieu;operators=1-bac-5-10;referencePriceVnd=3580000;recoverableVatPercent=0;stateCode=M010.006;nonStateCode=M011.006
+MachineRate	MACHINE-M010.006	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.006	Changed	SourcePageFrom	13	16
+MachineRate	MACHINE-M010.006	Changed	SourcePageTo	13	25
+MachineRate	MACHINE-M010.006	Changed	SourceSection	Phụ lục II, Bảng 01, M010.006	Phụ lục II, Bảng 01/03, M010.006/M011.006
+MachineRate	MACHINE-M010.007	Changed	Title	Máy dò mìn dưới nước, Vallon MW 1630B là đại diện	Máy dò mìn dưới nước, MW 1630B là đại diện
+MachineRate	MACHINE-M010.007	Changed	Data	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=2-doi-pin-dai;operators=1-bac-8-10;referencePriceVnd=165220000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=2-doi-pin-dai;operators=1-bac-8-10;referencePriceVnd=178707000;recoverableVatPercent=10;stateCode=M010.007;nonStateCode=M011.007
+MachineRate	MACHINE-M010.007	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.007	Changed	SourcePageFrom	14	16
+MachineRate	MACHINE-M010.007	Changed	SourcePageTo	14	25
+MachineRate	MACHINE-M010.007	Changed	SourceSection	Phụ lục II, Bảng 01, M010.007	Phụ lục II, Bảng 01/03, M010.007/M011.007
+MachineRate	MACHINE-M010.008	Changed	Data	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=3-doi-pin-trung;operators=2-bac-8-10;referencePriceVnd=279930000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=30;repairPercent=12;otherPercent=5;fuel=3-doi-pin-trung;operators=2-bac-8-10;referencePriceVnd=303046800;recoverableVatPercent=10;stateCode=M010.008;nonStateCode=M011.008
+MachineRate	MACHINE-M010.008	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.008	Changed	SourcePageFrom	14	16
+MachineRate	MACHINE-M010.008	Changed	SourcePageTo	14	25
+MachineRate	MACHINE-M010.008	Changed	SourceSection	Phụ lục II, Bảng 01, M010.008	Phụ lục II, Bảng 01/03, M010.008/M011.008
+MachineRate	MACHINE-M010.009	Changed	Data	annualShifts=258;depreciationPercent=50;repairPercent=20;otherPercent=5;fuel=none;operators=1-bac-7-10;referencePriceVnd=7990000;recoverableVatPercent=0	annualShifts=258;depreciationPercent=50;repairPercent=20;otherPercent=5;fuel=none;operators=1-bac-7-10;referencePriceVnd=7990000;recoverableVatPercent=0;stateCode=M010.009;nonStateCode=M011.009
+MachineRate	MACHINE-M010.009	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.009	Changed	SourcePageFrom	14	16
+MachineRate	MACHINE-M010.009	Changed	SourcePageTo	14	25
+MachineRate	MACHINE-M010.009	Changed	SourceSection	Phụ lục II, Bảng 01, M010.009	Phụ lục II, Bảng 01/03, M010.009/M011.009
+MachineRate	MACHINE-M010.010	Changed	Data	annualShifts=258;depreciationPercent=50;repairPercent=20;otherPercent=5;fuel=none;operators=1-bac-8-10;referencePriceVnd=12591000;recoverableVatPercent=0	annualShifts=258;depreciationPercent=50;repairPercent=20;otherPercent=5;fuel=none;operators=1-bac-8-10;referencePriceVnd=12591000;recoverableVatPercent=0;stateCode=M010.010;nonStateCode=M011.010
+MachineRate	MACHINE-M010.010	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.010	Changed	SourcePageFrom	14	16
+MachineRate	MACHINE-M010.010	Changed	SourcePageTo	14	25
+MachineRate	MACHINE-M010.010	Changed	SourceSection	Phụ lục II, Bảng 01, M010.010	Phụ lục II, Bảng 01/03, M010.010/M011.010
+MachineRate	MACHINE-M010.011	Changed	Data	annualShifts=290;depreciationPercent=7;repairPercent=2.4;otherPercent=6;fuel=3211-lit-diesel;operators=6-bac-2-10;referencePriceVnd=101976100000;recoverableVatPercent=10	annualShifts=290;depreciationPercent=7;repairPercent=2.4;otherPercent=6;fuel=3211-lit-diesel;operators=6-si-quan+20-thuy-thu;referencePriceVnd=101976100000;recoverableVatPercent=10;stateCode=M010.011;nonStateCode=M011.011
+MachineRate	MACHINE-M010.011	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.011	Changed	SourcePageFrom	14	17
+MachineRate	MACHINE-M010.011	Changed	SourcePageTo	14	25
+MachineRate	MACHINE-M010.011	Changed	SourceSection	Phụ lục II, Bảng 01, M010.011	Phụ lục II, Bảng 01/03, M010.011/M011.011
+MachineRate	MACHINE-M010.012	Changed	Data	annualShifts=290;depreciationPercent=7;repairPercent=4.5;otherPercent=6;fuel=1751-lit-diesel;operators=4-bac-1-6;referencePriceVnd=34650000000;recoverableVatPercent=10	annualShifts=290;depreciationPercent=7;repairPercent=4.5;otherPercent=6;fuel=1751-lit-diesel;operators=4-si-quan+16-thuy-thu;referencePriceVnd=34650000000;recoverableVatPercent=10;stateCode=M010.012;nonStateCode=M011.012
+MachineRate	MACHINE-M010.012	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.012	Changed	SourcePageFrom	14	17
+MachineRate	MACHINE-M010.012	Changed	SourcePageTo	14	26
+MachineRate	MACHINE-M010.012	Changed	SourceSection	Phụ lục II, Bảng 01, M010.012	Phụ lục II, Bảng 01/03, M010.012/M011.012
+MachineRate	MACHINE-M010.013	Changed	Data	annualShifts=290;depreciationPercent=7;repairPercent=3.75;otherPercent=6;fuel=1008-lit-diesel;operators=4-bac-1-4;referencePriceVnd=20115500000;recoverableVatPercent=10	annualShifts=290;depreciationPercent=7;repairPercent=3.75;otherPercent=6;fuel=1008-lit-diesel;operators=4-si-quan+14-thuy-thu;referencePriceVnd=20115500000;recoverableVatPercent=10;stateCode=M010.013;nonStateCode=M011.013
+MachineRate	MACHINE-M010.013	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.013	Changed	SourcePageFrom	14	17
+MachineRate	MACHINE-M010.013	Changed	SourcePageTo	14	26
+MachineRate	MACHINE-M010.013	Changed	SourceSection	Phụ lục II, Bảng 01, M010.013	Phụ lục II, Bảng 01/03, M010.013/M011.013
+MachineRate	MACHINE-M010.014	Changed	Data	annualShifts=290;depreciationPercent=9;repairPercent=4.1;otherPercent=6;fuel=573-lit-diesel;operators=3-bac-8-10;referencePriceVnd=7685500000;recoverableVatPercent=10	annualShifts=290;depreciationPercent=9;repairPercent=4.1;otherPercent=6;fuel=573-lit-diesel;operators=3-si-quan+8-thuy-thu;referencePriceVnd=7685500000;recoverableVatPercent=10;stateCode=M010.014;nonStateCode=M011.014
+MachineRate	MACHINE-M010.014	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.014	Changed	SourcePageFrom	14	17
+MachineRate	MACHINE-M010.014	Changed	SourcePageTo	14	26
+MachineRate	MACHINE-M010.014	Changed	SourceSection	Phụ lục II, Bảng 01, M010.014	Phụ lục II, Bảng 01/03, M010.014/M011.014
+MachineRate	MACHINE-M010.015	Changed	Data	annualShifts=260;depreciationPercent=10;repairPercent=5;otherPercent=6;fuel=202-lit-diesel;operators=2-bac-6;referencePriceVnd=887000000;recoverableVatPercent=10	annualShifts=260;depreciationPercent=10;repairPercent=5;otherPercent=6;fuel=202-lit-diesel;operators=2-si-quan+6-thuy-thu;referencePriceVnd=887000000;recoverableVatPercent=10;stateCode=M010.015;nonStateCode=M011.015
+MachineRate	MACHINE-M010.015	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.015	Changed	SourcePageFrom	14	17
+MachineRate	MACHINE-M010.015	Changed	SourcePageTo	14	26
+MachineRate	MACHINE-M010.015	Changed	SourceSection	Phụ lục II, Bảng 01, M010.015	Phụ lục II, Bảng 01/03, M010.015/M011.015
+MachineRate	MACHINE-M010.016	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=3-bac-8-10;referencePriceVnd=3801545888;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=3-bac-8-10;referencePriceVnd=4115480000;recoverableVatPercent=10;stateCode=M010.016;nonStateCode=M011.016
+MachineRate	MACHINE-M010.016	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.016	Changed	SourcePageFrom	14	17
+MachineRate	MACHINE-M010.016	Changed	SourcePageTo	14	26
+MachineRate	MACHINE-M010.016	Changed	SourceSection	Phụ lục II, Bảng 01, M010.016	Phụ lục II, Bảng 01/03, M010.016/M011.016
+MachineRate	MACHINE-M010.017	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=3-bac-8-10;referencePriceVnd=5668421145;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=3-bac-8-10;referencePriceVnd=6136523020;recoverableVatPercent=10;stateCode=M010.017;nonStateCode=M011.017
+MachineRate	MACHINE-M010.017	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.017	Changed	SourcePageFrom	15	17
+MachineRate	MACHINE-M010.017	Changed	SourcePageTo	15	26
+MachineRate	MACHINE-M010.017	Changed	SourceSection	Phụ lục II, Bảng 01, M010.017	Phụ lục II, Bảng 01/03, M010.017/M011.017
+MachineRate	MACHINE-M010.018	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=4-bac-8-10;referencePriceVnd=25367387795;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=4-bac-8-10;referencePriceVnd=25367387795;recoverableVatPercent=10;stateCode=M010.018;nonStateCode=M011.018
+MachineRate	MACHINE-M010.018	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.018	Changed	SourcePageFrom	15	17
+MachineRate	MACHINE-M010.018	Changed	SourcePageTo	15	26
+MachineRate	MACHINE-M010.018	Changed	SourceSection	Phụ lục II, Bảng 01, M010.018	Phụ lục II, Bảng 01/03, M010.018/M011.018
+MachineRate	MACHINE-M010.019	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=2-bac-8-10;referencePriceVnd=472244700;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=5;fuel=none;operators=2-bac-8-10;referencePriceVnd=511242972;recoverableVatPercent=10;stateCode=M010.019;nonStateCode=M011.019
+MachineRate	MACHINE-M010.019	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.019	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.019	Changed	SourcePageTo	15	27
+MachineRate	MACHINE-M010.019	Changed	SourceSection	Phụ lục II, Bảng 01, M010.019	Phụ lục II, Bảng 01/03, M010.019/M011.019
+MachineRate	MACHINE-M010.020	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=7.5;otherPercent=5;fuel=none;operators=1-bac-5-10;referencePriceVnd=508012500;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=7.5;otherPercent=5;fuel=none;operators=none;referencePriceVnd=508012500;recoverableVatPercent=10;nonStateOperators=1-bac-5-10;stateCode=M010.020;nonStateCode=M011.020
+MachineRate	MACHINE-M010.020	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.020	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.020	Changed	SourcePageTo	15	27
+MachineRate	MACHINE-M010.020	Changed	SourceSection	Phụ lục II, Bảng 01, M010.020	Phụ lục II, Bảng 01/03, M010.020/M011.020
+MachineRate	MACHINE-M010.021	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=7.5;otherPercent=5;fuel=none;operators=2-bac-5-10;referencePriceVnd=489532000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=7.5;otherPercent=5;fuel=none;operators=2-bac-5-10;referencePriceVnd=489532000;recoverableVatPercent=10;stateCode=M010.021;nonStateCode=M011.021
+MachineRate	MACHINE-M010.021	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.021	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.021	Changed	SourcePageTo	15	27
+MachineRate	MACHINE-M010.021	Changed	SourceSection	Phụ lục II, Bảng 01, M010.021	Phụ lục II, Bảng 01/03, M010.021/M011.021
+MachineRate	MACHINE-M010.022	Changed	Data	annualShifts=230;depreciationPercent=11;repairPercent=5.2;otherPercent=6;fuel=44-lit-diesel;operators=1-bac-2;referencePriceVnd=258000000;recoverableVatPercent=10	annualShifts=230;depreciationPercent=11;repairPercent=5.2;otherPercent=6;fuel=44-lit-diesel;operators=1-si-quan+2-thuy-thu;referencePriceVnd=258000000;recoverableVatPercent=10;stateCode=M010.022;nonStateCode=M011.022
+MachineRate	MACHINE-M010.022	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.022	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.022	Changed	SourcePageTo	15	27
+MachineRate	MACHINE-M010.022	Changed	SourceSection	Phụ lục II, Bảng 01, M010.022	Phụ lục II, Bảng 01/03, M010.022/M011.022
+MachineRate	MACHINE-M010.023	Changed	Data	annualShifts=180;depreciationPercent=13;repairPercent=2;otherPercent=5;fuel=111-lit-diesel;operators=2-bac-8-10;referencePriceVnd=212000000;recoverableVatPercent=10	annualShifts=180;depreciationPercent=13;repairPercent=2;otherPercent=5;fuel=111-lit-diesel;operators=2-bac-8-10;referencePriceVnd=212000000;recoverableVatPercent=10;stateCode=M010.023;nonStateCode=M011.023
+MachineRate	MACHINE-M010.023	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.023	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.023	Changed	SourcePageTo	15	27
+MachineRate	MACHINE-M010.023	Changed	SourceSection	Phụ lục II, Bảng 01, M010.023	Phụ lục II, Bảng 01/03, M010.023/M011.023
+MachineRate	MACHINE-M010.024	Changed	Data	annualShifts=200;depreciationPercent=10;repairPercent=3;otherPercent=4;fuel=none;operators=1-bac-7-10;referencePriceVnd=1350000;recoverableVatPercent=0	annualShifts=200;depreciationPercent=10;repairPercent=3;otherPercent=4;fuel=none;operators=1-bac-7-10;referencePriceVnd=1350000;recoverableVatPercent=0;nonStateReferencePriceVnd=350000;stateCode=M010.024;nonStateCode=M011.024
+MachineRate	MACHINE-M010.024	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.024	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.024	Changed	SourcePageTo	15	28
+MachineRate	MACHINE-M010.024	Changed	SourceSection	Phụ lục II, Bảng 01, M010.024	Phụ lục II, Bảng 01/03, M010.024/M011.024
+MachineRate	MACHINE-M010.025	Changed	Data	annualShifts=258;depreciationPercent=11;repairPercent=5.2;otherPercent=6;fuel=none;operators=1-bac-7-10;referencePriceVnd=890000;recoverableVatPercent=0	annualShifts=258;depreciationPercent=11;repairPercent=5.2;otherPercent=6;fuel=none;operators=1-bac-7-10;referencePriceVnd=890000;recoverableVatPercent=0;stateCode=M010.025;nonStateCode=M011.025
+MachineRate	MACHINE-M010.025	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.025	Changed	SourcePageFrom	15	18
+MachineRate	MACHINE-M010.025	Changed	SourcePageTo	15	28
+MachineRate	MACHINE-M010.025	Changed	SourceSection	Phụ lục II, Bảng 01, M010.025	Phụ lục II, Bảng 01/03, M010.025/M011.025
+MachineRate	MACHINE-M010.026	Changed	Title	Máy điện hóa	Máy điểm hỏa
+MachineRate	MACHINE-M010.026	Changed	Data	annualShifts=258;depreciationPercent=11;repairPercent=5.2;otherPercent=6;fuel=none;operators=1-bac-7-10;referencePriceVnd=1230000;recoverableVatPercent=0	annualShifts=258;depreciationPercent=11;repairPercent=5.2;otherPercent=6;fuel=none;operators=1-bac-7-10;referencePriceVnd=1230000;recoverableVatPercent=0;stateCode=M010.026;nonStateCode=M011.026
+MachineRate	MACHINE-M010.026	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.026	Changed	SourcePageFrom	15	19
+MachineRate	MACHINE-M010.026	Changed	SourcePageTo	15	28
+MachineRate	MACHINE-M010.026	Changed	SourceSection	Phụ lục II, Bảng 01, M010.026	Phụ lục II, Bảng 01/03, M010.026/M011.026
+MachineRate	MACHINE-M010.027	Changed	Data	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=6;fuel=none;operators=2-bac-5-10;referencePriceVnd=63900000;recoverableVatPercent=10	annualShifts=258;depreciationPercent=25;repairPercent=10;otherPercent=6;fuel=60-lit-gasoline-E5-RON-92-II;operators=2-bac-5-10;referencePriceVnd=63900000;recoverableVatPercent=10;stateCode=M010.027;nonStateCode=M011.027
+MachineRate	MACHINE-M010.027	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.027	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.027	Changed	SourcePageTo	16	28
+MachineRate	MACHINE-M010.027	Changed	SourceSection	Phụ lục II, Bảng 01, M010.027	Phụ lục II, Bảng 01/03, M010.027/M011.027
+MachineRate	MACHINE-M010.028	Changed	Data	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=77160000;recoverableVatPercent=10	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=77160000;recoverableVatPercent=10;stateCode=M010.028;nonStateCode=M011.028
+MachineRate	MACHINE-M010.028	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.028	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.028	Changed	SourcePageTo	16	28
+MachineRate	MACHINE-M010.028	Changed	SourceSection	Phụ lục II, Bảng 01, M010.028	Phụ lục II, Bảng 01/03, M010.028/M011.028
+MachineRate	MACHINE-M010.029	Changed	Data	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=31576000;recoverableVatPercent=10	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=31576000;recoverableVatPercent=10;stateCode=M010.029;nonStateCode=M011.029
+MachineRate	MACHINE-M010.029	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.029	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.029	Changed	SourcePageTo	16	28
+MachineRate	MACHINE-M010.029	Changed	SourceSection	Phụ lục II, Bảng 01, M010.029	Phụ lục II, Bảng 01/03, M010.029/M011.029
+MachineRate	MACHINE-M010.030	Changed	Data	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=32775000;recoverableVatPercent=10	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=32775000;recoverableVatPercent=10;stateCode=M010.030;nonStateCode=M011.030
+MachineRate	MACHINE-M010.030	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.030	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.030	Changed	SourcePageTo	16	28
+MachineRate	MACHINE-M010.030	Changed	SourceSection	Phụ lục II, Bảng 01, M010.030	Phụ lục II, Bảng 01/03, M010.030/M011.030
+MachineRate	MACHINE-M010.031	Changed	Data	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=34856000;recoverableVatPercent=10	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=34856000;recoverableVatPercent=10;stateCode=M010.031;nonStateCode=M011.031
+MachineRate	MACHINE-M010.031	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.031	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.031	Changed	SourcePageTo	16	29
+MachineRate	MACHINE-M010.031	Changed	SourceSection	Phụ lục II, Bảng 01, M010.031	Phụ lục II, Bảng 01/03, M010.031/M011.031
+MachineRate	MACHINE-M010.032	Changed	Data	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=35453000;recoverableVatPercent=10	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=35453000;recoverableVatPercent=10;stateCode=M010.032;nonStateCode=M011.032
+MachineRate	MACHINE-M010.032	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.032	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.032	Changed	SourcePageTo	16	29
+MachineRate	MACHINE-M010.032	Changed	SourceSection	Phụ lục II, Bảng 01, M010.032	Phụ lục II, Bảng 01/03, M010.032/M011.032
+MachineRate	MACHINE-M010.033	Changed	Data	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=36862000;recoverableVatPercent=10	annualShifts=170;depreciationPercent=25;repairPercent=7.5;otherPercent=8;fuel=none;operators=2-bac-8-10;referencePriceVnd=36862000;recoverableVatPercent=10;stateCode=M010.033;nonStateCode=M011.033
+MachineRate	MACHINE-M010.033	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+MachineRate	MACHINE-M010.033	Changed	SourcePageFrom	16	19
+MachineRate	MACHINE-M010.033	Changed	SourcePageTo	16	29
+MachineRate	MACHINE-M010.033	Changed	SourceSection	Phụ lục II, Bảng 01, M010.033	Phụ lục II, Bảng 01/03, M010.033/M011.033
+Geography	GEO-DENSITY-CLASS-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-DENSITY-CLASS-1	Changed	SourcePageFrom	4	5
+Geography	GEO-DENSITY-CLASS-1	Changed	SourcePageTo	4	5
+Geography	GEO-DENSITY-CLASS-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-DENSITY-CLASS-2	Changed	SourcePageFrom	4	5
+Geography	GEO-DENSITY-CLASS-2	Changed	SourcePageTo	4	5
+Geography	GEO-DENSITY-CLASS-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-DENSITY-CLASS-3	Changed	SourcePageFrom	4	5
+Geography	GEO-DENSITY-CLASS-3	Changed	SourcePageTo	4	5
+Geography	GEO-DENSITY-CLASS-4	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-DENSITY-CLASS-4	Changed	SourcePageFrom	4	5
+Geography	GEO-DENSITY-CLASS-4	Changed	SourcePageTo	4	5
+Geography	GEO-DENSITY-CLASS-SPECIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-DENSITY-CLASS-SPECIAL	Changed	SourcePageFrom	4	5
+Geography	GEO-DENSITY-CLASS-SPECIAL	Changed	SourcePageTo	4	5
+Geography	GEO-FOREST-CLASS-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-FOREST-CLASS-1	Changed	SourcePageFrom	7	15
+Geography	GEO-FOREST-CLASS-1	Changed	SourcePageTo	7	16
+Geography	GEO-FOREST-CLASS-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-FOREST-CLASS-2	Changed	SourcePageFrom	7	15
+Geography	GEO-FOREST-CLASS-2	Changed	SourcePageTo	7	16
+Geography	GEO-FOREST-CLASS-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-FOREST-CLASS-3	Changed	SourcePageFrom	7	15
+Geography	GEO-FOREST-CLASS-3	Changed	SourcePageTo	7	16
+Geography	GEO-FOREST-CLASS-4	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-FOREST-CLASS-4	Changed	SourcePageFrom	7	15
+Geography	GEO-FOREST-CLASS-4	Changed	SourcePageTo	7	16
+Geography	GEO-LAND-SIGNAL-SPECIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-SIGNAL-SPECIAL	Changed	SourcePageFrom	6	14
+Geography	GEO-LAND-SIGNAL-SPECIAL	Changed	SourcePageTo	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-SIGNAL-ZONE-1	Changed	SourcePageFrom	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-1	Changed	SourcePageTo	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-SIGNAL-ZONE-2	Changed	SourcePageFrom	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-2	Changed	SourcePageTo	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-SIGNAL-ZONE-3	Changed	SourcePageFrom	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-3	Changed	SourcePageTo	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-4	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-SIGNAL-ZONE-4	Changed	SourcePageFrom	6	14
+Geography	GEO-LAND-SIGNAL-ZONE-4	Changed	SourcePageTo	6	14
+Geography	GEO-LAND-ZONE-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-ZONE-1	Changed	SourcePageFrom	4	5
+Geography	GEO-LAND-ZONE-1	Changed	SourcePageTo	5	14
+Geography	GEO-LAND-ZONE-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-ZONE-2	Changed	SourcePageTo	5	14
+Geography	GEO-LAND-ZONE-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-ZONE-3	Changed	SourcePageFrom	4	5
+Geography	GEO-LAND-ZONE-3	Changed	SourcePageTo	4	14
+Geography	GEO-LAND-ZONE-4	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-LAND-ZONE-4	Changed	SourcePageFrom	4	5
+Geography	GEO-LAND-ZONE-4	Changed	SourcePageTo	4	14
+Geography	GEO-LOCALITY-AN-GIANG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-AN-GIANG	Added	Unit		locality
+Geography	GEO-LOCALITY-AN-GIANG	Added	Title		Phân vùng địa bàn An Giang
+Geography	GEO-LOCALITY-AN-GIANG	Added	Data		tableRow=32;province=An Giang;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-AN-GIANG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-AN-GIANG	Added	SourcePageFrom		13
+Geography	GEO-LOCALITY-AN-GIANG	Added	SourcePageTo		13
+Geography	GEO-LOCALITY-AN-GIANG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 32 - An Giang
+Geography	GEO-LOCALITY-AN-GIANG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-BAC-NINH	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-BAC-NINH	Added	Unit		locality
+Geography	GEO-LOCALITY-BAC-NINH	Added	Title		Phân vùng địa bàn Bắc Ninh
+Geography	GEO-LOCALITY-BAC-NINH	Added	Data		tableRow=3;province=Bắc Ninh;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-BAC-NINH	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-BAC-NINH	Added	SourcePageFrom		5
+Geography	GEO-LOCALITY-BAC-NINH	Added	SourcePageTo		5
+Geography	GEO-LOCALITY-BAC-NINH	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 3 - Bắc Ninh
+Geography	GEO-LOCALITY-BAC-NINH	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-CA-MAU	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-CA-MAU	Added	Unit		locality
+Geography	GEO-LOCALITY-CA-MAU	Added	Title		Phân vùng địa bàn Cà Mau
+Geography	GEO-LOCALITY-CA-MAU	Added	Data		tableRow=33;province=Cà Mau;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-CA-MAU	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-CA-MAU	Added	SourcePageFrom		14
+Geography	GEO-LOCALITY-CA-MAU	Added	SourcePageTo		14
+Geography	GEO-LOCALITY-CA-MAU	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 33 - Cà Mau
+Geography	GEO-LOCALITY-CA-MAU	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-CAN-THO	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-CAN-THO	Added	Unit		locality
+Geography	GEO-LOCALITY-CAN-THO	Added	Title		Phân vùng địa bàn Cần Thơ
+Geography	GEO-LOCALITY-CAN-THO	Added	Data		tableRow=30;province=Cần Thơ;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-CAN-THO	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-CAN-THO	Added	SourcePageFrom		13
+Geography	GEO-LOCALITY-CAN-THO	Added	SourcePageTo		13
+Geography	GEO-LOCALITY-CAN-THO	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 30 - Cần Thơ
+Geography	GEO-LOCALITY-CAN-THO	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-CAO-BANG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-CAO-BANG	Added	Unit		locality
+Geography	GEO-LOCALITY-CAO-BANG	Added	Title		Phân vùng địa bàn Cao Bằng
+Geography	GEO-LOCALITY-CAO-BANG	Added	Data		tableRow=2;province=Cao Bằng;zones=4,3,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-CAO-BANG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-CAO-BANG	Added	SourcePageFrom		5
+Geography	GEO-LOCALITY-CAO-BANG	Added	SourcePageTo		5
+Geography	GEO-LOCALITY-CAO-BANG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 2 - Cao Bằng
+Geography	GEO-LOCALITY-CAO-BANG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DA-NANG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-DA-NANG	Added	Unit		locality
+Geography	GEO-LOCALITY-DA-NANG	Added	Title		Phân vùng địa bàn Thành phố Đà Nẵng
+Geography	GEO-LOCALITY-DA-NANG	Added	Data		tableRow=20;province=Thành phố Đà Nẵng;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-DA-NANG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-DA-NANG	Added	SourcePageFrom		9
+Geography	GEO-LOCALITY-DA-NANG	Added	SourcePageTo		10
+Geography	GEO-LOCALITY-DA-NANG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 20 - Thành phố Đà Nẵng
+Geography	GEO-LOCALITY-DA-NANG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DAK-LAK	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-DAK-LAK	Added	Unit		locality
+Geography	GEO-LOCALITY-DAK-LAK	Added	Title		Phân vùng địa bàn Đắk Lắk
+Geography	GEO-LOCALITY-DAK-LAK	Added	Data		tableRow=23;province=Đắk Lắk;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-DAK-LAK	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-DAK-LAK	Added	SourcePageFrom		11
+Geography	GEO-LOCALITY-DAK-LAK	Added	SourcePageTo		11
+Geography	GEO-LOCALITY-DAK-LAK	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 23 - Đắk Lắk
+Geography	GEO-LOCALITY-DAK-LAK	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	Unit		locality
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	Title		Phân vùng địa bàn Điện Biên
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	Data		tableRow=8;province=Điện Biên;zones=3,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 8 - Điện Biên
+Geography	GEO-LOCALITY-DIEN-BIEN	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DONG-NAI	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-DONG-NAI	Added	Unit		locality
+Geography	GEO-LOCALITY-DONG-NAI	Added	Title		Phân vùng địa bàn Đồng Nai
+Geography	GEO-LOCALITY-DONG-NAI	Added	Data		tableRow=26;province=Đồng Nai;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-DONG-NAI	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-DONG-NAI	Added	SourcePageFrom		12
+Geography	GEO-LOCALITY-DONG-NAI	Added	SourcePageTo		12
+Geography	GEO-LOCALITY-DONG-NAI	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 26 - Đồng Nai
+Geography	GEO-LOCALITY-DONG-NAI	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-DONG-THAP	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-DONG-THAP	Added	Unit		locality
+Geography	GEO-LOCALITY-DONG-THAP	Added	Title		Phân vùng địa bàn Đồng Tháp
+Geography	GEO-LOCALITY-DONG-THAP	Added	Data		tableRow=29;province=Đồng Tháp;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-DONG-THAP	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-DONG-THAP	Added	SourcePageFrom		12
+Geography	GEO-LOCALITY-DONG-THAP	Added	SourcePageTo		13
+Geography	GEO-LOCALITY-DONG-THAP	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 29 - Đồng Tháp
+Geography	GEO-LOCALITY-DONG-THAP	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-GIA-LAI	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-GIA-LAI	Added	Unit		locality
+Geography	GEO-LOCALITY-GIA-LAI	Added	Title		Phân vùng địa bàn Gia Lai
+Geography	GEO-LOCALITY-GIA-LAI	Added	Data		tableRow=22;province=Gia Lai;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-GIA-LAI	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-GIA-LAI	Added	SourcePageFrom		10
+Geography	GEO-LOCALITY-GIA-LAI	Added	SourcePageTo		11
+Geography	GEO-LOCALITY-GIA-LAI	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 22 - Gia Lai
+Geography	GEO-LOCALITY-GIA-LAI	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HA-NOI	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-HA-NOI	Added	Unit		locality
+Geography	GEO-LOCALITY-HA-NOI	Added	Title		Phân vùng địa bàn Thành phố Hà Nội
+Geography	GEO-LOCALITY-HA-NOI	Added	Data		tableRow=34;province=Thành phố Hà Nội;zones=1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-HA-NOI	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-HA-NOI	Added	SourcePageFrom		14
+Geography	GEO-LOCALITY-HA-NOI	Added	SourcePageTo		14
+Geography	GEO-LOCALITY-HA-NOI	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 34 - Thành phố Hà Nội
+Geography	GEO-LOCALITY-HA-NOI	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HA-TINH	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-HA-TINH	Added	Unit		locality
+Geography	GEO-LOCALITY-HA-TINH	Added	Title		Phân vùng địa bàn Hà Tĩnh
+Geography	GEO-LOCALITY-HA-TINH	Added	Data		tableRow=17;province=Hà Tĩnh;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-HA-TINH	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-HA-TINH	Added	SourcePageFrom		8
+Geography	GEO-LOCALITY-HA-TINH	Added	SourcePageTo		9
+Geography	GEO-LOCALITY-HA-TINH	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 17 - Hà Tĩnh
+Geography	GEO-LOCALITY-HA-TINH	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HAI-PHONG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-HAI-PHONG	Added	Unit		locality
+Geography	GEO-LOCALITY-HAI-PHONG	Added	Title		Phân vùng địa bàn Thành phố Hải Phòng
+Geography	GEO-LOCALITY-HAI-PHONG	Added	Data		tableRow=12;province=Thành phố Hải Phòng;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-HAI-PHONG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-HAI-PHONG	Added	SourcePageFrom		7
+Geography	GEO-LOCALITY-HAI-PHONG	Added	SourcePageTo		7
+Geography	GEO-LOCALITY-HAI-PHONG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 12 - Thành phố Hải Phòng
+Geography	GEO-LOCALITY-HAI-PHONG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	Unit		locality
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	Title		Phân vùng địa bàn Thành phố Hồ Chí Minh
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	Data		tableRow=28;province=Thành phố Hồ Chí Minh;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	SourcePageFrom		12
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	SourcePageTo		12
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 28 - Thành phố Hồ Chí Minh
+Geography	GEO-LOCALITY-HO-CHI-MINH	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HUE	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-HUE	Added	Unit		locality
+Geography	GEO-LOCALITY-HUE	Added	Title		Phân vùng địa bàn Thành phố Huế
+Geography	GEO-LOCALITY-HUE	Added	Data		tableRow=19;province=Thành phố Huế;zones=4,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-HUE	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-HUE	Added	SourcePageFrom		9
+Geography	GEO-LOCALITY-HUE	Added	SourcePageTo		9
+Geography	GEO-LOCALITY-HUE	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 19 - Thành phố Huế
+Geography	GEO-LOCALITY-HUE	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-HUNG-YEN	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-HUNG-YEN	Added	Unit		locality
+Geography	GEO-LOCALITY-HUNG-YEN	Added	Title		Phân vùng địa bàn Hưng Yên
+Geography	GEO-LOCALITY-HUNG-YEN	Added	Data		tableRow=13;province=Hưng Yên;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-HUNG-YEN	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-HUNG-YEN	Added	SourcePageFrom		7
+Geography	GEO-LOCALITY-HUNG-YEN	Added	SourcePageTo		7
+Geography	GEO-LOCALITY-HUNG-YEN	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 13 - Hưng Yên
+Geography	GEO-LOCALITY-HUNG-YEN	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-KHANH-HOA	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-KHANH-HOA	Added	Unit		locality
+Geography	GEO-LOCALITY-KHANH-HOA	Added	Title		Phân vùng địa bàn Khánh Hòa
+Geography	GEO-LOCALITY-KHANH-HOA	Added	Data		tableRow=24;province=Khánh Hòa;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-KHANH-HOA	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-KHANH-HOA	Added	SourcePageFrom		11
+Geography	GEO-LOCALITY-KHANH-HOA	Added	SourcePageTo		11
+Geography	GEO-LOCALITY-KHANH-HOA	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 24 - Khánh Hòa
+Geography	GEO-LOCALITY-KHANH-HOA	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LAI-CHAU	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-LAI-CHAU	Added	Unit		locality
+Geography	GEO-LOCALITY-LAI-CHAU	Added	Title		Phân vùng địa bàn Lai Châu
+Geography	GEO-LOCALITY-LAI-CHAU	Added	Data		tableRow=7;province=Lai Châu;zones=3,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-LAI-CHAU	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-LAI-CHAU	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-LAI-CHAU	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-LAI-CHAU	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 7 - Lai Châu
+Geography	GEO-LOCALITY-LAI-CHAU	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LAM-DONG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-LAM-DONG	Added	Unit		locality
+Geography	GEO-LOCALITY-LAM-DONG	Added	Title		Phân vùng địa bàn Lâm Đồng
+Geography	GEO-LOCALITY-LAM-DONG	Added	Data		tableRow=25;province=Lâm Đồng;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-LAM-DONG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-LAM-DONG	Added	SourcePageFrom		11
+Geography	GEO-LOCALITY-LAM-DONG	Added	SourcePageTo		11
+Geography	GEO-LOCALITY-LAM-DONG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 25 - Lâm Đồng
+Geography	GEO-LOCALITY-LAM-DONG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LANG-SON	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-LANG-SON	Added	Unit		locality
+Geography	GEO-LOCALITY-LANG-SON	Added	Title		Phân vùng địa bàn Lạng Sơn
+Geography	GEO-LOCALITY-LANG-SON	Added	Data		tableRow=1;province=Lạng Sơn;zones=4,3,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-LANG-SON	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-LANG-SON	Added	SourcePageFrom		5
+Geography	GEO-LOCALITY-LANG-SON	Added	SourcePageTo		5
+Geography	GEO-LOCALITY-LANG-SON	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 1 - Lạng Sơn
+Geography	GEO-LOCALITY-LANG-SON	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-LAO-CAI	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-LAO-CAI	Added	Unit		locality
+Geography	GEO-LOCALITY-LAO-CAI	Added	Title		Phân vùng địa bàn Lào Cai
+Geography	GEO-LOCALITY-LAO-CAI	Added	Data		tableRow=6;province=Lào Cai;zones=3,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-LAO-CAI	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-LAO-CAI	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-LAO-CAI	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-LAO-CAI	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 6 - Lào Cai
+Geography	GEO-LOCALITY-LAO-CAI	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-NGHE-AN	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-NGHE-AN	Added	Unit		locality
+Geography	GEO-LOCALITY-NGHE-AN	Added	Title		Phân vùng địa bàn Nghệ An
+Geography	GEO-LOCALITY-NGHE-AN	Added	Data		tableRow=16;province=Nghệ An;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-NGHE-AN	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-NGHE-AN	Added	SourcePageFrom		8
+Geography	GEO-LOCALITY-NGHE-AN	Added	SourcePageTo		8
+Geography	GEO-LOCALITY-NGHE-AN	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 16 - Nghệ An
+Geography	GEO-LOCALITY-NGHE-AN	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-NINH-BINH	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-NINH-BINH	Added	Unit		locality
+Geography	GEO-LOCALITY-NINH-BINH	Added	Title		Phân vùng địa bàn Ninh Bình
+Geography	GEO-LOCALITY-NINH-BINH	Added	Data		tableRow=14;province=Ninh Bình;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-NINH-BINH	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-NINH-BINH	Added	SourcePageFrom		7
+Geography	GEO-LOCALITY-NINH-BINH	Added	SourcePageTo		7
+Geography	GEO-LOCALITY-NINH-BINH	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 14 - Ninh Bình
+Geography	GEO-LOCALITY-NINH-BINH	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-PHU-THO	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-PHU-THO	Added	Unit		locality
+Geography	GEO-LOCALITY-PHU-THO	Added	Title		Phân vùng địa bàn Phú Thọ
+Geography	GEO-LOCALITY-PHU-THO	Added	Data		tableRow=10;province=Phú Thọ;zones=1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-PHU-THO	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-PHU-THO	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-PHU-THO	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-PHU-THO	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 10 - Phú Thọ
+Geography	GEO-LOCALITY-PHU-THO	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	Unit		locality
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	Title		Phân vùng địa bàn Quảng Ngãi
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	Data		tableRow=21;province=Quảng Ngãi;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	SourcePageFrom		10
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	SourcePageTo		10
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 21 - Quảng Ngãi
+Geography	GEO-LOCALITY-QUANG-NGAI	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-QUANG-NINH	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-QUANG-NINH	Added	Unit		locality
+Geography	GEO-LOCALITY-QUANG-NINH	Added	Title		Phân vùng địa bàn Quảng Ninh
+Geography	GEO-LOCALITY-QUANG-NINH	Added	Data		tableRow=11;province=Quảng Ninh;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-QUANG-NINH	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-QUANG-NINH	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-QUANG-NINH	Added	SourcePageTo		7
+Geography	GEO-LOCALITY-QUANG-NINH	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 11 - Quảng Ninh
+Geography	GEO-LOCALITY-QUANG-NINH	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-QUANG-TRI	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-QUANG-TRI	Added	Unit		locality
+Geography	GEO-LOCALITY-QUANG-TRI	Added	Title		Phân vùng địa bàn Quảng Trị
+Geography	GEO-LOCALITY-QUANG-TRI	Added	Data		tableRow=18;province=Quảng Trị;zones=4,3,2;fallbackZone=3;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-QUANG-TRI	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-QUANG-TRI	Added	SourcePageFrom		9
+Geography	GEO-LOCALITY-QUANG-TRI	Added	SourcePageTo		9
+Geography	GEO-LOCALITY-QUANG-TRI	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 18 - Quảng Trị
+Geography	GEO-LOCALITY-QUANG-TRI	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-SON-LA	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-SON-LA	Added	Unit		locality
+Geography	GEO-LOCALITY-SON-LA	Added	Title		Phân vùng địa bàn Sơn La
+Geography	GEO-LOCALITY-SON-LA	Added	Data		tableRow=9;province=Sơn La;zones=1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-SON-LA	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-SON-LA	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-SON-LA	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-SON-LA	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 9 - Sơn La
+Geography	GEO-LOCALITY-SON-LA	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-TAY-NINH	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-TAY-NINH	Added	Unit		locality
+Geography	GEO-LOCALITY-TAY-NINH	Added	Title		Phân vùng địa bàn Tây Ninh
+Geography	GEO-LOCALITY-TAY-NINH	Added	Data		tableRow=27;province=Tây Ninh;zones=3,2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-TAY-NINH	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-TAY-NINH	Added	SourcePageFrom		12
+Geography	GEO-LOCALITY-TAY-NINH	Added	SourcePageTo		12
+Geography	GEO-LOCALITY-TAY-NINH	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 27 - Tây Ninh
+Geography	GEO-LOCALITY-TAY-NINH	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	Unit		locality
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	Title		Phân vùng địa bàn Thái Nguyên
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	Data		tableRow=4;province=Thái Nguyên;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	SourcePageFrom		5
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 4 - Thái Nguyên
+Geography	GEO-LOCALITY-THAI-NGUYEN	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-THANH-HOA	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-THANH-HOA	Added	Unit		locality
+Geography	GEO-LOCALITY-THANH-HOA	Added	Title		Phân vùng địa bàn Thanh Hóa
+Geography	GEO-LOCALITY-THANH-HOA	Added	Data		tableRow=15;province=Thanh Hóa;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-THANH-HOA	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-THANH-HOA	Added	SourcePageFrom		7
+Geography	GEO-LOCALITY-THANH-HOA	Added	SourcePageTo		8
+Geography	GEO-LOCALITY-THANH-HOA	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 15 - Thanh Hóa
+Geography	GEO-LOCALITY-THANH-HOA	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	Unit		locality
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	Title		Phân vùng địa bàn Tuyên Quang
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	Data		tableRow=5;province=Tuyên Quang;zones=4,3,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	SourcePageFrom		6
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	SourcePageTo		6
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 5 - Tuyên Quang
+Geography	GEO-LOCALITY-TUYEN-QUANG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-LOCALITY-VINH-LONG	Added	RecordType		LocalityZoneAssignment
+Geography	GEO-LOCALITY-VINH-LONG	Added	Unit		locality
+Geography	GEO-LOCALITY-VINH-LONG	Added	Title		Phân vùng địa bàn Vĩnh Long
+Geography	GEO-LOCALITY-VINH-LONG	Added	Data		tableRow=31;province=Vĩnh Long;zones=2,1;fallbackZone=1;resolution=explicit-locality-first-then-fallback;conflictRule=highest-zone-priority
+Geography	GEO-LOCALITY-VINH-LONG	Added	SourceDocumentId		VBHN97-2025-BQP
+Geography	GEO-LOCALITY-VINH-LONG	Added	SourcePageFrom		13
+Geography	GEO-LOCALITY-VINH-LONG	Added	SourcePageTo		13
+Geography	GEO-LOCALITY-VINH-LONG	Added	SourceSection		Phụ lục I, Phần I, mục 4a, dòng 31 - Vĩnh Long
+Geography	GEO-LOCALITY-VINH-LONG	Added	Verification		VerifiedAgainstOfficialSource
+Geography	GEO-SEA-SIGNAL-SPECIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-SIGNAL-SPECIAL	Changed	SourcePageFrom	7	15
+Geography	GEO-SEA-SIGNAL-SPECIAL	Changed	SourcePageTo	7	15
+Geography	GEO-SEA-SIGNAL-ZONE-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-SIGNAL-ZONE-1	Changed	SourcePageFrom	7	15
+Geography	GEO-SEA-SIGNAL-ZONE-1	Changed	SourcePageTo	7	15
+Geography	GEO-SEA-SIGNAL-ZONE-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-SIGNAL-ZONE-2	Changed	SourcePageFrom	7	15
+Geography	GEO-SEA-SIGNAL-ZONE-2	Changed	SourcePageTo	7	15
+Geography	GEO-SEA-SIGNAL-ZONE-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-SIGNAL-ZONE-3	Changed	SourcePageFrom	7	15
+Geography	GEO-SEA-SIGNAL-ZONE-3	Changed	SourcePageTo	7	15
+Geography	GEO-SEA-ZONE-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-ZONE-1	Changed	SourcePageFrom	6	14
+Geography	GEO-SEA-ZONE-1	Changed	SourcePageTo	6	14
+Geography	GEO-SEA-ZONE-2	Changed	Data	priority=2;provinces=Thanh-Hoa,Nghe-An,Thua-Thien-Hue,Da-Nang,Binh-Dinh,Ba-Ria-Vung-Tau,Ca-Mau,Kien-Giang	priority=2;provinces=Thanh-Hoa,Nghe-An,Hue,Gia-Lai,Da-Nang,Ho-Chi-Minh,Ca-Mau,An-Giang
+Geography	GEO-SEA-ZONE-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-ZONE-2	Changed	SourcePageFrom	6	14
+Geography	GEO-SEA-ZONE-2	Changed	SourcePageTo	6	14
+Geography	GEO-SEA-ZONE-3	Changed	Data	priority=3;provinces=Quang-Ninh,Hai-Phong,Quang-Tri,Ha-Tinh,Quang-Binh	priority=3;provinces=Quang-Ninh,Hai-Phong,Ha-Tinh,Quang-Tri
+Geography	GEO-SEA-ZONE-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-ZONE-3	Changed	SourcePageFrom	6	14
+Geography	GEO-SEA-ZONE-3	Changed	SourcePageTo	6	14
+Geography	GEO-SEA-ZONE-SPECIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SEA-ZONE-SPECIAL	Changed	SourcePageFrom	6	14
+Geography	GEO-SEA-ZONE-SPECIAL	Changed	SourcePageTo	6	14
+Geography	GEO-SOIL-CLASS-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SOIL-CLASS-1	Changed	SourcePageFrom	8	16
+Geography	GEO-SOIL-CLASS-1	Changed	SourcePageTo	8	18
+Geography	GEO-SOIL-CLASS-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SOIL-CLASS-2	Changed	SourcePageFrom	8	16
+Geography	GEO-SOIL-CLASS-2	Changed	SourcePageTo	9	18
+Geography	GEO-SOIL-CLASS-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SOIL-CLASS-3	Changed	SourcePageFrom	9	16
+Geography	GEO-SOIL-CLASS-3	Changed	SourcePageTo	9	18
+Geography	GEO-SOIL-CLASS-4	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-SOIL-CLASS-4	Changed	SourcePageFrom	9	16
+Geography	GEO-SOIL-CLASS-4	Changed	SourcePageTo	9	18
+Geography	GEO-WATER-SIGNAL-SPECIAL	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-WATER-SIGNAL-SPECIAL	Changed	SourcePageFrom	6	15
+Geography	GEO-WATER-SIGNAL-SPECIAL	Changed	SourcePageTo	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-1	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-WATER-SIGNAL-ZONE-1	Changed	SourcePageFrom	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-1	Changed	SourcePageTo	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-2	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-WATER-SIGNAL-ZONE-2	Changed	SourcePageFrom	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-2	Changed	SourcePageTo	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-3	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-WATER-SIGNAL-ZONE-3	Changed	SourcePageFrom	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-3	Changed	SourcePageTo	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-4	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Geography	GEO-WATER-SIGNAL-ZONE-4	Changed	SourcePageFrom	6	15
+Geography	GEO-WATER-SIGNAL-ZONE-4	Changed	SourcePageTo	6	15
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	RecordType		TechnicalComplianceRule
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	Unit		document
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	Title		QCVN 01:2022/BQP đã hợp nhất với sửa đổi năm 2025
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	Data		resolvedDocument=VBHN98-2025-BQP;baseStandard=QCVN-01-2022-BQP;amendedBy=TT101-2025-BQP-Article-5
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	SourceDocumentId		VBHN98-2025-BQP
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	SourcePageFrom		1
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	SourcePageTo		6
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	SourceSection		Phần mở đầu và QCVN 01:2022/BQP
+Compliance	COMPLIANCE-QCVN01-2022-RESOLVED	Added	Verification		VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	RecordType		EffectiveRule
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	Unit		date
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	Title		Hiệu lực Thông tư 101/2025/TT-BQP
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	Data		effectiveFrom=2025-10-28;status=effective
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	SourceDocumentId		TT101-2025-BQP
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	SourcePageFrom		18
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	SourcePageTo		18
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	SourceSection		Điều 7
+Compliance	COMPLIANCE-TT101-EFFECTIVE	Added	Verification		VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	RecordType		TransitionRule
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	Unit		date
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	Title		Chuyển tiếp phương án kỹ thuật thi công và dự toán đã phê duyệt
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	Data		cutoverDate=2025-10-28;approvedBeforeCutover=keep-approved-design-and-estimate;ruleId=BQP-TT101-2025-ARTICLE-6
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	SourceDocumentId		TT101-2025-BQP
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	SourcePageFrom		17
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	SourcePageTo		18
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	SourceSection		Điều 6
+Compliance	COMPLIANCE-TT101-TRANSITION	Added	Verification		VerifiedAgainstOfficialSource
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	Title	Hiệu lực Quy trình kỹ thuật 2021	Hiệu lực quy trình kỹ thuật đã hợp nhất
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	Data	effectiveFrom=2021-11-05;package=BQP-RPBM-2021	baseEffectiveFrom=2021-11-05;amendmentEffectiveFrom=2025-10-28;resolvedDocument=VBHN95-2025-BQP
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	SourceDocumentId	TT121-2021-BQP	VBHN95-2025-BQP
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	SourcePageFrom	34	1
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	SourcePageTo	34	2
+Compliance	COMPLIANCE-TT121-EFFECTIVE	Changed	SourceSection	Điều khoản thi hành	Phần mở đầu văn bản hợp nhất 95/VBHN-BQP
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	Title	Hiệu lực phương pháp xác định giá ca máy 2021	Hiệu lực đơn giá ca máy đã hợp nhất
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	Data	effectiveFrom=2021-11-05;package=BQP-RPBM-2021	baseEffectiveFrom=2021-11-05;amendmentEffectiveFrom=2025-10-28;resolvedDocument=VBHN96-2025-BQP
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	SourceDocumentId	TT122-2021-BQP	VBHN96-2025-BQP
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	SourcePageFrom	3	1
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	SourcePageTo	3	2
+Compliance	COMPLIANCE-TT122-EFFECTIVE	Changed	SourceSection	Điều 8	Phần mở đầu văn bản hợp nhất 96/VBHN-BQP
+Compliance	COMPLIANCE-TT123-EFFECTIVE	Changed	Title	Hiệu lực định mức dự toán và quản lý chi phí 2021	Hiệu lực định mức và quản lý chi phí đã hợp nhất
+Compliance	COMPLIANCE-TT123-EFFECTIVE	Changed	Data	effectiveFrom=2021-11-05;package=BQP-RPBM-2021	baseEffectiveFrom=2021-11-05;amendmentEffectiveFrom=2025-10-28;resolvedDocument=VBHN97-2025-BQP
+Compliance	COMPLIANCE-TT123-EFFECTIVE	Changed	SourceDocumentId	TT123-2021-BQP	VBHN97-2025-BQP
+Compliance	COMPLIANCE-TT123-EFFECTIVE	Changed	SourcePageFrom	2	1
+Compliance	COMPLIANCE-TT123-EFFECTIVE	Changed	SourceSection	Điều khoản thi hành	Phần mở đầu văn bản hợp nhất 97/VBHN-BQP
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	RecordType		GovernanceRule
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	Unit		document
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	Title		Quản lý hoạt động khắc phục hậu quả bom mìn vật nổ đã hợp nhất
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	Data		resolvedDocument=VBHN94-2025-BQP;baseDocument=TT195-2019-BQP;amendedBy=TT101-2025-BQP
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	SourceDocumentId		VBHN94-2025-BQP
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	SourcePageFrom		1
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	SourcePageTo		3
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	SourceSection		Phần mở đầu và Điều 1
+Compliance	COMPLIANCE-VBHN94-GOVERNANCE	Added	Verification		VerifiedAgainstOfficialSource

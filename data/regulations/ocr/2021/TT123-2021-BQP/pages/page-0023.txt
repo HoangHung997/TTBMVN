@@ -1,0 +1,49 @@
+21
+
+4. Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m tính từ đáy
+nước (MS: 030.0400)
+
+a) Thành phần công việc: sử dụng máy dò bom để xác định chính xác vị
+trí tín hiệu; thợ lặn mang thiết bị lặn,  khí tài công binh xăm tìm, đào bới tại điểm
+đã đánh dấu tín hiệu theo đúng yêu cầu kỹ thuật cho đến khi lộ toàn bộ vật gây
+tín hiệu. Kiểm tra xác định tín hiệu nếu là các vật nhiễm từ hoặc BMVN an toàn
+thì trục vớt lên bờ đưa vào nơi quy định, nếu là các loại BMVN không an toàn
+đánh dấu hoặc xử lý theo quy định.
+
+b) Định mức hao phí tính cho 1 tín hiệu
+
+ñ                         a       Pon          Độ sâu của nước (m)
+Mã sô           Thành phân hao phí            .
+vi |0⁄5+12| >12+22 | >22¬+25
+Nhân công:
+Bậc thợ QNCN 7/10                  Cong | 0,23           0,26            0,29
+Máy thi công:
+030.0400 L7 2# _
+Máy dò bom dưới nước             Ca      0,014        0,015         0,017
+Thiết bị lặn                              Ca | 0,193        0,212         0,233
+Thuyén composit                        Ca | 0207 | 0,227         0,250
+1              2               3
+
+Ghi chú: các yếu tố khác liên quan đến tính toán, lập dự toán áp dụng như Ghi chú tại
+khoản 1, Mục 3 Dinh mức dự toán này.
+
+5. Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu lớn hơn 0,5 m đến. 1m
+tính từ đáy nước (MS: 030.0500)
+
+a) Thành phần công việc: sử dụng máy dò bom để xác định chính xác vị
+trí tín hiệu; thợ lặn mang thiết bị lặn, khí tài công binh xăm tìm, sử dụng thiết bị
+xói và hút bùn cát đào bới tại điểm đã đánh dấu tín hiệu theo đúng yêu cầu kỹ
+thuật cho lộ toàn bộ vật gây tín hiệu. Kiểm tra xác định tín hiệu nếu là các vật
+nhiễm từ hoặc BMVN an toàn thì trục vớt lên bờ đưa vào nơi quy định, nếu là
+
+các loại BMVN không an toàn đánh dấu hoặc xử lý theo quy định.
+b) Định mức hao phí tính cho 1 tín hiệu
+
+.                |         A             ,          Pon          Độ sâu của nước (m)
+Mã sô       Thành phân hao phí       vị    05212] 212122 | 222725
+.Nhân công:
+Bậc thợ QNCN 7/10                    Cong | 0,23           0,26           0,29
+030.0500       TY
+May thi công:
+Máy dò bom dưới nước               Ca       0,014        0,015        0,017
+

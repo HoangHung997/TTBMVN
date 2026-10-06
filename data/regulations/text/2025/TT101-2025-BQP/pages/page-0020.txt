@@ -1,0 +1,39 @@
+2
+STT KỸ NĂNG KTV 
+CÁP 1
+KTV 
+CÁP 2
+KTV 
+CÁP 3
+2.2 Những nguyên tắc thiết lập mạch nổ X X X
+2.3 Những nguyên tắc tính toán lượng nổX X X
+2.4 Hiệu ứng nổ và các cách ứng dụng. X X X
+2.5 Các cách làm giảm thiểu hiệu ứng nổ.X X X
+2.6 Hiện tượng nổ lan của bom đạn X X
+2.7 Thiết bị nổ tự tạo và thuốc nổ tự chế X
+3 về các phương thức tiêu hủy
+3.1 Các cách gây nổ có dùng kíp điện và kíp 
+thường X X X
+3.2 Tiêu hủy bom mìn vật nổ bàng phương pháp 
+đốt X X X
+3.3 Tiêu hủy bom mìn vật nổ bàng phương pháp 
+hủy nổ X X X
+3.4 Tiêu hủy các vật nồ hỗn hợp với tổng trọng 
+lượng nhỏ hơn 50kg X X
+3.5 Tiêu hủy các vật nổ hỗn hợp với tồng trọng 
+lượng lớn hơn 50kg X
+4 về đảm bảo an toàn và ứng phó sự cố
+4.1 Kiến thức về an toàn cá nhân và an toàn cho 
+đồng đội X X X
+4.2 Kiến thức về an toàn thiết bị X X X
+4.3 Khoảng cách nổ an toàn X X X
+4.4 Các biện pháp bảo hộ - tuỳ theo chủng loại 
+bom mìn vật nổ X X X
+4.5 Các biện pháp bảo hộ khi xử lý chất nồ tự 
+điều chế X
+5 Lưu trữ và vận chuyển chất nổ
+5.1 Hiểu biết về các điều khoản pháp lý về y tế, 
+an toàn và chất nổ X X X
+5.2 Hiểu biết về các vấn đề môi trường X X X
+5.3 Hiểu biết về an toàn trong lĩnh vực chất nổX X X
+Ệ

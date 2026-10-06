@@ -1,0 +1,35 @@
+11
+lệ phần trăm (%) so với nguyên giá máy; phân bổ đều tỷ lệ % chi phí bảo dưỡng, 
+sửa chữa máy theo số năm đời máy.
+- Số ca làm việc trong năm của máy: khảo sát thu thập, tổng hợp số liệu về 
+thời gian sử dụng máy trong thực tế từ các hồ sơ, tài liệu liên quan đến thời gian 
+sử dụng máy gồm: nhật ký thi công dự án, báo cáo thống kê định kỳ về thời gian 
+sử dụng máy, các quy định và yêu cầu kỹ thuật về thời gian bảo dưỡng, sửa chữa 
+máy, số liệu thống kê về thời tiết ảnh hưởng đến thời gian làm việc của máy; 
+quy định về thời gian sử dụng và hoạt động cả đời máy trong tài liệu kỹ thuật 
+của máy hoặc do nhà sản xuất máy công bố... Bổ sung các yếu tố ảnh hưởng 
+đến số ca làm việc của máy trong năm theo những điều kiện cụ thể của dự án.
+- Định mức tiêu hao nhiên liệu, năng lượng: khảo sát số liệu mức nhiên 
+liệu, năng lượng của máy tiêu thụ phù hợp với thời gian làm việc thực tế của 
+máy trong ca; số liệu tính toán theo quy định trong tài liệu kỹ thuật của máy do 
+nhà sản xuất máy công bố về tiêu hao nhiên liệu, năng lượng khi máy hoạt độngề
+- Số lượng nhân công: khảo sát số lượng công nhân (kỹ thuật viên) điều 
+khiển máy, trình độ tay nghề bậc thợ; quy định về bậc thợ điều khiển máy do 
+nhà sản xuất máy công bố.
+- Định mức chi phí khác của máy: khảo sát thu thập, tổng họp số liệu về 
+chi phí khác của máy gồm các chi phí cần thiết để máy hoạt động bình thường, 
+có hiệu quả tại dự án; quy đổi giá trị khoản chi phí này theo tỷ lệ % so với giá 
+tính khấu hao của máy; phân bổ chi phí quản lý máy cho số năm đời máy.
+- Trường họp một trong định mức các hao phí xác định giá ca máy thiếu 
+số liệu khảo sát hoặc không đủ cơ sở, tài liệu để khảo sát số liệu thì tham khảo, 
+vận dụng, áp dụng quy định định mức của các loại máy có cùng tính năng kỹ 
+thuật nhưng khác về công suất hoặc thông số kỹ thuật chủ yếu tại Phụ lục II ban 
+hành kèm theo Thông tư này.
+c) Nội dung khảo sát xác định nguyên giá của máy:
+Nguyên giá của máy để làm căn cứ xác định giá ca máy được xác định 
+trên cơ sở:
+- Hợp đồng mua bán máy và các chi phí khác liên quan để đưa máy vào 
+trạng thái sẵn sàng hoạt động;
+- Báo giá của nhà cung cấp, cho thuê và các chi phí khác liên quan để đưa 
+máy vào trạng thái sẵn sàng hoạt động.
+d) Tổng hợp xử lý số liệu và tính toán xác định giá ca máy.

@@ -1,0 +1,52 @@
+2
+
+Biểu mẫu 01: Bảng tổng hợp dự toán điều tra, khảo sát #Ê_
+.... CONG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+..........s..?s?s..s.s..e.o.2.s.e..ss.s.eseoe“..
+
+TÊN ĐƠN VI...........                         Độc lập - Tw do - Hanh phúc
+., hgay..... thang... ... năm
+BANG TONG HỢP DỰ TOÁN
+Dự án:.............................5.565.555.
+Địa điểm:.         ...                ...553395552
+Hạng mục:  ; Điều tra, khảo sát
+ˆ       oA
+TT                 Hạng mục                  Ký hiệu             Cách tính           ng
+I | Chi phí trực tiếp
+1 |Chi phí vật liệu                             VL            Tông chi phi VL
+2 | Chi phí nhân công                         NC | Tong chi phí nhân công
+3 | Chi phí máy                                  M          . Tổng chi phí máy
+* | Cộng chỉ phí trực tiếp                     T                VL+NC+M
+II | Chi phí chung                            C         Tỉ lệ quy định * NC
+Cộng giá trị khảo sát                     Z                    T+C
+IV | Chỉ phí khác                                 K              K1+..Kđt...
+Chỉ phí lập phương án báo cáo                          .         .
+¡  kết quả khảo sát    :                        Kl           Tỷ lệ quy định * Z
+2 | Chi phí lán trại                            K2          Tỷ lệ quy định * T
+3 | Chi phí thâm định                         K3          Tỷ lệ quy định * Z
+4   Chi phí vận chuyên và tiêu hủy        K4          Tỷ lệ quy định * Z
+bom min vật nô
+Chi phí dự phòng (nêu có)                             Tỷ lệ quy định * Z
+... [Các chi phí khác (nêu có)                ...          Ti lệ theo quy định
+Cộng giá trị dự toán                     H                    Z+K
+Lam tron
+Bang chữ.......
+Ghi chu:
+
+- Bảng tổng hợp dự toán trên áp dụng đồi với công tác rà phá bom mìn là một dự
+án độc lập; dự án điều tra, khảo sát xác định khu vực 6 nhiễm bom min vật né và có thể
+áp dụng doi với dự án thuộc Nhóm I (tuy theo yêu cầu của chủ đầu tu).
+
+- Dự toán chỉ phí điều tra, khảo sát bom mìn vật nổ, chỉ phí chung, chỉ phí lập phương
+án, bdo cáo kết qua khảo sát, chỉ phí lán trại theo Thông tư của Bộ Xây dựng hướng dân xác
+
+định và quản lý chỉ phí đầu tư
+
+ĐẠI DIỆN ĐƠN VỊ LẬP DỰ TOÁN
+(Ký tên, đóng dau)
+
+xây dựng.
+
+ĐẠI DIỆN CHỦ ĐẦU TƯ
+(Ký tên, đóng dau)

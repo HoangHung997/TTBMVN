@@ -1,0 +1,39 @@
+2ẳ9.5.2.1. Hố thử không có mẫu tín hiệu:
+- Kích thước hố thử (Dài X Rộng X Sâu) là (2 X 2 X 1) m;
+- Hố thử không có vật chứa kim loại hay đất đá nhiễm từ;
+- Được đổ đầy đất hiện trường hoặc cát sạch;
+- Xung quanh hố thử phải được dọn sạch các vật có chứa kim loại đảm 
+bảo không ảnh hưởng đến việc thử máy;
+"Yêu cầu đạt được khi thử: Với máy dò mìn ở độ nhạy cao nhất máy không 
+báo có tín hiệu; đôi với máy dò bom ở độ nhạy 4 máy không báo có tín hiệuẵ
+2.9.5.2.2Ế  Hố thử có mẫu tín hiệu:
+- Kích thước hố thử (Dài X Rộng X Sâu) là (2 X 2 X 1) m;
+- Trong bãi thử và xung quanh bãi thử đã được dọn sạch các vật có chứa 
+kim loại đảm bảo không ảnh hưởng đến việc thử máy trước khi đặt mẫu thử và 
+đổ đầy cát sạch;
+- Mau thử: Đối với máy dò mìn, sử dụng mẫu thử tiêu chuẩn của nhà sản 
+xuất hoặc vật kim loại kích thước (37 X 60) mm chôn ở độ sâu 0,3 m; đối với 
+máy dò bom, sử dụng vật bằng sắưthép/gang (có từ tính) kích thước 
+(Dài X Rộng X Cao) là (100 X 100 X 500) mm chôn ở độ sâu 1 m;
+- Yêu cầu đạt được khi thử: Với máy dò mìn ở độ nhạy cao nhất, với máy 
+dò bom ở độ nhạy 4 máy báo có tín hiệu.
+2.9.6. Kho thuốc nổ, hỏa cụ
+Nơi cất giữ thuốc nổ và các loại hỏa cụ (kíp, dây cháy chậm) phải có biện 
+pháp, phương tiện bảo đảm an ninh, an toàn tin cậy và tuân thủ các quy định về 
+kho thuốc nổ, hỏa cụ theo QCVN 01:2019/BCT hoặc QCVN 11:2018/BQP.
+2.9.7. Vị trí bảo quản tạm thòi BMVN thu gom trong thi công
+Vị trí bảo quản tạm thời BMVN thu gom trong thi công tuân thủ quy định 
+tại 2.6.5.
+3. QUY ĐỊNH VÊ AN TOÀN
+3.1ẳ  Yêu cầu chung
+3ễlỄ lế Mọi hạng mục công việc trong hoạt động ĐT, KS, RPBM đều phải 
+triệt để tuân thủ các quy định, quy tắc an toàn được ban hành bởi cơ quan có 
+thấm quyền trên cơ sở phương án kỹ thuật thi công và kế hoạch thi công đã 
+được duyệt; các bước triển khai phải được tổ chức chặt chẽ, chỉ huy thống nhất 
+theo đúng trinh tự, đúng quy trình. Trong quá trình tổ chức thi công, nghiêm 
+cấm tự động thay đối quy trình kỹ thuật. Khi cần phải thay đổi một số bước 
+trong quy trình đã được duyệt thì phải được sự đồng ý của cấp có thẩm quyền 
+bằng văn bản.
+3.1.2. Khi chưa có đầy đủ các hồ sơ (tài liệu) phương án kỹ thuật thi công 
+được cấp có thấm quyền phê duyệt thì không được phép thi công.
+34

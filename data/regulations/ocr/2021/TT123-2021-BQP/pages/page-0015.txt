@@ -1,0 +1,48 @@
+13
+
+Ghi chú:  nếu tín hiệu là BMVN thì được cộng thêm 0,028 công dé thu gom, vận
+chuyển về nơi cất giữ cho 1 tín hiệu.
+
+4. Đào đất, kiểm tra, xử lý tín hiệu đến độ sâu 0,5 m (MS: 020.0400)
+
+a) Thành phần công việc: dùng máy dò mìn kết hợp thuốn, kiểm tra lại vị
+trí đã đánh dấu tín hiệu. Dùng dụng cụ cầm tay đào đúng yêu cầu kỹ thuật tại
+điểm có tín hiệu cho đến khi lộ toàn bộ vật gây tín hiệu. Kiểm tra xác định tín
+hiệu, thu gom chuyển về nơi quy định hoặc xử lý nếu BMVN không an toàn.
+
+b) Định mức hao phí tính cho cho 1 tín hiệu
+
+Mãsố | Thànhphầnhaophí | Đơn vị         Cấp đất tại vị trí tín hiệu
+|           "II           I          H | IV
+Nhân công:
+020.0400 | Bắc thợ QNCN 8/10           Công | 0,070 | 0,094 | 0,132 | 0,199
+May thi công:
+May dò min VMH3.CS         Ca | 0,014 | 0,014 | 0,014 | 0,014
+1            2           3            4
+
+Ghi chú: chú: nếu tín hiệu là BMVN thì được cộng thêm 0, 028 công đề thu gom, vận
+chuyển về nơi cất giữ cho 1 tín hiệu.
+
+5. Rà phá bom mìn vật nỗ bằng máy dò bom ở độ sâu từ lớn hơn
+0,3 m đến 1 m, đến 3 m, đến 5 m hoặc đến 10 m (MS: 020.0500)
+a) Thành phần công việc: dùng máy dò bom tiền hành rà phá theo đúng kỹ
+
+thuật dé phát hiện hết các tín hiệu đến độ sâu cần dò tìm (độ sâu 1 m áp dụng
+cho dự án đất lâm nghiệp và chỉ thực hiện khi chủ đầu tư yêu cầu)
+
+b) Định mức hao phí tính cho 10.000 mˆ
+
+AA     A     gn
+Mã số       Thành phần hao phí     Đơn                      Độ sâu cần do tìm
+“' Ï Đếễn1m | Đễn3m | Đến5m | Đến 10m
+Vật liệu:
+Coc gỗ (Ø3 x 50) cm | Coc       50         50         50         50
+Dây thừng Ø10 mm      Mét        100           100          100           100
+Cờ đỏ (0,4 x 0,6) m      Cái       1,00         1,00         1,00 `       1,00
+Vật liệu khác                %VL        5,0            5,0            5,0            5,0
+Bậc thợ QNCN 7/10 |Công| 6,40          7,05          7,76          8.54
+May thi công:
+Vidy do bom Vallon | cà | 427 | 470 | 517            :
+Máy dò bom Vet 1 -       Ca          -              -             -            5,69
+1              2             3              4
+

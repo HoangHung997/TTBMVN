@@ -1,0 +1,66 @@
+16
+STT Mã hiệu Loại raáy và thiết bịSố ca 
+năm
+Định mức (%) Định mức 
+tiêu hao 
+nhiên liệu, 
+năng 
+lương 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+3 M010.003 Máy dò bom trên cạn đến độ sâu 
+10 m (Vet 1  là đại diện )258 30 12 5 3 đội pin 
+đại
+2 X bậc 
+8/10 595.270.500 10
+4 M010.004 Máy xúc loại < 0,4 m3 280 16 4,8 5 29 Lít 
+diezel
+1  X bậc 
+8/10 613.644.600 10
+5 M010.005 Máy khoan đất loại xoắn ruột gà 
+có đường kính >76 mm 258 18 5,3 5 19 Lít 
+diezel
+1  X bậc 
+8/10 38.500.000 10
+6 M010.006 Thiết bị GPS cầm tay 258 14 1,5 4 2 đôi pin 
+tiểu
+1  X bậc 
+5/10 3.580.000 0
+7 M010.007 Máy dò mìn dưới nước (MW 
+1630B là đại diện) 258 30 12 5 2 đôi pin 
+đại
+1  X bậc 
+8/10 178.707.000 10
+8 M010.008
+Máy dò bom dưới nước đến độ 
+sâu 5m (Foerster 4032api là đại 
+diện)
+258 30 12 5 3 đôi pin 
+trung
+2 X bậc 
+8/10 303.046.800 10
+9 M010Ệ 009Thuyền cao su tiểu 220T (chở 3 
+người) 258 50 20 5 1 X bậc 
+7/10 7.990ề000 0
+10 MO 10.010 Thuyền cao su trung 320S (chở 6 
+người) 258 50 20 5 1 X bậc 
+8/10 12.591.000 0

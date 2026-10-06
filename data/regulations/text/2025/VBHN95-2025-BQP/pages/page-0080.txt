@@ -1,0 +1,53 @@
+78
+TT Tên công việc Đon vịKhối
+lượng Ghi chú
+4 Dò tìm trên cạn độ sâu từ 0,3 m hoặc 0,5 m 
+đến 3 m hoăc 5 m
+m2 Đât câp ,,
+5 Đào xử lý tín hiệu trên cạn đến độ sâu 3 mm3
+6 Đào xử lý tín hiệu trên cạn đến độ sâu 5 mm3
+7 Dò tìm trên cạn đến độ sâu > 5 m đến 10 mm2
+II Rà phá bom mìn vật nổ dưới nưóc
+1 Chuân bị mặt băng m2
+2 Dò tìm ở độ sâu đên 0,5 m tính từ đáy nướcm2
+3 Đánh dâu tín hiệu ở độ sâu đên 0,5 m tính 
+từ đáy nước.
+Tín
+hiệu
+4 Lặn kiêm tra, đào xử lý tín hiệu ở độ sâu 
+đến 0,5 m tính từ đáy nước m3
+5 Dò tìm ở độ sâu từ 0,5 m đên 3 m hoặc đên 
+5 m tính từ đáy nước. m2
+6 Đánh dâu tín hiệu ở độ sâu từ 0,5 m đên 
+3 m hoặc đên 5m tính từ đáy nước.
+Tín
+hiệu
+7
+Lặn kiêm tra, đào xử lý tín hiệu ở độ sâu 
+từ lớn hơn 0,5 m đến lm tính từ đáy 
+nước.
+m3
+8
+Lặn kiêm tra, đào xử lý tín hiệu dưới nước 
+ở độ sâu từ lớn hơn 1  m đến 3 m hoặc đến 
+5 m tính từ đáy nước.
+m3
+III Rà phá bom mìn vật nô dưới biên
+1 Chuẩn bị mặt bằng m2
+2
+Rà phá bom mìn vật nổ trên bề mặt đáy 
+biển và đến độ sâu 1  m
+m2
+3
+Kiểm tra, xử lý tín hiệu nằm trên bề mặt 
+đáy biển.
+Tín
+hiệu
+4 Kiểm tra, xử lý tín hiệu đến độ sâu 1  mTín
+hiệu
+5
+III Kết quả BMVN tìm được
+1 Mảnh bom đạn, sắt vụn Mảnh
+2 Bom phá........bảng Quả
+3 Bom bi Quả
+4 Đạn pháo, đạn cối Quả

@@ -1,0 +1,50 @@
+29
+ST
+T Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+Iưọìig
+(le*)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+Iưong
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(Ư /o )
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+31 MOI 1.031 Độ sâu lặn >6 m đến 12 m 170 25 7,5 8 2 X bậc 
+8/10
+517.50
+0 34.856.000 10
+32 MOI 1.032 Độ sâu lặn >12 m đến 22 m170 25 7,5 8 2 X bậc 
+8/10
+517.50
+0 35.453.000 10
+33 MOI 1.033 Độ sâu lặn >22 m đến 3Om 170 25,0 7,5 8 2 X bậc 
+8/10
+517.50
+0 36.862.000 10

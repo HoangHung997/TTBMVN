@@ -1,0 +1,38 @@
+54
+- Báo cáo thấm định và chứng chỉ năng lực hoạt động của các tố chức 
+trong nước và quốc tế triến khai các hoạt động khắc phục hậu quả bom mìn sau 
+chiến tranh tại Việt Nam được lưu trữ và nhập vào hệ thống quản lý dữ liệu 
+BMVN quốc gia.
+4.3.1.3. Hình thức lưu trữ, báo cáo, cung cấp thông tin
+Tất cả các thông tin cần lưu trữ, báo cáo, cung cấp quy định tại Phụ lục III 
+Thông tư số 195/2019/TT-BQP dưới dạng văn bản và file điện tử (bản đồ khu 
+vực ở dạng shape file, bảng excel, pdf, jpeg...).
+4.3.1.4. Các loại báo cáo và trách nhiệm báo cáo:
+4.3.1Ế 4ếl. Tổ chức RPBM theo định kỳ (ngày 15 tháng cuối quý) và khi 
+kết thúc dự án phải gửi cho Bộ Chỉ huy quân sự tỉnh (thành phố) hoặc cơ quan 
+điêu phối hoạt động khắc phục hậu quả bom mìn cấp tỉnh nơi triển khai dự án, 
+Binh chủng Công binh và Trung tâm Cơ sở dữ liệu bom mìn quốc gia/VNMAC 
+các loại thông tin/báo cáo sau đây21:
+- Thông tin về các dự án, hạng mục, nhiệm vụ được mở mới;
+- Thông tin về sự thay đổi, điều chỉnh các dự án, hạng mục, nhiệm vụ 
+đang thực hiện;
+- Kết quả thực hiện các dự án, hạng mục, nhiệm vụ trong quý;
+- Kết quả thực hiện theo từng dự án, hạng mục, nhiệm vụ đã hoàn thành 
+trong quý (nếu có);
+- Báo cáo tai nạn, sự cố BMVN có liên quan.
+4.3ẽ1.4ẽ2.22 Ban Chỉ huy quân sự cấp xã (phường, đặc khu) phải báo cáo 
+thông tin về Bộ Chỉ huy quân sự tỉnh (thành phố):
+- Thông tin phát hiện BMVN do cộng đồng thông báo;
+- Báo cáo sự cố bom mìn trong cộng đồng;
+- Báo cáo về hoạt động giáo dục nâng cao nhận thức phòng tránh tai nạn 
+bom mìn trên địa bàn;
+- Báo cáo về nạn nhân bom mìn;
+- Báo cáo về các hoạt động, dịch vụ hỗ trợ cho nạn nhân bom mìn như 
+phục hồi chức năng, chăm sóc y tế, hỗ trợ sinh kế tái hòa nhập cộng đồng.
+4.3.1.4.3. Bộ Chỉ huy Quân sự cấp tỉnh có trách nhiệm:
+21 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 20 Điều 5 của Thông tư số 
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn 
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.
+22 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 21 Điều 5 của Thông tư số 
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn 
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

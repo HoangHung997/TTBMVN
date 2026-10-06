@@ -1,0 +1,38 @@
+31
+Mã số Thành phần hao phí Đon
+vi•
+Độ sâu của nước (m)
+0,5 + 12 >12 + 22 >22-25
+Phao nhỏ 012 cm Cái 4,00 4,00 4,00
+Dây nilon 010 mm Mét 210 210 210
+Dây nilon 012mm Mét 8,00 18,50 27,00
+Dây nilon 018mm Mét 8,64 8,64 8,64
+Vật liệu khác %VL 1,00 1,00 1,00
+Nhân công:
+Bậc thợ QNCN 7/10 Công 23,82 26,19 28,80
+Mảy thỉ công:
+Máy dò bom dưới nướcCa 9,26 10,19 12,22
+Thuyền cao su trung Ca 9,26 10,19 12,22
+Thuyền cao su tiểu Ca 18,52 20,38 24,44
+Thuyền composit Ca 10,19 12,12 13,44
+1 2 3
+Ghì chủ:
+- Rà phá bom mìn dưới nước áp dụng đổi với khu vực có độ sâu nước nhỏ
+hơn 25 wề
+- Trường hợp thỉ công tại vùng nước có dòng chảy chỉ phí nhân công và 
+mảy theo bảng trên được điều chỉnh với hệ số như sau.
++ Khi lưu tốc của nước > 0 đến 0,5 m/s, được nhân với hệ số 1, /,ễ
++ Khi lưu tốc của nước >0,5 m/s đến 1 m/s, được nhân với hệ số 1,25;
++ Khi ỉưu tốc của nước > 1 m/s trở lên, được nhân với hệ sắ 1,5;
++ Khi lưu tổc của nước > 2 m/s khuyến cáo không tiến hành RPBM.
+- Trường hợp nước sâu <3 m dùng sào tre cắm trực tiếp để đánh dấu.
+- Riêng thiết ốề / lặn chỉ được tỉnh khỉ độ sâu nước >l,5m.
+- Các loại phao, neo (rủa) để định v/ệ  và đảnh dấu khu vực chỉ dũng cho 
+các khu vực RPBM có độ sâu nước tối thiếu 3 m và chiều rộng khu vực RPBM 
+tối thiếu 50 m.
+- Chỉ đóng cọc mốc bằng bê tông cốt thép đảnh dấu phạm v/ẽ  RPBM ở  
+nhũng khu vực tiếp giáp với bờ, khoảng cách giữa 2 cọc > 100 m.
+2. Rà phá bom min vật nổ ở độ sâu từ lón hon 0,5 m đến 3 IĨ1 hoặc 
+đến 5 m tính từ đáy nước (MS: 030.0200)
+a) Thành phần công việc: Sử dụng thuyền composit căng dây kết hợp với 
+phao, neo các loại ô dò theo quy định. Dùng máy dò bom đặt trên thuyền dò

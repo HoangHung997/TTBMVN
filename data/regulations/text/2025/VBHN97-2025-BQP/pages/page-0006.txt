@@ -1,0 +1,47 @@
+6
+TT Tỉnh, thành phố Khu vựcTên địa phưoìig các xã, phường, đặc khu
+Khu vực 2Phan Đình Phùng, Linh Sơn, Tích Lương, 
+Gia Sàng, Quyết Thắng, Quan Triều.
+Khu vực 1Các xã, phường còn lại.
+5 Tuyên Quang
+Khu vực 4
+Các xã biên giới Việt - Trung (2,5 km từ 
+đường biên giới vào nội địa) gồm: xã Vị 
+Xuyên, Lao Chải, Thanh Thủy, Phú Linh, 
+Linh Hồ, Bạch Ngọc, Việt Lâm, Minh Tân, 
+Thuận Hòa, Tùng Bá, Cao Bồ, Thượng Sơn, 
+Yên Minh, Thắng Mố, Bạch Đích, Mậu Duệ, 
+Du Già, Đường Thượng, Quản Bạ, Lùng 
+Tám, Cán Tỷ, Nghĩa Thuận, Tùng Vài, Xín 
+Mần, Pà Vầy Sủ, Nấm Dẩn, Trung Thịnh, 
+Khuôn Lùng, Quảng Nguyên.
+Khu vực 3Phạm vi còn lại của các xã biên giới.
+Khu vực 1Các xã, phường còn lại
+6 Lào Cai
+Khu vực 3
+Các xã biên giới Việt - Trung (2,5 km từ 
+đường biên giới vào nội địa) gồm: xã Mường 
+Khương, Pha Long, Bản Lầu, Si Ma Cai, Bát 
+Xát, Trịnh Tường, A Mú Sung, Y Tý; 
+phường Lào Cai.
+Khu vực 1Các xã, phường còn lại
+7 Lai Châu
+Khu vực 3
+Các xã biên giới Việt - Trung (2,5 km từ 
+đường biên giới vào nội địa) gồm: xã Sìn 
+Suối Hồ, Phong Thổ, Khống Lào, Dào San, 
+Si Lở Lầu, Pa Tần, Hua Bum, Bum Nưa, Mù 
+Cả, Thu Lũm, Pa ủ.
+Khu vực 1Các xã, phường còn lại
+8 Điện Biên Khu vưc 3 Xã Sín Thầu.
+Khu vực 1 Các xã, phường còn lại.
+9 Son La Khu vực 1 Tất cả xã, phường.
+10 Phú Thọ Khu vực 1 Tất cả xã, phường.
+11
+Khu vực 3
+Các xã biên giới Việt - Trung (2,5 km từ 
+đường biên giới vào nội địa) gồm: xã Quảng 
+Đức, Đường Hoa, Hoành Mô, Lục Hồn, Bình 
+Liêu; các phường Mống Cái 1, 2, 3.
+Các xã Hải Hòa, Quảng La, Thống Nhất,
+Khu vực 2

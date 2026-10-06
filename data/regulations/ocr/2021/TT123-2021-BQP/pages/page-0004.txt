@@ -1,0 +1,42 @@
+b) Phân loại mật độ tín hiệu (khu vực không phải là bãi mìn).
+Bảng 2. Quy định số lượng tín hiệu BMVN theo loại mật độ cho 10.000 m?
+
+Mật độ tin            p            __                       Tỷ lệ BMVN
+TT         - hiệu              Số lượng tín hiệu            (tính trên tông số tín hiệu)
+1           Loại 1                   Du6i 70                       Dưới 2%
+2           Loai 2                Từ 70 đến 120                    Từ trên 2% đến 4%
+3           Loại 3            Từ trên 120 đến 180           Từ trên 4% đến 6%
+4           Loại 4            Từ trên 180 đến 250                Từ trên 6% đến 8%
+5 | Loại đặc biệt           Trên 250                    Trên 8%
+4. Phân loại các khu vực mật độ tín hiệu
+a) Rà phá bom mìn vật nổ trên cạn và dưới nước
+TT | Phân loại                  Tên địa phương (từ huyện, thị xã trở lên)
+
+Vùng ven biên giới Việt-Trung (2,5 km tính từ đường biên
+giới vào nội địa) gồm: các huyện thuộc tinh Lạng Sơn; huyện
+1 |Khuvục4 | Hà Quảng thuộc tinh Cao Bằng; các xã biên giới của huyện Vị
+Xuyên, Yên Minh, Quản Bạ, Xín Mẫằn thuộc tinh Hà Giang;
+
+tinh Quang Trị; huyện A Lưới tinh Thừa Thiên Huế.
+
+Vùng ven biên giới Việt-Trung (2,5 km tính từ đường biên giới
+vào nội địa) gồm tất cả các khu vực biên giới còn lại của các tỉnh
+Quảng Ninh, Cao Bằng, Hà Giang, Lào Cai, Lai Châu, Điện
+Biên và những khu vực còn lại của các huyện biên giới thuộc tinh
+Lạng Sơn; tất cả các huyện (trừ Tp Đồng Hới) tỉnh Quảng Bình;
+Huyện Hòa Vang Tp Đà Nẵng; huyện Nam Trà My, Đông Giang,
+Điện Bàn, Thăng Bình, Bắc Trà My tinh Quảng Nam; TP Quảng
+Ngãi và các huyện Nghĩa Hành, Mộ Đức, Sơn Tịnh, Tư Nghĩa, Sơn
+Tây tinh Quảng Ngãi; huyện An Lão, Hoài Nhơn, Phù Cát, Phù
+2 |Khuvực3 | Mỹ tinh Bình Định; huyện Sông Hình, Phú Hòa tinh Phú Yén; TP
+. | Nha Trang tinh Khánh Hòa; Tp Phan Rang-Tháp Chàm, huyện
+| Ninh Sơn tinh Ninh Thuận; huyện Ngọc Hồi, Kon Rẫy, Sa Thầy,
+Đắc Hà tinh Kon Tum; huyện Chưprong, lagrai, Đức Cơ tinh Gia
+Lai; huyện Buôn Đôn tinh Đắc Lắc; huyện Châu Thành tinh Tây
+Ninh; huyện Dầu Tiếng, Bến Cát, Phú Giáo tỉnh Bình Dương;
+huyện Cần Giờ Tp Hồ Chí Minh; Tp Bà Ria tinh Bà Rịa -Vũng
+Tàu; huyện Đức Huệ tinh Long An; TX Gò Công và các huyện Cái
+Bè, Cai Lậy, Châu Thành tỉnh Tiền Giang; huyện Châu Thành tính
+Hậu Giang; huyện Kế Sách, Cù Lao Dung tỉnh Sóc Trăng.
+
+^-a

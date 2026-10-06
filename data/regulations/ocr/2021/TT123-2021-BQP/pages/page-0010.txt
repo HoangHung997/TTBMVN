@@ -1,0 +1,53 @@
+Phần II
+ĐỊNH MỨC DỰ TOÁN
+Chương I           |
+ĐỊNH MỨC PIEU TRA, KHAO SÁT
+XÁC ĐỊNH KHU VỰC Ô NHIỄM BOM MÌN VẬT NÓ
+1. Điều tra xác định khu vực ô nhiễm bom mìn vật nỗ (MS: 000.0100)
+a) Thành phần công việc: phỏng vấn lãnh đạo chính quyền, hộ gia đình và
+các nhân chứng tại địa phương thu thập thông tin về đặc điểm, tình hình 6 nhiễm
+bom mìn vật nổ, các khu vực có khả năng bị ô nhiễm và các khu vực đã được rà
+phá bom mìn, các vụ tai nạn có liên quan đến bom mìn vật nổ.
+b) Định mức hao phí tính cho 1 xã
+
+Khu vực
+Mã số           “Thành phần hao phí          Ponvi | Đông băng,            Miễn núi,
+Trung du              Hải đảo
+
+Nhân công:
+
+Cán bộ (đội trưởng)                Công               2,0                        3,0
+
+000.0100 hận viên điều tra                Công               15                     22,5
+
+Nhân viên phục vụ               Cong            2,0                     3,0
+
+1                           2
+
+“Ghi chú:  . phương tiện di lại và trang thiết bị | phục vu công tác điều tra được xác
+định trong phương án và kế hoạch điều tra được cấp có thầm quyền phê duyệt.
+
+2. Khảo sát xác định khu vực ô nhiễm bom mìn vật nỗ
+
+a) Dọn mặt bằng (MS: 000. 0200)
+
+- Thành phần công việc: kiểm tra,  phát cây, dây leo những vị trí khảo sát
+có thảm thực vật dầy.
+- Định mức hao phí tinh cho 10.000 mỉ
+
+Đơn
+
+b) Khảo sát (MS: 000.0300)
+- Thành phần công việc: dùng máy dò mìn, dò tìm trong ô khảo sát theo
+đúng yêu cầu kỹ thuật.
+
+- Định mức hao phí vị tinh cho 10.000 mˆ
+
+TT.              5         À                                              Loại rừng
+Mã sô        - Thành phân hao phí            .
+vi          I          II         IX       IV
+      Nhân công:
+000.0200
+      Bậc thợ QNCN 7/10        Công | 33,5    37,5    41,5 | 50,5
+1          2          3          4
+

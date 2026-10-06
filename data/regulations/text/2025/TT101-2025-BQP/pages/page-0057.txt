@@ -1,0 +1,17 @@
+19
+III. BẢNG TÍNH TIỀN LƯƠNG NHÂN CÔNG THỦY THỦ
+STT Lương và phụ cấp Sĩ quan Thủy Thủ Cách tính Ghi chú
+1 Lương chính 350.000 350.000
+2 Thâm niên 35.000 35.000 10 %* lương chính
+3 Phụ cấp chức vụ 87.500 25 %* lương tối thiểu
+4 Phụ cấp tàu 210.000 210.000 60 %* lương tối thiểu
+5 Phụ cấp độc hại 140.000 140.000 40 %*lương tối thiểu
+6 Bồi dưỡng độc hại 2.000 2.000 Theo Thông tư số:
+142/2010/TT-BQP ngày 
+19/10/2010 và theo Thông tư 
+Số 140/2010/TT-BQP ngày 
+13/10/2010)
+7 Mức tiền ăn chênh lệch 14.500 14.500
+8 Phụ cấp đi biển 40.000 40.000
+9 Phụ cấp đặc biệt 175.000 175.000 50 %* lương chính
+Tổng cộng 1.054.000 966.500

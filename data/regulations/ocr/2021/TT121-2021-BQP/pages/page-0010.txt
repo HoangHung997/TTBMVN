@@ -1,0 +1,57 @@
+   ˆ         |                                                          9
+|                                                                                                                                        )
+|                             i) Khi kỹ thuật viên xác định được bằng chứng là BMVN, phải dừng KS va           '
+|                     thông báo ngay cho Tô trưởng dé xác định kết qua, lưu dữ liệu vào cơ sở dữ liệu
+                        theo quy định và chuyên sang KS tại ô tiếp theo;                                                        :
+|                              k) Thời gian KS tại mỗi 6 ở những khu vực có điều kiện mặt bằng thuận loi
+
+từ 30 đến 40 phút, khu vực có địa hình phức tạp, thảm thực vật dây từ 40 đến 60
+
+phút. Trường hợp không tìm thấy bằng chứng của BMVN trong thời gian trên, tổ
+
+di chuyên sang thực hiện nhiệm vụ tại các ô tiếp theo;
+
+1) Khi hoàn thành KS tại một 6, Tổ trưởng đánh dấu kết quả trên bản đồ 6
+lưới theo mã mau như sau:
+
+- Màu đỏ: “Ô nhiễm trực tiếp” đối với các ô có phát hiện được bằng chứng |
+có BMVN;
+
+- Màu nâu: “Ô nhiễm gián tiếp” là các ô liền kề với ô “ô nhiễm trực tiếp”;
+
+- Màu xanh lá cây: “Không ô nhiễm” là các ô không tìm thấy bằng chứng
+trực tiếp hoặc gián tiếp;
+
+- Màu vàng: “Không ô nhiễm gián tiếp” là ô liền kề với ít nhất ba ô không ô
+nhiễm trực tiếp;
+
+- Trường hop 6 đã được đánh dấu màu xanh hoặc màu vàng trước mà ô KS
+tiếp theo liền kề là ô màu đỏ thì được chuyển sang thành ô màu nâu theo nguyên
+tắc ô liền kề ô nhiễm trực tiếp;
+
+- Màu xám: “Không xác định” là những ô vì bất cứ lý do nào đó mà không
+thể tiền hành khảo sát toàn bộ diện tích.
+
+Điều 13. Xử lý tín hiệu
+
+1. Khi máy dò chỉ thị có tín hiệu, kỹ thuật viên phải dùng máy dò kiểm tra
+thành vệt chữ thập bên trên vị trí tín hiệu để xác định tâm tín hiệu.
+
+2. Sử dụng dụng cụ cầm tay tiến hành đào, xử lý, xác định tín hiệu theo
+đúng kỹ thuật. Khi thấy tín hiệu thì dùng dao găm để bới đất xung quanh cho lộ
+hắn vật gây tín hiệu, kiểm tra xác định vật gây tín hiệu, như sau:
+
+a) Tín hiệu là BMVN:  kiểm tra, xác định  ching loại, độ  năm sâu của
+BMVN; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu gom về
+nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom, vận
+chuyển hoặc vật nỗ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi công (đối
+với các loại bom lớn phải có kế hoạch xử lý riêng); lưu lại tọa độ trên thiết bị
+GPS cầm tay; báo cáo Tổ trưởng lưu lại chi tiết và ghi tọa độ BMVN trong báo
+cáo kết quả KS hàng ngày và chuyển sang khảo sát tai ô tiếp theo;
+
+b) Tín hiệu là mảnh vỡ của BMVN: kiểm tra, xác định chủng loại BMVN từ
+mảnh vỡ, độ lớn và độ nằm sâu của mảnh; kiểm tra hồ đào bằng máy xem còn tín
+hiệu nào khác, nếu vẫn còn tín hiệu, tiếp tục đào kiểm tra theo đúng kỹ thuật dé
+xác định tín hiệu; thu gom về vị trí cất giữ (nếu được); lưu lại tọa độ tín hiệu trên
+thiết bị GPS cầm tay; báo cáo Tổ trưởng lưu lại chỉ tiết và ghi tọa độ trong báo
+cáo kết quả khảo sát hàng ngày; tiếp tục khảo sát trong ô;

@@ -1,0 +1,32 @@
+43
+Nhân sự số lưọìig (ngưòi)
+Đội trưởng, đội phó có chứng chỉ đào tạo2
+Quản lý chất lượng có chứng chỉ đào tạo1
+Kỹ thuật viên cấp 1 có chứng chỉ đào tạo13
+Kỹ thuật viên cấp 2 có chứng chỉ đào tạo2
+Kỹ thuật viên cấp 3 có chứng chỉ đào tạo1
+Kỹ thuật viên - thợ lặn có chứng chỉ đào tạo4
+Nhân viên y tế có chứng chỉ đào tạo 1
+Nhân viên quản lý thông tin (kiêm nhiệm) 1
+Nhân sự khác 5
+rp Ả  ẤTong so: 30
+* Tổ chức thành các bộ phận, gồm:
+- Chỉ huy: 01 đội trưởng và 01 đội phó.
+- Tố bảo vệ cảnh giới an toàn.
+- Tố định vị dẫn đường.
+- Tổ sử dụng thiết bị Sona - Từ kế và thiết bị định vị thủy âm.
+- Tổ sử dụng thiết bị trục vót bom đạn.
+- Tố định vị và lặn xử lý tín hiệu.
+- Tô sử dụng ROV phục vụ xử lý tín hiệu.
+- Tổ phục vụ (hậu cần, y tế, vật tư kỹ thuật).
+4.1.4. Yêu cầu về trang thiết bị RPBM và phương tiện bảo đảm
+4.1.4.1. Các tổ chức RPBM phải có đầy đủ các loại máy, trang thiết bị, 
+dụng cụ cấp cứu và bảo hộ lao động theo quy định.
+4.1.4.2. Trang thiết bị khối cơ quan/văn phòng: Có đủ trang thiết bị phục 
+vụ công tác lập kế hoạch, phương án dự toán thi công, thu thập phân tích lưu trữ 
+báo cáo thông tin dữ liệu, quản lý hồ sơ.
+4.1.4.3. Các loại máy, trang thiết bị kỹ thuật đối với RPBM trên cạn phải 
+đáp ứng yêu câu sau: Còn trong thời hạn sử dụng; bảo đảm các chỉ tiêu, tính 
+năng kỹ chiến thuật theo tài liệu kỹ thuật của nhà sản xuất và các tiêu chuấn, quy 
+chuấn đã được công bố, ban hành; các máy móc, trang thiết bị có yêu cầu về an 
+toàn phải được kiếm định an toàn; các phương tiện đo, thử nghiệm phải được

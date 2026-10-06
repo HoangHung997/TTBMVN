@@ -1,0 +1,50 @@
+18
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mửc (%) Định mức 
+tiêu hao 
+nhiên liệu, 
+năng 
+lương 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+thiêt bị đi kèm) 8/10 5
+19 M010.019 Định vị thủy âm 258 25 10 5 2 X bậc 
+8/10 511.242.972 10
+20 M010.020 Thiết bị định vị DGPS 258 25 7,5 5 508.012.500 10
+21 M010.021 Định vị trên hải đồ 258 25 7,5 5 2 X bậc 
+5/10 489.532.000 10
+22 M010.022 Thuyền gỗ (sức chứa > 3 tấn có 
+máy đẩy) 230 11 5,2 6 44 Lít 
+diezel 1x2 258.000.000 10
+23 MO 10.023
+Thiết bị hút và xói bùn cát 
+(máy nén khí từ 7m3/phút đến 
+10 m3/phút)
+180 13 2 5 111 Lít 
+diezel
+2 X bậc 
+8/10 212.000.000 10
+24 MO 10.024 Máy bộ đàm cầm tay 200 10 3 4 1  X bậc 
+7/10 1.350.000 0
+25 M010.025 Ôm kế 258 11 5,2 6 1  X bậc 
+7/1Ổ 890.000 0

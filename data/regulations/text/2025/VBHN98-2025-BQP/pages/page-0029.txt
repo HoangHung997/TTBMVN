@@ -1,0 +1,38 @@
+29
+2.7.1.1. Nghiệm thu ĐT, KS, RPBM gồm nghiệm thu kỹ thuật, nghiệm 
+thu khối lượng theo giai đoạn (nếu có) và nghiệm thu khối lượng hoàn thànhẳ
+2ễ7.1.2. Nghiệm thu kỹ thuật: Được tiến hành trước khi nghiệm thu khối 
+lượng theo giai đoạn hoặc nghiệm thu khối lượng hoàn thành:
+- Trách nhiệm nghiệm thu: Chủ đầu tư tổ chức thực hiện việc nghiệm thu 
+kỹ thuật;
+- Phương pháp nghiệm thu: Xác định phạm vi diện tích so với phương án 
+thi công được duyệt; kiểm tra chất lượng với khối lượng diện tích kiểm tra tối 
+thiểu là 1 % diện tích trên toàn bộ phạm vi của khu vực đã KS, RPBM;
+- Điều kiện đủ để nghiệm thu kỹ thuật: Không sót BMVN và tín hiệu 
+có kích thước từ (37 X 60) mm trở lên.
+2.7.1.3. Nghiệm thu khối lượng: Được tiến hành sau khi nghiệm thu kỹ thuật:
+- Trách nhiệm nghiệm thu: Chủ đầu tư tổ chức thực hiện việc nghiệm thu 
+khối lượng theo thực tế thi công;
+- Phương pháp nghiệm thu: Xác định phạm vi diện tích so với phương án 
+thi công được duyệt; kiểm tra, tính toán khối lượng các bước thi công hoàn 
+thành theo thực tế;
+- Nội dung và trình tự nghiệm thu: Kiểm tra tại hiện trường; kiểm tra các hồ 
+sơ tài liệu theo danh mục; đối chiếu các kết quả kiểm tra với phương án kỹ thuật 
+thi công được phê duyệt, quy trình kỹ thuật; đánh giá chất lượng và kết luận;
+- Kiểm tra tại hiện trường gồm kiểm tra các cọc mốc đánh dấu khu vực, so 
+sánh với bản vẽ hoàn công, kiểm tra khối lượng công việc đã thực hiện;
+- Kết luận: Chấp nhận nghiệm thu các hạng mục công việc đã xem xét; 
+không chấp nhận nghiệm thu khi các hạng mục công việc thi công không đúng 
+với phương án kỹ thuật thi công được phê duyệt, hoặc không đáp ứng đúng quy 
+trình kỹ thuật được quy định.
+2.7.2. Thành phần, nội dung bàn giao mặt bằng đã ĐT, KS, RPBM
+2.7.2.1 -11  Thành phần tham gia bàn giao mặt bằng
+2.7ế2.1.1Ệ  Đối với dự án thuộc nhóm I và nhóm II thành phần tham gia 
+bàn giao mặt bằng, gồm:
+- Chủ đầu tư/chủ dự án.
+- Đại diện đơn vị trực tiếp thi công rà phá bom mìn vật nổ.
+- Đại diện nhà thầu tư vấn giám sát/Quản lý chất lượng (nếu có).
+- Đại diện ủy ban nhân dân cấp tỉnh.
+11 Điểm này được sửa đổi, bổ sung theo quy định tại Khoản 10 Diều 5 của Thông tư số
+101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá bom mìn
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

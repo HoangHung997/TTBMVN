@@ -1,0 +1,41 @@
+33
+Mã số Thành phần hao phíĐơn
+vi•
+Độ sâu của nước (m)
+0,5-3 >3+12 >12-22 >22-25
+Sào tre 07 cm, dài 5 m Cái0,20 0 0 0
+Vật liệu khác %VL 1,00 1,00 1,00 1,00
+Nhân công:
+Bậc thợ QNCN 7/10 Công 0,056 0,056 0,067 0,081
+Mảy thỉ công:
+Máy dò bom dưới nướcCa 0,014 0,016 0,017 0,019
+Thuyên cao su trungCa 0,014 0,016 0,017 0,019
+1 2 3 4
+Ghi chủ: Các yếu tố khác liên quan đển tính toán, lập dự toán áp dụng 
+như Ghi chú tại khoản 1, Mục 3 Định mức dự toán này.
+4ẻ Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m tính từ đáy 
+nước (MS: 030.0400)
+a) Thành phần công việc: Sử dụng máy dò bom để xác định chính xác vị 
+trí tín hiệu; thợ lặn mang thiết bị lặn, khí tài công binh xăm tìm, đào bới tại điểm 
+đã đánh dấu tín hiệu theo đúng yêu cầu kỹ thuật cho đến khi lộ toàn bộ vật gây 
+tín hiệu. Kiểm tra xác định tín hiệu nếu là các vật nhiễm từ hoặc BMVN an toàn 
+thì trục vớt lên bờ đưa vào nơi quy định, nếu là các loại BMVN không an toàn 
+đánh dấu hoặc xử lý theo quy định.
+b) Định mức hao phí tính cho 1 tín hiệu
+Mã số Thành phần hao phíĐon
+vị
+Độ sâu của nước (m)
+0,5-12 >12 - 22 >22 25
+030.0400
+Nhân côngẽ "
+Bậc thợQNCN 7/10 Công 0,23 0,26 0,29
+Mảy thi công:
+Máy dò bom dưới nướcCa 0,014 0,015 0,017
+Thiêt bị lặn Ca 0,193 0,212 0,233
+Thuyên composit Ca 0,207 0,227 0,250
+1 2 3
+Ghi chủ: Các yếu tố khác liên quan đến tính toán, lập dự toán ảp dụng như Ghi chú 
+tại khoản Ị, Mục 3 Định mức dự toán này.
+5. Lặn kiếm tra, đào xử lý tín hiệu ỏ* độ sâu Ió’n hon 0,5 m đến 1 m 
+tính từ đáy nưóc (MS: 030.0500)
+a) Thành phần công việc: Sử dụng máy dò bom để xác định chính xác vị

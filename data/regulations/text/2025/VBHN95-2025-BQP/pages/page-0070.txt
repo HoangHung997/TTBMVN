@@ -1,0 +1,59 @@
+68
+Khu vực thi công: Ồ số:.
+Ngày.....tháng........năm
+Thời tiết:..........................
+TT Tên công việc Đơn vịKhối
+lượng Ghi chú
+I Rà phá bom mìn vật nổ trên cạn
+1 Phát dọn mặt băng m2 Rừng câp...ế
+2 Dò tìm trên cạn đến độ sâu 0,3 m hoặc 0,5 mm2
+Độ sâu 0,5 m chỉ 
+thực hiện khi có 
+yêu cầu của chủ 
+đầu tư.
+3 Đào xử lý tín hiệu trên cạn đên độ sâu 
+0,3 m hoặc 0,5 m
+Tín
+hiêu
+4 Dò tìm trên cạn độ sâu từ 0,3 m hoặc 0,5 m 
+đến 3m hoăc 5 m
+m2 Đât câp....
+5 Đào xử lý tín hiệu trên cạn đến độ sâu 3 mm3
+6 Đào xử lý tín hiệu trên cạn đến độ sâu 5 mm3
+7 Dò tìm trên cạn đên độ sâu > 5 m đên 10 m m2
+II Rà phá bom mìn yật nố dưói nước
+1 Chuân bị mặt băng m2
+2 Dò tìm ở độ sâu đên 0,5 m tính từ đáy nướcm2
+3
+Đánh dâu tín hiệu ở độ sâu đên 0,5 m tính 
+từ đáy nước.
+Tín
+hiệu
+4
+Lặn kiêm tra, đào xử lý tín hiệu ở độ sâu 
+đến 0,5 m tính từ đáy nước m3
+5
+Dò tìm ở độ sâu từ 0,5 m đên 3 m hoặc đên 
+5 m tính từ đáy nướcế m2
+6
+Đánh dâu tín hiệu ở độ sâu từ 0,5 m đên 
+3 m hoặc đến 5 m tính từ đáy nước.
+Tín
+hiệu
+7
+Đào xử lý tín hiệu ở độ sâu từ lớn hơn 0,5 
+m đến 1  m tính từ đáy nước.
+3nr
+8 Đào, xử lý tín hiệu dưới nước ở độ sâu từ lớn 
+hơn 1  m đến 3 m hoặc đến 5 m tính từ đáy nước.m3
+IIIRà phá bom mìn vật nô dtrói biên
+1
+Mật độ tín hiệu trên bê mặt đáy biên, qua 
+xử lý dữ liệu từ hệ thống Sonar và Từ kế.
+Tín
+hiệu
+2
+Mật độ tín hiệu từ bề mặt đáy biển đến độ 
+sâu 1  m, qua xử lý dữ liệu từ hệ thống sona
+Tín
+hiệu

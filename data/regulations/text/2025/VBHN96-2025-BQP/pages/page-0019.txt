@@ -1,0 +1,49 @@
+19
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định mức 
+tiêu hao 
+nhiên liệu, 
+năng 
+lượng 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thù
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+26 M010.026 Máy điểm hỏa 258 11 5,2 6 1  X bậc 
+7/10 1.230.000 0
+27 MO 10.027 Thuyền composite vs -600 258 25 10 6
+60 Lít 
+xăng E5 
+RON 92-11
+2 X bậc 
+5/10 63.900.000 10
+28 M010.028 Chuông lặn 170 25 7,5 8 2 X bậc 
+8/10 77.160.000 10
+29 M010ể029 Độ sâu lặn >0,5 m đến 3 m170 25 7,5 8 2 X bậc 
+8/10 31.576.000 10
+30 M010.030 Độ sâu lặn >3 m đến 6 m 170 25 7,5 8 2 X bậc 
+8/10 32.775.000 10
+31 M010.031 Độ sâu lặn >6 m đến 12 m 170 25 7,5 8 2 X bậc 
+8/10 34.856.000 10
+32 M010.032 Độ sâu lặn >12 m đến 22 m 170 25 7,5 8 2 X bậc 
+8/10 35.453.000 10
+33 M010.033 Độ sâu lặn >22 m đến 30 m170 25,0 7,5 8 2 X bậc 
+8/10 36.862.000 10

@@ -1,0 +1,39 @@
+26
+- Dải dò có chiều rộng không quá 1  m, hướng đường dò nên trùng với 
+hướng dòng chảy;
+- Chỉ tiến hành RPBM dưới nước trong điều kiện lưu tốc dòng chảy không 
+lớn hơn 1 m/s; cấp độ sóng, gió không vưọt quá cấp 3 (cấp gió và cấp sóng theo 
+Quyết định số 18/2021/QĐ-TTg);
+- Đánh dấu tín hiệu ở độ sâu từ 0,5 m đến 3 m hoặc đến 5 m tính từ đáy 
+nước bằng neo nối với phao nhựa có cắm cờ đỏ;
+- Đào xử lý tín hiệu ở độ sâu từ lớn hơn 0,5 m đến 3 m hoặc 5 m tính từ 
+đáy nước: Dùng thợ lặn mang theo các dụng cụ (thuốn, xẻng, vòi xói hoặc vòi 
+hút bùn..ế) lặn xuống vị trí tâm tín hiệu, tiến hành xăm tìm bằng thuốn, dùng vòi 
+xói hoặc hút bùn kết hợp đào thành từng lớp cho đến khi lộ hẳn vật gây tín hiệu;
+- Kiểm tra xác định vật gây tín hiệu: Tuân thủ theo quy định tại 2.5.3.3;
+- Sau khi đã xử lý xong tín hiệu phải sử dụng máy dò bom để kiểm tra lại 
+xung quanh và phía dưới tín hiệu vừa xử lý, nếu còn tín hiệu thì phải tiến hành 
+xử lý tiếp cho đến khi sạch tín hiệu.
+2.5.4. RPBM duó’i nước ỏ’ đô sâu nước lón hon 25 ni
+2.5.4.1. Định vị các điếm mốc đánh dấu phạm vi thi công bằng thiết bị 
+định vị GPS/khung dây, phao neo hoặc bằng bản đồ số (bản đồ hàng hải).
+2.5.4.2. Dò tìm trên bề mặt đáy nước bằng thiết bị sona và từ bề mặt đáy 
+nước đến độ sâu 1 m bằng từ kế, độ sâu nước từ lớn hơn 25 m đến 150 m:
+- Độ dài của mỗi đường dò căn cứ theo chiều dài của khu vực RPBM và 
+khối lượng thi công trong ngày song không dài quá 5 000 m; bề rộng đường dò 
+xác định tùy thuộc tính năng của sonar và từ kế;
+- Đường dò sau phải trùm lên 1/3 đường dò trước.
+2.5.4.3. Định vị đánh dấu tín hiệu ở độ sâu nước lớn hơn 25 m bằng tọa độ 
+trên bản đồ.
+2.5.4.4ẻ  Xử lý tín hiệu nằm trên bề mặt đáy biển, độ sâu nước từ 25 m đến 
+150 m bằng thiết bị lặn không người lái (ROV).
+2.5.4.5. Đào, kiểm tra, xử lý tín hiệu đến độ sâu 1 m, độ sâu nước từ 25 m 
+đến 150 m bằng thiết bị lặn không người lái (ROV) và thuốc nổ.
+2.5.5. Các yêu cầu thực hiện trong RPBM
+2.5.5.lẽ  Yêu cầu về kết quả thu được sau RPBM
+Các tổ chức RPBM phải bảo đảm đã áp dụng mọi nỗ lực phù hợp để tìm 
+kiếm, di dời và tiêu hủy tất cả các nguy cơ về BMVN còn sót lại sau chiến tranh 
+tại khu vực xác định, đến độ sâu nhất định theo phương án kỹ thuật thi công 
+được phê duyệt hoặc hợp đồng với chủ đầu tư/chủ sử dụng đất để đảm bảo khu 
+vực đó an toàn đối với người sử dụng.
+2.5.5ế2. Yêu cầu về hồ sơ kết quả RPBM

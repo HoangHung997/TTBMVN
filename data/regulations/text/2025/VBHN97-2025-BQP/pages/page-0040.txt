@@ -1,0 +1,34 @@
+40
+dây gây nổ theo phương án, tổ chức cảnh giới, quy định tín hiệu; gây nổ lượng 
+nổ phá huỷ BMVN theo phương án được duyệt.
+b) Định mức hao phí tính cho 1 quả bom mìn vật nổ
+Mã số Thành phần hao phí Đon vị Mửc tiêu hao
+Vật liệu:
+Neo bê tông loại 20 kg Cái 1,0
+Dây nilon 0 14 mm Cái 30
+Phao nhựa 0 40 cm Cái 2
+Thuốc nổ TNT ép kg 6,0
+Dây nổ chịu nước m 66
+Kíp điện Cái 2
+Dây điện kép m 20
+Vải gói thuốc nổ m2 1,0
+Dây gai kg 0,2
+040ẽ0500 Vật liệu khác % VL 10
+Nhân công:
+Bậc thợ QNCN 7/10 Công 0,80
+Bậc thợ QNCN 8/10 Công 0,10
+Mảy thi công:
+Thiết bị định vị DGPS Ca 0,063
+Thiết bị lặn Ca 0,19
+Máy dò mìn Vallon MW 1630B Ca 0,10
+Thuyền cao su trung có máy đẩyCa 0,10
+Máy đo thông mạch Ca 0,02
+Máy điểm hoả Ca 0,02
+Tàu công suất 650 cv có cẩu tự hànhCa 0,33
+Tàu khống chế giao thông 350 cvCa 0,33
+Tàu hậu cần công suất 350 cvCa 0,04
+1
+8. Huỷ bom mìn vật nổ tại chỗ, độ sâu nước IÓ T1 hon 50 m đến 150 m 
+(MS: 040.0600)
+a) Thành phần công việc: Sử dụng tàu xử lý, thiết bị ROV hoặc thợ lặn 
+kết hợp chuông lặn xuống kiểm tra, bố trí lượng nổ được chuẩn bị sẵn áp sát vào

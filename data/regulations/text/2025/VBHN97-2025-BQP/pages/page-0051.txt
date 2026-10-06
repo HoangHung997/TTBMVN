@@ -1,0 +1,40 @@
+51
+Biểu mẫu 04: Bảng tổng họp dự toán rà phá bom mìn vật nổ sử dụng nguồn 
+vốn khác
+................................................ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TẺN ĐƠN VỊ............. Độc lập - Tự do - Hạnh phúc
+......... ngày....thảng.......năm ......
+BẢNG TỎNG HỢP Dự TOÁN
+Dự án:.......................................
+Địa điểm:...................................
+Hạng mục: Rà phá bom mìn vật nổ
+TT Hạng mục Ký hiệu Cách tính Thành tiên 
+(đồng)
+I Chi phí trực tiêp
+1 Chi phí vật liệu VL Tông chi phí VL
+2 Chi phí nhân công NC Tông chi phí nhân công
+3 Chi phí máy M Tông chi phí máy
+* Cộng chi phỉ trực tỉêp T VL+NC+M
+II Chi phí chung c 40% * NC
+III Thu nhập chịu thuê tính trướcTL Tỷ lệ quy định * (T+C)
+Cộng giá trị RPBM z T+C+TL
+IV Chi phí khác K K1+...K6+...
+1 Chi phí khảo sát, lập phương án 
+KTTC và dự toán KI Tỷ lệ quy định * z
+2 Chi phí lán trại K2 Tỷ lệ quy định * T
+3 Chi phí thẩm định K3 Tỷ lệ quy định * z
+4 Chi phí kiêm tra chât lượng thi 
+công RPBM K4 Tỷ lệ quy định * z
+5 Chi phí giám sát thi côngK5 Tỷ lệ quy định * z
+6 Chi phí vận chuyên và tiêu hủy 
+bom mìn vật nổ K6 Tỷ lệ quy định * z
+Chi phí dự phòng (nêu có) Tỉ lệ quy định * z
+• • ểCác chi phí khác (nêu có)• • •Tỉ lệ theo quy định
+Cộng giả trị dự toán Q Z+K
+V Thuế giá trị gia tăng VAT Tỷ lệ quy định*(Q - 
+(K3+K4))
+Cộng giá trị dự toán sau thuêH Q +VAT
+Làm tròn
+Băng chữ'ề '..........................................................................
+ĐẠI DIỆN ĐƠN VỊ LẬP Dự TOÁN ĐẠI DIỆN CHỦ ĐẦU Tư•  •  • • •  • • /  r
+(Kỷ tên, đóng dâu) (Ký tên, đỏng dâu)

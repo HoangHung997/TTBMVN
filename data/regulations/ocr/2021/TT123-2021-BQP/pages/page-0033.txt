@@ -1,0 +1,50 @@
+3. Các chi phí khác trong chi phí chung thực hiện theo quy định hiện hành
+của pháp luật.
+
+II. CHI PHÍ KHÁC (K):
+
+1. K1 là chi phí khảo sát, lập phương án dự toán; K4 là chi phí kiểm tra
+chất lượng thi công rà phá bom mìn vật nd;
+
+Định mức chi phí cho công tác khảo sat để lập phương án kỹ thuật thi
+công, dự toán và kiểm tra chất lượng được tính bằng tỷ lệ % trên tổng giá trị rà
+phá bom mìn vật nổ, tương ứng với từng loại địa hình khác nhau.
+
+Định mức chi phí (%)               Tổng
+
+TT            Loại địa hình            Khảo sát lập phương | Kiểm tra        cộng
+án KTTC và dự toán |chấtlượng] (%)
+
+1 | Đồng bang, trong trải                             2,00                          1,00               3,00
+2 | Đô thi, khu dân cư                             2,50                       1,00             3,50
+3 | Trung du hoặc rừng loại 1                   3,00                       1,00             4,00
+4 | Rừng loại 2                                     3,50                     1,00            4,50
+5 | Rung loai 3                                    4,00                     1,00        . 5,00
+6 | Ring loai 4                                      4,50                      1,00            5,50
+7 | Duéi nước            |                          3,00                     1,00            4,00
+8 | Dưới biển                   5,00                       1,00             6,00
+
+2. K2 là chi phi nhà tam để ở và điều hành được xác định bằng ti lệ % trên
+chỉ phí trực tiếp của hạng mục RPBM thực hiện theo quy định tại Thông tư số
+09/2019/TT-BXD ngày 26/12/2019 của Bộ Xây dựng về Hướng dẫn xác định và
+quản lý chi phí đầu tư xây dựng;
+
+Chỉ phí trực tiếp của hạng mục rà phá bom
+TT           Loại công trình             mìn từng loại, từng nhóm dự án (tỷ đông)
+<15       < 100       <500 |<1000 | >1000
+1    IRPBM các dự án theo tuyến      2,3          2,2           2,0           1,9          1,8
+2 |RPBM các dự án còn lại            1,2          1,1          1,0 | 0,95         0,9
+
+3. K3 là chi phi thẩm định phương án và dự toán được tinh bằng ty lệ %
+theo giá trị dự toán của hạng mục rà phá bom mìn vật nd;
+
+- Khi tổng giá trị dự toán dưới 1 tỷ đồng được lấy chi phí là 0,5%.
+
+- Khi tổng giá trị dự toán từ 1 đến dưới 5 tỷ đồng được lấy chi phí là 0,3%.
+
+- Khi tổng giá trị dự toán từ 5 tỷ đồng trở lên được lấy chi phí là 0,2%.
+
+        (Mức tối thiểu là 2 triệu đồng; mức tối đa 60 triệu đồng).
+4. K5 là chi phí giám sát thi công rà phá bom min vật nổ thực hiện theo
+
+quy định tại Thông tư số 16/2019/TT-BXD ngày 26/12/2019 của Bộ Xây dựng

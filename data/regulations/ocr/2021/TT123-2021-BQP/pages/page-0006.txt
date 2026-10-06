@@ -1,0 +1,47 @@
+.zxg ừ
+
+b) Rà phá bom mìn vật nô dưới biên
+
+TT          Phân loại                                   Tên địa phương
+Tất cả các vùng biển và ven biển thuộc địa phận các
+1           Khu vue 1         tinh năm ngoài vùng biển và ven biển thuộc các khu vực
+                2, 3 trên địa bàn ven biển cả nước.
+Vùng biển và ven biển thuộc địa phận các tỉnh, thành
+2         Khu vực 2       phố: Thanh Hoá, Nghệ An, Thừa Thiên Huế, Đà Nẵng,
+Bình Định, Bà Rịa-Vũng Tàu, Cà Mau, Kiên Giang.
+           Vùng biển và ven biển thuộc địa phận các tỉnh, thành
+3           Khu vực 3         phố: Quảng Ninh, Hải Phòng, Quảng Trị, Hà Tinh,
+Quảng Bình.
+4        Khu vực đặc biệt         Khu vực làm bãi huỷ bom, đạn cũ ngoài biển.
+
+5, Phân loại mật độ tín hiệu áp dụng đối với từng khu vực
+a) Ra phá bom min vật nd trên cạn tính cho 10.000 m
+
+A             |                                Số lượng tín hiệu
+Phân loại                        -
+TT       khu vực         Độ sâu 0,3 m       Độ sâu trên       Độsâutrên | Độsâutrên3m | ĐộỘsâu trên.
+oC      hoặc 0,5m   03mđến1m | 1m đến3m     đến 5m    5 m đến 10m
+.            Trên 0 đến |
+1 | Khuvựcl | Te1dén70 | Từlđến10 | Từlđến3 | Trên 0 đến 0,3        _ Nếu
+Ñ      £                Ñ      £              Ñ      £             ˆ       £            Trén 0 dén
+2 | Khuvực2 | Tul1dén120 | Tilden 15     Từ lđên4 | Trên 0 đên 0,5         0.05
+vụ oak                1 a              _—             .       h            Trên 0 đến
+3 | Khuvực3 | Tirlden175 | Từ 1 đên20     Từ lđên5 | Trên 0 đên 1,0         0.10
+           vu ak               ví ak              Cy ak             .       h            Trên 0 đến
+4     Khuvực4 | Tirl đền 245 | Từ lđên25     Từ lđến6 | Trên 0 đên 1,5         020
+Khu vực
+5          nh          Trên 245            Trên 25            Trên 6             Trên 1,5           Trên 0,20
+. đặc biệt
+
+b) Ra phá bom min vật nổ dưới nước tính cho 10.000 m
+
+mu"                                      Số lượng tín hiệu _         _—
+"| khuvực.  Đếnđộsâu05m | Trên0,5mđến1m | ĐỘSâu trên lm
+đền 10m
+1        Khu vực 1         -Trên 0 đên 20            Trên 0 đến 1            Trên 0 đến 0,1
+2 | Khuvực2          Trén 0 dén 40            Trén 0 dén 2           Trên 0 đến 0,3
+3        Khu vực 3         Trên 0 đến 70            Trên 0 đến 3           Trên 0 đến 0,5
+4 | Khuvục4        "Trên 0 đến 80°           Trên 0 đến 4           . Trên 0 đến 1
+5 | Khuvực                Trên 80                       Trên 4                       Trên 1
+đặc biệt
+

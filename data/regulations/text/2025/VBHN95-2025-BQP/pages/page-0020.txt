@@ -1,0 +1,40 @@
+20
+a) Cắm cọc căng dây đánh dấu dải dò, mỗi dải dò rộng từ 1  m đến 1,5 m 
+(tùy theotính năng của các loại máy dò để xác định dải dò cho phù hợp);
+b) Dùng máy dò mìn tiến hành dò theo đúng kỹ thuật (dò từ trái sang phải 
+và ngược lại; vệt dò sau phải trùm lên 1/3 vệt dò trước; đường dò sau phải lấn 
+sang đường dò trước 10 cm);
+c) Khi máy dò chỉ thị có tín hiệu, dò thành vệt chữ thập phía trên vị trí có tín 
+hiệu đê xác định tâm tín hiệu, dùng cờ màu đỏ đánh dấu sát bên cạnh tâm tín hiệu;
+d) Khi có nhiều máy dò cùng hoạt động trên một khu vực thì các máy phải 
+cách nhau từ 7 m trở lên để tránh gây nhiễu.
+Điều 22Ề  Đào đất kiềm tra, xử ỉý tín hiệu đến độ sâu 0,3 m
+1. Trường họp áp dụng: tín hiệu đã được phát hiện và đánh dấu.
+2. Trang bị: trang thiết bị bảo vệ người, máy dò mìn, thuốn, xẻng, dao găm; 
+chôt an toàn; dụng cụ thu gom.
+3. Trình tự thực hiện:
+a) Dùng máy dò mìn và thuốn kiếm tra tại vị trí tín hiệu đã đánh dấu, xác 
+định chính xác vị trí và kích thước tín hiệu. Dùng xẻng đào hố có kích thước tuỳ 
+theo độ lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy 
+dò), thận trọng bóc dần từng lớp đất từ trên xuong và từ mép vào tim hố, vừa đào 
+vừa kiểm tra. Khi thấy tín hiệu thì dùng dụng cụ cầm tay để bới đất cho lộ hẳn vật 
+gây tín hiệu;
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu 
+gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, 
+thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu 
+gom, vận chuyển hoặc vật nổ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi 
+công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiếm tra lại xung 
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu 
+còn tín hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b khoản này.
+Điều 23. Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 0,5 m
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấuề
+2. Trang bị: thiết bị bảo vệ người, máy dò, thuốn dò mìn, xẻng, dao găm; 
+chốt an toàn; dụng cụ thu gom.
+3. Trình tự thực hiện:
+a) Dùng máy dò mìn và thuốn kiếm tra tại vị trí tín hiệu đã đánh dấu, xác 
+định chính xác vị trí và kích thước tỉn hiệu. Dùng xẻng đào hố có kích thước tuỳ 
+theo độ lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy 
+dò), thận trọng bóc dần từng lóp đất từ trên xuống và từ mép vào tim hố, vừa đào 
+vừa kiểm tra. Khi thấy tín hiệu thì dùng dụng cụ cầm tay để bới đất cho lộ hắn vật 
+gây tín hiệu;

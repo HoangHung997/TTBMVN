@@ -1,0 +1,67 @@
+13
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mửc (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+lượng 
+(lẽa)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+lương
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thu
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+22 MOI 1.022 Thuyền gỗ (sức chứa > 3 tấn có 
+máy đẩy) 230 11 5,2 6 44 Lít 
+diezel 1x2
+Áp 
+dụng 
+đối với 
+thuê tàu 
+lực 
+lượng 
+Hải 
+quân
+258.000.000 10
+23 MOI 1.023 Thiết bị hút và xói bùn cát (máy nén 
+khí từ 7m3/phút đến 10 m3/phút)180 13 2 5 111 Lít 
+diezel
+2 X bậc 
+8/10 517.500 212.000.000 10
+24 MOI 1.024 Máy bộ đàm cầm tay 200 10 3 4 1 X bậc
+7/10 495.000 350.000 0
+25 MOI 1.025 Ôm kế 258 11 5,2 6 1  X bậc 
+7/10 495.000 890.000 0
+26 MOI 1.026 Máy điểm hỏa 258 11 5,2 6 1  X bậc
+7/10 495.000 1.230.000 0
+27 MOI 1.027 Thuyền composite vs -600 258 25 10 6
+60 Lít 
+xăng E5 
+RON92-D
+2 X bậc 
+5/10 450.000 63.900.000 10
+#

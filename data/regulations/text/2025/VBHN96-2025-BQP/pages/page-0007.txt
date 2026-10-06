@@ -1,0 +1,32 @@
+7
+lên giá trị thu hồi tính bằng 10% nguyên giáẾ
+- Không tính giá trị thu hồi với máy có nguyên giá nhỏ hơn 30.000.000 
+đồng (ba mươi triệu đồng).
+đ) Định mức khấu hao của máy (%/năm) được xác định trên cơ sở định 
+mức khấu hao của máy quy định tại Phụ lục II ban hành kèm theo Thông tư này. 
+Đối với những máy làm việc ở vùng nước mặn, nước lợ và trong môi trường ăn 
+mòn cao thì định mức khấu hao được điều chỉnh với hệ số 1,05.
+e) Số ca làm việc của máy trong năm (ca/năm) được xác định trên cơ sở 
+số ca làm việc của máy trong năm quy định tại Phụ lục II ban hành kèm theo 
+Thông tư nàyẾ
+2.2. Xác định chi phí sửa chữa
+a) Chi phí sửa chữa máy là các khoản chi phí để bảo dưỡng, sửa chữa máy 
+định kỳ, sửa chữa máy đột xuất trong quá trình sử dụng máy nhằm duy trì và 
+khôi phục năng lực hoạt động tiêu chuẩn của máy:
+Trong đó:
+- Csô chi phí sửa chữa trong giá ca máy (đồng/ca)
+- Đsó định mức sửa chữa của máy (% năm)
+- G: nguyên giá máy trước thuế giá trị gia tăng (đồng)
+- N ca ' số ca làm việc của máy trong năm (ca/năm).
+b) Định mức sửa chữa của máy (% năm) được xác định trên cơ sở định 
+mức sửa chữa của máy quy định tại Phụ lục II kèm theo Thông tư nàyễ  Đối với 
+những máy làm việc ở vùng nước mặn, nước lợ và trong môi trường ăn mòn cao 
+thì định mức sửa chữa được điều chỉnh với hệ số 1,05.
+c) Nguyên giá máy trước thuế (G) và số ca làm việc của máy trong năm 
+(Nc a) xác định như quy định tại điểm c, e khoản 2.1 Phụ lục này.
+d) Chi phí sửa chữa máy chưa bao gồm chi phí thay thế các loại phụ tùng 
+thuộc bộ phận công tác của máy có giá trị lớn mà sự hao mòn của chúng phụ 
+thuộc chủ yếu tính chất của đối tượng công tácằ
+2.3. Xác định chỉ phí nhiên liệu, năng lượng
+a) Nhiên liệu, năng lượng là xăng, dầu, điện, gas hoặc khí nén tiêu hao 
+trong thời gian một ca làm việc của máy để tạo ra động lực cho máy hoạt động

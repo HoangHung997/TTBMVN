@@ -1,0 +1,37 @@
+32
+4. Phương pháp thực hiện:
+a) Nhập hệ thống toạ độ chuẩn vào thiết bị DGPS đánh dấu ranh giới phạm 
+vi khu vực sẽ thi công;
+b) Sử dụng thiết bị DGPS tìm toạ độ các điểm đã nhập, theo tuần tự:
+- Chạy tàu theo phương vị, cự ly hướng dẫn trên màn hình thiết bị DGPS;
+- Khi thiết bị DGPS báo đã đến khu vực toạ độ cần tìm, dừng di chuyển. Đưa 
+ăng ten của thiêt bị DGPS lên trên đỉnh phao dấu và bấm nút xác định toạ độ;
+- Tiến hành xác định từng điểm toạ độ được đánh dấu là có tín hiệu nằm 
+trong phạm vi khu vực thi công cho đến khi kết thúc.
+Điều 47. Rà phá bom mìn trên bề mặt đáy biển và đến độ sâu 1 m
+1. Trường hợp áp dụng: các khu vực bị ô nhiễm BMVN trên bề mặt đáy 
+biến và từ bề mặt đáy biển đến độ sâu 1 m, độ sâu nước từ 25 m trở lên.
+2. Trang bị: tàu công suất từ 1.200 cv trở lên, thiết bị sona, từ kế, thiết bị 
+DGPS, thiết bị định vị thuỷ âm, tời và thiết bị kết nối.
+3. Trình tự thực hiện:
+a) Kiếm tra tình trạng hoạt động của trang bị;
+b) Định vị phạm vi khu vực thi công;
+c) Lập chương trình chia nhỏ khu vực thành các đường dò theo chiều dài khu 
+vựccho thiết bị sona, từ kế làm việc. Căn cứ vào khối lượng thi công trong ngày 
+và chiều dài khu vực dò tìm, mỗi đường dò có chiều dài không quá 5 km. Khoảng 
+cách giữa 2 đường dò liền kề nhau từ 15 m dến 17 m;
+d) Di chuyển tàu dọc theo đường dò với vận tốc tối đa 8 km/h, điều chỉnh cáp 
+kéo sao cho thiết bị sona, từ kế phải cách mặt đất đáy biển tối thiểu là 10 m. Vệt dò 
+sau phải trùm lên vệt dò trước đó từ 3 m đến 5 m. Sau khi dò hết chiều dài đường dò 
+thứ nhất trong ô thi công, di chuyển tàu để dò sang đường dò tiếp theo cạnh đường 
+dò trước, cứ như thế cho đến hết phạm vi thi công dự kiến trong ngày;
+đ) Ghi, lưu và truyền số liệu thu được;
+e) Xử lý số liệu thu được, kết quả cuối cùng sẽ là bản đồ hình ảnh bề mặt 
+đáy biển và bản đồ từ tính cùng toạ độ của các vật thể nằm trên bề mặt hoặc nằm 
+dưới đáy biển mà máy dò phát hiện được;
+g) Cung cấp các toạ độ tín hiệu cho tàu xử lý.
+Điều 48. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển
+1. Trường hợp áp dụng: tín hiệu nằm trên bề mặt đáy biển được phát hiện 
+khi thực hiện bước dò tìm, độ sâu nước đến 150 mể
+2ẻ  Trang bị: Tàu đến 650 cv có cẩu mi ni tự hành, thuyền cao su có máy 
+đẩy, thiết bị ROV hoặc chuông lặn, thiết bị DGPS, máy dò mìn dưới nước.

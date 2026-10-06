@@ -1,0 +1,46 @@
+h
+$
+(6 khảo sát đầu tiên) tiến hành tự kiểm tra, điều chỉnh máy dò và thiết bi kỹ
+thuật, dọn mặt bằng (nếu cần thiết);
+
+d) Tổ trưởng sử dụng thiết bi GPS xác định tâm điểm của mỗi 6 khảo sát
+quy định tại điểm a khoản này trên thực địa;
+
+đ) Tại vị trí tâm điểm của mỗi ô khảo sát được dò tìm, xử lý hết các tín hiệu
+BMVN trong bán kính 1 m trước khi đóng cọc tâm (cọc gỗ dài 1,2 m). Tại vị trí
+tâm của ô khảo sát, tổ trưởng quan sát, điều hành, hướng dẫn kỹ thuật viên thực
+hiện nhiệm vụ;
+
+e) Kỹ thuật viên liên kết một đầu dây vào cọc tâm sau đó kéo dây theo 4
+hướng Đông, Tây, Nam, Bắc để chia ô ra thành 4 phần. Mỗi dây có độ dài trên
+25 m và có đánh dấu ở vị trí 25 m theo hình vẽ dưới đây;
+
+x2
+Cw sẽ = ve m s
+  LTT
+GE ME
+=
+bby
+25        FEL I ha
+——   .____
+Cách chia 6 và bd trí đội hình khảo sát kỹ thuật.
+
+- Trường hợp khu vực có thảm thực vật dầy hoặc địa hình khó khăn, Tổ
+trưởng quyết định không sử dụng dây để chia ô nhưng phải áp dụng phương
+pháp di chuyển như hình vẽ trên;
+
+- Trường hợp điều kiện và đặc điểm ô nhiễm BMVN của khu vực không
+cho phép triển khai đội hình KS như nêu trên thì triển khai thực hiện khảo sát
+theo quy trình RPBM trong khu vực là bãi mìn;
+
+g) Sau khi đã chia 6 KS thành 4 phần, kỹ thuật viên sử dụng máy dò min tiền
+hành dò tìm theo đường thang trong phạm vi khu vực phụ trách. Kỹ thuật viên đi
+theo hướng từ tâm ra ngoài, khoảng cách giữa các kỹ thuật viên khoảng 10 m; độ
+sâu KS tối thiểu là 0,3 m;
+
+h) Quá trình kỹ thuật viên thực hiện nhiệm vụ, Tổ trưởng di chuyển xung
+quanh ô dé kiểm tra, giám sát khoảng cách giữa các kỹ thuật viên để tránh ảnh
+hưởng giữa các máy dò và đảm bảo khoảng cách an toàn giữa các kỹ thuật viên
+KS khi xử lý tín hiệu;
+
+ne

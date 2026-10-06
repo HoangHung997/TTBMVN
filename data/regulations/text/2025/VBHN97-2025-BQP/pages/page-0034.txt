@@ -1,0 +1,42 @@
+34
+trí tín hiệu; thợ lặn mang thiết bị lặn, khí tài công binh xăm tìm, sử dụng thiết bị 
+xói và hút bùn cát đào bới tại điểm đã đánh dấu tín hiệu theo đúng yêu cầu kỹ 
+thuật cho lộ toàn bộ vật gây tín hiệu. Kiểm tra xác định tín hiệu nếu là các vật 
+nhiễm từ hoặc BMVN an toàn thì trục vớt lên bờ đưa vào nơi quy định, nếu là 
+các loại BMVN không an toàn đánh dấu hoặc xử lý theo quy địnhẽ
+b) Định mức hao phí tính cho 1 tínliêu
+Mã số Thành phần hao phí Đon Độ sâu của nước (m)
+vi 0,5 +12 >12-22 >22-25
+Nhân công:
+Bậc thợ QNCN 7/10 Công 0,23 0,26 0,29
+Máy thỉ công:
+030.0500 Máy dò bom dưới nướcCa 0,014 0,015 0,017
+Thuyền cao su trung Ca 0,014 0,015 0,017
+Thiết bị lặn Ca 0,153 0,168 0,185
+Thiết bị xói, hút bùn cátCa 0,125 0,138 0,152
+Thuyền composit Ca 0,198 0,213 0,230
+1 2 3
+Ghi chủ: Các yếu tố khác liên quan đến tính toán, lập dự toán áp dụng 
+như Ghi chủ tại khoản 1, Mục 3 Định mức dự toán này.
+6. Lặn kiểm tra, đào xử lý tín hiệu dưói nưóc ỏ’ độ sâu lón hon 1 m 
+đến 3 m tính từ đáy nước (MS: 030.0600)
+a) Thành phần công việc: Dùng máy dò bom mìn để xác định chính xác vị 
+trí tín hiệu, lắp và hạ các khung vây bao quanh vị trí tâm tín hiệu đã xác định với 
+đường kính hố sẽ đào là 3 m; thợ lặn sử dụng thiết bị lặn và các khí tài công 
+binh xăm tìm; dùng thiết bị xói và hút bùn, cát đào bới tại điểm đã đánh dấu cho 
+lộ toàn bộ vật gây tín hiệu. Kiểm tra xác định tín hiệu nếu là các vật nhiễm từ 
+hoặc BMVN an toàn thì trục vớt lên bờ đưa vào nơi quy định, nếu là các loại 
+BMVN không an toàn đánh dấu hoặc xử lý theo quy định.
+b) Định mức hao phí tính cho 1 tín hiệu
+Mã số Thành phần hao phíĐơn
+vị
+Độ sâu của nước (m)
+0,5-12 >12-22 >22 + 25
+030.0600 Vật liệu:
+Khung vây bằng tôn 3 mm 
+và sắt góc (45x45x5) mmKg 24,32 24,32 24,32
+Nhân cóng:
+Bậc thợ QNCN 7/10 Công 1,00 1,10 1,21
+Mảy thi công.ệ
+Máy dò bom dưới nướcCa 0,014 0,015 0,017
+Thuyên cao su trung Ca 0,014 0,015 0,017

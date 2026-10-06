@@ -1,0 +1,35 @@
+30
+Quy trình này; thay thế thuyền composit bằng thuyền gỗ sức chở >3 tấn có máy 
+đẩy để thực hiệnề
+2. Trường họp vị trí thi công RPBM cách bờ từ 2 hải lý trở lên, độ sâu nước 
+từ 25 m đến 150 m phải sử dụng phương pháp dò tìm bằng thiết bị sona, từ kế để 
+thực hiện. Trườnẹ hợp trên 150 m trở lên phải lập phương án kỹ thuật thi công, dự 
+toán riêng trình cap có thẩm quyền phê duyệtế
+3. Vận tốc, cấp sóng, cấp gió
+a) Vận tốc dòng hải lưu:
+- Thi công dùng máy dò bom: < 1,0 m/s;
+- Thi công dùng thiết bị sona và từ kế: < 2,5 m/s.
+b) Cấp sóng:
+- Thi công dùng máy dò bom: < cấp 3;
+- Thi công dùng thiết bị sona và từ kế: < cấp 4.
+c) Cấp gió:
+- Thi công dùng máy dò bom: < cấp 3;
+- Thi công dùng thiết bị sona và từ kế: < cấp 5.
+Điều 42. Trình tự thực hiện rà phá bom mìn bằng thiết bị sona, từ kế
+1. Huy động thiết bị.
+2. Chuẩn bị mặt bằng.
+3. Điều tiết giao thông.
+4. Định vị các điểm mốc đánh dấu phạm vi thi công.
+5. Rà phá bom mìn vật nổ trên bề mặt đáy biển và đến độ sâu 1  mế
+6. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển.
+7. Kiếm tra, xử lý tín hiệu đến độ sâu 1  m.
+8. Huỷ bom mìn, vật nổ tại chỗ.
+9. Giải thể thiết bị.
+Điều 43. Huy động thiết bị
+Là công tác điều động thiết bị phục vụ cho thi công từ vị trí tập kết đến vị 
+trí thi công. Thiêt bị cân huy động cho một đội thi công gôm:
+1. Tàu phục vụ dò tìm công suất từ 1.200 cv trở lên: 01 chiếc.
+2. Tàu phục vụ định vị, lặn xử lý tín hiệu từ 350 cv đến 650 cv có cẩu mi ni 
+tự hành: tối đa 02 chiếc.
+3. Tàu phục vụ điều tiết giao thông loại 350 cv (được trang bị các thiết bị cảnh 
+báo, thông tin): tối đa 04 chiếcỆ

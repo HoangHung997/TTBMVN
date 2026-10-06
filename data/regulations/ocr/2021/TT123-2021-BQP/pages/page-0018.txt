@@ -1,0 +1,51 @@
+16
+
+Dây thép buộc Ø2 mm      Kg        0,20       0,15       0,12         0
+
+Vật liệu khác                     %VL        1,00         1,00         1,00           0
+'Nhân công:
+Bậc thợ QNCN 7/10           Công |0,0300 | 0,0390 | 0,0461 | 0,0518
+Bậc thợ QNCN 8/10         Công | 0,72       0,96        1,40       2,04
+May thi cong:
+
+Máy dò bom Vallon
+1303 Al hoặc Vet 1
+
+Máy xúc loại < 0,4 m        Ca | 0,0053 | 0,0063 | 0,0090 | 0,0104
+1            2            3            4
+
+Ca 0,008 | 0,008 | 0,008 | 0,008
+
+Ghi chú: trường hợp đào đất có nước thì được tính thêm 0,012 ca máy bơm cho 1 mì
+dat đào. Khi thi công khối lượng đắt đào theo nghiệm thu thực tế.
+
+10. Ra phá bom min vật nd ở độ sâu lớn hơn 5 m  "đến  10  m bằng
+phương pháp khoan lỗ (MS: 020.10. 00)
+
+a) Thành phần công việc: đánh dấu các hàng lỗ khoan và tiến hành khoan
+trên toàn bộ diện tích cần RPBM, khoảng cách giữa các lỗ trong hàng và giữa
+các hàng là 2 m; độ sâu tối đa của lỗ khoan là 5 m. Thả đầu dò của máy dò bom
+vào từng lỗ khoan, dò theo đúng kỹ thuật để phát hiện hết các tín hiệu đến độ
+sâu yêu cầu, ghi và phân tích các số liệu để phát hiện tín hiệu nghị ngờ và đánh
+dấu trên thực địa đề đào và xử lý.
+
+b) Định mức hao phí tính cho 10.000 m
+
+        i                               .                                           Độ sâu do tìm
+Mã sô                 Thành phân hao phí               Đơn vị | lớn hơn 5m đên
+         10m
+
+Vật liệu:
+Ông nhựa nòng tron (Ø< 76 mm, | „
+chiều dài 5,0 m)                  co Ống | 125
+Cọc gỗ (Ø3 x 50)cm                       Cọc            50
+
+-            Dây thừng Ø10 mm                               Mét                100
+020.1000 | Cờ đỏ (0,4 x0,6)m                           Cái      |        1,00
+Vật liệu khác                                                 %VL                    1,0
+Nhân công:
+Bậc thợ QNCN 7/10                                  Công                7,76
+May thi cong:
+
+May do bom Vallon 1303A1                     Ca                 5,17
+

@@ -1,0 +1,35 @@
+71
+3. Khối lượng thi công:
+a) Diện tích RPBM của dự án là:.............ha.
+b) Diện tích thi công khảo sát:.....haệ  Cụ thể như sau:
+- Diện tích phát dọn tương đương rừng loại:......ha.
+- Diện tích khảo sát đến độ sâu 0,3 m (hoặc 0,5 m) mật độ loại..ẵ: ...haế
+- Xử lý tín hiệu đến độ sâu 0,3 m (hoặc 0,5 m, 1  m ):..........tín hiệu.
+- Diện tích khảo sát rà phá bom mìn vật nổ đến độ sâu 5 m:......ha.
+- Đào, xử lý tín hiệu độ sâu 0,3 -ỉ- 3 m :.....tín hiệu.
+- Đào, xử lý tín hiệu độ sâu 5 m:......tín hiệu.
+* Kết quả thu được:...................................................................................
+4. Kết quả khảo sát:
+a) Đánh giả khảo sát lha thi công trên cạn:
+- Tỷ lệ phát dọn mặt bằng thi công tương đương rừng loại....chiếm.......%
+- Mật độ tín hiệu trên cạn đến độ sâu 0,3 m (hoặc 0,5 m, 1  m), mật độ loại 
+.... trung bình:......tín hiệu/ha.
+- Mật độ tín hiệu trên cạn đến độ sâu 3 m trung bình:.....tín hiệu/ha.
+- Mật độ tín hiệu trên cạn đến độ sâu 5 m trung bình:......tín hiệu/ha.
+- Cấp đất tại khu vực thi công ở độ sâu 0,3 m là đất cấp....; lớn hơn 0,3m
+đến 5 m là đất cấp......
+b) Đảnh giá khảo sát 1 ha thi công dưới nước (độ sâu < 25 m)
+- Tỷ lệ phát dọn mặt bằng thi công tương đương rừng loại....chiếm.......%
+- Mật độ tín hiệu đến độ sâu 0,5 m, mật độ loại .... trung bình: ......tín
+hiệu/ha.
+- Mật độ tín hiệu đến độ sâu 3 m trung bình:.....tín hiệu/ha.
+- Mật độ tín hiệu đến độ sâu 5 m trung bình:......tín hiệu/ha.
+- Đánh giá về lưu tốc nước chảy:.....m/s;
+- Độ sâu nước:........................................;Phạm vi khu vực cần
+RPBM: ......!...
+c) Đảnh giá khảo sát 1 ha thi công dưới biển (độ sâu > 25 m)
+- Mật độ tín hiệu trên bề mặt đáy biển, qua xử lý dữ liệu từ hệ thống sona 
+và từ kế thu được.................tín hiệu.
+- Mật độ tín hiệu từ bề mặt đáy biển đến độ sâu 1  m, qua xử lý dữ liệu từ 
+hệ thống sona và từ kế thu được.................tín hiệu.
+- Độ sâu nước biển:...........................................................................................

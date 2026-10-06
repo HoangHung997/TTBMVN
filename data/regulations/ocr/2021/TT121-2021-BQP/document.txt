@@ -1,0 +1,3734 @@
+[[PAGE 1]]
+M
+Ñ
+BỘ QUÓC PHÒNG          CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+sé: 424 /2021/TT-BQP            Hà Nội, ngày 20 tháng 9 năm 2021
+THÔNG TƯ
+Ban hành Quy trình kỹ thuật điều tra, khảo sát, rà phá bom mìn vật nỗ
+                      Căn cứ Nghị định số 164/2017/NĐ-CP ngày 30 tháng 12 năm 2017 của
+|                                                                                         `                     ,     ’
+|                     Chính phủ quy định chức năng, nhiệm vụ, quyền hạn va cơ cầu tô chức của Bộ
+                           Quốc phòng;
+|                               Căn cứ Nghị định số 18/2019/NĐ-CP ngày 01 tháng 02 năm 2019 của
+Chính phủ về quản lý và thực hiện hoạt động khắc phục hậu quả bom mìn vật nổ
+sau chiến tranh;
+Theo đề nghị của Tư lệnh Binh chúng Công binh;
+Bộ trưởng Bộ Quốc phòng ban hành Thông tư ban hành Quy trình kỹ thuật
+điều tra, khảo sát, rà phá bom mìn vật nổ.
+Điều 1. Ban hành kèm theo Thông tư này Quy trình kỹ thuật điều tra, khảo
+sát, rà pha bom min vật nd.
+:                             Điều 2.
+1. Thông tư này có hiệu lực ké từ ngày 0) tháng 4Í năm 2021.
+2. Thông tư số 154/2013/TT-BQP ngày 19 tháng 8 năm 2013 của Bộ trưởng
+Bộ Quốc phòng về việc ban hành Quy trình kỹ thuật rà phá bom mìn, vật nổ dưới
+biển; Quyết định số 95/2003/QĐ-BQP ngày 07 tháng 8 năm 2003 của Bộ trưởng
+Bộ Quốc phòng về việc ban hành Quy trình kỹ thuật dò tìm, xử lý bom mìn, vật
+nỗ hết hiệu lực thi hành ké từ ngày Thông tư này có hiệu lực thi hành.
+Điều 3. Tư lệnh Binh chủng Công binh, Thủ trưởng các cơ quan, đơn vị và
+cá nhân có liên quan chịu trách nhiệm thi hành Thông tư này ges
+Nơi nhận:                                                        _XKELBO TRƯỞNG
+- Bộ trưởng BQP (dé b/c);                                            0 uy RITE
+- Văn phòng Chính phủ;                i                72   ƯƠNG
+- Các Bộ: Xây dựng, Tài chính, Kế hoạch & Đầu tư,            £7 4  SS À               yA
+Nội vụ, Tư pháp, Lao động - Thương binh & Xã hội,            từ  22 4!
+Giao thông vận tải, Nông nghiệp & Phát triển nông          NA  > /
+thôn, Công Thương, Tài nguyên & Môi trường;               Fo SS 9/2)
+- UBND các tinh, thành phô trực thuộc TW;                          <7
+- Các cơ quan, don vị, doanh nghiệp trực thuộc BQP;
+- Các Cục: Tác chiên/BTTM, Doanh trạ/TCHC;                                ,               x      Ñ
+- Vụ Pháp chế/BQP;                                                Thượng tướng Nguyên Tân Cương
+- Công báo; Cổng TTĐT CP, Cổng TTDT/BQP;
+- Lưu: VT, THBD.TrH108.
+[[PAGE 2]]
+D
+»
+4
+3
+BỘ QUOC PHONG         CONG HOA XA HỘI CHỦ NGHĨA VIET NAM                  (
+-                                Độc lập - Tự do - Hanh phúc
+J
+Ñ                QUY TRINH KY THUAT    .       )       .
+DIEU TRA, KHAO SÁT, RA PHA BOM MIN VAT NÓ
+(Ban hành kèm theo Thông tư s6424 /2021/TT-BQP
+ngày 20thang 9 năm 2021 của Bộ trưởng Bộ Quoc phòng)
+Chương I
+QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Quy trình kỹ thuật này quy định và hướng dẫn về hoạt động điều tra, khảo
+sát, rà phá bom min vật nd.
+Điều 2. Đồi tượng áp dụng
+Quy trình kỹ thuật này áp dụng đối với đơn vị, tổ chức, cá nhân trong nước
+và tổ chức, cá nhân nước ngoài có liên quan đến hoạt động điều tra, khảo sát, rà
+phá bom min vật nổ.
+Điều 3. Quy ước viết tắt
+1. Bom mìn vật nổ: BMVN.
+2. Điều tra: ĐT.
+3. Khảo sat: KS.
+4. Ra phá bom min vật nỗ: RPBM.
+5. Điều tra, khảo sát, rà phá bom mìn vật nổ: ĐT, KS, RPBM.
+Điều 4. Giai thích từ ngữ
+Trong Quy trình kỹ thuật này, các từ ngữ dưới đây được hiểu như sau:                      |
+1. Tin hiệu là tất cả các loại BMVN và các loại vật thé có chứa kim loại (sắt,
+thép, vàng, bạc, đồng, nhôm...), mảnh bom mìn, đạn mà con người hoặc các loại
+máy dò đang sử dụng có thể phát hiện được.
+2. Mật độ tín hiệu là số lượng tín hiệu trung bình trên một đơn vị diện tích.
+3. Khu vực bãi mìn là khu vực được phát hiện có bố trí mìn theo hoặc không
+theo một quy cách nhất định.
+4. Khu vực không phải bãi min là khu vực không có min, nhưng có các loại
+bom đạn, vật nổ ở các mức độ khác nhau còn sót lại sau chiến tranh do hành
+động khác nhau của các bên liên quan.
+5. Khu vực đặc biệt là khu vực trước đây là bãi huỷ bom, đạn; các kho bom,
+đạn đã từng bị nổ nhiều lần; quanh các căn cứ, đồn bốt, trận địa cũ; một số khu vực
+thuộc vành đai biên giới phía Bắc có bb trí chồng lần nhiều lớp min.
+6. Khu vực 6 nhiễm bom min vật nổ là khu vực được xác định có BMVN
+còn sót lại sau chiến tranh.
+................ềccềềe.ec.........
+[[PAGE 3]]
+Ce
+2
+'
+
+7. Khu vực nghỉ ngờ 6 nhiễm bom mìn vật nổ là khu vực có dấu hiệu nghĩ
+ngờ về sự tồn tại của BMVN.
+
+8. Điều tra bom mìn vật nổ là hoạt động liên quan đến việc thu thập, phân
+tích, đánh giá các thông tin, dữ liệu về BMVN sau chiến tranh, phỏng vấn nhân
+chứng và quan sát trực quan tại hiện trường nhằm xác định diện tích đất đai bị ô
+nhiễm, nghi ngờ ô nhiễm hoặc không ô nhiễm BMVN trong một khu vực đất đai
+nhất định.
+
+9. Khảo sát bom min vật nổ là hoạt động thu thập va phân tích dữ liệu
+bằng trang thiết bị kỹ thuật để xác định về sự hiện diện, chúng loại, phân bồ của
+BMVN còn sót lại sau chiến tranh, để xác định chính xác khu vực ô nhiễm,
+không ô nhiễm BMVN.
+
+10. Ra phá bom min vật nổ là hoạt động dò tim, thu gom, tiêu hủy hoặc vô
+hiệu hóa BMVN đến độ sâu xác định là bị ô nhiễm BMVN nhằm giải phóng đất
+đai, khôi phục sản xuất, bảo đảm an toàn tính mạng và tài sản của Nhân dân.
+
+11. Đất được làm sạch là khu vực khẳng định 6 nhiễm BMVN nhưng đã
+được làm sạch BMVN thông qua hoạt động RPBM.
+
+12. Bằng chứng gián tiếp là bằng chứng giúp định hướng việc huy động
+nguồn lực để tiền hành PT hoặc KS. Bằng chứng gián tiếp có thé là dữ liệu về
+BMVN nhưng có độ tin cậy chưa cao cần thêm thông tin để kiếm chứng.
+
+13. Bằng chứng trực tiếp là bằng chứng trực quan về các loại BMVN tìm
+được qua ĐT, KS và các dữ liệu về BMVN có độ tin cậy cao.
+
+14. Hành lang an toàn là phần diện tích đắt liền kề xung quanh khu vực sẽ
+xây dựng công trình và cần được làm sạch BMVN để tránh tác động của BMVN
+còn lại trên phần diện tích này tới việc thi công công trình. Bề rộng của hành
+lang an toàn là khoảng cách trên bề mặt tính từ mép ngoài diện tích sử dụng cho
+công trình đến mép ngoài của khu vực được RPBM.
+
+15. Phương án kỹ thuật thi công, dự toán RPBM là tài liệu thi công thé
+hiện đầy đủ các thông số kỹ thuật của dự án; thé hiện rõ nhiệm vụ, đặc điểm tình
+hình có liên quan; khối lượng thi công; biện pháp tổ chức thi công, giải pháp kỹ
+thuật; quy trình kỹ thuật, tiêu chuẩn, quy chuẩn kỹ thuật, quy trình quản lý chất
+lượng được áp dụng; sử dụng trang thiết bi; tiền độ thi công; công tác bảo đảm;
+kiến nghị.
+
+Điều 5. Yêu cầu đối với hoạt động điều tra, khảo sát, ra phá bom min vật nd
+
+1. Cán bộ, kỹ thuật viên đủ về số lượng, sức khoẻ và được kiểm tra sức
+khỏe định kỳ, được đào tạo và cấp chứng chỉ theo quy định của pháp luật, phù
+hợp với yêu cầu nhiệm vụ theo phương án thi công được phê duyệt.
+
+2. Trang thiết bị kỹ thuật, bảo hộ lao động, cứu hộ cứu nạn, phòng chống
+cháy nổ dùng cho ĐT, KS, RPBM phải đủ số lượng, đảm bảo chất lượng theo
+tiêu chuẩn, quy chuẩn về ĐT, KS, RPBM và đúng phương án thi công được phê
+[[PAGE 4]]
+*
+Ñ                                                                 3
+duyệt; phải được kiểm tra, kiểm định theo định ky tại cơ sở kiểm định có thẩm         |
+quyền về tình trạng kỹ thuật.                                                                                      |
+3. Quá trình thực hiện ĐT, KS, RPBM phải tuân thủ Quy trình kỹ thuật này,
+không đê xảy ra mât an toàn.             :
+4. Định kỳ kiêm tra kêt quả công tác RPBM theo phương pháp xác suất,
+khối lượng diện tích kiểm tra không ít hơn 1% tổng số diện tích đã thi công.
+5. Đơn vị, tô chức tham gia hoạt động ĐT, KS, RPBM phải có giây phép
+còn hiệu lực hoặc được cấp chứng chỉ năng lực theo quy định.
+6. Kế hoạch, phương án kỹ thuật thi công, dự toán do cấp có thẩm quyền
+phê duyệt.
+Điều 6. Yêu cầu về diện tích, độ sâu, hành lang an toàn trong rà phá bom
+min vật nd
+1. Đối với diện tích gồm:
+a) Diện tích mặt bằng sử dụng của công trình, dự án gồm toàn bộ hoặc một
+phần diện tích được giao quyền sử dụng (căn cứ vào số liệu khảo sát và các tài
+liệu được cung cấp về tình hình ô nhiễm BMVN). Trường hợp khu vực địa hình
+không bing phẳng có độ dốc lớn hơn 10% thì diện tích RPBM được tinh theo
+mặt dốc của địa hình;
+b) Diện tích hành lang an toàn được quy định cụ thể cho từng loại dự án có
+xét đến tầm quan trọng của dự án.
+2. Đối với độ sâu được xác định như sau:
+a) Đối với dự án phục vụ việc khai hoang, phục hoá đất canh tác, đất nông
+nghiệp, lâm nghiệp, diém nghiệp: độ sâu RPBM là 0,3 m hoặc 0,5 m hoặc 1 m;
+b) Đối với dự án tái định cư, xây dựng nhà có chiều cao dưới 10 m; kênh
+mương thuỷ lợi, hồ chứa nước, nạo vét luồng lạch có độ sâu nạo vét nhỏ hơn 3 m;
+đường giao thông đến cấp III, IV, V, giao thông tuyến huyện, tuyến giao thông
+nông thôn; tuyến cáp quang, cáp điện ngằm, tuyến ống dẫn dầu, dẫn khí đốt, công
+trình thủy lợi, đê điều, công trình nông nghiệp, phát triển nông thôn và các dự án
+tương tự có độ sâu đào không quá 3 m: độ sâu RPBM là 3 m;
+c) Đối với dự án xây dựng dân dụng có chiều cao 10 m trở lên; xây dựng
+công nghiệp, đường giao thông cấp I, II, cao tốc, cầu, bến cảng va dự án tương
+tự; dự án nạo vét luồng lạch có độ sâu nạo vét từ 3 m đến 5 m; các dự án khoan
+thăm dò hoặc xây dựng công nghiệp khai thác dầu khí, thủy điện, trụ đường dây
+cao thế, trung thế, công trình thủy lợi, đê điều, công trình nông nghiệp và phát
+triển nông thôn có độ sâu dao lớn hơn 3 m: độ sâu RPBM là 5 m;
+d) Đối với công trình có tầm quan trọng đặc biệt theo yêu cầu của chủ đầu
+tư, những nơi có đánh dấu bom chưa nổ nhưng không phát hiện được khi đã dò
+tìm đến độ sâu 5 m: độ sâu RPBM lớn hơn 5m.
+[[PAGE 5]]
+EJ
+A                                                                   |
+<
+3. Đối với hành lang an toàn được xác định như sau:
+a) Đường giao thông cấp I, cấp II: 5 m; đường giao thông cấp II, cấp IV: 3m;
+đường giao thông từ cấp V trở xuống, đường giao thông nông thôn: 2 m tính từ
+mép trên ta luy đào, chân ta luy đắp hoặc mép ngoài rãnh dọc ra phía ngoài về
+mỗi bên;
+b) Đối với dự án xây dựng dân dụng, công nghiệp: 3 m tính từ mép chu vi
+đường biên ra phía ngoài;
+c) Nạo vét luồng lạch, độ sâu nạo vét không quá 3 m: 10m; luồng lạch có
+độ sâu nạo vét lớn hơn 3 m: 15 m tính từ mép trên ta luy đào của luồng hoặc
+kênh ra phía ngoài về mỗi bên;
+d) Cầu nhỏ, cống qua đường các loại: 15 m; cầu lớn, cửa đường hầm giao
+thông, bến cảng: 50 m tính từ mép công trình ra phía ngoài về 4 phía;
+đ) Tuyến đường cáp quang, cáp thông tin, cáp điện ngầm: 1 m đối với
+trường hợp thi công bằng thủ công và 3 m đối với trường hợp thi công băng máy,
+tính từ mép ngoài của công trình ra phía ngoài về mỗi bên;
+e) Tuyến đường ống dẫn nước các loại: 1 m đối với trường hợp thi công
+bằng thủ công và 3 m đối với trường hợp thi công bằng máy tính từ mép trên ta
+luy đào, chân ta luy đắp ra phía ngoài về mỗi bên;
+g) Tuyến đường ống dẫn dầu, dẫn khí có đường kính ống nhỏ hơn hoặc bằng
+0,2 m: 15 m; tuyến đường ống dẫn dầu, dẫn khí có đường kính ống lớn hơn 0,2 m:
+25 m tính từ mép trên ta luy đào, chân ta luy đắp ra phía ngoài về mỗi bên;
+h) Kè bờ sông, biển: 5 m tính từ mép ngoài cùng hồ móng ra phía ngoài về
+mỗi bên;
+i) Lỗ khoan khảo sát dia chất, khai thác nước ngầm: 50 m; khoan, khai thác
+dầu mỏ và khí đốt: 100 m tính từ tim lỗ ra xung quanh;                                                                |
+k) Cong trinh hé théng dẫn nước, chuyển nước, đê sông, đê biển, đê cửa
+sông không quá 5 m; công trình thủy lợi đầu mồi, công trình phòng chống thiên
+tai, công trình trong đê, trên đê, dưới đê đối với cấp I, cấp II không quá 30 m và                      |
+đối với cấp III, cấp IV không quá 10 m tinh từ mép trên ta luy đào, chân ta luy
+đắp ra phía ngoài mỗi bên;
+1) Các dự án khai hoang, phục hoá, tái định cư, nông nghiệp, lâm nghiệp,
+thủy sản và các công trình nông nghiệp, phát triển nông thôn khác: 3 m tính từ
+mép chu vi đường biên ra phía ngoài;
+m) Đồi với các công trình khác, việc quy định về khoảng cách hành lang an
+toàn được quy định cụ thể trên cơ sở tham khảo các quy định tương ứng với từng
+loại công trình quy định từ điểm a đến điểm ] khoản này và theo yêu cầu của Chủ
+đầu tư.
+Điều 7. Quy tắc an toàn trong điều tra, khảo sát, rà phá bom mìn vật nd
+    Công tác an toàn thực hiện theo quy định tại Quy chuẩn kỹ thuật quốc gia
+về ĐT, KS, RPBM.
+[[PAGE 6]]
+-         :
+Chương JI
+PIEU TRA, KHẢO SÁT
+XÁC ĐỊNH KHU VỰC Ô NHIỄM BOM MÌN VẬT NÖ
+Mục 1                                                           |
+
+PIEU TRA XÁC ĐỊNH KHU VỰC Ô NHIEM BOM MIN VAT NO
+
+Điều 8. Công tac chuin bị
+
+1. Thu thập, đánh giá thông tin lưu trữ tai địa phương và Trung tâm Cơ sở
+dữ liệu bom mìn quốc gia/Trung tâm Hành động bom mìn quốc gia Việt Nam
+(VNMAO).
+
+2. Xây dựng kế hoạch điều tra xác định khu vực ô nhiễm BMVN trình cấp
+có thẳm quyền phê duyệt theo Mẫu ĐT-01 Phụ lục I ban hành kèm theo Quy
+trình này.
+
+3. Hiệp đồng với các cơ quan, địa phương có liên quan, gồm:
+
+a) Về kế hoạch, thời gian thực hiện điều tra;
+
+b) Xác định số lượng các hộ gia đình tham gia phỏng vấn;
+
+c) Thu thập thông tin các dự án, kế hoạch phát triển kinh tế - xã hội của địa
+phương và hoạt động dân sinh liên quan đến khu vực điều tra;
+
+d) Đối chiếu, điều chỉnh trên bản đồ với thực địa, ghi tọa độ GPS của khu
+vực phải tiền hành điều tra (nếu cần):
+
+4. Chuẩn bị về lực lượng, trang bị và triển khai kế hoạch điều tra đã hiệp đồng.
+
+Điều 9. Điều tra 6 nhiễm bom min vật nỗ
+
+1. Trường hợp áp dụng: khu vực ô nhiễm nhưng chưa xác định mức độ, phạm
+vi 6 nhiễm và khu vực nghi ngờ ô nhiễm BMVN.
+
+2. Trang bị gồm:
+
+a) Phương tiện chở người (ô tô đến 16 chỗ, xe máy và các phương tiện khác);
+
+b) Thiết bị định vị vệ tỉnh cầm tay (GPS);
+
+c) Máy tính xách tay, máy tính bảng:
+
+d) Bộ dụng cụ đo vẽ bản đồ và bản đồ khổ A3 (bản đồ VN 2000 địa hình tỷ lệ
+phù hợp với các lớp dữ liệu bao gồm 6 chủ đề chính: Địa hình, thủy hệ, giao thông,
+dân cu, thực vật và hành chính);
+
+đ) Trang thiết bị y tế.
+
+3. Trình tự thực hiện:
+
+a) Thu thập, phân tích, đánh giá thông tin lưu trữ gồm:
+
+- Kết quả dự án ĐT, KS, RPBM đã được thực hiện tại địa phương: báo cáo
+về kết quả RPBM và thông tin về các loại BMVN được phát hiện trong khu vực
+lân cận. Các thông tin trên phải được kiểm chứng và xác nhận nguồn cung cấp;
+
+- Dữ liệu quốc gia về BMVN được lưu trữ tại Trung tâm Cơ sở dữ liệu bom
+min quốc gia/VNMAC
+[[PAGE 7]]
+mm
+‹
+#
+
+b) Thông tin phỏng vấn lãnh đạo địa phương:                                                                   |
+
+- Thực hiện phỏng vấn it nhất đối với 05 cán bộ cấp xã, phường (dai diện
+lãnh đạo của Ủy ban nhân dân, phụ trách quân sự, phụ trách công an, cán bộ địa
+chính, cán bộ thống kê) và 2 cán bộ cấp thôn theo Mẫu ĐT-02, Mẫu ĐT-03, Mẫu
+PT-04 Phụ lục I ban hành kèm theo Quy trình này.
+
+- Quá trình phỏng vấn, trường hợp người phỏng vấn phát hiện khu vực bị ô
+nhiễm, khu vực nghi ngờ bị ô nhiễm, khu vực đã được rà phá thì đề nghị xác
+định cụ thể trên bản đồ.
+
+c) Thông tin phỏng vấn các hộ gia đình:
+
+- Tổ điều tra thực hiện phỏng vấn ghi chép các câu trả lời của nhân chứng
+đại diện cho từng hộ gia đình theo Mẫu ĐT-05 Phụ lục I ban hành kèm theo Quy
+trình này; tỷ lệ phỏng vấn đối với các hộ gia đình tại khu vực dự án tối thiều là
+50% đối với khu vực miền núi, trung du và 25% đối với đồng bằng, đô thị.
+
+- Quá trình phỏng vấn, cán bộ phỏng vấn thu thập thông tin về tình hình khu
+vực bị ô nhiễm, khu vực nghi ngờ bi 6 nhiễm, khu vực đã được rà phá và đánh
+dấu, khoanh tròn trên bản đồ xã (tỷ lệ không nhỏ hơn 1:500) các khu vực còn ô
+nhiễm BMVN; các vị trí bị bắn phá (bằng không quân, tàu chiến) và giao tranh
+trên mặt đất; vị trí là căn cứ, kho quân sự trước đây; vị trí mà nhân chứng đã thấy
+BMVN; vị trí chôn (tập kết) BMVN do người dân thu gom được; vị trí xảy ra tai
+nạn đối với người, vật nuôi do BMVN gây ra. Mỗi nạn nhân tai nạn do BMVN
+gây ra, cán bộ điều tra lập thành một phiếu thông tin theo Mẫu ĐT-06 Phụ luc I
+ban hành kèm theo Quy trình này.
+
+d) Quan sát thực địa:
+
+Trên cơ sở những thông tin thu thập được quy định tại điểm c khoản này, tổ
+điều tra tiền hành quan sát tại thực địa để xác định tại chỗ về khu vực bị ô nhiễm,
+khu vực nghi ngờ bị ô nhiễm, khu vực đã được rà phá và đánh dấu vào bản đồ.
+
+Điều 10. Phân tích kết quả, lập báo cáo
+
+1. Đội trưởng trên cơ sở báo cáo của các tổ điều tra, tổng hợp, so sánh kết
+quả ĐT với các dữ liệu được lưu trữ đề phân tích, xác định khu vực ô nhiễm
+BMVN hoặc khu vực nghị ngờ ô nhiễm BMVN hoặc khu vực không ô nhiễm
+BMVN, xác lập bản đô kết quả ĐT, lập báo cáo theo Mẫu ĐT-07 Phụ luc I ban
+hành kèm theo Quy trình này.
+
+2. Tiêu chí xác định khu Vực ô nhiễm BMVN, khu vực nghỉ ngờ ô nhiễm
+BMVN và khu vực không 6 nhiệm BMVN như sau:
+
+a) Căn cứ xác định khu vực ô nhiễm BMVN
+
+- Khu vực đã có hoạt động quân sự hoặc xảy ra xung đột vũ trang;
+
+- Khu vực được người dân xác định đã nhìn thây BMVN hoặc phát hiện có
+bộ phận của BMVN hoặc hô bom;
+
+- Khu vực đã xảy ra tai nạn đối với người, vật nuôi do BMVN gây ra;
+
+- Khu vực lân cận đã phát hiện có BMVN trong quá trình RPBM;
+
+- Tài liệu lưu trữ, báo cáo về sự tôn tại của BMVN tại cuộc điêu tra trước.
+[[PAGE 8]]
+   ˆ         |                                                          7
+b) Căn cứ xác định khu vực nghi ngờ 6 nhiễm BMVN
+- Dữ hệu lich sử các cuộc ném bom của không quân đôi phương được lưu
+giữ tại Trung tâm lưu trữ quoc gia;                                3
+- Thông tin đáng tin cậy của người dân cung cap đã từng thay BMVN, mô         `
+tả được hình dáng, thời gian;                                                  cu                          <
+- Khu vực không tiép cận được do bị nghi ngờ là có nguy hiểm vê BMVN.
+c) Căn cứ xác định khu vực không 6 nhiệm BMVN: Không có các thông tin
+quy định tại điệm a, diém b khoản này.
+Mục2
+KHẢO SÁT XÁC ĐỊNH KHU VỰC Ô NHIỄM BOM MÌN VẬT NÓ
+Điều 11. Công tác chuẩn bị                                                       ;
+1. Nghiên cứu kêt qua PT đã được thục hiện tại địa phương, báo cáo kêt
+quả RPBM và thông tin liên quan đắn BMVN trong khu vực để dự kiến các mối
+nguy hiểm khi tiếp cận khu vực khảo sát.
+2. Xây dựng kế hoạch KS trình cấp có thẳm quyền phê duyệt theo Mẫu KS-
+01 Phụ lục II ban hành kèm theo Quy trình này.
+3. Hiệp đồng với các cơ quan, đơn vị, địa phương có liên quan về thời gian,
+diện tích, khu vực và các nội dung khác có liên quan đến triển khai thực hiện kế
+hoạch KS.
+4. Chuẩn bị về lực lượng, trang bị và triển khai kế hoạch KS đã hiệp đồng.
+Điều 12. Khảo sát xác định khu vực ô nhiễm
+1. Trường hợp áp dụng: Khu vục đã xác định ô nhiễm BMVN và khu vực
+nghi ngờ bị 6 nhiễm BMVN.
+2. Trang bị: máy dò bom, máy dò mìn, thiết bị định vị cầm tay (GPS), bộ
+đàm cầm tay, máy tính xách tay, thiết bị bảo vệ người, cuộn dây 28 m, bộ dụng
+cụ xử lý tín hiệu, cọc gỗ Ø3 cm dài 1,2 m, trang thiết bị y tế, xe chở người, xe
+cứu thương theo phương án được duyệt.
+3. Trình tự thực hiện:
+a) Tiến hành chia toàn bộ bản đồ khu vực KS thành lưới ô vuông với kích
+thước (50x50) m hoặc (25x25) m bảo đảm bao trùm toàn bộ diện tích khu vực
+khảo sát. Mỗi ô đều có thông số định vị tâm của ô, cán bộ quản lý thông tin hoặc
+đội trưởng tải định vị tâm của 6 KS lên hệ thống định vi GPS cằm tay;
+b) Xác định mối nguy hiểm dự kiến xảy ra đối với BMVN trước khi tiếp
+cận khu vực KS, nhất là đối với khu vực đã nhiều năm không được sử dụng hoặc
+khu vực mà kết quả ĐT xác định là bãi mìn;
+c) Tại địa điểm khảo sát, Đội trưởng hướng dẫn kỹ thuật viên về địa hình,
+bố trí đội hình, phân chia vị trí KS cho từng tổ và kế hoạch ứng phó khi xảy ra
+tai nạn; kiếm tra trang thiết bị; phân công nhiệm vụ cho thành viên trong đội và
+từng tổ; Tổ trưởng hướng dẫn kỹ thuật viên di chuyển về điểm xuất phát đầu tiên
+[[PAGE 9]]
+h
+$
+(6 khảo sát đầu tiên) tiến hành tự kiểm tra, điều chỉnh máy dò và thiết bi kỹ
+thuật, dọn mặt bằng (nếu cần thiết);
+
+d) Tổ trưởng sử dụng thiết bi GPS xác định tâm điểm của mỗi 6 khảo sát
+quy định tại điểm a khoản này trên thực địa;
+
+đ) Tại vị trí tâm điểm của mỗi ô khảo sát được dò tìm, xử lý hết các tín hiệu
+BMVN trong bán kính 1 m trước khi đóng cọc tâm (cọc gỗ dài 1,2 m). Tại vị trí
+tâm của ô khảo sát, tổ trưởng quan sát, điều hành, hướng dẫn kỹ thuật viên thực
+hiện nhiệm vụ;
+
+e) Kỹ thuật viên liên kết một đầu dây vào cọc tâm sau đó kéo dây theo 4
+hướng Đông, Tây, Nam, Bắc để chia ô ra thành 4 phần. Mỗi dây có độ dài trên
+25 m và có đánh dấu ở vị trí 25 m theo hình vẽ dưới đây;
+
+x2
+Cw sẽ = ve m s
+  LTT
+GE ME
+=
+bby
+25        FEL I ha
+——   .____
+Cách chia 6 và bd trí đội hình khảo sát kỹ thuật.
+
+- Trường hợp khu vực có thảm thực vật dầy hoặc địa hình khó khăn, Tổ
+trưởng quyết định không sử dụng dây để chia ô nhưng phải áp dụng phương
+pháp di chuyển như hình vẽ trên;
+
+- Trường hợp điều kiện và đặc điểm ô nhiễm BMVN của khu vực không
+cho phép triển khai đội hình KS như nêu trên thì triển khai thực hiện khảo sát
+theo quy trình RPBM trong khu vực là bãi mìn;
+
+g) Sau khi đã chia 6 KS thành 4 phần, kỹ thuật viên sử dụng máy dò min tiền
+hành dò tìm theo đường thang trong phạm vi khu vực phụ trách. Kỹ thuật viên đi
+theo hướng từ tâm ra ngoài, khoảng cách giữa các kỹ thuật viên khoảng 10 m; độ
+sâu KS tối thiểu là 0,3 m;
+
+h) Quá trình kỹ thuật viên thực hiện nhiệm vụ, Tổ trưởng di chuyển xung
+quanh ô dé kiểm tra, giám sát khoảng cách giữa các kỹ thuật viên để tránh ảnh
+hưởng giữa các máy dò và đảm bảo khoảng cách an toàn giữa các kỹ thuật viên
+KS khi xử lý tín hiệu;
+
+ne
+[[PAGE 10]]
+   ˆ         |                                                          9
+|                                                                                                                                        )
+|                             i) Khi kỹ thuật viên xác định được bằng chứng là BMVN, phải dừng KS va           '
+|                     thông báo ngay cho Tô trưởng dé xác định kết qua, lưu dữ liệu vào cơ sở dữ liệu
+                        theo quy định và chuyên sang KS tại ô tiếp theo;                                                        :
+|                              k) Thời gian KS tại mỗi 6 ở những khu vực có điều kiện mặt bằng thuận loi
+
+từ 30 đến 40 phút, khu vực có địa hình phức tạp, thảm thực vật dây từ 40 đến 60
+
+phút. Trường hợp không tìm thấy bằng chứng của BMVN trong thời gian trên, tổ
+
+di chuyên sang thực hiện nhiệm vụ tại các ô tiếp theo;
+
+1) Khi hoàn thành KS tại một 6, Tổ trưởng đánh dấu kết quả trên bản đồ 6
+lưới theo mã mau như sau:
+
+- Màu đỏ: “Ô nhiễm trực tiếp” đối với các ô có phát hiện được bằng chứng |
+có BMVN;
+
+- Màu nâu: “Ô nhiễm gián tiếp” là các ô liền kề với ô “ô nhiễm trực tiếp”;
+
+- Màu xanh lá cây: “Không ô nhiễm” là các ô không tìm thấy bằng chứng
+trực tiếp hoặc gián tiếp;
+
+- Màu vàng: “Không ô nhiễm gián tiếp” là ô liền kề với ít nhất ba ô không ô
+nhiễm trực tiếp;
+
+- Trường hop 6 đã được đánh dấu màu xanh hoặc màu vàng trước mà ô KS
+tiếp theo liền kề là ô màu đỏ thì được chuyển sang thành ô màu nâu theo nguyên
+tắc ô liền kề ô nhiễm trực tiếp;
+
+- Màu xám: “Không xác định” là những ô vì bất cứ lý do nào đó mà không
+thể tiền hành khảo sát toàn bộ diện tích.
+
+Điều 13. Xử lý tín hiệu
+
+1. Khi máy dò chỉ thị có tín hiệu, kỹ thuật viên phải dùng máy dò kiểm tra
+thành vệt chữ thập bên trên vị trí tín hiệu để xác định tâm tín hiệu.
+
+2. Sử dụng dụng cụ cầm tay tiến hành đào, xử lý, xác định tín hiệu theo
+đúng kỹ thuật. Khi thấy tín hiệu thì dùng dao găm để bới đất xung quanh cho lộ
+hắn vật gây tín hiệu, kiểm tra xác định vật gây tín hiệu, như sau:
+
+a) Tín hiệu là BMVN:  kiểm tra, xác định  ching loại, độ  năm sâu của
+BMVN; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu gom về
+nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom, vận
+chuyển hoặc vật nỗ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi công (đối
+với các loại bom lớn phải có kế hoạch xử lý riêng); lưu lại tọa độ trên thiết bị
+GPS cầm tay; báo cáo Tổ trưởng lưu lại chi tiết và ghi tọa độ BMVN trong báo
+cáo kết quả KS hàng ngày và chuyển sang khảo sát tai ô tiếp theo;
+
+b) Tín hiệu là mảnh vỡ của BMVN: kiểm tra, xác định chủng loại BMVN từ
+mảnh vỡ, độ lớn và độ nằm sâu của mảnh; kiểm tra hồ đào bằng máy xem còn tín
+hiệu nào khác, nếu vẫn còn tín hiệu, tiếp tục đào kiểm tra theo đúng kỹ thuật dé
+xác định tín hiệu; thu gom về vị trí cất giữ (nếu được); lưu lại tọa độ tín hiệu trên
+thiết bị GPS cầm tay; báo cáo Tổ trưởng lưu lại chỉ tiết và ghi tọa độ trong báo
+cáo kết quả khảo sát hàng ngày; tiếp tục khảo sát trong ô;
+[[PAGE 11]]
+10
+c) Tín hiệu là sắt, thép hoặc vật nhiễm từ: tiến hành thu gom về vị trí tập kết
+và dùng máy kiểm tra lại vị trí đó, nếu vẫn còn tín hiệu, tiếp tục đào kiểm tra, xử
+lý cho đến khi hết tín hiệu; lưu lại chỉ tiết tín hiệu trong báo cáo kết quả K hàng
+ngày; tiếp tục KS trong ô cho tới khi thời gian quy định cho ô đó kết thúc hoặc
+tới khi tim được BMVN trong ô; di chuyển tới ô tiếp theo;
+d) Tín hiệu là các loại mìn: khi đào, kiểm tra phát hiện tín hiệu là mìn hoặc
+nghỉ ngờ là mìn, kỹ thuật viên phải báo ngay cho Tổ trưởng và thông báo cho các
+kỹ thuật viên khác đang làm việc trong cùng ô phải dừng di chuyển đợi hướng
+dẫn của Tổ trưởng. Sau khi nhận được báo cáo, Tổ trưởng tiền hành:
+- Hướng dẫn các kỹ thuật viên trong ô khảo sát thận trọng rời vị trí thi công
+chuyển về vị trí an toàn;
+- Kiểm tra đánh dấu vị trí min (không thu gom được) dé tiến hành xử lý
+trong thời gian sớm nhất; lưu lại tọa độ trên thiết bị GPS cầm tay; lưu lại chi tiết
+và ghi toa độ trong báo cáo kết quả khảo sát hàng ngày;
+- Chuyển sang KS tại ô tiếp theo.
+Điều 14. Lập báo cáo kết quả khảo sát
+Đội trưởng có trách nhiệm phối hợp với tổ trưởng, cán bộ giám sát chất
+lượng phân tích kết quả KS, lập báo cáo, gồm:
+1. Báo cáo kết qua KS hàng ngày, nội dung thông tin được cập nhật vào báo
+cáo kết quả KS theo Mẫu KS-02 Phụ lục II ban hành kèm theo Quy trình kỹ này.
+2. Báo cáo khu vực ô nhiễm BMVN, nội dung kết quả cập nhật theo từng
+nhiệm vụ Mẫu KS-03 Phụ lục II ban hành kèm theo Quy trình nay.
+3. Báo cáo kết quả hoàn thành KS một khu vực, một nhiệm vụ và kết quả
+này được cập nhật vào hệ thống quản lý thông tin Mẫu KS-04 Phụ lục II ban hành
+kèm theo Quy trình này.
+4. Báo cáo tổng hợp kết quả khảo sát theo Mẫu KS-05 Phụ lục II ban hành
+kèm theo Quy trình này.
+5. Xác định khu vực ô nhiễm BMVN và khu vực không ô nhiễm BMVN.
+a) Xác định khu vực ô nhiễm BMVN:
+Căn cứ vào kết quả khảo sát tại từng ô với các ô màu đỏ liền hoặc không liền
+nhau nim trong khu vực nghỉ ngờ ô nhiễm BMVN, kết hợp với các thông tin quy
+định tại điểm a khoản 2 Điều 10 Quy trình này.
+b) Xác định khu vực không ô nhiễm BMVN: Căn cứ vào kết quả KS có nhiều
+6 màu xanh liền nhau nằm trong khu vực nghỉ ngờ ô nhiễm BMVN sau KS, kết hợp
+với các thông tin quy định tại điểm c khoán 2 Điều 10 Quy trình này.                                                    |
+6. Khoanh vùng khu vực ô nhiễm BMVN và không 6 nhiễm BMVN                                      |
+a) Khoanh vùng khu vực 6 nhiém BMVN
+- Những ô xác định được bằng chứng trực tiếp hoặc gián tiếp về BMVN                    |
+trên thực địa (các 6 được đánh dấu màu đỏ trên bản đồ kết qua KS);
+[[PAGE 12]]
+ˆ                                                     11
+1
+!
+- Những ô liền kề với ô màu đỏ (các ô được đánh dấu màu nâu trên bản đồ           -
+kết quả KS);                                                                                                                      [
+- Khu vực 6 nhiễm là một khu vực bao gồm các 6 được xác định là 6        ị
+nhiễm trực tiếp và ô nhiễm gián tiếp liền kề ô mầu đỏ (các ô màu đỏ và các ô         i
+màu nâu liền kề trên bản đồ kết quả KS); trường hợp giữa các khu vực được        ĩ
+xác định là bị ô nhiễm mà có các ô màu xanh hoặc màu vàng xen kẽ, số ô này
+không vượt quá 4 ô hoặc trường hợp sát cạnh một khu vực được xác định là bị
+ô nhiễm mà có không nhiều hơn 4 ô màu xanh hoặc vàng thì ghép vào cùng khu
+vực ô nhiễm.
+b) Khoanh vùng khu vực không ô nhiễm BMVN                            |
+- Những 6 “không 6 nhiễm trực tiếp” được đánh dấu màu xanh;
+- Những ô “không ô nhiễm gián tiếp” được đánh dấu màu nâu;
+- Khu vực không ô nhiễm BMVN: là một khu vực bao gồm các ô “không
+ô nhiễm trực tiếp” và “không ô nhiễm gián tiếp” liền kề trên thực địa (các ô màu
+xanh và màu vàng liền kề trên bản đồ kết qua KS);
+- Những 6 không thể tiếp cận để tiền hành khảo sát được đánh dấu màu
+xám; căn cứ vị trí năm trong khu vực nào để ghép vào khu vực ô nhiễm hay
+không ô nhiễm theo nguyên tắc xác định bằng màu của các ô liền kề hay màu
+của các ô trong cả khu vực.
+Chương III
+RÀ PHÁ BOM MÌN VẬT NÓ
+Mục 1
+CÔNG TAC CHUAN BỊ
+Điều 15. Khảo sát, thu thập số liệu phục vụ lập phương án kỹ thuật thi          |
+công, dự toán rà phá bom mìn vật nỗ
+Đơn vị, tổ chức KS, RPBM có trách nhiệm:
+1. Xây dựng kế hoạch KS, RPBM kèm theo sơ đồ khu vực trình cấp có
+thẳm quyền phê duyệt.
+2. Thông báo bằng văn bản đến chính quyền địa phương và cơ quan quân sự địa
+phương từ cấp huyện trở lên về hoạt động KS, RPBM theo đúng quy định.                                |
+3. Thu thập thông tin về đặc điểm tình hình BMVN (Khu vực ô nhiễm        |
+BMVN, việc bố tri; mức độ đánh phá; chủng loại, tính chất BMVN do các lực
+lượng tham chiến đã sử dụng trong khu vực sẽ thi công RPBM) trong các tài liệu
+hồ sơ lưu trữ, thông tin của chính quyền, lực lượng vũ trang quản ly địa bàn và
+nhân dân địa phương.
+4. Đóng cọc mốc bằng bê tông cốt thép khi thi công RPBM trên cạn; tiền          |
+hanh tha phao, rua khi RPBM dưới nước; thả phao, rùa kết hợp với định vị tọa          |
+độ GPS khi RPBM dưới biên đê đánh dau phạm vi, khu vực thi công RPBM.                   |
+[[PAGE 13]]
+12                                                       em
+
+5. Khảo sát tại thực địa dé xác định:
+
+a) Cấp rừng, địa hình, cấp đất, độ nhiễm từ của đất, thời tiết, khí hậu, thuỷ
+văn; tình hình dân cư trong khu vực và tìm vị trí dựng lán trại làm nhiệm vụ.
+
+b) Xác định mật độ tín hiệu toàn khu vực bằng cách tiền hành RPBM một
+số bước của quy trình tại một số vị trí được chọn có kích thước từ (25x25) m đến
+(50x50) m mang tính chất đại diện cho từng loại địa hình, đối với những dự án
+RPBM trên cạn và dưới nước có diện tích từ 30 ha trở lên thì tổng diện tích các
+điểm KS phải bằng 1% tổng diện tích cần RPBM; đối với dự án RPBM có diện
+tích nhỏ hơn 30 ha thì tổng diện tích các điểm KS từ 1% đến 3% tổng diện tích
+cần RPBM, tùy theo mặt bằng của dự án. Đối với KS dưới biển các 6 KS thường
+có kích thước (250 x 50) m với tổng diện tích các điểm KS phải bằng 3% khi
+diện tích cần RPBM từ 30 ha trở lên và bằng 5% khi diện tích cần RPBM nhỏ
+hơn 30 ha.
+
+c) Các biên bản trong hồ sơ khảo sát phục vụ lập phương án kỹ thuật thi
+công, dự toán (biên bản bản giao mặt bằng cho KS; nhật ký thi công KS; nghiệm
+thu kết qua KS; báo cáo kết quả thi công KS) thực hiện theo Mẫu RPBM-01,
+Mẫu RPBM-02, Mẫu RPBM-03, Mẫu RPBM-04 tại Phụ lục III ban hành theo
+Quy trình này.
+
+6. Công tác RPBM có tính chất đặc thù nên các dự án có quy mô nhỏ với
+diện tích dưới 30 ha thì giao cho một đơn vị đồng thời thực hiện khảo sát để
+lập phương án kỹ thuật thi công, dự toán và tổ chức thi công RPBM.
+
+Điều 16. Lập phương án kỹ thuật thi công, dự toán rà phá bom mìn
+
+1. Phương án thi công phải thể hiện rõ nhiệm vụ, đặc điểm tình hình có liên
+quan; khối lượng thi công: biện pháp tổ chức thi công, giải pháp kỹ thuật, quy
+trình kỹ thuật, tiêu chuẩn, quy chuẩn kỹ thuật, quy trình quản lý chất lượng được
+áp dụng; sử dụng trang thiết bị; tiền độ thi công: công tác bảo đảm; kiến nghị.
+
+Trường hợp khu vực có địa hình và mật độ tín hiệu BMVN thuộc vùng đất
+bị nhiễm từ nhiều, vùng trút bom trước khi máy bay hạ cánh, khu vực có các loại
+bom đạn chứa chất độc hoá học thì phải có phương án thi công riêng.
+
+2. Nội dung phương án kỹ thuật thi công RPBM gồm.
+
+a) Thực trạng khu vực, diện tích, mức độ ô nhiễm BMVN và các tài liệu
+liên quan đến việc xác định khu vực nghi ngờ ô nhiễm BMVN;
+
+b) Sơ đồ bố trí khu vực thi công:
+
+c) Bản đồ tỷ lệ từ 1/500 đến 1/5000 xác định khu vực ô nhiễm BMVN sau
+khi khảo sát;
+
+d) Bản vẽ kỹ thuật, sơ đồ thể hiện giải pháp kỹ thuật của các công việc đòi
+hỏi có thiết kế đặc biệt (hố đào sâu, chống tạm, thiết bị cần chế tạo thêm, trạm
+nỗi, nhà tạm);
+[[PAGE 14]]
+   |            |                                                          13
+
+đ) Thuyết minh phương án kỹ thuật thi công, tiêu chuẩn, quy chuẩn, quy
+trình áp dụng; sử dụng lực lượng, trang thiết bị thi công; phương án thu gom,        i
+tiêu hủy BMVN thu được; phương án bảo đảm hậu cần; an toàn, đánh giá tác
+động môi trường theo quy định.
+
+3. Dự toán RPBM gồm: chỉ phí vật liệu; chi phí nhân công; chỉ phí máy,
+thiết bị, thuế, phi và các chi phí khác theo quy định.
+
+Mục2
+RA PHA BOM MIN VAT NÓ TREN CAN
+
+Điều 17. Xác định khu vực rà phá bom min vật nd
+
+1. Căn cứ các mốc đã đánh dấu, khoanh khu vực RPBM quy định tại khoản
+4 Điều 15 Quy trình này, đơn vị thi công mở đường bao rộng từ 2 m den 4 m
+xung quanh toàn bộ khu vực trién khai RPBM; di chuyên; vận chuyên vật tư,
+trang bị và cách ly khu vực RPBM với xung quanh đê chông cháy lan khi phải
+dùng biện pháp dọn mặt băng băng phương pháp đôt.
+
+2. Đơn vị thi công kiểm tra, phát dọn mặt bằng và tiền hành RPBM từ phạm
+vi đường bao theo quy định từ Điêu 18 dén Điều 29 Quy trình này.
+
+Điều 18. Thứ tự các bước rà phá bom mìn trên cạn
+
+1. Khu vực bãi mìn.
+
+a) Dọn mặt bằng bằng thủ công hoặc thủ công kết hợp đốt bằng xăng dầu
+hoặc dùng thuốc nổ;
+
+b) Rà phá bom mìn vật nổ bằng thủ công đến độ sâu 0,07 m;
+
+c) Rà phá bom mìn vật nỗ bằng máy dò mìn ở độ sâu đến 0,3 m hoặc 0,5 m;
+
+d) Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 0,3 m hoặc 0,5 m;
+
+đ) Rà phá bom mìn vật nổ bằng máy dò bom ở độ sâu lớn hơn 0,3 m đến
+1 m, đến 3 m, đến 5 m hoặc đến 10 m;
+
+e) Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 1 m;
+
+g) Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 3 m;
+
+h) Đào dit kiếm tra, xử lý tín hiệu đến độ sâu 5 m;
+
+i) Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 10 m;
+
+k) RPBM ở độ sâu lớn hơn 5 m đến 10 m bằng phương pháp khoan lỗ;
+
+1) Hủy nỗ BMVN tại chỗ trên cạn.
+
+2. Khu vực không phải là bãi mìn
+
+Thực hiện dọn mặt bằng bằng thủ công hoặc thủ công kết hợp đốt bằng xăng
+dầu và các bước quy định tại các điểm c, d, đ, e, g, h, i, k và 1 khoản 1 Điều này.
+
+Điều 19. Dọn mặt bằng
+
+1. Nội dung công việc.
+
+a) Phát dọn sạch dây leo, cỏ rác, cây có đường kính từ 10 cm trở xuống (gốc
+cây còn lại không cao quá 5 cm), cây có đường kính lớn hơn 10 cm chỉ được
+chặt phá khi có tín hiệu phải xử lý năm dưới gốc cây;
+[[PAGE 15]]
+14                                                          mm
+b) Thu dọn các chướng ngại vật trên toàn bộ mặt bằng phải đưa ra khỏi
+phạm vi thi công RPBM;
+c) Kiểm tra, xử lý thu dọn sạch tín hiệu trên mặt dat.                                                            |
+2. Don mặt bằng bằng thủ công khu vực là bãi min
+a) Trường hợp áp dụng: các khu vực là bãi mìn còn sót lại sau chiến tranh
+hoặc min mới bd trí;
+b) Trang bị gồm: thiết bị bảo vệ người; dao phát, dụng cụ làm tay; trang bị
+kiểm tra BMVN; máy dò mìn; cọc tiêu, biển báo, dao, kéo cắt cây;
+c) Trình tự thực hiện:
+- Thực hiện các biện pháp bảo đảm an toàn, căn cứ vào các mốc dấu và
+hành lang an toàn, tiền hành triển khai đội hình;
+- Phát dọn mặt bằng đồng thời với dò tìm đến độ sâu 0,07 m theo đúng yêu cầu
+kỹ thuật, di chuyển các chướng ngại vật ra khỏi vị trí thi công RPBM trong ngày.
+3. Dọn mặt bằng bằng thủ công khu vực không phải là bãi mìn
+       a) Trường hợp áp dụng: các khu vực phải RPBM thuộc mọi loại địa hình;
+b) Trang bị gồm: thiết bị bảo vệ người, máy cắt cỏ, dao phát và dụng cụ làm
+tay; trang bị kiểm tra BMVN; cọc dấu, biển báo;
+c) Trình tự thực hiện:
+- Đóng cọc chia nhỏ khu vực thành các ô có kích thước khoảng (25x25)m
+hoặc (50x50) m tuỳ theo địa hình khu vực (chiều dài 25 m hoặc 50 m, kích thước
+tuỳ theo chiều rộng của khu vực thi công RPBM);
+- Phát dọn mặt bằng sạch cây theo đúng yêu cầu kỹ thuật, di chuyển các
+chướng ngại vật ra khỏi vị trí thi công RPBM trong ngày.
+4. Dọn mặt bằng bằng thủ công kết hợp đốt bằng xăng, dầu
+a) Trường hợp áp dụng: các khu vực có hoặc không có bãi mìn nhưng có
+nhiều cây, dây leo khi được cơ quan có thẩm quyền quan lý rừng của khu vực
+cho phép;
+b) Trang bị gồm: thiết bị bảo vệ người, dao phát và dụng cụ làm tay; trang bị
+kiểm tra BMVN; cọc tiêu, biển báo; xăng, dầu và dụng cụ phun xăng dầu;
+c) Trình tự thực hiện:
+- Phát dọn cây, dây leo mở các đường có chiều rộng từ 2 m đến 4 m dé chia
+nhỏ khu vực thành các ô có kích thước (25x25) m hoặc (50x50) m tuỳ theo địa
+hình khu vực (chiều dài 25 m hoặc 50 m, kích thước tuỳ theo chiều rộng của khu
+vực thi công RPBM);
+- Phun xăng, dầu đốt hết cây, dây leo trong từng ô vào thời điểm thích hợp;                           |
+- Phát dọn cây và đưa chướng ngại vật ra ngoài khu vực RPBM trong từng                      |
+0 (tien hanh đồng thời với bước RPBM đến độ sâu 0,07 m hoặc 0,3 m tại cùng                    |
+một điểm đứng).
+[[PAGE 16]]
+.                                                          15
+1
+5. Don mặt bằng bằng thủ công kết hợp với thuốc nổ                                             ]
+a) Truong hợp áp dụng: khu vực là bãi min có hang rào dây thép gai nguy         ’
+hiểm khi được cấp có thẳm quyền cho phép.
+b) Trang bị va vật tư chủ yêu: thiệt bị bảo vệ người, dao phát va dụng cụ làm            i
+tay; trang bi kiém tra BMVN; coc dấu, biển báo; thuốc nổ, hoa cụ, khí tài gây nổ          -
+va các vật tư khác.                                                                                                      1
+c) Trình tự thực hiện:
+- Dùng lượng nổ dài để phá hàng rào hoặc khu vực nguy hiểm; mở đường
+công vụ có chiều rộng từ 2 m đến 4 m, đóng cọc chia nhỏ khu vực thành các 6 có
+kích thước (25 m x 25 m) hoặc (50 m x 50 m) tùy theo địa hình khu vực (kích thước
+chiều dài 25 m hoặc 50 m, chiều rộng tuỳ theo chiều rộng của khu vực thi công
+RPBM).
+- Phat dọn cây, chướng ngại vật dua ra ngoài khu vực RPBM trong từng 6
+(tiền hành đồng thời với bước RPBM đến độ sâu 0,07 m hoặc 0,3 m tại cùng một
+điểm đứng), đối với khu vực là bãi mìn.
+Điều 20. Ra phá bom min vật nỗ bằng thủ công đến độ sâu 0,07 m
+1. Trường hợp áp dụng: khu vực là bãi min có các loại min vỏ nhựa ít kim
+loại mà máy dò hiện nay khó phát hiện; khu vực là bãi mìn có lẫn nhiều vật
+nhiễm từ.
+2. Trang bị: thiết bị bảo vệ người, cờ đuôi nheo nhỏ màu đỏ và trắng: bộ
+dụng cụ làm tay; chốt an toàn; dụng cụ thu gom.
+3. Trình tự thực hiện:
+a) Từ mép đường chia 6 dò, dùng dây đánh dấu dai dò hoặc cờ đuôi nheo
+màu trắng đánh dấu đường dò (rộng từ 1 đến 1,5 m), dò đến đâu đánh dấu đến
+đó, khoảng cách 1,5m cắm một cờ. Chỉ cắm cờ đánh dấu đường biên của dải dò
+thứ nhất, các dai dò tiếp theo sử dụng cờ biên của dải dò thứ nhất (tiếp giáp) căm
+sang biên phía chưa dò theo kiểu cuốn chiếu;
+b) Dùng thuốn kết hợp với quan sát bằng mắt thường để tìm mìn, vật nổ theo
+đúng yêu cầu kỹ thuật (thuốn từ gần đến xa, từ trái qua phải và ngược lại; mũi
+thuốn nghiêng một góc từ 30° đến 40° so với mặt đất tự nhiên; thuốn theo hình hoa
+mai các mũi thudn cách nhau 0,03 m đến 0,05 m, sâu từ 0,07 m đến 0,1 m);
+c) Khi có tín hiệu phải thuốn kiểm tra xác định tín hiệu, sau đó tiến hành
+đào kiểm tra tín hiệu theo đúng kỹ thuật.
+Trường hợp tín hiệu là mìn, vật nổ thì xử lý an toàn, thu gom về nơi quy
+định, nếu không an toàn cho thu gom hoặc vật nỗ lạ thì đánh dấu bằng cờ màu đỏ
+chờ xử lý sau;
+Trường hợp tín hiệu không phải là mìn, vật nổ thì thu gom về nơi quy định.               |
+d) Khi có nhiều người cùng do tìm trong một khu vực diện tích thì khoảng           |
+cách giữa 2 người gần nhất phải > 15 m.
+|
+[[PAGE 17]]
+16
+
+Điều 21. Ra phá bom min vật nd bằng máy dò min đến độ sâu 0,3 m
+hoặc đến 0,5 m
+
+1. Trường hợp áp dụng: khu vực phải RPBM đến độ sâu khác nhau bao
+gồm: bãi mìn sau khi đã dò tìm, xử lý đến độ sâu 0,07 m; khu vực không phải là
+bãi mìn (độ sâu 0,5 m áp dụng cho dự án đất lâm nghiệp và chỉ thực hiện khi có
+yêu cầu của chủ đầu tư).
+
+2. Trang bi: thiết bị bảo vệ người, máy dò mìn, thuốn, cờ đuôi nheo nhỏ màu
+đỏ, cọc gỗ và dây đánh dấu đường dò.
+
+3. Trình tự thực hiện:
+
+a) Cắm cọc căng dây đánh dấu dải dò, mỗi dải dò rộng từ 1 m đến 1,5m
+(tùy theo tính năng của các loại máy dò để xác định dải dò cho phù hợp).
+
+b) Dùng máy dò mìn tiến hành dò theo đúng kỹ thuật (dò từ trái sang phải
+và ngược lại; vệt dò sau phải trùm lên 1/3 vệt dò trước; đường dò sau phải lấn
+sang đường dò trước 10 cm).
+
+c) Khi máy dò chỉ thị có tín hiệu, dò thành vệt chữ thập phía trên vị trí có tín
+hiệu để xác định tâm tín hiệu, dùng cờ màu dé đánh dấu sát bên cạnh tâm tín hiệu.
+
+d) Khi có nhiều máy dò cùng hoạt động trên một khu vực thì các máy phải
+cách nhau từ 7 m trở lên để tránh gây nhiễu.
+
+Điều 22. Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 0,3 m
+
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu.
+
+„ 2. Trang bị: trang thiết bị bảo vệ người, máy dò mìn, thuốn, xẻng, dao găm;
+chôt an toàn; dụng cụ thu gom.
+
+3. Trình tự thực hiện:
+
+a) Dùng máy dò mìn và thuốn kiểm tra tại vị trí tín hiệu đã đánh dấu, xác
+định chính xác vị trí và kích thước tín hiệu. Dùng xẻng đào hô có kích thước tuỳ
+theo độ lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiêm tra băng máy
+dò), thận trọng bóc dân từng lớp đât từ trên xuông và từ mép vào tim ho, vừa dao
+vừa kiêm tra. Khi thây tín hiệu thì dùng dụng cụ câm tay đê bới đât cho lộ hăn vật
+gây tín hiệu;
+
+.b Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+vê nơi quy định; nêu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,
+vận chuyên hoặc vật nô lạ thì đánh dâu lại đề hủy tại cho vào cuôi buôi thi công
+(đôi với các loại bom lớn phải có kê hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý đê đảm bảo sạch hêt tín hiệu. Nêu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoan nay.
+
+Điều 23. Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 0,5 m
+
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu.
+
+2. Trang bị: thiết bị bảo vệ người, máy dò, thuốn dò mìn, xéng, dao gam;
+chốt an toàn; dụng cụ thu gom.
+[[PAGE 18]]
+   R                                                       17
+3. Trình tự thực hiện:
+a) Dùng máy dò mìn và thuốn kiểm tra tại vị trí tín hiệu đã đánh dấu, xác
+định chính xác vị trí và kích thước tín hiệu. Dùng xéng đào hé có kích thước tuỳ
+theo độ lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy
+dò), thận trọng bóc dần từng lớp đất từ trên xuống và từ mép vào tim hồ, vừa đào
+vừa kiểm tra. Khi thầy tín hiệu thi dùng dụng cụ cầm tay dé bới đất cho lộ hin vật
+gây tín hiệu;
+b) Kiếm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,             |
+van chuyén hoặc vật nd la thì đánh dấu lại dé hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu cần phải dùng máy dò kiểm tra lại xung
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu
+                        còn tín hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+                      Điều 24. Rà phá bom mìn vật nỗ bằng máy dò bom ở độ sâu lớn hơn
+0,3 m hoặc 0,5 m đến 1 m, đến 3 m, đến 5 m hoặc đến 10 m
+1. Trường hợp áp dụng: khu vực phải RPBM đến độ sâu 1 m, đến 3 m, đến
+5 m hoặc đến 10 m sau khi đã dò tìm, xử lý ở độ sâu đến 0,3 m tính từ mặt đắt tự
+nhiên hiện tại trở xuống. Trừ trường hợp quy định tại khoản 1 Điều 29 của Quy
+trình kỹ thuật này.
+2. Trang bị: thiết bị bảo vệ người, máy dò bom, cờ màu đỏ, cọc gỗ và dây.
+3. Trình tự thực hiện:
+a) Chuẩn bị máy dò, kiểm tra, điều chỉnh máy dò cho phù hợp với độ nhiễm
+từ của đất trong khu vực;
+b) Đóng cọc căng dây đánh dấu dai dò, mỗi dải dò có chiều rộng là 1 m;
+c) Dùng máy dò bom tiến hành dò theo đúng kỹ thuật dé phát hiện hết các
+tín hiệu đến độ sâu yêu cầu. Khi máy dò chỉ thị có tín hiệu ở phía dưới (thông
+qua độ lệch của kim đồng hồ và thay đổi âm thanh của máy), tiền hành dò rộng
+ra xung quanh vi trí nghi ngờ để kiểm tra, xác định tâm tín hiệu, dùng cờ màu đỏ
+cắm sát bên cạnh vị trí tâm tín hiệu để đánh dấu chờ xử lý.
+d) Khi có trên 2 máy cùng dò tìm trong một khu vực diện tích thì khoảng
+cách giữa 2 máy gần nhau tối thiểu > 7 m để tránh các máy gây nhiễu.
+Điều 25. Đào đất kiểm tra, xứ lý tín hiệu đến độ sâu 1m
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ
+lớn hơn 0,3 m đến 1 m tính từ mặt đất tự nhiên hiện tại trở xuống (độ sâu 1 m ap
+dụng cho dự án đất lâm nghiệp và chỉ thực hiện khi có yêu cầu của chủ đầu tư)
+2. Trang bị: thiết bị bảo vệ người, máy dò bom, thuốn, xẻng, dao găm, chết an
+toàn, thuốc nổ, hoả cụ, khí tài gây nổ, dụng cụ thu gom, máy bơm nước và phụ
+kiện đi kèm.
+[[PAGE 19]]
+ˆ        .
+
+3. Trình tự thực hiện:
+
+a) Kiểm tra và dùng dụng cụ làm tay thận trọng đào bới tại xung quanh vị
+trí tâm tín hiệu đã đánh dấu. Đào từ ngoài vào trong, kích thước hồ đào tuỳ theo
+độ lớn và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy dò) dé
+quyết định; khi gần tới vật gây tín hiệu phải đào thành tùng lớp có độ dây tối đa
+0,1 m, kết hợp máy dò và thuốn kiểm tra xung quanh vị trí tâm tín hiệu trước khi
+đào lớp tiếp theo cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,
+vận chuyển hoặc vật nỗ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 26. Đào đất kiếm tra, xử lý tín hiệu đến độ sâu 3 m
+
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ
+lớn hơn 0,3 m đến 3 m tính từ mặt đất tự nhiên hiện tại trở xuống.
+
+2. Trang bị: thiết bị bảo vệ người, máy dò bom; thuốn, xéng, dụng cụ làm
+tay; chốt an toàn; thuốc nổ, hoa cụ, khí tài gây nổ; dụng cụ thu gom; máy bơm
+nước và phụ kiện đi kèm.
+
+3. Trình tự thực hiện:
+
+a) Kiểm tra và dùng dụng cụ cầm tay thận trọng đào bới tại xung quanh vị trí
+tâm tín hiệu đã đánh dấu. Đào từ ngoài vào trong, kích thước hồ đào tuỳ theo độ lớn
+và độ sâu của tín hiệu (thông qua phán đoán khi kiểm tra bang máy dò) khi gần tới
+vật gây tín hiệu phải kết hợp máy dò và thuốn kiểm tra xung quanh vị trí tâm tín
+hiệu trước khi đào lớp tiếp theo cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,
+vận chuyển hoặc vật nd lạ thì đánh dấu lại dé hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 27. Đào đất kiểm tra, xử lý tín hiệu đến độ sâu 5 m
+
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ
+lớn hơn 0,3 m đến 5 m tính từ mặt đất tự nhiên hiện tại trở xuống.
+
+|
+[[PAGE 20]]
+ˆ                                                       19
+z                                             7                                    3
+2. Trang bi: thiết bi bảo vệ người, máy dò bom, thuôn, xéng, dụng cu làm        .
+tay, thuốc nd, hoa cụ va khí tai gây nd, dụng cụ thu gom, máy bom nước va phụ          |
+kiện đi kèm, các loại vật tư làm kè chắn chống sạt lở.                                               Ì
+3. Trình tự thực hiện:                                                                                           {
+a) Kiểm tra và dùng dung cụ cầm tay thận trọng đào bới xung quanh vị tri         7
+tâm tín hiệu đã đánh dấu. Đào từ ngoài vào trong, kích thước hồ đào tuỳ độ lớn         :
+và độ năm sâu của tín hiệu (thông qua phán đoán khi kiểm tra bằng máy dò) khi
+gần tới vật gây tín hiệu phải đào thành từng lớp, kết hợp máy dò và thuốn kiểm
+tra tai vi trí tâm tín hiệu trước khi đào lớp tiếp theo cho đến khi lộ hắn vật gây
+tín hiệu ra (Căn cứ vào địa chất khu vực tín hiệu để có biện pháp đánh bậc
+thang theo mái ta luy hay kè thành hố đào bằng gỗ dé tránh sat lở và tiền hành
+biện pháp bơm nước);
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,
+vận chuyên hoặc vật nd lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+Điều 28. Đào đất kiếm tra, xử lý tín hiệu đến độ sâu 10 m
+1. Trường hợp áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu từ
+lớn hơn 0,3 m đến 10 m tính từ mặt đất tự nhiên hiện tại trở xuống.
+2. Trang bị: thiết bị bảo vệ người, máy dò bom, thuốn, xéng, dao găm và thiết
+bị đào đất bing cơ giới, thuốc nd, hoa cụ và khí tài gây nd, dụng cụ thu gom, máy
+bơm nước và phụ kiện đi kèm, các loại vật tư làm kè chắn chống sạt lở.
+3. Trình tự thực hiện:
+a) Chuẩn bị, kiểm tra và dùng dụng cụ cầm tay và thiết bị đào đất bằng cơ
+giới thận trọng đào bới tại xung quanh vị trí tâm tín hiệu đã đánh dấu. Đào từ
+ngoài vào trong, kích thước hố đào rộng hẹp tuỳ theo độ lớn và độ nằm sâu của
+tín hiệu (thông qua phán đoán khi kiểm tra bằng máy dò) dé quyết định; khi gần
+tới vật gây tín hiệu phải đào bằng thủ công kết hợp máy dò và thuốn kiểm tra
+xung quanh vị trí tâm tín hiệu trước khi đào lớp tiếp theo cho đến khi lộ hắn vật
+gây tín hiệu ra (Căn cứ vào tình hình địa chất khu vực để có các biện pháp đánh
+bậc thang theo mái ta luy hay kè thành hố đào bằng gỗ để đề phòng đất sat lở);
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì thu gom
+về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu
+gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom,
+[[PAGE 21]]
+20
+vận chuyển hoặc vật nd lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi thi công
+(đối với các loại bom lớn phải có kế hoạch xử lý riêng):
+
+c) Sau khi đã xử lý xong tín hiệu cần phải dùng máy kiểm tra lại xung
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu
+còn tín hiệu thì phải tiền hành xử lý như thứ tự đã nêu trên.
+
+Điều 29. Ra phá bom min vật nd ở độ sâu từ trên 5 m đến 10 m bằng
+phương pháp khoan lỗ
+
+1. Điều kiện thực hiện
+
+- Khu vực có địa chất phức tạp, nhiều mảnh, vật kim loại trong lòng đất
+mà máy dò bom khó phát hiện tín hiệu nghị ngờ là BMVN ở độ sâu từ lớn hơn
+5 m đến 10m.
+
+- Những dự án có tầm quan trọng đặc biệt hoặc theo yêu cầu của chủ đầu tư.
+
+2. Trường hợp áp dụng: khu vực phải RPBM ở độ sâu từ trên 5 m đến 10m
+sau khi đã RPBM ở độ sâu đến 5 m tính từ mặt đất tự nhiên hiện tại trở xuống.
+
+3. Trang bị: máy khoan và thiết bị đồng bộ, ống nhựa đường kính tối thiểu
+76 mm; máy dò bom, cờ đỏ đánh dấu tín hiệu, cọc gỗ và dây đánh dấu đường dò,
+thuốn, xéng, dao gam và thiết bị đào đất bằng cơ giới, thuốc nổ, hoa cụ và khí tài
+gây nd, dụng cu thu gom, máy bom nước và phụ kiện đi kèm, các loại vật tư làm
+kè chắn chống sạt lở.
+
+4. Trình tự thực hiện:
+
+a) Tiến hành căng dây đánh dấu vị trí lỗ khoan, với khoảng cách giữa các lỗ
+khoan trong hàng và giữa các hàng là 2 m, tùy độ sâu cần dò tìm, xử lý để quyết
+định độ sâu khoan và số lần khoan, nhưng chiều sâu tối đa của lỗ khoan là 5 m,
+không được khoan đến độ sâu 10 m. Đường kính lỗ khoan tối thiểu 80 mm,
+thành các lỗ khoan phải được bảo vệ bằng hệ thống ống nhựa có đường kính tối
+thiểu 76 mm hoặc vật liệu khác.
+
+b) Sau khi khoan lỗ, lồng ống nhựa vào lỗ khoan xong, tiến hành RPBM
+theo thứ tự các bước như RPBM trên cạn với phương pháp thả đầu dò vào trong
+lỗ khoan, ghi và phân tích các số liệu đo (bao gồm cả số liệu của các lỗ khoan
+lân cận) dé phát hiện các tín hiệu. Việc dao, xử lý các tín hiệu theo quy định tại
+Điều 28 Quy trình này.
+
+Điều 30. Hủy nổ bom mìn vật nỗ tại chỗ
+
+1. Trường hợp áp dụng: bom min, vật nd phát hiện được nhưng không an
+toàn cho thu gom, vận chuyển bắt buộc phải hủy tại chỗ.
+
+2. Trang bị: trang thiết bị bảo hộ lao động, máy dò mìn, thuốn, dao găm,
+xéng, thuốc nd, hoa cụ và khí tài gây nd.
+
+3. Trình tự thực hiện:                                                                                                              ị
+
+a) Dùng lượng nỗ tập trung đặt trực tiếp vào BMVN cần huỷ và gây nỗ;
+[[PAGE 22]]
+ˆ                                                           21
+b) Sau khi đã huỷ nổ xong, phải kiểm tra kết quả hủy nỗ và vị trí phát hiện
+tín hiệu để bảo đảm sạch tín hiệu. Trường hợp còn sót BMVN thì phải tiến hành          |
+xử lý tiếp theo quy định tai Mục nay;
+c) Kiểm tra, thu gom trang bị, khí tài gây nổ và mảnh vụn (nếu có) ra khỏi          |
+khu vực thi công.                                                                                                            |
+Muc 3                                                                       |
+RA PHA BOM MIN VAT NO DƯỚI NƯỚC
+Điều 31. Trình tự thực hiện
+1. Xác định khu vực RPBM.
+2. Chuẩn bị mặt bằng.
+3. Rà phá BMVN ở độ sâu đến 0,5 m.
+4. Rà phá BMVN ở độ sâu từ trên 0,5 m đến 3 m hoặc đến 5 m.
+5. Đánh dầu tín hiệu ở độ sâu đến 0,5 m, đến 3 m hoặc đến 5 m.
+6. Lăn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m.
+7. Lan kiểm tra, đào xử lý tín hiệu ở độ sâu từ lớn hơn 0,5 m đến 1m.
+8. Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu từ lớn hơn 1 m đến 3 m hoặc
+đến 5 m.
+9. Huy nổ BMVN tại chỗ dưới nước.
+Điều 32. Xác định khu vực rà phá bom mìn vật nỗ
+1. Căn cứ các mốc đã đánh dấu khi khảo sát hoặc tọa độ được bàn giao, tiến
+hành xác định khu vực cần RPBM dưới nước; vẽ sơ đồ khu vực.
+2. Đóng cọc bê tông cốt thép để đánh dấu trên bờ và thả phao, neo (rùa)
+định vị, đánh dấu dưới nước tại các vị trí cần thiết đề giới hạn khu vực sẽ RPBM
+(Các loại phao, neo (rùa) để định vị và đánh dấu khu vực chỉ áp dụng cho các
+khu vực RPBM có độ sâu nước tối thiểu 3 m và chiều rộng khu vực RPBM tối
+thiểu 50 m).
+Điều 33. Chuẩn bị mặt bằng
+1. Tiền hành phát dọn, đưa ra khỏi khu vực thi công các loại cây (sú, vẹt, cỏ
+lăn, cỏ lác, rong, bèo) hoặc các chướng ngại vật khác.
+|                      2. Phát hiện, đánh dấu vi trí chướng ngại vật quá lớn không có điều kiện
+trục vớt, xử lý (dầm cầu, trụ cầu hỏng, tàu thuyền đắm), dé khi thực hiện dò tìm
+sẽ loại bỏ các vật gây tín hiệu nhiễu.
+Điều 34. Ra phá bom min vật nd ở độ sâu đến 0,5 m
+1. Trường hợp áp dụng: khu vực phải RPBM đến các độ sâu khác nhau tính
+từ đáy nước.
+2. Trang bi: thiét bi bao vé nguoi, may do, thuyén composit có máy đầy;
+thuyền cao su; phao; neo làm bằng các loại vật liệu không nhiễm từ, dây đánh dấu
+đường dò, dây cáp nilon các loại; trang bị bảo đảm an toàn.
+[[PAGE 23]]
+2       .
+To
+3. Trình tự thực hiện
+a) Sử dụng thuyền composit căng dây kết hợp với các loại phao, neo chia
+nhỏ khu vực thành các ô dò có kích thước khoảng (25x25) m hoặc (50x50) m
+hoặc chiều dài, chiều rộng thực tế khu vực RPBM để chia ô; tuỳ theo địa hình và
+phương án thi công, căng dây chia ô dò thành các dải dò, mỗi dải dò rộng 1 m.
+b) Kiểm tra xác định độ nhiễm từ của đất đáy nước để điều chỉnh máy dò
+cho phù hợp;
+c) Dùng máy dò bom đặt trên thuyền cao su, tiền hành dò đúng yêu cầu kỹ
+thuật dọc theo dây đánh dấu đường dò (đầu dò phải luôn thắng đứng và cách đáy
+nước từ 0,1 m đến 0,2 m). Sau khi dò xong, tiếp tục chuyển dây dé dò dai tiép theo.
+Trường hop lưu tốc dòng chảy trên 1 m/s thì phải có biện pháp bảo dam an
+toàn, bảo đảm kỹ thuật dò tìm và chất lượng công trình.
+Điều 35. Rà phá bom mìn vật nỗ ở độ sâu trên 0,5 m đến 3 m hoặc 5m
+1. Trường hợp áp dụng: khu vực cần RPBM đến độ sâu 3 m hoặc đến 5m
+tính từ đáy nước sau khi đã dò tìm, xử lý ở độ sâu đến 0,5 m.
+2. Trang bị: thiết bị bảo vệ người, máy dò, thuyền composit hoặc thuyền cao
+su, phao, neo làm bằng các loại vật liệu không nhiễm từ, dây đánh dấu đường dò,
+dây cáp nilon các loại, trang bị bảo đảm an toàn.
+3. Trình tự thực hiện:
+a) Xác định độ sâu nước, độ nhiễm từ của đất đáy nước dé điều chỉnh máy
+dò cho phù hợp, máy dò đặt chế độ làm việc phù hợp độ nhiễm từ của lòng đất
+đáy nước và yêu cầu về độ sâu cần dò tìm;
+b) Sử dụng thuyền composit căng dây kết hợp với phao, neo các loại chia
+nhỏ khu vực thành các ô dò có kích thước (25x25) m hoặc (50x50) m hoặc chiều
+dài, chiều rộng thực tế khu vực RPBM để chia ô; tuỳ theo địa hình và phương án
+thi công, căng dây chia ô dò thành các dải dò rộng 1 m (hướng đường dò trùng
+với hướng dòng chảy);
+c) Dùng máy dò bom đặt trên thuyền cao su, tiến hành dò đúng yêu cầu kỹ
+thuật dọc theo dây đánh dấu đường dò (đầu dò phải luôn thing đứng và cách đáy
+nước từ 0,1 m đến 0,2 m). Sau khi dò xong, tiếp tục chuyên dây để dò sang dải
+tiếp theo.
+Trường hợp lưu tốc dòng chảy trên 1 m/s thì phải có biện pháp bảo đảm an
+toàn, bảo đảm kỹ thuật dò tìm và chất lượng công trình.
+Điều 36. Đánh dau tín hiệu ở độ sâu đến 0,5 m, đến 3 m hoặc đến 5 m
+1. Trường hợp áp dụng: tín hiệu được phát hiện khi dò tìm đến độ sâu 0,5 m,
+đến 3 m và đến 5 m tính từ đáy nước.                                                                                                   |
+2. Trang bi: thiết bị bảo vệ người, máy dò, thuyền cao su; phao, neo làm                 |
+bằng vật liệu không nhiễm từ, dây cáp nilon các loại; cờ đánh dấu tín hiệu.
+[[PAGE 24]]
+mm
+.                                                                   23
+
+3. Trinh tự thực hiện:                                                                                              `
+
+a) Khi máy dò bom phát tín hiệu có vật thé gây nhiễm từ dưới đáy nước tại vị
+trí đang dò tìm (chỉ thị bằng âm thanh hoặc độ lệch của kim đồng hồ), di chuyển
+máy dò theo dây dò để kiểm tra xác định chính xác vị trí tâm của tín hiệu;
+
+b) Thả neo loại 20 kg (đối với các khu vực có lưu tốc dòng chảy trên 1 m/s         )
+và độ sâu nước trên 3 m) và loại 10 kg (đối với các khu vực khác) cạnh vị trí tâm
+tín hiệu vừa xác định, neo được nối với các phao nhựa đường kính trên 0,3 m bằng
+các dây nilon đường kính 12 mm, trên phao có cắm cờ màu đỏ đánh dấu tín hiệu;
+
+c) Khi độ sâu nước dưới 3 m dùng cọc tre (sào) cắm đề đánh dầu vị trí tín hiệu.
+
+Điều 37. Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu đến 0,5 m                          |
+
+1. Trường hop áp dụng: tín hiệu đã được phát hiện và đánh dấu ở độ sâu
+đến 0,5 m tính từ đáy nước.
+
+2. Trang bị: thiết bị bảo vệ người, máy dò, thiết bị lặn, thuyền composit,
+thuyền cao su, thuốn, xéng, dây cáp nilon các loại.
+
+3. Trình tự thực hiện:
+
+a) Sử dụng máy dò xác định chính xác vị trí tín hiệu; thợ lặn mang theo các
+dụng cụ, lặn xuống vị trí tín hiệu đã được đánh dấu, tiền hành kiểm tra xác định
+chính xác vị trí và độ sâu của tín hiệu; kiểm tra bang thudn, dao tim theo đúng kỹ
+thuật cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nổ lạ thì đánh dấu lại dé hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+¢) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh            |
+va phía dưới vi tri tin hiệu vừa xử ly để đảm bảo sạch hết tin hiệu. Nếu còn tin
+hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 38. Lin kiểm tra, đào xử lý tín hiệu ở độ sâu trên 0,5 m đến 1 m              |
+
+1. Trường hợp áp dụng: tất cả các tín hiệu đã được phát hiện và đánh dấu ở           |
+độ sâu lớn hơn 0,5 m đến 1 m tính từ đáy nước.
+
+2. Trang bị: máy dò, thiết bị lặn, thuyền composit có cầu mi ni tự hành,
+thuyền cao su các loại, máy xói và hút bùn cát công suất lớn, phao, neo, thuốn,
+xéng, dây cáp nilon các loại, các trang bị bảo đảm an toàn va bảo hộ lao động.
+
+3. Trình tự thực hiện:                                                                                           |
+
+a) Tập kết phương tiện, sử dụng máy dò bom dé xác định chính xác vi trí tín            |
+hiệu; thợ lặn mang theo các dụng cụ làm tay lặn xuống vị trí tín hiệu đã đánh dấu,            |
+tiến hành việc kiểm tra xác định chính xác vị tri tín hiệu và độ nằm sâu của tín          |
+hiệu; tiến hành các động tác xăm tìm bằng thuốn kết hợp với dùng vòi xói, thận
+trọng đào bới theo đúng yêu cầu kỹ thuật cho đến khi lộ hin vật gây tín hiệu;                      |
+[[PAGE 25]]
+24
+
+b) Kiểm tra xác định vật gây tin hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại dé hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiêm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 39. Lin kiểm tra, đào xử lý tín hiệu dưới nước ở độ sâu trên 1 m
+đến 3 m hoặc đến 5 m
+
+1. Trường hợp áp dụng: tín hiệu đã phát hiện và đánh dấu ở độ sâu đến 3 m,
+đến 5 m, sau khi đã đào đến độ sâu 1 m tính từ đáy nước mà vẫn chưa thấy vật
+gây tín hiệu.
+
+2. Trang bị: máy dò, thiết bị lặn, thuyền composit có cẩu mi ni tự hành,
+thuyền cao su các loại, máy xói và hút bùn cát công suất lớn, khung vây (khoang
+giếng) được chế tạo từ tôn, sắt góc và thiết bị phục vụ lắp đặt, tháo dỡ khung
+vây, phao, neo, thuốn, xẻng, dây cáp nilon các loại, trang bị bảo đảm an toàn và
+thiết bị bảo vệ người.
+
+3. Trình tự thực hiện:
+
+a) Sử dụng máy dò bom xác định chính xác vị trí tín hiệu; thợ lặn mang theo
+dụng cụ kết hợp với vòi xói vừa xăm tìm vừa xói bùn, cát hạ dẫn các khung vây
+cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+b) Trường hợp khu vực có địa chất phức tạp (cát chảy, bùn lỏng) phải tiền
+hành dựng hệ thống khung vây được gia công sẵn bao quanh vị trí tâm tín hiệu
+đã được xác định; thợ lặn kết hợp với các loại vòi xói bùn, cát đào hạ dần khung
+vây cho đến khi lộ toàn bộ vật gây tín hiệu;
+
+c) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hop tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại đề hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+d) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu; nếu còn tín hiệu
+thì phải tiền hành xử lý theo quy định tại điểm a, điểm b, điểm c khoản này.
+
+4. Trường hợp có phát sinh ngoài phương án kỹ thuật thi công thì đơn vị, tổ
+chức thi công RPBM phối hợp với chủ đầu tư lập phương án thị công riêng báo                     |
+cáo cap có thâm quyên phê duyệt trước khi thực hiện.
+[[PAGE 26]]
+_                                                                   25
+
+Điều 40. Huy nổ bom min vật nỗ tại chỗ
+
+1. Trường hợp áp dụng: tín hiệu là BMVN không an toàn cho trục vớt, thu
+gom, vận chuyển.
+
+2. Trang bị: thiết bị bảo vệ người, máy dò, thiết bị lặn, composit, thuyền gỗ
+sức chớ trên 3 tấn có máy đầy có cầu mi ni tự hành, thuyền cao su, bộ khí tài gây          ;
+nổ, thuốc nổ chịu nước, dây nổ chịu nước, kíp điện, dây điện kép, vải gói buộc
+lượng nổ, dây gai, các loại phao, neo, dây nilon.
+
+3. Trình tự thực hiện:
+
+a) Tập kết thuyền xử lý, dùng máy dò xác định chính xác lại vị trí tín hiệu
+đã được thả phao, neo đánh dau vị trí tín hiệu.
+
+b) Thực hiện các biện pháp an toàn, thợ lặn kiểm tra trực tiếp đưa lượng nổ đã
+chuẩn bị xuống đặt áp sát và liên kết chặt vào BMVN, bố trí hệ thống gây nổ gồm:
+
+- Dây nd dùng để kích nd có chiều dài bằng chiều sâu mực nước tại vị trí có
+BMVN (có tính độ chùng của dây khoảng 25 % tổng chiều dài dây), một đầu dây
+được liên kết chặt vào lượng nổ bằng cách cuốn tối thiểu 7 vòng dây nỗ vào thỏi
+thuốc moi nam trong lượng nd (theo đúng kỹ thuật sử dụng thuốc nổ va hoa cụ),
+đầu dây nổ còn lại được buộc vào một phao nhựa đường kính 30 cm, để hở đầu
+dây trên mặt nước;
+
+- Kíp điện và đường dây gây nổ điện được chuẩn bị sẵn theo đúng kỹ thuật,
+kíp điện được liên kết với đầu dây nổ trên mặt nước;
+
+- Trạm gây nỗ được đặt trên thuyền hoặc trên bờ (nếu được), khoảng cách giữa
+trạm gây nd tới khu vực bố trí lượng nổ phải được tính toán cụ thể nhăm tránh các
+ảnh hưởng của sóng nổ và mảnh văng theo quy định tại Điều lệ công tác nd.
+
+¢) Sau khi kiểm tra an toàn, tiền hành gây nổ theo phương án được phê duyệt.
+
+d) Sau khi huỷ nổ, thợ lặn mang thiết bị lặn và máy dò bom kiểm tra lại
+xung quanh và phía dưới vị trí hố huỷ nổ để đảm bảo BMVN đã được huỷ nd
+hết. Nếu còn tín hiệu thì phải tiến hành xử lý như điểm a, điểm b, điểm c của
+khoản này.
+
+Mục 4
+RA PHA BOM MIN VAT NÓ DƯỚI BIEN
+
+Điều 41. Điều kiện sử dụng phương pháp rà phá bom min vật nd
+
+1. Trường hợp vị trí RPBM cách bờ nhỏ hơn 2 hải lý, độ sâu nước nhỏ hơn
+25 m áp dụng phương pháp RPBM dưới nước quy định tại Mục 3 Chương III Quy
+trình này; thay thế thuyền composit bằng thuyền gỗ sức chở > 3 tấn có máy đầy để
+thực hiện.
+
+2. Trường hợp vị trí thi công RPBM cách bờ từ 2 hải lý trở lên, độ sâu nước
+từ 25 m đến 150 m phải sử dụng phương pháp dò tìm bằng thiết bị sona, từ kế dé
+thực hiện. Trường hợp trên 150 m trở lên phải lập phương án kỹ thuật thi công, dự
+toán riêng trình cấp có thẩm quyền phê duyệt.
+
+|
+[[PAGE 27]]
+26
+3. Vận tốc, cấp sóng, cấp gió
+a) Vận tốc dòng hải lưu:
+- Thi công dùng máy dò bom: < 1,0 m/s;
+- Thi công dùng thiết bị sona và từ kế: < 2,5 m/s.
+b) Cấp sóng:
+- Thi công dùng máy dò bom: < cấp 3;
+- Thi công dùng thiết bị sona và từ kế: < cấp 4.
+c) Cấp gió:
+- Thi công dùng máy dò bom: < cấp 3;
+- Thi công dùng thiết bị sona và từ kế: < cấp 5.
+Điều 42. Trình tự thực hiện rà phá bom mìn bằng thiết bị sona, từ kế
+1. Huy động thiết bị.
+2. Chuẩn bị mặt bằng.
+3. Điều tiết giao thông.
+4. Định vị các điểm mốc đánh dấu phạm vi thi công.
+5. Ra phá bom min vật nd trên bề mặt đáy biển và đến độ sâu 1 m.
+6. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển.
+7. Kiểm tra, xử lý tín hiệu đến độ sâu 1 m.
+8. Huỷ bom mìn, vật nd tại chỗ.
+9. Giải thể thiết bị.
+Điều 43. Huy động thiết bị
+Là công tác điều động thiết bị phục vụ cho thi công từ vị trí tập kết đến vị
+trí thi công. Thiết bị cần huy động cho một đội thi công gồm:
+1. Tàu phục vụ dò tìm công suất từ 1.200 cv trở lên: 01 chiếc.
+2. Tàu phục vụ định vị, lặn xử lý tín hiệu từ 350 cv đến 650 cv có cầu mi ni
+tự hành: tối đa 02 chiếc.
+3. Tàu phục vụ điều tiết giao thông loại 350 cv (được trang bị các thiết bị cảnh
+báo, thông tin): tối đa 04 chiếc.
+4. Tàu bảo đảm hậu cần loại 350 cv: 01 chiếc.
+5. Thuyền gỗ (chở 3 tấn trở lên có máy đầy và cầu mi ni tự hành): 01 chiếc.
+6. Thiết bị lặn đến độ sâu 30 m (có thiết bị cấp hơi bề mặt): tối đa 04 bộ.
+7. Chuông lặn và trang thiết bị đồng bộ kèm theo: 01 bộ.
+8. Thiết bị hút và xói bùn cát: 01 bộ.
+9. Máy nén khí công suất lớn dùng xói bùn, cát: 01 bộ.
+10. Thiết bị ROV: 01 thiết bị.
+11. Thiết bị dò tìm BMVN:
+a) Máy dò bom min dưới nước: tối đa 03 bd;
+b) Thiết bị sona và từ kế: 01 bộ;
+¢) Dụng cụ cầm tay: Số lượng và chủng loại theo yêu cầu nhiệm vụ.                                       |
+[[PAGE 28]]
+`                                                                                                                         |
+Điều 44. Chuẩn bị mặt bằng                                                                 |
+1. Di chuyển các chướng ngại vật ra khỏi khu vực thi công.
+2. Phát hiện, đánh dấu vị trí chướng ngại vật quá lớn không có điều kiện        :
+trục vớt, xử lý (tàu thuyền đắm, neo lớn, dai đá ngằm), dé khi thực hiện dò tìm sẽ
+loại bỏ các vật gây nhiễu.
+Điều 45. Điều tiết giao thông
+1. Điều tiết giao thông là việc quan sát phát hiện, thông báo tàu, thuyền
+đang hoạt động trong khu vực hoặc có dấu hiệu đi qua khu vực đang thi công
+yêu cầu di chuyển hoặc vòng tránh sang hướng khác.
+2. Trang bị: Tàu 350 cv và các thiết bị thông tin tín hiệu gồm cờ, loa, bộ
+đàm, súng bắn pháo hiệu và pháo hiệu.
+3. Trình tự thực hiện:
+a) Tàu điều tiết giao thông di chuyển trước đội hình hoặc ngoài khu vực thi
+công, khoảng cách từ 300 m đến 500 m;
+b) Quan sát, phát hiện các tàu, thuyền hoạt động hoặc có dấu hiệu đi qua
+khu vực thi công, phát tín hiệu để tàu, thuyền di chuyển hoặc vòng tránh sang
+hướng khác.
+Điều 46. Định vị điểm mốc đánh dấu phạm vi thi công
+1. Điểm mốc đánh dấu trong phạm vi thi công là điểm dùng dé khống chế
+phạm vi thi công.
+2. Trang bị: tàu đến 650 cv có trang bị thiết bị định vị vệ tỉnh (thiết bị DGPS).
+3. Trình tự thực hiện:
+a) Định vị bằng thiết bị DGPS.
+b) Xác định, đánh dấu các vị trí mốc vào sơ đồ khu vực thi công.
+4. Phương pháp thực hiện:
+a) Nhập hệ thống toạ độ chuẩn vào thiết bị DGPS đánh dấu ranh giới phạm
+vi khu vực sẽ thi công.
+b) Sử dụng thiết bị DGPS tìm toạ độ các điểm đã nhập, theo tuần tự:
+- Chạy tàu theo phương vị, cự ly hướng dẫn trên màn hình thiết bị DGPS;
+- Khi thiết bị DGPS báo đã đến khu vực toạ độ cần tìm, dừng di chuyển. Đưa
+ăng ten của thiết bị DGPS lên trên đỉnh phao dấu và bấm nút xác định toạ độ;
+- Tiến hành xác định từng điểm toa độ được đánh dấu là có tín hiệu nằm
+trong phạm vi khu vực thi công cho đến khi kết thúc.                                                    |
+Điều 47. Ra phá bom min trên bễ mặt đáy biến và đến độ sâu 1 m
+1. Trường hợp áp dụng: các khu vực bi 6 nhiễm BMVN trên bề mặt đáy         |
+biển và từ bề mặt đáy biển đến độ sâu 1 m, độ sâu nước từ 25 m trở lên.
+2. Trang bị: tàu công suất từ 1.200 cv trở lên, thiết bị sona, từ kế, thiết bị
+DGPS, thiết bị định vị thuỷ âm, tời và thiết bị kết nối.
+|
+[[PAGE 29]]
+28
+
+3. Trình tự thực hiện:
+
+a) Kiểm tra tình trạng hoạt động của trang bị.
+
+b) Định vị phạm vi khu vực thi công.
+
+c) Lập chương trình chia nhỏ khu vực thành các đường dò theo chiều dài khu
+vực cho thiết bị sona, từ kế làm việc. Căn cứ vào khối lượng thi công trong ngày
+và chiều dài khu vực dò tìm, mỗi đường dò có chiều dài không quá 5 km. Khoảng
+cách giữa 2 đường dò liền kề nhau từ 15 m đến 17 m.
+
+d) Di chuyển tàu doc theo đường dò với vận tốc tối đa 8 km/h, điều chỉnh cáp
+kéo sao cho thiết bị sona, từ kế phải cách mặt đất đáy biến tối thiểu là 10 m. Vệt
+dò sau phải trùm lên vệt dò trước đó từ 3 m đến 5 m. Sau khi dò hết chiều dài
+đường dò thứ nhất trong 6 thi công, di chuyển tàu để dò sang đường dò tiếp theo
+cạnh đường dò trước, cứ như thế cho đến hết phạm vi thi công dự kiến trong ngày.
+
+đ) Ghi, lưu và truyền số liệu thu được.
+
+e) Xử lý số liệu thu được, kết quả cuối cùng sẽ là bản đồ hình ảnh bề mặt
+đáy biển và bản đồ từ tính cùng toạ độ của các vật thể nằm trên bề mặt hoặc năm
+dưới đáy biển mà máy dò phát hiện được.
+
+g) Cung cấp các toạ độ tín hiệu cho tàu xử lý.
+
+Điều 48. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển
+
+1. Trường hợp áp dụng: tín hiệu nim trên bề mặt đáy biển được phát hiện
+khi thực hiện bước dò tìm, độ sâu nước đến 150 m.
+
+2. Trang bị: Tau đến 650 cv có cầu mi ni tự hành, thuyền cao su có máy
+đẩy, thiết bị ROV hoặc chuông lặn, thiết bị DGPS, máy dò min dưới nước.
+
+3. Trình tự thực hiện:
+
+a) Căn cứ sơ đồ tín hiệu đã đánh dấu, định vị xác định vị trí tín hiệu, tập kết
+trang bị phục vụ xử lý, làm công tác chuẩn bị, dùng thiết bị ROV hoặc thợ lặn
+kết hợp chuông lặn, di chuyển tới vị trí đã đánh dấu, tìm tín hiệu thông qua
+Camera lắp trên thiết bị ROV hoặc thợ lặn để xác định chính xác.
+
+b) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung quanh
+và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu còn tín
+hiệu thì phải tiền hành xử lý theo quy định tại điểm a, điểm b khoản này.
+
+Điều 49. Kiếm tra, xử lý tín hiệu đến độ sâu 1m
+
+1. Trường hợp áp dụng: tín hiệu năm ở độ sâu đến 1 m tính từ bề mặt đáy
+biển, độ sâu nước đến 50 m.
+
+|
+[[PAGE 30]]
+                                                                   29
+2. Trang bị: máy dò mìn dưới nước, thiết bị lặn đồng bộ và chuông lặn, thiết bị
+xói bùn cát áp lực cao, tàu công suất đến 650 cv có cầu mi ni tự hành, thuyền cao su
+có máy đấy, phao, neo, các loại dây cáp nilon, thuốn, xẻng, hệ thống khung vây và
+thiết bị phục vụ lắp đặt, tháo dỡ khung vây, các trang thiết bị bảo đảm an toàn.
+3. Trình tự thực hiện:
+a) Dùng chuông lặn mang theo đồng bộ máy dò mìn dưới nước, các dụng cụ          /
+cầm tay lặn xuống vị trí tâm tín hiệu đã được đánh dấu, thợ lặn kiểm tra xác định
+chính xác vị trí và độ sâu của tín hiệu;                                                                       Ñ
+Trường hợp tín hiệu năm trên bề mặt đáy biển, kiểm tra, xác định tín hiệu;              \
+Truong hop tin hiéu nằm ở độ sâu đến 0,5 m, sử dụng dụng cụ để tìm cho
+đến khi lộ toàn bộ vật gây tín hiệu;
+Trường hợp tín hiệu nằm ở độ sâu đến 1 m, sử dụng thiết bị xói và hút bùn
+cát hoặc vòi xói áp lực cao kết hợp với dụng cụ cầm tay để tìm cho đến khi lộ
+toàn bộ vật gây tín hiệu.
+b) Trường hợp khu vực có địa chất phức tạp (cát chảy, bùn lỏng hoặc độ
+nằm sâu lớn) phải tiến hành dựng lắp đặt hệ thống khung vây được gia công sẵn
+bao quanh vị trí tâm tín hiệu; thợ lặn sử dụng vòi xói áp lực cao hoặc thiết bị hút
+bùn, cát công suất lớn đào hạ dần hệ thống khung vây cho đến khi lộ toàn bộ vật
+gây tín hiệu.
+c) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vớt
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho
+thu gom, vận chuyển hoặc vật nd lạ thì đánh dấu lại dé hủy tại chỗ vào cuối buổi            |
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+d) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu
+còn tín hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b, điểm c
+khoản này.
+4. Trường hợp kiểm tra, đào, xử lý tín hiệu ở độ sâu nước từ trên 50 m đến
+150 m, căn cứ vào tình hình thực tế, chủ đầu tư chủ trì phối hợp với đơn vị tư
+vấn và đơn vị thi công lập phương án kỹ thuật thi công và dự toán, trình cấp có
+thẩm quyền phê duyệt.
+Điều 50. Hủy bom mìn vật nỗ tại chỗ
+1. Trường hợp áp dụng: tín hiệu là BMVN không an toàn cho trục vớt, thu
+gom, vận chuyển (trừ bom đạn hoá học); độ sâu nước đến 50 m.
+2. Trang bị: tàu công suất đến 650 cv có cầu mi nỉ tự hành, thuyền cao su có
+máy đầy, chuông lặn và thiết bị lặn thường, thiết bị DGPS, máy dò, bộ khí tài
+gây nổ, thuốc nổ chịu nước, dây nổ chịu nước, kíp điện, dây điện kép, vải gói
+buộc lượng nổ, dây gai, các loại phao, neo, dây nilon, trang bị bảo đảm an toàn và
+thiết bị bảo vệ người.
+Ll                 i                                                  _.................. .. . .”cệỈ
+[[PAGE 31]]
+30                                                                            |
+
+3. Trình tự thực hiện:
+
+a) Tập kết trang bị phục vụ xử lý;
+
+b) Làm công tác chuẩn bị và thực hiện đầy đủ các biện pháp an toàn, điều
+khiển thiết bị ROV xuống vị trí đã đánh dấu (di theo dây neo xuống vị trí) hoặc thợ
+lặn sử dụng chuông lặn kiểm tra, trực tiếp đưa lượng nổ đã chuẩn bị sẵn đặt áp sát
+và liên kết chặt vào BMVN, bố trí hệ thống gây nổ gồm:
+
+- Dây nổ dùng để kích nổ có chiều dài bằng chiều sâu mực nước tại vị trí có
+BMVN (có tính độ chùng của dây khoảng 25 % tổng chiều dài dây), một đầu dây
+được liên kết chặt vào lượng nổ bing cách cuốn tối thiểu 7 vòng dây nổ vào thỏi
+thuốc mồi năm trong lượng nd (theo đúng kỹ thuật sử dụng thuốc nd va hoa cụ),
+đầu dây nổ còn lại được buộc vào một phao nhựa đường kính 30 cm, để hở đầu
+dây trên mặt nước;
+
+- Kíp điện và đường dây gây nổ điện được chuẩn bị sẵn theo đúng kỹ thuật,
+kíp điện được liên kết với đầu dây nd trên mặt nước;
+
+- Trạm gây nd được đặt trên tàu, khoảng cách giữa trạm gây nỗ tới khu vực
+bố trí lượng nổ phải được tính toán cụ thể nhằm tránh các ảnh hưởng của sóng nổ
+và mảnh văng theo quy định tại Điều lệ công tác nd.
+
+c) Sau khi kiểm tra an toàn, tiến hành gây nổ lượng nổ theo đúng phương án
+được phê duyệt.
+
+d) Sau khi huỷ nd, thợ lặn sử dụng chuông lặn và máy dò min dưới nước
+kiểm tra lại xung quanh và phía dưới vị trí hố huỷ nổ để đảm bảo BMVN đã
+được huỷ nổ hết. Nếu còn tín hiệu thì phải tiến hành xử lý như điểm a, điểm b,
+điểm c của khoản này.
+
+4. Trường hợp huỷ nổ tại chỗ, độ sâu nước từ trên 50 m đến 150 m, căn cứ vào
+tình hình thực tế, chủ đầu tư chủ trì phối hợp với đơn vị tư vấn và đơn vị thi công
+lập phương án kỹ thuật thi công và dự toán, trình cấp có thắm quyền phê duyệt.
+
+Điều 51. Giải thể thiết bị
+
+Các loại thiết bị được huy động để phục vụ cho thi công RPBM dưới biển
+được giải thể sau khi kết thúc nhiệm vụ.
+
+Chương IV
+THU GOM, PHAN LOẠI, VẬN CHUYEN,
+BẢO QUAN VA TIỂU HUY BOM MIN VAT NO
+
+Điều 52. Thu gom, phân loại, vận chuyển bom min vật nổ
+
+1. Bom mìn vật nổ được phát hiện trong quá trình ĐT, KS, RPBM phải được
+quản lý chặt chẽ, thu gom, phân loại, vận chuyên phải tuân thủ theo quy định tại
+Quy chuẩn kỹ thuật quốc gia về ĐT, KS, RPBM.
+
+2. Trách nhiệm của tổ chức, đơn vị ĐT, KS, RPBM và cơ quan quân sự địa
+phương thực hiện theo quy định tại khoản 3, khoản 4 Điều 12 Thông tư số
+195/2019/TT-BQP ngày 27 tháng 12 năm 2019 của Bộ trưởng Bộ Quốc phòng.
+[[PAGE 32]]
+_                                                                                                     31
+Điều 53. Bio quản bom min vật nỗ
+Việc bảo quan BMVN thu gom được trong quá trình KS và RPBM thực hiện
+theo Quy chuẩn kỹ thuật quốc gia về ĐT, KS, RPBM. Nơi cất  giữ, bảo quản
+BMVN thực hiện theo các quy định sau:
+1. Được bố trí ở nơi xa dân, vị trí đóng quân, kho tàng và công trình khác.          E
+Tùy vào số lượng, chủng loại BMVN thu gom được để bố trí cho hợp lý, bảo
+đảm an toàn.                                                                                                                   |
+2. Nằm ngoài phạm vi ảnh hưởng của các loại sóng nỗ gây ra trong trường
+hợp do nguyên nhân bị kích nổ bởi BMVN.
+3. Công tac an toàn thực hiện theo QCVN 01:2019/BCT Quy chuẩn kỹ thuật            |
+quốc gia về an toàn trong vận chuyển, bảo quản, sử dụng và tiêu huỷ vật liệu nổ          |
+công nghiệp ban hành kèm theo Thông tư số 32/2019/BCT ngày 21 tháng 11 năm
+2019 của Bộ trưởng Bộ Công Thương và quy định của Bộ Quốc phòng.
+4. Phải được tổ chức canh gác và bảo vệ chặt chẽ theo quy định.
+Điều 54. Tiêu hủy bom mìn vật nỗ
+Việc tiêu hủy BMVN thu gom được trong quá trình khảo sát và RPBM thực
+hiện theo Quy chuẩn kỹ thuật quốc gia về ĐT, KS, RPBM và các quy định sau:
+1. Lập kế hoạch tiêu hủy BMVN theo phương án kỹ thuật thi công, trình
+cấp có thẳm quyền phê duyệt.
+2. Kiểm tra tình hình, mức độ an toàn, chúng loại, số lượng, chất lượng        |
+BMVN phải xử ly.
+3. Thực hiện đúng quy trình công nghệ hiện hành.
+4. Khu vực xử lý được bố trí ở nơi thuận tiện, đủ cự ly an toàn cho các công
+trình, khu dân cư, vận chuyên, bảo đảm vệ sinh môi trường.                                :
+5. Cán bộ, kỹ thuật viên tiêu hủy phải có chứng chỉ theo quy định.
+6. Trang thiết bị, vật tư, phương tiện vận chuyển phải bảo đám theo yêu cầu
+của quy trình và định mức hiện hành.
+                             7. Trước khi tiến hành tiêu hủy phải phd biến kế hoạch, huấn luyện bd sung
+                 cho lực lượng tham gia tiêu hủy; thông báo cho cơ quan quân sự, chính quyền
+                        địa phương và nhân dân trên địa bàn.                                                ]
+8. Các loại BMVN thu gom trong quá trình ĐT, KS, RPBM phải được tiêu
+hủy bằng phương pháp huỷ nd, chỉ được xử lý bằng phương pháp khác khi được
+cơ quan có thẩm quyền cho phép bằng văn bản.
+9, Chấp hành các quy tắc an toàn theo quy trình xử lý của từng chủng loại
+bom mìn vật nỗ, bảo đảm an toàn tuyệt đối.
+10. Sau khi thực hiện xong việc tiêu hủy, phải tổng hợp báo cáo theo quy định.
+[[PAGE 33]]
+32
+Chương V
+
+KIEM TRA, GIAM SAT KỸ THUẬT, NGHIỆM THU, BAN GIAO
+
+Điều 55. Kiếm tra chất lượng thi công rà phá bom min
+
+1. Đơn vị, tổ chức tham gia thi công RPBM phải tự kiểm tra chất lượng thi
+công. Cơ quan được giao nhiệm vụ quản lý chất lượng có trách nhiệm lập kế
+hoạch và thực hiện kiểm tra, giám sát chất lượng thi công theo phương án kỹ
+thuật thi công RPBM được cấp có thẩm quyền phê duyệt.
+
+2. Việc kiểm tra chất lượng thực hiện theo phương pháp xác suất trên tổng
+diện tích đã thi công, điện tích kiểm tra không ít hơn 1% tổng số diện tích đã thi
+công. Trường hợp phát hiện còn sót trên 0,3% số lượng tín hiệu theo số liệu khảo
+sát và có kích thước trên (37x60) mm thì phải tổ chức thi công lại từ đầu.
+
+3. Chủ đầu tư có trách nhiệm phối hợp tổ chức hoặc tự tổ chức việc giám
+sát chất lượng thi công theo phương án đã được phê duyệt.
+
+4. Đối với công tác kiểm tra về chất lượng thực hiện theo Điều 35 Thông tư số
+195/2019/T-BQP ngày 27 tháng 12 năm 2019 của Bộ trưởng Bộ Quốc phòng.
+
+Điều 56. Giám sát thi công
+
+1. Công tác giám sát phải được tiến hành trong suốt quá trình thi công, do
+người được cấp chứng chỉ thực hiện. Một người được phép giám sát tối đa cho 02
+đội thi công.
+
+2. Nhiệm vụ của người giám sát:
+
+a) Kiểm tra lực lượng, trang bị trước khi thi công, thường xuyên có mặt tại
+hiện trường để giám sát việc tổ chức thi công RPBM theo đúng phương án kỹ
+thuật thi công đã được phê duyệt; chan chỉnh kịp thời những sai phạm trong quá
+trình thi công và yêu cầu đơn vị thi công phải làm lại các diện tích không bảo
+đảm chất lượng.
+
+:        b) Giám sát về phạm vi, diện tích đã RPBM, số lượng tín hiệu các loại đã tiền
+hành xử lý, thời gian xử lý tín hiệu, số lượng BMVN rà phá được trong ngày. Ký
+nhật ký thi công và chịu trách nhiệm trước pháp luật và chủ đầu tư về khối lượng,
+chất lượng công việc mà mình đã xác nhận.
+
+c) Nắm chắc phạm vi, khối lượng điện tích đã RPBM của đơn vị thi công,
+tránh bỏ sót diện tích; thường xuyên yêu cầu đơn vị kiểm tra chất lượng công
+việc đã hoàn thành.
+
+Điều 57. Nghiệm thu bàn giao
+
+1. Việc nghiệm thu bàn giao công việc đã thi công RPBM thực hiện theo quy
+định tại Quy chuẩn kỹ thuật quốc gia về ĐT, KS, RPBM.
+
+2. Sau nghiệm thu kỹ thuật, tổ chức nghiệm thu bàn giao toàn bộ mặt bằng
+đã thi công giữa đại diện các bên có liên quan.                                                                         |
+
+3. Hồ sơ nghiệm thu ban giao gồm:                                                                                   |
+
+a) Biên ban bàn giao mit bằng cho thi công RPBM (bản vẽ, tọa độ kèm theo);
+[[PAGE 34]]
+|                                                                             33
+|                                b) Biên bản kiểm tra quân sd, trang bị kỹ thuật trước khi thi công:
+                                c) Nhật ký thi công có kèm theo ảnh chụp trong quá trình thi công RPBM;
+d) Biên bản kiểm tra xác xuất hiện trường;
+                                 đ) Biên bản nghiệm thu nội bộ:
+e) Phiếu yêu cầu nghiệm thu;                                                                                4
+g) Biên bản xác nhận số lượng, chủng loại BMVN thu gom trong RPBM;                .
+h) Biên bản nghiệm thu hoàn thành thi công RPBM đưa vào sử dung;                      4
+i) Biên bản bàn giao mặt bằng đã RPBM;                                                              \
+k) Cam kết bảo đảm an toàn mặt bằng đã RPBM;                                                  2
+1) Kế hoạch hủy nổ bom mìn vật nổ trong DT, KS, RPBM;                                   `
+m) Biên bản xác nhận số lượng BMVN đã xử lý (đã hủy);
+n) Báo cáo kết quả thi công gói thầu RPBM;
+4. Các văn bản được quy định tại khoản 3 Điều này thực hiện theo các Mẫu
+tại Phụ lục III Quy trình này.
+Chương VI
+TÔ CHỨC THỰC HIỆN
+               Điều 58. Điều khoán chuyên tiếp
+1. Các dự án, hạng mục, nhiệm vụ điều tra, khảo sát, rà phá bom mìn vật nổ
+đã được cấp có thẳm quyền phê duyệt phương án kỹ thuật thi công, dự toán trước
+ngày Thông tư này có hiệu lực thực hiện theo phương án kỹ thuật thi công, dự
+toán đã được phê duyệt.
+2. Trường hợp các văn bản quy phạm pháp luật quy định viện dẫn tại Quy
+trình kỹ thuật ban hành kèm theo Thông tư này được sửa đổi, bd sung hoặc thay            |
+thé thi thực hiện theo văn bản mới được sửa di, bd sung hoặc thay thế.
+Điều 59. Sửa đối bd sung Quy trình
+Trong quá trình thực hiện nảy sinh vướng mắc, cơ quan, đơn vị, tổ chức, cá            |
+nhân báo về Bộ Tư lệnh Công binh để tổng hop báo cáo Bộ trưởng Bộ Quốc
+phòng xem xét, quyết dinh./g ut —~
+[[PAGE 35]]
+Phụ lục I
+                  MẪU BIEU ĐIỀU TRA               |
+XÁC ĐỊNH KHU VỰC O NHIEM BOM MIN VAT NO 4 —
+|                                                      `            `                                 `           ~          ˆ       “A                     9         ,        `          ,                  3        ˆ       A
+|                     (Ban hành kèm theo Quy trình kỹ thuật điều tra, khảo sát, ra phá bom min vật nô)
+                        KE HOẠCH.
+01       Mẫu ĐT-01          Điêu tra thu thập thông tin ô nhiệm bom min vật nô                  |
+tại xã ......., huyén ........., tính................                       |
+x                                PHIẾU ĐIỀU TRA TẠI BTLCB, VNMAC
+   Mau BT-02                        (Dành cho Cán bộ điều tra)
+x                                       PHIEU PHONG VAN CAP XA
+   Mẫu DT-03                     (Dành cho Tổ trưởng tổ điều tra)
+x                                     PHIEU PHONG VAN CAP THON
+   Mau ĐT-04                     (Dành cho Tổ trưởng tổ điều tra)
+x                                 PHIẾU PHONG VAN HO GIA BINH NGÀY
+   Mau Đ1-05                     (Dành cho Tổ trưởng tổ điều tra)
+Mẫu ĐT-06 |PHIEU ĐIỀU TRA THONG TIN VE NAN NHÂN BOM MIN
+au i-                              (Dành cho Tổ trưởng điều tra)
+~                                     BAO CÁO KET QUA PIEU TRA
+07       Mau DT-07     (Dành cho Đội trưởng sau khi kết thúc nhiệm vụ điều tra)
+|
+[[PAGE 36]]
+xX
+Mẫu ĐT -01 ff —
+TEN ĐƠN VỊ                               Độc lập - Tự do - Hạnh phúc
+$6: /KH-ĐT                       L..e.e...., ngày... tháng ...năm.....            :
+KE HOACH                                                    :
+Điều tra thu thập thông tin ô nhiễm bom mìn vật nỗ
+tại xã ......, huyện ........, tỉnh.................                                  .
+(MẪU CHUNG)
+I. THONG TIN CHUNG
+1. Tên, vi trí, phạm vi và nhiệm vu dự án
+a) Tên dự AN: covert eben
+lo? ư đ ø8øỰ8_Ä
+c) Nhiệm vụ:
+- Nhiệm vụ số 01/ĐT/....................... 1Ì eevee eee,
+- Nhiệm vụ số 02/ĐT.......................  tại .......................
+2. Đặc điểm chung của khu vực ĐT:
+a) Đặc điểm chung về địa lý, địa hình, địa chất, thủy văn.
+b) Đặc điểm chung về dân cư, kinh tế xã hội.
+3. Yêu cầu chung
+- Tiền hành điều tra khu vực nghỉ có BMVN.
+- Tiền độ triển khai.
+- Lực lượng triển khai theo nhiệm vụ.
+- Trang bị bảo đảm.
+4. Căn cứ lập kế hoạch
+a) Văn bản của trên.
+b) Thông tin được cung cấp.
+II. MỤC TIỂU, NHIỆM VỤ, KHOI LƯỢNG TIEN ĐỘ, YÊU CAU
+1. Mục tiêu, nhiệm vụ:
+2. Khối lượng, tiền độ
+,       ,           Ể              tính      lượng   chú
+ngày      ngày
+| I |Congticchuanbi | | | [| |
+hi Il I I A ĩÏi ì
+khu vực
+    Ny |
+3 |mánaihệu mẫu biểu | Bo        NHI
+Ho ng
+điêu tra
+[[PAGE 37]]
+2
+:        :                              tinh       lượng    chú
+ngày       ngay
+TH |Côngưcnm | | | [| |
+nam I I I
+dia phương
+JE 57° A | II
+VNMAC                                    VNMAC
+3 |PhôngvinBnneext | Xa | | | II
+4 |Ehỏngvảntưởnghon | Then | | [| |
+"5 [Phongvinbogadwh | Wp | | | |
+Bộ a A
+gia chat lượng điêu tra
+IN CT II I
+IE CUNG HF NI
+EE I I | |. |;
+|                  3. Các yêu cầu kỹ thuật
+|                  a) Danh mục các quy chuẩn, tiêu chuẩn, quy trình, cần tuân thủ:
+b) Công tác thu thập và phân tích tài liệu, tài liệu liên quan:
+- Bản đồ do Ban quản lý dự án cung cấp, sử dụng thêm bản đồ của cơ
+quan địa chính địa phương để xác định khu vực khu vực ô nhiễm BMVN.
+                    - Thu thập thông tin từ phỏng vấn nhân chứng tại địa phương.
+c) Công tác đo vẽ bản đồ: Sử dụng bản đồ (VN2000, 1/500)
+d) Công tác điều tra địa hình, địa chất, thủy văn.
+                  e) Phương án xử lý sự cố, hỗ trợ y tế.
+|                  g) Cong tac bao dam chét lượng nội bộ trong điều tra.
+                  IL HO SƠ
+                  1. Do tổ trưởng tổ điều tra lập
+|                   - Phiếu phỏng vấn xã.
+                   - Phiếu phỏng vẫn thôn.
+- Phiếu phóng vấn hộ gia đình.
+2. Do đội trưởng lập
+Báo cáo kết quả điều tra.
+3. Dành cho cán bộ y tế
+Nhật ký khách tham quan
+IV. TÔ CHỨC THUC HIEN ĐIỀU TRA
+1. Lực lượng, trang bị, phương tiện
+2. Phương pháp
+[[PAGE 38]]
+      Ì                                                                             3
+3. Thời gian thực hiện: từ .............. đến .....................
+V. CÁC TÀI LIỆU KÈM THEO
+1. Các ban đô xác định vị trí, phạm vi khu vực điêu tra.
+2. Các sơ do/ban đồ liên quan đến tình trạng ô nhiễm bom min vật nd do
+Ban quản lý dự án và địa phương cung cấp.                                                                |
+3. Các bảng biểu liên quan:
+- Bảng tổng hợp khối lượng điều tra.
+- Bảng dự toán kinh phí điều tra.
+4. Các phụ lục, hướng dẫn thực hiện công tác điều tra.
+Nơi nhận:                                                     CHỈ HUY ĐƠN VỊ ĐIỀU TRA
+[[PAGE 39]]
+|                                                Mẫu ĐT - 02 i —
+Knnnntreeeserneeyneesreeeseeseeeeeeeseee,- CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                  TEN DON VỊ                        Độc lập - Tự do - Hạnh phúc
+                              4.                                weve en, NAY .... tháng ....... năm ......
+PHIEU PIEU TRA TAI BTLCB, VNMAC
+(Dành cho Cán bộ điều tra)                                             ;
+Dự Fo HUST RRIRR            ¡
+Hạng mục: oii esters cree eens       ;
+Mã nhiệm vụ: eevee eset essere eee tttee sane eesaeeesenne sa seesennns               :
+I. THONG TIN CHUNG
+3 Ey - l II
+II. THONG TIN VE KHU VỰC ĐƯỢC ĐIỀU TRA
+;         .    Ghi cụ thé đến xóm, thôn,xã, tổ dân cư, khu dân
+1    Tên khu vực đât đai cân | phô, phường hoặc tên cụ thê theo cách gọi của
+điêu tra                    địa phương hoặc theo cách ghi trên bản đô địa
+chính câp xã, phường.
+Các điểm mốc cố định | Các công trình xây dựng, ha ting giao thông,
+2    trong khu vực điều tra và | điện, nước, thủy lợi kênh mương. Phải ghi rõ
+trên khu vực dat đai lân | đâu là moc cô định trong khu vực điêu tra, đâu
+cận (tên gọi, tọa độ)            là mộc cô định trong khu vực lân cận.
+- Tên khu vực đất ở bốn phía của khu vực cần
+điêu tra.
+Tên khu vực đất dai lân | Ghi cụ thể đến xóm, thôn, xã, đỗ dân cư, khu
+3 | cận với khu vực cần điều  dân phô, phường hoặc tên cụ thê theo cách gọi
+tra                          của địa phương hoặc theo cách ghi trên bán đô
+địa chính cap xã, phường. (Trường hop trùng
+với địa danh khu vực cân DT thì ghi như phân 1.
+II trong phiêu này).
+điêu tra
+|
+[[PAGE 40]]
+2
+III. CÁC THONG TIN ĐƯỢC CUNG CAP
+1       Thông tin về các trân ném bom hoặc bắn pháo
+trong khu vực (kèm theo hô sơ nêu có)
+2      Thông tin về các hoạt động rà phá bom mìn trong
+khu vực (kèm theo hô sơ nêu có)
+3      Thông tin về các vụ nổ và nạn nhân bom mìn trong
+khu vực
+|             4       Thông tin về việc phát hiện thấy bom min vật nổ
+trong khu vực
+|                 NHAN VIEN           PON VI THỰC HIEN           CƠ QUAN/ĐƠN VỊ
+DIEU TRA                    DIEU TRA             CUNG CAP THONG TIN
+(Ky, ghi rõ họ tên)            (Ký tên, đóng dau)                (Ký tên, đóng dau)
+[[PAGE 41]]
+Mẫu ĐT - 03 4£
+TÊN ĐƠN VỊ                        Độc lập - Tự do - Hạnh phúc
+Sé: ...                       ....., NEAY ..... tháng.......năm......
+|                                                      PHIEU PHONG VAN CAP XA                                         :
+|                                                         (Dành cho tổ trưởng tổ điều tra)                                            ;
+In GP 3 NI
+|                          Hop phần: reer terete teste sear  —— eneneeeenesasaannres               i
+|                              1.Théng tin chung                                                                             .
+l1i.Mãnhiệmvu ~~ | w [12.Ngayphomgvan | |
+13. Tédiéutra | ~~ |14.Towuong | |
+|                       1.5.Ngườiđượcphỏngvấn| [1.6.Choeva | |
+17.x |! J18Huệ | |
+¡                       19o.Tnn^x  J ~~ J|ll0.Tổngsốthôn | |
+[L11.Pién thoailienhe | ~~]
+;                     \
+|                                 2. Thông tin về ô nhiễm bom mìn, vật nổ của xã
+2.1. Ranh giới của các thôn/làng/bản trong xã trên bản đô so với ranh giới hiện tại có
+|                          còn chính xác không?        co []              Không [ ]
+|
+nhăm phục vu cho các hoạt động liên quan dén khăc phục bom min trong tương lai
+|
+                           2.4. Những thôn/làng/bản nào cần được ưu tiên khảo sát trong số các thôn/làng/bản
+|
+                                   3. Dự an phat trién kinh tê - xã hội của xã
+|
+|
+|
+                               4. Sử dung và tiếp cận đất dai
+4.1. Những thôn/làng/bản nào trong xã có dự án xây dựng, phát triển kinh tê-xã hội
+4.2. Có khu vực nào trong xã mà dat đai khu vực đó không được sử dụng thường
+xuyên hoặc phần lớn diện tích không được sử dụng? (Ghi lại những thôn này vào
+4.3. Khu vực không tiếp cận được do:
+Đang canh tác (trdng/thu hoạch)? Có [_] (Nếu có, đánh dấu thời gian phía dưới)
+Không L ]
+[[PAGE 42]]
+2
+Khinào?TI[]T2L]T3LTIT4LIT5LI16LIT7IHT8L]IT9LITI0L]TILIT2
+LI
+
+            Đang xây dựng? Có| | (Nêu có, đánh dâu thời gian cụ thé phía dưới)
+|           Không []
+Khinào?T1[L ]T2L]T3LT]T4L]IT5L]T6L]T7HDT8LIT9LITI0L]TIL]IT12
+LI
+Lũ lut/hé thông giao thông hạn chê? Có [_ ] (Nêu có, đánh dau thời gian phía dưới)
+Không | ]
+Khinào? TI ]T2[L]T3L]T4L]JT5LT]IT6L]T7HTS8LITISLITI0LITIIL]TD2
+           LJ
+TO TRUONG                            XAC NHAN CUA XA
+(Ky, ghi rõ họ tên)                                  (Ký tên, đóng dau)
+Bảng 01
+DANH SÁCH CÁC THÔN HIỆN TẠI CÒN BỊ Ô NHIỄM
+BOM MÌN VẬT NÓ
+(Kèm theo Mau ĐT- 03)
+   Tên thôn/làng/bản       Chỉ tiết liên hệ và nhận xét
+ilịạ _  . |
+....... .. .. ''Ễ  ..‹
+EEN I
+EN ...
+EN .....Ễ.
+Bang 02
+DANH SÁCH CAC THON KHONG BỊ Ô NHIEM
+BOM MIN VAT NO
+(Kèm theo Mau DT- 03)
+I cm ~— —c .ỄỈỄ..Ễ. ỈÍ|
+20 ÐÊŸẼỄŸÐŸÖỔÖ
+EEN ỈỄÍ
+i4)...
+[[PAGE 43]]
+                                               Mẫu PT- 04 Hy —
+|                            Krnennetrnreeeeteeeeeeeeeeneeeeseeeeeeee, CONG HOA XÃ HỘI CHU NGHĨA VIET NAM
+                                  TEN DON VỊ                         Độc lập - Tự do - Hanh phúc
+Số:......                   keeeeeseee...., NGAY ..... tháng ...... năm ......
+|                                                       PHIEU PHONG VAN CAP THON
+(Dành cho Tô trưởng tô điều tra)
+|                         DU 1990090000900 II HH
+|                         HOP PANS 0 tases esen esas           :
+1. Thong tin chung                                                                  :
+1.1. Mã nhiệm vụ                     _  1.2. Ngày phỏng vấn     ne
+1.3. Tổ điều tra  1.4 Tổ trưởng              ne
+15. Nguoidugcphéngvin | | 16.Chức vụ                 Ie
+2. Thông tin chung vê thôn
+23.Huyện(Thịtrấnthịxã) | ~~ |2.4.Tỉnh                  ne
+2.5. Téng dan sb                   | |26.SỐlượnghộgiadnh | |
+A EE ETS |
+3. Thong tin vé nguy co/tai nạn và nạn nhân BMVN tại thôn
+3.1. Có khu vực nguy hiểm do BMVN trong thôn không? Có[] Không|[ ]
+3.2. Số lượng khu vực nguy hiểm do BMVN trong thôn?
+3.3. Đã có bất kỳ yêu cầu vé RPBM nào tai thônchưa?._ Có[]  Không[]
+3.4. Đãtiếnhành RPBM chưa? CóL] Khong []
+3.5. Có tai nạn BMVN xảy ra trong thôn chưa? Có[ ] Không |[ ]
+3.6. Tổng số người bị thương vong: ...; Số người bị chết:...; Số người bị thương:...
+3.7. Tai nạn gần nhất xảy ra khi nào?
+4. Các kế hoạch phát triển kinh tế, xã hội của thôn.
+|                         4.1. Thôn có các dự án phát triển kinh tế, xã hội không? Có[ ] Khong []
+42. Tổ chức thực hiện: .................nnnnnnnnnnnnnnnnnn nnnTnn¡TEE E1 111101 110191101001017
+4.3. Loại dự án: .....................00000000ee nen nen nen n nh k nh nh E nh kh nh nh nh nh nh nụ
+44. Khi nào dự án bắt đầu: ....................nnnnnnnnnnnnennnnn nen nen nen nnn]
+|
+[[PAGE 44]]
+2
+5. Việc sử dụng đất
+|            5.1. Có thời điểm nào trong năm không thể tiếp cận thôn/khu vực đất đó không?
+|            Có [. ] (Nếu có, tiếp tục tra lời câu 5.2); Không [] (Nếu không, chuyển xuống câu 6)
+5.2. Khu vực đó không thể tiếp cận do
+Canh tác nông nghiệp:
+CóL] (Nếu có, điền vào ô Khi nào bên dưới); Không [ ] (Nếu không, tiếp tục trả lời nội
+dung phía dưới)
+Khinào? T1L]T2L]IT3LIT4LIT5SLIT6LIT7HT8L]TISLITI0LITILL]
+TI2[L]
+Đang có các công trình xây dựng:
+Có [ ] (Nếu có, điền vào ô Khi nào bên dưới); Không [_ ] (Nếu không, tiếp tục trả lời nội
+dung phía dưới)
+Khinào? T1L]T2[]T3LIT4LIT5L]IT6LIT7UTS8LI]T9L]T10L]TILL]
+T12 []
+Điều kiện đường xá bị ngập lut/co sở hạ tằng yếu kém? Lý do khác........
+Có [_] (Nếu có, điền vào 6 Khi nào bên dưới); Không [| (Nếu không, tiếp tục trả lời nội
+dung phía dưới)
+Khinào? T1L]T2LIT3L]T4LI]TSLT]T6LITHTSLIT9LIT10LITILL]
+TI2L]
+6. Thông tin về bom mìn vật nổ
+6.1. Có bằng chứng về BMVN không: Có [_] (Nếu có điền chỉ tiết vào Bảng 01 kèm theo
+mâu);
+Không [ ]
+6.2. Quý vị có biết/có bất kỳ thông tin nào về các nội dung liên quan đến BMVN khác
+trong thôn không?
+Có [J (Nếu có, tìm thêm thông tin về chủng loai, sb lugng, v.v...); Không [ |]
+Điền chỉ tiết về các hộ gia đình bị ảnh hưởng do ô nhiễm BMVN vào Bảng 02 kèm
+theo mâu.
+TO TRƯỞNG                              XÁC NHẬN CỦA THÔN
+(Ky, ghi rõ họ tên)                               (Ký, ghi rõ họ tên)
+[[PAGE 45]]
+R
+Bảng 01 44
+A                 _~Ãừ             ,         il           Ñ       Ñ        x
+THONG TIN VE BANG CHUNG CUA BOM MIN VAT NÓ
+(Kèm theo Mau ĐT- 04)
+TT: Kinh độ             Vĩ độ          Loại BMVN| DI dời            Ghi chú
+(có/không)
+3Ụ..  Ứ
+i4. «+ Ác —c,‹ dd
+ . “
+nq II TL TL.
+Bảng 02
+DANH SÁCH CHỦ SỞ HỮU/NGƯỜI SỬ DỤNG ĐẮT
+BỊ ANH HƯỚNG BỞI BOM MIN VAT NÓ
+(Kèm theo Mau ĐT- 04)
+
+SÓ                               Lon                                          mm
+„nên
+um
+EI
+EI ỷ„¡¡„ẼẼms
+[[PAGE 46]]
+Mẫu ĐT - 05 4, —
+rss CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TEN DON VỊ                           Độc lập - Tự do - Hanh phúc
+86: ........                       ve evere nee, NEAY .... tháng ....... năm ......
+PHIEU PHONG VAN HỘ GIA ĐÌNH NGÀY
+(Dành cho Tô trưởng tô điều tra)                                         |
+Dự AN.
+Hợp PRANE o.oo esses sees esses esses seeeeen                    |
+1. Thông tin chung                                                                              |
+1.1. Maphiémve | ~~ [12.Ngaydidutra | |    |
+13Tôsô ~~ [ ~~ J14Tôưưng | |
+1.5. Thôn * l6X [|
+[17.Huyén ^^ |” [18 Tỉnh              —”_”_
+2. Người cung cấp thông tin và hộ gia đình
+2.1.Hoten |} [22.Tubi: | MẸ)
+23.Dântộcc | J24Điệthoi: | |
+25.Nam |  Ổ J26Ne |
+27.Trểemgái | w J28Trẻemtrai | |
+2.9. Chủ hộ
+3. Thông tin về bằng chứng bom mìn vật nổ
+3.1. Ong/ bà có thê chi cho tôi | O Có (ghi thông tin vào Bang 01)
+BMVN mà ông/bà biêt?           0 Không (- > chuyên sang phan 4)
+pk             li .       0 Gân nhà                   L1 Vùng hay đi vào
+MVN        ?                                               p
+3.2. Nhìn thay B        ở đầu!    0 Vùng dang canh tic [J Vùng sap canh tác
+3.3. Thay BMVN lân cuôi lúc | O < 1 tháng                L1 1-3 tháng
+nào?                              0 3-12 tháng              00> 1 nam
+|                          3.4. Ai nhìn thấy BMVN?         0 Người được phỏng vân        E1 Người khác (tên):
+|                        3.5. Xử lí BMVN như thê         L1 Đem bán I Đê yên [ Chôn ONeém
+nào?                                   0 Di chuyên O Khác:
+3.6. Có tô chức nào rà phá               .               A                  A       .
+BMVN không?                      0 Có      0 Không      L1 Không biêt
+3.7. Ai rà phá?                 II
+4. Thông tin về khu vực ô nhiễm bom mìn vật nổ
+4.1. Ong/bà nhớ đã từng có hay nghị ngờ có         0 Có (Ghi thông tin vào Bảng 02)
+BMVN trong khu vực không?                          0 Không (- >chuyén sang phần 5
+4.2. Ong/bà biệt, sông, hay canh tác ở đây lâu      O~1ndm I~3năm
+chưa?                                                      [1~05năm I1>10năm
+[[PAGE 47]]
+2
+ Mức độ tự tin của 6ng/ba vê thông tin minh   OCao Dừa IẠ Thấp
+4.4. Lí do ông bà tin là BMVN trong khu vực:
+4.5. Ong/bà có biêt ai trong vùng nhìn                .                     A
+thấy bom bi khong?                             0 Có          0 Không
+           4.6. Nếu có, cho biết
+              I
+5. Tai nan/nan nhân
+5.1. Có tai nan bom min trong thôn                                 .                ˆ
+5.2. Thông tin về tai nạn.....................................GsnnenenennnnnnennnennnnnenennE nen 0019 0000090000000090095
+5.3. Có nạn nhân nào sinh sông trong |                        ñ               ˆ
+khu vực nghi ngờ có BMVN không?                       DCó [Không
+5.3. Thông tin vê nạn nhân
+5.4. Có ai trong nhà ông/bà là nạn                                  .               ˆ
+nhân bom mìn không?                                          OC6  t1Không
+5.5. Thông tin về nạn nhân
+6. Ghi chú
+TO TRUONG                               POI TRUONG
+(Ky, ghi ro ho tén)                            (Ky, ghi ro ho tén)
+[[PAGE 48]]
+3
+Bang 01  ty —
+THONG TIN VE BANG CHUNG CUA BOM MIN VAT NO
+                                                              (Kèm theo Mau ĐT- 05)
+TT        Kinh độ             Vĩ độ        Loại BMVN| Didi            Ghi chú
+:                   Ể            ’               (có/không)                                   |
+1... MAI. - . c
+CÍ mm” ..- Ỉ.-Ẽ
+|  !  ' |
+Bảng 02
+THONG TIN VỀ KHU VỰC NGHI NGO Ô NHIỄM BOM MIN VAT NO
+(Kèm theo Mẫu ĐT- 05)
+ii . ...... èo ‹ T
+. ...œ . . .
+3.  .. .. .Ễ.
+i4... (Tr.
+sr vr rr .  .
+6! Ễ. .
+7 Ú  I. .
+[[PAGE 49]]
+|                                                            x
+                                       Mẫu PT - 06 hh
+|           ers    CONG HOA XA HỘI CHỦ NGHĨA VIET NAM
+                               TEN DON VI                             Độc lập - Tự do - Hanh phúc
+So: /ĐT-TT                     xe... Hgày .... tháng...... năm .....
+PHIẾU PIEU TRA THONG TIN VE NAN NHÂN BOM MIN                    |
+(Dành cho Tổ trưởng điều tra)
+on, 3N           |
+Hạng mục: coors 660000000 esas 00069605           |
+Mã nhiệm VU: cece eta 067
+THONG TIN VE NAN NHAN BOM MIN
+(1 ỊHgviinmamh SỰ II]
+E2 N
+E775 NI N
+4 |Tìnhưenghônnhintưeesinn II
+pm II
+6 [Trinh d6 hoo vin rugotainn |
+7 JNghềnghigptướsminn |
+8 | ia chi noi sinh séng khi bj mine | II
+[] Đang dò tim, xử lý      [ Ì Kiếm phê liệu
+Hoạt động của nạn nhân       L]  Trồng trọ,chănnuôi [ ]  Xây dựng
+khi xảy ra tai nạn                 [ Ì Chơi / đùa nghịch        [ ] Không biết
+N—— |e gh
+[ ] Bom phá                  [|] Bom bi
+[| Cac loai dan phéo, ci ~~ [ ] Luu dan
+10 |Loạivậtnổ gay ratainan |[ ] Mìnchốngngười [ |] Min chống tăng
+[ ] Các loại vật nổ khác (ghi cụ thể):
+sn SEE ES
+ve    2      .         (ghi cu thê ngày tháng năm, nêu ko có thông tin
+bị tai nạn
+chêt
+........gày...tháng...năm.....
+NHÂN VIÊN ĐIỀU TRA               CQ/ĐV CUNG CAP THONG TIN
+(Ký, ghi rõ họ tên)                         (Ký tên, đóng dầu)
+[[PAGE 50]]
+Mẫu ĐT - 07 4£
+errs. CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TÊN ĐƠN VỊ                             Độc lập - Tự do - Hạnh phúc
+Số:.......                     .......... ngày .... tháng ....... năm ......
+BAO CÁO KÉT QUÁ ĐIỀU TRA
+(Dành cho Đội trưởng sau khi kết thúc nhiệm vụ điều tra)                            |
+Dự AN cece e eater esate e se eaaee sees eeee 10000110001 011000003 00050.           |
+Hạng mục: cei eetee eer esatr reese sate see sae ese snae anne
+Mã nhiệm VU everett cece este sae estes tees aes esas estes snes snsessesnns             |
+I. THONG TIN CHUNG VE NHIEM VU
+1.Độsô _ |  [2.Pgitweng | |         |
+3.S0todieutra | | 4 Số nhân viên ĐT
+5.Bitdaungdy | ~~ | 6. Kết thúc ngày
+7.Sôthôntrongxã | ~~ [8xa | |
+9.Huyén | [10.Tinh                     II
+l.SôhộcủaThôn |  |12.S6hodaphongvin | |
+13Nm ^^ |. 4N  ê„^ ` |. II
+II. KÉT QUÁ ĐIỀU TRA
+1. Thông tin về tai nạn do bom mìn vật nổ
+(1.1.SOvutainan | ~~ |1.2.Sémannhén | ^^
+13.Sôngườicht | ~~ [14.Sobithwong |
+1.5. Những loại BMVN gây ra tai nan:
+1.6.S0 tai nạn xảy ra trong 2 năm trở lai đây:
+2. Bing chứng về bom min vật nd (có ảnh kèm theo)
+.     ˆ          Loại         Di dời              sp
+                   I ....
+[[PAGE 51]]
+                 ;
+3. Khu vực nghi ngờ ô nhiễm bom mìn vật nổ
+|                 > 3 điểm
+Ma                                          Dién tich            ~Ỷn            .               Ghi
+SHA   (twong adi) | Vitti [LeaiBMVN| ông
+rr rrr
+I
+4. Khu vực khẳng định ô nhiễm bom mìn vật nổ
+>3 điểm
+Mã                                             Diện tích            ~.             .              Ghi
+..... ... .. /
+.......... . . .. . .
+..... `  .. | |
+5. Khu vực không ô nhiễm bom mìn vật nổ
+>3 điểm                in
+0 êm đốn)        Vitri | Loại BMVN | Ghi chú
+Viđộ | Kinhđộ | (wong đôi
+._...M...... A EE
+......í......... !. |
+PON VỊ THỰC HIEN ĐIỀU TRA                         ĐỘI TRƯỞNG
+(Ký tên, đóng dấu)                                     (Ký, ghi rõ họ tên)
+[[PAGE 52]]
+                                                                     Phụ lục II 4£
+|                                                               x        2          ?   =
+                                      ;                  MAU BIEU KHAO SAT lê              |
+|                                   XÁC ĐỊNH KHU VỰC O NHIEM BOM MIN VAT NÓ
+(Ban hành kèm theo Quy trình kỹ thuật điều tra, khảo sát, rà phá bom min vật nô)
+KE HOẠCH          :                                       |
+01       Mẫu KS-01     Khảo sát kỹ thuật xác định khu vực ô nhiêm bom mìn, vật             |
+nô tại Xa .........., huyện................. tính....................
+x                                              BAO CAO                                           |
+    Mau KS-02                           Kết qua khảo sát hàng ngày
+R       ,                                                pr
+i                                                 BAO CAO                                             ì
+    Mẫu KS-03                         Khu vực khẳng định ô nhiễm
+x                                                 BAO CAO                                             ;
+    Mẫu K8-04                 Hoàn thành khảo sát kỹ thuật một khu vực
+~        BAO CÁO
+05 | MauKS-05                           Tổng hợp kết quả khảo sát
+[[PAGE 53]]
+         °
+|                                               Mẫu KS - 01 hf —
+                         RS         CỘNG HOA XA HỘI CHỦ NGHĨA VIET NAM
+ĐƠN VỊ KHẢO SÁT                      Độc lập - Tự do - Hạnh phúc
+|                      S6: /KH-KSKT                  Lee... ngày .... tháng.....năm ......
+                                                             KE HOẠCH
+|                               Khảo sát kỹ thuật xác định khu vực 6 nhiễm bom min vật nd
+tại xã ........., huyện ..............., tính.....................
+)                      (MAU CHUNG)
+I. THONG TIN CHUNG                                                                                ì
+1. Tên, vị trí, phạm vi và nhiệm vụ dự án                                                          ‹
+a) Tên dự án:..................G.GnGnnnnn nen nen nen nen nen nh                 |
+b) Địa Gm: convince                 ]
+c) Nhiệm vụ KSKT:                                                                            `
++ Nhiệm vụ số 02/KSKT........................... tại ..............ss...n
+2. Đặc điểm chung của khu vực khảo sát:
+a) Đặc điểm chung về địa lý, địa hình, địa chất, thủy văn.
+b) Đặc điểm chung về dân cư, kinh tế xã hội.
+3. Yêu cầu chung về khảo sát
+4. Căn cứ lập kế hoạch:
+a) Văn bản của trên.
+b) Thông tin được cung cấp.
+II. MỤC TIỂU, NHIEM VỤ, KHOI LƯỢNG TIEN ĐỘ, YEU CAU KỸ
+THUẬT KHẢO SÁT
+1. Mục tiêu, nhiệm vụ
+2. Khối lượng, tiền độ
+,       :           :              tính     lượng  Tw | Ben   chú
+ngà
+| I [Congtacchuanbi | |” | | | |
+| | Khảo sát địa hình, xác định điểm                mm
+bao các khu vực KS
+ Tập huân bộ sung công tác khảo
+sát kỹ thuật
+3 | Inấn tài liệu, mẫu biểu               BO .
+ Xây dựng và phê duyệt kê hoạch
+khảo sát
+H|Cônguekoe | [| | |
+|
+[[PAGE 54]]
+                                                                                                                                                LJ
+2
+tinh | lượng  rw | ben |   chu
+
+1 [Trin khainhigmvuss0l | ha || [| II
+Hồ. TH SN
+
+(Đội trưởng kiêm tra)                       ngày
+
+3 | Dựkiêncôngtáckhăcphụctôn | Ngày
+
+tại, sai sót (lam lại, bổ sung trang
+
+lps | ||
+4 | Tông hợp dữ liệu báo cáo kết quả | Mẫu
+
+HP | | | II
+| Boman || || | UI
+IE tod CE A II
+
+thuật
+29 snam (| | | |
+
+khảo sát cho địa phương                   biệu
+
+3. Các yêu cầu kỹ thuật
+
+a) Danh mục các quy chuẩn, tiêu chuẩn, quy trình, cần tuân thủ.
+
+b) Công tác thu thập và phân tích tài liệu, tài liệu liên quan.
+
+c) Công tác đo vẽ bản đồ.
+
+d) Công tác khảo sát địa hình, địa chất, thủy văn.
+
+e) Phương án xử lý sự có, hỗ trợ y tế.
+
+g) Công tác bảo đảm chất lượng nội bộ trong khảo sát.
+
+IIL. HO SƠ
+
+1. Do đội trưởng lập:
+
+- Kê hoạch khảo sát xác định khu vực ô nhiềm bom mìn vật nô.
+
+- Báo cáo kết quả KS hàng ngày.
+
+- Báo cáo kết quả hoàn thành KS1 khu vực.
+
+- Báo cáo khẳng định khu vực ô nhiễm.
+
+- Bản đồ ô lưới khu vực KS.
+
+- Báo cáo tổng hợp kết quả KS.
+
+- Kế hoạch khắc phục tồn tại sai sót.
+
+- Báo cáo kết quả khắc phục tồn tại, sai sót.
+
+2. Dành cho cán bộ y tế
+
+Nhật ký khách tham quan
+
+IV. TỎ CHỨC THỰC HIỆN
+
+1. Lực lượng, phương tiện, trang bị
+
+2. Phương pháp
+
+3. Thời gian thực hiện: dự kiến từ ............ đến ......................
+[[PAGE 55]]
+      .                                                                            3
+V. CÁC TÀI LIỆU KÈM THEO
+1. Các bản đồ xác định vị trí, phạm vi khu vực khảo sát.
+2. Các sơ đồ/bản đồ liên quan đến tình trang 6 nhiễm bom min, vật nd.
+3. Các bảng biểu liên quan:
+|                                4. Các phụ lục, hướng dẫn thực hiện công tác khảo sát.
+Nơi nhận                                                    CHÍ HUY ĐƠN VỊ KHẢO SÁT
+- ve                                                                       (Ký tên, đóng dấu)
+|                                                                                                                                                        -ˆ
+[[PAGE 56]]
+Mẫu KS- 02 4£ —
+nnEksssssseessssenseeeeeeevssuv,, CONG HOA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ĐƠN VỊ KHAO SÁT                     Độc lập - Tự do - Hạnh phúc
+Số  /BC-KSN                  ....... ñgày...... tháng ..... năm .....
+                                                       BÁO CÁO
+Kết quả khảo sát hàng ngày
+Dự Betis nes
+Hợp phân...................................................GeGGsnennnennnennnnnennenseEeeeneneeneseesi
+     1. Thông tin chung                                                                   ;
+E4" | | |
+edmgvee | [mew | |
+x EE SE
+me | [Cr |] II
+2. Kết quả khảo sát
+Diện     Ghichú | Diện | Diện | Diện | Mật | Mật | Mật
+Mã | Kết | Đã      tich | vềdiện | tích | tích | tích | độ | đô | độ | Số
+*     (m) | khảo sát     chưa      bụi | trúc     to | (m3      a | (m? | hiệu
+rr rr r+ rr [rr | | | | |
+* Chon các mau tương ứng sau đây:
+57 |ciANGnhönnenip)
+* Mdt độ thực vat
+Thưa: dễ dàng đi lại và sử dụng máy dò
+Trung bình: dễ dàng đi lại nhưng hạn chế trong việc sử dụng máy dò
+Dày: khó tiếp cận khu vực
+na. YOON
+[[PAGE 57]]
+;                                                            .
+Eo I [ VCS
+| [S=as0ngomingmvio | |ômmmnerne |
+R= | HN
+- |Diệnthđãkhảosátin) | |Tổầngsốôđượckhảo sát |
+Dinh tpn) |] | II
+Diện tích nghi ngờ 6 nhiễm (m?): ......... | Tong sô tín hiệu: ................; trong đó:
+Diện tích 6 nhiễm (m2): .................. | Là bom mìn, vật nô: ...... ; khác: ..........
+Mật độ (tin hiệu/10.000 mì? ..............; trong đó:
+Là bom min, vật nô: .............; khác: ...........
+3. Bom min, vật nổ tìm thấy
+KSEIEHE [52 ve | wow [25] BE
+iéu                    lượng     thước                               (cm        trạng
+I |
+I ..  .
+ệKøẹø  ụ. .
+ệK6ø .  ộ  . A A A
+I I .. ... |
+... .. A .
+rr rr rr
+I EE ...
+B8  Ụ  ..
+I ii . .. .‹  ‹ j
+rrr + +r  ' |
+B8 ị | |
+Tổngsóvậnôủmhấ | | | |” | |
+EE | CR
+ECC NN CR
+Loại bom min, vật nổ: 1. Bom; 2. Bom rải/bom mẹ; 3. Tên lửa điều khiển;
+4. Rockét; 5. Bom đạn chum; 6. Dan pháo; 7. Dan coi; 8. Lựu dan; 9. Min
+chong người; 10. Min chong tăng; 11. Ban M79; 12. Các loại ngòi no; 13. Các
+loại vật nô; 14. Loại khác.
+ĐỘI (TỎ) TRƯỞNG        GIAM SÁT VIÊN. CHI HUY CÔNG TRƯỜNG
+(Ký, ghi rõ họ tên)           (Ký, ghi rõ họ tên)               (Ký, ghi rõ họ tên)
+\
+[[PAGE 58]]
+|                                                                                CT
+Mẫu KS - 03
+MinKS-03 dy
+Cr         CONG HOA XA HOI CHU NGHĨA VIET NAM
+PON VI KHAO SAT                      Độc lập - Tự do - Hạnh phúc
+Số /BC-...                    vee weeny ngày... tháng..... năm...
+BÁO CÁO
+Khu vực khẳng định 6 nhiễm bom min vật nd
+Dự án:..............................-nnnnnnnnnnnnnnnnnnnnnnnEnnEnEnEE E01 6000960000060000000096000 100.1
+Hợp phân....................................................GG.nennnenneenenennnennennennnnnne nen,
+I. THONG TIN NHẬN DẠNG
+ñ                  L1 Chưa rà phá
+Mã Khu vực khẳng                                 ew trang Khu ven Đang rà phá
+định ô nhiễm                                   pine                [1 Hoàn thành rà phá
+em               0 Đã được giải phóng*
+Đội (Tô) số           | [Manhiémve |  |ƒ
+Ngày bắt đầu             | [Ngaykétthae | + |
+Boitrwong ~~ [| [Then | --ÝỶÝøÏ=>I
+xa  Jw |Huyg [0
+0 Cao
+Tinh                                    Uu tién Ra pha      [1 Trung bình
+[1 Thấp
+* Đã được giải phóng: được áp dụng cho các khu vực khẳng định ô nhiễm xác định trong lần
+khảo sát dau tiên, nhưng được giải phóng/hủy bo sau khi được khảo sát lại.
+II. HIỆN TRẠNG SỬ DỤNG ĐÁT
+Mục đích sử dụng đât:            L1 Nông nghiệp            [1 Xây dựng ha tang       L1 Khác
+0 Lâm nghiệp        0 Khu dân cư
+Nếu Khác (ghi rõ}           ...
+Người hưởng lợi:             [1 Cá nhân
+J Cộng đông
+II. BOM MIN, VAT NO TÌM THAY TRONG KHẢO SÁT
+TT Loa       Ky             Kich | Kinh | Vi     Độ | Tinh | PP | Ghi
+:       hiệu            thước     độ      độ     sâu | trạng | xử lý | chú
+TổngsốVNtmthấy | |Hiygighẽ | |
+xay” |” [mem | |
+IV. PIA HINH
+Loại thực vật                          0Cé ID Bụirậm IDdÄTretrúc [Rừng cây
+                            0 Khéng có thực vật C1 Khác
+[[PAGE 59]]
+2
+Độ phủ thực vật:                       L1 Day                     0 Mong       [1 Trọc
+Phương tiện phát quang thảm        [1 Thủ công         a Cơ giới
+thực vật                                     [1 Máy cit cỏ       L1 Kêt hợp
+Loại hình địa chất                                 A (Mềm)                  B(Trung bình)
+C (Cứng)               D (Am ướt, Bun lây)
+|                                                       O       Cat              U       Đỏ
+                cu                                   O Gang         O  Thit
+           Loai dat                                  0       Sét               O       Soi
+                                                       n       Đá               O       bam lay
+a       Khác
+O Đấthoang ID Venbiển
+O        Căn cứ QS cũ O        Đâm lây
+                  Co                                       a        Bờ sông         O        Khu dân cư
+Loại hình khu vực                        0        Đồngruộng [II        Đường lớn
+|        Đô thi            a        Đôi núi
+|        Bênđường ID        Trụ sở hành chính
+O        Rừng              O        Đường mon
+0 Khác
+Loại xe tiep cận được khu vực |        Một cầu         HÄHaicầu [OO Mười sáu chỗ
+V. CHU VI KHU VỰC KHẲNG ĐỊNH Ô NHIỄM BOM MIN, VAT NO
+(1 | Điểndu |  .. 0 |
+| 2 | biémgoer | | 000 |
+3| Điểmgóoe2 | 00000 000]
+4| piảmgei | 9MNỔỈM ÔÀj““-))ð^Ä<+šÄ \LI
+5| Đimcốôi | 00000000 -°”"“"“'“ ‹ -lỶ |
+Diện tích khu                                          Có thêtiệp cận baonhiêu | 025% [150%
+vực (m2:                                              % vùng bi ô nhiễm BMVN | 575% 0 100%
+Tháng không  ol O2   Oo 3  o4 U 5   06
+thê tiệp cận:    Oo 7 H8     Oo 9   O10 g 11     0 12
+Nếu khu vực 6 nhiễm BMVNcó phần nào không tiếp cận được, ghi rõ lý do:.....
+POI (TO) TRUONG        GIAM SAT VIEN        CHI HUY CONG TRUONG
+(Ký, ghi rõ họ tên)          (Ký, ghi rõ họ tên)               (Ký, ghi rõ họ tên)
+[[PAGE 60]]
+                                                                         Mẫu KS - 04 4 —
+ĐƠN VỊ KHẢO SÁT                      Độc lập - Tự do - Hạnh phúc
+|                               Số  /BC-HTKS                      ......, NAY... ... tháng...... năm .....
+BÁO CÁO
+Hoàn thành khảo sát kỹ thuật một khu vực
+
+bế ti cece  —
+
+Hợp phân..............................................nnnnnnnnnnnnnnnnn sess snesean
+
+1. Thông tin chung
+EL mm TU | |
+me mm |
+
+cnr                  ˆ                                                                     = Thông tin tin cậy
+Diện tích khu vực yêu                        Nguồn bằng chứng khảo sát. | [1 Kết quả ĐTPKT
+câu KSKT (m2)                                                                     CA 1      ,
+0 Các tô chức khác
+So lượng băng chứng                            ˆ                ‘a                      OHoan thành
+êu cầu KSKT                                   Tình trạng nhiệm vụ               OTam dimg*
+
+* Tam dừng: Nhiệm vụ được chính quyền/người "dân địa phương yêu cầu tạm ngưng
+vì một vài li do. Trong trường hợp tạm ngưng do chủ dat yêu cau đội trưởng, vi dụ, quay lại
+sau 07 ngày khi ông ta đã hoàn thành việc thu hoạch, không can làm báo cáo tạm ngưng.
+
+2. Kết quả thực hiện
+
+SỐ lượng khu vực nghỉ                         Diện tích đã thực hiện
+ngờ đã hoàn thành khảo                         khảo sát (m2)
+sát
+Diện tích khảo sát khác   Dâu (+) cho tăng | Diện tích đã kiểm tra
+với yêu cầu (m?)                Dấu (-) cho giảm | chất lượng (mˆ
+Nr       J      co 2                          SO tín hiệu phải xử ly
+Diện tích phải làm lại (mˆ)  — trung bình/ha
+Soods: |  [S86maw | ÑI
+Soovang ^>⁄w |; [Sbéxam |
+[Tôngsôôkhảosát | |Sốôkhôngônhễm | |
+Á A Li    PT                        Diện tích khu vực khang
+Khu vực lu nhiềm trong                 Diện tích khu vực không
+khu vực (có báo cáo khăng                          ô nhiễm (m?)
+định 6 nhiém gửi kèm)
+Đánh giá mức độ ô nhiễm  D Cao    `       Tiến độ thực hiện so với | Dấu (+) cho tăng
+` Trung bình       AX       \                     x             .
+toàn khu vực                       0 Thin              yéu cau (ngay)                  Dâu (-) cho giả
+[[PAGE 61]]
+2
+3 . Kết quả phát hiện bom mìn, vật nổ
+Ching | gy                 Kích | vide | Kinh độ | ĐÔ SÊU | Tình trang | Phương pháp
+loại         hiệu                   thước                                      (cm)                                 xử lý
+G. ]T
+Lộ...  .
+BKø MÚM. Í ....
+rr  ! J _ 1 I |
+Tổng số vật nổ tìm thấy: ....................
+Đã xử lý .............Trong đó: Hủy tai chỗ.........Thu gom.............
+Loại bom min, vật nổ: 1. Bom; 2. Bom rải/bom me; 3. Tên lửa điều khiển; 4. Rockét;
+5. Bom dan chùm; 6. Dan pháo; 7. Pan côi;  8. Lựu dan; 9. Min chống người; 10. Mìn chống
+tang; 11. Pan M79; 12. Các loại ngòi nô; 13. Các loại vật nổ, 14. Loại khác.
+4. Ảnh (đính kèm theo yêu cầu)
+Sơ đò kết quả KSKT/RPBM (Đính kèm)
+Mã hành chính: Tỉinh/Huyện/Xã/Đia điểm KSKT/RPBM:
+TIITTITTITTITTTTTTTISme: se |]
+Ji! ee
+l)) J!JJJl||lj|!!lJJlIl||l. |
+”    |JI!'JJJJJlllJ!lllJJJTTT]T]
+ JJJl]!l|JJJJlJll.l |
+ JJjJJlJJ|) ||
+|JJ| || JJJJJl ||!!! L||||||
+|! |||JJJ||) |     CHÚ THÍCH
+SNEEEEEEEEEEEE EEE         e Điểm bom min, vật nổ đã được xử ly
+II! Ji |)   Giảm màu manh)  ¡
+li.         ® Điểm tín hiệu bom min, vật nổ chưa
+| 1 I | || đưựcxtý(chắmmàuđỏ. -
+lJlllll ||,   Đường bao khu vực khảo sát
+| lJl)))) Ji   (đường màu xanh).
+CLEP |) |] | | ' XVịuidotoađôGPStạitâmđiểm của
+II   khu vực khảo sát
+CIIIIlllllllllllllI!TIITIIITITTITITTT!
+Người vẽ: ..............................; Ngày vẽ: .................................
+POI (TO) TRUONG       GIAM SAT VIEN CHI HUY CONG TRUONG
+(Ky, ghi ro ho tén)          (Ky, ghi rõ họ tên)             (Ký, ghỉ rõ họ tên)
+[[PAGE 62]]
+                                                 Mẫu KS-05 fs
+ees       CONG HOA XÃ HỘI CHU NGHĨA VIET NAM
+PON VI KHAO SAT                       Độc lập - Tự do - Hanh phúc
+Số  /BC-THKQKS                  ....., Ngày .... tháng..... năm.......
+BÁO CÁO
+Tổng hợp kết quả khảo sát
+(Dành cho Đội trướng sau khi hoàn thành nhiệm vụ khảo sdt)
+|                                 so dd
+Hợp phân.........................................Gnnnennnnnnnnnnnnnn b sean enae
+1. Pham vi khu vuc khao sat
+Tinh (thanh phé) | Huyén (quan, thi xa) |Xã(phường thi trdn) | Thôn(xóm, bản)             !
+Điều kiện tự nhiên có anh hưởng đến RPBM                                                                             :
+19 JE 110411 W              :
+Loai ẫ_ễ_ ẽẹơẹ e een
+Hiện trang 6 nhiễm bom Min... ....oeiivnniiuinneerieeeeeeriee ee eenseeneerereenennans
+Lịch sử tai nạn bom MN... ....oueiiiririiiiiiiiiiiiiene ere ni nen nh nh n nan nh n nh nh nh kh k ke:
+Lịch sử hoạt động khắc phục bom min ( Tên dự án, thời gian, diện tích độ sâu và tóm tắt kết
+quả các dự án đã thực hiện trên khu vực hoặc lân cận) ....................................
+L     X    .. | Trong do:                                 ,
+Hiện | Tông diện | 1, Đất thỏ cư... ha                             8. Dit xây dựng.......ha
+trạng   tích đã        2. Dat trong trọt...........ha                   9. Đất giao thông......ha
+sử |khảo sát | 4 Đất trồng cây lâu năm......ha             10. Đất thuỷ lợi........ha
+dụng  (03) 15, Mặt nước........ha                   11. Dat nghĩa địa......ha
+đất                         6. Dat rừng tự nhiên ......ha                       12. Các loại đắt khác........ha
+Hiện    i          Trong do:                                  ;
+trạng | Tông diện | 1. Đât thô cư ....ha                             7. Đât xây dựng.......ha
+nghi | tích ô       2. Dat trông trọt...........ha              8. Dat giao thông......ha
+ngờ | nhiém sau | 4. Dat trông cây lâu năm......ha              9. bat thuỷ lợi........ha
+                              ô | khảo           5. Mặt nước........ha                             10. Dat nghĩa địa......ha
+                           nhiễ | sát.......ha | 6. Đất rừng tự nhiên ......ha                   11. Các loại dat khác.........ha
+m
+.          Trong do:                                  ;
+Hiện | Tông diện | 1. Đất thổ cư .....ha                             7. Đất xây dựng.......ha
+trang | tích không | 2. Đất trong trọt...........ha                   8. Đất giao thông......ha
+sử l|ônhiêm | 4, Pat trong cây lâu năm.....ha .         9. Pat thuỷ lợi........ha
+dung |saukhảo | 5. Mặt nước........ha                    10. Đất nghĩa địa......ha
+dat | sát.......ha | 6. Dat rừng tự nhiên ......ha             11. Các loại dat khác.........ha
+[[PAGE 63]]
+2
+vu     —_UùYÐ              Tông sô tín hiệu: ....................; trong đó:
+Diện tích khảo sát (m7: ................ | Là bom min, vật nể: .......... ; khác: ..........
+Mật độ (tín hiệu/10.000 m”): ..............; trong đó:
+Là bom min, vật nỗ: .............; khác: ...........
+Sô lượng tín hiệu                     1                                                                 ,
+|           đã đào, xử lý                            SỐ lượng và độ sâu                         Tình trạng thực tê
+Trên | Đến      Đến | Đến | Tổng
+mặt      05m |3m |5m |cộng
+Bompáeeesi | | | |, | ]CỈÍG
+mm || | | |]
+EET I SN I I I
+Các loại vật nô
+khác
+ssheeeei |] | | | | | -Ô“W9W6” °=>I
+Số lượng các tín hiệu năm sâu lớn hơn 5 m chưa xử lý: ...........................
+2. Đánh giá chung về khu vực:
+Mức độ ônhiễm bom min vat nd: Ning [1;Trungbình [1;Nhẹ H
+Phân loại khu vực: ...........................; Cấp đắt phd biến: ........................
+Diện tích cần rà phá bom min: ..............ha; Trong đó:
+Đến độ sâu 0.3 m: .........ha            Diện tích mặt nước: .........ha
+Đền độ sâu 5 m: ........... ha                   Đến độ sâu 1,5 m: .........ha
+Đến độ sâu 3 m: ............ha
+Diện tích biển: ......ha (trong đó độ sâu < 15 m: .....ha; từ 15-30 m:.....ha; trên 30 m:
+....ha)
+Diện tích phát quang phục vụ RPBM..........................ha.
+Tài liệu kèm theo: phiếu điều tra; Báo cdo KS, Bản đồ nhiệm vụ KS/RPBM.
+POI (TO) TRƯỞNG         GIAM SÁT VIÊN CHỈ HUY CONG TRƯỜNG
+(Ky, ghi rõ họ tên)            (Ký, ghi rõ họ tên)              (Ky, ghi rõ họ tên)
+[[PAGE 64]]
+s=
+Phụ lục III
+MẪU BIEU RA PHA BOM MIN VẬT NÓ ff ~
+(Ban hành kèm theo Quy trình kỹ thuật điều tra, khảo sát, rà phá bom min vật nó)
+     KÝ RIED
+_ MẪU BIEU KHAO SÁT PHỤC VỤ CHO LẬP PHƯƠNG ÁN
+KỸ THUẬT THI CÔNG VÀ DỰ TOÁN RA PHA BOM MÌN VAT NO
+01 | Mẫu RPBM-01         —             .         BIEN BAN Co                       2
+Bàn giao mặt băng cho khảo sát rà phá bom min vật nô
+02 | Mẫu RPBM-02                        Co         , HAT KY          —_
+Thi công khảo sát rà phá bom mìn vật nô
+BIEN BẢN
+03 | Mẫu RPBM-03 [Nghiệm thu kết quả khảo sát phục vụ cho lập phương án kỹ
+thuật thi công và dự toán rà phá bom mìn vật nổ
+04 | Mẫu RPBM-04             „ii BAO CAO |           |
+Kêt quả thi công khảo sát rà phá bom mìn vật nô                    :
+MẪU BIEU RA PHA BOM MIN VAT NÓ                                        |
+05 | Mẫu RPBM-05         mm             .         BIEN BAN —_            Ca
+Ban giao mặt băng cho thi công ra phá bom min vật nô
+BIEN BẢN
+Mẫu RPBM-06         Kiểm tra quân số, trang bị kỹ thuật trước thi công
+rà phá bom mìn vật nổ
+  Mẫu RPBM-07                                   NHẬT KÝ THỊ CÔNG
+Mẫu RPBM-08                        i"         BIEN BAN       |
+Kiêm tra xác xuât hiện trường
+Mẫu RPBM-09                     a            ˆ BIẾN BẠN          Caz
+Nghiệm thu nội bộ ra phá bom min vật nô
+  Mẫu RPBM-10                      PHIEU YÊU CÂU NGHIỆM THU
+BIEN BẢN
+l1 | MauRPBM-11 | Xác nhận số lượng, chủng loại bom min vật nổ thu gom
+trong thi công
+BIÊN BẢN
+12 | Mẫu RPBM-12 | Nghiệm thu hoàn thành thi công rà phá bom min vật nổ
+đưa vào sử dụng
+[[PAGE 65]]
+2
+BIÊN BẢN
+13 | Mau RPBM-13             Biên bản bàn giao mặt bằng đã thi công rà
+phá bom mìn vật nô
+                          x                                           CAM KET BAO PAM AN TOAN
+|                     Mau RPBM-14                        ;         xa       :              R       -       A
+            MAT BANG ĐÃ RA PHA BOM MIN VAT NO
+                                                                                     KE HOACH
+|             15 | MẫuRPBM-15      Hủy bom mìn vật nd thu gom trong điều tra, khảo sát,
+rà phá bom mìn vật nô
+16 | Mẫu RPBM-16     —     BIEN BAN  Ỷ—Ỷ
+Xác nhận sô lượng bom mìn vật nô đã hủy (xử lý)
+_                                                   BÁO CÁO
+17 | Mẫu RPBM-17          Kết quả thi công gói thầu rà phá bom min vật nổ
+[[PAGE 66]]
+                                              Mẫu RPBM - 01 đ_
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+......."gày ... tháng... năm ......
+BIẾN BẢN
+Bàn giao mặt băng cho khảo sát rà phá bom min vật nổ
+Duan...
+Địa dIEM:.. o.oo
+Hạng mục: Thi công khảo sát phục vụ lập phương án KTTC va dự toán
+rà phá bom mìn vật nô.
+= Căn cứ Quy trình kỹ thuật.................................,Quy chuẩn kỹ thuật        h
+QUOC (HN           .
+- LEE EE EE EE EE EEE EE EE EE EE EE NE yy NY RY YY FY)              \
+- Hợp đồng kinh tế số ......../HDKT-RPBM ngay....\.../..... được ký kết
+Ñ                                                                                              ;
+giữa......          |        mm.        |
+- Căn cứ ho sơ thiệt kê, mặt băng dự án và các tài liệu liên quan khác
+Hôm nay ...... giờ ngày ..... tháng..... năm ...... tại hiện trường mặt bằng        .
+QU AN cece esr sess sears ste a es ba essa essa ease seen                  \
+I. THANH PHAN THAM GIA
+1. Đại diện chủ đầu tư (bên giao):...........................nnnnnnnnnnnsnnennsnne se,
+2. Đại diện đơn vị khảo sát (bên nhận): .......................................
+II. NOI DUNG BAN GIAO MAT BẰNG CHO THI CONG KHẢO SAT
+1. Các bên tiến hành giao, nhận mặt bằng tại thực địa phục vụ cho thi
+công khảo sát rà phá bom min vật nô dự án..............................................
+2. Diện tích mặt bằng của dự án:........................(chủ đầu tư cung cấp hồ
+sơ, bản vẽ của dự án).
+3. Diện tích thi công khảo sát phục vụ cho lập phương án KTTC và dự toán ra
+phá bom min vật nô.................................(không ít hơn 1% diện tích cần RPBM).
+4. Độ sâu rà phá bom mìn vật HN
+5. Các yêu cầu khác của chủ đầu tư:.......................nnnnennnneennnnnssn nen
+[[PAGE 67]]
+2
+III. KET LUẬN
+1. Các bên nhất trí bàn giao mặt bằng tại thực địa làm cơ sở cho don
+vị:.............(riên khai thi công khảo sát thu thập sô liệu phục vụ cho lập
+phương án kỹ thuật thi công và dự toán rà phá bom min vật nô dự án..............
+Biên bản được lập thành .....bản lưu giữ tại hồ sơ hoàn công công trình.
+ĐẠI DIỆN CHỦ ĐẦU TƯ                    ĐẠI DIỆN ĐƠN VỊ KHẢO SÁT
+(Ký tên, đóng dau)                                      (Ký tên, đóng dau)
+|
+|
+|
+|
+|
+|
+[[PAGE 68]]
+|
+                                                       Mẫu RPBM - 02 dhe
+Khnnrsensseeenseennsseesssesreee,,,,, CONG HÒA XÃ HỘI CHU NGHĨA VIET NAM
+DON VỊ KHAO SAT                       Độc lập - Tự do - Hạnh phúc
+Số  /NK-TCKS                   ......, NAY... tháng...... năm ....
+|                                                          NHAT KY
+Thi công khảo sat rà phá bom min
+Đi Fo ORR
+Hạng mục: Thi công khảo sat phục vu cho lập phương an KTTC, dự toán
+rà phá bom mìn vật nô.
+Đơn vị khảo sát: ......................................G.Genneennnnnen ees esas
+Đội trưởng: ...........................GGnnnnnnEnnnEnnnnEnnEEnnnEEnnEEEEE 0060000000000 5 051
+Cán bộ GSKT/QLCL..............................................GGG.sssseessseseeee,                        \
+Khu vực thi công: Ô sề....................................nnnnnnnnnnn nen nen.
+Ngày...... tháng....... năm.......                                                                   /
+Ks
+         |
+lượng
+I | Rà phá bom min vật nd trên cạn         II . ..
+ Phát don mặt bing        cm A
+Độ sâu 0,5 m chỉ
+2 | Dò tìm trên cạn đến độ sâu 0,3 m hoặc 0,5m       m?                  thực hiện khi có
+yêu cầu của chủ
+đầu tư.
+3 | Đào xử ly tín hiệu trên cạn đên độ sâu          Tín
+0,3 m hoặc 0,5m                                hiệu
+4 | Dò tìm trên cạn độ sâu từ 0,3 m hoặc 0,5 m       m                  bat câp.....
+đên 3m hoặc 5 m
+ Đào xử lý tín hiệu trên cạn đên độ sâu 3m   ễ
+6 Dao xử ly tín hiệu trên cạn đên độ sâu 5m   om | __Ạ
+ Dò tìm trên cạn đên độ sâu > 5 m đên 10m  om | |]
+CH [Raphi bomminvitnddwsinuse | | |
+ Dò tim ở độ sâu đến 0,5 m tinh từ đáy nước  W_
+3 | Đánh dâu tín hiệu ở độ sâu dén 0,5 m tinh | Tín
+từ đáy nước.                                  hiệu
+4   Lặn kiêm tra, đào xử lý tín hiệu ở độ sâu    m
+đên 0,5 m tính từ đáy nước
+[[PAGE 69]]
+2
+5 | Dò tìm ở độ sâu từ 0,5 m đên 3 m hoặc đên     m
+5 m tính từ đáy nước.
+Đánh dâu tín hiệu ở độ sâu từ 0,5 mđên | Tín
+3 m hoặc đên 5 m tính từ đáy nước.            hiệu
+7 | Đào xử lý tín hiệu ở độ sâu từ lớn hơn 0,5
+m đên 1 m tính từ đáy nước.
+|               Đào, xử lý tín hiệu dưới nước ở độ sâu từ
+|               lớn hon 1 m đến 3 m hodc đền 5 m tinh tir | m3
+|                đáy nước.
+Mật độ tín hiệu trên bê mặt đáy biên, quai Tín
+1 | xử lý dữ liệu từ hệ thông Sonar và Từ kê.         hiệu
+                   Mật độ tín hiệu từ bề mặt đáy biển dén do | Tín
+            2 | sâu 1 m, qua xử lý dữ liệu từ hệ thống sona | hiệu
+và từ kế
+3 |Cáeyềudồukhác............. | | |
+ Kết quả BMVN tìm được               II
+ Mảnh bom đạn, sắt vụn                         _
+ Bom phá....... bing                       Qa |]
+| SlBombi [Qa] [| |
+ Dan pháo, đạn cối                        Qu | |
+ S|pmtbekee [Qa | 0000
+6 | Pan M79                                Qa | |
+ lowes [Qa] |
+| 8 | Các loại min (BB, tăng.....)               Qa | J]ÏÏ
+-„ [?lvuạnmke [| [|
+|                Nhận xét:
+|        ..09090.868090990040.0.a300980000002099099999909090090999099909999990209909900000990099999909909009000099090004%0¿4đ0900°04.40)0)0&Ằ.ẹẽẲ0cŠ°2090990Á90906908°000960&wủÐV"00060909609999999%068s.0œsh
+           CÁN BỘ QUAN LÝ CHAT LƯỢNG                           ĐỘI TRƯỞNG
+                      (Ký, ghi rõ họ tên)                                         (Ký, ghỉ rõ họ tên)
+[[PAGE 70]]
+Mẫu RPBM - 03 te —
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+.....,ngày ... tháng ......năm ......
+BIEN BẢN
+Nghiệm thu kết quả khảo sát phục vụ cho lập phương án
+kỹ thuật thi công và dự toán rà phá bom min vật nd
+
+T  ẻYe
+
+Hạng mục: Thi công khảo sát rà phá bom min
+
+hô Y_eX
+
+Căn cứ Quy trình kỹ thuật.........../ngày ..../.../....;Qui chuẩn kỹ thuật quốc        |
+gia........;                                                                      |
+
+Căn cứ Hợp đồng kinh tế số ..../....../HĐKT-RPBM ngày ..../.../.....được ký kết
+nu. NI
+
+Căn cứ kết quả thi công khảo sát, thu thập số liệu tại các khu vực thuộc       |
+phạm vi mặt băng thi công dự án......                                                                            :
+
+Hôm nay, ngay.... tháng.... năm...... tai hiện trường (dia danh dự án....), thời         |
+gian nghiệm thu từ .....giờ....... đên ......giờ........cùng ngày.                                                |
+
+I. THÀNH PHAN NGHIEM THU
+
+1) Đại diện chủ đầu tư (hoặc đơn vi giám sát được chủ đầu tư thuê):
+
+2) Đại diện đơn vị khảo sát:
+
+II. NOI DUNG NGHIỆM THU
+
+1. Về chất lượng công tác khảo sát
+
+Đơn vị khảo sát đã tiền hành thi công khảo sát đánh giá, thu thập số liệu mật
+độ tín hiệu, bom đạn, phạm vi rà phá bom min vật nổ mặt bằng dự an.......... theo
+đúng kế hoạch, Quy trình kỹ thuật, Quy chuẩn quốc gia.....................................
+
+2. Về quy mô và phạm vi khảo sát
+
+a) Quy mô:
+
+- Điều tra khảo sát mật độ tín hiệu trên cạn ở các độ sâu khác nhau 0,3m đến
+[[PAGE 71]]
+               ;
+5 m, tính từ mặt dat tự nhiên hiện tại trở xuống.
+- Đánh giá tỷ lệ phát dọn, phân loại cấp rừng trên mặt bằng thi công.
+- Đánh giá cấp đất trong khi đào xử lý tín hiệu, điều tra khảo sát tình hình
+địa chất, thuỷ văn, khí hậu toàn bộ khu vực thi công.
+- Thu thập, điều tra tình hình dân cư, chính trị, kinh tế, xã hội khu vực đơn vị
+đóng quân và thi công.
+- Điều tra thu thập số liệu có liên quan khác.
+- Đánh dấu phạm vi thi công RPBM, lập bản vẽ thi công.
+                  b) Phạm vi, diện tích thi công khảo sát:
+|                    Thực hiện công tác khảo sát thu thập số liệu phục vụ lập phương án kỹ thuật thi
+|          công và dự toán dự án:......... đơn vi đã tiền hành thi công các điểm khảo sát...(căn cứ
+|          vào diện tịch cần RPBM để xác định số lượng điểm khảo sát va diện tích cần khảo sát
+|          theo quy định). Mỗi điểm khảo sát có kích thước 6 là 25 m x 25 m = 500 m? (tùy theo
+địa hình và tinh chất của dự án dé xác định kích thước).
+3. Khối lượng thì công:
+|                   a) Diện tích RPBM của dự án là:............ ha.
+b) Diện tích thi công khảo sát: ......ha. Cụ thể như sau:
+|                   - Diện tích phát dọn tương đương rừng loại:.......ha.
+|                 - Diện tích khảo sát đến độ sâu 0,3 m (hoặc 0,5 m) mật độ loai...: ...ha.
+- Xử lý tín hiệu đến độ sâu 0,3m (hoặc 0,5 m, 1 m): ..........tin hiệu.
+- Diện tích khảo sát rà phá bom min vật nổ đến độ sâu 5 m:.......ha.
+- Đào, xử lý tín hiệu độ sâu 0,3 + 3 m: ...... tín hiệu.
+- Đào, xử lý tín hiệu độ sâu 5 m:...... tín hiệu.
+* KEt QUA thU __ sss ssessessesss nesses ssssesse senses
+4. Két qua khao sat:
+a) Đánh giá khảo sát 1ha thi công trên cạn:
+- Tỷ lệ phát dọn mặt bằng thi công tương đương rừng loại..... chiếm. ......%
+- Mật độ tín hiệu trên cạn đến độ sâu 0,3 m (hoặc 0,5 m, 1 m), mật độ loại ....
+trung bình: ....... tín hiệu/ha.
+                  - Mật độ tín hiệu trên cạn đến độ sâu 3 m trung bình:...... tín hiệu/ha.
+- Mật độ tín hiệu trên cạn đến độ sâu 5 m trung bình: .......tín hiệu/ha.
+oo Cép dat tai khu vực thi công ở độ sâu 0,3 m là đất cấp.....; lớn hơn 0,3m
+đên 5 m là dat cap.......
+                 b) Đánh giá khảo sát 1 ha thi công dưới nước (độ sâu < 25 m)
+[[PAGE 72]]
+,                                                                       3
+- Tỷ lệ phát don mặt bằng thi công tương đương rừng loai..... chiếm.......%
+- Mật độ tín hiệu đến độ sâu 0,5 m, mật độ loại .... trung bình: ...... tin
+hiệu/ha.
+- Mật độ tín hiệu đến độ sâu 3 m trung bình:...... tín hiệu/ha.
+- Mật độ tín hiệu đến độ sâu 5 m trung bình: .......tín hiệu/ha.
+- Đánh giá về lưu tốc nước chảy:......m/s;
+- Độ sâu nước......................................Phạm vi khu vực cần RPBM...........
+c) Đánh giá khảo sát 1 ha thi công dưới biển (độ sâu > 25m)
+„ - Mật độ tín hiệu trên bề mặt đáy biển, qua xử lý dữ liệu từ hệ thống sona và
+từ kê thu được.............tín hiệu.
+~~ Mật độ tín hiệu từ bé mặt đáy biển đến độ sâu 1 m, qua xử lý dữ liệu từ hệ
+thông sona và từ kê thu được.............tín hiệu.
+- Độ sâu nước biển:....................nnnnnnnnnnnnnnnnT EnE 1 1E 10111 1 1101110000010101010107               \
+5. Kết luận                                                                                                    \
+Đồng ý nghiệm thu kết qua thi công khảo sát tại các khu vực thuộc phạm vi
+dự án làm cơ sở lập phương án kỹ thuật thi công và dự toán rà phá bom mìn vật nổ           :
+dự BF: ER                                                    ;
+Biên bản này được lập thành.....bản có giá trị pháp lý như nhau, chủ đầu từ
+giữ......bản, đơn vị khảo sát giữ......                                                                         ị
+ĐẠI DIỆN CHỦ ĐẦU TƯ                  ĐẠI DIỆN ĐƠN VỊ KHẢO SÁT                 |
+(Ky tên, đóng dau)                                (Ky tên, đóng dau)
+—_ G;;øW
+[[PAGE 73]]
+        .
+|                                                 Mẫu RPBM - 04 f_—
+eee ke E1 nen)      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                          ĐƠN VỊ KHẢO SÁT                       Độc lập - Tự do - Hạnh phúc
+.......Tgày....tháng...... năm .....
+BÁO CÁO
+Kết quả khảo sát rà phá bom min vật nd
+1) 11 oF lo _
+Hạng mục:..............................70.00200000700/00/ nen nen nen nen
+Địa Le _._._.e.e.
+I. CÁC CAN CU
+- Nghị định số 18/2019/NĐ-CP ngày 01/02/2019 của Chính phủ về quan
+lý và thực hiện hoạt động khắc phục hậu quả bom mìn vật nỗ sau chiến tranh;
+- Thông tư số..........................nnHnnnnnnHn HH nnnHn nnnnn HE nn nE¡Ennnnnnnnn serene)
+- Quy chuẩn kỹ thuật...............................n.nnnnnnnnnnnnnnnnnn nen nen nen nen: 001)
+- Hợp đồng kinh té s6 / /HĐKT- KSRPBM ngày... tháng....năm được          «
+ký kết giữa ................................về việc thi công gói thầu rà phá bom min vật         :
+nỗ dự án:..................ồồ.eeeeesssseesesesseseesevee,.,..,ja GIEM eer eeeeeeeeeeesanes              ]
+Kết qua thi công khảo sát phục vụ cho lập phương án kỹ thuật thi công,
+dự toán RPBM mặt bằng dự án.
+II. NHIỆM VỤ, YÊU CAU THỰC HIỆN                                                            ;
+1. Nhiệm vụ                                                                         )
+Điều tra khảo sát đánh giá hiện trạng bom min vật nổ còn sót lai sau chiến
+tranh tại mặt bằng dự án. Trên cơ sở đó, xác định mật độ tín hiệu, cấp đất, cấp rừng
+của khu vực dự án, các thông tin địa hình, thời tiết, khí hậu thuy văn... làm căn cứ lập
+phương án kỹ thuật thi công và dự toán thi công RPBM cho dự án, bảo đảm tính
+chính xác, đúng quy định, bảo đảm tiết kiệm.
+2. Yêu cầu
+- Căn cứ bản vẽ thiết kế, tiến hành đánh dấu phạm vi mặt bằng thi công
+của dự án tại thực địa và thể hiện chỉ tiết bằng tọa độ trên bản vẽ thi công RPBM
+của dự án.
+- Xác định diện tích, mật độ khu vực, tỷ lệ cây cối cần phải phát dọn trên
+mặt bằng thi công.
+- Xác định mật độ tín hiệu độ sâu đến...... m, tính từ mặt đất tự nhiên
+hiện tại trở xuống. Cấp đắt khi phải đào xử lý tín hiệu.
+- Xác định sơ bộ chủng loại bom mìn vật nổ. Quá trình khảo sát nếu phát
+hiện bom min vật nổ phải thu gom xử lý để đảm bảo an toàn.
+- Thu thập số liệu về địa hình, địa chất, khí hậu thủy văn; điều tra tình
+hình dân cư, tập quán sinh hoạt, an ninh, trật tự xã hội và các vấn đề có liên
+quan đến thực hiện nhiệm vụ.
+[[PAGE 74]]
+                                                                |
+|                 II. NỘI DUNG THU C HIEN
+1. Lực lượng, trang bi
+„ Sử dụng....... đội thi công khảo sát hỗn hợp trên cạn và dưới nước, quân
+sô....... d/c; thành phân gôm:...... d/c; phụ trách phân đội....đ/c; kỹ thuật viên:
+.........Ð/c; nhân viên y tê.....đíc.
+„ Những người tham gia thi công khảo sát cán bộ, kỹ thuật viên đã được
+huân luyện theo quy định và có kinh nghiệm vê công tác RPBM.
+2. Thời gian thi công:
+- Bắt đầu từ: ngày .... tháng .... năm......
+- Hoàn thành: ngày.....tháng ..... năm......
+3. Khối lượng thi công khảo sát bom mìn vật nổ
+a) Phạm vi diện tích thi công khảo sat
+- Diện tích RPBM của dự an: .........ha
+- Diện tích thi công khảo sát..............ha
+- Tiến hành thi công .............. điểm. Mỗi điểm khảo sát có kích thước ô
+là 25m x25 m= 500 m’. Với diện tích khảo sát: ..............ha > 1% diện tích
+thi công RPBM của dự án.
+b) Khối lượng thi công khảo sát:
+- Diện tích phát dọn tương đương rừng loại:....... ha.
+- Diện tích khảo sát RPBM đến độ sâu 0,3 m.........ha.
+- Xử lý tín hiệu đến độ sâu 0,3 m: .......tín hiệu.
+                  - Diện tích khảo sát rà phá bom min, vật nổ đến độ sâu 5 m:....... ha.
+- Đào, xử lý tín hiệu độ sâu 0,3 m đến 3m:.............tín hiệu.
+- Đào, xử lý tín hiệu độ sâu 5 m:.......... tín hiệu.
+* Kết quả thu đượC:...................nnnnnnnnnnnnnnn nn nen nnnn nen nen nen:
+4. Kết quả khảo sát đánh giá chung cho toàn khu vực của dự án:
+-  Tỷ lệ phát dọn mặt  bằng thi công tương đương rừng loại...chiếm
+.......... tông diện tích thi công khảo sát trong khu vực.
+- Mật độ tín hiệu trên cạn đến độ sâu 0,3 m, mật độ loại.... trung bình:.....
+hiệu/ha.
+- Mật độ tín hiệu trên cạn đến độ sâu 3 m trung bình:........ tín hiệu/ha.
+- Mật độ tín hiệu trên cạn đến độ sâu 5 m trung bình:.....tín hiệu/ha.
+_ - Cấp đất tại khu vực thi công ở độ sâu 0,3 m là đất cấp....; lớn hon 0,3m
+đên 5 m là dat cap......
+5. Số liệu thu thập tình hình có liên quan
+- Địa hình..............................GGunnnnnnnnEeneennnnnnn nen aranes
+[[PAGE 75]]
+     |                                                                 |
+                              - Dia chất: Qua khảo sát đánh giá dia chất đất tại khu vực thi công dự án,
+với độ sâu từ mặt dat tự nhiên đên 0,3 m được xác định là loại dat cap....., lớn
+hơn 0,3 m đên 5 m: được xác định là dat cap.....
+= Khí hậu, thủy văn...................................nnnnnnnnnnnnnnnnnnnnnnEnEnEn0n0n 0001050102505
+- Tình hình dân cư trong khu vực RPBM...............................................
+= Tình hình bom mìn vật nề......................GHHHnnnnnn HN essere nn 00101 0010-11..
+|                         Qua các thông tin va tài liệu lưu trữ về lich sử chiến tranh, về các trận
+oanh tac băng không quân................................................cồCc.ssseesseeeeseesseen
+Khu vực có bị ảnh hưởng bom min vật nd trong chiến tranh.............
+|                       Bom mìn chưa nổ năm sâu trong lòng đất luôn là mối nguy hiểm tiềm
+tàng, hậu quả của bom mìn gây ra ảnh hưởng đên đời sông nhân dân, ảnh hưởng
+den sự phát trién khi tê xã hội của địa phương vì vậy thi công rà phá bom min,
+vật nô bảo đảm an toàn cho dự án là rat can thiệt.
+5. Kết luận
+Đơn vi thi công khảo sát...... đã thực hiện xong công tác khảo sat ........
+Vệc chap hành các quy định....................,tiên độ. .....sô liệu trung thực không....          4
+tiệt kiệm..... công tác an toan.....                                                                                ;
+ĐẠI DIỆN ĐƠN VỊ KHẢO SÁT               }
+(Ký tên, đóng dấu)                          :
+i
+                                                                                                                                 1
+[[PAGE 76]]
+                                             Mẫu RPBM - 05 ha -
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+......?"gÒy.... tháng... năm......
+BIẾN BẢN
+Bàn giao mặt bing cho thi công rà phá bom min vật nổ
+Dan. ci
+|                          Hạng mục: ......ooooiiiiiiiiiii ieee eee neenaes
+oi eee
+„ - Căn cứ Quy trình kỹ thuật..................................QUY chuẩn kỹ thuật
+(@9 1 vỡ: (: NeEEEPOEOGG HN
+- Hợp đồng kinh tế số ......./HĐKT-RPBM ngay..../.../..... được ký kết
+giữa......
+- Căn cứ ho sơ thiệt kê, mặt băng dự án và các tài liệu liên quan khác                   _
+Hôm nay ....... gio ngdy ...... thing năm ...... tại hiện trường mặt bằng        :
+tiến NHI
+`         ˆ                                                                           i
+I. THANH PHAN THAM GIA                                                        `
+1. Đại diện chủ đầu tư (bên giao):..............................nnnnnenneneeneenn sen,                    ;
+s
+2. Đại diện đơn vị thi công (bên nhận): ......................................
+3. Đại diện đơn vị giám sát (nếu chủ đầu tư có thuê giám sát độc lập)
+IL NỘI DUNG BAN GIAO MAT BẰNG CHO THI CONG RA PHA BOM
+MIN VAT NO
+1. Các bên tién hành giao, nhận mặt bằng tai thực địa phục vu công tác thi
+công RPBM dự án..................................ồ.ồ..GGGGseeeeseeeesseeeeeee,
+2. Diện tích dự án là...................................................GGGBeeeeeeeeeeeeeesesseess
+3. Độ sâu rà phá.....................................-neennnenenennenensenenennereenneeeeeenesesens
+4, Các yêu cầu khác của chủ dự án............................G.nnnnnneeenennneseeer re se
+(Kèm theo tọa độ và bản vẽ thiết kế mặt bằng khu vực dự án).
+[[PAGE 77]]
+2
+III. KET LUẬN
+1. Các bên nhất trí bàn giao phạm vi mặt bằng công trình:.....................
+|                  Biên bản được lập thành .....bản lưu giữ tại hồ sơ hoàn công công trình.
+|
+  ĐẠIDIỆN CHỦ ĐÀUTƯ ĐƠNVỊGIÁMSÁT  ĐƠNVỊTHI CONG
+(Ký tên, đóng dau)                  (Ký tên, đóng dau)            (Ký tên, đóng dau)
+[[PAGE 78]]
+Mẫu RPBM - 06 đá
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+...... NAY... tháng..... năm......
+BIẾN BẢN
+Kiểm tra quân số, trang bị kỹ thuật trước
+                                                khi thi công rà phá bom mìn vật nỗ
+Dự án:............................u02ue0uueeeeen eee
+Hạng mục: Thi công rà phá bom mìn
+Piadi€m:.........oooiiiiii nen nen nen nan nen in nen
+Hôm nay, ngày....tháng ... năm..., tại công trường thi công RPBM dự án:
+I. THANH PHAN THAM GIA
+1. Đại diện chủ đầu tư:
+2. Đại diện đơn vị giám sát (nếu chủ đầu tư thuê giám sát)
+3. Đại diện đơn vi thi công:                                                   |
+II. NOI DUNG KIEM TRA
+Các bên tiến hành kiểm tra quân số, trang bị kỹ thuật trước khi thi công rà
+phá bom mìn dự án: ..................................0606/5.6..5/...............hhƯ SaU:        :
+1. Quân số:                                                                  |
+Lực lượng công trường: biên ché.......đội thi công, chứng chỉ đội trưởng,
+kỹ thuật viên.
+2. Trang bị chính mỗi đội:
+- Máy do mìn....................................
+- Máy dò bom...................................
+- Máy phát điện................................
+- Bộ đàm............................22 sex vu. sen nh.
+- Thiết bị định vi GPS........................
+                            - Các dung cụ chuyên dụng kèm theo phục vụ công tác RPBM: co, thuốn,
+khung dây, Cuốc, Xẻng, v.v. đồng bộ theo đội.
+III. KET LUẬN
+Các bên đã kiểm tra quân số, số lượng chủng loại máy móc thiết bị và các
+giấy tờ liên quan......................nennnnnn nen nen nnnnnnnEEnnn E16 EEE ease eee
+Biên bản được lập thành......bản có giá trị như nhau, để các bên có cơ sở
+|                       thực hiện và lưu vào hồ sơ dự án.
+                         ĐẠI DIỆN CHỦ ĐẦU TƯ       PON VI GIAM SAT PON VI THI CONG
+(Cán bộ kỹ thuật)                 (Cán bộ giám sat)               (Đội trưởng)
+[[PAGE 79]]
+Mẫu RPBM - 07 đ
+ĐƠN VỊ RA PHÁ BOM MÌN                 Độc lập - Tự do - Hạnh phúc
+Số  /NK-TCRPBM                 ......, Hgày..... tháng...... năm .....
+NHẬT KÝ THỊ CÔNG
+(Mẫu chung)
+DU AN: cece eee eee ese e seen a aaa aas
+Hạng mục: Ra phá bom min vật nổ
+                                    Đơn vị rà phá: .........................................GG.nnnnneeneeeeeeeee sen,
+Đội trưởng: ..............................nnnnnnnnnnnn serene
+Cán bộ GSKT/QLCL:..............................................Gsneeeseu se
+Khu vực rà phá: ..........................................nnnnnnenneenneeneeeeee se,
+Ngày...... tháng....... năm......
+tu 3 mm
+TT                         Tên công việc                          Đơn vị | Khôi          Ghi chú
+lượng
+_I | Ra phá bom min vật nỗ trên cạn         I . :
+ Phất don mặt bing         “ow | [Reed |
+Độ sâu 0,5 m chỉ
+2 | Dò tìm trên cạn đến độ sâu 0,3 m hoặc 0,5 m        m?                   thực hiện khi có
+yêu câu của chủ                  ’
+đầu tư.                      F
+3 | Đào xử ly tin hiệu trên can đên độ sâu           Tín
+0,3 mhoặc 0,5m                                  hiệu
+4 | Dò tìm trên cạn độ sâu từ 0,3 m hoặc 0,5 m       m                  bat cap.....
+dén 3 m hoặc 5m
+ Đào xử lý tín hiệu trên cạn đên độ sâu 3m   oo |]
+L6 | Đào xử lý tín hiệu trên cạn đên độ sâu 5 m   W ỶÝ}Ý1"
+ Dòtìmtrêncạnđênđộsâu>5mđênl0m| m | | II
+                CH|Ràphábomminyậtnổdướnướe | | | Í
+| Dò tìm ở độ sâu đến 0,5 m tính từ đáy nước  EEE
+3 | Đánh dâu tin hiệu ở độ sâu dén 0,5 m tinh | Tín
+từ đáy nước.                                        hiệu
+                    4 | Lặn kiểm tra, đào xử lý tín hiệu ở độ sâu |
+                                  đên 0,5 m tính từ đáy nước                             m
+ Dòtìmởdđộsâutừ0,5mđến3mhoặcđên| m | | |
+[[PAGE 80]]
+2
+Đánh dâu tín hiệu ở độ sâu từ 0,5 m dén | Tín
+3 m hoặc đên 5m tính từ đáy nước.             hiệu
+|         7 | Lan kiểm tra, đào xử lý tín hiệu ở độ sâu
+               từ lớn hon 0,5 m đến 1m tinh từ day | 3
+|               nước.
+Lặn kiêm tra, đào xử lý tín hiệu dưới nước
+ở độ sâu từ lớn hơn 1 m dén 3 m hoặc đên        m
+5 m tính từ đáy nước.
+ Chuẩn bị mặt bằng                       ml | I
+Rà phá bom mìn vật nổ trên bề mặt đáy             m2
+2 | biển và đến độ sâu 1m
+Kiểm tra, xử lý tín hiệu nằm trên bề mặt           Tín
+3 | đáy biển.                                            hiệu
+ Kiểm tra, xử lý tín hiệu đến độ sâu 1 m     rE
+lệu
+EEN EE
+| HI | Kết qua BMVN tìm được                ....‹‹-“‹*
+ Mảnh bom đạn, sắt vụn                   [ Mooh | |]
+(3 |Bombi  ^ IXÑŸÏÑỈ JQ0Ô |: | ỤI
+ Dan pháo, đạn cói                        Qua |
+5 |pancbeke [Qa] |
+| 6 [Pan M79                                Qua | |
+ 7 |pmes ^^  Ô Joaf |
+[9 vatnékbee [| | “^“*“*°
+Nhận xét:
+GIÁM SÁT/CÁN BỘ QLCL                                   ĐỘI TRƯỞNG
+(Ký, ghi rõ họ tên)                                    (Ký, ghi rõ họ tên)
+|
+[[PAGE 81]]
+Mẫu RPBM -08 4£ —
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+Lee... ngày ... tháng.... năm ....
+BIÊN BẢN
+Kiểm tra xác xuất hiện trường
+l           Dự gE | 000 nen nen nen nen nn nE nh E kh n nh n nh nh nu
+Hạng mục: Thi công rà phá bom mìn
+Địa diem:...............coo nen nnnn nen 1000000000000 0 0000005
+„ - Căn cứ Quy trình kỹ thuật ĐT, KS, RPBM.........Quy chuẩn kỹ thuật
+Quốc gia........
+- Nhật ký thi công hàng ngày;
+|                                  - Kết qua thi công rà phá bom min vật n......
+1. Khu vực kiểm tra                             |
+Tiến hành kiểm tra ........điểm tại khu vực thi công gói thầu RPBM thuộc
+dự 27: 1s LASS                                                     |
+2. Thành phần tham gia kiểm tra                                                                         :
+a) Đại diện chủ đầu tư:                                                                                                         ;
+b) Đại diện đơn vị giám sát (nếu chủ đầu tư thuê giám sát):
+c) Đại diện đơn vị thi công
+                                  3. Nội dung kiểm tra:
+|                                 - Kiểm tra công tác tổ chức thi công
+|                                 - Kiểm tra xác xuất theo Điều 55 Quy trình kỹ thuật cụ thể như sau:
+Đối chiếu khối lượng đã thi công rà phá bom min vật nổ theo Quy định
+|                   của Bộ Quốc phòng. Hôm nay..........chúng tôi tiến hành kiểm tra xác xuất thi
+                       công RPBM trên mặt bằng dự án....
+[[PAGE 82]]
+|                                                                2
+|                   a) Máy móc sử dung kiểm tra:
+
+- Máy dò mìn............: Sử dụng kiểm tra tín hiệu dò tìm trên cạn ở độ sâu
+0,3m hoặc 0,5m
+
+- Máy dò bom.........: Sử dụng kiểm tra tín hiệu dò tìm trên cạn đến độ sâu
+
+b) Phạm vi diện tích kiểm tra:....... m®
+
+- Kiểm tra .... 6 thi công. Kích thước 01 6: 20 m x 20m = 400 mˆ.
+
+Diện tích kiểm tra: ôx 400 mÖ=........ m%
+
+Diện tích kiểm tra tương ứng 1% diện tích thi công rà phá bom min.
+
+4. Kết quả kiểm tra
+
+a) Độ sâu kiểm tra:
+
+Kiểm tra dò tìm trên cạn ở các độ sâu 0,3 m đến....... m. Độ sâu dò tìm
+tính từ mặt đât tự nhiên hiện tại trở xuông.
+
+Kết quả: Toàn bộ diện tích các ô kiểm tra ngẫu nhiên theo xác suất không
+phát hiện tín hiệu bom min vật nô ở các độ sâu được kiêm tra, phát hién..............
+
+b) Về chất lượng công việc thi công:
+
+               Thi công đảm bảo chất lượng đúng yêu cầu của hd sơ Phương án KTTC
+đã được duyệt, tuân thủ Quy trình kỹ thuật............Quy chuân kỹ thuật....
+
+5. Kết luận:
+
+Mặt bằng khu vực thi công gói  thầu  rà phá bom mìn vật  nổ  dự án:
+esses. 4m bảo an toàn, đạt chật lượng yêu câu câu kỹ thuật. Đông ý
+trién khai các công việc tiêp theo.
+
+ĐẠI DIỆN CHỦ ĐẦU TƯ        PON VI GIAM SAT PON VI THI CÔNG
+
+(Cán bộ kỹ thuật)                   (Cán bộ giám sát)                (Đội trưởng)
+[[PAGE 83]]
+Mẫu RPBM - 09 a —
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+...... Ngày .... tháng .... năm......
+|                                                       BIEN BAN
+Nghiệm thu nội bộ rà pha bom min vật nổ
+Công trình:...........................Lu00 0e ni nen nen nen ni nE nE nh nh na nen nh nh
+Hạng mục: Rà phá bom mìn vật nỗ
+| J
+- Căn cứ Quy trình kỹ thuật..../ngày .../.../....;Quy chuẩn kỹ thuật quốc
+gia.........;
+- Căn cứ phương án kỹ thuật thi công RPBM của dự án.....
+1. Đôi tượng nghiệm thu:
+Nghiệm thu nội bộ công tác thi công gói thâu rà phá bom mìn vật nổ
+thuộc dự án: rrr reas
+2. Thanh phan tham gia nghiém thu:
+a) Đại diện chỉ huy đơn vi thi công.
+b) Đại diện chỉ huy công trường thi công                                                              J
+Ong: .................ồ.............. Chức vụ: Chi huy công trường
+Ong: ................................. Chức vụ: Đội trưởng (tô trưởng)                ;
+3. Thời gian nghiệm thu:
+Bắt đâu: .... giờ .... phút, ngày..... tháng .... năm.....
+Kêt thúc: ...........................................ồ.Geeeseesesereeeses,
+Tại: thực địa công trường thi công rà phá bom min công trình: ..............
+4. Đánh gia chat lượng thi công RPBM đã thực hiện:
+a) Hô sơ tài liệu nghiệm thu
+b) Về chat lượng giai đoạn thi công rà phá bom min vật nô
+- Thi công đạt yêu câu, đúng quy trình kỹ thuật, quy chuân ban hành và
+Phương án KTTC được duyệt, bảo đảm an toàn và thực hiện đúng tiên độ.
+- Khôi lượng công việc hoàn thành:
+                                                                   công   chú
+  Phát dọn mặt bằng tương đương rừng loại ...            ha | | |
+ Do tim đến do sau 0,3 mhogc 0,5 m. Matdd.. | ha | | |
+ Dao, xi Iy tin hiéu dén do sau 0,3 m. Pétcdp... | TH | | |
+* Kết quả thu QUOC. o.oo
+[[PAGE 84]]
+2
+c. Các ý kiến khác tham gia:
+                  5. Kết luận:
+Chấp nhận nghiệm thu nội bộ công tác thi công rà phá bom mìn vật nổ công
+Biên bản được lập thành ..... bản có giá trị như nhau, dé các bên có cơ sở
+thực hiện và lưu vào hô sơ công trình.
+ĐẠI DIỆN ĐƠN VỊ THỊ CÔNG              ĐẠI DIỆN CÔNG TRƯỜNG
+(Ký, ghi rõ họ tên)                                (Ký, ghi rõ họ tên)
+[[PAGE 85]]
+x
+                                                 Mẫu RPBM - 10 4 ~
+|                           nResseeyeeeseseeeeeeeeee, CONG HOA XÃ HỘI CHỦ NGHĨA VIET NAM
+ĐƠN VỊ RÀ PHÁ BOM MÌN                   Độc lập - Tự do - Hạnh phúc
+........0gày.... tháng ... năm.....
+PHIẾU YÊU CAU NGHIỆM THU
+Tên dự án: .............................20000Leeieei nen nen nen nen nen re nh
+Hạng mục: Ra phá bom min vật nd
+oi đđơơ
+Thực hiện Hợp đồng kinh tế số .../.../HĐKT-RPBM ngày .../.../20... được
+ký ket giữa ..................................................VỀ Việc thi công gói thâu rà phá bom
+min, vật nô dự án.................................................
+Hiện tại đơn vị.............. đã tổ chức thi công gói thầu rà phá bom min vật nổ
+trên mặt bằng được giao theo hợp đồng đã ký kết.
+Kính đề nghị............................................... tổ chức nghiệm thu hoàn thành
+công tác rà phá bom mìn vật nổ. Cụ thể như sau:                                                            \
+Thời gian: ........................., ngày ...../...../.......                                           |
+Địa điểm: ................................... thi công rà phá bom min vật nổ dự      ;
+cv GÀ
+Nới nhận                                               ĐẠI DIỆN ĐƠN VỊ RÀ PHÁ BOM MÌN           /
+- Nhu trén                                                (Ky tén, dong dau)
+\
+[[PAGE 86]]
+Mẫu RPBM- 11 if —
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+BIẾN BẢN
+Xác nhận số lượng, chúng loại bom mìn vật nỗ trong thi công
+Dự AN esses eres eee besser
+Hạng mục: Ra phá bom min vật nỗ
+Địa QM... eee,
+- Căn cứ Quy trình kỹ thuật................;Qui chuẩn kỹ thuật quốc gia .......;
+- Căn cứ phương án kỹ thuật thi công dự toán;
+- Căn cứ Nhật ký và kết quả thi công ngoài hiện trường.
+Hôm nay, ngày..... tháng.... năm ....., tại tại hiện trường.....................
+I THÀNH PHAN THAM GIA
+1. Đại diện chủ đầu tư:
+2. Đại diện đơn vị giám sát (nếu chủ đầu tư thuê giám sát):
+3. Đại diện đơn vi thi công:
+IL. NỘI DUNG CÔNG VIỆC                                            :
+Hai bên tiến hành lập biên bản xác nhận số lượng bom đạn vật nổ đơn vi
+thi công đã phát hiện, trong quá trình thi công rà phá bom mìn vật nổ tại dự       Í
+Pa.              ự
+1. Số lượng, chủng loại bom mìn vật nổ thu hồi được:                       Ầ
+hiệu             lượng
+| | |Bomcdcloai ~~ | => | Qu |. |... Mì
+2 ]Mineeee | | ou | | II
+3 [Lwden | low [ [|
+4 [Bomb | ou | [|
+5 [PmBB | |V&|l | |
+EE                 I đi
+>          RI          I
+[[PAGE 87]]
+2
+
+2. Các bên thống nhất:
+
+- Số đạn trên đã được thu hồi tại công trường thi công rà phá bom mìn vật
+nỗ dự án..................., đã xử lý an toàn và cho vào hộp đưa về nơi quy định.
+
+- Số đạn trên sẽ được đơn vị thi công bảo quản và tổ chức huỷ theo đúng
+quy trình kỹ thuật, quy định...
+
+- Biên bản được lập thành........bản có giá trị pháp lý như nhau, mỗi bên
+giữ .... bản để làm hồ sơ hoàn công, thanh quyết toán./.
+
+ĐẠI DIỆN CHỦ ĐẦU TƯ        PON VI GIAM SAT PON VI THI CONG
+(Cán bộ kỹ thuật)                    (Cán bộ giám sát)               (Đội trưởng)
+[[PAGE 88]]
+Mẫu RPBM-12 if ~
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+se... ngày ....tháng..... năm......
+BIẾN BẢN
+Nghiệm thu hoàn thành thi công rà phá bom mìn vật nỗ đưa vào sử dụng
+Dự án:............................0200000 00001 iene nen nen nen ni nen nh)
+Hạnh mục: Rà phá bom mìn vật nỗ
+Địa im
+~~ Căn cứ Quy trình kỹ thuật.........../ngày ..../.../....;.Quy chuẩn kỹ thuật
+quoc gia ..........;
+_- Căn cứ Hop đồng kinh tế số ..../....../HĐKT-RPBM ngày ..../../....dugc
+ký KEE giữa ....................................Gnnnnnnnnnnn essere ests eters sa estes ee saa bebe enn
+- Căn cứ Ban cam kết bảo đảm an toàn của đơn vị thi cong;
+- Nhật ký thi công, bản vẽ hoàn công; các biên bản nghiệm thu hiện
+trường.............; cam kêt bảo đảm an toàn của đơn vị thi công.
+I. THÀNH PHAN NGHIỆM THU
+1. Đại diện chủ đầu tư
+2. Đại diện đơn vị thi công                                                            `
+3. Đại diện đơn vị giám sát (nếu chủ đầu tư thuê giám sát)                              :
+II. THỜI GIAN NGHIỆM THU
+Bắt đầu:.... giờ..... ngày.... tháng..... năm .....
+Kết thúc: .... giờ ..... cùng ngày.........
+|                                  Tại: Thực địa công trường thi công rà phá bom min vật nd công trình:.....
+III. NỘI DUNG NGHIEM THU
+1. Hỗ sơ dự án (các loại văn bản có liên quan)
+2. Chất lượng thi công
+[[PAGE 89]]
+2
+—
+
+Thực hiện nghiêm Quy trình kỹ thuat.........., Quy chuẩn kỹ thuật quốc gia
+vê......; Phương án KTTC đã được thâm định..................................................nnnnne..
+
+Đảm bảo đúng thời gian tiền độ theo kế hoạch.
+
+3. Khối lượng công việc hoàn thành:
+
+Khối | Khối | Khối
+AA     .                               lượng | lượng     lượng
+TT                         Tên công việc                          ĐVT      Hợp         thi        nghiệm
+đồng      công       thu
+1    Phát don mit băng tương đương rừng     ha
+
+loại....
+
+ Dò tìm bom mìn vật nổ đến độ sâu 0,3 m BE
+Ar AA                                               a
+
+mật độ...
+ Đào, xử lý tín hiệu đên độ sâu 0,3 m. Pat Am
+
+câp..
+
+<<. II HC
+
+4. Các ý kiến đánh giá
+
+a) Chất lượng thi công dự án (hạng mục) (đối chiếu với phương án kỹ
+thuật thi công, quy trình chỉ dân kỹ thuật......).
+
+b) Các ý kiến khác: (nêu các vấn đề cần lưu ý hoặc các tồn tại cần khắc
+phục, thời gian bảo hành, ...).
+
+5. Kết luận
+
+Chấp nhận nghiệm thu nghiệm thu khối lượng hoàn thành hạng mục rà
+phá bom min vật nô dự án:.........................................Gnnnennnnnnnnnnnnnn nen n000 000100065
+
+Các bên nhất trí thông qua và thống nhất nghiệm thu khối lượng công tác
+thi công rà phá bom mìn vật nô của dự án.
+
+Biên bản được lập thành ...... bản có giá trị pháp lý như nhau, làm cơ sở
+cho việc hoàn công thanh quyêt toán./.
+
+ĐƠN VỊ GIÁM SÁT                      CHI HUY CÔNG TRƯỜNG
+(Ký tên, dong dau)                                 (Ký, ghi rõ họ tên)
+ĐẠI DIỆN CHỦ ĐẦU TƯ                ĐẠI DIỆN ĐƠN VỊ THỊ CÔNG
+(Ky tên, dong dau)                                  (Ky tén, dong dau)
+[[PAGE 90]]
+Mẫu RPBM-13£ _
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+|                                                     Độc lập - Tự do - Hạnh phúc
+......, Hgày ... tháng...... năm ......
+BIEN BẢN
+Bàn giao mặt bằng đã thi công rà phá bom min vật nd
+Duan: coco re
+Hạng mục:..................................770606066.0//6/66. e1
+Địa tr ẽ_e e _ẽ_ẽ._ Ẫ _. _
+- Căn cứ Quy trình kỹ thuật...................................Quy chuẩn kỹ thuật
+QUOC gia..............................Gnnnenennnnnn nen nnEnnnEEEn sea E 1 ase 1E sae sbenssesssessasasesaseensannas
+- Căn cứ Hợp đồng kinh tế số......./HĐKT-RPBMngày.. / / được ký
+xế. HN
+- Căn cứ Bản cam kết bảo đảm an toàn của đơn vị thi công:
+- Căn cứ nhật ký thi công; Ban vẽ hoàn công; các biên ban nghiệm thu
+hiện trường RPBM; Biên bản nghiệm thu khôi lượng hoàn thành hạng mục công
+trình đưa vào sử dụng....
+Hôm nay...... giờ ngày ..... tháng.....năm ...... tại hiện trường mặt bang dự
+I. THÀNH PHAN BAN GIAO
+1. Đại diện chủ đầu tư (bên nhận):...................................Gnneeneeneennee..
+‘J
+2. Đại diện đơn vị thi công (bên giao): .................................6.../           Ì
+3. Đại diện đơn vị giám sát (nếu chủ đầu tư thuê giám sát)
+                                            4. Đại diện địa phương
+II. NOI DUNG BAN GIAO
+1. Pham vi mat bằng và độ sâu đã rà phá bom mìn vật nổ bàn giao
+a) Diện tích đã rà phá bom min, vật nổ tại mặt bằng công trình: ....... ha.
+Chỉ tiết tại bản vẽ hoàn công rà phá bom mìn kèm theo.
+|
+[[PAGE 91]]
+;                                                                    .
+_b) Độ sâu ra phá bom min vật nỗ đến............................................... VÀ CÁC
+|        yéu cau khac néu co.
+|                2. Nội dung:
+Các bên tiến hành giao, nhận mặt bằng tại thực địa phục vụ công tác thi
+công rà phá bom min vật nô công trình...............................địa điêm...........
+- Diện tích dự Fo LSU
+- Độ sâu rà phá................................................nnnnnnnnenenenennenennnenen sen,
+- Các yêu cầu khác của chủ dự án...........................nnnnnnennneennnnsennnnsrnnrnr
+(Kèm theo tọa độ và bản vẽ thiết kế mặt bằng khu vực dự án).
+III. KET LUẬN
+bon vi thi công đã don sạch bom min, vật nổ phạm vi diện tích được giao
+tại mặt băng công trình theo chỉ giới được thê hiện băng cọc bê tông tại hiện
+trường và chi tiết moc toa độ tại bản vẽ hoàn công.
+_ Các bên nhất trí bàn giao và tiếp nhận mặt bằng đã thi công rà phá bom min
+vật nô đê tiên hành các công việc tiép theo.
+| Biên bản được lập thành — bản có giá tri như nhau dé làm cơ sở cho việc
+lập hô sơ hoàn công và thanh quyêt toán./.
+ĐẠI DIỆN ĐƠN VỊ GIÁM SÁT                 CƠ QUAN ĐỊA PHƯƠNG
+(Ky tên, đóng dau)                                    (Ký tên, đóng dâu)
+ĐẠI DIỆN CHU ĐẦU TƯ                 ĐẠI DIỆN PON VI THI CONG
+(Ky tén, dong dau)                                   (Ky tén, dong dau)
+[[PAGE 92]]
+Mẫu RPBM - 14 #Ê —
+Ƒ   CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+ĐƠN VỊ RÀ PHÁ BOM MÌN          Độc lập - Tự do - Hạnh phúc
+cre vre vee weeny ngày... tháng ... năm.......
+CAM KÉT BẢO ĐẢM AN TOÀN
+MẶT BẰNG ĐÃ RÀ PHÁ BOM MÌN VẬT NÓ
+Dự 4:1 | HP
+Hạng mục: Ra phá bom min vật nỗ.
+te
+Chủ đầu BU cece eee eee eee eee eee eee eee eee,
+PON VI...............THI CÔNG RPBM CAM KET
+1. Mat bằng khu vực đã thi công
+2. Phạm vi, diện tích và độ sâu đã ra phá xử lý bom min vật nổ
+a) Phạm vi, diện tích đã rà phá xử lý bom mìn vật nổ:
+Tổng diện tích rà phá bom mìn, vật nổ cho dự án: .......... ha
+Địa điểm: «eevee eee eee eee eee eee eee eee
+so eee eee eee eee eee eee eee,
+b) Độ sâu rà phá bom min vật nd đến .........m, tinh từ mặt đất tự nhiên        :
+hiện tại trở xuông.                                                                                                                   á
+„ Đm vị........................... cam kết chịu trách nhiệm trước Chủ       -
+đâu tư và Pháp luật nêu còn sót lại bom đạn, vật nô trong phạm vi đã rà phá kê         i
+từ ngày ...... thang ...... năm ........... Tuy nhiên trách nhiệm này không được       -
+tính nêu xuat hiện bom đạn vật nô từ nơi khác chuyên đên./.                                        2
+ĐẠI DIEN PON VI RA PHA BOM MIN
+(Ky tén, dong dau)
+[[PAGE 93]]
+Mẫu RPBM - 15 ~
+;  hÐhÐ,u           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+PON VỊ ...........                    Độc lập - Tự do - Hạnh phúc
+Số:       em                                 .„......Tgày......tháng.....năm.....
+KE HOẠCH
+Hủy bom mìn vật nỗ thu gom trong điều tra, khảo sát,
+rà phá bom mìn vật nổ
+Dự án:.......................ồồồồồồồcồồồ‹
+
+Căn cứ Quy chuẩn kỹ thuật Quốc gia...........................nnnnnnnnnnnnnnnnnnnnnnsnnennen sen.
+
+Căn cứ Quy trình kỹ thuật điều tra, khảo sát, rà phá bom mìn vật nổ.
+
+Căn CỨ.........................CGnnnnennnnnnnnnnnnnnnn OOP UPR PPP TOUPPRUPPPI
+
+Căn cứ chức năng, nhiệm vụ của đơn vi..... trong việc thu gom, van
+chuyển, tiêu hủy bom mìn vật nổ thu được trong điều tra, khảo sát, rà phá bom
+mìn vật nổ quy định tại Điều 12 Thông tư 195/2019/TT-BQP ngày 27/12/2019
+của Bộ Quốc phòng.
+
+Căn cứ biên bản xác nhận số lượng, chủng loại bom mìn vật nổ thu được
+
+„ .. trong thi công RPBM dự án.....................
+
+Đơn vị..................lập kế hoạch huỷ bom min vật nổ thu gom trong quá
+trình thi công rà phá bom mìn vật nổ như sau:
+
+I. MỤC ĐÍCH, YÊU CAU
+
+1. Mục đích
+
+Nhằm xử lý toàn bộ số bom mìn vật nổ thu hồi được trong quá trình thi       >
+công rà phá bom mìn vật nổ tại dự án.......................... đảm bảo an toàn.                   >
+
+2. Yêu cầu                                                                                                     z
+
+- Tổ chức chặt chẽ, chu đáo phân công nhiệm vụ rõ ràng, bảo đảm hủy nổ        A
+hết 100% số bom, đạn, vật nổ thu hồi được và tuyệt đối an toàn.                                    3
+
+- Tổ chức thu gom, vận chuyển, hủy nổ bảo đảm đúng các quy tắc, quy trình,          Š
+quy định của Bộ Quốc phòng.                                                                                 ”
+
+- Hiệp đồng chặt chẽ với các cơ quan, đơn vị liên quan dé vận chuyển, thông         |
+báo, cảnh giới và hủy nd.
+
+II. NỘI DỤNG
+
+1. Vận chuyển, hủy nổ bom mìn vật nổ, tổng số lượng:........
+
+2. Chủng loại cụ thể:
+
+- Đầu đạn cối....quả
+
+- Lựu đạn:....quả.
+
+- Bom bi:....qua.
+
+- Đầu đạn pháo: ....quả.
+
+- Đạn bộ binh:.....viên.
+[[PAGE 94]]
+’               -
+
+III. THÀNH PHAN
+
+1. Lực lượng
+
+- Sử dụng lực lượng. ..................
+
+- Chỉ huy hủy nể: ..................... ................- Chỉ huy trưởng công trường.
+
+2. Phương tiện tham gia
+
+- Xe tải chở bom min vật nỗ và các trang bi: .... chiếc
+
+- Xe chỉ huy, chở bộ đội:                             ..... chiếc
+
+Cùng một số trang bị, phương tiện kỹ thuật chuyên dùng đủ bảo đảm hoàn
+thành nhiệm vụ.
+
+IV. THỜI GIAN, ĐỊA ĐIỂM
+
+1. Thời gian
+
+- Thời gian hiệp đồng và ra thông báo hủy: Ngày. tháng năm.....
+
+- Thời gian vận chuyên, hủy nd.
+
++ Tu 00giờ 00,ngày tháng  năm....
+
++Đến00giờ00,ngày tháng năm...
+
+- Thời gian hủy trong ngày: Từ .... giờ 00 đến .... giờ 00.
+
+2. Địa điểm
+
+Bãi hủy: ........................L1u000eeneenneen TN
+
+V. PHƯƠNG PHÁP THỰC HIỆN
+
+1. Công tác vận chuyên
+
+- Vận chuyển .... chuyến (thực hiện nghiêm việc sắp xếp BMVN).
+
+- Chỉ huy vận chuyển: Đồng chí......... - Chỉ huy trưởng công trường.
+
+2. Công tác xử lý
+
+Xử lý bom min vật nd bằng phương pháp hủy nổ.
+
+VI. BẢO ĐẢM
+
+1. Công tác bảo đảm an toàn
+
+a) Công tác bảo đảm an toàn cho lực lượng, phương tiện tham gia
+
+- Khu vực bãi hủy được bd trí, xây dựng các hầm chỉ huy hủy nd, cảnh giới
+ở các vị trí thuận lợi, cụ thể:
+
++ Bồ trí 01 công sự có kích thước (1,5 x 1,2 x 1,2) m làm hầm chỉ huy hủy nổ.
+
++ Bố trí 04 công sự có kích thước (1,2 x 1,2 x 1,0) m là hầm cảnh giới.
+
+- Công tác bảo đảm an toàn cho lực lượng chi huy và cảnh giới.
+
++ Khoảng cách từ hồ hủy đến hầm chứa bom chờ hủy lớn hơn 1.000 m.
+
++ Khoảng cách từ hồ hủy đến hầm ấn nip, hầm chỉ huy hủy nổ lớn hơn 500 m.
+
++ Khoảng cách từ hố hủy đến hầm chứa hoa cụ gây nd và hầm chứa thuốc
+nổ lớn hơn 600 m.
+
++ Khoảng cách từ hồ hủy đến các ham cảnh giới từ 1.500 m đến 2.000 m.
+
+- Lực lượng bảo đảm an toàn: Mỗi hầm cảnh giới bố trí 02 đ/c.
+
+b) Công tác bảo đảm hiệp đồng
+
+- Hiệp đồng giữa các bộ phận trong công tác vận chuyên bằng bộ đàm hoặc
+điện thoại cầm tay.
+
+- Hiệp đồng giữa các bộ phận trong công tác hủy bằng điện thoại cầm tay, bộ
+[[PAGE 95]]
+,                                                                      3
+đàm kết hợp bắn báo hiệu và các phương tiện khác.
+- Hiệp đồng với địa phương bằng thông báo văn bản và các phương tiện
+truyền thanh.
+2. Công tác phòng chống cháy nổ
+- Trên xe vận chuyên bom đạn bố trí đủ bình cứu hỏa và các dụng cụ cầm
+tay khác dé xử lý khi có tình huống xảy ra.
+- Trên khu vực hủy nỗ:
++ Bồ trí sẵn các phương tiện, dụng cu PCCN.
++ Sau mỗi lần hủy nỗ phải cử lực lượng kiểm tra, quan sát kịp thời phát hiện
+nếu có cháy xảy ra.
+- Khi có hiện tượng cháy sau khi hủy nổ phải dập lửa kịp thời, hiệp đồng
+chặt chẽ với đơn vị, địa phương để chữa cháy khi cần thiết.
+3. Kiểm tra, giám sát, hủy nổ
+- Cơ quan kiểm tra, giám sát:
+Theo dõi, chỉ đạo và kiểm tra chất lượng công tác hủy nd.
+- Đơn vị thực hiện hủy nổ:
++ Điều động lực lượng, phương tiện thực hiện nhiệm vụ.
++ Bảo đảm công tác hậu cần, quân y theo quy định.
++ Bảo đảm kinh phí thực hiện nhiệm vụ.
++ Đảm bảo công tác thông tin, tuyên truyền, tư liệu...
+Kính đề nghị........................ phê duyệt kế hoạch ......để các cơ quan,
+đơn vị liên quan tổ chức thực hiện./.
+CHÍ HUY ĐƠN VỊ HỦY NÓ
+Nơi nhận:                                                                          (Ký tên, đóng dầu)
+Nn
+Ghi chu: Mẫu Quyết định phê duyệt kế hoạch hủy né của Bộ Chỉ huy quân sự       ;
+tinh, thành phô trực thuộc trung ương thực hiện theo mâu Thông tư Ban hành Quy chê        pr
+công tác văn thư trong Bộ Quoc phòng.                                                                                    ⁄
+#
+|
+[[PAGE 96]]
+Mẫu RPBM - 16 #£ —
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+BIEN BẢN
+Xác nhận số lượng bom mìn vật nổ đã hủy (xử lý)
+Dự án:....................Hnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnennnnnneneenenesnsnenh
+Hạng mục: ..............................77770000.0.2.........666 5.
+Địa điểm: «overeat
+Căn cứ phương án kỹ thuật thi công đã được các cấp có thẩm quyền phê
+duyệt, Quy tắc an toàn về hủy BMVN theo quy định tại Quy chuẩn.........Tiêu
+chuẩn...............................điều tra, khảo sát, rà phá bom mìn vật nề........
+Căn cứ số lượng bom đạn đã thu được trong quá trình thi công Dự án: Rà
+ii. x—  ——
+Hôm nay, ngày........ tháng ... năm....., tại bãi huy thuộc.......................
+I. THÀNH PHAN THAM GIA
+1. Đại diện chủ đầu tư:
+2. Đại diện đơn vị giám sát (nếu chủ đầu tư thuê giám sát)
+3. Đại diện địa phương (cơ quan quân sự)
+4. Đơn vị thi công:
+II. NỘI DỤNG CÔNG VIỆC
+Căn cứ Biên bản xác nhận số lượng bom min vật nổ thu hồi......Dự
+án..............ồ.ồồ.-
+Các bên thống nhất lập biên bản xác nhận số lượng và chủng loại bom,
+đạn, vật nổ do đơn vị thi công RPBM............... thu được trong quá trình thi
+công RPBM của dự án nói trên như sau:
+1. Số lượng, chủng loại bom đạn, vật nổ đã hủy (xử lý)
+[[PAGE 97]]
+Là
+2
+. .    ne „Ä  Ky   .     «1
+ Các loại bom dan, vat no Đơn vị m Ghi chú
+1 [Bomcacloai | [Qua | | II
+| 2 [Mincécloai ~~ | | Quả | |
+| 3 Lưưđển 0} [Qua | | |
+(4 [Bombi 0000} Qu |. [0
+ 5S [PanBB | |lvên | | ““Ố- |
+|   Tổng cộng    I EE ! |
+2. Thời gian huỷ nd: Bắt đầu: ........... ngày......tháng...... năm......
+Hoàn thành: ....... ngày.....tháng ......năm........
+3. Phương pháp xử lý (hủy):
+4. Địa điểm xử lý
+ø——
+5. Kết quả xử lý:
+Các vật nd nói trên đã được phá hủy,................u...n00/1 1000111100111 eee
+- Biên bản được các bên nhất trí thông qua và lập thành....... bản có nội
+dung như nhaU......................000020ee nen eee]
+ĐẠI DIỆN ĐƠN VỊ GIÁM SÁT          CƠ QUAN QUÂN SỰ ĐỊA PHƯƠNG
+(Ký tên, đóng dau)                                    (Ký tên, đóng dau)
+ĐẠI DIỆN CHỦ ĐẦU TƯ                ĐẠI DIỆN PON VỊ THI CONG
+(Ký tên, đóng dau)                                   (Ky tên, đóng dau)
+[[PAGE 98]]
+¥
+4
+Mẫu RPBM - 17 4
+ees       CONG HOA XA HOI CHU NGHIA VIET NAM
+PON VI RA PHA BOM MIN                   Độc lập - Tự do - Hanh phúc
+.........Ậngày....tháng......năm .....
+BÁO CÁO
+Kết quả thi công gói thầu rà phá bom mìn vật nổ
+
+Dự án:.......................002000eeeee e0 nen nen nen nen nh nen nhọ
+
+Hạng mục:............................../77000000.........666/.//6e se:
+
+vẽ
+
+1. CÁC CĂN CỨ
+
+- Nghị định số 18/2019/NĐ-CP ngày 01/02/2019 của Chính phủ về quản
+lý và thực hiện hoạt động khăc phục hậu quả bom mìn vật nô sau chiên tranh;
+
+= Thông tư SÔ..........................neneeneneenenenneneneneneeneneeeeneneenenennennnennennnrnern)
+
+- Quy chuân kỹ thuật...............................................Gssneeneeeeeeeeeeeeeeeeeeenne
+
+- Hợp đồng kinh tế số   / /HDKT-RPBM ngày...tháng....năm được ky
+kêt giữa ................................Về Việc thi công gói thâu rà phá bom min vật nô
+dự án:.................seeeeseeseeseeseeseeeeeeseseeeee,,.,.Gja GM,
+
+Đơn vị báo cáo kêt qua thi công RPBM mặt băng dự án như sau:
+
+II. NHIỆM VỤ, YÊU CAU THỰC HIEN
+
+1. Nhiệm vụ
+
+Ra phá tat cả các loại bom min vật nô trên mặt băng dự án....................
+địa điêm................................ đề đảm bảo an toàn cho thi công xây dựng các
+hạng mục công trình tiép theo.....
+
+Độ sâu RPBM: đên.........m, tính từ mat dat tự nhiên hiện tại trở xuông.
+
+2. Yêu câu
+
+- Tô chức thi công theo đúng yêu câu, quy trình kỹ thuật, quy định của Bộ
+Quoc phòng, phương án và kê hoạch đã được phê duyệt, đúng tiên độ của chủ
+dau tư....                                                                             :
+
+- Bảo đảm an toàn trong thi công rà phá bom min vật nô cho người và;
+phương tiện tham gia thi công cũng như cho dân cu, các công trình lân cận...... ;
+
+- Don sạch bom min vật nô trong phạm vi được giao, bảo đảm an toàn cho
+trién khai thi công các hạng mục tip theo và khai thác sử dụng.
+
+- Hiệp đông chặt chẽ với Bộ CHQS tính.............; chủ dau tu, địa phương
+trên địa ban đê thi công dam bảo chat lượng, hiệu qua.
+
+- Kiêm tra, phát hiện bom min vật nô trong quá trình thi công, tiền hành
+xử lý và thu gom, vận chuyên đi huỷ đảm bảo an toàn tuyệt đôi, đúng quy định
+(nêu có).
+[[PAGE 99]]
+-
+2                                                                        |
+.
+3. Thời gian thi công
+- Bắt đầu từ ngày:............................nnennsnnensnnenens
+- Thời gian hoàn thành ngày:..............................
+4. Tổ chức thi công                                                                                                 |
+Căn cứ vào điều kiện thi công thực tế tai hiện trường, khối lượng công
+việc và tiền độ thi công theo yêu cầu, đơn vị đã tập trung nhân lực và trang thiết
+bị để triển khai thi công gói thầu. Cụ thể:
+- Điều  động lực lượng thi công rà phá bom mìn vật  nổ do  đồng
+- Lực lượng thi công gỒm:.................. Đội RPBM, quân số theo biên
+chế (Có danh sách và quyết định điều động lực lượng kèm theo).
+- Trang bị mỗi đội: ..... xe ô tô, ..... máy dò min, ... máy dò bom và thiết
+bị cầm tay đồng bộ, đầy đủ theo biên chế quy định...
+5. Diện tích thi công
+- Diện tích thi công RPBM cho dự án là:............ ha (đã được thể hiện
+tại bản vẽ thiết kế mặt bằng, tọa độ...)
+- Độ sâu RPBM: đến ....m, tinh từ mặt đất tự nhiên hiện tại trở xuống.
+6. Kết quả thi công: Theo bảng thống kê khối lượng thi công                                                 |
+Khối | Khối
+STT                      Tên công việc                       pvr | hợng | lượng | Ghi
+:                                  hợp      thi     chú
+đồng | công
+C1 Phir don mat bing tong duong ing oil. | ha | | |
+BE Ln TY
+2       sơ.                                                    ha
+Mat độ...
+KEO E HH
+3       ZX                                                    TH
+Dat cap
+Dò tìm bom min vật nô đên độ sâu 0,3 m đên
+mem
+EN dle 1 I
+5       Lk                                                    m3
+Dit cap...
+OF Folia EY HN
+zz                                                    m3
+bat cấp....
+EE T !/ | Trí.
+* Kêt quả thu được và xử lý:...................................nnnnnnnensnsnnesesesnsennsensnni
+Nhận xét quá trình thi công:
+7. Kết luận
+Thực hiện Hợp đồng thi công gói thầu rà phá bom mìn vật nổ dự án:
+ViRnnNnnntEnsEssnenestnseesesssesseeesese,,,, DOM vị đã chấp hành nghiêm Quy chuẩn, Quy
+trình kỹ thuật.....và phương án KTTC và kế hoạch đã được phê duyét.....                                     |
+ĐẠI DIEN PON VI RA PHA BOM MÌN
+(Ký tên, đóng dấu)

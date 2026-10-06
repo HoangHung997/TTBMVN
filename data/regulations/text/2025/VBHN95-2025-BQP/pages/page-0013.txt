@@ -1,0 +1,40 @@
+13
+Điều 13. Xử lý tín hiệu
+1 ế  Khi máy dò chỉ thị có tín hiệu, kỹ thuật viên phải dùng máy dò kiểm tra 
+thành vệt chữ thập bên trên vị trí tín hiệu để xác định tâm tín hiệu.
+2. Sử dụng dụng cụ cầm tay tiến hành đào, xử lý, xác định tín hiệu theo 
+đúng kỹ thuật. Khi thấỵ tín hiệu thì dùng dao găm để bới đất xung quanh cho lộ 
+hăn vật gây tín hiệu, kiêm tra xác định vật gây tín hiệu, như sau:
+a) Tín hiệu là BMVN: kiểm tra, xác định chủng loại, độ nằm sâu của 
+BMVN; nêu là BMVN có khả năng xử lý tại chỗ an toàn thì xử lý, thu gom về 
+nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho thu gom, vận 
+chuyên hoặc vật nô lạ thì đánh dâu lại đê hủy tại chô vào cuôi buôi thi công (đối 
+với các loại bom lớn phải có kế hoạch xử lý riêng); lưu lại tọa độ trên thiết bị 
+GPS câm tay; báo cáo Tô trưởng lưu lại chi tiêt và ghi tọa độ BMVN trong báo 
+cáo kết quả KS hàng ngày và chuyển sang khảo sát tại ô tiếp theo;
+b) Tín hiệu là mảnh vỡ của BMVN: kiểm tra, xác định chủng loại BMVN 
+từ mảnh vỡ, độ lớn và độ nằm sâu của mảnh; kiểm tra hố đào bằng máy xem còn 
+tín hiệu nào khác, nếu vẫn còn tín hiệu, tiếp tục đào kiểm tra theo đúng kỹ thuật 
+đế xác định tín hiệu; thu gom về vị trí cất giữ (nếu được); lưu lại tọa độ tín hiệu 
+trên thiết bị GPS cầm tay; báo cáo Tổ trưởng lưu lại chi tiết và ghi tọa độ trong 
+báo cáo kết quả khảo sát hàng ngày; tiếp tục khảo sát trong ô;
+c) Tín hiệu là sắt, thép hoặc vật nhiễm từ: tiến hành thu gom về vị trí tập 
+kết và dùng máy kiểm tra lại vị trí đó, nếu vẫn còn tín hiệu, tiếp tục đào kiểm 
+tra, xử lý cho đến khi hết tín hiệu; lưu lại chi tiết tín hiệu trong báo cáo kết quả 
+KS hàng ngày; tiếp tục KS trong ô cho tới khi thời gian quy định cho ô đó kết 
+thúc hoặc tới khi tìm được BMVN trong ô; di chuyển tới ô tiếp theo;
+d) Tín hiệu là các loại mìn: khi đào, kiếm tra phát hiện tín hiệu là mìn hoặc 
+nghi ngờ là mìn, kỹ thuật viên phải báo ngay cho Tố trưởng và thông báo cho 
+cáckỹ thuật viên khác đang làm việc trong cùng ô phải dừng di chuyến đợi 
+hướng dẫn của Tổ trưởng. Sau khi nhận được báo cáo, Tổ trưởng tiến hành:
+- Hướng dẫn các kỹ thuật viên trong ô khảo sát thận trọng rời vị trí thi công 
+chuyến về vị trí an toàn;
+- Kiểm tra đánh dấu vị trí mìn (không thu gom được) để tiến hành xử lý 
+trong thời gian sớm nhất; lưu lại tọa độ trên thiết bị GPS cầm tay; lưu lại chi tiết 
+và ghi tọa độ trong báo cáo kết quả khảo sát hàng ngày;
+- Chuyển sang KS tại ô tiếp theo.
+Điều 14. Lập báo cáo kết quả khảo sát
+Đội trưởng có trách nhiệm phối hợp với tổ trưởng, cán bộ giám sát chất 
+lượng phân tích kết quả KS, lập báo cáo, gồm:
+1. Báo cáo kết quả KS hàng ngày, nội dung thông tin được cập nhật vào báo 
+cáo kết quả KS theo Mau KS-02 Phụ lục II ban hành kèm theo Quy trình kỹ này.

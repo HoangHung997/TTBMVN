@@ -1,0 +1,41 @@
+38
+Mã số Thành phần hao phí Đon vị Mức tiêu hao
+Tàu công suất > 1200 cv Ca 0,085
+Tàu khống chế giao thông 350 cvCa 0,085
+Tàu hậu cần 350 cv Ca 0,009
+Thiết bị DGPS Ca 0,085
+Định vị thuỷ âm Ca 0,085
+Thiết bị sona Ca 0,085
+Thiết bị từ kế Ca 0,085
+1
+4. Kiểm tra, xử lý tín hiệu nằm trên bề mặt đáy biển, độ sâu nước từ 
+25 m đến 150 m (MS: 040.0300)
+a) Thành phần công việc: Dùng thiết bị ROV hoặc thợ lặn kết hợp chuông 
+lặn, tới vị trí đã đánh dấu, tìm vật gây tín hiệu thông qua Camera lắp trên thiết bị 
+ROV hoặc thợ lặn để xác định chính xác; kiểm tra xác định vật gây tín hiệu, nếu 
+không phải là BMVN thì thu gom lên tàu để đưa về nơi quy định, nếu tín hiệu là 
+các loại BMVN thì phải tập kết về vị trí quy định; nếu tín hiệu là BMVN không 
+an toàn hoặc vật nổ lạ thì đánh dấu lại chờ tổ chức huỷ nổ tại chỗ. Khi đã xử lý 
+xong tín hiệu phải dùng máy dò kiểm tra lại xung quanh và phía dưới tín hiệu 
+vừa xử lý để đảm bảo sạch hết tín hiệu.
+b) Định mức hao phí tính cho 1 tín hiệu
+Đơn
+vị
+Mức tiêu hao
+Mã số Thành phần hao phí Nước sâu từ 
+25 m đến 50 m
+Nước sâu > 
+50 m đển 150 m
+Nhân công:
+Bậc thợ QNCN 7/10 Công 0,92 1,20
+Mảy thi công:
+Thiết bị DGPS Ca 0,063 0,063
+040.0300
+Thiết bị lặn ROV hoặc chuông 
+lặn kết hợp thợ lặn Ca 0,23 0,30
+Máy dò mìn Vallon MW 1630BCa 0,14 0
+Thuyền cao su trung có máy đẩyCa 0,14 0
+Tàu công suất 650 cv có cẩu Ca0,34 0,41
+Tàu khống chế giao thông 350cvCa 0,34 0,41
+Tàu hậu cần 350 cv Ca 0,035 0,04
+1 2

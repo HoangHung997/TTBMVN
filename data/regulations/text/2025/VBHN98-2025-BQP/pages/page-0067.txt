@@ -1,0 +1,30 @@
+64
+STT Tên phương tiện, hoạt chất Đon vi tính •
+SỐ Iưọng
+15 Nitroglycerin 2,6 mg Viên 20
+Nhóm thuốc hô hấp
+16 Salbutamol bình xịt 200 liều (mỗi liều 100 
+microgam) hoặc thuốc tương đươngLọ 02
+17 Terbutaline Sulfate 0,5 mg ống 05
+Nhóm thuốc tiêu hóa
+18 Hyoscine-N-butylbromide 20 mg Ống 10
+19 Spasvamaverine 40 mg Viên nén 20
+20 Metoclopramide chlohydrate 10 mg ống 10
+21 Berberine 100 mg Viên 50
+22 Biseptol 480 (Sulfamethoxazole 400 mg + 
+Trimethoprim 80 mg) Viên 50
+23 Pethidine chlohydrate 100 mg Ống 05
+24 Diazepam 10 mg Ống 05
+25 Diazepam 5 mg Viên 20
+r
+Nhóm thuôc kháng sinh
+26 Cephalosporin 1 g Lọ 10
+27 Ciprofloxacin 400 mg Viên 20
+28 Cefuroxim 500 mg Viên 30
+Nhóm thuốc chống độc
+29 Naloxone 0,4 mg/ml (nếu sử dụng thuốc gây 
+nghiện) ống 02
+30 Bột than hoạt Tuýp 02
+np 1 Ấ  A J A i • 1 Ã
+Thuoc gay te tại cho
+31 Lidocain 2 %/2 ml Ống 50

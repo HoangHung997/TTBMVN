@@ -1,0 +1,37 @@
+12
+- Trường hợp điều kiện và đặc điểm ô nhiễm BMVN của khu vực không 
+cho phép triên khai đội hình KS như nêu trên thì triển khai thực hiện khảo sát 
+theo quy trình RPBM trong khu vực là bãi mìn.
+g) Sau khi đã chia ô KS thành 4 phần, kỹ thuật viên sử dụng máy dò mìn 
+tiến hành dò tìm theo đường thẳng trong phạm vi khu vực phụ trách. Kỹ thuật 
+viên đi theo hướng từ tâm ra ngoài, khoảng cách giữa các kỹ thuật viên khoảng 
+lOm; độ sâu KS tối thiểu là 0,3 m;
+h) Quá trình kỹ thuật viên thực hiện nhiệm vụ, Tổ trưởng di chuyển xung 
+quanh ô để kiểm tra, giám sát khoảng cách giữa các kỹ thuật viên để tránh ảnh 
+hưởng giữa các máy dò và đảm bảo khoảng cách an toàn giữa các kỹ thuật viên 
+KS khi xử lý tín hiệu;
+i) Khi kỹ thuật viên xác định được bằng chứng là BMVN, phải dừng KS 
+và thông báo ngay cho Tổ trưởng để xác định kết quả, lưu dữ liệu vào cơ sở dữ 
+liệu theo quy định và chuyển sang KS tại ô tiếp theo;
+k) Thời gian KS tại mỗi ô ở những khu vực có điều kiện mặt bằng thuận lợi 
+từ 30 đến 40 phút, khu vực có địa hình phức tạp, thảm thực vật dầy từ 40 đến 60 
+phút. Trường hợp không tìm thấy bằng chứng của BMVN trong thời gian trên, 
+tổ di chuyển sang thực hiện nhiệm vụ tại các ô tiếp theo;
+1) Khi hoàn thành khảo sát trong ngày, Tổ trưởng (Đội trưởng) căn cứ kết 
+quả khảo sát tại các ô, sử dụng các mầu để đánh dấu trên bản đồ ô lưới theo mã 
+mầu quy định5:
+- Màu đỏ: “Ô nhiễm trực tiếp” đối với các ô có phát hiện được bằng chứng 
+có BMVN;
+- Màu nâu: “Ô nhiễm gián tiếp” là các ô liền kề với ô “ô nhiễm trực tiếp”;
+- Màu xanh lá cây: “Không ô nhiễm” là các ô không tìm thấy bằng chúng 
+trực tiếp hoặc gián tiếp;
+- Màu vàng: “Không ô nhiễm gián tiếp” là ô liền kề với ít nhất ba ô không 
+ô nhiễm trực tiếp;
+- Trường hợp ô đã được đánh dấu màu xanh hoặc màu vàng trước mà ô KS 
+tiếp theo liền kề là ô màu đỏ thì được chuyển sang thành ô màu nâu theo nguyên 
+tắc ô liền kề ô nhiễm trực tiếp;
+- Màu xám: “Không xác định” là những ô vì bất cứ lý do nào đó mà không 
+thể tiến hành khảo sát toàn bộ diện tích.
+5 Tiêu đề này được sửa đổi, bổ sung theo quy định tại khoản 2 Điều 2 của Thông tư số 
+101/2025/TT-BỌP sửa đổi, bổ sung một số điều các Thông tư vê điêu tra, khảo sát, rà phá bom mìn 
+vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

@@ -1,0 +1,40 @@
+8
+TT Tỉnh, thành phốKhu vực Tên địa phưong các xã, phường, đặc khu
+24 Khánh Hòa
+Khu vực 3
+Các xã Ninh Sơn, Lâm Sơn, Anh Dũng, Mỹ 
+Sơn; các phường Nha Trang, Bắc Nha Trang, 
+Tây Nha Trang, Nam Nha Trang, Phan Rang, 
+Đông Hải, Ninh Chử, Bảo An, Đô Vinh.
+Khu vực 2 Các xã Bác Ái Đông, Bác Ái, Bác Ái Tây, 
+Ninh Hải, Vĩnh Hải, Xuân Hải.
+Khu vực 1 Các xã, phường còn lại
+25 Lâm Đồng
+Khu vực 2 Các xã Nam Đà, Krông Nô, Nâm Nung, 
+Quảng Phú.
+Khu vực 1 Các xã, phường còn lại
+26 Đồng Nai
+Khu vực 2 Các xã Nha Bích, Trị An, Tân An; các phường 
+Minh Hưng, Chơn Thành, Tân Triều.
+Khu vực 1 Các xã, phường còn lại
+Khu vực 3
+Các xã Châu Thành, Phước Vinh, Hoà Hội, 
+Ninh Điền, Hảo Đước, Long Chữ, Mỹ Quý, 
+Đông Thành, Đức Huệ.
+27 Tây Ninh
+Khu vực 2
+Các xã Lộc Ninh, cầu Khởi, Truông Mít, 
+Dương Minh Châu; các phường Long Hoa, 
+Hóa Thành, Thanh Điền.
+Khu vực 1 Các xã, phường còn lại
+28 Tp Hồ Chí MinhKhu vực 3
+Các xã Cần Giờ, Phú Giáo, An Thói Đông, 
+Bình Khánh, An Long, Phước Thành, Phước 
+Hoà; các phường phường Tây Nam, Bến Cát, 
+Bà Rịa, Long Hương.
+Khu vực 2
+Các xã Vĩnh Lộc, Tân Vĩnh Lộc, Bình Lợi, 
+Tân Nhựt, Bình Chánh, Hưng Long, Bình 
+Hưng; các phường Vĩnh Tân, Bình Cơ, Tân 
+Uyên, Tân Hiệp, Tân Khánh, Đông Hoà, Dĩ
+Jế

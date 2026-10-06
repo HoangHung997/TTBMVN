@@ -1,0 +1,48 @@
+20
+
+phao cứu sinh loại đại)
+
+Phao nhỏ Ø12 cm               Cái         4,00           4,00          4,00
+Dây nilon Ø10 mm               Mét          105             105             105
+Dây nilon Ø12 mm              Mét         8,00           18,50         27,00
+Dây nilon Ø18 mm                 Mét           8,64              8,64             8,64
+Vật liệu khác                             %VL           1,00                1,00               1,00
+Nhân công:
+
+QNCN bậc 7/10                    Công         981             10,80          11,88
+May thi công:
+
+Máy do bom đưới nước         Ca      . 463            5,10           5,61
+Thuyền cao su trung              Ca          4,63            5,10           5,61
+Thuyén cao su tiéu                Ca          9,26            10,20          11,22
+Thuyén composit                    Ca           5,10             5,61            6,17
+
+1                 2                3
+
+Ghi chú: các yếu tố khác liên quan đến tính toán, lập dự toán áp dụng như Ghi chú tại
+khoản 1, Mục 3 Định mức dự toán này.
+
+3. Đánh dấu tín hiệu ở độ sâu đến 0,5m, đến 3m hoặc đến 5 m tính
+từ đáy nước © (M5:  030. 0300)
+
+tam tín hiệu; thả phao có cắm cờ đó, neo đánh dấu tâm tín hiệu theo đúng yêu
+cầu kỹ thuật.
+b) Định mức hao phí tính cho 1 tín hiệu
+
+~           ˆ         A            , | Don              Độ sâu của nước (m
+Mã sô      Thành phân hao phí       vị      053 | >3:12 | >12:2 ¡   ) >2225
+Vit liệu:
+Mỏ neo đặc biệt20kg | Coc | 0,00 | 0,002 | 0,002        0,002
+Phao nhựa Ø30 cm           Cái       0,00 | 0,067 | 0,067        0,067
+Dây nilon Ø12 mm          Mét       0,00        0,16         038 1 0,56
+SàotreØ7cm,dài5m | Cai | 020 | 0 | 0 | 0
+030.0300 | Vatliéu khác -              %VL | 1,00       1,00 -       1,00         1,00
+|         Nhén cong: . '            :
+Bậc thợ QNCN 7/10         Công | 0,056 | 0,056 | 0,067        0,081
+May thi công:                                         |
+| May do bom dướinước | Ca | 0,014 | 0,016 | 0,017 | 0,019
+Thuyén cao su trung        Ca     0,014 | 0,016      0,017       0,019
+1           2.           ch        4
+
+Ghi chú: các yếu tố khác liên quan đền tính toán, lập dự toán dp dụng như Ghi chú tại
+khoản 1, Mục 3 Dinh mức dự toán này.

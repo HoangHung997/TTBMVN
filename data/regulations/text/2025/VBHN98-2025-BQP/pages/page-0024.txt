@@ -1,0 +1,39 @@
+24
+2.5.1.5. RPBM đến độ sâu 10 m:
+- Thực hiện sau khi đã rà phá xong đến độ sâu 5 m;
+- Phương pháp: sử dụng máy dò bom dò từ mặt đất tự nhiên đến độ sâu 10 
+m hoặc khoan lỗ đến độ sâu 5 m hoặc di dời toàn bộ đất đá từ mặt đất tự nhiên 
+đến độ sâu 5 m;
+- Xử lý tín hiệu quy định tại 2.5.lễ4.
+2.5.lẻ6. Xử lý tín hiệu là BMVN:
+- Sau khi xác định được tín hiệu là BMVN, với các loại BMVN theo quy 
+định tại 2.6.1 thì đánh dấu bằng cờ dấu, cọc dấu chờ đến cuối ca làm việc để hủy 
+tại chỗ. Đối với các loại BMVN được phép thu gom, vận chuyển thì chuyển về 
+nơi bảo quản tập trung chờ hủy theo đợt hoặc khi kết thúc công việc rà phá;
+- Phương pháp hủy tại chỗ: Sử dụng lượng nổ tập trung đặt phía trên vật 
+cần hủy; gây no bằng kíp điện hoặc kíp thường dây cháy chậm nụ xòe; quá trình 
+hủy nổ tại chỗ phải tuân thủ các quy định về tính toán lượng nổ tập trung, 
+khoảng cách an toàn, chiều dài dây cháy chậm... căn cứ vào từng loại BMVN 
+được quy định trong quy trình hủy nổ phù hợp với loại BMVN cần hủy.
+2.5.2. RPBM trên cạn khu vực không phải là bãi mìn
+2.5.2.1. Dọn mặt bằng:
+- Phương pháp: Dọn bằng thủ công hoặc cơ giới hoặc kết hợp cả thủ công 
+và cơ giới hoặc thủ công kết hợp đốt bằng xăng dầu;
+- Chiều cao gốc cây cỏ còn lại sau khi phát dọn không cao quá 0,05 m, 
+cây có đường kính lớn hơn 0,1 m không phải chặt; đối với công tác RPBM khu 
+vực không sử dụng mặt bằng cho xây dựng các công trình thì chỉ cần phát dọn 
+thảm thực vật để đảm bảo sử dụng máy dò thuận lợi mà không cần phải phát dọn
+1  A, /V  A •
+net cay coi;
+- Khi dọn bằng thủ công kết hợp phun xăng dầu để đốt phải đảm bảo 
+không để cháy lan ra ngoài khu vực dò tìm;
+- Không để cây, cỏ đã phát nằm dày quá 0,05 m tính từ mặt đất tự nhiên 
+làm ảnh hưởng đến việc sử dụng máy dò.
+2.5.2.2. RPBM đến độ sâu 0,3 m: Tuân thủ theo quy định tại 2ế5.1.3.
+2.5.2.3. RPBM đến độ sâu 3 m hoặc 5 m: Tuân thủ theo quy định tại 2.5.1.4.
+2.5ẵ2.4. RPBM đến độ sâu 10 m: Tuân thủ theo quy định tại 2.5.lễ5.
+2Ế 5.2Ẻ 5. Xử lý tín hiệu là BMVN: Tuân thủ theo quy định tại 2.5.1.6.
+2.5.3. RPBM duó’i nước ỏ’ độ sâu nưóc không lớn hon 25 m
+2.5ề3.1. Chuẩn bị mặt bằng:
+- Phải thực hiện việc thiết lập đầy đủ các khu vực (như khu vực tập kết, y 
+tế, nghỉ ngơi, cầu tàu, bến đỗỆ .ệ) và xác định các mốc dẫn xuất, mốc tham chiếu

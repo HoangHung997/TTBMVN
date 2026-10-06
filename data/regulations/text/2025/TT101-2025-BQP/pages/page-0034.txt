@@ -1,0 +1,38 @@
+10
+TT Tỉnh, thành phốKhu vực Tên địa phương các xã, phường, đặc khu
+31 Vĩnh Long
+Khu vực 2
+Các xã Châu Thành, Song Lộc, Hưng Mỹ, 
+Hòa Minh, Long Hòa, Thói Thuận, Thạnh 
+Phước, Bình Đại, Thạnh Trị, Lộc Thuận, 
+Châu Hưng, Phú Thuận, Càng Long, An 
+Trường, Tân An, Nhị Long, Bình Phú, Long 
+Thành, Đông Hải, Long Vĩnh, Đôn Châu, 
+Ngũ Lạc.
+Khu vực 1 Các xã, phường còn lại
+32 An Giang
+Khu vực 2 Các xã An Phú, Vĩnh Hậu, Nhơn Hội, Khánh 
+Bình, Phú Hữu.
+Khu vực 1 Các xã, phường, đặc khu còn lại.
+33 Cà Mau
+Khu vực 2
+Các xã Hồng Dân, Vĩnh Lộc, Ninh Thạnh Lợi, 
+Ninh Quới, Thới Bình, Trí Phải, Tân Lộc, 
+Biển Bạch, Hồ Thị Kỷ, Lương Thế Trân, Tân 
+Hưng, Hưng Mỹ, Cái Nước.
+Khu vực 1 Các xã, phường còn lại
+34 Tp Hà Nội Khu vực 1 Tất cả các xã, phường
+b) Rà phá bom mìn vật nổ dưới biển
+TT Phân loại Tên địa phương
+1 Khu vực đặc biệtKhu vực làm bãi huỷ bom, đạn cũ ngoài biển.
+2 Khu vực 3 Vùng biển và ven biển thuộc địa phận các tỉnh, thành 
+phố: Quảng Ninh, Hải Phòng, Hà Tĩnh, Quảng Trị.
+3 Khu vực 2
+Vùng biển và ven biển thuộc địa phận các tỉnh, thành phố: 
+Thanh Hoá, Nghệ An, TP.Huế, Gia Lai, Đà Nang, Tp Hồ 
+Chí Minh, Cà Mau. An Giang.
+4 Khu vực 1
+Tất cả các vùng biển và ven biển thuộc địa phận các tỉnh 
+nằm ngoài vùng biển và ven biển thuộc các khu vực 2, 3 
+trên địa bàn ven biển cả nước.
+ý

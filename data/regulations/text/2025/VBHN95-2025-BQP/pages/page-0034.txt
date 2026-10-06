@@ -1,0 +1,36 @@
+34
+d) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung 
+quanh và phía dưới vị trí tín hiệu vừa xử lý để đảm bảo sạch hết tín hiệu. Nếu 
+còn tín hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b, điểm c 
+khoản này.
+4. Trường hợp kiểm tra, đào, xử lý tín hiệu ở độ sâu nước từ trên 50 m đến 
+150 m, căn cứ vào tình hình thực tế, chủ đầu tư chủ trì phối hợp với đơn vị tư 
+vấn và đơn vị thi công lập phương án kỹ thuật thi công và dự toán, trình cấp có 
+thấm quyền phê duyệt.
+Điều 50. Hủy bom mìn vật nổ tại chỗ
+1. Trường hợp áp dụng: tín hiệu là BMVN không an toàn cho trục vớt, thu 
+gom, vận chuyển (trừ bom đạn hoá học); độ sâu nước đến 50 m.
+2. Trang bị: tàu công suất đến 650 cv có cẩu mi ni tự hành, thuyền cao su 
+có máy đẩy, chuông lặn và thiết bị lặn thường, thiết bị DGPS, máy dò, bộ khí tài 
+gây nô, thuốc nố chịu nước, dây nổ chịu nước, kíp điện, dây điện kép, vải gói 
+buộc lượng no, dây gai, các loại phao, neo, dây nilon, trang bị bảo đảm an toàn 
+và thiết bị bảo vệ người.
+3. Trình tự thực hiện:
+a) Tập kết trang bị phục vụ xử lý;
+b) Làm công tác chuẩn bị và thực hiện đầy đủ các biện pháp an toàn, điều 
+khiến thiết bị ROV xuống vị trí đã đánh dấu (đi theo dây neo xuống vị trí) hoặc thợ 
+lặn sử dụng chuông lặn kiếm tra, trực tiếp đưa lượng nổ đã chuấn bị sẵn đặt áp sát 
+và liên kết chặt vào BMVN, bố trí hệ thống gây nổ gồm:
+- Dây nổ dùng để kích nổ có chiều dài bằng chiều sâu mực nước tại vị trí có 
+BMVN (có tính độ chùng của dây khoảng 25% tổng chiều dài dây), một đầu dây 
+được liên kết chặt vào lượng nổ bằng cách cuốn tối thiểu 7 vòng dây no vào thỏi 
+thuốc mồi nằm trong lượng nổ (theo đúng kỹ thuật sử dụng thuốc nổ và hoả cụ), 
+đầu dây nổ còn lại được buộc vào một phao nhựa đường kính 30 cm, để hở đầu 
+dây trên mặt nước;
+- Kíp điện và đường dây gây nổ điện được chuẩn bị sẵn theo đúng kỹ thuật, 
+kíp điện được liên kết với đầu dây nổ trên mặt nước;
+- Trạm gây nẳ được đặt trên tàu, khoảng cách giữa trạm gây no tới khu vực 
+bố trí lượng nổ phải được tính toán cụ thể nhằm tránh các ảnh hưởng của sóng nổ 
+và mảnh văng theo quy định tại Điều lệ công tác nô.
+c) Sau khi kiểm tra an toàn, tiến hành gây nổ lượng nổ theo đúng phương 
+án được phê duyệt;

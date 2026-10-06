@@ -1,0 +1,39 @@
+25
+trên bờ. Trong trường hợp khu vực thi công xa bờ quá 7 000 m, phải thiết lập hệ 
+thống trạm nổi phục vụ công tác hậu cần kỹ thuật đảm bảo an toàn với điều kiện 
+thời tiết khu vực thi công;
+- Phải tiến hành việc định vị khu vực cần dò tìm bằng thiết bị định vị 
+GPS/sử dụng khung dây, phao, neo đánh dấu khu vực dò tìm;
+- Hệ thống khung dây, phao neo định vị phải được thường xuyên kiểm tra, 
+hiệu chỉnh đảm bảo không bị sai lệch vị trí trong suốt quá trình thi công;
+- Tiến hành phát dọn mặt bàng các loại cỏ (sú, vẹt, cỏ lác, rong, bèo...) 
+hoặc các loại cọc. Riêng các chướng ngại vật quá lớn không thể trục vớt, xử lý 
+(dầm cầu, trụ cầu hỏng, tàu thuyền đắm...), phải đánh dấu để khi RPBM có chú 
+ý đặc biệt trong việc sử dụng máy dò nhằm hạn chế tín hiệu nhiễu.
+2.5.3.2. Dò tìm BMVN đến độ sâu 0,5 m tính từ đáy nước:
+- Phương pháp: Sử dụng máy dò bom dưới nước hoặc thiết bị từ kế;
+- Chiều rộng mỗi dải dò không quá 1 m, hướng đường dò nên trùng với 
+hướng dòng chảy;
+- Quá trình dò tìm đầu dò của máy dò cách mặt đất đáy nước không quá 0,2 m;
+- Chỉ tiến hành RPBM dưới nước trong điều kiện lưu tốc dòng chảy không 
+lớn hơn 1 m/s; cấp độ sóng, gió không vượt quá cấp 3 (cấp gió và cấp sóng theo 
+Quyết định số 18/2021/QĐ-TTg);
+- Đánh dấu tín hiệu bằng neo nối với phao nhựa có cắm cò’ đỏ đánh dấu 
+tín hiệu hoặc có thể dùng sào tre cắm để đánh dấu vị trí tín hiệu tùy theo độ sâu 
+của nước.
+2.5.3.3. Xử lý tín hiệu ở độ sâu đến 0,5 m tính từ đáy nước
+- Phương pháp: Dùng thợ lặn mang thiết bị lặn và các dụng cụ cầm tay 
+(thuốn, xẻng...) lặn xuống vị trí tâm tín hiệu đã đánh dấu, tiến hành xăm tìm 
+bằng thuốn, thận trọng đào tìm thành từng lớp đến khi lộ hẳn vật gây tín hiệu;
+- Kiểm tra xác định vật gây tín hiệu: Nếu không phải là BMVN thì dùng 
+cáp nilon trục vớt lên thuyền hoặc đánh dấu; nếu là BMVN có thể thu gom, vận 
+chuyển thì trục vớt đưa lên thuyền đưa về nơi quy định; nếu là BMVN không an 
+toàn cho thu gom, vận chuyển hay vật nổ lạ, dùng phao, neo và cờ đỏ đánh dấu 
+lại chờ xử lý hủy tại chỗ;
+- Sau khi đã xử lý xong tín hiệu phải sử dụng máy dò bom để kiểm tra lại 
+xung quanh và phía dưới tín hiệu vừa xử lý, nếu còn tín hiệu thì phải tiến hành 
+xử lý tiếp cho đến khi sạch tín hiệu.
+2.5.3.4Ế  RPBM ở độ sâu từ 0,5 m đến 3 m hoặc đến 5 m tính từ đáy nước:
+- Chỉ thực hiện sau khi đã tiến hành xong bước rà phá đến độ sâu 0,5 m 
+tính từ đáy nước;
+- Phương pháp: sử dụng máy dò bom hoặc thiết bị từ kế;

@@ -1,0 +1,42 @@
+7
+TT Tỉnh, thành phố Khu vực Tên địa phưoìig các xã, phưòìig, đặc khu
+Quảng Ninh
+Tiên Yên, Điên Xá, Hải Lạng, Đông Ngũ, 
+Cái Chiên, Quảng Hà, Quảng Tân, Đầm Hà; 
+các phường Mông Dương, Quang Hanh, cẩm 
+Phả, Cửa Ồng, Tuần Châu, Việt Hưng, Bãi 
+Cháy, Hà Tu, Hà Lầm, Cao Xanh, Hồng Gai, 
+Hạ Long, Hoành Bồ, Yên Tử, Vàng Danh, 
+Uông Bí; Đặc khu Vân Đồn và phạm vi còn 
+lại của các xã, phường giáp biên giới.
+Khu vực 1Các xã, phường, đặc khu còn lại.
+12 Tp Hải Phòng Khu vực 2
+Các phường Hải Dương, Lê Thanh Nghị, 
+Việt Hoà, Thành Đông, Nam Đồng Tân 
+Hưng, Thạch Khôi, Kinh Mồn, Nguyễn Đại 
+Năng, Trần Liễu, Bắc An Phụ, Phạm Sư 
+Mạnh, Nhị Chiểu, Nam An Phụ, Kiến An, 
+Phù Liễn, Nam Đồ Sơn, Đồ Sơn, Thuỷ 
+Nguyên, Thiên Hương, Hoà Bình, Nam 
+Triệu, Bạch Đằng, Lưu Kiếm, Lê ích Mộc, 
+An Dương, An Hải, An Phong, Vĩnh Bảo, 
+Nguyễn Bỉnh Khiêm, Vĩnh Am, Vĩnh Hải, 
+Vĩnh Hoà, Vĩnh Thịnh, Vĩnh Thuận.
+Khu vực 1Các xã, phường, đặc khu còn lạiệ
+13 Hưng Yên
+Khu vực 2
+Các xã Quỳnh Phụ, Minh Thọ, Nguyễn Du, 
+Quỳnh An, Ngọc Lâm, Đồng Bằng, A Sào, 
+Phụ Dực, Tân Tiến, Hưng Hà, Tiên La, Lê 
+Quý Đôn, Hồng Minh, Thần Khê, Diên Hà, 
+Ngự Thiên, Long Hưng; các phường Thái 
+Bình, Trần Lãm, Trần Hưng Đạo, Trà Lý, 
+Vũ Phúc.
+Khu vực 1Các xã, phường còn lại
+14 Ninh Binh
+Khu vực 2
+Các xã Vụ Bản, Minh Tân, Hiển Khánh, Liên 
+Minh, Ý Yên, Yên Đồng, Yên Cường, Vạn 
+Thắng, Vũ Dương, Tân Minh, Phong Doanh.
+Khu vực 1Các xã, phường còn lại
+15 Thanh Hóa Khu Yực 2Các xã Các Sơn, Trường Lâm; các phường

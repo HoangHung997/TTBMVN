@@ -1,0 +1,37 @@
+25
+b) Định mức hao phí tính cho 10.000 m2.
+>  A .Thành phần hao phíĐon Độ sâu cần dò tìm
+Mã số vị Đến 0,5, 
+đến 1 mĐcn 3 m Đen 5 m Đen 10 m
+Vật liệu:
+Cọc gỗ (03 X  50) cm Cọc 50 50 50 50
+Dây thừng 010 mm Mét 100 100 100 100
+Cờ đỏ (0,4 X  0,6) m Cái 1,00 1,00 1,00 1,00
+Vật liệu khác %VL 5,0 5,0 5,0 5,0
+020.0500 Nhân công:
+Bậc lương QNCN 7/10 Công6,40 7,05 7,76 8,54
+Mảy thi công:
+Máy dò bom Vallon 
+13 03AI Ca 4,27 4,70 5,17 -
+Máy dò bom Vet 1 Ca - - - 5,69
+1 2 3 4
+6. Đào đất, kiểm tra, xử lý tín hiệu ỏ’ độ sâu đến 1 m (MS: 020.0600)
+a) Thành phần công việc: Dùng dụng cụ cầm tay đào đúng yêu cầu kỹ 
+thuật cho lộ toàn bộ vật gây tín hiệu (kích thước hố đào trung bình miệng hố:
+1,5 m X 1,5 m, đáy hố: 0,8 m X 0,7 m, độ sâu: 0,5 m; khối lượng đất đào trung 
+bình: 0,65 m3/hố). Kiểm tra xác định tín hiệu, thu gom chuyển về nơi quy định 
+hoặc xử lý nếu BMVN không an toàn.
+b) Định mức hao phí tính cho 1 m3 đất đào
+Mã số Thành phần hao phí
+Đon
+vỉ•
+Cấp đất tại vị trí tín hiệu
+I II III IV
+020.0600
+Nhân công:
+Bậc thợ QNCN 8/10 Công 0,71 1,04 1,51 2,34
+Mảy thỉ công:
+Máy dò bom Vallon 1303AICa 0,008 0,008 0,008 0,008
+1 2 3 4
+Ghi chủỂ ' Trường hợp đào đắt có nước thì được tính thêm 0,012 ca máy 
+bơm cho 1 m3 đất đào. Khi thi công khối lượng đất đào theo nghiệm thu thực tế.

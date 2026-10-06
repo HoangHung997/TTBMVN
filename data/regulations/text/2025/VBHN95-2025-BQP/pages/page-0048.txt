@@ -1,0 +1,33 @@
+47
+5. Việc sử dụng đất
+5.1Ề  Có thời điểm nào trong năm không thể tiếp cận thôn/khu vực đất đó không?
+Có n  (Nếu có, tiếp tục trả lời câu 5ệ 2); Không n  (Nếu không, chuyển xuống câu 6)
+5.2. Khu vực đó không thể tiếp cận do 
+Canh tác nông nghiệp:
+Có n  (Nếu có, điền vào ô Khi nào bên dưới); Không n  (Nếu không, tiếp tục trả lời nội 
+dung phía dưới)
+Khinào? TI □  T2 □  T3 □  T4 □  T5 □  T6 □  T7 □  T8 □  T9 □  T10 □  Tll □  
+T12Ũ _____________________________________________________________________
+Đang có các công trình xây dựng:
+Có n  (Nếu có, điền vào ô Khi nào bên dưới); Không n  (Nếu không, tiếp tục trả lời nội 
+dung phía dưới)
+Khinào? TI □  T2 □  T3 □  T4 □  T5 □  T6 □  T7 □  T8 □  T9 □  T10 □  TI 1  □  
+T12Ũ
+Điều kiện đường xá bị ngập lụt/cơ sở hạ tầng yếu kém? Lý do khác.........
+Có 0  (Nếu có, điền vào ô Khi nào bên dưới); Không \z\ (Nếu không, tiếp tục trả lời nội 
+dung phía dưới)
+Khinào? TI □  T2 □  T3 □  T4 □  T5 □  T6 □  T7 □  T8 □  T9 □  T10 □  TI 1  □  
+T12D
+6. Thông tin về bom mìn vật nổ
+6.1. Có bàng chứng về BMVN không: Có n  (Neu có điền chi tiết vào Bảng 01 kèm theo 
+mẫu);
+Không □
+6.2. Quý vị có biết/có bất kỳ thông tin nào về các nội dung liên quan đến BMVN khác 
+trong thôn không?
+Có o  (Nếu có, tìm thêm thông tin về chủng loại, số lượng, v.v.Không  I I
+Điền chi tiết về các hộ gia đình bị ảnh hưởng do ô nhiễm BMVN vào Bảng 02 kèm 
+theo mẫu.
+TỎ TRƯỞNG
+(Kỷ, ghi rồ họ tên)
+XÁC NHẬN CỦA THÔN
+(Kỷ, ghi rõ họ tên)

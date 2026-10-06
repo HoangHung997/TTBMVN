@@ -1,0 +1,40 @@
+24
+b) Định mức hao phí tính cho tín hiệu
+Mã số Thành phần hao phíĐon
+vi•
+Cấp đất tại vị trí tínliệu
+I II III IV
+020.0300
+Nhân công:
+Bậc thợ QNCN 8/10 Công 0,060 0,078 0,107 0,160
+Máy thi công:
+Máy dò mìn VMH3.CS Ca 0,014 0,014 0,014 0,014
+1 2 3 4
+Ghi chú: Nếu tín hiệu là BMVN thì được cộng thêm 0,028 công để thu 
+gom, vận chuyến về nơi cất giữ cho 1 tín hiệu.
+4. Đào đất, kiểm tra, xử lý tín hiệu đến độ sâu 0,5 m (MS: 020.0400)
+a) Thành phần công việc: Dùng máy dò mìn kết hợp thuốn, kiểm tra lại vị 
+trí đã đánh dấu tín hiệu. Dùng dụng cụ cầm tay đào đúng yêu cầu kỹ thuật tại 
+điểm có tín hiệu cho đến khi lộ toàn bộ vật gây tín hiệu. Kiểm tra xác định tín 
+hiệu, thu gom chuyển về nơi quy định hoặc xử lý nếu BMVN không an toàn.
+Mã số Thành phần hao phíĐon
+vi•
+Cấp đất tại vị trí tín hiệu
+I II III IV
+020.0400
+Nhân công:
+Bậc thợ QNCN 8/10 Công 0,070 0,094 0,132 0,199
+Mảy thi công:
+Máy dò mìn VMH3.CS Ca 0,014 0,014 0,014 0,014
+1 2 3 4
+Ghi chú: Nếu tín hiệu là BMVN thì được cộng thêm 0,028 công để thu gom, 
+vận chuyến về nơi cất giữ cho 1 tín hiệu.
+5.4 Rà phá bom mìn vật nổ bằng máy dò bom ỏ* độ sâu từ lớn hon 0,3 m 
+đến 0,5 m, đến 1 m, đến 3 m, đến 5 m hoặc đến 10 m (MS: 020.0500)
+a) Thành phần công việc: Dùng máy dò bom tiến hành rà phá theo đúng 
+kỹ thuật để phát hiện hết các tín hiệu đến độ sâu cần dò tìm (độ sâu 0,5 m và 1 m 
+áp dụng cho dự án đất lâm nghiệp, diêm nghiệp và các dự án độc lập và chỉ được 
+thực hiện khi chủ đầu tư dự án yêu cầu).
+A Khoản này được sửa đổi, bổ sung theo quy định tại khoản 2 Phụ lục III ban hành kèm theo
+Thông tư số 101/2025/TT-BQP sửa đổi, bổ sung một số điều các Thông tư về điều tra, khảo sát, rà phá
+bom mìn vật nổ, có hiệu lực kể từ ngày 28 tháng 10 năm 2025.

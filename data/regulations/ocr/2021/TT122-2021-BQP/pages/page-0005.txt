@@ -1,0 +1,54 @@
+2                                                                      -
+
+b) Chi phí khấu hao trong giá ca máy được xác định theo công thức sau:
+
+Cry = (G- Sn) Dyn  2)
+CA
+
+Trong đó:
+
+- Cxn: chi phí khấu hao trong giá ca máy (đồng/ca);
+
+- G: nguyên giá máy trước thuế (đồng);
+
+- Gry: giá trị thu hồi (đồng);
+
+- Đxu: định mức khẩu hao của máy (%/năm);
+
+- NcA: số ca làm việc của máy trong năm (ca/năm).
+
+c) Nguyên giá máy:
+
+- Nguyên giá của máy dé tính giá ca máy được xác định theo giá máy mới
+(giá mua thực tê và đã được quyêt toán theo quy định), phù hợp với mặt băng thị
+trường của loại máy sử dụng đê thi công rà phá bom mìn vật nô.
+
+- Nguyên giá của máy là toàn bộ các chi phí để đầu tư mua máy tính đến
+thời điểm đưa máy vào trạng thái săn sàng sử dụng gom giá mua máy (không kê
+chi phí cho vật tư, phụ tùng thay thê mua kèm theo), thuê nhập khâu (nêu có),
+chi phí vận chuyên, boc xêp, bảo quản, chi phí lưu kho, chi phí lặp đặt (lân đâu
+tại một dự án), chỉ phí chuyên giao công nghệ (nêu có), chạy thử, các khoản chỉ
+phí hợp lệ khác có liên quan trực tiêp đên việc dau tư máy, không bao gom thuê
+giá trị gia tăng.
+
+- Nguyên giá của máy được xác định trên cơ sở các số liệu sau:
+
++ Nguyên giá của máy thi công rà phá bom mìn mà được đưa vào trang bị
+quân sự theo quyêt định của cap có thâm quyên thì không phải thực hiện khảo
+sát vê nguyên giá;
+
++ Nguyên giá của máy thi công rà phá bom mìn do đơn vị, tổ chức tham
+gia rà phá bom mìn tự mua được xác định trên cơ sở khảo sát nguyên giá máy
+thi công của các nhà cung cap, cho thuê; giá trên hợp đồng mua bán và các chi
+phí khác liên quan dé đưa máy vào trang thái săn sàng hoạt dong; tham khảo
+nguyên giá máy từ các công trình tương tự đã và đang thực hiện theo nguyên tặc
+phù hợp với mặt băng giá máy trên thị trường tại thời điêm tính giá ca máy.
+
+d) Giá trị thu hồi là giá trị phần còn lại của máy sau khi thanh lý, được xác
+định như sau:
+
+- Đối với máy có nguyên giá từ 30.000.000 đồng (ba mươi triệu đồng) trở
+lên giá trị thu hôi tính băng 10% nguyên giá.
+
+~~ Không tính giá trị thu hồi với máy có nguyên giá nhỏ hơn 30.000.000
+đông (ba mươi triệu đông).

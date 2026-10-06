@@ -1,0 +1,46 @@
+b) Định mức hao phí tính cho 1 quả bom mìn vật nổ
+
+18
+
+     Trọng lượng 1 quả bom min (k
+Mãsố | Thànhphần | Đơn :  = —   i 8
+z      .        >           =
+hao phi              ” S3 as | +50 | 120 | 250 7220
+Vật liệu:
+Thuốc nô                Kg | 020 | 0,40 | 1,00 | 4,00 | 4,00 | 4,00
+Kip điện sô 8    Cai    1    1    1 | 1    1     1
+Dâyđiệnkép | Mét | 2    4    6 | 10 | 20    20
+Vai gói thuốc nd | mˆ          0            0 | 0,40 | 1,00 | 1,00 | 1,00
+Dây gai @3 mm | Kg   0    0 [0,0 | 010 | 0,10 | 0,10
+Biển báo                 Cái | 0,08 | 0,08 | 0,08 [| 008 | 0,08 | 0,08
+020.1200 | VậtHệukhác | %VL | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00
+Nhân cong: .
+pot the QNCN\ ong | 012 | 0,12 | 014 | 014 | 017 | 0,17
+oe the QNCN| Công | 0,060 | 0,060 | 0,070 | 0,070 | 0,085 | 0,085
+May thi cong:                                                                         |
+Om kế        Ca [0,014 | 0,014 | 0,014 | 0,014 | 0,014 | 0,014
+Máy diémhéa | Ca [0,014 | 0,014 | 0,014 | 0,014 | 0,014 | 0,014
+1    2    3    4 | 5 | 6
+Muc 3
+
+ĐỊNH MỨC RÀ PHÁ BOM MÌN VẬT NÓ DƯỚI NƯ ỚC
+
+1. Rà phá bom mìn vật nổ ở độ sâu đến 0,5 m tính từ đáy nước
+(MS: 030.0100)
+
+a) Thành phần công việc: kiểm tra, xác định độ sâu, lưu tốc nước, độ
+nhiễm từ của đất; đóng cọc mốc; thả phao, neo định vị; sử dụng thuyền composit
+căng dây kết hợp với phao,  neo các loại chia các ô dò theo quy định. Dùng máy
+
+dò bom đặt trên thuyền dò đúng yêu cầu kỹ thuật;  phát hiện hết tín hiệu từ mặt
+đất đáy nước xuống độ sâu 0,5 m.
+
+b) Định mức hao phí tinh cho 10.000 m?
+
+si              .         Ñ            „         Đơn           Độ sâu của nước (m)
+Mã sô    . Thanh phân hao phí     “vị [05212] 21222 | >22125
+Vật liệu:
+030.0100    Mỏ neo loại 50 kg           - Cái     0,032     .0,032       0,032. .
+Mỏ neo 20 kg                         Cái | 0,064        0,064          0,064
+Phao băng sim 6 tô (hoặc | Cái       0,32         0,32           0,32
+

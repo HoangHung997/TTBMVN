@@ -1,0 +1,42 @@
+4
+TT Tỉnh, thành phốKhu vực Tên địa phương các xã, phường, đặc khu
+14 Ninh Binh
+Khu vực 2
+Các xã Vụ Bản, Minh Tân, Hiển Khánh, Liên 
+Minh, Ý Yên, Yên Đồng, Yên Cường, Vạn 
+Thắng, Vũ Dương, Tân Minh, Phong Doanh.
+Khu vực 1 Các xã, phường còn lại
+15 Thanh Hóa
+Khu vực 2
+Các xã Các Sơn, Trường Lâm; các phường 
+Ngọc Sơn, Tân Dân, Hải Lĩnh, Tĩnh Gia, Đào 
+Duy Từ, Hải Bình, Trúc Lâm, Nghi Sơn, sầm 
+Sơn, Nam sầm Sơn.
+Khu vực 1 Các xã, phường còn lại
+16 Nghệ An
+Khu vực 2
+Các xã Nghi Lộc, Phúc Lộc, Đông Lộc, Trung 
+Lộc, Thần Lĩnh, Hải Lộc, Văn kiều, Quỳnh 
+Lưu, Quỳnh Văn, Quỳnh Anh, Quỳnh Tam, 
+Quỳnh Phú, Quỳnh Sơn, Quỳnh Thắng, Diễn 
+Châu, Đức Châu, Quảng Châu, Hải Châu, Tân 
+Châu, An Châu, Minh Châu, Hùng Châu, Yên 
+Thành, Quan Thành, Hợp Minh, Vân Tụ, Vân 
+Du, Quang Đồng, Giai Lạc, Bình Minh, Đông 
+Thành, Đô Lương, Bạch Ngọc, Văn 
+Hiến, Bạch Hà, Thuần Trung, Lương Sơn, 
+Nam Đàn, Vạn An, Đại Huệ, Thiên Nhẫn, 
+Kim Liên, Hưng Nguyên, Yên Trung, Hưng 
+Nguyên Nam, Lam Thành; các phường 
+Trường Vinh, Thành Vinh, Vinh Hưng, Vinh 
+Phú, Vinh Lộc, Cửa Lò, Hoàng Mai, Tân Mai, 
+Quỳnh Mai.
+Khu vực 1 Các xã, phường còn lại.
+17 Hà Tĩnh Khu vực 2
+Các xã Thạch Lạc, Đồng Tiến, Thạch Khê, 
+Lộc Hà, Hồng Lộc, Mai Phụ, Thạch Hà, Toàn 
+Lưu, Phù Việt, Đông Kinh, Thạch Xuân, cẩm 
+Bình, Cẩm Xuyên, Thiên cầm, cẩm Duệ, 
+Cẩm Hưng, cẩm Lạc, cẩm Trung, Yên Hòa, 
+Hương Sơn, Sơn Tây, Tứ Mỹ, Sơn Giang, Sơn
+Ế

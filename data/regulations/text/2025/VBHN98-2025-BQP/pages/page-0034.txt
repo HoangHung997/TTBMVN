@@ -1,0 +1,38 @@
+33
+- Thực hiện các kỹ thuật cấp cứu bước đầu gồm: Kỹ thuật hồi sinh tổng 
+hợp; phòng và chống sốc; các biện pháp cầm máu tạm thời; vệ sinh và băng vết 
+thương; cố định tạm thời gãy xương; vận chuyển nạn nhân theo đúng chỉ địnhẽ
+2.9. Thiết chế hiện trường KS, RPBM
+2.9.1. Hiện trường khu vực tiến hành KS/RPBM phải được thiết lập đủ 
+các thiết chế, khu vực chức năng phù hợp với điều kiện địa hình và đáp ứng các 
+yêu cầu về an toàn, kỹ thuật, an ninh, vệ sinh và bảo vệ môi trường.
+2.9.2. Trạm cảnh giói
+2.9.2.1. Là vị trí bắt đầu giới hạn việc đi lại của người, phương tiện, gia 
+súc xâm nhập vào khu vực thi công từ các hướng.
+2.9.2.2. Trạm cảnh giới phải được đánh dấu bằng các biển báo, hàng rào 
+hoặc bố trí nhân viên canh gác, được treo bảng thông tin công khai về dự án và 
+bảo đảm khả năng quan sát, thông tin, báo độngễ
+2.9.3. Lối vào, hành lang an toàn, làn ranh giói
+2.9.3.1. Là những tuyến đã được làm sạch BMVN, được đánh dấu bằng 
+công cụ đánh dấu và biển báo chỉ dẫn dùng cho người, phương tiện cơ động an 
+toàn xung quanh và trong khu vực thi công hoặc để xác định ranh giới khu vực 
+thi công.
+2.9.3.2. Kích thước bề rộng tối thiểu: Dành cho người là 2 m, dành cho 
+phương tiện cơ giới là 4 m.
+2.9.4. Khu vực tập kết
+- Khu vực có bố trí vị trí chỉ huy, đón tiếp khách tham quan, bãi đỗ xe, 
+khu vực tạm nghỉ, công trình vệ sinh, là vị trí bắt đầu giao nhiệm vụ và nhận xét 
+kết thúc nhiệm vụ trong ngày;
+- Phải có đủ các bảng biểu, hồ sơ hiện trường (sơ đồ khu vực thi công, nội 
+quy công trường, theo dõi tiến độ, danh bạ thông tin liên lạc khẩn cấp.. ẽ);
+- Phải có đủ phương tiện thông tin liên lạc, hệ thống máy tính, tài liệu 
+hiện trườngế..;
+- Phải có lối vào an toàn, vị trí đỗ xe, quay đầu xe phù hợp với mạng lưới 
+giao thông trong khu vực;
+- Diện tích khu vực tập kết được xác định tùy theo quy mô công trường.
+2.9.5. Khu vực thử máy
+2Ế 9.5.1. Là khu vực có các hố thử với các chiều sâu và vật mẫu từ tính 
+khác nhau nhằm kiếm tra tính năng và điều chỉnh khả năng làm việc của các loại 
+máy dò kim loại sử dụng trên hiện trường.
+2.9.5.2. Khu vực thử máy cần có hố thử không có mẫu tín hiệu và hố thử 
+có mẫu tín hiệu.

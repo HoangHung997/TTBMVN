@@ -1,0 +1,50 @@
+14
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+lưong 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+lưong
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thú
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+28 M011.028 Chuông lặn 170 25 7,5 8 2 X bậc 
+8/10 517.500 77.160.000 10
+29 MOI 1.029 Độ sâu lặn >0,5m đến 3 m 170 25 7,5 8 2 X bậc 
+8/10 517.500 31.576.000 10
+30 MOI 1.030 Độ sâu lặn >3 m đến 6 m 170 25 7,5 8 2 X bậc 
+8/10 517.500 32.775.000 10
+31 MOI 1.031 Độ sâu lặn >6 m đến 12 m 170 25 7,5 8 2 X bậc 
+8/10 517.500 34.856.000 10
+32 MOI 1.032 Độ sâu lặn >12 m đến 22 m 170 25 7,5 8 2 X bậc 
+8/10 517.500 35.453.000 10
+33 MOI 1.033 Độ sâu lặn >12 m đến 30m 170 25,0 7,5 8 2 X bậc 
+8/10 517.500 36.862.000 10
+ế

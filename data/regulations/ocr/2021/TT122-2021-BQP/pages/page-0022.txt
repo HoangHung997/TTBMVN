@@ -1,0 +1,35 @@
+10                                :
+Định
+Định mức (%)           mức                      Gi
+tiêu | Nhân  oa          Gid
+Số                                       hao       công       nhân          Nguyên giá        trị
+Loại máy và thiết bị          ca   R     Chi | nhiên | điều  côn    tham khảo  thu
+năm Nhân    phí | liệu, | khiển  doanh    (VNĐ)   hồi
+ao   khác ht máy nghiệp       ớ
+1ca
+(| 2 [sas [ss [1s [v1 wm TH
+3x
+ M011.016 | Máy quét bề mặt đáy biển (Đại diện siêu âm Sonar Klein 3000) mlsiels| li 329.519 | 3.801.545.888
+8/10
+3x
+17 | M011.017 | Thiết bị Từ kế Seaquest                 258 | 25  10  5      bac | 329.519 | 5.668.421.145 | 10
+8/10
+Aap KX      .  M no vx at I  A  ^ /¿LtÃ, Lt                4x
+18 | M011.018 i key robot ROY có tay gap xử lý tín hiệu (Dong bộ thiết bị | ¬ |    5    bic | 329.519 | 25.367.387.705
+em                                       8/10
+2x
+19 | M011.019 | Định vị thủy âm                   258 | 25  10  5      bậc | 329.519 | 472244700 | 10
+8/10
+)                                        1x
+20 | M011.020 | Thiết bị định vị DGPS                 258 | 25 | 75 | 5      bic | 286.538 | 508.012.500
+5/10
+2x
+21 | M011.021 | Định vị trên hải đồ                  258 | 25 | 75 | 5      bậc | 286.538 | 489.532.000 | 10
+5/10
+ M011.022 | Thuyền gỗ (Sức chứa > 3 tắn có máy đầy)          EWm pad 1921 II 258.000.000  M
+bị    |                            Hil | 2X
+23 | M011.023 | Thiết bị hút va xói bùn cát (Máy nén khí từ 7-10 m3/phút)    180 | 13   2   5 | diesel | PAC | 329.519 | 212.000.000 | 10
+8/10
+1x
+24 | M011.024 | Máy bộ đàm cầm tay                 200     3   4      bậc | 315.192   1.350.000
+7/10

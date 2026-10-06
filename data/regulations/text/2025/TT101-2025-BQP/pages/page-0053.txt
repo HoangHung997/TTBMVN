@@ -1,0 +1,28 @@
+15
+Bảng 04
+ĐƠN GIÁ CA MÁY VÀ THIẾT BỊ THI CÔNG RÀ PHÁ BOM MÌN VẶT NỎ
+Áp dụng công thức tính (I), (2), (3), (4), (5), (6) Phụ lục I ban hành kèm theo Thông tư số 122/2021/TT-BQP ngày 20/9/2021
+của Bộ trưởng Bộ Quốc phòng và các hệ số tại Bảng 03 Phụ lục này.
+STT Mã hiệu Loại máy và thiết bị
+Chi phí
+Giá ca máy 
+(VNĐ)Khấu hao Sửa chữa
+Nhiên liệu, 
+năng 
+lượng
+Nhân công Khác
+1 2 3 5 6 7 8 9 10
+1 M011.001 Máy dò mìn trên cạn (VMH3.CS là 
+đại diện) 135.918 60.408 24.000 517.500 25.170 762.996
+2 MOI 1.002
+Máy dò bom trên cạn đến độ sâu 5m 
+(Vallon 13 03AI hoặc Vallon EL 
+1303D2 là đại diện)
+317.142 140.952 36.000 517.500 58.730 1.070.324
+3 MOI 1.003 Máy dò bom trên cạn đến độ sâu 10 m 
+(Vet 1) 622.958 276.870 45.000 1.035.000 115.363 2.095.190
+4 MOI 1.004 Máy xúc loại < 0,4 m3 315.589 105.196 538.530 517.500 109.579 1.586.394
+5 MOI 1.005 Máy khoan đất loại xoắn ruột sà có đường 
+kính >76 mm 24.174 7.909 352.830 517.500 7.461 909.875
+6 MOI 1.006 Thiết bị GPS cầm tay 1.943 208 20.000 450.000 555 472.706
+M

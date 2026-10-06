@@ -1,0 +1,20 @@
+mm                                                             9
+này. Sau đó tổng hợp xử lý bằng phương pháp hồi quy, chuyển đối số liệu về
+thời điêm tính toán và tông hợp đê xác định chi phí.
+- Các khoản mục chỉ phí khấu hao, chi phí sửa chữa, chi phi khác trong
+giá ca máy thuê khảo sát được xử lý băng phương pháp hôi quy, chuyên đôi sô
+liệu về thời điêm tính toán va tông hợp đê xác định chi phí.
+4. Xác định giá ca máy chờ đợi
+a) Giá ca máy chờ đợi là giá ca máy của các loại máy đã được huy động
+đên khu vực thi công rà phá bom mìn vật nô nhưng chưa hoạt động mà nguyên
+nhân không phải do lôi của nhà thâu.
+_.._b) Giá ca máy chờ đợi gồm chi phí khấu hao (được tính bằng 50% chi phí
+khâu hao), chỉ phí nhân công điều khiên (được tính băng 50% chỉ phí nhân công
+điều khiên) và chi phí khác của máy.
+5. Xác định giá thuê máy theo giờ
+a) Giá thuê máy theo giờ là chi phí bên đi thuê trả cho bên cho thuê đề
+được quyên sử dụng máy trong một khoảng thời gian tính theo giờ máy (chưa đủ
+một ca) đê hoàn thành đơn vị khôi lượng rà phá bom min vật nô.
+b) Giá máy theo giờ bao gồm chi phí nhiên liệu, năng lượng; chi phí tiền
+lương thợ điêu khi€n máy; chi phí khâu hao, chi phí sửa chữa và chi phí khác
+được tính toán và được phân bộ cho một giờ làm việc e2 —

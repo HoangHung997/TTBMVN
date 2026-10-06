@@ -1,0 +1,36 @@
+1.4.8. Hủy nổ tại chỗ
+Việc phá hủy bất kỳ phần nào của BMVN bằng thuốc nổ làm mất đi khả 
+năng gây nguy hiểm mà không di chuyến vật đó khỏi nơi được phát hiện.
+1.4.9. Chuẩn bị mặt bằng thi công
+Tập họp các công việc gồm thiết lập các phân khu chức năng, xác định 
+khu vực, mốc giới, chia ô và sử dụng phương tiện cơ giới hoặc thủ công nhằm 
+loại bỏ các chướng ngại vật (vật thể kim loại, vật thể kiến trúc không còn được 
+sử dụng) để thực hiện một cách hiệu quả các hoạt động KS, RPBM tiếp theo.
+1.4.10. Dò t'ẳm
+Hành động tìm kiếm sự hiện diện của BMVN trong một khu vực nhất định.
+1.4.11. TẴ 'n hiệu
+Trong ĐT, KS, RPBM là tất cả các ỉoại BMVN và các loại vật thể có 
+chứa kim loại (sắt, thép, vàng, bạc, đồng, nhôm), mảnh bom mìn, đạn mà con 
+người hoặc các loại máy dò đang dùng hiện nay có thể phát hiện được.
+1.4Ễ 12. Mât đô tín hiêu•  • •
+Số lượng tín hiệu trung bình được tính trên một đơn vị diện tích.
+1.4.13. Xử lý tín hiệu
+Thuật ngữ áp dụng trong RPBM, theo đó lớp đất bề mặt được loại bỏ 
+dần dần đế phát hiện hoặc xác nhận sự hiện diện của vật gây tín hiệu ở lớp đất 
+bên dưới.
+1.4.14. Thiết bi nổ tư chế•  •
+Một thiết bị được chế tạo một cách tự phát bằng cách kết hợp các vật nổ, 
+thuốc nổ, vật liệu phá hủy, gây chết người, độc hại, gây cháy, hoặc hóa chất. Các 
+loại thiết bị tự chế này thường do các thành phần phi quân sự chế tạo.
+1.4.15. Đánh dấu
+Việc đặt một hay nhiều dụng cụ nhằm xác định vị trí của một mối nguy 
+hiếm hoặc ranh giới của một khu vực nguy hiểm (thao tác này có thể bao gồm 
+sử dụng các biển báo, đánh dấu bằng sơn, cắm cờ hoặc lắp dựng các rào chắn).
+1.4.16. Biển báo bom mìn
+Một biển báo được sản xuất và đặt trong hệ thống đánh dấu, được thiết 
+kế để cảnh báo về sự hiện diện của BMVN còn sót lại sau chiến tranh hoặc khu 
+vực đang có các hoạt động KS, RPBM.
+1.4.17. Khu vực nghi ngờ ô nhiễm BMVN (Suspected Hazardous 
+Area/SHA)
+Khu vực có dấu hiệu nghi ngờ về sự tồn tại của BMVN.
+1.4.18. Khu vực ô nhiễm BMVN (Confirmed Hazardous Area/CHA)

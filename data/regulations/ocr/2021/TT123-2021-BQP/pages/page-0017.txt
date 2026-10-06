@@ -1,0 +1,50 @@
+15
+
+Ghi chú:  trường hợp đào đất có nước th được tính thêm 0,012 ca máy bơm cho 1 m’
+đất đào. Khi thi công khối lượng đất đào theo nghiệm thu thực tế.
+
+8. Đào kiểm tra, xử lý tín hiệu & độ sâu đến 5m (MS: 020.0800)
+
+a) Thành phần công việc:  dùng dụng cụ làm tay đào đúng yêu cầu kỹ thuật
+cho lộ toàn bộ vật tín hiệu (kích thước trung bình miệng hố:3⁄5mx3m,  đáy hồ:
+1,5 mx 1,5 m, độ sâu: 2,5 m; khối lượng đất đào trung bình: 14,67 m°/hỗ). Kiếm
+tra xác định tín hiệu, thu gom vận chuyển hoặc xử lý theo quy định.
+
+b) Định mức hao phí tính cho 1 m® đất đào
+
+.T            Ñ         Ñ            ,       Pon          Cap dat tại vị tri tín hiệu
+Mã so        Thành phân hao phí         vị          J          I          TI         v
+Vat liệu:
+Coc tre (Ø8 x 200) cm         Coc      0,40       0,40       0,20       0,10
+Ván gỗ day 3cm                  m’      0,008 | 0,008      0,004 | 0,002
+Dinh 2 mỏ                          Cái       0,40 | 0,40        0,20         0
+Định 10 cm           |           Kg      0,15      0,15       0,10      0,05
+020.0800 | Dây thép buộc Ø2 mm          Kg       0,20       0,15        0,12       0,01
+Vật liệu khác                          %VL        1,0           1,0            1,0           1,0
+Nhân công:
+Bậc thợ QNCN 8/10             Công | 0,66       0,88        1,28       1,87
+May thi công:
+Máy dò bom Vallon 1303A1 | Ca | 0,008 | 0,008         0,008 | 0,008
+1            2             3            4
+
+Ghi chu: truong hop đào đắt có nước thi được tính thêm 0,012 ca máy bơm cho 1 mẺ
+đất đào. Khi thi công khối lượng đắt đào theo nghiệm thu thực tế.
+
+9, Đào kiểm tra, xử lý tín hiệu ở độ sâu đến 10m (MS: 020.0900)
+
+a) Thành phần công việc: dùng máy xúc và khí tài công binh đào đúng
+yêu cầu kỹ thuật cho lộ toàn bộ vật tín hiệu (kích thước trung bình miệng hố:
+4,5 m x 4m, đáy hé: 2 m x 1,5 m, độ sâu: 5 m; khối lượng đất đào trung bình:
+47,24 m”/hồ). Kiểm tra xác định tín hiệu, thu gom vận chuyển hoặc xử lý theo
+quy định.
+
+b) Định mức hao phí tính cho 1 m® đất đào
+
+—            |         Ñ            i            )         Cap dat tại vị tri tín hiệu
+Mã sô       Thành phân hao phi | Đơn vị       i          Ti         T        TV
+Vat liệu:
+Cọc tre (Ø8 x 200) cm     Cọc      0,20      0,20      0,10        0
+020.0900 | Ván gỗ dày 3 cm             m       0,004 | 0,004 | 0,002       0
+Dinh 2 mỏ        Cái        0,40        0,40       0,20          0
+Đinh 10 cm             Kg     0,15    0,15    0,10     0
+

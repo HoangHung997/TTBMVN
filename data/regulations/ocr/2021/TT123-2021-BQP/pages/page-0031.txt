@@ -1,0 +1,40 @@
+29
+
+Mức tiêu hao
+ny               .          `              ”         Đơn       Nước sâu | Nước sâu       Nước sâu
+Mã sô         Thành phân hao phí         vị        từ 25m       >50m        >100m
+đến 50m | đến100m | dén150 m
+
+Kíp điện                          Cái          2,0             2,0             2,0
+Dây nô chịu nước                m            165             330             495
+Dây gai                      kg        0,2          0,2           02:
+Dây điện kép                         m              20                20                20
+
+040.0600  Vật liệu khác           % VL     10         10         10
+Nhân công:
+Bậc thợ QNCN 7/10            Công         0,60             0,76             0,96
+Bậc thợ QNCN 8/10           Công        0,10            0,10             0,10
+Máy thi công:
+Thiết bị DGPS                         Ca           0,063             0,063             0,063
+Thiết bi lặn ROV bode |, | 15            0,19            0,24
+chuông lặn va thợ lặn
+Máy đo thông mạch             Ca           0,02             0,02             0,02
+May diém hoa                     Ca           0,02             0,02             0,02
+Máy do min Vallon MW
+1630B                  Ca      0,08       0,10       0,12
+Thuyên  cao su trung có      Ca          0.08            0,10            0,12
+may day
+Tàu có công suất 650 cv
+có cầu mi ni tự hành             Ca          0,36            0,39             0,45
+Tàu khống chế giao
+thông 350 cv                     Ca         0,04           0,04         0,05
+Tàu hậu can 350 cv             Ca          0,04           0,04            0,05
+
+1                2                2
+
+Ghi chú: trang thiết bị sử dụng trong hủy nổ bom min vật nổ ở độ sâu nước lớn hơn
+50 m chưa được trang bị đồng bộ tại các đơn vị; nên khi phải xử lý tín hiệu ở độ sâu nước
+lớn hơn 50 m đơn vị thi công căn cứ vào định mức (MS:040.0600) và điều kiện thực tế, kết
+hợp với chủ đầu tư lập phương án kỹ thuật thi công va dự toán trình cấp có thắm quyền phê
+duyệt trước khi thi công.
+

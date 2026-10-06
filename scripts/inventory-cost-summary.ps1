@@ -1,0 +1,189 @@
+param(
+    [string]$WorkbookPath,
+    [string]$OutputPath
+)
+
+$ErrorActionPreference = "Stop"
+$repoRoot = Split-Path -Parent $PSScriptRoot
+. (Join-Path $PSScriptRoot "excel-test-process.ps1")
+if ([string]::IsNullOrWhiteSpace($WorkbookPath)) {
+    $WorkbookPath = Join-Path $repoRoot "Dutoanmau\Checkpoints\DT-407-start.xlsm"
+}
+if ([string]::IsNullOrWhiteSpace($OutputPath)) {
+    $OutputPath = Join-Path $repoRoot "tmp\DT-407-cost-summary-inventory.json"
+}
+$workbookPath = [IO.Path]::GetFullPath($WorkbookPath)
+$outputPath = [IO.Path]::GetFullPath($OutputPath)
+$allowedRoot = [IO.Path]::GetFullPath((Join-Path $repoRoot "Dutoanmau"))
+if (-not $workbookPath.StartsWith(
+    $allowedRoot.TrimEnd('\') + '\',
+    [StringComparison]::OrdinalIgnoreCase)) {
+    throw "Workbook inventory nam ngoai Dutoanmau."
+}
+
+$corePath = Join-Path $repoRoot "ExcelAddIn1.Core\bin\Release\ExcelAddIn1.Core.dll"
+$addinPath = Join-Path $repoRoot "ExcelAddIn1\bin\x64\Release\ExcelAddIn1.dll"
+$core = [Reflection.Assembly]::LoadFrom($corePath)
+$addin = [Reflection.Assembly]::LoadFrom($addinPath)
+$roleType = $core.GetType("ExcelAddIn1.Core.WorksheetRole", $true)
+$roleServiceType = $addin.GetType("ExcelAddIn1.Funtion.WorksheetRoleService", $true)
+$resolveMethod = $roleServiceType.GetMethod("ResolveWorksheetRequired")
+
+function Release-ComObject([object]$Value) {
+    if ($null -ne $Value -and [Runtime.InteropServices.Marshal]::IsComObject($Value)) {
+        [void][Runtime.InteropServices.Marshal]::ReleaseComObject($Value)
+    }
+}
+
+function Invoke-Resolve([object]$Workbook, [string]$RoleName) {
+    $role = [Enum]::Parse($roleType, $RoleName, $false)
+    $arguments = New-Object "object[]" 2
+    $arguments[0] = $Workbook.PSObject.BaseObject
+    $arguments[1] = $role
+    return $resolveMethod.Invoke($null, $arguments)
+}
+
+function Column-Name([int]$Column) {
+    $value = $Column
+    $name = ""
+    while ($value -gt 0) {
+        $value--
+        $name = [char](65 + ($value % 26)) + $name
+        $value = [Math]::Floor($value / 26)
+    }
+    return $name
+}
+
+function Array-Value([object]$Values, [int]$Row, [int]$Column) {
+    if ($Values -is [Array]) { return $Values.GetValue($Row, $Column) }
+    if ($Row -eq 1 -and $Column -eq 1) { return $Values }
+    return $null
+}
+
+function Read-Names([object]$Workbook, [string]$SheetName) {
+    $result = New-Object System.Collections.Generic.List[object]
+    $names = $null
+    try {
+        $names = $Workbook.Names
+        for ($index = 1; $index -le $names.Count; $index++) {
+            $name = $null
+            try {
+                $name = $names.Item($index)
+                $refersTo = [string]$name.RefersTo
+                if ($refersTo.IndexOf($SheetName, [StringComparison]::OrdinalIgnoreCase) -ge 0) {
+                    $result.Add([ordered]@{
+                        name = [string]$name.Name
+                        refersTo = $refersTo
+                        visible = [bool]$name.Visible
+                    })
+                }
+            }
+            finally { Release-ComObject $name }
+        }
+    }
+    finally { Release-ComObject $names }
+    return $result
+}
+
+$excelSession = Start-IsolatedExcelTestProcess
+$excel = $excelSession.Application
+$workbook = $null
+$sheet = $null
+$used = $null
+try {
+    $workbook = $excel.Workbooks.Open($workbookPath, 0, $true)
+    $sheet = Invoke-Resolve $workbook "CostSummary"
+    $used = $sheet.UsedRange
+    $values = $used.Value2
+    $formulas = $used.Formula
+    $formulasR1C1 = $used.FormulaR1C1
+    $formats = $used.NumberFormat
+    $startRow = [int]$used.Row
+    $startColumn = [int]$used.Column
+    $rowCount = [int]$used.Rows.Count
+    $columnCount = [int]$used.Columns.Count
+    $cells = New-Object System.Collections.Generic.List[object]
+    $merged = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
+    $references = [ordered]@{
+        estimateAppendix = 0
+        costRuleSheet = 0
+        resourcePrices = 0
+        brokenRef = 0
+        externalWorkbook = 0
+    }
+    for ($rowOffset = 1; $rowOffset -le $rowCount; $rowOffset++) {
+        for ($columnOffset = 1; $columnOffset -le $columnCount; $columnOffset++) {
+            $value = Array-Value $values $rowOffset $columnOffset
+            $formula = Array-Value $formulas $rowOffset $columnOffset
+            $formulaR1C1 = Array-Value $formulasR1C1 $rowOffset $columnOffset
+            if ($null -eq $value -and $null -eq $formula) { continue }
+            $absoluteRow = $startRow + $rowOffset - 1
+            $absoluteColumn = $startColumn + $columnOffset - 1
+            $address = (Column-Name $absoluteColumn) + $absoluteRow
+            $formulaText = if ($formula -is [string] -and $formula.StartsWith("=")) { $formula } else { $null }
+            if ($null -ne $formulaText) {
+                if ($formulaText -match "Gia DT TC") { $references.estimateAppendix++ }
+                if ($formulaText -match "ChiPhi") { $references.costRuleSheet++ }
+                if ($formulaText -match "VL-NC-M") { $references.resourcePrices++ }
+                if ($formulaText -match "#REF!") { $references.brokenRef++ }
+                if ($formulaText -match "\[[^\]]+\]") { $references.externalWorkbook++ }
+            }
+            $cell = $null
+            $mergeAddress = $null
+            try {
+                $cell = $sheet.Cells.Item($absoluteRow, $absoluteColumn)
+                if ([bool]$cell.MergeCells) {
+                    $mergeAddress = [string]$cell.MergeArea.Address($false, $false)
+                    [void]$merged.Add($mergeAddress)
+                }
+            }
+            finally { Release-ComObject $cell }
+            $cells.Add([ordered]@{
+                address = $address
+                row = $absoluteRow
+                column = $absoluteColumn
+                value = $value
+                formula = $formulaText
+                formulaR1C1 = if ($formulaR1C1 -is [string] -and $formulaR1C1.StartsWith("=")) { $formulaR1C1 } else { $null }
+                numberFormat = [string](Array-Value $formats $rowOffset $columnOffset)
+                mergedArea = $mergeAddress
+            })
+        }
+    }
+    $inventory = [ordered]@{
+        workbook = $workbookPath
+        generatedAtUtc = [DateTime]::UtcNow.ToString("o")
+        sheet = [ordered]@{
+            role = "CostSummary"
+            name = [string]$sheet.Name
+            codeName = [string]$sheet.CodeName
+            usedAddress = [string]$used.Address($false, $false)
+            startRow = $startRow
+            startColumn = $startColumn
+            rowCount = $rowCount
+            columnCount = $columnCount
+            visible = [int]$sheet.Visible
+            cells = $cells
+            mergedAreas = @($merged | Sort-Object)
+        }
+        references = $references
+        names = @(Read-Names $workbook ([string]$sheet.Name))
+    }
+    New-Item -ItemType Directory -Path (Split-Path -Parent $outputPath) -Force | Out-Null
+    $inventory | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath $outputPath -Encoding UTF8
+    [pscustomobject]@{
+        Workbook = $workbookPath
+        Sheet = "$($sheet.Name) $($inventory.sheet.usedAddress) cells=$($cells.Count)"
+        MergedAreas = $merged.Count
+        RelevantNames = $inventory.names.Count
+        References = ($references | ConvertTo-Json -Compress)
+        Output = $outputPath
+    } | Format-List
+}
+finally {
+    if ($null -ne $workbook) { $workbook.Close($false) }
+    Release-ComObject $used
+    Release-ComObject $sheet
+    Release-ComObject $workbook
+    Stop-IsolatedExcelTestProcess $excelSession
+}

@@ -1,0 +1,35 @@
+4.3.2.7ằ Hệ thống máy tính và thiết bị được sử dụng trong hệ thống quản 
+lý thông tin phải đáp ứng ít nhất các thông số kỹ thuật tối thiểu của phần mềm 
+quản lý thông tin và GIS được sử dụng và các yêu cầu sau:
+- Phải phù hợp với công suất và nhiệm vụ của hệ thống;
+- Có đủ dung lượng để lưu trữ dữ liệu của tổ chức;
+- Hệ điều hành được cập nhật;
+- Phần mềm được cấp phép và có các hệ thống ngoại vi thích họp như 
+máy in và máy quét;
+- Được kết nối với các đường truyền và phương tiện thông tin như 
+internet, email.
+4.4. Điều tra sự cố bom mìn
+4.4.1. Sự cố bom mìn
+4.4.1.1. Một vụ nổ BMVN xảy ra ngoài kế hoạch tại nơi đang có các hoạt 
+động ĐT, KS, RPBM, không phân biệt nguyên nhân hay hậu quả.
+4.4.1.2. Việc phát hiện sót BMVN tại khu vực đã được RPBM.
+4.4.1.3. Một vụ no BMVN xảy ra trên phạm vi toàn quốc gây ra hậu quả 
+(có người chết, bị thương hoặc thiệt hại lớn về tài sản) ngoài các sự cố quy định 
+tại 4.4.1.1 và 4.4.1.2.
+4.4.2. Báo cáo sự cố bom mìn
+4.4.2.1 ề  Báo cáo sơ bộ sự cố bom mìn:
+4.4.2.1.1. Báo cáo sơ bộ cung cấp thông tin cơ bản về sự cổ bom mìn cho 
+các Cơ quan quản lý nhà nước về khắc phục hậu quả bom mìn nhằm kịp thời 
+hỗ trợ đối với trường hợp khẩn cấp và có thể đưa ra một cảnh báo chung nhất 
+cho các tố chức RPBM khác về sự cố xảy raế
+4.4.2.1.2. Thực hiện báo cáo ngay sau khi sự cố xảy ra bằng hai phương 
+pháp: Báo cáo bằng điện thoại và báo cáo bằng văn bản, fax hoặc thư điện tử.
+4A.2.2. Báo cáo chi tiết sự cố bom mìn:
+4 4ẽ2.2.1. Báo cáo chi tiết sự cố bom mìn là nội dung kết quả điều tra do 
+các cơ quan quản lý nhà nước ở Trung ương và địa phương kết hợp cùng chủ 
+đầu tư, đơn vị thực hiện KS, RPBM (nếu có) thực hiện.
+4.4.2.2Ế 2. Phải thực hiện báo cáo chi tiết sự cố bom mìn trong thời hạn 7 
+ngày làm việc sau khi xảy ra sự cố.
+4ẻ4.2.3. Nội dung báo cáo sơ bộ và báo cáo chi tiết sự cố bom mìn theo 
+quv định tại Phụ lục c.
+56

@@ -1,0 +1,58 @@
+4
+
+Trong đó:
+
+- Cu: chỉ phí nhiên liệu, năng lượng trong giá ca máy (ddng/ca);
+
+- Đwu: định mức tiêu hao nhiên liệu, năng lượng loại i của thời gian máy
+làm việc trong một ca;
+
+- Gnu: giá nhiên liệu loại i;
+
+- Kp: hệ số chi phí nhiên liệu phụ loại i;
+
+- n: số loại nhiên liệu, năng lượng sử dụng trong một ca máy.
+
+c) Định mức tiêu hao nhiên liệu, năng lượng của thời gian máy làm việc
+trong một ca của một loại máy và thiết bị thi công được xác định theo quy định
+tại Phụ luc IT ban hành kèm theo Thông tư này.
+
+d) Giá nhiên liệu, năng lượng được xác định trên cơ sở:
+
+- Giá xăng, dầu: theo thông cáo báo chí giá xăng dầu của Tập đoàn xăng
+dâu Việt Nam Petrolimex phù hợp với thời điềm tính giá ca máy;
+
+- Giá điện: theo quy định về giá bán điện của Nhà nước phù hợp với thời
+điêm tính giá ca máy.
+
+đ) Hệ số chi phí nhiên liệu phụ cho một ca máy làm việc, được xác định
+theo từng loại máy và điều kiện cụ thê của dự án. Hệ sô chỉ phí nhiên liệu phụ
+có giá trị bình quân như sau:
+
+- Máy và thiết bị chạy động cơ xăng: 1,02;
+
+- Máy và thiết bị chạy động cơ diesel: 1,03;
+
+- Máy và thiết bị chạy động cơ điện: 1,05.
+
+e) Trường hợp các loại máy để thực hiện một số loại công tác (như khảo
+sát, thí nghiệm và một sô loại công tác khác) mà chi phí nhiên liệu, năng lượng
+đã tính vào chi phí vật liệu trong đơn giá của công tác đó thì khi xác định giá ca
+máy không tính thành phân chỉ phí nhiên liệu, năng lượng.
+
+2.4. Xác định chỉ phí nhân công điều khiển
+
+a) Chi phí nhân công điều khiển trong một ca máy được xác định trên cơ sở
+các quy định về sô lượng, thành phân, nhóm, bậc thợ điều khiển máy theo quy
+trình vận hành máy và đơn giá ngày công tương ứng với bậc thợ điều khiển máy.
+
+b) Chi phí nhân công điều khiển trong giá ca máy được xác định theo
+công thức sau:
+
+Cục = DN x Cr; (5)
+¡=1
+
+Trong đó:
+
+- Ni: số lượng công nhân theo bậc thợ điều khiển máy loại 1 trong một
+ca máy;

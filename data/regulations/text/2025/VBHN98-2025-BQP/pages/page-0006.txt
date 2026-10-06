@@ -1,0 +1,41 @@
+6
+QCVN 01:2022/BQP do Bộ Tư lệnh Công binh biên soạn, Bộ Tổng Tham 
+mun trình duyệt, Bộ Khoa học và Công nghệ thấm định, Bộ trưởng Bộ Quốc 
+phòng ban hành theo Thông tư số 59/2022/TT-BQP ngày 30 tháng 8 năm 2022.
+QUY CHUẨN KỸ THUẬT QUÓC GIA VÈ RÀ PHÁ BOM MÌN 
+VẬT NỎ
+National technical regulaíion on mỉne action
+lẵ  QUY ĐỊNH CHƯNG
+1.1. Phạm vi điều chỉnh
+Quy chuẩn kỹ thuật này quy định các yêu cầu kỹ thuật, quản lý và an toàn 
+đối với hoạt động điều tra, khảo sát, rà phá bom mìn vật nổ có liên quan đến 
+chiến tranh tại Việt Nam.
+lẳ2ễ Đối tượng áp dụng
+Áp dụng với mọi tổ chức, cá nhân có liên quan đến hoạt động điều tra, 
+khảo sát, rà phá bom mìn vật nổ trên lãnh thố Việt Nam.
+1
+/-%  rri > • 1 ề ^  
+___ • A 1 A
+Ế 3. lài liệu viên dan
+- QCVN 11:2018/BQP, Quy chuẩn kỹ thuật quốc gia về kho bảo quản vũ 
+khí, vật liệu nổ và công cụ hỗ trợ tiếp nhận, thu gom thuộc phạm vi BQP quản 
+lý, ban hành kèm theo Thông tư số 169/2018/TT-BQP ngày 13/12/2018 của Bộ 
+trưởng Bộ Quốc phòng (gọi tắt là QCVN 11:2018/BQP);
+- QCVN 01:2019/BCT Quy chuẩn kỹ thuật quốc gia về an toàn trong sản 
+xuất, thử nghiệm, nghiệm thu, bảo quản, vận chuyển, sử dụng và tiêu hủy vật 
+liệu nổ công nghiệp và bảo quản tiền chất thuốc nổ, ban hành kèm theo Thông tư 
+số 32/2019/TT-BCT ngày 21/11/2019 của Bộ trưởng Bộ Công thương (gọi tắt là 
+QCVN 01.2019/BCT);
+- Thông tư số 02/2017/TT-BQP ngày 05 tháng 01 năm 2017 của Bộ 
+trưởng Bộ Quốc phòng quy định về hoạt động huấn luyện, vệ sinh an toàn lao 
+động (gọi tắt là Thông tư số 02/2017/TT-BQP);
+- Thông tư số 195/2019/TT-BQP ngày 27 tháng 12 năm 2019 của Bộ 
+trưởng Bộ Quốc phòng quy định chi tiết một số điều và hướng dẫn thực hiện 
+Nghị định số 18/2019/NĐ-CP ngày 01 tháng 02 năm 2019 của Chính phủ về 
+quản lý và thực hiện hoạt động khắc phục hậu quả bom mìn vật nổ sau chiến 
+tranh (gọi tắt là Thông tư số 195/2019/TT-BQP);
+- Quyết định số 18/2021/QĐ-TTg ngày 22 tháng 4 năm 2021 của Thủ 
+tướng Chính phủ quy định về dự báo, cảnh báo, truyền tin thiên tai và cấp độ rủi 
+do thiên tai (gọi tắt là Quyết định số 18/2021/QĐ-TTg);
+- Tiêu chuẩn quốc gia TCVN ISO 9001:2015, Hệ thống quản lý chất 
+lượng - Các yêu cầu;

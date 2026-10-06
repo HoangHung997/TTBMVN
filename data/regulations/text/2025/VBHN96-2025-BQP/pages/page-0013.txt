@@ -1,0 +1,36 @@
+13
+số các khoản mục chi phí trong giá ca máy như chi phí khấu hao, chi phí sửa 
+chữa, chi phí nhiên liệu, năng lượng, chi phí nhân công điều khiển và chi phí 
+khác của máy. Các nội dung chi phí khác liên quan đến việc cho thuê máy để đủ 
+điều kiện cho máy hoạt động, vận hành tại công trường (nếu có) và chi phí vận 
+chuyển máy, thiết bị đến khu vực thi công, được tách riêng không bao gồm 
+trong giá ca máy thuê được khảo sát.
+- Giá ca máy thuê được khảo sát xác định tương ứng với đơn vị ca máy 
+(theo quy định về thời gian một ca hoạt động sản xuất thi công của định mức dự 
+toán rà phá bom mìn vật nổ) và các hình thức cho thuê máy (cho thuê bao gồm 
+cả vận hành hoặc chỉ cho thuê máy không bao gồm vận hành) cùng các điều 
+kiện cho thuê máy kèm theoề
+Trường hợp các nhà cung cấp, cho thuê công bố giá thuê máy theo các 
+đơn vị thời gian thuê máy theo giờ, theo ngày, theo tháng hoặc năm thì phải 
+được quy đổi về giá thuê theo ca máy để phục vụ tính toánễ
+Trường hợp hình thức cho thuê máy bao gồm cả vận hành thì thông tin 
+khảo sát cần xác định riêng các khoản mục chi phí liên quan đến vận hành máy 
+(gồm chi phí nhiên liệu, năng lượng, chi phí nhân công điều khiển máy) và các 
+khoản mục chi phí được phân bổ vào giá ca máy thuê (gồm chi phí khấu hao, chi 
+phí sửa chữa, chi phí khác).
+- Khảo sát thông tin cơ bản của máy về thông số kỹ thuật (chủng loại, công 
+suất, kích thước, mức độ tiêu hao nhiên liệu...), xuất xứ, tình trạng của máy.
+- Khảo sát thông tin cơ bản về nhà cung cấp, cho thuê.
+đ) Tổng hợp xử lý số liệu và tính toán xác định giá ca máy thuê.
+Giá ca máy thuê sau khi khảo sát được sàng lọc theo từng loại và công 
+suất máy, đồng thời được xử lý dữ liệu trước khi tính toán xác định giá ca máy 
+thuê bình quân làm cơ sở công bố, cụ thể:
+- Các khoản mục chi phí nhiên liệu, năng lượng, chi phí nhân công điều 
+khiển máy trong giá ca máy thuê khảo sát được chuẩn xác theo quy định của nhà 
+sản xuất về mức tiêu hao năng lượng, nhiên liệu, thành phần thợ lái máy và quy 
+định xác định giá nhiên liệu, năng lượng, đơn giá nhân công tại khoản 1 Phụ lục 
+này. Sau đó tổng hợp xử lý bằng phương pháp hồi quy, chuyển đổi số liệu về 
+thời điểm tính toán và tổng hợp để xác định chi phí.
+- Các khoản mục chi phí khấu hao, chi phí sửa chữa, chi phí khác trong 
+giá ca máy thuê khảo sát được xử lý bằng phương pháp hồi quy, chuyển đổi số 
+liệu về thời điểm tính toán và tổng hợp để xác định chi phí.

@@ -1,0 +1,51 @@
+50
+..........., ngày...... thảng.....năm ......
+PHIẾU ĐIÈƯ TRA THÔNG TIN VỀ NẠN NHÂN BOM MÌN
+(Dành cho To trưởng điều tra)
+Dự án:...............................................................................................................
+Hạng mục:.......................................................................................................
+Mã nhiệm vụ:.................................................................................................
+Mấu ĐT - 06
+CỘNG HÒA XẢ HỘI CHỦ NGHĨA VIỆT NAM
+ĐỘC lập - Tự do - Hạnh phức
+THÔNG TIN VÈ NẠN NHÂN BOM MÌN
+1 Họ và tên nạn nhân
+2 Ngày sinh
+3 Giới tính
+4 Tình trạng hôn nhân trước tai nạn
+5 Dân tộc
+6 Trình độ học vấn trước tai nạn
+7 Nghề nghiệp trước tai nạn
+8 Địa chỉ nơi sinh sông khi bị tai nạn
+9 Hoạt động của nạn nhân khi 
+xảy ra tai nạn
+] Đang dò tìm, xử lý o  Kiếm phế liệu 
+U  Trồng trọt, chăn nuôi o  Xây dựng 
+, ] Chơi / đùa nghịch n  Không biết 
+Hoạt động khác (ghi rõ):
+10 Loại vật nổ gây ra tai nạn
+] Bom] 
+L  ] Các lc 
+] Mìn c 
+1  1  Các lc
+3há Q  Bom bi 
+)ại đạn pháo, cối n  Lựu đạn 
+hống người \Zi Mìn chống tăng 
+)ại vật nồ khác (ghi cụ thể): 
+Không xác định được
+11 Địa điểm xảy ra tai nạn (ghi cụ thê địa danh, tọa độ)
+12 Thời gian xẩy ra tai nạn
+(ghi cụ thê ngày tháng năm, nêu ko có thông 
+tin chính xác ngày tháng thì ghi năm bị tai 
+nạn)
+13 Mức độ chấn thương khi bị 
+tai nan
+[_J Chết 1 _1  Bị thương tích
+14 Hiện tại còn sông hay đã chêtCòn sông Đã chêt
+TÊN ĐƠN VỊ
+Số: /ĐT-TT
+NHÂN VIÊN ĐIÈƯ TRA
+(Kỷ, ghi rõ họ tên)
+ ngày.. ễ  tháng.. ệ  năm 
+CQ/ĐV CƯNG CẨP THÔNG TIN
+(Kỷ tên, đỏng dấu)

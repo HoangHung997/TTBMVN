@@ -1,0 +1,37 @@
+5
+TT Tỉnh, thành phốKhu vực Tên địa phương các xã, phường, đặc khu
+Tiến, Sơn Hồng, Kim Hoa, Sơn Kim 1, Sơn 
+Kim 2, Đức Thọ, Đức Đồng, Đức Thịnh, 
+Đức Minh, Nghi Xuân, Tiên Điền, cổ Đạm, 
+Đan Hải, Can Lộc, Tùng Lộc, Gia Hanh, 
+Trường Lưu, Xuân Lộc, Đồng Lộc, Hương 
+Khê, Hương Phố, Hương Đô, Hà Linh, 
+Hương Bình, Phúc Trạch, Hương Xuân, Kỳ 
+Anh, Phương Giai, Kỳ Hoa, Kỳ Văn, Kỳ 
+Khang, Kỳ Lạc, Vọng Sơn; các phường 
+Thành Sen, Trần Phú, Hà Huy Tập, Bắc 
+Hồng Lĩnh, Nam Hồng Lĩnh.
+Khu vực 1 Các xã, phường còn lại
+18 Quảng Trị Khu vực 4
+Các xã Triệu Phong 1, Triệu Phong 2, Triệu 
+Phong 3, Triệu Phong 4, Triệu Phong 5, Hải 
+Lăng, Đông Hải Lăng, Tây Hải Lăng, Nam 
+Hải Lăng, Trung Hải Lăng, Tây Gio Linh, 
+Đông Gio Linh, Bắc Gio Linh, Gio Linh, Văn 
+Linh 1, Văn Linh 2, Văn Linh 3, Văn Linh 4, 
+Văn Linh 5, Hướng Lập, Hướng Phùng, Khe 
+Sanh, Tân Lập, Lao Bảo, Lìa, A Dơi, La Lay, 
+Tà Rụt, Đakrông, Hướng Hiệp, Ba Lòng, Cam 
+Lộ, Cam Đường; các phường Đồng Hà, Nam 
+Đông Hà, Quảng trị và Đặc khu cồn cỏ.
+Khu vực 3 Tất cả các xã còn lại (trừ phường Đồng Hới, 
+Đồng Thuận, Đồng Sơn).
+Khu vực 2 Phường Đồng Hới, Đồng Thuận, Đồng Sơn.
+Khu vực 4 Các xã A Lưới 1, A Lưới 2, A Lưới 3, A 
+Lưới 4, A Lưới 5.
+19 Tp Huế
+Khu vực 2
+Các xã Đan Điền, Quảng Điền, Phú Vinh, Phú 
+Hồ, Phú Vang, Vinh Lộc, Hưng Lộc, Lộc An, 
+Phú Lộc, Chân Mây - Lăng Cô, Long Quảng, 
+Nam Đông, Khe Tre, Bình Điền; các phường

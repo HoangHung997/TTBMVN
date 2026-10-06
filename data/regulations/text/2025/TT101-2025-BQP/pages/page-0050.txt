@@ -1,0 +1,57 @@
+12
+STT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+lượng 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+lương
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thú
+hồi
+(%)
+Khấu
+hao
+Sửa
+chữa
+Chi
+phí
+khác
+14 M011.014 Tàu loại 65 oc - Tàu dò tìm, xử lý290 9 4,1 6 573 Lít 
+diezel 3x8 7.685.500.000 10
+15 MOI 1.015 Tàu loại 350CV (Tàu xử lý, hậu cần, 
+làm trạm nổi, điều tiết giao thône)260 10 5 6 202 Lít 
+diezel 2x6 887.000.000 10
+16 MOI 1.016 Máy quét bề mặt đáy biến (đại 
+diện siêu âm Sonar Klein 3000)258 25 10 5 3 X bậc 
+8/10 517.500 4.115.480.000 10
+17 MOI 1.017 Thiết bị Từ kế Seaquest 258 25 10 5 3 X bậc 
+8/10 517.500 6.136.523.020 10
+18 MOI 1.018 Hệ thống robot ROV có tay gắp xử 
+lý tín hiệu (Đồng bộ thiết bị đi kèm)258 25 10 5 4 X bậc 
+8/10 517.500 25.367.387.795 10
+19 MOI 1.019 Định vị thủy âm 258 25 10 5 2 X  bậc 
+8/10 517.500 511.242.972 10
+20 MOI 1.020 Thiết bị định vị DGPS 258 25 7,5 5 1  X bậc 
+5/10 450.000 508.012.500 10
+21 MOI 1.021 Định vị trên hải đồ 258 25 7,5 5 2 X bậc 
+5/10 450.000 489.532.000 10
+»

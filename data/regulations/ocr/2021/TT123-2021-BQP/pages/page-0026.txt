@@ -1,0 +1,44 @@
+24
+
+Kíp điện sô 8              Cái       1          1          2           2            2          2
+Day dién kép                Mét         2           4           6             10            20         30
+Vải gói thuốc nô             mˆ           0            0         0.40          1,00          1,00 | 1,00
+Dây gai @ 3 mm         Kg        0       0,10 | 0,15       0,20       020 | 020
+Biển báo,biển cấm | Cái | 0,08 | 0,08 | 0,08   0,08   0,08 | 0,08
+030.0800    Vật liệu khác         - 19VL | 1,00 | 1,00 | 1,00         1,00         1,00 | 1,00
+Nhân công:
+Bậc thợ QNCN 7/10 | Công | 2,04 | 2,04 | 2,04         2,34         2,34 | 2,34
+Bậc thợ QNCN 8/10 | Công | 0,34 | 0,34 | 0,34      0,39      0,39 | 0,39
+May thi cong:
+Máy do bom dưới          Ca | 0014] 0014 | 0014 | 0014 | 0,014 | 0,014
+Om ké                          Ca | 0,014 | 0,014 | 0,014 | 0,014 | 0,014 | 0,014
+| Máy điểm hỏa              Ca | 0,014 | 0,014 | 0,014 | 0,014 | 0,014 | 0,014
+Thuyên composit.            Ca | 0,17 | 0,17 | 0,17         0,19         0,19 | 0,19
+Thuyền cao su tiểu         Ca | 034 | 034 | 0,34         0,39         0,39 | 0,39
+Thiết bị lặn                   Ca | 0,08 | 0,08 | 0,08         0,10         0,10 | 0,10
+
+Ghi chú: các yếu tổ khác liên quan đến tính toán, lập dự toán dp dụng như Ghi chú tai
+khoản 1, Mục 3 Định mức đự toán này.
+
+Mục 4
+
+ĐỊNH MỨC RÀ PHÁ BOM MÌN VẬT NO DƯỚI BIEN
+
+1. Điều kiện sử dụng phương pháp ra phá bom min vật nỗ
+
+a) Trường hợp vi trí thi công RPBM cách bờ nhỏ hơn 2 hải lý, độ sâu nước
+nhỏ hơn 25 m áp dụng định mức như RPBM dưới nước quy. định tại Mục 3 Định
+mức dự toán này; thay thế thuyền composit bằng thuyền gỗ sức chở > 3 tấn có
+máy đầy để thực hiện.
+
+b) Trường hợp vị trí thi công RPBM cách bờ từ 2 hải lý trở lên, độ sâu
+nước từ 25 m đến 150 m phải sử dụng phương pháp dò tìm bằng thiết bị sona,
+từ kế dé thực hiện. Trường hợp độ sâu nước trên 150 m trở lên phải lập phương
+án kỹ thuật thi công, dự toán riêng trình cấp có thẩm quyền phê duyệt.
+
+2. Định vị các điểm mốc đánh dấu phạm vi thi công (MS: 040.0100)
+a) Thanh phần công việc: theo tọa độ được cung cấp, tàu di chuyển đến
+điểm mốc,  sử dụng trang thiết bị chuyên dùng thực hiện việc thả phao và neo
+
+định vị tại các điểm cần thiết ở độ sâu nước nhỏ hơn 25 m;  dùng phương pháp
+định vị trên hải đồ của tàu dò tìm theo toạ độ chuẩn của Việt Nam khi độ sâu

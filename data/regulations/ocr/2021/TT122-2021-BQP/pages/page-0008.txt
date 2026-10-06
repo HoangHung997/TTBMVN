@@ -1,0 +1,52 @@
+- Cru;: đơn giá ngày công bậc thợ điều khiển máy loại i;
+
+- ni: số lượng, bậc thợ điều khiển máy trong một ca máy.
+
+c) Số lượng công nhân theo bậc thợ điều khiển máy trong một ca làm việc
+của một loại máy được xác định sô lượng, thành phân va bậc thợ điều khiến quy
+định tại Phụ lục II ban hành kèm theo Thông tư này.
+
+2.5. Xác định chỉ phí khác
+
+a) Chị phí khác trong giá ca máy là các khoản chi phí cần thiết dam bao
+đề máy hoạt động bình thường, có hiệu quả tai dự án, gôm bảo hiểm máy, thiết
+bị trong quá trình sử dụng; bảo quản máy và phục vụ cho công tác bảo dưỡng kỹ
+thuật trong bảo quản máy; đăng kiêm các loại: di chuyên máy trong nội bộ dự án
+và các khoản chi phí có liên quan trực tiếp dén quản lý máy và sử dụng máy tại
+dự án chưa được tinh trong các nội dung chi phí khác trong giá, dự toán rà phá
+bom mìn vật nô. Chi phí khác được xác định theo công thức sau:
+
+GxG
+Cx =k
+§     Neca   (6)
+
+Trong đó:
+
+- Ck: chi phí khác trong giá ca máy (đồng/ca);
+
+- Gx: định mức chi phí khác của máy (% năm);
+
+- G: nguyên giá máy trước thuế (đồng):
+
+- Nea: số ca làm việc của máy trong năm (ca/năm).
+
+b) Định mức chi phí khác của máy được xác định trên cơ sở định mức chi
+phí khác của máy quy định tại Phụ lục II ban hành kèm theo Thông tư này.
+Trường hợp loại máy và thiết bị chưa có trong quy định tại Phụ lục II ban hành
+kèm theo Thông tư này thì định mức chi phí khác của máy được xác định theo
+quy định tại khoản 2 Phụ lục này.
+
+c) Nguyên giá máy trước thuế (G) và số ca làm việc của máy trong năm
+(NcA) xác định như quy định tại điểm c, e khoản 2.1 Phụ lục này.
+
+3. Xác định giá ca máy của loại máy và thiết bị thi công chưa được
+quy định tại Thông tư này
+
+Trường hợp loại máy và thiết bị chưa có trong quy định tại Phụ lục H ban
+hành kèm theo Thông tư này thì việc xác định giá ca máy thực hiện theo các
+phương pháp khảo sát, xác định định mức các hao phí và các dữ liệu cơ bản của
+giá ca máy quy định tại Khoản 3.1 Phụ lục này đê phục vụ tính toán xác định giá
+ca máy. Đôi với một sô loại máy và thiệt bị thì công rà phá bom mìn vật nô có
+sẵn thông tin giá thuê máy phô biên trên thị trường thì có thê khảo sát, xác định
+giá thuê máy trên thị trường dé phục vụ tính toán xác định giá ca máy theo
+phương pháp quy định tại khoản 3.2 Phụ lục này. Cụ thể như sau:

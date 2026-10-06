@@ -1,0 +1,33 @@
+9
+2.4. Xác định chi phí nhãn công điều khiển
+a) Chi phí nhân công điều khiển trong một ca máy được xác định trên cơ sở 
+các quy định về số lượng, thành phần, nhóm, bậc thợ điều khiển máy theo quy 
+trình vận hành máy và đơn giá ngày công tương ứng với bậc thợ điều khiển máy.
+b) Chi phí nhân công điều khiển trong giá ca máy được xác định theo 
+công thức sau:
+C n c  -  yi N ị X  C j ị j (5)
+/= 1
+Trong đó:
+- N,: số lượng công nhân theo bậc thợ điều khiển máy loại i trong một 
+ca máy;
+- Ctlì- đơn giá ngày công bậc thợ điều khiển máy loại i;
+- n: số lượng, bậc thợ điều khiển máy trong một ca máy.
+c) Số lượng công nhân theo bậc thợ điều khiển máy trong một ca làm việc 
+của một loại máy được xác định số lượng, thành phần và bậc thợ điều khiển quy 
+định tại Phụ lục II ban hành kèm theo Thông tư này.
+2.5. Xác định chi phí khác
+a) Chi phí khác trong giá ca máy là các khoản chi phí cần thiết đảm bảo 
+để máy hoạt động bình thường, có hiệu quả tại dự án, gồm bảo hiểm máy, thiết 
+bị trong quá trình sử dụng; bảo quản máy và phục vụ cho công tác bảo dưỡng kỹ 
+thuật trong bảo quản máy; đăng kiểm các loại; di chuyển máy trong nội bộ dự án 
+và các khoản chi phí có liên quan trực tiếp đến quản lý máy và sử dụng máy tại 
+dự án chưa được tính trong các nội dung chi phí khác trong giá, dự toán rà phá 
+bom mìn vật nố. Chi phí khác được xác định theo công thức sau:
+_ G x G k 
+N c a (6 )
+Trong đó:
+- CK: chi phí khác trong giá ca máy (đồng/ca);
+- Giô định mức chi phí khác của máy (% năm);
+- G: nguyên giá máy trước thuế (đồng);
+- N ca * số ca làm việc của máy trong năm (ca/năm).
+b) Định mức chi phí khác của máy được xác định trên cơ sở định mức chi

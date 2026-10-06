@@ -1,0 +1,41 @@
+33
+3. Trình tự thực hiện:
+a) Căn cứ sơ đồ tín hiệu đã đánh dấu, định vị xác định vị trí tín hiệu, tập kết 
+trang bị phục vụ xử lý, làm công tác chuẩn bị, dùng thiết bị ROV hoặc thợ lặn 
+kết hợp chuông lặn, di chuyển tới vị trí đã đánh dấu, tìm tín hiệu thông qua 
+Camera lắp trên thiết bị ROV hoặc thợ lặn để xác định chính xác;
+b) Kiểm tra xác định vât gây tín hiệu, nếu không phải là BMVN thì trục vớt 
+thu gom vê nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử 
+lý, thu gom vê nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho 
+thu gom, vân chuyển hoặc vật nổ lạ thì đánh dấu lại để hủy tại chỗ vào cuối buổi 
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);
+c) Sau khi đã xử lý xong tín hiệu, phải dùng máy dò kiểm tra lại xung 
+quanh và phía dưới vị trí tín hiệu vừa xử lý đê đảm bảo sạch hết tín hiệu. Nếu 
+còn tín hiệu thì phải tiến hành xử lý theo quy định tại điểm a, điểm b khoản này.
+Điều 49. Kiểm tra, xử lý tín hiệu đến độ sâu 1 m
+1. Trường họp áp dụng: tín hiệu nằm ở độ sâu đến 1  m tính từ bề mặt đáy 
+biên, độ sâu nước đên 50 m.
+2. Trang bị: máy dò mìn dưới nước, thiết bị lặn đồng bộ và chuông ỉặn, thiết 
+bị xói bùn cát áp lực cao, tàu công suất đến 650 cv có cẩu mi ni tự hành, thuyền cao 
+su có máy đấy, phao, neo, các loại dây cáp nilon, thuốn, xẻng, hệ thống khung vây 
+và thiêt bị phục vụ lăp đặt, tháo dỡ khung vây, các trang thiêt bị bảo đảm an toàn.
+3. Trình tự thực hiện:
+a) Dùng chuông lặn mang theo đồng bộ máy dò mìn dưới nước, các dụng 
+cụ cầm tay lặn xuống vị trí tâm tín hiệu đã được đánh dấu, thợ lặn kiểm tra xác 
+định chính xác vị trí và độ sâu của tín hiệu.
+Trường họp tín hiệu nằm trên bề mặt đáy biển, kiểm tra, xác định tín hiệu;
+Trường họp tín hiệu nằm ở độ sâu đến 0,5 m, sử dụng dụng cụ để tìm cho 
+đến khi lộ toàn bộ vật gây tín hiệu;
+Trường hợp tín hiệu nằm ở độ sâu đến 1  m, sử dụng thiết bị xói và hút bùn 
+cát hoặc vòi xói áp lực cao kết hợp với dụng cụ cầm tay đế tìm cho đến khi lộ 
+toàn bộ vật gây tín hiệu.
+b) Trường hợp khu vực có địa chất phức tạp (cát chảy, bùn lỏng hoặc độ 
+nằm sâu lớn) phải tiến hành dựng lắp đặt hệ thống khung vây được gia công săn 
+bao quanh vị trí tâm tín hiệu; thợ lặn sử dụng vòi xói áp lực cao hoặc thiêt bị hút 
+bùn, cát công suât lớn đào hạ dân hệ thông khung vây cho đên khi lộ toàn bộ vật 
+gây tín hiệu;
+c) Kiểm tra xác định vật gây tín hiệu, nếu không phải là BMVN thì trục vót 
+thu gom về nơi quy định; nếu là BMVN có khả năng xử lý tại chỗ an toàn thì xử 
+lý, thu gom về nơi quy định. Trường hợp tín hiệu là BMVN không an toàn cho 
+thu gom, vận chuyển hoặc vật nổ lạ thì đánh dấu lại đế hủy tại chỗ vào cuối buối 
+thi công (đối với các loại bom lớn phải có kế hoạch xử lý riêng);

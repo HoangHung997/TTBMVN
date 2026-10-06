@@ -1,0 +1,68 @@
+10
+n. MÁY VÀ THIẾT BỊ THI CÔNG RÀ PHÁ BOM MÌN VẬT NỎ  
+ÁP DỤNG CHO ĐÓI TƯỢNG KHồNG HƯỞNG LƯƠNG TỪ NGÂN SÁCH NHÀ NƯỚC
+Bảng 03
+ĐỊNH MỨC HAO PHÍ VÀ CÁC DỮ LIỆU c o  BẢN ĐẺ XÁC ĐỊNH GIÁ CA MÁY
+SÍT Mã hiệu Loại máy và thiết bịSố ca 
+năm
+Định mức (%) Định 
+mức tiêu 
+hao 
+nhiên 
+liệu, 
+năng 
+lương 
+(lca)
+Nhân
+công
+điều
+khiển
+máy
+Giá
+lương
+nhân
+công
+doanh
+nghiệp
+Nguyên giá 
+tham khảo 
+(VND)
+Giá
+trị
+thú
+hồi
+(%)
+Khấu
+hao
+Sủa
+chữa
+Chi
+phí
+khác
+1 2 3 4 5 6 7 8 9 10 11
+1 M011.001 Máy dò mìn trên cạn (VMH3.CS 
+là đại diện) 258 30 12 5 2 đôi pin 
+đại
+1  X bậc 
+8/10 517.500 129.877.200 10
+2 M011.002
+Máy dò bom trên cạn đến độ sâu 
+5 m (Vallon 1303AI hoặc Vallon 
+EL 1303D2 là đại diện)
+258 30 12 5 3 đôi pin 
+trung
+1  X bậc 
+8/10 517.500 303.046.800 10
+3 M011.003 Máy dò bom trên cạn đển độ sâu 
+lOm (Vet 1  là đại diện) 258 30 12 5 2 X bậc 
+8/10 517.500 595.270.500 10
+4 M011.004 Máy xúc loại < 0,4 m3 280 16 4,8 5 29 Lít 
+diezel
+1  X bậc 
+8/10 517.500 613.644.600 10
+5 M011.005 Máy khoan đất loại xoắn ruột gà 
+có đường kính >76 mm 258 18 5,3 5 19 Lít 
+diezel
+1  X bậc 
+8/10 517.500 38.500.000 10
+»
