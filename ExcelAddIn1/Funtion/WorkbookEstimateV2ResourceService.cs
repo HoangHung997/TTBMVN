@@ -2,7 +2,9 @@ using ExcelAddIn1.Core;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Globalization;
 using System.Linq;
+using System.Runtime.InteropServices;
 using Excel = Microsoft.Office.Interop.Excel;
 
 namespace ExcelAddIn1.Funtion
@@ -141,5 +143,111 @@ namespace ExcelAddIn1.Funtion
                 missing,
                 plan.LogicalResources.Select(item => item.Code));
         }
+
+        public static bool TryReadWorkbookUnitPrice(
+            Excel.Workbook workbook,
+            EstimateV2ResourceRequirement requirement,
+            out decimal value)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+            if (requirement == null)
+                throw new ArgumentNullException(nameof(requirement));
+
+            foreach (string packageIdentity in requirement.PackageIdentities
+                .Where(item => !string.IsNullOrWhiteSpace(item))
+                .Distinct(StringComparer.OrdinalIgnoreCase))
+            {
+                string name = EstimateV2ExcelNames.ResourcePrice(
+                    requirement.Kind,
+                    requirement.Code,
+                    requirement.Unit,
+                    packageIdentity);
+                decimal current;
+                if (TryReadNamedDecimal(workbook, name, out current) &&
+                    current > 0m)
+                {
+                    value = current;
+                    return true;
+                }
+            }
+
+            value = 0m;
+            return false;
+        }
+
+        private static bool TryReadNamedDecimal(
+            Excel.Workbook workbook,
+            string name,
+            out decimal value)
+        {
+            Excel.Names names = null;
+            Excel.Name defined = null;
+            Excel.Range range = null;
+            try
+            {
+                names = workbook.Names;
+                try
+                {
+                    defined = names.Item(name, Type.Missing, Type.Missing);
+                }
+                catch (COMException)
+                {
+                    value = 0m;
+                    return false;
+                }
+
+                range = defined.RefersToRange;
+                object raw = range?.Value2;
+                if (raw == null)
+                {
+                    value = 0m;
+                    return false;
+                }
+
+                try
+                {
+                    value = Convert.ToDecimal(raw, CultureInfo.CurrentCulture);
+                    return true;
+                }
+                catch (Exception ex) when (
+                    ex is FormatException ||
+                    ex is InvalidCastException ||
+                    ex is OverflowException)
+                {
+                    try
+                    {
+                        value = Convert.ToDecimal(raw, CultureInfo.InvariantCulture);
+                        return true;
+                    }
+                    catch (Exception inner) when (
+                        inner is FormatException ||
+                        inner is InvalidCastException ||
+                        inner is OverflowException)
+                    {
+                        value = 0m;
+                        return false;
+                    }
+                }
+            }
+            catch (COMException)
+            {
+                value = 0m;
+                return false;
+            }
+            finally
+            {
+                Release(range);
+                Release(defined);
+                Release(names);
+            }
+        }
+
+        private static void Release(object value)
+        {
+            if (value != null && Marshal.IsComObject(value))
+                Marshal.ReleaseComObject(value);
+        }
+
     }
 }
