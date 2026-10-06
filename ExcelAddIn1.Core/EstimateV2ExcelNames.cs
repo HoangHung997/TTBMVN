@@ -31,6 +31,27 @@ namespace ExcelAddIn1.Core
             return "TTBMVN_V2_INPUT_" + Hash(canonical).Substring(0, 20);
         }
 
+        public static string EstimateTotal(string component)
+        {
+            string normalized =
+                (component ?? string.Empty).Trim().ToUpperInvariant();
+            switch (normalized)
+            {
+                case "VL":
+                    return "TTBMVN_V2_GIADT_VL";
+                case "NC":
+                    return "TTBMVN_V2_GIADT_NC";
+                case "M":
+                    return "TTBMVN_V2_GIADT_M";
+                case "TOTAL":
+                    return "TTBMVN_V2_GIADT_TOTAL";
+                default:
+                    throw new ArgumentException(
+                        "Component tong hop khong hop le: " + component,
+                        nameof(component));
+            }
+        }
+
         public static string RateComponent(
             string rateId,
             string component)
