@@ -48,7 +48,7 @@ Các ảnh này là **reference bắt buộc**, không phải ý tưởng tham k
 | 04 VL-NC-M | `EstimateResourcesPaneView` |
 | 05 DG Cạn | `EstimateUnitRatesPaneView` (`Land`) |
 | 06 DG Nước | `EstimateUnitRatesPaneView` (`InlandWater`) |
-| 07 THKP-TC & Kiểm tra | V2-401 / V2-501 |
+| 07 THKP-TC & Kiểm tra | `EstimateCostSummaryPaneView` (V2-401; V2-501 mở rộng validation) |
 | 08 Thiết lập chung | task settings sau V2-101 |
 | 09 Gói pháp lý & Dữ liệu | package UI on-demand |
 | 10 Báo cáo & Xuất in | report/export phase |
@@ -102,7 +102,32 @@ Implementation V2-301 phải bám trực tiếp `05-DG-Can.png` và `06-DG-Nuoc.
 - sheet in dùng A:H; metadata/helper đặt từ I trở đi và phải ẩn;
 - header bảng đơn giá dùng hai tầng như file mẫu: A:E gộp dọc, F:H có `Thành tiền (đồng)` phía trên `Vật liệu / Nhân công / Máy`.
 
-## 8. Quy tắc mở lại workbook
+## 8. THKP-TC & Kiểm tra
+
+Implementation V2-401 phải bám trực tiếp `07-THKP-TC-Kiem-tra.png`:
+
+- tiêu đề `THKP-TC & Kiểm tra` và subtitle ngắn;
+- 4 metric: Tổng công tác / Đủ đơn giá / Cảnh báo / Lỗi công thức;
+- card xanh lớn `Cập nhật THKP-TC`;
+- khu `Kết quả kiểm tra hồ sơ` với icon trạng thái và nút `Xem chi tiết`;
+- khu `Chức năng khác` gồm Kiểm tra hồ sơ / Xuất báo cáo / Mở thư mục hồ sơ;
+- footer xanh dương nhắc module vẫn mở được khi chưa hoàn thiện THKP.
+
+Quy tắc dữ liệu V2-401:
+
+- trên bảng công tác chuẩn, sau cột Khối lượng phải có 6 cột kết quả: Đơn giá VL / NC / M và Thành tiền VL / NC / M;
+- với mẫu chuẩn A:F thì các cột kết quả là G:L; metadata WorkItem phải được chuyển ra M trở đi hoặc xa hơn nếu workbook đã dùng các cột đó;
+- Đơn giá VL / NC / M phải là công thức tham chiếu workbook Name của RateId; Thành tiền = Khối lượng × Đơn giá, không ghi số kết quả chết;
+- các dòng nhóm/tổng phụ không có WorkItemId không được cộng trùng vào tổng;
+- nhiều bảng/khu vực đã đăng ký được tổng hợp theo WorkItemId, không phụ thuộc số khu vực;
+- `THKP-TC` hiện hữu chỉ được cập nhật các dòng chi phí trực tiếp VL / NC / M / T; các công thức chi phí chung, thu nhập chịu thuế, K1..Kn, VAT và tổng cuối đang có phải được giữ nguyên;
+- không lấy các tỷ lệ minh họa trên ảnh UI làm số pháp lý hard-code;
+- nếu workbook chưa có `THKP-TC`, V2-401 chỉ tạo mẫu an toàn cho phần chi phí trực tiếp và ghi rõ các chi phí pháp lý khác chưa được tự suy đoán;
+- helper tổng hợp của THKP phải đặt ở cột ẩn ngoài vùng in và được neo bằng workbook Name ổn định.
+
+V2-401 chỉ cung cấp kiểm tra liên kết cơ bản để phục vụ màn hình này. Validation đầy đủ (#REF!, #VALUE!, override công thức, orphan/mismatch...) thuộc V2-501.
+
+## 9. Quy tắc mở lại workbook
 
 Khi mở pane:
 
@@ -113,7 +138,7 @@ Khi mở pane:
 - không bắt quét lại bảng đã đăng ký;
 - không dùng RowIndex làm identity.
 
-## 9. Trạng thái triển khai hiện tại
+## 10. Trạng thái triển khai hiện tại
 
 Đã có:
 
@@ -128,5 +153,6 @@ Khi mở pane:
 - Missing package không chặn task pane.
 - VL-NC-M.
 - DG Cạn / DG Nước; DG Biển dùng cùng view và chỉ hiện khi có định mức biển.
+- THKP-TC & Kiểm tra theo ảnh 07; V2-401 đã nối chi phí trực tiếp, V2-501 sẽ mở rộng validation.
 
 Các màn hình còn lại phải tiếp tục cùng phong cách và kích thước này.
