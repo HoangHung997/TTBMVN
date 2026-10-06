@@ -75,10 +75,10 @@ namespace ExcelAddIn1.Funtion
                 throw new InvalidOperationException(
                     "Chua resolve du package cua binding: " +
                     string.Join(" ", preview.MissingPackageBindings));
-            if (preview.UnresolvedLogicalResources.Count > 0)
-                throw new InvalidOperationException(
-                    "Con tai nguyen logic chua rang buoc: " +
-                    string.Join(", ", preview.UnresolvedLogicalResources));
+            var pricePlan = new EstimateV2ResourcePlan(
+                preview.PriceSheetResources,
+                preview.Plan.BoundWorkItemCount,
+                preview.Plan.UniqueNormBindingCount);
 
             EstimateV2State state;
             if (!WorkbookEstimateV2StateService.TryLoad(workbook, out state))
@@ -100,7 +100,7 @@ namespace ExcelAddIn1.Funtion
 
             PriceProfilePortfolio portfolio;
             WorkbookPriceProfilePortfolioService.TryLoad(workbook, out portfolio);
-            PriceProfile profile = ResolveProfile(portfolio, preview.Plan);
+            PriceProfile profile = ResolveProfile(portfolio, pricePlan);
 
             EstimateV2WorkItemState sample = bound[0];
             RegulationPackageBootstrapService.LoadAvailablePackages();
@@ -111,7 +111,7 @@ namespace ExcelAddIn1.Funtion
                 sample.PackageChecksum);
 
             MachineRateCatalog machineCatalog = null;
-            if (preview.Plan.Machines.Count > 0)
+            if (pricePlan.Machines.Count > 0)
             {
                 RegulationDataModule machineModule;
                 if (!bundle.Modules.TryGetValue(
@@ -144,13 +144,13 @@ namespace ExcelAddIn1.Funtion
                 var preserved = CapturePreservedInputs(
                     workbook,
                     sheet,
-                    preview.Plan,
+                    pricePlan,
                     profile);
 
                 ResourceSheetBuild build = BuildSheet(
                     workbook,
                     sheet,
-                    preview.Plan,
+                    pricePlan,
                     packageIdentities[0],
                     profile,
                     machineCatalog,
@@ -185,9 +185,9 @@ namespace ExcelAddIn1.Funtion
 
                 return new WorkbookEstimateV2ResourceWriteResult(
                     sheet.Name,
-                    preview.Plan.Materials.Count,
+                    pricePlan.Materials.Count,
                     build.LaborCount,
-                    preview.Plan.Machines.Count,
+                    pricePlan.Machines.Count,
                     build.FormulaCount,
                     build.InputCount,
                     build.MissingInputCount);
