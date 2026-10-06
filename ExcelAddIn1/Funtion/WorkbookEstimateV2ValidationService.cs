@@ -461,7 +461,7 @@ namespace ExcelAddIn1.Funtion
                     "THKP-TC chưa liên kết đầy đủ",
                     "Cập nhật THKP-TC để khôi phục bốn liên kết VL/NC/M/T.",
                     EstimateV2CostIssueSeverity.Warning,
-                    worksheetName: "THKP-TC",
+                    worksheetName: thkpWorksheetName,
                     recoverable: true));
             }
 
