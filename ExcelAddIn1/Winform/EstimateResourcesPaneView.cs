@@ -240,22 +240,32 @@ namespace ExcelAddIn1.Winform
                 preview = WorkbookEstimateV2ResourceService.BuildPreview(workbook);
                 previewProfile = SelectPreviewProfile();
 
-                materialValue.Text = preview.Plan.Materials.Count.ToString("N0");
-                laborValue.Text = preview.Plan.Labor.Count.ToString("N0");
-                machineValue.Text = preview.Plan.Machines.Count.ToString("N0");
+                EstimateV2ResourceRequirement[] materials = preview.PriceSheetResources
+                    .Where(item => item.Kind == NormResourceKind.Material)
+                    .ToArray();
+                EstimateV2ResourceRequirement[] labor = preview.PriceSheetResources
+                    .Where(item => item.Kind == NormResourceKind.Labor)
+                    .ToArray();
+                EstimateV2ResourceRequirement[] machines = preview.PriceSheetResources
+                    .Where(item => item.Kind == NormResourceKind.Machine)
+                    .ToArray();
+
+                materialValue.Text = materials.Length.ToString("N0");
+                laborValue.Text = labor.Length.ToString("N0");
+                machineValue.Text = machines.Length.ToString("N0");
 
                 var missing = BuildMissingItems();
                 missingValue.Text = missing.Count.ToString("N0");
                 PopulateMissing(missing);
 
                 materialSummary.Text = FormatGroupSummary(
-                    preview.Plan.Materials,
+                    materials,
                     NormResourceKind.Material);
                 laborSummary.Text = FormatGroupSummary(
-                    preview.Plan.Labor,
+                    labor,
                     NormResourceKind.Labor);
                 machineSummary.Text = FormatGroupSummary(
-                    preview.Plan.Machines,
+                    machines,
                     NormResourceKind.Machine);
 
                 if (preview.MissingPackageBindings.Count > 0)
@@ -266,13 +276,6 @@ namespace ExcelAddIn1.Winform
                         (preview.MissingPackageBindings.Count > 2 ? " ..." : string.Empty),
                         true);
                 }
-                else if (preview.UnresolvedLogicalResources.Count > 0)
-                {
-                    ShowStatus(
-                        "Có tài nguyên logic cần ràng buộc tài nguyên thật trước khi sinh đơn giá: " +
-                        string.Join(", ", preview.UnresolvedLogicalResources),
-                        true);
-                }
                 else if (preview.Plan.BoundWorkItemCount == 0)
                 {
                     ShowStatus(
@@ -281,11 +284,15 @@ namespace ExcelAddIn1.Winform
                 }
                 else
                 {
+                    string logicalNote = preview.UnresolvedLogicalResources.Count > 0
+                        ? " Có " + preview.UnresolvedLogicalResources.Count +
+                            " tài nguyên lựa chọn; VL-NC-M đã đưa các phương án giá vào sheet, lựa chọn cụ thể sẽ chốt ở bước đơn giá."
+                        : string.Empty;
                     ShowStatus(
-                        "Đã gom " + preview.Plan.Resources.Count +
-                        " tài nguyên unique từ " + preview.Plan.BoundWorkItemCount +
+                        "Đã gom " + preview.PriceSheetResources.Count +
+                        " tài nguyên giá từ " + preview.Plan.BoundWorkItemCount +
                         " công tác và " + preview.Plan.UniqueNormBindingCount +
-                        " định mức/variant.", false);
+                        " định mức/variant." + logicalNote, false);
                 }
             }
             catch (Exception ex)
@@ -305,7 +312,7 @@ namespace ExcelAddIn1.Winform
             if (preview == null)
                 return result;
 
-            foreach (EstimateV2ResourceRequirement item in preview.Plan.Resources)
+            foreach (EstimateV2ResourceRequirement item in preview.PriceSheetResources)
             {
                 if (!item.RequiresUnitPrice)
                     continue;
@@ -330,18 +337,6 @@ namespace ExcelAddIn1.Winform
                     ResolveName(item.Code),
                     item.Unit,
                     KindText(item.Kind)));
-            }
-
-            foreach (string logical in preview.UnresolvedLogicalResources)
-            {
-                if (result.Any(item => string.Equals(
-                    item.Code, logical, StringComparison.OrdinalIgnoreCase)))
-                    continue;
-                result.Add(new MissingItem(
-                    logical,
-                    "Tài nguyên logic chưa ràng buộc",
-                    string.Empty,
-                    "Máy"));
             }
 
             return result
