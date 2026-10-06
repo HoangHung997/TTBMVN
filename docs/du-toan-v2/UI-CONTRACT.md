@@ -125,7 +125,29 @@ Quy tắc dữ liệu V2-401:
 - nếu workbook chưa có `THKP-TC`, V2-401 chỉ tạo mẫu an toàn cho phần chi phí trực tiếp và ghi rõ các chi phí pháp lý khác chưa được tự suy đoán;
 - helper tổng hợp của THKP phải đặt ở cột ẩn ngoài vùng in và được neo bằng workbook Name ổn định.
 
-V2-401 chỉ cung cấp kiểm tra liên kết cơ bản để phục vụ màn hình này. Validation đầy đủ (#REF!, #VALUE!, override công thức, orphan/mismatch...) thuộc V2-501.
+V2-501 mở rộng chính màn hình 07, **không tạo thêm một kiểu UI khác**:
+
+- nút/card `Kiểm tra hồ sơ` chạy validation đầy đủ nhưng vẫn giữ đúng bố cục ảnh 07;
+- metric `Cảnh báo` đếm WorkItem bị ảnh hưởng theo ID duy nhất, không double-count một công tác vì nhiều lỗi;
+- metric `Lỗi công thức` phải lên đỏ khi có lỗi công thức V2, kể cả lỗi tổng hợp THKP không gắn trực tiếp với một WorkItem;
+- kết quả kiểm tra phải phát hiện tối thiểu:
+  - công tác chưa gắn định mức;
+  - thiếu giá VL/NC/M;
+  - RateId / workbook Name bị thiếu;
+  - công thức V2 bị ghi đè;
+  - `#REF!`, `#VALUE!`, `#N/A` và các lỗi Excel khác trong vùng V2 quản lý;
+  - orphan WorkItem;
+  - WorkItemId trùng;
+  - metadata/state mismatch;
+  - layout cũ có metadata chồng vào vùng G:L;
+- `Xem chi tiết` phải ưu tiên mở đúng sheet/ô lỗi khi xác định được địa chỉ;
+- scan được phép tự reconcile các sửa chữa **an toàn và xác định được** như:
+  - phục hồi WorkItemId theo fingerprint duy nhất;
+  - tách duplicate ID do copy/paste;
+  - phục hồi ô hiển thị định mức từ binding Custom XML;
+- tuyệt đối không tự điền giá thị trường bị thiếu, không tự suy đoán điều kiện định mức và không tự thay công thức pháp lý ngoài vùng V2 quản lý;
+- engine có `RepairRecoverable` để tái sinh công thức/link V2 qua đúng writer sở hữu (VL-NC-M / DG / Gia DT TC / THKP-TC); thao tác kiểm tra thông thường không âm thầm ghi lại giá đầu vào của người dùng;
+- bước 6 ở Tổng quan chỉ được `Đã xong` khi THKP đã link và validation không còn warning/error.
 
 ## 9. Quy tắc mở lại workbook
 
@@ -153,6 +175,6 @@ Khi mở pane:
 - Missing package không chặn task pane.
 - VL-NC-M.
 - DG Cạn / DG Nước; DG Biển dùng cùng view và chỉ hiện khi có định mức biển.
-- THKP-TC & Kiểm tra theo ảnh 07; V2-401 đã nối chi phí trực tiếp, V2-501 sẽ mở rộng validation.
+- THKP-TC & Kiểm tra theo ảnh 07; V2-401 đã nối chi phí trực tiếp và V2-501 đã mở rộng validation/phục hồi an toàn.
 
 Các màn hình còn lại phải tiếp tục cùng phong cách và kích thước này.
