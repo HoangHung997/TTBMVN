@@ -365,27 +365,9 @@ namespace ExcelAddIn1
                 openedForms.Remove(workbookKey);
             }
 
-            try
-            {
-                using (var setupForm = new FrmProjectSetup(
-                    currentWorkbook,
-                    Globals.ThisAddIn.SheetChangeCoordinator))
-                {
-                    if (setupForm.ShowDialog(excelWindow) != DialogResult.OK)
-                        return;
-                }
-            }
-            catch (Exception ex)
-            {
-                RuntimeLogger.Log(ex, "Open project setup");
-                MessageBox.Show(
-                    ex.Message,
-                    "Không mở được thiết lập dự án",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-                return;
-            }
-
+            // V2: mở module Dự toán ngay, không dùng Project Setup làm gate khởi động.
+            // Mapping sheet và package pháp lý sẽ được kiểm tra theo từng chức năng cần dùng,
+            // thay vì chặn toàn bộ workspace ngay từ lúc bấm nút Dự toán.
             Dutoan newForm = new Dutoan(
                 currentWorkbook,
                 Globals.ThisAddIn.SheetChangeCoordinator);
