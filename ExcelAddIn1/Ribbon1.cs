@@ -342,44 +342,29 @@ namespace ExcelAddIn1
             Excel.Workbook currentWorkbook = Globals.ThisAddIn.Application.ActiveWorkbook;
             if (currentWorkbook == null)
             {
-                MessageBox.Show("Không có file Excel nào đang mở!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(
+                    "Không có file Excel nào đang mở!",
+                    "Thông báo",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
                 return;
             }
-            string workbookKey = GetWorkbookWindowKey(currentWorkbook);
-            IWin32Window excelWindow = new ExcelWindowHandle(
-                new IntPtr(Globals.ThisAddIn.Application.Hwnd));
 
-            Dutoan existingForm;
-            if (openedForms.TryGetValue(workbookKey, out existingForm))
+            try
             {
-                if (existingForm != null && !existingForm.IsDisposed)
-                {
-                    if (!existingForm.Visible)
-                        existingForm.Show(excelWindow);
-                    if (existingForm.WindowState == FormWindowState.Minimized)
-                        existingForm.WindowState = FormWindowState.Normal;
-                    existingForm.BringToFront();
-                    existingForm.Activate();
-                    return;
-                }
-                openedForms.Remove(workbookKey);
+                // V2 UI: sử dụng CustomTaskPane dock bên phải theo bộ ảnh UI đã chốt.
+                // Không mở form modal/project setup trước, không chiếm vùng làm việc Excel.
+                EstimateTaskPaneManager.Show(currentWorkbook);
             }
-
-            // V2: mở module Dự toán ngay, không dùng Project Setup làm gate khởi động.
-            // Mapping sheet và package pháp lý sẽ được kiểm tra theo từng chức năng cần dùng,
-            // thay vì chặn toàn bộ workspace ngay từ lúc bấm nút Dự toán.
-            Dutoan newForm = new Dutoan(
-                currentWorkbook,
-                Globals.ThisAddIn.SheetChangeCoordinator);
-            newForm.FormClosed += (s, args) =>
+            catch (Exception ex)
             {
-                Dutoan tracked;
-                if (openedForms.TryGetValue(workbookKey, out tracked) && ReferenceEquals(tracked, newForm))
-                    openedForms.Remove(workbookKey);
-            };
-            openedForms[workbookKey] = newForm;
-            newForm.Show(excelWindow);
-            newForm.Activate();
+                RuntimeLogger.Log(ex, "Open estimate task pane");
+                MessageBox.Show(
+                    ex.Message,
+                    "Không mở được Trợ lý Dự toán",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
         }
 
         private static string GetWorkbookWindowKey(Excel.Workbook workbook)
