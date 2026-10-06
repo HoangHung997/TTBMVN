@@ -314,6 +314,33 @@ namespace ExcelAddIn1.Funtion
                                 .EstimateAppendix)
                     .ToList();
 
+            List<SheetSnapshot> canonical =
+                candidates
+                    .Where(item =>
+                        item.Classification.IsCanonicalName)
+                    .ToList();
+
+            if (canonical.Count == 1)
+            {
+                // Khi đã có sheet chuẩn, các sheet Gia DT TC_* còn lại thường
+                // là bản audience/copy cũ. Không tự đăng ký để tránh cộng trùng.
+                candidates = canonical;
+            }
+            else if (canonical.Count == 0 &&
+                candidates.Count > 1)
+            {
+                messages.Add(
+                    "Phát hiện nhiều bảng Gia DT TC legacy (ví dụ VT/DN/bản sao). " +
+                    "Không tự chọn hoặc đăng ký để tránh cộng trùng; hãy chọn đúng bảng ở màn hình Công tác.");
+                return 0;
+            }
+            else if (canonical.Count > 1)
+            {
+                messages.Add(
+                    "Phát hiện nhiều sheet cùng mang tên chuẩn Gia DT TC; không tự migration.");
+                return 0;
+            }
+
             if (candidates.Count == 1 &&
                 !candidates[0].Classification
                     .IsCanonicalName &&
