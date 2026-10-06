@@ -1068,9 +1068,23 @@ namespace ExcelAddIn1.Funtion
                                 cell.Formula,
                                 CultureInfo.InvariantCulture) ??
                             string.Empty;
-                        if (!formula.StartsWith(
-                            "=",
-                            StringComparison.Ordinal))
+                        string expectedFormula;
+                        bool hasExactExpected =
+                            TryBuildExpectedRateComponentFormula(
+                                cell,
+                                rateId,
+                                component,
+                                out expectedFormula);
+                        bool overwritten =
+                            !formula.StartsWith(
+                                "=",
+                                StringComparison.Ordinal) ||
+                            (hasExactExpected &&
+                             !EstimateV2ValidationRules
+                                .FormulaEquivalent(
+                                    formula,
+                                    expectedFormula));
+                        if (overwritten)
                         {
                             Excel.Worksheet sheet =
                                 cell.Worksheet;
@@ -1094,7 +1108,9 @@ namespace ExcelAddIn1.Funtion
                                         address,
                                         string.Empty,
                                         formula,
-                                        "formula",
+                                        hasExactExpected
+                                            ? expectedFormula
+                                            : "formula",
                                         "RATE_FORMULA_OVERWRITTEN");
                                 foreach (string id in affected)
                                 {
@@ -1142,6 +1158,125 @@ namespace ExcelAddIn1.Funtion
                         Release(cell);
                     }
                 }
+            }
+        }
+
+        private static bool TryBuildExpectedRateComponentFormula(
+            Excel.Range cell,
+            string rateId,
+            string component,
+            out string expected)
+        {
+            expected = string.Empty;
+            if (cell == null)
+                return false;
+
+            string part =
+                (component ?? string.Empty)
+                    .Trim()
+                    .ToUpperInvariant();
+            if (part == "TOTAL")
+            {
+                if (cell.Row <= 1)
+                    return false;
+                int sourceRow = cell.Row - 1;
+                expected =
+                    "=SUM(F" +
+                    sourceRow.ToString(
+                        CultureInfo.InvariantCulture) +
+                    ":H" +
+                    sourceRow.ToString(
+                        CultureInfo.InvariantCulture) +
+                    ")";
+                return true;
+            }
+
+            int amountColumn;
+            switch (part)
+            {
+                case "VL":
+                    amountColumn = 6;
+                    break;
+                case "NC":
+                    amountColumn = 7;
+                    break;
+                case "M":
+                    amountColumn = 8;
+                    break;
+                default:
+                    return false;
+            }
+
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet = cell.Worksheet;
+                int firstRow =
+                    Math.Max(1, cell.Row - 250);
+                for (int row = cell.Row - 1;
+                    row >= firstRow;
+                    row--)
+                {
+                    string rowType =
+                        ReadText(sheet, row, 9);
+                    string rowRateId =
+                        ReadText(sheet, row, 10);
+                    if (!string.Equals(
+                        rowType,
+                        "SECTION_TOTAL",
+                        StringComparison.OrdinalIgnoreCase) ||
+                        !string.Equals(
+                            rowRateId,
+                            rateId,
+                            StringComparison.OrdinalIgnoreCase))
+                    {
+                        continue;
+                    }
+
+                    Excel.Range candidate = null;
+                    try
+                    {
+                        candidate =
+                            sheet.Cells[row, amountColumn]
+                                as Excel.Range;
+                        string formula =
+                            Convert.ToString(
+                                candidate?.Formula,
+                                CultureInfo.InvariantCulture) ??
+                            string.Empty;
+                        if (!formula.StartsWith(
+                            "=",
+                            StringComparison.Ordinal))
+                        {
+                            continue;
+                        }
+
+                        string letter =
+                            ExcelColumnAddress.ToLetters(
+                                amountColumn);
+                        expected =
+                            "=SUM(" +
+                            letter +
+                            row.ToString(
+                                CultureInfo.InvariantCulture) +
+                            ":" +
+                            letter +
+                            row.ToString(
+                                CultureInfo.InvariantCulture) +
+                            ")";
+                        return true;
+                    }
+                    finally
+                    {
+                        Release(candidate);
+                    }
+                }
+
+                return false;
+            }
+            finally
+            {
+                Release(sheet);
             }
         }
 
