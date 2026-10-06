@@ -347,6 +347,8 @@ namespace ExcelAddIn1.Funtion
                         .ReadAssignments(workbook);
             string[] previousSeaKeys =
                 CaptureSeaSheetKeys(workbook);
+            EstimateV2Settings previousSettings =
+                Load(workbook);
 
             using (new ExcelWriteContext(
                 workbook.Application))
@@ -429,6 +431,10 @@ namespace ExcelAddIn1.Funtion
                                 Release(oldSea);
                             }
                         }
+
+                        Save(
+                            workbook,
+                            previousSettings);
                     }
                     catch (Exception rollbackException)
                     {
