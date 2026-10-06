@@ -22,17 +22,42 @@ namespace ExcelAddIn1.Funtion
             string title,
             string detail,
             EstimateV2CostIssueSeverity severity)
+            : this(
+                code,
+                title,
+                detail,
+                severity,
+                string.Empty,
+                string.Empty,
+                false)
+        {
+        }
+
+        internal EstimateV2CostIssue(
+            string code,
+            string title,
+            string detail,
+            EstimateV2CostIssueSeverity severity,
+            string worksheetName,
+            string address,
+            bool recoverable)
         {
             Code = (code ?? string.Empty).Trim();
             Title = (title ?? string.Empty).Trim();
             Detail = (detail ?? string.Empty).Trim();
             Severity = severity;
+            WorksheetName = (worksheetName ?? string.Empty).Trim();
+            Address = (address ?? string.Empty).Trim();
+            Recoverable = recoverable;
         }
 
         public string Code { get; }
         public string Title { get; }
         public string Detail { get; }
         public EstimateV2CostIssueSeverity Severity { get; }
+        public string WorksheetName { get; }
+        public string Address { get; }
+        public bool Recoverable { get; }
     }
 
     public sealed class WorkbookEstimateV2CostPreview
@@ -85,173 +110,27 @@ namespace ExcelAddIn1.Funtion
             if (workbook == null)
                 throw new ArgumentNullException(nameof(workbook));
 
-            try
-            {
-                WorkbookEstimateV2RegistrationService.ReconcileAll(workbook);
-            }
-            catch (Exception ex)
-            {
-                RuntimeLogger.Log(
-                    ex,
-                    "Reconcile before V2 cost preview");
-            }
+            WorkbookEstimateV2ValidationReport validation =
+                WorkbookEstimateV2ValidationService.Scan(workbook);
 
-            EstimateV2State state;
-            if (!WorkbookEstimateV2StateService.TryLoad(
-                workbook,
-                out state))
-            {
-                state = EstimateV2State.Empty(DateTime.UtcNow);
-            }
-
-            var packageErrors = new List<string>();
-            EstimateV2CostLinkPlan plan = BuildLinkPlan(
-                workbook,
-                state,
-                packageErrors);
-
-            var generatedByRate =
-                new Dictionary<string, bool>(
-                    StringComparer.OrdinalIgnoreCase);
-            foreach (string rateId in plan.Links
-                .Where(item => item.IsReady)
-                .Select(item => item.RateId)
-                .Distinct(StringComparer.OrdinalIgnoreCase))
-            {
-                generatedByRate[rateId] =
-                    WorkbookEstimateV2RateService.IsGenerated(
-                        workbook,
-                        rateId);
-            }
-
-            int rated = plan.Links.Count(item =>
-                item.IsReady &&
-                generatedByRate.TryGetValue(
-                    item.RateId,
-                    out bool generated) &&
-                generated);
-
-            int warningWorkItems = plan.Links.Count(item =>
-                item.Status != EstimateV2CostLinkStatus.Ready ||
-                !generatedByRate.TryGetValue(
-                    item.RateId,
-                    out bool generated) ||
-                !generated ||
-                item.RequiresConditionReview);
-
-            int formulaErrors = CountFormulaErrorWorkItems(
-                workbook);
-
-            bool thkpLinked = IsThkpDirectCostLinked(workbook);
-            var issues = new List<EstimateV2CostIssue>();
-
-            if (plan.UnboundCount > 0)
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "UNBOUND",
-                    "Còn " +
-                        plan.UnboundCount.ToString("N0") +
-                        " công tác chưa gắn định mức",
-                    "Gắn định mức trước khi tổng hợp đơn giá.",
-                    EstimateV2CostIssueSeverity.Warning));
-            }
-
-            int missingGenerated = Math.Max(
-                0,
-                plan.ReadyCount - rated);
-            if (missingGenerated > 0)
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "MISSING_RATE",
-                    "Còn " +
-                        missingGenerated.ToString("N0") +
-                        " công tác chưa có đơn giá",
-                    "Sinh/cập nhật DG Cạn, DG Nước hoặc DG Biển trước khi cập nhật THKP-TC.",
-                    EstimateV2CostIssueSeverity.Warning));
-            }
-
-            if (plan.MissingRateCount > 0)
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "RATE_NOT_RESOLVED",
-                    plan.MissingRateCount.ToString("N0") +
-                        " công tác chưa resolve được RateId",
-                    "Kiểm tra package, mã định mức và variant đã gắn.",
-                    EstimateV2CostIssueSeverity.Warning));
-            }
-
-            foreach (string packageError in packageErrors.Take(2))
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "PACKAGE",
-                    "Thiếu dữ liệu package",
-                    packageError,
-                    EstimateV2CostIssueSeverity.Warning));
-            }
-
-            if (plan.ConditionReviewCount > 0)
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "CONDITION_REVIEW",
-                    plan.ConditionReviewCount.ToString("N0") +
-                        " công tác cần rà soát điều kiện định mức",
-                    "Các rate có adjustment/constraint vẫn dùng hao phí cơ sở cho tới khi điều kiện được lưu đầy đủ.",
-                    EstimateV2CostIssueSeverity.Warning));
-            }
-
-            if (plan.UnboundCount == 0 &&
-                plan.TotalCount > 0)
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "BINDING_OK",
-                    "Tất cả công tác đã gắn định mức",
-                    "Không còn WorkItem chưa có binding định mức.",
-                    EstimateV2CostIssueSeverity.Info));
-            }
-
-            if (rated == plan.TotalCount &&
-                plan.TotalCount > 0)
-            {
-                issues.Add(new EstimateV2CostIssue(
-                    "RATE_OK",
-                    "Đủ đơn giá cho tất cả công tác",
-                    "Mỗi WorkItem đã resolve tới RateId có workbook Name VL/NC/M.",
-                    EstimateV2CostIssueSeverity.Info));
-            }
-
-            issues.Add(new EstimateV2CostIssue(
-                "FORMULA",
-                formulaErrors == 0
-                    ? "Không phát hiện lỗi công thức (#REF!)"
-                    : "Phát hiện " +
-                        formulaErrors.ToString("N0") +
-                        " công tác có lỗi công thức",
-                formulaErrors == 0
-                    ? "Các ô đơn giá/thành tiền đang đọc được bình thường."
-                    : "Cần cập nhật lại liên kết hoặc kiểm tra workbook Name.",
-                formulaErrors == 0
-                    ? EstimateV2CostIssueSeverity.Info
-                    : EstimateV2CostIssueSeverity.Error));
-
-            issues.Add(new EstimateV2CostIssue(
-                "THKP",
-                thkpLinked
-                    ? "Số liệu tổng hợp khớp"
-                    : "THKP-TC chưa được cập nhật bằng liên kết V2",
-                thkpLinked
-                    ? "Tổng THKP-TC liên kết với VL, NC, M và T từ các bảng chi tiết."
-                    : "Bấm Cập nhật THKP-TC để tạo/cập nhật liên kết.",
-                thkpLinked
-                    ? EstimateV2CostIssueSeverity.Info
-                    : EstimateV2CostIssueSeverity.Warning));
+            var issues = validation.Findings
+                .Select(item => new EstimateV2CostIssue(
+                    item.Code,
+                    item.Title,
+                    item.Detail,
+                    item.Severity,
+                    item.WorksheetName,
+                    item.Address,
+                    item.Recoverable))
+                .ToArray();
 
             return new WorkbookEstimateV2CostPreview(
-                plan,
-                rated,
-                warningWorkItems,
-                formulaErrors,
-                thkpLinked,
-                packageErrors,
+                validation.Plan,
+                validation.RatedWorkItemCount,
+                validation.WarningWorkItemCount,
+                validation.FormulaErrorWorkItemCount,
+                validation.ThkpLinked,
+                validation.PackageErrors,
                 issues);
         }
 
