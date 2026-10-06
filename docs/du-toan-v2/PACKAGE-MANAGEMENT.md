@@ -2,6 +2,7 @@
 
 Ngay: 2026-10-06. Trang thai: DONE implementation; build/Core va UI smoke PASS;
 full Excel regression va doi chieu tai chinh van pending.
+Commit implementation: `44fb906`.
 
 ## Diem vao va luong su dung
 
