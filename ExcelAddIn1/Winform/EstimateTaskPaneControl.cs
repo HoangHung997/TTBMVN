@@ -654,37 +654,8 @@ namespace ExcelAddIn1.Winform
                 Font = new Font("Segoe UI", 8.8f),
                 ForeColor = TextMuted
             };
-            var settingsButton = new Button
-            {
-                Size = new Size(34, 34),
-                FlatStyle = FlatStyle.Flat,
-                BackColor = Color.White,
-                ForeColor = TextMuted,
-                Image = EstimateUiIcons.Create(
-                    EstimateUiIconKind.Settings,
-                    21,
-                    GreenDark),
-                Cursor = Cursors.Hand,
-                Anchor = AnchorStyles.Top | AnchorStyles.Right,
-                TabStop = false
-            };
-            settingsButton.FlatAppearance.BorderSize = 0;
-            settingsButton.Click += (s, e) => ShowSettings();
-
             panel.Controls.Add(title);
             panel.Controls.Add(subtitle);
-            panel.Controls.Add(settingsButton);
-            panel.Resize += (s, e) =>
-            {
-                settingsButton.Location =
-                    new Point(
-                        panel.ClientSize.Width - 36,
-                        2);
-                subtitle.Width =
-                    Math.Max(
-                        150,
-                        panel.ClientSize.Width - 42);
-            };
             return panel;
         }
 
