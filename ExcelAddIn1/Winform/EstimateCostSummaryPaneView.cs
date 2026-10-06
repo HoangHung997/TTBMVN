@@ -753,7 +753,7 @@ namespace ExcelAddIn1.Winform
                 "THKP",
                 StringComparison.OrdinalIgnoreCase))
             {
-                ActivateSheet("THKP-TC");
+                ActivateCostSummarySheet();
                 return;
             }
 
@@ -823,7 +823,7 @@ namespace ExcelAddIn1.Winform
 
         private void ShowReportSheet()
         {
-            if (!ActivateSheet("THKP-TC"))
+            if (!ActivateCostSummarySheet())
             {
                 ShowStatus(
                     "Chưa có THKP-TC. Hãy cập nhật THKP-TC trước.",
@@ -832,9 +832,31 @@ namespace ExcelAddIn1.Winform
             }
 
             ShowStatus(
-                "Đã mở THKP-TC. Chức năng xuất PDF/báo cáo hoàn chỉnh " +
-                "được giữ cho task Báo cáo & Xuất in; V2-401 không tự tạo file ngoài.",
+                "Đã mở bảng THKP-TC hiện hành. Chức năng xuất PDF/báo cáo hoàn chỉnh " +
+                "được giữ cho task Báo cáo & Xuất in; V2 không tự tạo file ngoài ở bước này.",
                 false);
+        }
+
+        private bool ActivateCostSummarySheet()
+        {
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            WorksheetRole.CostSummary,
+                            "THKP-TC");
+                if (sheet == null)
+                    return false;
+                sheet.Activate();
+                return true;
+            }
+            finally
+            {
+                Release(sheet);
+            }
         }
 
         private void OpenWorkbookFolder()
@@ -869,6 +891,7 @@ namespace ExcelAddIn1.Winform
 
         private void ActivateFirstRegisteredSource()
         {
+            Excel.Worksheet sheet = null;
             try
             {
                 EstimateV2RegisteredSource source =
@@ -877,10 +900,20 @@ namespace ExcelAddIn1.Winform
                         .FirstOrDefault();
                 if (source == null)
                     return;
-                ActivateSheet(source.WorksheetName);
+
+                sheet =
+                    WorkbookEstimateV2CostLinkService
+                        .ResolveWorksheet(
+                            workbook,
+                            source);
+                sheet?.Activate();
             }
             catch
             {
+            }
+            finally
+            {
+                Release(sheet);
             }
         }
 
