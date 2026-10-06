@@ -235,7 +235,7 @@ namespace ExcelAddIn1.Winform
                     "Kiểm tra dữ liệu, công thức",
                     EstimateUiIconKind.Document,
                     Green,
-                    RefreshPreview),
+                    RunValidationCheck),
                 0,
                 0);
             actions.Controls.Add(
@@ -729,8 +729,26 @@ namespace ExcelAddIn1.Winform
             if (issue == null)
                 return;
 
-            if (string.Equals(
-                issue.Code,
+            if (issue.WorksheetName.Length > 0)
+            {
+                if (ActivateSheet(issue.WorksheetName) &&
+                    issue.Address.Length > 0)
+                {
+                    SelectAddress(
+                        issue.WorksheetName,
+                        issue.Address);
+                }
+
+                if (issue.Recoverable)
+                {
+                    ShowStatus(
+                        "Đã mở vị trí lỗi. Các lỗi liên kết/công thức V2 có thể khôi phục bằng chức năng cập nhật tương ứng; giá đầu vào thiếu phải do người dùng nhập.",
+                        true);
+                }
+                return;
+            }
+
+            if (issue.Code.StartsWith(
                 "THKP",
                 StringComparison.OrdinalIgnoreCase))
             {
@@ -739,6 +757,78 @@ namespace ExcelAddIn1.Winform
             }
 
             ActivateFirstRegisteredSource();
+        }
+
+        private void RunValidationCheck()
+        {
+            try
+            {
+                WorkbookEstimateV2ValidationReport report =
+                    WorkbookEstimateV2ValidationService.Scan(
+                        workbook);
+                RefreshPreview();
+
+                int errors = report.Findings.Count(item =>
+                    item.Severity ==
+                        EstimateV2CostIssueSeverity.Error);
+                int warnings = report.Findings.Count(item =>
+                    item.Severity ==
+                        EstimateV2CostIssueSeverity.Warning);
+
+                if (errors == 0 &&
+                    warnings == 0)
+                {
+                    ShowStatus(
+                        "Kiểm tra hồ sơ hoàn tất: không phát hiện lỗi/cảnh báo trong các vùng V2 đang quản lý.",
+                        false);
+                }
+                else
+                {
+                    ShowStatus(
+                        "Kiểm tra hồ sơ hoàn tất: " +
+                        errors.ToString("N0") +
+                        " lỗi, " +
+                        warnings.ToString("N0") +
+                        " cảnh báo. Các lỗi ID/ô định mức an toàn đã được reconcile tự động.",
+                        true);
+                }
+            }
+            catch (Exception ex)
+            {
+                ShowStatus(
+                    "Không kiểm tra được hồ sơ: " +
+                    ex.Message,
+                    true);
+            }
+        }
+
+        private void SelectAddress(
+            string worksheetName,
+            string address)
+        {
+            Excel.Sheets sheets = null;
+            Excel.Worksheet sheet = null;
+            Excel.Range range = null;
+            try
+            {
+                sheets = workbook.Worksheets;
+                sheet =
+                    sheets.Item[worksheetName]
+                        as Excel.Worksheet;
+                if (sheet == null)
+                    return;
+                range = sheet.Range[address];
+                range.Select();
+            }
+            catch
+            {
+            }
+            finally
+            {
+                Release(range);
+                Release(sheet);
+                Release(sheets);
+            }
         }
 
         private void ShowReportSheet()
