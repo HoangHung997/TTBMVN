@@ -929,7 +929,7 @@ namespace ExcelAddIn1.Winform
                 {
                     Image =
                         EstimateUiIcons.Create(
-                            EstimateUiIconKind.Settings,
+                            EstimateUiIconKind.Info,
                             17,
                             Color.FromArgb(
                                 49, 78, 104)),
