@@ -26,7 +26,8 @@ namespace ExcelAddIn1.Funtion
             EstimateV2Settings settings,
             IEnumerable<WorkbookSheetDescriptor> sheets,
             IReadOnlyDictionary<EstimateV2OutputSlot, string> sheetKeys,
-            bool metadataValid)
+            bool metadataValid,
+            int mappingLossCount)
         {
             Settings = settings ?? throw new ArgumentNullException(nameof(settings));
             Sheets = new ReadOnlyCollection<WorkbookSheetDescriptor>(
@@ -40,12 +41,15 @@ namespace ExcelAddIn1.Funtion
                         item => item.Key,
                         item => item.Value));
             MetadataValid = metadataValid;
+            MappingLossCount = Math.Max(0, mappingLossCount);
         }
 
         public EstimateV2Settings Settings { get; }
         public IReadOnlyList<WorkbookSheetDescriptor> Sheets { get; }
         public IReadOnlyDictionary<EstimateV2OutputSlot, string> SheetKeys { get; }
         public bool MetadataValid { get; }
+        public int MappingLossCount { get; }
+        public bool MappingLossDetected => MappingLossCount > 0;
 
         public int ConfiguredSheetCount =>
             SheetKeys.Values.Count(value =>
@@ -77,6 +81,8 @@ namespace ExcelAddIn1.Funtion
 
         private const string UnitRateEnvironmentProperty =
             "TTBMVN.EstimateV2.UnitRateEnvironment";
+        private const string OutputMapPrefix =
+            "TTBMVN.EstimateV2.OutputMap.";
 
         private static readonly EstimateV2OutputSlot[] Slots =
         {
@@ -273,20 +279,42 @@ namespace ExcelAddIn1.Funtion
                     .CaptureSnapshot(workbook);
             var mappings =
                 new Dictionary<EstimateV2OutputSlot, string>();
+            int mappingLossCount = 0;
 
             foreach (EstimateV2OutputSlot slot in Slots)
             {
-                mappings[slot] =
+                string stored =
+                    ReadOutputMap(
+                        workbook,
+                        slot);
+                string resolved =
                     ResolveMappedSheetKey(
                         workbook,
                         slot);
+
+                if (stored.Length > 0)
+                {
+                    mappings[slot] = stored;
+                    if (!MappingIdentityMatches(
+                        workbook,
+                        slot,
+                        stored))
+                    {
+                        mappingLossCount++;
+                    }
+                }
+                else
+                {
+                    mappings[slot] = resolved;
+                }
             }
 
             return new WorkbookEstimateV2SettingsSnapshot(
                 Load(workbook),
                 sheets,
                 mappings,
-                IsMetadataValid(workbook));
+                IsMetadataValid(workbook),
+                mappingLossCount);
         }
 
         public static void SaveConfiguration(
@@ -349,6 +377,12 @@ namespace ExcelAddIn1.Funtion
                 CaptureSeaSheetKeys(workbook);
             EstimateV2Settings previousSettings =
                 Load(workbook);
+            var previousOutputMaps =
+                Slots.ToDictionary(
+                    slot => slot,
+                    slot => ReadOutputMap(
+                        workbook,
+                        slot));
 
             using (new ExcelWriteContext(
                 workbook.Application))
@@ -400,6 +434,14 @@ namespace ExcelAddIn1.Funtion
                         }
                     }
 
+                    foreach (EstimateV2OutputSlot slot in Slots)
+                    {
+                        WriteOutputMap(
+                            workbook,
+                            slot,
+                            requested[slot]);
+                    }
+
                     Save(workbook, settings);
                 }
                 catch
@@ -432,6 +474,14 @@ namespace ExcelAddIn1.Funtion
                             }
                         }
 
+                        foreach (EstimateV2OutputSlot slot in Slots)
+                        {
+                            WriteOutputMap(
+                                workbook,
+                                slot,
+                                previousOutputMaps[slot]);
+                        }
+
                         Save(
                             workbook,
                             previousSettings);
@@ -444,6 +494,127 @@ namespace ExcelAddIn1.Funtion
                     }
                     throw;
                 }
+            }
+        }
+
+        public static int CountMappingLoss(
+            Excel.Workbook workbook)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+
+            int count = 0;
+            foreach (EstimateV2OutputSlot slot in Slots)
+            {
+                string stored =
+                    ReadOutputMap(
+                        workbook,
+                        slot);
+                if (stored.Length > 0 &&
+                    !MappingIdentityMatches(
+                        workbook,
+                        slot,
+                        stored))
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        private static bool MappingIdentityMatches(
+            Excel.Workbook workbook,
+            EstimateV2OutputSlot slot,
+            string sheetKey)
+        {
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet = FindWorksheetByKey(
+                    workbook,
+                    sheetKey);
+                if (sheet == null)
+                    return false;
+
+                WorksheetRole? role =
+                    RoleForSlot(slot);
+                if (role.HasValue)
+                {
+                    WorksheetRole actual;
+                    return WorksheetRoleService.TryGetRole(
+                        sheet,
+                        out actual) &&
+                        actual == role.Value;
+                }
+
+                if (slot ==
+                    EstimateV2OutputSlot.UnitRateSea)
+                {
+                    return string.Equals(
+                        ReadWorksheetProperty(
+                            sheet,
+                            UnitRateEnvironmentProperty),
+                        EstimateV2RateEnvironment.Sea
+                            .ToString(),
+                        StringComparison.OrdinalIgnoreCase);
+                }
+
+                return false;
+            }
+            finally
+            {
+                Release(sheet);
+            }
+        }
+
+        private static string ReadOutputMap(
+            Excel.Workbook workbook,
+            EstimateV2OutputSlot slot)
+        {
+            string value;
+            return TryReadProperty(
+                    workbook,
+                    OutputMapPrefix +
+                    slot.ToString(),
+                    out value)
+                ? (value ?? string.Empty).Trim()
+                : string.Empty;
+        }
+
+        private static void WriteOutputMap(
+            Excel.Workbook workbook,
+            EstimateV2OutputSlot slot,
+            string sheetKey)
+        {
+            string name =
+                OutputMapPrefix +
+                slot.ToString();
+            string value =
+                (sheetKey ?? string.Empty)
+                    .Trim();
+
+            object properties = null;
+            try
+            {
+                properties =
+                    workbook.CustomDocumentProperties;
+                if (value.Length == 0)
+                {
+                    DeleteProperty(
+                        properties,
+                        name);
+                }
+                else
+                {
+                    SetProperty(
+                        properties,
+                        name,
+                        value);
+                }
+            }
+            finally
+            {
+                Release(properties);
             }
         }
 
@@ -908,6 +1079,37 @@ namespace ExcelAddIn1.Funtion
 
             value = null;
             return false;
+        }
+
+        private static void DeleteProperty(
+            object propertiesObject,
+            string name)
+        {
+            dynamic properties = propertiesObject;
+            for (int index = properties.Count;
+                index >= 1;
+                index--)
+            {
+                object propertyObject = null;
+                try
+                {
+                    dynamic property = properties[index];
+                    propertyObject = property;
+                    if (string.Equals(
+                        Convert.ToString(
+                            property.Name,
+                            CultureInfo.InvariantCulture),
+                        name,
+                        StringComparison.OrdinalIgnoreCase))
+                    {
+                        property.Delete();
+                    }
+                }
+                finally
+                {
+                    Release(propertyObject);
+                }
+            }
         }
 
         private static void SetProperty(
