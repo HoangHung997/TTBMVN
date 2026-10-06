@@ -14,6 +14,7 @@ namespace ExcelAddIn1.Core
     {
         public EstimateV2WorkItemState(
             string workItemId,
+            string sourceKey,
             string normCode,
             string variantCode,
             string packageId,
@@ -23,6 +24,7 @@ namespace ExcelAddIn1.Core
             bool isOrphaned)
         {
             WorkItemId = NormalizeId(workItemId);
+            SourceKey = Clean(sourceKey);
             NormCode = Clean(normCode);
             VariantCode = Clean(variantCode);
             PackageId = Clean(packageId);
@@ -33,6 +35,7 @@ namespace ExcelAddIn1.Core
         }
 
         public string WorkItemId { get; }
+        public string SourceKey { get; }
         public string NormCode { get; }
         public string VariantCode { get; }
         public string PackageId { get; }
@@ -51,6 +54,7 @@ namespace ExcelAddIn1.Core
         {
             return new EstimateV2WorkItemState(
                 WorkItemId,
+                SourceKey,
                 normCode,
                 variantCode,
                 packageId,
@@ -64,6 +68,7 @@ namespace ExcelAddIn1.Core
         {
             return new EstimateV2WorkItemState(
                 WorkItemId,
+                SourceKey,
                 string.Empty,
                 string.Empty,
                 string.Empty,
@@ -73,10 +78,25 @@ namespace ExcelAddIn1.Core
                 IsOrphaned);
         }
 
+        public EstimateV2WorkItemState WithSourceKey(string sourceKey)
+        {
+            return new EstimateV2WorkItemState(
+                WorkItemId,
+                sourceKey,
+                NormCode,
+                VariantCode,
+                PackageId,
+                DataVersion,
+                Kind,
+                Fingerprint,
+                IsOrphaned);
+        }
+
         public EstimateV2WorkItemState WithFingerprint(string fingerprint)
         {
             return new EstimateV2WorkItemState(
                 WorkItemId,
+                SourceKey,
                 NormCode,
                 VariantCode,
                 PackageId,
@@ -90,6 +110,7 @@ namespace ExcelAddIn1.Core
         {
             return new EstimateV2WorkItemState(
                 WorkItemId,
+                SourceKey,
                 NormCode,
                 VariantCode,
                 PackageId,
@@ -289,6 +310,7 @@ namespace ExcelAddIn1.Core
                     new XElement(
                         Ns + "workItem",
                         new XAttribute("id", item.WorkItemId),
+                        new XAttribute("sourceKey", item.SourceKey),
                         new XAttribute("normCode", item.NormCode),
                         new XAttribute("variantCode", item.VariantCode),
                         new XAttribute("packageId", item.PackageId),
@@ -345,6 +367,7 @@ namespace ExcelAddIn1.Core
                 var items = root.Elements(Ns + "workItem")
                     .Select(element => new EstimateV2WorkItemState(
                         RequiredAttribute(element, "id"),
+                        OptionalAttribute(element, "sourceKey"),
                         OptionalAttribute(element, "normCode"),
                         OptionalAttribute(element, "variantCode"),
                         OptionalAttribute(element, "packageId"),
