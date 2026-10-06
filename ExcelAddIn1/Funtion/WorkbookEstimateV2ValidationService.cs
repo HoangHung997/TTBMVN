@@ -456,8 +456,16 @@ namespace ExcelAddIn1.Funtion
                     EstimateV2CostIssueSeverity.Info));
             }
 
+            bool hasUnscopedFormulaProblem =
+                errorCells.Values.Any(item =>
+                    !EstimateV2WorkItemState.IsValidId(
+                        item.WorkItemId)) ||
+                overwrittenCells.Values.Any(item =>
+                    !EstimateV2WorkItemState.IsValidId(
+                        item.WorkItemId));
             int formulaErrorWorkItems =
-                formulaIssueWorkItems.Count;
+                formulaIssueWorkItems.Count +
+                (hasUnscopedFormulaProblem ? 1 : 0);
             if (errorCells.Count == 0 &&
                 overwrittenCells.Count == 0)
             {
