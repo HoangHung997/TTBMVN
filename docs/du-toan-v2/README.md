@@ -95,12 +95,15 @@ Cac anh duoi day duoc tach rieng vao thu muc `images/` de dung khi doi chieu gia
 - [ARCHITECTURE.md](ARCHITECTURE.md): kien truc dich V2.
 - [MIGRATION-PLAN.md](MIGRATION-PLAN.md): ke hoach tiep quan, phan nao giu/phan nao sua va cac moc trien khai.
 - [PROGRESS.md](PROGRESS.md): trang thai task dang lam, task da xong, commit va viec tiep theo.
+- [UI-CONTRACT.md](UI-CONTRACT.md): bo UI bat buoc phai bam theo 10 anh da chot.
 
 ## 6. Trang thai
 
 Da bat dau trien khai V2.
 
-- `V2-001` da bo gate `FrmProjectSetup` khoi luong mo module Du toan: bam Du toan se mo workspace ngay, khong bat map THKP/7 role truoc.
-- Task tiep theo la `V2-101`: `WorkItemId + NormBinding` ben vung, luu bang Custom XML Part + cot ky thuat an de chen/xoa/sort dong khong mat mapping.
+- `V2-001` da bo gate `FrmProjectSetup`: bam Du toan mo ngay CustomTaskPane ben phai, khong bat map THKP/7 role.
+- `V2-002` da co shell UI + Tong quan + Cong tac + Gan dinh muc theo bo anh chot.
+- `V2-101` da co WorkItemId, Custom XML state, cot ky thuat an, fingerprint recovery va UI gan dinh muc.
+- Task dang lam tiep la `V2-201`: gom resource unique va sinh/cap nhat `VL-NC-M` bang formula/link Excel.
 
 Xem [PROGRESS.md](PROGRESS.md) de biet trang thai chinh xac va commit moi nhat.
