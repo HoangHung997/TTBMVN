@@ -31,9 +31,9 @@ namespace ExcelAddIn1.Winform
         private readonly Label laborValue;
         private readonly Label machineValue;
         private readonly Label missingValue;
-        private readonly Label materialSummary;
-        private readonly Label laborSummary;
-        private readonly Label machineSummary;
+        private readonly GroupSummaryView materialSummary;
+        private readonly GroupSummaryView laborSummary;
+        private readonly GroupSummaryView machineSummary;
         private readonly DataGridView missingGrid;
         private readonly Label missingTitleLabel;
         private readonly Label statusLabel;
@@ -80,11 +80,11 @@ namespace ExcelAddIn1.Winform
             for (int i = 0; i < 4; i++)
                 metrics.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25));
             materialValue = AddMetric(
-                metrics, 0, "Số vật liệu", EstimateUiIconKind.Clipboard, Green);
+                metrics, 0, "Số vật liệu", EstimateUiIconKind.Materials, Green);
             laborValue = AddMetric(
-                metrics, 1, "Số nhân công", EstimateUiIconKind.Document, Blue);
+                metrics, 1, "Số nhân công", EstimateUiIconKind.Worker, Blue);
             machineValue = AddMetric(
-                metrics, 2, "Số máy", EstimateUiIconKind.Settings, Amber);
+                metrics, 2, "Số máy", EstimateUiIconKind.Excavator, Amber);
             missingValue = AddMetric(
                 metrics, 3, "Thiếu giá", EstimateUiIconKind.Warning, Red);
             content.Controls.Add(metrics, 0, content.RowCount++);
@@ -102,11 +102,11 @@ namespace ExcelAddIn1.Winform
             groups.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33f));
             groups.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.34f));
             materialSummary = AddGroupCard(
-                groups, 0, "Vật liệu", EstimateUiIconKind.Clipboard, Green, GreenSoft);
+                groups, 0, "Vật liệu", EstimateUiIconKind.Materials, Green, GreenSoft);
             laborSummary = AddGroupCard(
-                groups, 1, "Nhân công", EstimateUiIconKind.Document, Blue, BlueSoft);
+                groups, 1, "Nhân công", EstimateUiIconKind.Worker, Blue, BlueSoft);
             machineSummary = AddGroupCard(
-                groups, 2, "Máy thi công", EstimateUiIconKind.Settings, Amber, AmberSoft);
+                groups, 2, "Máy thi công", EstimateUiIconKind.Excavator, Amber, AmberSoft);
             content.Controls.Add(groups, 0, content.RowCount++);
 
             var missingCard = new Panel
@@ -149,7 +149,23 @@ namespace ExcelAddIn1.Winform
                 BackgroundColor = Color.White,
                 BorderStyle = BorderStyle.None,
                 SelectionMode = DataGridViewSelectionMode.FullRowSelect,
-                Font = new Font("Segoe UI", 7.7f)
+                Font = new Font("Segoe UI", 7.7f),
+                EnableHeadersVisualStyles = false,
+                ColumnHeadersHeight = 28,
+                GridColor = Color.FromArgb(226, 230, 233),
+                DefaultCellStyle =
+                {
+                    SelectionBackColor = Color.FromArgb(235, 243, 255),
+                    SelectionForeColor = TextDark
+                },
+                ColumnHeadersDefaultCellStyle =
+                {
+                    BackColor = Color.FromArgb(245, 246, 248),
+                    ForeColor = TextDark,
+                    Font = new Font("Segoe UI", 7.7f, FontStyle.Bold),
+                    Alignment = DataGridViewContentAlignment.MiddleCenter
+                },
+                RowTemplate = { Height = 27 }
             };
             missingGrid.Columns.Add(new DataGridViewTextBoxColumn
             {
@@ -211,19 +227,19 @@ namespace ExcelAddIn1.Winform
             Button price = FeatureButton(
                 "Cập nhật giá",
                 "Lấy giá từ bảng giá hoặc nhập thủ công",
-                EstimateUiIconKind.Refresh,
+                EstimateUiIconKind.Worker,
                 Blue,
                 BlueSoft);
             Button labor = FeatureButton(
                 "Sinh công thức NC",
                 "Tạo công thức tính nhân công từ định mức",
-                EstimateUiIconKind.Link,
+                EstimateUiIconKind.Formula,
                 Color.FromArgb(110, 73, 200),
                 Color.FromArgb(245, 240, 255));
             Button machine = FeatureButton(
                 "Sinh công thức giá ca máy",
                 "Tạo công thức tính giá ca máy từ định mức",
-                EstimateUiIconKind.Settings,
+                EstimateUiIconKind.Calculator,
                 Color.FromArgb(230, 132, 28),
                 AmberSoft);
 
@@ -281,15 +297,9 @@ namespace ExcelAddIn1.Winform
                     missing.Count.ToString("N0") + ")";
                 PopulateMissing(missing);
 
-                materialSummary.Text = FormatGroupSummary(
-                    materials,
-                    NormResourceKind.Material);
-                laborSummary.Text = FormatGroupSummary(
-                    labor,
-                    NormResourceKind.Labor);
-                machineSummary.Text = FormatGroupSummary(
-                    machines,
-                    NormResourceKind.Machine);
+                UpdateGroupSummary(materialSummary, materials);
+                UpdateGroupSummary(laborSummary, labor);
+                UpdateGroupSummary(machineSummary, machines);
 
                 if (preview.MissingPackageBindings.Count > 0)
                 {
@@ -389,12 +399,11 @@ namespace ExcelAddIn1.Winform
             return EstimateV2ResourceNames.Get(code);
         }
 
-        private string FormatGroupSummary(
-            IReadOnlyList<EstimateV2ResourceRequirement> items,
-            NormResourceKind kind)
+        private void UpdateGroupSummary(
+            GroupSummaryView summary,
+            IReadOnlyList<EstimateV2ResourceRequirement> items)
         {
             decimal total = 0m;
-            int priced = 0;
             foreach (EstimateV2ResourceRequirement item in items)
             {
                 if (!item.RequiresUnitPrice)
@@ -407,7 +416,6 @@ namespace ExcelAddIn1.Winform
                     out current))
                 {
                     total += current;
-                    priced++;
                     continue;
                 }
 
@@ -417,18 +425,14 @@ namespace ExcelAddIn1.Winform
                     price.AppliedUnitPriceVnd > 0m)
                 {
                     total += price.AppliedUnitPriceVnd;
-                    priced++;
                 }
             }
 
-            string secondLine = priced == 0
-                ? "Chưa có giá"
-                : priced.ToString("N0") + " có giá";
-            return items.Count.ToString("N0") + " khoản mục\r\n" +
-                secondLine +
-                (total > 0m
-                    ? " • " + total.ToString("#,##0", CultureInfo.CurrentCulture) + " đ"
-                    : string.Empty);
+            summary.CountLabel.Text =
+                items.Count.ToString("N0") + " khoản mục";
+            summary.ValueLabel.Text =
+                total.ToString("#,##0", CultureInfo.CurrentCulture);
+            summary.UnitLabel.Text = "(đồng)";
         }
 
         private void PopulateMissing(IEnumerable<MissingItem> items)
@@ -614,7 +618,7 @@ namespace ExcelAddIn1.Winform
             return value;
         }
 
-        private static Label AddGroupCard(
+        private static GroupSummaryView AddGroupCard(
             TableLayoutPanel parent,
             int column,
             string title,
@@ -633,36 +637,59 @@ namespace ExcelAddIn1.Winform
             card.Controls.Add(new PictureBox
             {
                 Image = EstimateUiIcons.Create(iconKind, 25, color),
-                Location = new Point(10, 10),
+                Location = new Point(10, 9),
                 Size = new Size(30, 30),
                 SizeMode = PictureBoxSizeMode.CenterImage
             });
             var titleLabel = new Label
             {
                 Text = title,
-                Location = new Point(45, 10),
-                Height = 25,
+                Location = new Point(45, 7),
+                Height = 20,
                 Font = new Font("Segoe UI", 8.5f, FontStyle.Bold),
                 ForeColor = color,
                 AutoEllipsis = true
             };
-            var summary = new Label
+            var countLabel = new Label
             {
-                Location = new Point(10, 47),
-                Height = 52,
-                Font = new Font("Segoe UI", 8f),
-                ForeColor = TextDark,
-                TextAlign = ContentAlignment.MiddleCenter
+                Location = new Point(45, 27),
+                Height = 18,
+                Font = new Font("Segoe UI", 7.2f),
+                ForeColor = TextMuted,
+                Text = "0 khoản mục",
+                AutoEllipsis = true
+            };
+            var valueLabel = new Label
+            {
+                Location = new Point(8, 51),
+                Height = 30,
+                Font = new Font("Segoe UI", 13.5f, FontStyle.Bold),
+                ForeColor = color,
+                TextAlign = ContentAlignment.MiddleCenter,
+                Text = "0"
+            };
+            var unitLabel = new Label
+            {
+                Location = new Point(8, 82),
+                Height = 18,
+                Font = new Font("Segoe UI", 7.2f),
+                ForeColor = TextMuted,
+                TextAlign = ContentAlignment.TopCenter,
+                Text = "(đồng)"
             };
             card.Controls.Add(titleLabel);
-            card.Controls.Add(summary);
+            card.Controls.Add(countLabel);
+            card.Controls.Add(valueLabel);
+            card.Controls.Add(unitLabel);
             card.Resize += (s, e) =>
             {
-                titleLabel.Width = Math.Max(50, card.ClientSize.Width - 52);
-                summary.Width = Math.Max(60, card.ClientSize.Width - 20);
+                titleLabel.Width = Math.Max(48, card.ClientSize.Width - 52);
+                countLabel.Width = Math.Max(48, card.ClientSize.Width - 52);
+                valueLabel.Width = Math.Max(60, card.ClientSize.Width - 16);
+                unitLabel.Width = Math.Max(60, card.ClientSize.Width - 16);
             };
             parent.Controls.Add(card, column, 0);
-            return summary;
+            return new GroupSummaryView(countLabel, valueLabel, unitLabel);
         }
 
         private static Label SectionTitle(string text)
@@ -733,6 +760,23 @@ namespace ExcelAddIn1.Winform
         {
             if (value != null && System.Runtime.InteropServices.Marshal.IsComObject(value))
                 System.Runtime.InteropServices.Marshal.ReleaseComObject(value);
+        }
+
+        private sealed class GroupSummaryView
+        {
+            internal GroupSummaryView(
+                Label countLabel,
+                Label valueLabel,
+                Label unitLabel)
+            {
+                CountLabel = countLabel;
+                ValueLabel = valueLabel;
+                UnitLabel = unitLabel;
+            }
+
+            internal Label CountLabel { get; }
+            internal Label ValueLabel { get; }
+            internal Label UnitLabel { get; }
         }
 
         private sealed class MissingItem
