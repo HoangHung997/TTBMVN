@@ -428,7 +428,7 @@ namespace ExcelAddIn1.Winform
 
                 var result = new List<SelectedWorkItem>();
                 var seenRows = new HashSet<int>();
-                foreach (Excel.Area area in selection.Areas)
+                foreach (Excel.Range area in selection.Areas)
                 {
                     try
                     {
