@@ -452,6 +452,7 @@ namespace ExcelAddIn1.Funtion
                             string.Empty,
                             string.Empty,
                             string.Empty,
+                            string.Empty,
                             DefaultKind,
                             fingerprint,
                             false);
@@ -472,6 +473,7 @@ namespace ExcelAddIn1.Funtion
                         existing.VariantCode,
                         existing.PackageId,
                         existing.DataVersion,
+                        existing.PackageChecksum,
                         existing.Kind.Length == 0 ? DefaultKind : existing.Kind,
                         fingerprint,
                         false);
@@ -495,6 +497,7 @@ namespace ExcelAddIn1.Funtion
                     existing.VariantCode,
                     existing.PackageId,
                     existing.DataVersion,
+                    existing.PackageChecksum,
                     kind,
                     fingerprint,
                     false);
@@ -590,7 +593,8 @@ namespace ExcelAddIn1.Funtion
             string normCode,
             string variantCode,
             string packageId,
-            string dataVersion)
+            string dataVersion,
+            string packageChecksum)
         {
             if (workbook == null)
                 throw new ArgumentNullException(nameof(workbook));
@@ -605,7 +609,8 @@ namespace ExcelAddIn1.Funtion
                 code,
                 variantCode,
                 packageId,
-                dataVersion).WithOrphaned(false);
+                dataVersion,
+                packageChecksum).WithOrphaned(false);
             if (Equivalent(item, updated))
                 return false;
             Save(workbook, state.Upsert(updated, DateTime.UtcNow));
@@ -684,6 +689,7 @@ namespace ExcelAddIn1.Funtion
                 string.Equals(left.VariantCode, right.VariantCode, StringComparison.Ordinal) &&
                 string.Equals(left.PackageId, right.PackageId, StringComparison.Ordinal) &&
                 string.Equals(left.DataVersion, right.DataVersion, StringComparison.Ordinal) &&
+                string.Equals(left.PackageChecksum, right.PackageChecksum, StringComparison.Ordinal) &&
                 string.Equals(left.Kind, right.Kind, StringComparison.Ordinal) &&
                 string.Equals(left.Fingerprint, right.Fingerprint, StringComparison.OrdinalIgnoreCase) &&
                 left.IsOrphaned == right.IsOrphaned;
