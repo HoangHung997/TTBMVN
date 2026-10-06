@@ -15,6 +15,7 @@ namespace ExcelAddIn1.Core
         public EstimateV2WorkItemState(
             string workItemId,
             string normCode,
+            string variantCode,
             string packageId,
             string dataVersion,
             string kind,
@@ -23,6 +24,7 @@ namespace ExcelAddIn1.Core
         {
             WorkItemId = NormalizeId(workItemId);
             NormCode = Clean(normCode);
+            VariantCode = Clean(variantCode);
             PackageId = Clean(packageId);
             DataVersion = Clean(dataVersion);
             Kind = Clean(kind);
@@ -32,6 +34,7 @@ namespace ExcelAddIn1.Core
 
         public string WorkItemId { get; }
         public string NormCode { get; }
+        public string VariantCode { get; }
         public string PackageId { get; }
         public string DataVersion { get; }
         public string Kind { get; }
@@ -42,12 +45,14 @@ namespace ExcelAddIn1.Core
 
         public EstimateV2WorkItemState WithBinding(
             string normCode,
+            string variantCode,
             string packageId,
             string dataVersion)
         {
             return new EstimateV2WorkItemState(
                 WorkItemId,
                 normCode,
+                variantCode,
                 packageId,
                 dataVersion,
                 Kind,
@@ -62,6 +67,7 @@ namespace ExcelAddIn1.Core
                 string.Empty,
                 string.Empty,
                 string.Empty,
+                string.Empty,
                 Kind,
                 Fingerprint,
                 IsOrphaned);
@@ -72,6 +78,7 @@ namespace ExcelAddIn1.Core
             return new EstimateV2WorkItemState(
                 WorkItemId,
                 NormCode,
+                VariantCode,
                 PackageId,
                 DataVersion,
                 Kind,
@@ -84,6 +91,7 @@ namespace ExcelAddIn1.Core
             return new EstimateV2WorkItemState(
                 WorkItemId,
                 NormCode,
+                VariantCode,
                 PackageId,
                 DataVersion,
                 Kind,
@@ -282,6 +290,7 @@ namespace ExcelAddIn1.Core
                         Ns + "workItem",
                         new XAttribute("id", item.WorkItemId),
                         new XAttribute("normCode", item.NormCode),
+                        new XAttribute("variantCode", item.VariantCode),
                         new XAttribute("packageId", item.PackageId),
                         new XAttribute("dataVersion", item.DataVersion),
                         new XAttribute("kind", item.Kind),
@@ -337,6 +346,7 @@ namespace ExcelAddIn1.Core
                     .Select(element => new EstimateV2WorkItemState(
                         RequiredAttribute(element, "id"),
                         OptionalAttribute(element, "normCode"),
+                        OptionalAttribute(element, "variantCode"),
                         OptionalAttribute(element, "packageId"),
                         OptionalAttribute(element, "dataVersion"),
                         OptionalAttribute(element, "kind"),
