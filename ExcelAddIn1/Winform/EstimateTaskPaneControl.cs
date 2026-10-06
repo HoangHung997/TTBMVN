@@ -33,6 +33,8 @@ namespace ExcelAddIn1.Winform
         private readonly List<StepRow> steps = new List<StepRow>();
         private readonly FlowLayoutPanel sheetTiles;
         private readonly Label footerText;
+        private readonly Panel overviewRoot;
+        private Control activeChild;
 
         internal EstimateTaskPaneControl(Excel.Workbook workbook)
         {
@@ -41,13 +43,13 @@ namespace ExcelAddIn1.Winform
             BackColor = Color.White;
             AutoScaleMode = AutoScaleMode.Dpi;
 
-            var root = new Panel
+            overviewRoot = new Panel
             {
                 Dock = DockStyle.Fill,
                 AutoScroll = true,
                 BackColor = Color.White
             };
-            Controls.Add(root);
+            Controls.Add(overviewRoot);
 
             var content = new TableLayoutPanel
             {
@@ -58,7 +60,7 @@ namespace ExcelAddIn1.Winform
                 ColumnCount = 1
             };
             content.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
-            root.Controls.Add(content);
+            overviewRoot.Controls.Add(content);
 
             content.Controls.Add(BuildHeader(), 0, content.RowCount++);
             var projectCard = new EstimateCardPanel
@@ -137,12 +139,20 @@ namespace ExcelAddIn1.Winform
                 Margin = new Padding(0, 4, 0, 8),
                 BackColor = Color.White
             };
-            AddStep(stepsPanel, "Công tác", "Nhập, tạo, chỉnh sửa danh mục công tác.");
-            AddStep(stepsPanel, "Gắn định mức", "Gắn định mức cho các công tác.");
-            AddStep(stepsPanel, "VL-NC-M", "Kiểm tra, cập nhật giá vật liệu, nhân công, máy thi công.");
-            AddStep(stepsPanel, "DG Cạn", "Tính đơn giá cho điều kiện thi công trên cạn.");
-            AddStep(stepsPanel, "DG Nước", "Tính đơn giá cho điều kiện thi công dưới nước.");
-            AddStep(stepsPanel, "THKP-TC & Kiểm tra", "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.");
+            AddStep(
+                stepsPanel,
+                "Công tác",
+                "Nhập, tạo, chỉnh sửa danh mục công tác.",
+                ShowWorkItems);
+            AddStep(
+                stepsPanel,
+                "Gắn định mức",
+                "Gắn định mức cho các công tác.",
+                ShowNormBinding);
+            AddStep(stepsPanel, "VL-NC-M", "Kiểm tra, cập nhật giá vật liệu, nhân công, máy thi công.", null);
+            AddStep(stepsPanel, "DG Cạn", "Tính đơn giá cho điều kiện thi công trên cạn.", null);
+            AddStep(stepsPanel, "DG Nước", "Tính đơn giá cho điều kiện thi công dưới nước.", null);
+            AddStep(stepsPanel, "THKP-TC & Kiểm tra", "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.", null);
             stepsPanel.SizeChanged += (s, e) =>
             {
                 foreach (Control control in stepsPanel.Controls)
@@ -282,11 +292,61 @@ namespace ExcelAddIn1.Winform
             };
         }
 
-        private void AddStep(FlowLayoutPanel parent, string title, string detail)
+        private void AddStep(
+            FlowLayoutPanel parent,
+            string title,
+            string detail,
+            Action navigateAction)
         {
             var row = new StepRow(steps.Count + 1, title, detail);
+            if (navigateAction != null)
+                row.NavigateRequested += (s, e) => navigateAction();
             steps.Add(row);
             parent.Controls.Add(row);
+        }
+
+        private void ShowWorkItems()
+        {
+            ShowChild(new EstimateWorkItemsPaneView(
+                workbook,
+                ShowOverview,
+                ShowNormBinding));
+        }
+
+        private void ShowNormBinding()
+        {
+            ShowChild(new EstimateNormBindingPaneView(
+                workbook,
+                ShowOverview));
+        }
+
+        private void ShowOverview()
+        {
+            if (activeChild != null)
+            {
+                Controls.Remove(activeChild);
+                activeChild.Dispose();
+                activeChild = null;
+            }
+            overviewRoot.Visible = true;
+            overviewRoot.BringToFront();
+            RefreshOverview();
+        }
+
+        private void ShowChild(Control child)
+        {
+            if (child == null)
+                throw new ArgumentNullException(nameof(child));
+            if (activeChild != null)
+            {
+                Controls.Remove(activeChild);
+                activeChild.Dispose();
+            }
+            activeChild = child;
+            activeChild.Dock = DockStyle.Fill;
+            overviewRoot.Visible = false;
+            Controls.Add(activeChild);
+            activeChild.BringToFront();
         }
 
         private void SetStep(int index, StepState state)
@@ -446,6 +506,9 @@ namespace ExcelAddIn1.Winform
             private readonly Label stateLabel;
             private readonly Label numberLabel;
             private readonly PictureBox stateIcon;
+            private readonly Button navigateButton;
+
+            internal event EventHandler NavigateRequested;
 
             internal StepRow(int number, string title, string detail)
             {
@@ -510,19 +573,34 @@ namespace ExcelAddIn1.Winform
                     Font = new Font("Segoe UI", 7.4f),
                     Anchor = AnchorStyles.Top | AnchorStyles.Right
                 };
+                navigateButton = new Button
+                {
+                    Text = "›",
+                    Size = new Size(28, 31),
+                    FlatStyle = FlatStyle.Flat,
+                    BackColor = Color.White,
+                    ForeColor = TextMuted,
+                    Font = new Font("Segoe UI", 13f),
+                    Cursor = Cursors.Hand,
+                    Anchor = AnchorStyles.Top | AnchorStyles.Right
+                };
+                navigateButton.FlatAppearance.BorderSize = 0;
+                navigateButton.Click += (s, e) => NavigateRequested?.Invoke(this, EventArgs.Empty);
 
                 Controls.Add(numberCircle);
                 Controls.Add(titleLabel);
                 Controls.Add(detailLabel);
                 Controls.Add(stateIcon);
                 Controls.Add(stateLabel);
+                Controls.Add(navigateButton);
                 Resize += (s, e) =>
                 {
                     titleLabel.Width = Math.Max(120, ClientSize.Width - 150);
                     detailLabel.Width = Math.Max(120, ClientSize.Width - 150);
-                    stateIcon.Location = new Point(ClientSize.Width - 92, 17);
-                    stateLabel.Location = new Point(ClientSize.Width - 70, 16);
-                    stateLabel.Width = 60;
+                    stateIcon.Location = new Point(ClientSize.Width - 120, 17);
+                    stateLabel.Location = new Point(ClientSize.Width - 98, 16);
+                    stateLabel.Width = 64;
+                    navigateButton.Location = new Point(ClientSize.Width - 31, 12);
                 };
                 SetState(StepState.Ready);
             }
