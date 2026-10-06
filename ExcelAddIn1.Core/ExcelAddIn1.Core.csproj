@@ -57,6 +57,7 @@
     <Compile Include="EstimateWorkspace.cs" />
     <Compile Include="EstimateV2State.cs" />
     <Compile Include="EstimateV2Resources.cs" />
+    <Compile Include="EstimateV2ExcelNames.cs" />
     <Compile Include="CostSummaryCalculator.cs" />
     <Compile Include="ResultAuditTrail.cs" />
     <Compile Include="WorkbookValidation.cs" />
