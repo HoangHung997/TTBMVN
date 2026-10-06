@@ -135,18 +135,6 @@ namespace ExcelAddIn1.Funtion
 
     public static class WorkbookEstimateV2ValidationService
     {
-        private static readonly string[] ManagedSheetNames =
-        {
-            "VL-NC-M",
-            "DG Can",
-            "DG Cạn",
-            "DG Nuoc",
-            "DG Nước",
-            "DG Bien",
-            "DG Biển",
-            "THKP-TC"
-        };
-
         public static WorkbookEstimateV2ValidationReport Scan(
             Excel.Workbook workbook)
         {
@@ -447,6 +435,8 @@ namespace ExcelAddIn1.Funtion
                 overwrittenWorkItems,
                 findings);
 
+            string thkpWorksheetName =
+                ResolveCostSummaryName(workbook);
             bool thkpLinked =
                 WorkbookEstimateV2CostLinkService
                     .HasDirectCostLinks(workbook) &&
@@ -462,7 +452,7 @@ namespace ExcelAddIn1.Funtion
                     "Số liệu tổng hợp khớp",
                     "THKP-TC đang tham chiếu các workbook Name tổng VL/NC/M/T.",
                     EstimateV2CostIssueSeverity.Info,
-                    worksheetName: "THKP-TC"));
+                    worksheetName: thkpWorksheetName));
             }
             else
             {
@@ -1449,9 +1439,11 @@ namespace ExcelAddIn1.Funtion
             ICollection<EstimateV2ValidationFinding> findings)
         {
             Excel.Worksheet sheet =
-                FindWorksheet(
-                    workbook,
-                    "THKP-TC");
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheet(
+                        workbook,
+                        WorksheetRole.CostSummary,
+                        "THKP-TC");
             if (sheet == null)
                 return;
 
@@ -1556,15 +1548,9 @@ namespace ExcelAddIn1.Funtion
             Excel.Workbook workbook,
             IDictionary<string, ErrorCell> errorCells)
         {
-            foreach (string name in ManagedSheetNames)
+            foreach (Excel.Worksheet sheet in
+                ResolveManagedOutputSheets(workbook))
             {
-                Excel.Worksheet sheet =
-                    FindWorksheet(
-                        workbook,
-                        name);
-                if (sheet == null)
-                    continue;
-
                 Excel.Range used = null;
                 try
                 {
@@ -1619,6 +1605,106 @@ namespace ExcelAddIn1.Funtion
                     Release(used);
                     Release(sheet);
                 }
+            }
+        }
+
+        private static IReadOnlyList<Excel.Worksheet> ResolveManagedOutputSheets(
+            Excel.Workbook workbook)
+        {
+            var result =
+                new List<Excel.Worksheet>();
+            var seen =
+                new HashSet<string>(
+                    StringComparer.OrdinalIgnoreCase);
+
+            AddManagedOutput(
+                result,
+                seen,
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheet(
+                        workbook,
+                        WorksheetRole.ResourcePrices,
+                        "VL-NC-M"));
+            AddManagedOutput(
+                result,
+                seen,
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheet(
+                        workbook,
+                        WorksheetRole.UnitRateLand,
+                        "DG Can",
+                        "DG Cạn"));
+            AddManagedOutput(
+                result,
+                seen,
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheet(
+                        workbook,
+                        WorksheetRole.UnitRateWater,
+                        "DG Nuoc",
+                        "DG Nước"));
+            AddManagedOutput(
+                result,
+                seen,
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheetByKind(
+                        workbook,
+                        EstimateV2LegacySheetKind.UnitRateSea,
+                        "DG Bien",
+                        "DG Biển"));
+            AddManagedOutput(
+                result,
+                seen,
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheet(
+                        workbook,
+                        WorksheetRole.CostSummary,
+                        "THKP-TC"));
+
+            return result;
+        }
+
+        private static void AddManagedOutput(
+            ICollection<Excel.Worksheet> result,
+            ISet<string> seen,
+            Excel.Worksheet sheet)
+        {
+            if (sheet == null)
+                return;
+
+            string key =
+                (sheet.CodeName ?? string.Empty).Trim();
+            if (key.Length == 0)
+                key = (sheet.Name ?? string.Empty).Trim();
+
+            if (seen.Add(key))
+            {
+                result.Add(sheet);
+                return;
+            }
+
+            Release(sheet);
+        }
+
+        private static string ResolveCostSummaryName(
+            Excel.Workbook workbook)
+        {
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            WorksheetRole.CostSummary,
+                            "THKP-TC");
+                return sheet == null
+                    ? "THKP-TC"
+                    : sheet.Name;
+            }
+            finally
+            {
+                Release(sheet);
             }
         }
 
