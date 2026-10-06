@@ -489,7 +489,7 @@ namespace ExcelAddIn1.Funtion
                         "FUEL",
                         definition.Fuel.Kind.ToString(),
                         definition.Fuel.PriceCode,
-                        definition.Fuel.GetAuxiliaryFactorForFormula()));
+                        FuelAuxiliaryFactor(definition.Fuel.Kind)));
                     formulaCount += 2;
                 }
 
@@ -870,6 +870,25 @@ namespace ExcelAddIn1.Funtion
                     "Chua tao gia nhan cong dieu khien may: " + operatorCode + ".");
             }
             return match;
+        }
+
+        private static decimal FuelAuxiliaryFactor(
+            MachineFuelKind kind)
+        {
+            switch (kind)
+            {
+                case MachineFuelKind.Diesel:
+                    return 1.03m;
+                case MachineFuelKind.Gasoline:
+                    return 1.02m;
+                case MachineFuelKind.Electricity:
+                    return 1.05m;
+                case MachineFuelKind.None:
+                case MachineFuelKind.Battery:
+                case MachineFuelKind.Other:
+                default:
+                    return 1m;
+            }
         }
 
         private static bool IsCorrosiveMachineContext(
