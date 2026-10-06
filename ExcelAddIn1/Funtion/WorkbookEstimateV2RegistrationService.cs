@@ -357,6 +357,15 @@ namespace ExcelAddIn1.Funtion
         public static EstimateV2ReconcileResult ReconcileAll(
             Excel.Workbook workbook)
         {
+            return ReconcileAll(
+                workbook,
+                true);
+        }
+
+        public static EstimateV2ReconcileResult ReconcileAll(
+            Excel.Workbook workbook,
+            bool restoreNormDisplay)
+        {
             if (workbook == null)
                 throw new ArgumentNullException(nameof(workbook));
             IReadOnlyList<EstimateV2RegisteredSource> sources = ListRegistered(workbook);
@@ -387,7 +396,8 @@ namespace ExcelAddIn1.Funtion
                             worksheet,
                             source.FirstDataRow,
                             source.LastDataRow,
-                            source.Columns);
+                            source.Columns,
+                            restoreNormDisplay);
                     total += item.WorkItemCount;
                     created += item.CreatedCount;
                     recovered += item.RecoveredCount;
