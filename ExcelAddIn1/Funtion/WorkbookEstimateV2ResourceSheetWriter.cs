@@ -176,12 +176,18 @@ namespace ExcelAddIn1.Funtion
                 FormatSheet(
                     sheet,
                     build);
+                if (build.MetadataStartColumn > VisibleLastColumn + 1)
+                {
+                    HideTechnicalColumns(
+                        sheet,
+                        VisibleLastColumn + 1,
+                        build.MetadataStartColumn - 1);
+                }
                 HideTechnicalColumns(
                     sheet,
                     build.MetadataStartColumn,
                     build.MetadataStartColumn + MetadataColumnCount - 1);
-                sheet.PageSetup.PrintArea = "$A$1:$F$" +
-                    build.LastRow.ToString(CultureInfo.InvariantCulture);
+                ConfigurePrintLayout(sheet, build);
 
                 return new WorkbookEstimateV2ResourceWriteResult(
                     sheet.Name,
@@ -431,6 +437,7 @@ namespace ExcelAddIn1.Funtion
             }
 
             rows.Add(ResourceSheetRow.Section("II. GIÁ CA MÁY"));
+            int machineHeaderRow = rows.Count + 1;
             rows.Add(ResourceSheetRow.Header(new[]
             {
                 "TT",
@@ -602,6 +609,8 @@ namespace ExcelAddIn1.Funtion
                     machine.Unit)] = machinePriceName;
             }
 
+            int primaryPrintEndRow = rows.Count;
+
             if (fuelInputs.Count > 0)
             {
                 rows.Add(ResourceSheetRow.Note("Ghi chú:"));
@@ -609,6 +618,7 @@ namespace ExcelAddIn1.Funtion
                     "Giá nhiên liệu/năng lượng được lưu ở vùng kỹ thuật ẩn và được công thức giá ca máy liên kết trực tiếp."));
             }
 
+            int materialPrintStartRow = rows.Count + 1;
             rows.Add(ResourceSheetRow.Section("III. GIÁ VẬT LIỆU"));
             rows.Add(ResourceSheetRow.Header(new[]
             {
@@ -673,7 +683,10 @@ namespace ExcelAddIn1.Funtion
                 formulaCount,
                 inputCount,
                 missingInputCount,
-                laborRequirements.Count);
+                laborRequirements.Count,
+                machineHeaderRow,
+                primaryPrintEndRow,
+                materialPrintStartRow);
         }
 
         private static PreservedInputs CapturePreservedInputs(
@@ -1403,6 +1416,38 @@ namespace ExcelAddIn1.Funtion
             }
         }
 
+        private static void ConfigurePrintLayout(
+            Excel.Worksheet sheet,
+            ResourceSheetBuild build)
+        {
+            Excel.Range hiddenTitleRows = null;
+            try
+            {
+                hiddenTitleRows = sheet.Range["A1", "F2"];
+                hiddenTitleRows.EntireRow.Hidden = true;
+
+                string primaryArea = "$A$3:$F$" +
+                    build.PrimaryPrintEndRow.ToString(CultureInfo.InvariantCulture);
+                string materialArea = "$A$" +
+                    build.MaterialPrintStartRow.ToString(CultureInfo.InvariantCulture) +
+                    ":$F$" +
+                    build.LastRow.ToString(CultureInfo.InvariantCulture);
+
+                sheet.PageSetup.PrintArea = primaryArea + "," + materialArea;
+                sheet.PageSetup.PrintTitleRows = "$" +
+                    build.MachineHeaderRow.ToString(CultureInfo.InvariantCulture) +
+                    ":$" +
+                    build.MachineHeaderRow.ToString(CultureInfo.InvariantCulture);
+                sheet.PageSetup.Orientation = Excel.XlPageOrientation.xlPortrait;
+                sheet.PageSetup.BlackAndWhite = true;
+                sheet.PageSetup.Zoom = 98;
+            }
+            finally
+            {
+                Release(hiddenTitleRows);
+            }
+        }
+
         private static int ColorRgb(int red, int green, int blue)
         {
             return red | (green << 8) | (blue << 16);
@@ -1643,7 +1688,10 @@ namespace ExcelAddIn1.Funtion
                 int formulaCount,
                 int inputCount,
                 int missingInputCount,
-                int laborCount)
+                int laborCount,
+                int machineHeaderRow,
+                int primaryPrintEndRow,
+                int materialPrintStartRow)
             {
                 Rows = rows;
                 LastRow = lastRow;
@@ -1654,6 +1702,9 @@ namespace ExcelAddIn1.Funtion
                 InputCount = inputCount;
                 MissingInputCount = missingInputCount;
                 LaborCount = laborCount;
+                MachineHeaderRow = machineHeaderRow;
+                PrimaryPrintEndRow = primaryPrintEndRow;
+                MaterialPrintStartRow = materialPrintStartRow;
             }
 
             internal IList<ResourceSheetRow> Rows { get; }
@@ -1665,6 +1716,9 @@ namespace ExcelAddIn1.Funtion
             internal int InputCount { get; }
             internal int MissingInputCount { get; }
             internal int LaborCount { get; }
+            internal int MachineHeaderRow { get; }
+            internal int PrimaryPrintEndRow { get; }
+            internal int MaterialPrintStartRow { get; }
         }
 
         private sealed class ResourceSheetRow
@@ -1901,6 +1955,7 @@ namespace ExcelAddIn1.Funtion
                 var cells = new object[VisibleLastColumn];
                 cells[0] = index;
                 cells[1] = title;
+                cells[3] = "ĐG thị trường";
                 cells[4] = unit;
                 cells[5] = price.HasValue
                     ? (object)Convert.ToDouble(
