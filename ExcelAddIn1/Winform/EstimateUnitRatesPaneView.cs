@@ -439,7 +439,8 @@ namespace ExcelAddIn1.Winform
             panel.Controls.Add(subtitle);
 
             if (environment == EstimateV2RateEnvironment.InlandWater &&
-                seaAction != null)
+                seaAction != null &&
+                HasSeaRates())
             {
                 var sea = new Button
                 {
@@ -463,6 +464,21 @@ namespace ExcelAddIn1.Winform
             }
 
             return panel;
+        }
+
+        private bool HasSeaRates()
+        {
+            try
+            {
+                return WorkbookEstimateV2RateService.BuildPreview(
+                    workbook,
+                    EstimateV2RateEnvironment.Sea)
+                    .NeededCount > 0;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         private void PopulateRateGrid()
