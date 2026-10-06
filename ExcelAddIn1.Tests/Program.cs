@@ -61,6 +61,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateWorkspaceRoundTrip", TestEstimateWorkspaceRoundTrip);
             Run("EstimateV2StateRoundTrip", TestEstimateV2StateRoundTrip);
             Run("EstimateV2Fingerprint", TestEstimateV2Fingerprint);
+            Run("EstimateV2ResourcePlan", TestEstimateV2ResourcePlan);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2153,6 +2154,40 @@ namespace ExcelAddIn1.Tests
             AssertEqual(first, second);
             AssertFalse(string.Equals(first, third, StringComparison.Ordinal));
             AssertEqual(64, first.Length);
+        }
+
+        private static void TestEstimateV2ResourcePlan()
+        {
+            RegulationPackageBundle bundle = LoadBqpPackageBundle("BQP-RPBM-2025");
+            NormCatalog catalog = NormCatalog.Load(
+                bundle.Modules[RegulationModuleKind.Norm]);
+
+            var workItem = new EstimateV2WorkItemState(
+                "11223344556677889900aabbccddeeff",
+                "GiaDTTCTest",
+                "NORM-020.0500",
+                "depth-5",
+                bundle.Package.PackageId,
+                bundle.Package.DataVersion,
+                bundle.Package.PackageChecksum,
+                "WORKITEM",
+                EstimateV2Fingerprint.Compute(
+                    "TC.02",
+                    "Do tim tren can 0,3m-5m",
+                    "ha",
+                    "WORKITEM"),
+                false);
+
+            EstimateV2ResourcePlan plan = EstimateV2ResourcePlanBuilder.Build(
+                new[] { workItem },
+                item => catalog.FindRequired(item.NormCode));
+
+            AssertEqual(1, plan.BoundWorkItemCount);
+            AssertEqual(1, plan.UniqueNormBindingCount);
+            AssertTrue(plan.Labor.Any(item => item.Code == "LAB-QNCN-7"));
+            AssertTrue(plan.Machines.Any(item => item.Code == "M010.002"));
+            AssertFalse(plan.Machines.Any(item => item.Code == "M010.003"));
+            AssertTrue(plan.Resources.All(item => item.UsageCount > 0));
         }
 
         private static void TestEstimateRateGrouping()
