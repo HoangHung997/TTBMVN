@@ -12,8 +12,8 @@
 | V2-002 | Task pane UI theo bộ ảnh đã chốt | DONE - shell + 3 màn hình đầu / runtime pending |
 | V2-101 | WorkItemId + binding định mức bền vững | DONE - implementation / runtime pending |
 | V2-201 | Tổng hợp và sinh VL-NC-M | DONE - implementation / runtime pending |
-| V2-301 | Sinh DG Cạn / DG Nước / DG Biển | NEXT |
-| V2-401 | Link Gia DT TC + THKP-TC | TODO |
+| V2-301 | Sinh DG Cạn / DG Nước / DG Biển | DONE - implementation / runtime pending |
+| V2-401 | Link Gia DT TC + THKP-TC | NEXT |
 | V2-501 | Validation / phục hồi / phát hiện lỗi | TODO |
 | V2-601 | Tương thích file cũ và migration | TODO |
 
@@ -362,7 +362,7 @@ Test projection kiểm tra:
 
 ### Việc tiếp theo
 
-V2-201 dừng ở đây. Task kế tiếp là **V2-301 — DG Cạn / DG Nước / DG Biển**; chưa triển khai code V2-301 trong task này.
+V2-201 đã chốt. V2-301 đã được triển khai ở section bên dưới.
 
 ---
 
@@ -370,11 +370,223 @@ V2-201 dừng ở đây. Task kế tiếp là **V2-301 — DG Cạn / DG Nước
 
 ### V2-301 — DG Cạn / DG Nước / DG Biển
 
-- unique theo NormCode + Variant;
-- sinh một block đơn giá dùng chung;
-- công thức link về VL-NC-M;
-- chỉ tạo sheet khi có công tác tương ứng;
-- UI theo ảnh chốt 05/06.
+**Trạng thái:** DONE - implementation / runtime pending
+
+#### UI đã đối chiếu ảnh chuẩn
+
+Đã đọc và bám trực tiếp:
+
+- `/mnt/data/chuan_UI/05-DG-Can.png`
+- `/mnt/data/chuan_UI/06-DG-Nuoc.png`
+
+View mới:
+
+- `ExcelAddIn1/Winform/EstimateUnitRatesPaneView.cs`
+
+DG Cạn hiện có đúng cấu trúc đã chốt:
+
+- 4 metric: Định mức cần sinh / Đã sinh / Thiếu giá / Liên kết công thức;
+- bước 1 chọn định mức cần sinh;
+- bước 2 tùy chọn Sinh mới / Cập nhật từ VL-NC-M / Chỉ sinh định mức đang dùng;
+- bước 3 preview VL / NC / M / Tổng cộng;
+- nút xanh `Sinh đơn giá`;
+- footer giải thích mỗi định mức chỉ sinh một block dùng chung.
+
+DG Nước hiện có:
+
+- 4 metric: Định mức nước / Đã sinh / Thiếu giá / Cảnh báo;
+- quy trình 4 bước;
+- danh sách định mức công tác dưới nước;
+- trạng thái từng định mức;
+- footer formula/link.
+
+DG Biển dùng cùng ngôn ngữ UI của DG Nước và **chỉ hiện điều hướng khi thực sự có định mức biển đang dùng**. Không tạo sheet DG Biển rác khi dự toán không có công tác biển.
+
+#### Identity đơn giá
+
+Đã thêm core model:
+
+- `ExcelAddIn1.Core/EstimateV2Rates.cs`
+
+Đơn giá unique theo:
+
+```text
+PackageIdentity + NormCode + VariantCode
+        -> RateId ổn định
+```
+
+Hai hoặc nhiều WorkItem dùng cùng package + định mức + variant chỉ sinh **một block đơn giá** và tăng `UsageCount`; không nhân bản block theo dòng công tác.
+
+Đã xử lý binding legacy có variant rỗng nhưng định mức chỉ có một variant: normalize về variant thật trước khi tạo RateId để không sinh trùng.
+
+#### Phân loại Cạn / Nước / Biển
+
+- `NORM-000.*`, `NORM-010.*`, `NORM-020.*` -> DG Cạn;
+- `NORM-030.*` -> DG Nước;
+- `NORM-040.*` -> DG Biển.
+
+Sheet chỉ được sinh khi môi trường đó có rate đang dùng.
+
+Tên sheet tương thích mẫu hiện tại:
+
+- `DG Can` / `DG Cạn`;
+- `DG Nuoc` / `DG Nước`;
+- `DG Bien` / `DG Biển`.
+
+#### Writer đơn giá
+
+Đã thêm:
+
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2RateService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2RateSheetWriter.cs`
+
+Writer:
+
+1. cập nhật `VL-NC-M` trước để bảo đảm workbook Name giá tồn tại;
+2. sinh block đơn giá từ định mức/variant đang dùng;
+3. hao phí định mức nằm ở cột D;
+4. đơn giá resource ở cột E là **formula link** tới workbook Name của `VL-NC-M`;
+5. thành tiền:
+   - VL -> F;
+   - NC -> G;
+   - M -> H;
+6. vật liệu phần trăm tính bằng công thức từ tổng vật liệu trực tiếp;
+7. dòng `Cộng:` giữ riêng VL / NC / M;
+8. thêm dòng `Tổng cộng đơn giá` và workbook Name `TOTAL`;
+9. metadata nằm từ cột I trở đi và bị ẩn;
+10. vùng in chỉ A:H.
+
+Không copy snapshot giá chết vào block đơn giá.
+
+#### Logical resource
+
+Các resource logic như:
+
+- `M010.002-OR-M010.003`;
+- `M010.DIVING`;
+- `MAT-GASOLINE-OR-DIESEL`;
+
+được mở thành các price candidate vật lý dùng chung với VL-NC-M.
+
+Khi chưa có UI chọn candidate riêng cho từng công tác, V2-301 dùng policy xác định được: **chọn candidate đầu tiên đang có giá > 0** bằng công thức Excel. Pane đồng thời đánh cảnh báo để người dùng biết rate có lựa chọn cần rà soát.
+
+#### Điều kiện / hệ số định mức
+
+State V2 hiện mới lưu NormCode + Variant, chưa lưu tập điều kiện như lưu tốc dòng chảy, đào có nước, độ dốc...
+
+Vì vậy V2-301 hiện sinh **hao phí cơ sở của variant đã gắn**. Nếu `NormDefinition` có adjustment/constraint, rate được đánh cảnh báo `RequiresConditionReview`.
+
+Không tự đoán điều kiện và không ghi hệ số giả vào workbook.
+
+Đây là giới hạn đã biết của V2-301, cần được xử lý ở luồng thiết lập/validation sau; không được âm thầm tính sai.
+
+#### Đối chiếu sheet mẫu thực tế
+
+Đã đọc/rendere:
+
+- `/mnt/data/Du toan RPBM HoaLuNamDinh_Ver1.xlsx`
+- `DG Can`
+- `DG Nuoc`
+
+Ảnh render dùng để đối chiếu:
+
+- `/mnt/data/dg_can_sample.png`
+- `/mnt/data/dg_nuoc_sample.png`
+
+Writer đã chỉnh theo cấu trúc in thực tế:
+
+- Times New Roman;
+- A:H;
+- title block;
+- tên công tác / số hiệu định mức / đơn vị;
+- header **hai tầng**:
+  - A:E merge dọc;
+  - F:H merge ngang `Thành tiền (đồng)`;
+  - hàng dưới F/G/H = Vật liệu / Nhân công / Máy;
+- section I Vật liệu / II Nhân công / III Máy thi công;
+- dòng `Cộng:`;
+- Portrait;
+- BlackAndWhite;
+- FitToPagesWide = 1;
+- helper/metadata từ I trở đi ẩn.
+
+#### Navigation
+
+`EstimateTaskPaneControl` đã nối:
+
+```text
+Tổng quan
+  -> DG Cạn
+  -> DG Nước
+       -> DG Biển (chỉ khi có định mức biển)
+```
+
+Output tile DG Biển cũng chỉ xuất hiện nếu workbook thực sự có sheet biển.
+
+#### Test code đã thêm
+
+Trong `ExcelAddIn1.Tests/Program.cs`:
+
+- `EstimateV2RatePlan`
+
+Test kiểm tra:
+
+- 2 WorkItem cùng Land norm + variant -> 1 rate, UsageCount = 2;
+- tách đúng Land / InlandWater / Sea;
+- RateId ổn định;
+- `M010.DIVING` có candidate máy lặn cụ thể;
+- rate nước có adjustment/constraint được đánh cần rà soát;
+- rate biển giữ đúng logical machine để writer liên kết candidate.
+
+#### Commit quan trọng
+
+- `8b40d688ca6d` — expose resource candidate expansion;
+- `7e311d8ed845` — core rate plan / RateId;
+- `f9e90e8314e3` — preview service DG;
+- `58b6120af5e2` — formula-linked DG writer;
+- `66960b684b07` — UI DG Cạn/Nước/Biển;
+- `8edc18670b88` — navigation vào task pane;
+- `71e4764eba62` — core rate tests;
+- `c788707acfa4` — merge normalized rate identities;
+- `3ba4c36396f6` — stable TOTAL link;
+- `0a9dd85097b1` + `c0a564583d1a` — header in hai tầng theo mẫu;
+- `8bdf5dbb23d0` — cập nhật UI contract.
+
+#### Tự kiểm tra trong môi trường hiện tại
+
+Đã rà soát tĩnh các file V2-301 chính:
+
+- ngoặc `{}`, `()`, `[]` cân bằng;
+- không có `TODO/FIXME/NotImplementedException`;
+- kiểm tra lại API MachineRateCatalog dùng bởi writer;
+- kiểm tra selector/radio DG Cạn thực sự ảnh hưởng tập rate sinh;
+- commit checkbox grid trước khi đọc lựa chọn;
+- DG Biển không hiện khi không có rate biển;
+- công thức DG dùng workbook Name từ VL-NC-M, không dùng số giá snapshot;
+- header sheet đã sửa từ một tầng sang hai tầng theo file mẫu.
+
+**Chưa chạy build VSTO/Excel thật và chưa chạy test console trong môi trường hiện tại. Không ghi PASS giả.**
+
+#### Checklist runtime bắt buộc
+
+- vào DG Cạn từ Tổng quan -> pane mở đúng, không form modal;
+- số metric khớp rate plan;
+- hai công tác cùng norm+variant -> chỉ một block DG;
+- chọn/bỏ chọn rate -> Sinh mới chỉ sinh đúng tập mong muốn và giữ block đã có;
+- Cập nhật từ VL-NC-M -> giá đổi thì DG đổi theo formula/link;
+- DG Nước chỉ sinh khi có NORM-030;
+- DG Biển chỉ sinh khi có NORM-040;
+- workbook chỉ có biển -> từ DG Nước vẫn thấy điều hướng DG Biển;
+- header in hai tầng đúng A:H;
+- cột I trở đi hidden;
+- không có `#NAME?`, `#REF!`, `#VALUE!`;
+- TOTAL = VL + NC + M;
+- save/close/open -> workbook Name rate vẫn còn;
+- rate có adjustment/constraint phải hiện cảnh báo, không âm thầm coi như đã áp hệ số.
+
+#### Việc tiếp theo
+
+V2-301 dừng ở đây. Task kế tiếp là **V2-401 — Link Gia DT TC + THKP-TC**. Chưa triển khai V2-401 trong task này.
 
 ### V2-401 — Gia DT TC + THKP-TC
 
