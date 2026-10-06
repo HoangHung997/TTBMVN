@@ -31,6 +31,7 @@ namespace ExcelAddIn1.Winform
         private readonly Label mapUnit;
         private readonly Label mapQuantity;
         private readonly Label statusLabel;
+        private WorkbookEstimateV2CompatibilityReport compatibilityReport;
 
         internal EstimateWorkItemsPaneView(
             Excel.Workbook workbook,
@@ -171,6 +172,21 @@ namespace ExcelAddIn1.Winform
             };
             content.Controls.Add(statusLabel, 0, content.RowCount++);
 
+            try
+            {
+                compatibilityReport =
+                    WorkbookEstimateV2CompatibilityService.Prepare(
+                        workbook);
+            }
+            catch (Exception ex)
+            {
+                compatibilityReport = null;
+                statusLabel.Text =
+                    "Không tự chuẩn hóa được workbook cũ: " +
+                    ex.Message +
+                    ". Bạn vẫn có thể đăng ký bảng thủ công.";
+            }
+
             RefreshView();
         }
 
@@ -195,12 +211,14 @@ namespace ExcelAddIn1.Winform
                 if (sources.Count > 0)
                 {
                     ApplySourceMap(sources[0]);
-                    statusLabel.Text = "Đã nhớ bảng công tác và metadata ẩn. Chèn/xóa/sắp xếp dòng không dùng RowIndex làm khóa.";
+                    statusLabel.Text = "Đã nhớ bảng công tác và metadata ẩn. Chèn/xóa/sắp xếp dòng không dùng RowIndex làm khóa." +
+                        CompatibilityNote();
                 }
                 else
                 {
                     ClearSourceMap();
-                    statusLabel.Text = "Chưa đăng ký bảng công tác. Hãy chọn vùng gồm dòng tiêu đề và các dòng công tác rồi bấm Quét vùng chọn.";
+                    statusLabel.Text = "Chưa đăng ký bảng công tác. Hãy chọn vùng gồm dòng tiêu đề và các dòng công tác rồi bấm Quét vùng chọn." +
+                        CompatibilityNote();
                 }
             }
             catch (Exception ex)
@@ -209,6 +227,43 @@ namespace ExcelAddIn1.Winform
                 statusLabel.ForeColor = Color.Firebrick;
                 statusLabel.BackColor = Color.MistyRose;
             }
+        }
+
+        private string CompatibilityNote()
+        {
+            if (compatibilityReport == null)
+                return string.Empty;
+
+            var parts =
+                new System.Collections.Generic.List<string>();
+            if (compatibilityReport.MigratedSourceCount > 0)
+            {
+                parts.Add(
+                    "Đã chuyển " +
+                    compatibilityReport.MigratedSourceCount +
+                    " bảng legacy sang cấu trúc V2.");
+            }
+            if (compatibilityReport.HasDualAudienceLegacyOutputs)
+            {
+                parts.Add(
+                    "Phát hiện đồng thời bộ VT/DN cũ; add-in không tự chọn nhầm một bộ giá.");
+            }
+            if (compatibilityReport.PackageStatus ==
+                EstimateV2PackageCompatibilityStatus.MissingOrCorrupt)
+            {
+                parts.Add(
+                    "Package đã pin đang thiếu/corrupt nhưng module vẫn mở; không tự nâng sang package mới.");
+            }
+            else if (compatibilityReport.PackageStatus ==
+                EstimateV2PackageCompatibilityStatus.ProfileCorrupt)
+            {
+                parts.Add(
+                    "Project profile cũ bị lỗi; module vẫn mở để sửa/migration.");
+            }
+
+            return parts.Count == 0
+                ? string.Empty
+                : " " + string.Join(" ", parts);
         }
 
         private void RegisterCurrentSelection()
