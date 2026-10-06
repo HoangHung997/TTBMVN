@@ -208,10 +208,8 @@ namespace ExcelAddIn1.Winform
 
             aggregate.Click += (s, e) => RefreshPreview();
             price.Click += (s, e) => ActivateResourceSheet();
-            labor.Click += (s, e) => ShowPendingWriter(
-                "Công thức nhân công sẽ được sinh trực tiếp trong sheet VL-NC-M; không ghi giá ngày công chết.");
-            machine.Click += (s, e) => ShowPendingWriter(
-                "Giá ca máy sẽ được sinh từ định mức máy và link giá nhiên liệu/nhân công trong VL-NC-M.");
+            labor.Click += (s, e) => GenerateResourceSheet();
+            machine.Click += (s, e) => GenerateResourceSheet();
 
             actions.Controls.Add(aggregate, 0, 0);
             actions.Controls.Add(price, 1, 0);
@@ -439,11 +437,29 @@ namespace ExcelAddIn1.Winform
             }
         }
 
-        private void ShowPendingWriter(string message)
+        private void GenerateResourceSheet()
         {
-            ShowStatus(
-                message + " Backend writer đang được triển khai trong V2-201.",
-                false);
+            try
+            {
+                WorkbookEstimateV2ResourceWriteResult result =
+                    WorkbookEstimateV2ResourceSheetWriter.Apply(workbook);
+                RefreshPreview();
+                ShowStatus(
+                    "Đã cập nhật " + result.WorksheetName +
+                    ": " + result.LaborCount + " nhóm NC, " +
+                    result.MachineCount + " máy, " +
+                    result.MaterialCount + " vật liệu; " +
+                    result.FormulaCount + " công thức. " +
+                    (result.MissingInputCount > 0
+                        ? "Còn " + result.MissingInputCount + " đầu vào cần bổ sung."
+                        : "Đủ đầu vào hiện có."),
+                    result.MissingInputCount > 0);
+                ActivateResourceSheet();
+            }
+            catch (Exception ex)
+            {
+                ShowStatus("Không sinh được VL-NC-M: " + ex.Message, true);
+            }
         }
 
         private void ShowStatus(string message, bool warning)
