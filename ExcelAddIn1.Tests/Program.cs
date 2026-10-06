@@ -65,6 +65,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2PriceSheetProjection", TestEstimateV2PriceSheetProjection);
             Run("EstimateV2RatePlan", TestEstimateV2RatePlan);
             Run("EstimateV2CostLinkPlan", TestEstimateV2CostLinkPlan);
+            Run("EstimateV2ValidationRules", TestEstimateV2ValidationRules);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2436,6 +2437,63 @@ namespace ExcelAddIn1.Tests
             AssertEqual(
                 plan.Find(bound1.WorkItemId).RateId,
                 plan.Find(bound2.WorkItemId).RateId);
+        }
+
+        private static void TestEstimateV2ValidationRules()
+        {
+            string rateId = "DG-VALIDATION-TEST";
+            string[] row =
+                EstimateV2ValidationRules.ExpectedCostRowFormulas(
+                    6,
+                    10,
+                    rateId);
+
+            AssertEqual(6, row.Length);
+            AssertEqual(
+                "=" + EstimateV2ExcelNames.RateComponent(rateId, "VL"),
+                row[0]);
+            AssertEqual(
+                "=" + EstimateV2ExcelNames.RateComponent(rateId, "NC"),
+                row[1]);
+            AssertEqual(
+                "=" + EstimateV2ExcelNames.RateComponent(rateId, "M"),
+                row[2]);
+            AssertEqual("=F10*G10", row[3]);
+            AssertEqual("=F10*H10", row[4]);
+            AssertEqual("=F10*I10", row[5]);
+
+            AssertTrue(
+                EstimateV2ValidationRules.FormulaEquivalent(
+                    " = $F$10 * $G$10 ",
+                    "=F10*G10"));
+            AssertTrue(
+                EstimateV2ValidationRules.FormulaEquivalent(
+                    "=SUM(A1;B1)",
+                    "=SUM(A1,B1)"));
+            AssertEqual(
+                "=SUM(A1,B1)",
+                EstimateV2ValidationRules.NormalizeFormula(
+                    "= _xlfn.SUM($A$1 ; $B$1)"));
+
+            string[] thkp =
+                EstimateV2ValidationRules.ExpectedThkpDirectFormulas();
+            AssertEqual(
+                "=" + EstimateV2ExcelNames.EstimateTotal("VL"),
+                thkp[0]);
+            AssertEqual(
+                "=" + EstimateV2ExcelNames.EstimateTotal("TOTAL"),
+                thkp[3]);
+
+            AssertEqual(
+                "#VALUE!",
+                EstimateV2ValidationRules.ExcelErrorText(2015));
+            AssertEqual(
+                "#REF!",
+                EstimateV2ValidationRules.ExcelErrorText(
+                    unchecked((int)0x800A07E7)));
+            AssertEqual(
+                "#N/A",
+                EstimateV2ValidationRules.ExcelErrorText(2042));
         }
 
         private static void TestEstimateRateGrouping()
