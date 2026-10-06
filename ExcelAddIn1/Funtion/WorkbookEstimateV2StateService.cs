@@ -397,6 +397,35 @@ namespace ExcelAddIn1.Funtion
                     }
                 }
 
+                if (validId &&
+                    existing != null &&
+                    existing.Fingerprint.Length > 0 &&
+                    !string.Equals(
+                        existing.Fingerprint,
+                        fingerprint,
+                        StringComparison.OrdinalIgnoreCase))
+                {
+                    // Neu nguoi dung sort chi cac cot hien thi, ID an co the khong di cung du lieu.
+                    // Chi doi ID khi fingerprint hien tai khop duy nhat voi mot WorkItem khac;
+                    // neu khong co match thi coi day la nguoi dung sua noi dung cong tac va giu ID cu.
+                    string movedId = TryRecoverByFingerprint(
+                        fingerprint,
+                        sourceKey,
+                        fingerprintCandidates,
+                        seenIds);
+                    if (movedId.Length > 0 &&
+                        !string.Equals(movedId, rowId, StringComparison.OrdinalIgnoreCase))
+                    {
+                        rowId = movedId;
+                        existing = stateById[rowId];
+                        recoveredCount++;
+                        changed = true;
+                        messages.Add(
+                            "Dong " + row +
+                            " da doi vi tri/sap xep; phuc hoi WorkItemId theo fingerprint.");
+                    }
+                }
+
                 if (!validId || existing == null)
                 {
                     string recoveredId = TryRecoverByFingerprint(
