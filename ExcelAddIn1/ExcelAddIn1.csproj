@@ -297,6 +297,7 @@
     <Compile Include="Winform\EstimateUnitRatesPaneView.cs" />
     <Compile Include="Winform\EstimateCostSummaryPaneView.cs" />
     <Compile Include="Winform\EstimateWorkItemsPaneView.cs" />
+    <Compile Include="Winform\EstimateSettingsPaneView.cs" />
     <Compile Include="Winform\Dutoan.cs">
       <SubType>Form</SubType>
     </Compile>
