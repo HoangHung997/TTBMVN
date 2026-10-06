@@ -1921,15 +1921,17 @@ Nếu finding có target, `Xem chi tiết`:
 
 Ví dụ thiếu giá mở `VL-NC-M`; công thức G:L hoặc THKP bị sửa mở thẳng cell đầu tiên bị lỗi.
 
-#### Tổng quan
+#### Tổng quan / startup
 
-Bước 6 của `EstimateTaskPaneControl` không còn coi chỉ có THKP link là hoàn tất.
+Không chạy full validation khi mở Tổng quan để tránh quay lại lỗi kiến trúc cũ: mở module phải quét dữ liệu/package rồi mới cho dùng.
 
-Bước `THKP-TC & Kiểm tra`:
+`EstimateTaskPaneControl` chỉ dùng kiểm tra nhẹ `HasDirectCostLinks` cho bước 6. Full validation chỉ chạy khi:
 
-- DONE khi THKP link đúng **và** không còn warning/error;
-- WARNING nếu validation còn cảnh báo/lỗi;
-- READY khi chưa có dữ liệu để kiểm tra.
+- mở màn hình `THKP-TC & Kiểm tra`;
+- bấm `Kiểm tra hồ sơ`;
+- hoặc gọi service validation/repair rõ ràng.
+
+Như vậy missing package hoặc hồ sơ chưa hoàn chỉnh vẫn không khóa việc mở module.
 
 #### Test code đã thêm
 
@@ -2818,7 +2820,7 @@ V2-401 đã chốt. V2-501 đã được triển khai ở section bên dưới.
 - `769994bf3fc7` — kiểm tra formula giá NC/M trong VL-NC-M;
 - `bb6770a9162c` — cảnh báo layout metadata cũ;
 - `e64a6c46514b` — repair có thể sinh DG thiếu/migrate layout;
-- `34a0ce5db9ba` — Tổng quan phản ánh full validation;
+- `7513172b15c7` — giữ Tổng quan nhẹ, full validation chạy on-demand;
 - `2041577ab432` — cập nhật UI contract.
 
 #### Tự kiểm tra trong môi trường hiện tại
