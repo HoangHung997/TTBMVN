@@ -168,6 +168,48 @@ namespace ExcelAddIn1.Funtion
                 candidates[0].Name);
         }
 
+        public static bool NormalizeOutputSheetName(
+            Excel.Workbook workbook,
+            Excel.Worksheet sheet,
+            string canonicalName)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+            if (sheet == null)
+                throw new ArgumentNullException(nameof(sheet));
+
+            string wanted =
+                (canonicalName ?? string.Empty).Trim();
+            if (wanted.Length == 0 ||
+                string.Equals(
+                    sheet.Name,
+                    wanted,
+                    StringComparison.OrdinalIgnoreCase))
+            {
+                return false;
+            }
+
+            Excel.Worksheet existing =
+                FindWorksheetByNames(
+                    workbook,
+                    wanted);
+            if (existing != null)
+            {
+                Release(existing);
+                return false;
+            }
+
+            try
+            {
+                sheet.Name = wanted;
+                return true;
+            }
+            catch (COMException)
+            {
+                return false;
+            }
+        }
+
         public static int HideSupersededLegacyOutputs(
             Excel.Workbook workbook,
             EstimateV2LegacySheetKind kind,
