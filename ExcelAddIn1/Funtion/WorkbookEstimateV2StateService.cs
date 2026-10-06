@@ -321,6 +321,23 @@ namespace ExcelAddIn1.Funtion
             int lastDataRow,
             EstimateV2ColumnLayout columns)
         {
+            return Reconcile(
+                workbook,
+                worksheet,
+                firstDataRow,
+                lastDataRow,
+                columns,
+                true);
+        }
+
+        public static EstimateV2ReconcileResult Reconcile(
+            Excel.Workbook workbook,
+            Excel.Worksheet worksheet,
+            int firstDataRow,
+            int lastDataRow,
+            EstimateV2ColumnLayout columns,
+            bool restoreNormDisplay)
+        {
             if (workbook == null)
                 throw new ArgumentNullException(nameof(workbook));
             if (worksheet == null)
@@ -536,7 +553,8 @@ namespace ExcelAddIn1.Funtion
                     ref changed);
 
                 string displayNorm = FormatNormDisplay(existing.NormCode, existing.VariantCode);
-                if (existing.NormCode.Length > 0 &&
+                if (restoreNormDisplay &&
+                    existing.NormCode.Length > 0 &&
                     !string.Equals(visibleNorm, displayNorm, StringComparison.OrdinalIgnoreCase))
                 {
                     WriteCellValue(
