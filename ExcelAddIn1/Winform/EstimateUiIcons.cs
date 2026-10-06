@@ -20,7 +20,10 @@ namespace ExcelAddIn1.Winform
         Worker,
         Excavator,
         Formula,
-        Calculator
+        Calculator,
+        Save,
+        Lock,
+        Cloud
     }
 
     internal static class EstimateUiIcons
@@ -163,6 +166,26 @@ namespace ExcelAddIn1.Winform
                                     s * .06f);
                             }
                         }
+                        break;
+                    case EstimateUiIconKind.Save:
+                        graphics.DrawRectangle(pen, s * .16f, s * .13f, s * .68f, s * .72f);
+                        graphics.DrawRectangle(pen, s * .28f, s * .14f, s * .40f, s * .25f);
+                        graphics.DrawRectangle(pen, s * .28f, s * .55f, s * .44f, s * .29f);
+                        graphics.DrawLine(pen, s * .57f, s * .18f, s * .57f, s * .34f);
+                        break;
+                    case EstimateUiIconKind.Lock:
+                        graphics.DrawArc(pen, s * .31f, s * .12f, s * .38f, s * .43f, 180, 180);
+                        graphics.DrawLine(pen, s * .31f, s * .34f, s * .31f, s * .48f);
+                        graphics.DrawLine(pen, s * .69f, s * .34f, s * .69f, s * .48f);
+                        graphics.DrawRectangle(pen, s * .21f, s * .44f, s * .58f, s * .40f);
+                        graphics.FillEllipse(brush, s * .46f, s * .59f, s * .08f, s * .08f);
+                        graphics.DrawLine(pen, s * .50f, s * .66f, s * .50f, s * .75f);
+                        break;
+                    case EstimateUiIconKind.Cloud:
+                        graphics.DrawArc(pen, s * .19f, s * .42f, s * .31f, s * .29f, 75, 210);
+                        graphics.DrawArc(pen, s * .34f, s * .20f, s * .36f, s * .43f, 180, 185);
+                        graphics.DrawArc(pen, s * .57f, s * .36f, s * .28f, s * .31f, 255, 210);
+                        graphics.DrawLine(pen, s * .29f, s * .72f, s * .72f, s * .72f);
                         break;
                     case EstimateUiIconKind.Refresh:
                         graphics.DrawArc(pen, s * .18f, s * .18f, s * .64f, s * .64f, 35, 245);
