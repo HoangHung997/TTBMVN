@@ -17,6 +17,7 @@ namespace ExcelAddIn1.Funtion
             IEnumerable<string> unresolvedLogicalResources)
         {
             Plan = plan ?? throw new ArgumentNullException(nameof(plan));
+            PriceSheetResources = EstimateV2ResourcePriceSheetProjector.Project(Plan);
             MissingPackageBindings = new ReadOnlyCollection<string>(
                 (missingPackageBindings ?? Enumerable.Empty<string>())
                     .Distinct(StringComparer.OrdinalIgnoreCase)
@@ -30,11 +31,14 @@ namespace ExcelAddIn1.Funtion
         }
 
         public EstimateV2ResourcePlan Plan { get; }
+        public IReadOnlyList<EstimateV2ResourceRequirement> PriceSheetResources { get; }
         public IReadOnlyList<string> MissingPackageBindings { get; }
         public IReadOnlyList<string> UnresolvedLogicalResources { get; }
+
+        // Tai nguyen logic (OR/DIVING) khong chan VL-NC-M: sheet gia se sinh
+        // tat ca ung vien vat ly. Viec chon ung vien cu the thuoc buoc don gia.
         public bool CanGenerate =>
             MissingPackageBindings.Count == 0 &&
-            UnresolvedLogicalResources.Count == 0 &&
             Plan.BoundWorkItemCount > 0;
     }
 
