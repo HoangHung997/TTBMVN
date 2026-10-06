@@ -33,8 +33,8 @@ namespace ExcelAddIn1.Winform
         private readonly Label generatedValue;
         private readonly Label missingValue;
         private readonly Label fourthValue;
-        private readonly DataGridView rateGrid;
-        private readonly DataGridView ratePreviewGrid;
+        private DataGridView rateGrid;
+        private DataGridView ratePreviewGrid;
         private readonly Label statusLabel;
         private WorkbookEstimateV2RatePreview preview;
 
