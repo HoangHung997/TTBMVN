@@ -378,6 +378,21 @@ namespace ExcelAddIn1.Funtion
                     EstimateV2CostIssueSeverity.Warning));
             }
 
+            EstimateV2RegisteredSource pendingLayout =
+                sources.FirstOrDefault(source =>
+                    source.Columns.TechnicalIdColumn <=
+                    source.Columns.QuantityColumn + 6);
+            if (pendingLayout != null)
+            {
+                findings.Add(new EstimateV2ValidationFinding(
+                    "COST_LAYOUT_PENDING",
+                    "Bảng công tác chưa có vùng đơn giá/thành tiền V2 an toàn",
+                    "Metadata ẩn đang chiếm vùng kết quả. Cập nhật THKP-TC sẽ tự chuyển metadata và tạo 6 cột liên kết.",
+                    EstimateV2CostIssueSeverity.Warning,
+                    worksheetName: pendingLayout.WorksheetName,
+                    recoverable: true));
+            }
+
             ScanPhysicalIdentity(
                 workbook,
                 state,
