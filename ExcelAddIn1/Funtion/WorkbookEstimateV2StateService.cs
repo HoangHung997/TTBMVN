@@ -732,9 +732,9 @@ namespace ExcelAddIn1.Funtion
             Excel.Range range = null;
             try
             {
-                range = worksheet.Range[
-                    worksheet.Columns[firstColumn],
-                    worksheet.Columns[lastColumn]];
+                string address = ExcelColumnAddress.ToLetters(firstColumn) + ":" +
+                    ExcelColumnAddress.ToLetters(lastColumn);
+                range = worksheet.Range[address];
                 range.EntireColumn.Hidden = true;
             }
             finally
