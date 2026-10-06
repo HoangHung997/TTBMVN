@@ -381,6 +381,7 @@ namespace ExcelAddIn1.Funtion
             Excel.Workbook workbook)
         {
             Excel.Worksheet sheet = null;
+            Excel.Range used = null;
             try
             {
                 sheet = FindWorksheet(
@@ -431,11 +432,60 @@ namespace ExcelAddIn1.Funtion
                     Release(names);
                 }
 
-                return true;
+                var missingReferences =
+                    new HashSet<string>(
+                        required,
+                        StringComparer.OrdinalIgnoreCase);
+                used = sheet.UsedRange;
+                object formulas = used.Formula;
+                Array matrix = formulas as Array;
+                if (matrix == null)
+                {
+                    RemoveFormulaReferences(
+                        missingReferences,
+                        Convert.ToString(formulas));
+                }
+                else
+                {
+                    foreach (object value in matrix)
+                    {
+                        RemoveFormulaReferences(
+                            missingReferences,
+                            Convert.ToString(value));
+                        if (missingReferences.Count == 0)
+                            break;
+                    }
+                }
+
+                return missingReferences.Count == 0;
             }
             finally
             {
+                Release(used);
                 Release(sheet);
+            }
+        }
+
+        private static void RemoveFormulaReferences(
+            ISet<string> remaining,
+            string formula)
+        {
+            string text = formula ?? string.Empty;
+            if (!text.StartsWith(
+                "=",
+                StringComparison.Ordinal))
+            {
+                return;
+            }
+
+            foreach (string name in remaining.ToArray())
+            {
+                if (text.IndexOf(
+                    name,
+                    StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    remaining.Remove(name);
+                }
             }
         }
 
