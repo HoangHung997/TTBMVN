@@ -108,6 +108,12 @@ namespace ExcelAddIn1.Winform
                 entry.Control?.RefreshOverview();
         }
 
+        internal static void ShowPackages(Excel.Workbook workbook)
+        {
+            Show(workbook);
+            Entries[WorkbookKey(workbook)].Control.ShowPackages();
+        }
+
         internal static void CloseForWorkbook(Excel.Workbook workbook)
         {
             if (workbook == null)

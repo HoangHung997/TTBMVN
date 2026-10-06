@@ -19,8 +19,8 @@ Các task đã triển khai ở mức code:
 | V2-501 | Validation / safe repair | DONE - implementation / runtime pending |
 | V2-601 | Legacy / migration / VT-DN / rename | DONE - implementation / runtime pending |
 | V2-701 | Thiết lập chung | DONE - implementation / runtime pending |
-| V2-801 | Gói pháp lý & Dữ liệu | **NEXT** |
-| V2-901 | Báo cáo & Xuất in | TODO |
+| V2-801 | Gói pháp lý & Dữ liệu | DONE - implementation / targeted Excel service tests PASS; full UI regression pending |
+| V2-901 | Báo cáo & Xuất in | **NEXT** |
 
 **Quan trọng:** chưa có bằng chứng build VSTO/Excel runtime end-to-end trong môi trường triển khai hiện tại. Không được đổi các trạng thái trên thành runtime PASS nếu chưa chạy thật trên Windows + Excel + VSTO.
 
@@ -477,6 +477,9 @@ Phải chạy trên máy Windows có Excel/VSTO.
 - close workbook dispose timer/event.
 
 ## 11. Task NEXT — V2-801 Gói pháp lý & Dữ liệu
+
+Mục này giữ đặc tả bàn giao. V2-801 đã triển khai và kiểm thử service trên Excel ngày
+2026-10-06; xem [V2-801.md](V2-801.md). Task NEXT hiện tại là V2-901.
 
 Đây là task tiếp theo.
 

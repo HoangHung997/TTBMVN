@@ -410,6 +410,20 @@ namespace ExcelAddIn1
             }
         }
 
+        private void btnEstimatePackages_Click(object sender, RibbonControlEventArgs e)
+        {
+            try
+            {
+                Excel.Workbook workbook = Globals.ThisAddIn.Application.ActiveWorkbook;
+                if (workbook != null) EstimateTaskPaneManager.ShowPackages(workbook);
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(ex, "Open Estimate V2 packages");
+                MessageBox.Show(ex.Message, "Gói pháp lý & Dữ liệu");
+            }
+        }
+
         private static string GetWorkbookWindowKey(Excel.Workbook workbook)
         {
             IntPtr unknown = IntPtr.Zero;

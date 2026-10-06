@@ -21,8 +21,10 @@ end-to-end trong Excel/VSTO. Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-V
 | V2-501 | Validation / phục hồi / phát hiện lỗi | DONE - implementation / runtime pending |
 | V2-601 | Tương thích file cũ và migration | DONE - implementation / runtime pending |
 | V2-701 | Thiết lập chung theo workbook | DONE - implementation / runtime pending |
-| V2-801 | Gói pháp lý & Dữ liệu | NEXT - cần chốt/mockup UI 09 nếu ảnh chuẩn chưa có |
-| V2-901 | Báo cáo & Xuất in | TODO |
+| V2-801 | Gói pháp lý & Dữ liệu | DONE - implementation / targeted Excel service tests PASS; full UI regression pending |
+| V2-901 | Báo cáo & Xuất in | NEXT |
+
+Tiếp quản 2026-10-06: chi tiết triển khai và bằng chứng V2-801 ở [V2-801.md](V2-801.md).
 
 ---
 

@@ -773,6 +773,11 @@ namespace ExcelAddIn1.Winform
                 ApplyRuntimeSettings));
         }
 
+        internal void ShowPackages()
+        {
+            ShowChild(new EstimatePackagesPaneView(workbook, ShowOverview));
+        }
+
         private void ApplyRuntimeSettings(
             EstimateV2Settings settings)
         {

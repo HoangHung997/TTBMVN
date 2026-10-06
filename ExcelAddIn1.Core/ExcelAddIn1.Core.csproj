@@ -63,6 +63,7 @@
     <Compile Include="EstimateV2Validation.cs" />
     <Compile Include="EstimateV2Compatibility.cs" />
     <Compile Include="EstimateV2Settings.cs" />
+    <Compile Include="EstimateV2PackageMigration.cs" />
     <Compile Include="EstimateV2ResourcePriceSheetProjector.cs" />
     <Compile Include="EstimateV2ResourceNames.cs" />
     <Compile Include="EstimateV2ExcelNames.cs" />

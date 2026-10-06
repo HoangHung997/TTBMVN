@@ -68,6 +68,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2ValidationRules", TestEstimateV2ValidationRules);
             Run("EstimateV2CompatibilityRules", TestEstimateV2CompatibilityRules);
             Run("EstimateV2SettingsPolicy", TestEstimateV2SettingsPolicy);
+            Run("EstimateV2PackageMigration", TestEstimateV2PackageMigration);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2586,6 +2587,32 @@ namespace ExcelAddIn1.Tests
                         "Đơn vị",
                         "Khối lượng"
                     }));
+        }
+
+        private static void TestEstimateV2PackageMigration()
+        {
+            RegulationPackageBundle bundle = LoadBqpPackageBundle("BQP-RPBM-2025");
+            NormDefinition norm = NormCatalog.Load(bundle.Modules[RegulationModuleKind.Norm]).Definitions.First();
+            var sourceItem = new EstimateV2WorkItemState(EstimateV2WorkItemState.CreateId(), "SRC", norm.Key,
+                norm.Variants.First(), "OLD", "1.0.0", new string('A', 64), "WORKITEM", string.Empty, false);
+            var orphan = sourceItem.WithOrphaned(true);
+            var state = new EstimateV2State(new[] { sourceItem }, DateTime.UtcNow);
+            var plan = EstimateV2PackageMigrationPlan.Create(state, bundle);
+            AssertTrue(plan.CanApply);
+            AssertEqual(1, plan.AffectedCount);
+            AssertEqual(sourceItem.WorkItemId, plan.TargetState.WorkItems[0].WorkItemId);
+            AssertEqual(bundle.Package.PackageChecksum, plan.TargetState.WorkItems[0].PackageChecksum);
+            AssertTrue(plan.Matches(state));
+            AssertFalse(plan.Matches(state.Upsert(sourceItem.WithoutBinding(), DateTime.UtcNow)));
+            AssertEqual(0, EstimateV2PackageMigrationPlan.Create(
+                new EstimateV2State(new[] { orphan }, state.UpdatedUtc), bundle).AffectedCount);
+            var missing = sourceItem.WithBinding("MISSING-NORM", norm.Variants.First(), "OLD", "1.0.0", new string('A', 64));
+            AssertFalse(EstimateV2PackageMigrationPlan.Create(
+                new EstimateV2State(new[] { missing }, state.UpdatedUtc), bundle).CanApply);
+            var badVariant = sourceItem.WithBinding(norm.Key, "MISSING-VARIANT", "OLD", "1.0.0", new string('A', 64));
+            AssertFalse(EstimateV2PackageMigrationPlan.Create(
+                new EstimateV2State(new[] { badVariant }, state.UpdatedUtc), bundle).CanApply);
+            AssertEqual("OLD", sourceItem.PackageId);
         }
 
         private static void TestEstimateV2SettingsPolicy()

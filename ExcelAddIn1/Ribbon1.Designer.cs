@@ -58,6 +58,7 @@
             this.button1 = this.Factory.CreateRibbonButton();
             this.btnDutoan = this.Factory.CreateRibbonButton();
             this.btnEstimateSettings = this.Factory.CreateRibbonButton();
+            this.btnEstimatePackages = this.Factory.CreateRibbonButton();
             this.button3 = this.Factory.CreateRibbonButton();
             this.button4 = this.Factory.CreateRibbonButton();
             this.btnRandom3m = this.Factory.CreateRibbonButton();
@@ -98,6 +99,7 @@
             this.group1.Items.Add(this.box3);
             this.group1.Items.Add(this.btnDutoan);
             this.group1.Items.Add(this.btnEstimateSettings);
+            this.group1.Items.Add(this.btnEstimatePackages);
             this.group1.Label = "Cập nhật lại đơn giá";
             this.group1.Name = "group1";
             // 
@@ -234,6 +236,9 @@
             this.btnDutoan.Label = "Tinh toán dự toán";
             this.btnDutoan.Name = "btnDutoan";
             this.btnDutoan.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnDutoan_Click);
+            this.btnEstimatePackages.Label = "Gói pháp lý\nDữ liệu";
+            this.btnEstimatePackages.Name = "btnEstimatePackages";
+            this.btnEstimatePackages.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnEstimatePackages_Click);
             // 
             // btnEstimateSettings
             // 
@@ -375,6 +380,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button2;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button5;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnDutoan;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEstimatePackages;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEstimateSettings;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnRandom3m;
         internal Microsoft.Office.Tools.Ribbon.RibbonButtonGroup buttonGroup1;

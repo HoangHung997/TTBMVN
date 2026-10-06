@@ -52,7 +52,7 @@ Các ảnh này là **reference bắt buộc**, không phải ý tưởng tham k
 | 06 DG Nước | `EstimateUnitRatesPaneView` (`InlandWater`) |
 | 07 THKP-TC & Kiểm tra | `EstimateCostSummaryPaneView` (V2-401; V2-501 mở rộng validation) |
 | 08 Thiết lập chung | `EstimateSettingsPaneView` (V2-701) |
-| 09 Gói pháp lý & Dữ liệu | package UI on-demand |
+| 09 Gói pháp lý & Dữ liệu | `EstimatePackagesPaneView`, đặc tả bố cục trong V2-801.md |
 | 10 Báo cáo & Xuất in | report/export phase |
 
 ## 4. Tổng quan

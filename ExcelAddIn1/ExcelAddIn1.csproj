@@ -265,6 +265,7 @@
     <Compile Include="Funtion\WorkbookEstimateV2ValidationService.cs" />
     <Compile Include="Funtion\WorkbookEstimateV2CompatibilityService.cs" />
     <Compile Include="Funtion\WorkbookEstimateV2SettingsService.cs" />
+    <Compile Include="Funtion\WorkbookEstimateV2PackageService.cs" />
     <Compile Include="Funtion\WorkbookEstimateV2CostLinkService.cs" />
     <Compile Include="Funtion\WorkbookEstimateCalculationService.cs" />
     <Compile Include="Funtion\WorkbookGeneratedEstimateWriter.cs" />
@@ -298,6 +299,8 @@
     <Compile Include="Winform\EstimateCostSummaryPaneView.cs" />
     <Compile Include="Winform\EstimateWorkItemsPaneView.cs" />
     <Compile Include="Winform\EstimateSettingsPaneView.cs" />
+    <Compile Include="Winform\EstimateActionPane.cs" />
+    <Compile Include="Winform\EstimatePackagesPaneView.cs" />
     <Compile Include="Winform\Dutoan.cs">
       <SubType>Form</SubType>
     </Compile>
