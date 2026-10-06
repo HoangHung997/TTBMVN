@@ -303,6 +303,7 @@
     <Compile Include="Winform\EstimateActionPane.cs" />
     <Compile Include="Winform\EstimatePackagesPaneView.cs" />
     <Compile Include="Winform\RegulationPackageEditorForm.cs" />
+    <Compile Include="Winform\RegulationDocumentView.cs" />
     <Compile Include="Winform\EstimateReportsPaneView.cs" />
     <Compile Include="Winform\Dutoan.cs">
       <SubType>Form</SubType>

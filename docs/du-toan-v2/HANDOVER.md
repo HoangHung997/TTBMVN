@@ -11,6 +11,10 @@ Mở rộng 2026-10-06: V2-802 bổ sung mục 7 và bảng quản lý/biên so�
 kiểm chứng, chặn xóa gói đang dùng, bản nháp và giới hạn. Build sạch; 83 test Core
 PASS; UI tạo từ mẫu/kiểm tra/lưu nháp PASS. Full runtime regression vẫn pending.
 
+V2-803 tiếp tục chuyển editor sang bảng theo từng công tác, ma trận hao phí/biến
+thể và tab Khu vực. 84 test Core PASS; UI navigation/check smoke PASS. Xem mục
+V2-803 trong PACKAGE-MANAGEMENT.md cho giới hạn variant/điều kiện và gói 2021.
+
 Các task đã triển khai ở mức code:
 
 | Task | Nội dung | Trạng thái |

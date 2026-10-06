@@ -26,12 +26,40 @@ doi goi cua workbook.
 
 ## Noi dung bang sua
 
+### Cap nhat V2-803 - Bang theo cong tac (2026-10-06)
+
+- Khong con bang phang gom tat ca ban ghi va chuoi data dai trong cac tab module.
+  Moi tab chon mot ma cong tac/quy tac, hien tieu de va bang chi tiet cua ma do.
+- Dinh muc 2025: hang la hao phi VL/NC/M, cot la tung loai `020.0200.1`, `.2`,
+  `.3`, `.4` kem nhan mat do/dat/rung/do sau. Ma variant that giu nguyen,
+  tooltip hien khoa; `.1` la thu tu hien thi, khong doi identity binding.
+- Thong tin/can cu va dieu kien co tab chi tiet rieng. So hao phi dung dau thap
+  phan Excel; file package van luu so theo dinh dang invariant.
+- Khu vuc: GeographyZone va ProvisionalEstimateRate (suat theo khu vuc/nguon
+  kinh phi), dung chung ban ghi goc, khong sao chep thanh module moi. Dia ban
+  giu cac bang mat do, dia hinh, phan vung tinh/thanh.
+- Chuyen ma/tab va luu nhap se commit bang dang sua; nhap sai bi chan chuyen.
+- Goi 2021 chi co danh muc/so loai, chua co bang rates chi tiet: hien cac truong
+  goc, khong tu tao hao phi du doan.
+- Dieu chinh/rang buoc phuc tap van dung cu phap ky thuat trong bang thong so;
+  chua co editor rieng tung dieu kien hay ten/nhan variant tuy chinh. Thay doi
+  so luong variant phai khop cot hao phi; chua co nut them/xoa cot variant.
+- Day la bo cuc theo tung cong tac, chua phai ban sao 100% tat ca bang van ban.
+  Can doi chieu bang goc cu the de chot editor rieng cho tung loai quy tac.
+
+Build Release x64 sach, **84 test Core PASS**. Test ReadFields/WriteFields cho
+tat ca ban ghi 2021/2025; ma tran roundtrip giu hao phi, dieu chinh, rang buoc;
+chan variant trung va hao phi am. Excel smoke PASS: mo Dinh muc/Khu vuc/Chi phi/
+Gia may/Dia ban/Tuan thu, chuyen tab va Kiem tra goi. Luu nhap ma tran PASS.
+Khong cai/xoa goi qua UI. Chua test day du sua cell/doi ma/bo sung variant.
+Ban test rieng: `tmp/HoaLuNamDinh-package-table-test.xlsx`.
+
 Sau module: Quy trinh, Dinh muc, Chi phi, Gia may, Dia ban, Tuan thu;
 mot tab Van ban nguon. Ten tab duoc hien thi theo UI hien tai.
 Bang module gom ma, loai ban ghi, don vi, ten du lieu, du lieu variant/hao phi/
 quy tac, ma van ban, trang tu/den, muc can cu va trang thai kiem chung.
 
-Cot Ten du lieu cho phep sua ten hien thi sang tieng Viet. Cot don vi/variant/
+Trong ban bang phang ban dau, cot Ten du lieu cho phep sua ten hien thi sang tieng Viet. Cot don vi/variant/
 hao phi van la cac khoa va cu phap ky thuat cua package, khong phai trinh soan
 thao dinh muc dang cay. Khong doi tuy tien khoa duoc tham chieu boi module khac.
 Kiem tra cau truc khong thay the kiem chung noi dung thong tu/hao phi.

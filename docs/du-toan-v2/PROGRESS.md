@@ -24,6 +24,7 @@ Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
 | V2-701 | Thiết lập chung theo workbook | DONE - implementation / runtime pending |
 | V2-801 | Gói pháp lý & Dữ liệu | DONE - implementation / targeted Excel service tests PASS; full UI regression pending |
 | V2-802 | Quản lý, tạo/sửa/xóa gói và định mức; mục 7 | DONE - implementation / 83 Core tests and authoring UI smoke PASS; full regression pending |
+| V2-803 | Bảng hao phí theo công tác/loại; tab Khu vực | DONE - implementation / 84 Core tests and navigation/check UI smoke PASS; full editing regression pending |
 | V2-901 | Báo cáo & Xuất in | DONE - implementation / PDF service tests PASS; full UI regression pending |
 
 Tiếp quản 2026-10-06: chi tiết triển khai và bằng chứng V2-801 ở [V2-801.md](V2-801.md).

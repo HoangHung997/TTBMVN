@@ -17,6 +17,7 @@ namespace ExcelAddIn1.Winform
         private readonly Dictionary<RegulationModuleKind, DataGridView> grids = new Dictionary<RegulationModuleKind, DataGridView>();
         private readonly DataGridView sources;
         private readonly TabControl tabs;
+        private readonly List<RegulationDocumentView> documentViews = new List<RegulationDocumentView>();
         private readonly Label status;
         private bool loading = true, dirty;
         private string checkedSource, checkedBundle;
@@ -78,8 +79,27 @@ namespace ExcelAddIn1.Winform
                 string title = kind == RegulationModuleKind.Norm ? "Định mức" : kind == RegulationModuleKind.CostRule ? "Chi phí" :
                     kind == RegulationModuleKind.MachineRate ? "Giá máy" : kind == RegulationModuleKind.Geography ? "Địa bàn" :
                     kind == RegulationModuleKind.Compliance ? "Tuân thủ" : "Quy trình";
-                var page = new TabPage(title); page.Controls.Add(grid); tabs.TabPages.Add(page);
+                Func<IEnumerable<DataGridViewRow>> rows = () => grid.Rows.Cast<DataGridViewRow>().Where(r => !r.IsNewRow &&
+                    !(kind == RegulationModuleKind.Norm && Cell(r, 1) == "ProvisionalEstimateRate") &&
+                    !(kind == RegulationModuleKind.Geography && Cell(r, 1) == "GeographyZone"));
+                var view = new RegulationDocumentView(rows, () => grid);
+                view.Modified += Changed;
+                documentViews.Add(view);
+                var page = new TabPage(title); page.Controls.Add(view); tabs.TabPages.Add(page);
             }
+            var regionView = new RegulationDocumentView(() =>
+                grids[RegulationModuleKind.Geography].Rows.Cast<DataGridViewRow>().Where(r => !r.IsNewRow && Cell(r, 1) == "GeographyZone")
+                    .Concat(grids[RegulationModuleKind.Norm].Rows.Cast<DataGridViewRow>().Where(r => !r.IsNewRow && Cell(r, 1) == "ProvisionalEstimateRate")),
+                () => grids[RegulationModuleKind.Geography]);
+            documentViews.Add(regionView);
+            regionView.Modified += Changed;
+            var regionPage = new TabPage("Khu vực"); regionPage.Controls.Add(regionView); tabs.TabPages.Add(regionPage);
+            tabs.Selecting += (s, e) => {
+                if (loading) return;
+                try { (tabs.SelectedTab?.Controls[0] as RegulationDocumentView)?.Flush();
+                    (e.TabPage.Controls[0] as RegulationDocumentView)?.RefreshRecords(); }
+                catch (Exception ex) { e.Cancel = true; Try(() => { throw new FormatException(ex.Message, ex); }); }
+            };
             sources = NewGrid();
             foreach (string name in new[] { "Mã văn bản", "Tên văn bản", "Cơ quan", "Ngày ban hành", "Hiệu lực từ", "Hiệu lực đến", "URL chính thức", "SHA-256 tài liệu" })
                 sources.Columns.Add(name, name);
@@ -98,7 +118,8 @@ namespace ExcelAddIn1.Winform
             root.Controls.Add(status, 0, 2);
             var commands = new FlowLayoutPanel { Dock = DockStyle.Fill, AutoSize = true };
             root.Controls.Add(commands, 0, 3);
-            Button(commands, "Thêm dòng", () => { var grid = CurrentGrid(); grid.CurrentCell = grid.Rows[grid.NewRowIndex].Cells[0]; grid.BeginEdit(true); });
+            Button(commands, "Thêm dòng", () => { var view = tabs.SelectedTab.Controls[0] as RegulationDocumentView;
+                if (view != null) view.AddRecord(); else { var grid = CurrentGrid(); grid.CurrentCell = grid.Rows[grid.NewRowIndex].Cells[0]; grid.BeginEdit(true); } Changed(); });
             Button(commands, "Xóa dòng", DeleteRows);
             Button(commands, "Lưu bản nháp", () => { checkedSource = SaveDraft(); status.Text = "Đã lưu nháp: " + checkedSource; dirty = false; });
             Button(commands, "Mở bản nháp", OpenDraft);
@@ -142,12 +163,15 @@ namespace ExcelAddIn1.Winform
         private DataGridView CurrentGrid() => (DataGridView)tabs.SelectedTab.Controls[0];
         private void DeleteRows()
         {
+            var view = tabs.SelectedTab.Controls[0] as RegulationDocumentView;
+            if (view != null) { view.DeleteRecord(); Changed(); return; }
             var grid = CurrentGrid(); var rows = grid.SelectedRows.Cast<DataGridViewRow>().Where(r => !r.IsNewRow).ToArray();
             if (rows.Length == 0 || MessageBox.Show(this, "Xóa " + rows.Length + " dòng trong bản nháp?", "Xóa dữ liệu",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes) return;
             foreach (var row in rows) grid.Rows.Remove(row); Changed();
         }
-        private void EndEdit() { foreach (var grid in grids.Values) grid.EndEdit(); sources.EndEdit(); Validate(); }
+        private void EndEdit() { (tabs.SelectedTab.Controls[0] as RegulationDocumentView)?.Flush();
+            foreach (var grid in grids.Values) grid.EndEdit(); sources.EndEdit(); Validate(); }
         private string SaveDraft()
         {
             EndEdit();
@@ -194,12 +218,18 @@ namespace ExcelAddIn1.Winform
                         pair.Value.Rows.Add(r.Key, r.RecordType, r.Unit, r.Title, r.Data, r.Source.DocumentId, r.Source.PageFrom, r.Source.PageTo, r.Source.Section, r.Verification.ToString()); }
                     sources.Rows.Clear(); foreach (var s in draft.Sources)
                         sources.Rows.Add(s.DocumentId, s.Title, s.Publisher, Date(s.IssuedDate), Date(s.EffectiveFrom), Date(s.EffectiveTo), s.OfficialUri, s.ContentChecksum);
+                    foreach (var view in documentViews) view.RefreshRecords();
                 }
                 finally { loading = false; }
                 dirty = false; checkedBundle = null; status.Text = "Đã mở nháp: " + dialog.SelectedPath;
             }
         }
         private static string Cell(DataGridViewRow row, int column) => Convert.ToString(row.Cells[column].Value, CultureInfo.InvariantCulture) ?? "";
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing) foreach (var grid in grids.Values) grid.Dispose();
+            base.Dispose(disposing);
+        }
         private static string Date(DateTime? value) => value?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) ?? "";
         private static DateTime ParseDate(string text) => DateTime.ParseExact(text, "yyyy-MM-dd", CultureInfo.InvariantCulture);
     }

@@ -83,6 +83,7 @@ namespace ExcelAddIn1.Tests
             Run("MachineRateLocaleAndValidation", TestMachineRateLocaleAndValidation);
             Run("RegulationPackageStoreInstall", TestRegulationPackageStoreInstall);
             Run("RegulationPackageAuthoring", TestRegulationPackageAuthoring);
+            Run("RegulationRecordTable", TestRegulationRecordTable);
             Run("RegulationPackageRemoval", TestRegulationPackageRemoval);
             Run("RegulationPackageStoreLoadBundle", TestRegulationPackageStoreLoadBundle);
             Run("RegulationPackageStoreRejectsInvalid", TestRegulationPackageStoreRejectsInvalid);
@@ -3570,6 +3571,31 @@ namespace ExcelAddIn1.Tests
             {
                 DeleteTemporaryDirectory(testRoot);
             }
+        }
+
+        private static void TestRegulationRecordTable()
+        {
+            foreach (string id in new[] { "BQP-RPBM-2021", "BQP-RPBM-2025" })
+            {
+                var source = RegulationPackageSourceReader.Read(Path.Combine(GetRepositoryRoot(), "data", "regulations", "packages", id, "source"));
+                foreach (var record in source.Records.Values.SelectMany(r => r))
+                    AssertEqual(record.Data, RegulationRecordTable.WriteFields(RegulationRecordTable.ReadFields(record.Data)));
+                foreach (var record in source.Records[RegulationModuleKind.Norm].Where(r => r.RecordType == "NormCatalog" && r.Data.Contains("variantCodes=")))
+                {
+                    var norm = RegulationRecordTable.ReadNorm(record);
+                    var rows = norm.Rates.Select(r => new[] { r.Kind.ToString(), r.ResourceCode, r.Unit }
+                        .Concat(r.Quantities.Select(q => q.ToString(CultureInfo.InvariantCulture))).ToArray()).ToArray();
+                    string data = RegulationRecordTable.WriteNorm(record.Data, norm.Variants, rows);
+                    var edited = RegulationRecordTable.ReadNorm(new RegulationDataRecord(record.Key, record.RecordType, record.Unit, record.Title, data, record.Source, record.Verification));
+                    AssertEqual(norm.Rates.Count, edited.Rates.Count);
+                    AssertEqual(norm.Adjustments.Count, edited.Adjustments.Count);
+                    AssertEqual(norm.Constraints.Count, edited.Constraints.Count);
+                    for (int r = 0; r < norm.Rates.Count; r++)
+                        for (int v = 0; v < norm.Variants.Count; v++) AssertEqual(norm.Rates[r].Quantities[v], edited.Rates[r].Quantities[v]);
+                }
+            }
+            AssertThrows<FormatException>(() => RegulationRecordTable.WriteNorm("variantCodes=a;rates=Labor:R:u:1", new[] { "a", "a" }, new string[0][]));
+            AssertThrows<FormatException>(() => RegulationRecordTable.WriteNorm("variantCodes=a;rates=Labor:R:u:1", new[] { "a" }, new[] { new[] { "Labor", "R", "u", "-1" } }));
         }
 
         private static void TestRegulationPackageAuthoring()

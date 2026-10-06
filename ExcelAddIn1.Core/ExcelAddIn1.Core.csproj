@@ -46,6 +46,7 @@
     <Compile Include="MachineRateCatalog.cs" />
     <Compile Include="NormCalculator.cs" />
     <Compile Include="NormCatalog.cs" />
+    <Compile Include="RegulationRecordTable.cs" />
     <Compile Include="NormSearch.cs" />
     <Compile Include="ProductKeyCodec.cs" />
     <Compile Include="ProjectProfile.cs" />
