@@ -80,6 +80,25 @@ namespace ExcelAddIn1.Winform
             }
         }
 
+        internal static void ShowSettings(
+            Excel.Workbook workbook)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+
+            Show(workbook);
+
+            PaneEntry entry;
+            if (Entries.TryGetValue(
+                WorkbookKey(workbook),
+                out entry))
+            {
+                entry.Control?.ShowSettings();
+                if (entry.Pane != null)
+                    entry.Pane.Visible = true;
+            }
+        }
+
         internal static void Refresh(Excel.Workbook workbook)
         {
             if (workbook == null)
