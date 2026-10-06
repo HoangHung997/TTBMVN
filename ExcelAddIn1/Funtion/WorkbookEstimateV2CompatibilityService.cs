@@ -404,10 +404,14 @@ namespace ExcelAddIn1.Funtion
             int lastRow =
                 ExistingLastRow(sheet);
 
+            int oldLastColumn =
+                ExistingLastColumn(sheet);
             object acceptanceQuantity = null;
             object acceptanceAmounts = null;
+            object legacyTail = null;
             Excel.Range acceptanceQuantityRange = null;
             Excel.Range acceptanceAmountRange = null;
+            Excel.Range legacyTailRange = null;
             try
             {
                 acceptanceQuantityRange = sheet.Range[
@@ -429,9 +433,24 @@ namespace ExcelAddIn1.Funtion
                         CultureInfo.InvariantCulture)];
                 acceptanceAmounts =
                     acceptanceAmountRange.Value2;
+
+                if (oldLastColumn >= 12)
+                {
+                    legacyTailRange = sheet.Range[
+                        "L" +
+                        headerRow.ToString(
+                            CultureInfo.InvariantCulture),
+                        ExcelColumnAddress.ToLetters(
+                            oldLastColumn) +
+                        lastRow.ToString(
+                            CultureInfo.InvariantCulture)];
+                    legacyTail =
+                        legacyTailRange.Value2;
+                }
             }
             finally
             {
+                Release(legacyTailRange);
                 Release(acceptanceAmountRange);
                 Release(acceptanceQuantityRange);
             }
@@ -488,6 +507,13 @@ namespace ExcelAddIn1.Funtion
                     "Định mức");
             }
 
+            RestoreLegacyTailAsValues(
+                sheet,
+                headerRow,
+                lastRow,
+                oldLastColumn,
+                legacyTail);
+
             RestoreLegacyAcceptanceSnapshots(
                 sheet,
                 headerRow,
@@ -503,6 +529,48 @@ namespace ExcelAddIn1.Funtion
             messages.Add(
                 sheet.Name +
                 ": đã chuyển layout legacy sang A:L chuẩn V2; dữ liệu nghiệm thu cũ được giữ ở cột ẩn ngoài vùng in.");
+        }
+
+        private static void RestoreLegacyTailAsValues(
+            Excel.Worksheet sheet,
+            int headerRow,
+            int lastRow,
+            int oldLastColumn,
+            object legacyTail)
+        {
+            if (legacyTail == null ||
+                oldLastColumn < 12)
+            {
+                return;
+            }
+
+            int columnCount =
+                oldLastColumn - 12 + 1;
+            int newStart = 13;
+            int newEnd =
+                newStart + columnCount - 1;
+            if (newEnd > 16384)
+                return;
+
+            Excel.Range range = null;
+            try
+            {
+                range = sheet.Range[
+                    ExcelColumnAddress.ToLetters(
+                        newStart) +
+                    headerRow.ToString(
+                        CultureInfo.InvariantCulture),
+                    ExcelColumnAddress.ToLetters(
+                        newEnd) +
+                    lastRow.ToString(
+                        CultureInfo.InvariantCulture)];
+                range.Value2 = legacyTail;
+                range.EntireColumn.Hidden = true;
+            }
+            finally
+            {
+                Release(range);
+            }
         }
 
         private static void RestoreLegacyAcceptanceSnapshots(
