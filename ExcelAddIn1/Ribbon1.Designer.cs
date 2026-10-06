@@ -57,6 +57,7 @@
             this.editBox1 = this.Factory.CreateRibbonEditBox();
             this.button1 = this.Factory.CreateRibbonButton();
             this.btnDutoan = this.Factory.CreateRibbonButton();
+            this.btnEstimateSettings = this.Factory.CreateRibbonButton();
             this.button3 = this.Factory.CreateRibbonButton();
             this.button4 = this.Factory.CreateRibbonButton();
             this.btnRandom3m = this.Factory.CreateRibbonButton();
@@ -96,6 +97,7 @@
             this.group1.Items.Add(this.box2);
             this.group1.Items.Add(this.box3);
             this.group1.Items.Add(this.btnDutoan);
+            this.group1.Items.Add(this.btnEstimateSettings);
             this.group1.Label = "Cập nhật lại đơn giá";
             this.group1.Name = "group1";
             // 
@@ -233,6 +235,15 @@
             this.btnDutoan.Name = "btnDutoan";
             this.btnDutoan.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnDutoan_Click);
             // 
+            // btnEstimateSettings
+            // 
+            this.btnEstimateSettings.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnEstimateSettings.Label = "Thiết lập\nChung";
+            this.btnEstimateSettings.Name = "btnEstimateSettings";
+            this.btnEstimateSettings.ShowImage = true;
+            this.btnEstimateSettings.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnEstimateSettings_Click);
+            // 
+            // 
             // button3
             // 
             this.button3.Label = "Hố đào 3m";
@@ -364,6 +375,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button2;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button5;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnDutoan;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEstimateSettings;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnRandom3m;
         internal Microsoft.Office.Tools.Ribbon.RibbonButtonGroup buttonGroup1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButtonGroup buttonGroup2;
