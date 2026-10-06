@@ -13,8 +13,8 @@
 | V2-101 | WorkItemId + binding định mức bền vững | DONE - implementation / runtime pending |
 | V2-201 | Tổng hợp và sinh VL-NC-M | DONE - implementation / runtime pending |
 | V2-301 | Sinh DG Cạn / DG Nước / DG Biển | DONE - implementation / runtime pending |
-| V2-401 | Link Gia DT TC + THKP-TC | NEXT |
-| V2-501 | Validation / phục hồi / phát hiện lỗi | TODO |
+| V2-401 | Link Gia DT TC + THKP-TC | DONE - implementation / runtime pending |
+| V2-501 | Validation / phục hồi / phát hiện lỗi | NEXT |
 | V2-601 | Tương thích file cũ và migration | TODO |
 
 ---
@@ -586,14 +586,265 @@ Test kiểm tra:
 
 #### Việc tiếp theo
 
-V2-301 dừng ở đây. Task kế tiếp là **V2-401 — Link Gia DT TC + THKP-TC**. Chưa triển khai V2-401 trong task này.
+V2-301 đã chốt. V2-401 đã được triển khai ở section bên dưới.
 
 ### V2-401 — Gia DT TC + THKP-TC
 
-- link đơn giá vào từng WorkItem;
-- thành tiền = khối lượng × đơn giá;
-- THKP lấy tổng từ Gia DT TC;
-- không hard-code số kết quả.
+**Trạng thái:** DONE - implementation / runtime pending
+
+#### UI đã đối chiếu ảnh chuẩn
+
+Đã đọc và bám trực tiếp:
+
+- `/mnt/data/chuan_UI/07-THKP-TC-Kiem-tra.png`
+
+View mới:
+
+- `ExcelAddIn1/Winform/EstimateCostSummaryPaneView.cs`
+
+Màn hình hiện có:
+
+- 4 metric: Tổng công tác / Đủ đơn giá / Cảnh báo / Lỗi công thức;
+- card xanh lớn `Cập nhật THKP-TC`;
+- khu `Kết quả kiểm tra hồ sơ` với icon trạng thái và `Xem chi tiết`;
+- 3 card chức năng: Kiểm tra hồ sơ / Xuất báo cáo / Mở thư mục hồ sơ;
+- footer xanh dương đúng ngôn ngữ thiết kế của ảnh chuẩn;
+- vẫn là CustomTaskPane bên phải, không mở form modal.
+
+`Kiểm tra hồ sơ` trong V2-401 chỉ kiểm tra các dependency/link cơ bản cần cho bước tổng hợp. Validation đầy đủ vẫn để đúng task V2-501.
+
+#### Đối chiếu file dự toán thực tế
+
+Đã đọc cấu trúc các mẫu:
+
+- `/mnt/data/Du toan RPBM HoaLuNamDinh_Ver1.xlsx`
+- `/mnt/data/Du toan RPBM Pleiku_TP2_QuyNhon_Ver7.2.xlsx`
+
+Các mẫu cho thấy:
+
+- `Gia DT TC` hoặc các sheet `Gia DT TC_...` chứa công tác chi tiết;
+- đơn giá VL / NC / M được dùng để tính thành tiền theo từng công tác;
+- `THKP-TC` có các dòng chi phí trực tiếp `VL`, `NC`, `M`, `T`;
+- các dòng sau đó (chi phí chung, TL, K1..Kn, VAT, tổng cuối...) phụ thuộc vào phần chi phí trực tiếp và khác nhau theo mẫu/pháp lý.
+
+Vì vậy V2-401 **chỉ thay thế nguồn liên kết phần chi phí trực tiếp**, không phá công thức pháp lý phía sau của THKP-TC hiện hữu.
+
+#### WorkItem -> RateId
+
+Đã thêm core model:
+
+- `ExcelAddIn1.Core/EstimateV2CostLinks.cs`
+
+Mỗi WorkItem được resolve theo state bền vững:
+
+```text
+WorkItemId
+  -> PackageIdentity + NormCode + VariantCode
+  -> RateId
+  -> workbook Name VL / NC / M
+```
+
+Không dùng RowIndex làm identity.
+
+Hai WorkItem dùng chung một định mức + variant tiếp tục dùng chung một RateId nhưng mỗi dòng có khối lượng và thành tiền riêng.
+
+#### Gia DT TC / bảng công tác chi tiết
+
+Writer:
+
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CostLinkWriter.cs`
+
+Trên mỗi bảng công tác đã đăng ký, sáu cột kết quả được đặt ngay sau cột Khối lượng:
+
+```text
+Đơn giá VL
+Đơn giá NC
+Đơn giá M
+Thành tiền VL
+Thành tiền NC
+Thành tiền M
+```
+
+Với layout chuẩn A:F, chúng tương ứng G:L.
+
+Công thức:
+
+```text
+Đơn giá VL = RateId.VL
+Đơn giá NC = RateId.NC
+Đơn giá M  = RateId.M
+
+Thành tiền VL = Khối lượng × Đơn giá VL
+Thành tiền NC = Khối lượng × Đơn giá NC
+Thành tiền M  = Khối lượng × Đơn giá M
+```
+
+Các đơn giá là **formula tham chiếu workbook Name**, không ghi số chết.
+
+Nếu WorkItem chưa gắn định mức hoặc chưa có DG tương ứng, writer không tự bịa giá và để dòng đó chưa liên kết để pane tiếp tục cảnh báo.
+
+#### Sửa xung đột metadata quan trọng
+
+V2-101 trước đây có thể đặt:
+
+```text
+__TTB_ID
+__TTB_NORM
+__TTB_KIND
+__TTB_HASH
+```
+
+ngay sau cột visible cuối cùng. Với bảng có Khối lượng ở F, metadata cũ có thể rơi vào G:J — đúng vùng V2-401 cần dùng cho đơn giá/thành tiền.
+
+Đã bổ sung migration:
+
+- `WorkbookEstimateV2RegistrationService.EnsureTechnicalColumnsAfter(...)`
+
+Khi V2-401 chạy:
+
+1. metadata cũ được copy nguyên trạng tới vùng an toàn;
+2. tối thiểu nằm sau sáu cột kết quả (M:P với layout A:F), hoặc xa hơn nếu workbook đã dùng các cột đó;
+3. vùng metadata mới được hide;
+4. custom property của source được cập nhật;
+5. cột cũ được giải phóng để G:L là dữ liệu visible;
+6. WorkItemId/binding vẫn giữ nguyên.
+
+Đây là migration cấu trúc, không yêu cầu người dùng quét/gắn lại từ đầu.
+
+#### Tổng hợp nhiều bảng / nhiều khu vực
+
+V2-401 không phụ thuộc dự án có 1, 2 hay 3 khu vực.
+
+Mỗi registered source được tổng hợp bằng WorkItemId hợp lệ; helper THKP dùng công thức `SUMIF` trên cột `__TTB_ID` và cột thành tiền tương ứng. Vì vậy:
+
+- dòng nhóm/tổng phụ không có WorkItemId không bị cộng hai lần;
+- nhiều bảng/sheet được cộng chung;
+- không hard-code tên khu vực VT/DN hay số lượng khu vực.
+
+#### THKP-TC
+
+Đã thêm stable workbook Names:
+
+- `TTBMVN_V2_GIADT_VL`
+- `TTBMVN_V2_GIADT_NC`
+- `TTBMVN_V2_GIADT_M`
+- `TTBMVN_V2_GIADT_TOTAL`
+
+Helper tổng hợp nằm ở các cột ẩn ngoài vùng in của THKP-TC.
+
+Nếu `THKP-TC` đã tồn tại, writer:
+
+1. tự tìm cột `Ký hiệu` và `Thành tiền`;
+2. tự tìm các dòng có ký hiệu `VL`, `NC`, `M`, `T`;
+3. thay **chỉ** công thức thành tiền của bốn dòng này bằng workbook Name V2;
+4. giữ nguyên toàn bộ công thức phía sau của mẫu hiện hữu.
+
+Không hard-code các tỷ lệ minh họa 6,5%, 5,5%, 10% trong ảnh UI.
+
+Nếu workbook chưa có `THKP-TC`, V2-401 tạo một mẫu tối thiểu an toàn chỉ cho phần chi phí trực tiếp và ghi rõ các khoản pháp lý khác chưa được tự suy đoán.
+
+#### Preview / trạng thái
+
+Đã thêm:
+
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CostLinkService.cs`
+
+Preview hiện tính:
+
+- tổng WorkItem;
+- số WorkItem đã có RateId và workbook Name đơn giá;
+- số WorkItem cảnh báo (không double-count cùng một WorkItem);
+- lỗi Excel cơ bản trong các ô output;
+- THKP có thật sự tham chiếu bốn workbook Name VL/NC/M/T hay chưa.
+
+Chỉ việc workbook Name tồn tại chưa được coi là THKP đã cập nhật; service còn kiểm tra công thức trong THKP có reference các Name đó.
+
+#### Navigation
+
+`EstimateTaskPaneControl` đã nối bước cuối:
+
+```text
+Tổng quan
+  -> THKP-TC & Kiểm tra
+```
+
+Bước 6 chỉ hiển thị `Đã xong` khi THKP-TC thực sự có các liên kết V2, không chỉ vì sheet `THKP-TC` tồn tại.
+
+#### Test code đã thêm
+
+Trong `ExcelAddIn1.Tests/Program.cs`:
+
+- `EstimateV2CostLinkPlan`
+
+Test core kiểm tra:
+
+- 2 WorkItem cùng rate -> cùng RateId;
+- WorkItem chưa gắn -> `Unbound`;
+- binding không resolve rate -> `RateNotResolved`;
+- đếm Ready / Unbound / MissingRate;
+- propagate cờ `RequiresConditionReview`.
+
+#### File chính đã thêm/cập nhật
+
+- `ExcelAddIn1.Core/EstimateV2CostLinks.cs`
+- `ExcelAddIn1.Core/EstimateV2ExcelNames.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2RegistrationService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CostLinkService.cs`
+- `ExcelAddIn1/Funtion/WorkbookEstimateV2CostLinkWriter.cs`
+- `ExcelAddIn1/Winform/EstimateCostSummaryPaneView.cs`
+- `ExcelAddIn1/Winform/EstimateTaskPaneControl.cs`
+
+#### Commit quan trọng
+
+- `e01a8ae866e4` — WorkItem -> RateId link plan;
+- `c9d099a88dec` — stable Gia DT TC total names;
+- `10e2b4564a72` — di chuyển metadata ra sau vùng đơn giá/thành tiền;
+- `308abc67b3ed` — preview service;
+- `56ad90b950c7` — writer link WorkItem + THKP;
+- `45705188e220` — UI THKP-TC & Kiểm tra;
+- `2384fb09bab8` — navigation;
+- `99f76f0f34db` — warning metric không double-count;
+- `77fe3a8d949c` — core link-plan test;
+- `f4306c83aeee` — xác nhận THKP thực sự reference Name V2;
+- `7f3ed7ae27fe` — trạng thái bước THKP ở Tổng quan;
+- `a6565ed3c03f` — cleanup COM range khi tạo THKP tối thiểu;
+- `80d05d920b5c` — cập nhật UI contract.
+
+#### Tự kiểm tra trong môi trường hiện tại
+
+Đã rà soát tĩnh các file V2-401:
+
+- ngoặc `{}`, `()`, `[]` cân bằng;
+- không có conflict marker;
+- không có `TODO/FIXME/NotImplementedException` trong các file V2-401 chính;
+- project file chứa đúng các source mới;
+- metadata migration không dùng RowIndex làm identity;
+- các giá/ thành tiền là formula/link, không phải số snapshot;
+- THKP chỉ cập nhật VL/NC/M/T và không ghi đè các công thức pháp lý phía sau;
+- helper THKP nằm ngoài vùng in và bị ẩn.
+
+Đã đối chiếu logic với hai workbook mẫu bằng công cụ spreadsheet, nhưng **chưa chạy build VSTO/Excel thật và chưa chạy test console trong môi trường hiện tại. Không ghi PASS giả.**
+
+#### Checklist runtime bắt buộc
+
+- workbook cũ có metadata ở G:J -> cập nhật -> metadata chuyển sang M:P hoặc vùng an toàn, ID/binding không mất;
+- G:L hiện đúng 6 cột đơn giá/thành tiền;
+- đơn giá G:I là workbook Name của RateId;
+- J:L = Khối lượng × đơn giá;
+- section/group/subtotal không có WorkItemId không bị tính trùng;
+- dự án 1/2/3 khu vực -> tổng VL/NC/M đúng tổng các WorkItem;
+- sửa khối lượng -> thành tiền và THKP cập nhật theo công thức;
+- sửa giá VL-NC-M -> DG -> Gia DT TC -> THKP cập nhật theo chuỗi link;
+- WorkItem chưa có DG -> không có giá giả, pane báo cảnh báo;
+- THKP hiện hữu -> chỉ VL/NC/M/T bị thay source link; các dòng pháp lý phía sau giữ nguyên;
+- THKP không tồn tại -> tạo mẫu tối thiểu trực tiếp, không tự gán tỷ lệ pháp lý;
+- đóng/mở workbook -> workbook Names/link còn nguyên;
+- pane 07 mở đúng, 4 metric và card/action không tràn ở DPI 100/125/150%;
+- không có `#REF!`, `#NAME?`, `#VALUE!` sau cập nhật.
+
+#### Việc tiếp theo
+
+V2-401 dừng ở đây. Task kế tiếp là **V2-501 — Validation / phục hồi / phát hiện lỗi**. Chưa triển khai V2-501 trong task này.
 
 ### V2-501 — Validation
 
