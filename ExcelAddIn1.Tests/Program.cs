@@ -62,6 +62,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2StateRoundTrip", TestEstimateV2StateRoundTrip);
             Run("EstimateV2Fingerprint", TestEstimateV2Fingerprint);
             Run("EstimateV2ResourcePlan", TestEstimateV2ResourcePlan);
+            Run("EstimateV2PriceSheetProjection", TestEstimateV2PriceSheetProjection);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2188,6 +2189,74 @@ namespace ExcelAddIn1.Tests
             AssertTrue(plan.Machines.Any(item => item.Code == "M010.002"));
             AssertFalse(plan.Machines.Any(item => item.Code == "M010.003"));
             AssertTrue(plan.Resources.All(item => item.UsageCount > 0));
+        }
+
+        private static void TestEstimateV2PriceSheetProjection()
+        {
+            var plan = new EstimateV2ResourcePlan(
+                new[]
+                {
+                    new EstimateV2ResourceRequirement(
+                        NormResourceKind.Machine,
+                        "M010.DIVING",
+                        "shift",
+                        true,
+                        true,
+                        2,
+                        new[] { "NORM-030.0400|water-0.5-12" },
+                        new[] { "BQP-RPBM-2025|2.0.1|CHECKSUM" }),
+                    new EstimateV2ResourceRequirement(
+                        NormResourceKind.Machine,
+                        "M010.002-OR-M010.003",
+                        "shift",
+                        true,
+                        true,
+                        1,
+                        new[] { "NORM-020.0900|soil-1" },
+                        new[] { "BQP-RPBM-2025|2.0.1|CHECKSUM" }),
+                    new EstimateV2ResourceRequirement(
+                        NormResourceKind.Material,
+                        "MAT-GASOLINE-OR-DIESEL",
+                        "kg",
+                        true,
+                        true,
+                        1,
+                        new[] { "NORM-010.0300|forest-1" },
+                        new[] { "BQP-RPBM-2025|2.0.1|CHECKSUM" }),
+                    new EstimateV2ResourceRequirement(
+                        NormResourceKind.Machine,
+                        "M010.029",
+                        "shift",
+                        true,
+                        false,
+                        1,
+                        new[] { "NORM-DIRECT|standard" },
+                        new[] { "BQP-RPBM-2025|2.0.1|CHECKSUM" })
+                },
+                3,
+                3);
+
+            IReadOnlyList<EstimateV2ResourceRequirement> projected =
+                EstimateV2ResourcePriceSheetProjector.Project(plan);
+
+            AssertTrue(projected.Any(item => item.Code == "M010.002"));
+            AssertTrue(projected.Any(item => item.Code == "M010.003"));
+            AssertTrue(projected.Any(item => item.Code == "M010.029"));
+            AssertTrue(projected.Any(item => item.Code == "M010.030"));
+            AssertTrue(projected.Any(item => item.Code == "M010.031"));
+            AssertTrue(projected.Any(item => item.Code == "M010.032"));
+            AssertTrue(projected.Any(item => item.Code == "M010.033"));
+            AssertTrue(projected.Any(item => item.Code == "MAT-GASOLINE"));
+            AssertTrue(projected.Any(item => item.Code == "MAT-DIESEL"));
+            AssertFalse(projected.Any(item => item.IsLogical));
+            AssertFalse(projected.Any(item => item.Code == "M010.DIVING"));
+            AssertFalse(projected.Any(item => item.Code.Contains("-OR-")));
+
+            EstimateV2ResourceRequirement diving029 = projected.Single(item =>
+                item.Kind == NormResourceKind.Machine &&
+                item.Code == "M010.029");
+            AssertEqual(3, diving029.UsageCount);
+            AssertEqual(2, diving029.NormKeys.Count);
         }
 
         private static void TestEstimateRateGrouping()
