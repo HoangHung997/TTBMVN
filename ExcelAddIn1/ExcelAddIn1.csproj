@@ -289,6 +289,7 @@
     <Compile Include="Winform\EstimateTaskPaneManager.cs" />
     <Compile Include="Winform\EstimateNormBindingPaneView.cs" />
     <Compile Include="Winform\EstimateResourcesPaneView.cs" />
+    <Compile Include="Winform\EstimateUnitRatesPaneView.cs" />
     <Compile Include="Winform\EstimateWorkItemsPaneView.cs" />
     <Compile Include="Winform\Dutoan.cs">
       <SubType>Form</SubType>
