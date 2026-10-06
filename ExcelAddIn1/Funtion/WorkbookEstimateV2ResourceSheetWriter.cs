@@ -157,6 +157,7 @@ namespace ExcelAddIn1.Funtion
                 using (new ExcelWriteContext(workbook.Application))
                 using (var transaction = new ExcelBatchWriteTransaction())
                 {
+                    UnmergeVisibleArea(sheet, Math.Max(build.LastRow, ExistingLastRow(sheet)));
                     ClearManagedArea(sheet, build.LastRow, build.MetadataStartColumn, transaction);
                     WriteMatrix(
                         sheet,
@@ -436,7 +437,7 @@ namespace ExcelAddIn1.Funtion
                         definition.Fuel.Quantity,
                         "=" + fuelName,
                         "=IFERROR(D" + row + "*E" + row + "*" +
-                            HiddenParamReference(metadataStart, row, 6) + ",0)",
+                            HiddenParamReference(metadataStart, row, 8) + ",0)",
                         machine.Code,
                         packageIdentity,
                         "FUEL",
@@ -944,6 +945,24 @@ namespace ExcelAddIn1.Funtion
             }
         }
 
+        private static void UnmergeVisibleArea(
+            Excel.Worksheet sheet,
+            int lastRow)
+        {
+            Excel.Range range = null;
+            try
+            {
+                range = sheet.Range[
+                    "A1",
+                    "F" + Math.Max(1, lastRow).ToString(CultureInfo.InvariantCulture)];
+                range.UnMerge();
+            }
+            finally
+            {
+                Release(range);
+            }
+        }
+
         private static void ClearManagedArea(
             Excel.Worksheet sheet,
             int requiredLastRow,
@@ -1044,28 +1063,40 @@ namespace ExcelAddIn1.Funtion
             int row,
             int column)
         {
+            Excel.Names names = null;
             Excel.Name existing = null;
+            Excel.Name created = null;
+            Excel.Range cell = null;
             try
             {
+                names = workbook.Names;
                 try
                 {
-                    existing = workbook.Names.Item(name);
+                    existing = names.Item(name, Type.Missing, Type.Missing);
                 }
                 catch (COMException)
                 {
                     existing = null;
                 }
 
-                string refersTo = "='" +
+                cell = sheet.Cells[row, column] as Excel.Range;
+                if (cell == null)
+                    throw new InvalidOperationException("Khong truy cap duoc o dat Name.");
+                string reference = "='" +
                     sheet.Name.Replace("'", "''") +
-                    "'!$" + ExcelColumnAddress.ToLetters(column) +
-                    "$" + row.ToString(CultureInfo.InvariantCulture);
+                    "'!" +
+                    cell.Address[
+                        true,
+                        true,
+                        Excel.XlReferenceStyle.xlA1,
+                        false,
+                        Type.Missing];
                 if (existing == null)
                 {
-                    existing = workbook.Names.Add(
+                    created = names.Add(
                         name,
-                        refersTo,
-                        true,
+                        reference,
+                        false,
                         Type.Missing,
                         Type.Missing,
                         Type.Missing,
@@ -1077,12 +1108,15 @@ namespace ExcelAddIn1.Funtion
                 }
                 else
                 {
-                    existing.RefersTo = "=" + refersTo;
+                    existing.RefersTo = reference;
                 }
             }
             finally
             {
+                Release(cell);
+                Release(created);
                 Release(existing);
+                Release(names);
             }
         }
 
@@ -1090,13 +1124,15 @@ namespace ExcelAddIn1.Funtion
             Excel.Workbook workbook,
             string name)
         {
+            Excel.Names names = null;
             Excel.Name defined = null;
             Excel.Range range = null;
             try
             {
                 try
                 {
-                    defined = workbook.Names.Item(name);
+                    names = workbook.Names;
+                    defined = names.Item(name, Type.Missing, Type.Missing);
                 }
                 catch (COMException)
                 {
@@ -1113,6 +1149,7 @@ namespace ExcelAddIn1.Funtion
             {
                 Release(range);
                 Release(defined);
+                Release(names);
             }
         }
 
