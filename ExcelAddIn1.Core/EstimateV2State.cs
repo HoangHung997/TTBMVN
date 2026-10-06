@@ -19,6 +19,7 @@ namespace ExcelAddIn1.Core
             string variantCode,
             string packageId,
             string dataVersion,
+            string packageChecksum,
             string kind,
             string fingerprint,
             bool isOrphaned)
@@ -29,6 +30,9 @@ namespace ExcelAddIn1.Core
             VariantCode = Clean(variantCode);
             PackageId = Clean(packageId);
             DataVersion = Clean(dataVersion);
+            PackageChecksum = Clean(packageChecksum).ToUpperInvariant();
+            if (PackageChecksum.Length > 0 && !RegulationPackageValidator.IsSha256(PackageChecksum))
+                throw new ArgumentException("PackageChecksum khong hop le.", nameof(packageChecksum));
             Kind = Clean(kind);
             Fingerprint = NormalizeFingerprint(fingerprint);
             IsOrphaned = isOrphaned;
@@ -40,6 +44,7 @@ namespace ExcelAddIn1.Core
         public string VariantCode { get; }
         public string PackageId { get; }
         public string DataVersion { get; }
+        public string PackageChecksum { get; }
         public string Kind { get; }
         public string Fingerprint { get; }
         public bool IsOrphaned { get; }
@@ -50,7 +55,8 @@ namespace ExcelAddIn1.Core
             string normCode,
             string variantCode,
             string packageId,
-            string dataVersion)
+            string dataVersion,
+            string packageChecksum)
         {
             return new EstimateV2WorkItemState(
                 WorkItemId,
@@ -59,6 +65,7 @@ namespace ExcelAddIn1.Core
                 variantCode,
                 packageId,
                 dataVersion,
+                packageChecksum,
                 Kind,
                 Fingerprint,
                 IsOrphaned);
@@ -69,6 +76,7 @@ namespace ExcelAddIn1.Core
             return new EstimateV2WorkItemState(
                 WorkItemId,
                 SourceKey,
+                string.Empty,
                 string.Empty,
                 string.Empty,
                 string.Empty,
@@ -87,6 +95,7 @@ namespace ExcelAddIn1.Core
                 VariantCode,
                 PackageId,
                 DataVersion,
+                PackageChecksum,
                 Kind,
                 Fingerprint,
                 IsOrphaned);
@@ -101,6 +110,7 @@ namespace ExcelAddIn1.Core
                 VariantCode,
                 PackageId,
                 DataVersion,
+                PackageChecksum,
                 Kind,
                 fingerprint,
                 IsOrphaned);
@@ -115,6 +125,7 @@ namespace ExcelAddIn1.Core
                 VariantCode,
                 PackageId,
                 DataVersion,
+                PackageChecksum,
                 Kind,
                 Fingerprint,
                 isOrphaned);
@@ -315,6 +326,7 @@ namespace ExcelAddIn1.Core
                         new XAttribute("variantCode", item.VariantCode),
                         new XAttribute("packageId", item.PackageId),
                         new XAttribute("dataVersion", item.DataVersion),
+                        new XAttribute("packageChecksum", item.PackageChecksum),
                         new XAttribute("kind", item.Kind),
                         new XAttribute("fingerprint", item.Fingerprint),
                         new XAttribute("orphaned", item.IsOrphaned ? "1" : "0"))));
@@ -372,6 +384,7 @@ namespace ExcelAddIn1.Core
                         OptionalAttribute(element, "variantCode"),
                         OptionalAttribute(element, "packageId"),
                         OptionalAttribute(element, "dataVersion"),
+                        OptionalAttribute(element, "packageChecksum"),
                         OptionalAttribute(element, "kind"),
                         OptionalAttribute(element, "fingerprint"),
                         string.Equals(
