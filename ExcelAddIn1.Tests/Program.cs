@@ -82,6 +82,8 @@ namespace ExcelAddIn1.Tests
             Run("MachineRateCalculation", TestMachineRateCalculation);
             Run("MachineRateLocaleAndValidation", TestMachineRateLocaleAndValidation);
             Run("RegulationPackageStoreInstall", TestRegulationPackageStoreInstall);
+            Run("RegulationPackageAuthoring", TestRegulationPackageAuthoring);
+            Run("RegulationPackageRemoval", TestRegulationPackageRemoval);
             Run("RegulationPackageStoreLoadBundle", TestRegulationPackageStoreLoadBundle);
             Run("RegulationPackageStoreRejectsInvalid", TestRegulationPackageStoreRejectsInvalid);
             Run("RegulationPackageStoreRollback", TestRegulationPackageStoreRollback);
@@ -3568,6 +3570,69 @@ namespace ExcelAddIn1.Tests
             {
                 DeleteTemporaryDirectory(testRoot);
             }
+        }
+
+        private static void TestRegulationPackageAuthoring()
+        {
+            string temp = CreateTemporaryDirectory("authoring");
+            try
+            {
+                var original = RegulationPackageSourceReader.Read(Path.Combine(GetRepositoryRoot(), "data", "regulations", "packages", "BQP-RPBM-2025", "source"));
+                var records = original.Records.ToDictionary(p => p.Key, p => p.Value);
+                var norm = records[RegulationModuleKind.Norm][0];
+                var changed = new RegulationDataRecord(norm.Key, norm.RecordType, norm.Unit, "Tên định mức tùy chỉnh", norm.Data,
+                    norm.Source, norm.Verification);
+                records[RegulationModuleKind.Norm] = records[RegulationModuleKind.Norm].Select(r => r.Key == norm.Key ? changed : r).ToArray();
+                string source = Path.Combine(temp, "source");
+                RegulationPackageAuthoring.WriteSource(source, "TTBMVN-CUSTOM", "1.0.0", original.EffectiveFrom, original.EffectiveTo,
+                    "Goi tuy chinh", original.Sources, records);
+                var draft = RegulationPackageSourceReader.Read(source);
+                AssertEqual("Tên định mức tùy chỉnh", draft.Records[RegulationModuleKind.Norm].First(r => r.Key == norm.Key).Title);
+                var bundle = RegulationPackageAuthoring.BuildChecked(source, Path.Combine(temp, "bundle"));
+                AssertEqual("TTBMVN-CUSTOM", bundle.Package.PackageId);
+                AssertEqual(6, bundle.Modules.Count);
+                AssertEqual(norm.Data, bundle.Modules[RegulationModuleKind.Norm].Records.First(r => r.Key == norm.Key).Data);
+                records[RegulationModuleKind.Norm] = records[RegulationModuleKind.Norm].Select(r => r.Key == norm.Key
+                    ? new RegulationDataRecord(r.Key, r.RecordType, r.Unit, r.Title, r.Data, r.Source, RegulationDataVerification.Unverified) : r).ToArray();
+                string unverified = Path.Combine(temp, "unverified");
+                RegulationPackageAuthoring.WriteSource(unverified, "TTBMVN-CUSTOM", "1.0.1", original.EffectiveFrom, null, "", original.Sources, records);
+                AssertThrows<ArgumentException>(() => RegulationPackageAuthoring.BuildChecked(unverified, Path.Combine(temp, "invalid")));
+                AssertEqual(RegulationDataVerification.Unverified, RegulationPackageSourceReader.Read(unverified).Records[RegulationModuleKind.Norm].First(r => r.Key == norm.Key).Verification);
+                AssertThrows<FormatException>(() => RegulationPackageAuthoring.WriteSource(Path.Combine(temp, "tab"), "bad\tID", "1.0.0",
+                    original.EffectiveFrom, null, "", original.Sources, records));
+                AssertTrue(!Directory.Exists(Path.Combine(temp, "tab")));
+            }
+            finally { DeleteTemporaryDirectory(temp); }
+        }
+
+        private static void TestRegulationPackageRemoval()
+        {
+            string temp = CreateTemporaryDirectory("removal");
+            try
+            {
+                var store = new RegulationPackageStore(Path.Combine(temp, "store"));
+                var source = RegulationPackageSourceReader.Read(Path.Combine(GetRepositoryRoot(), "data", "regulations", "packages", "BQP-RPBM-2025", "source"));
+                var records = source.Records.ToDictionary(p => p.Key, p => p.Value);
+                RegulationPackageAuthoring.WriteSource(Path.Combine(temp, "source-a"), "BQP-REMOVE", "1.0.0", source.EffectiveFrom,
+                    null, "", source.Sources, records);
+                RegulationPackageAuthoring.WriteSource(Path.Combine(temp, "source-b"), "BQP-REMOVE", "1.0.1", source.EffectiveFrom,
+                    null, "", source.Sources, records);
+                var first = store.ImportFromDirectory(RegulationPackageAuthoring.BuildChecked(Path.Combine(temp, "source-a"), Path.Combine(temp, "a")).Directory).Package;
+                var second = store.ImportFromDirectory(RegulationPackageAuthoring.BuildChecked(Path.Combine(temp, "source-b"), Path.Combine(temp, "b")).Directory).Package;
+                AssertThrows<InvalidOperationException>(() => store.Remove(first, new[] { first }));
+                var activation = new RegulationPackageActivationStore(store.RootDirectory);
+                activation.SetPreferred(first, store.ListInstalled());
+                AssertThrows<InvalidOperationException>(() => store.Remove(first, new RegulationPackage[0]));
+                activation.SetPreferred(second, store.ListInstalled());
+                string archive = store.Remove(first, new RegulationPackage[0]);
+                AssertTrue(store.IsRemoved(first)); AssertEqual(1, store.ListInstalled().Count);
+                AssertEqual(first.PackageChecksum, RegulationPackageBundleReader.Read(archive).Package.PackageChecksum);
+                store.ImportFromDirectory(archive);
+                AssertTrue(!store.IsRemoved(first)); AssertEqual(2, store.ListInstalled().Count);
+                AssertThrows<ArgumentException>(() => store.Remove(RegulationPackage.Create("../outside", "1.0.0", first.EffectiveFrom,
+                    null, first.Status, first.TransitionNote, first.Sources, first.Modules), new RegulationPackage[0]));
+            }
+            finally { DeleteTemporaryDirectory(temp); }
         }
 
         private static void TestRegulationPackageStoreLoadBundle()

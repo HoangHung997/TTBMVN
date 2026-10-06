@@ -74,6 +74,7 @@
     <Compile Include="RegulationPackage.cs" />
     <Compile Include="RegulationPackageSerializer.cs" />
     <Compile Include="RegulationPackageStore.cs" />
+    <Compile Include="RegulationPackageAuthoring.cs" />
     <Compile Include="RegulationPackageResolver.cs" />
     <Compile Include="RegulationPackagePin.cs" />
     <Compile Include="RegulationPackageMigration.cs" />

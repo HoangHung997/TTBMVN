@@ -50,7 +50,8 @@ namespace ExcelAddIn1.Funtion
                     continue;
                 }
 
-                store.ImportFromDirectory(bundle);
+                RegulationPackage candidate = RegulationPackageBundleReader.Read(bundle).Package;
+                if (!store.IsRemoved(candidate)) store.ImportFromDirectory(bundle);
             }
         }
     }

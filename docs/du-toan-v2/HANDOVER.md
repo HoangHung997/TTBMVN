@@ -6,6 +6,11 @@
 
 Nhánh làm việc chính: `main`.
 
+Mở rộng 2026-10-06: V2-802 bổ sung mục 7 và bảng quản lý/biên soạn gói.
+Đọc [PACKAGE-MANAGEMENT.md](PACKAGE-MANAGEMENT.md) để biết luồng tạo phiên bản,
+kiểm chứng, chặn xóa gói đang dùng, bản nháp và giới hạn. Build sạch; 83 test Core
+PASS; UI tạo từ mẫu/kiểm tra/lưu nháp PASS. Full runtime regression vẫn pending.
+
 Các task đã triển khai ở mức code:
 
 | Task | Nội dung | Trạng thái |

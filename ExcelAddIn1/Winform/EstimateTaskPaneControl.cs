@@ -191,6 +191,11 @@ namespace ExcelAddIn1.Winform
                 "THKP-TC & Kiểm tra",
                 "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.",
                 ShowCostSummary);
+            AddStep(
+                stepsPanel,
+                "Gói pháp lý",
+                "Tạo, sửa, thêm, xóa và chọn gói pháp lý định mức.",
+                ShowPackages);
             stepsPanel.SizeChanged += (s, e) =>
             {
                 foreach (Control control in stepsPanel.Controls)
@@ -615,6 +620,7 @@ namespace ExcelAddIn1.Winform
                     : StepState.Ready);
 
             RebuildSheetTiles();
+            SetStep(6, packageReady ? StepState.Done : StepState.Warning);
 
             var footerParts = new List<string>
             {

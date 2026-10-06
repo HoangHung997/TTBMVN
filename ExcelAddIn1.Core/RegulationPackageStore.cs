@@ -98,6 +98,47 @@ namespace ExcelAddIn1.Core
 
         public string RootDirectory => rootDirectory;
 
+        public bool IsRemoved(RegulationPackage package)
+        {
+            string installed = GetInstalledPackageDirectory(package.PackageId, package.DataVersion, package.PackageChecksum);
+            return !Directory.Exists(installed) && Directory.Exists(RemovedDirectory(package));
+        }
+
+        public string Remove(RegulationPackage package, IEnumerable<RegulationPackage> protectedPackages)
+        {
+            if (package == null) throw new ArgumentNullException(nameof(package));
+            EnsureStoreDirectories();
+            using (FileStream storeLock = AcquireStoreLock())
+            {
+                Func<RegulationPackage, bool> matches = item => item != null &&
+                    item.PackageId == package.PackageId && item.DataVersion == package.DataVersion &&
+                    string.Equals(item.PackageChecksum, package.PackageChecksum, StringComparison.OrdinalIgnoreCase);
+                if ((protectedPackages ?? Enumerable.Empty<RegulationPackage>()).Any(matches))
+                    throw new InvalidOperationException("Goi dang duoc workbook mo su dung; chon goi khac truoc khi xoa.");
+                if (new RegulationPackageActivationStore(rootDirectory).Load().Any(item =>
+                    item.PackageId == package.PackageId && item.DataVersion == package.DataVersion &&
+                    string.Equals(item.PackageChecksum, package.PackageChecksum, StringComparison.OrdinalIgnoreCase)))
+                    throw new InvalidOperationException("Goi dang la goi uu tien cua kho; doi goi uu tien truoc khi xoa.");
+                string installed = GetInstalledPackageDirectory(package.PackageId, package.DataVersion, package.PackageChecksum);
+                ValidateBundle(installed, true);
+                string removed = RemovedDirectory(package);
+                EnsureSafeDirectory(Path.Combine(rootDirectory, ".removed"), "Thu muc luu goi da xoa");
+                EnsureSafeDirectory(Path.GetDirectoryName(Path.GetDirectoryName(removed)), "Thu muc goi da xoa");
+                EnsureSafeDirectory(Path.GetDirectoryName(removed), "Thu muc version da xoa");
+                EnsureSafeDirectory(removed, "Thu muc checksum da xoa");
+                string archive = Path.Combine(removed, Guid.NewGuid().ToString("N"));
+                Directory.Move(installed, archive);
+                return archive;
+            }
+        }
+
+        private string RemovedDirectory(RegulationPackage package)
+        {
+            GetInstalledPackageDirectory(package.PackageId, package.DataVersion, package.PackageChecksum);
+            return Path.Combine(rootDirectory, ".removed", package.PackageId, package.DataVersion,
+                package.PackageChecksum.ToUpperInvariant());
+        }
+
         public RegulationPackageInstallResult ImportFromDirectory(string sourceDirectory)
         {
             string source = ValidateSourceDirectory(sourceDirectory);

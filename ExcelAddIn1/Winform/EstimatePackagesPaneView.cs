@@ -4,6 +4,8 @@ using System;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
 
@@ -13,7 +15,7 @@ namespace ExcelAddIn1.Winform
     {
         private readonly Excel.Workbook workbook;
         private readonly Label pinned;
-        private readonly ComboBox packages;
+        private readonly DataGridView packages;
         private readonly DateTimePicker preparedDate;
         private readonly DateTimePicker priceDate;
         private readonly TextBox impact;
@@ -29,10 +31,18 @@ namespace ExcelAddIn1.Winform
                 BackColor = Color.FromArgb(235, 248, 239), MinimumSize = new Size(0, 100) };
             Add(pinned);
             Section("2. Gói có sẵn trên máy");
-            packages = new ComboBox { DropDownStyle = ComboBoxStyle.DropDownList, Height = 30,
-                DisplayMember = "Text" };
-            packages.SelectedIndexChanged += (s, e) => InvalidatePreview();
+            packages = new DataGridView { Height = 230, AllowUserToAddRows = false, AllowUserToDeleteRows = false,
+                ReadOnly = true, MultiSelect = false, RowHeadersVisible = false,
+                SelectionMode = DataGridViewSelectionMode.FullRowSelect, BackgroundColor = Color.White,
+                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells };
+            packages.Columns.Add("Id", "Mã gói"); packages.Columns.Add("Version", "Phiên bản");
+            packages.Columns.Add("From", "Hiệu lực từ"); packages.Columns.Add("Norms", "Định mức");
+            packages.SelectionChanged += (s, e) => InvalidatePreview();
             Add(packages);
+            Add(Command("Tạo gói mới từ mẫu đã chọn", EstimateUiIconKind.Document, () => Run(() => EditPackage(true)), false));
+            Add(Command("Sửa gói / định mức", EstimateUiIconKind.Database, () => Run(() => EditPackage(false)), false));
+            Add(Command("Xóa phiên bản gói đã chọn", EstimateUiIconKind.Document, () => Run(RemovePackage), false));
+            Add(Command("Đặt phiên bản ưu tiên trong kho", EstimateUiIconKind.Check, () => Run(SetPreferred), false));
             Add(Command("Đọc lại kho dữ liệu", EstimateUiIconKind.Refresh, () => Run(RefreshPackages), false));
             Add(Command("Cài bundle từ thư mục", EstimateUiIconKind.Folder, () => Run(ImportBundle), false));
             Add(Command("Cài gói cập nhật có chữ ký", EstimateUiIconKind.Lock, () => Run(ImportSignedUpdate), false));
@@ -86,7 +96,16 @@ namespace ExcelAddIn1.Winform
             preparedDate.Enabled = priceDate.Enabled = !hasProfile;
             string[] issues;
             var available = WorkbookEstimateV2PackageService.ListAvailable(out issues);
-            packages.DataSource = available.Select(package => new PackageChoice(package)).ToArray();
+            var previous = packages.CurrentRow?.Tag as PackageChoice;
+            packages.Rows.Clear();
+            foreach (var package in available)
+            {
+                int index = packages.Rows.Add(package.PackageId, package.DataVersion, package.EffectiveFrom.ToString("dd/MM/yyyy"),
+                    package.Modules.FirstOrDefault(m => m.Kind == RegulationModuleKind.Norm)?.RecordCount ?? 0);
+                packages.Rows[index].Tag = new PackageChoice(package);
+                if (previous != null && previous.Package.PackageChecksum == package.PackageChecksum)
+                    packages.CurrentCell = packages.Rows[index].Cells[0];
+            }
             // Selecting a row never changes the workbook's pinned package.
             SetStatus(issues.Length == 0 ? available.Count + " gói đã kiểm tra checksum. Online chưa bật." :
                 string.Join("\r\n", issues), issues.Length > 0);
@@ -95,7 +114,7 @@ namespace ExcelAddIn1.Winform
 
         private void PreviewPackage()
         {
-            var selected = packages.SelectedItem as PackageChoice;
+            var selected = packages.CurrentRow?.Tag as PackageChoice;
             if (selected == null) throw new InvalidOperationException("Chọn gói đích đã cài trên máy.");
             preview = WorkbookEstimateV2PackageService.Preview(workbook, selected.Package,
                 preparedDate.Value, priceDate.Value);
@@ -126,6 +145,69 @@ namespace ExcelAddIn1.Winform
                 RefreshPackages();
                 SetStatus("Đã cài bundle và kiểm tra checksum. Package workbook không thay đổi.");
             }
+        }
+
+        private RegulationPackage SelectedPackage()
+        {
+            var selected = packages.CurrentRow?.Tag as PackageChoice;
+            if (selected == null) throw new InvalidOperationException("Chọn một gói trong bảng.");
+            return selected.Package;
+        }
+
+        private void EditPackage(bool create)
+        {
+            var selected = SelectedPackage();
+            var store = new RegulationPackageStore(AppPaths.RegulationPackageDirectory);
+            var bundle = store.LoadBundleRequired(selected.PackageId, selected.DataVersion, selected.PackageChecksum);
+            using (var editor = new RegulationPackageEditorForm(bundle, create))
+            {
+                editor.ShowDialog(this);
+                if (editor.InstalledPackage == null) return;
+                RefreshPackages();
+                foreach (DataGridViewRow row in packages.Rows)
+                    if (((PackageChoice)row.Tag).Package.PackageChecksum == editor.InstalledPackage.PackageChecksum)
+                        packages.CurrentCell = row.Cells[0];
+                SetStatus("Đã cài gói mới. Xem tác động và xác nhận để chọn cho workbook.");
+            }
+        }
+
+        private void SetPreferred()
+        {
+            var selected = SelectedPackage();
+            if (MessageBox.Show(this, "Đặt " + selected.PackageId + " @ " + selected.DataVersion +
+                " làm phiên bản ưu tiên trong kho? Workbook đang pin không thay đổi.", "Gói ưu tiên", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            var store = new RegulationPackageStore(AppPaths.RegulationPackageDirectory);
+            new RegulationPackageActivationStore(store.RootDirectory).SetPreferred(selected, store.ListInstalled());
+            SetStatus("Đã đặt phiên bản ưu tiên. Workbook giữ nguyên gói đang dùng.");
+        }
+
+        private void RemovePackage()
+        {
+            var selected = SelectedPackage();
+            var store = new RegulationPackageStore(AppPaths.RegulationPackageDirectory);
+            var protectedPackages = new List<RegulationPackage>();
+            Excel.Workbooks books = null;
+            try
+            {
+                books = workbook.Application.Workbooks;
+                for (int i = 1; i <= books.Count; i++)
+                {
+                    Excel.Workbook book = null;
+                    try
+                    {
+                        book = books.Item[i]; ProjectProfile profile;
+                        if (WorkbookProjectProfileService.TryLoad(book, out profile))
+                            protectedPackages.Add(store.LoadRequired(profile.RegulationPackageId, profile.RegulationPackageVersion, profile.RegulationPackageChecksum));
+                    }
+                    finally { if (book != null) Marshal.ReleaseComObject(book); }
+                }
+                if (MessageBox.Show(this, "Xóa " + selected.PackageId + " @ " + selected.DataVersion +
+                    " khỏi kho?\nGói được lưu dự phòng. Hồ sơ đang đóng hoặc mở ở phiên Excel khác có thể dùng gói này; hãy kiểm tra trước.\nGói đang pin trong phiên Excel này hoặc đang ưu tiên sẽ bị chặn.",
+                    "Xóa gói pháp lý", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes) return;
+                string archive = store.Remove(selected, protectedPackages);
+                RefreshPackages(); SetStatus("Đã xóa khỏi kho. Có thể nhập lại từ bản dự phòng: " + archive);
+            }
+            finally { if (books != null) Marshal.ReleaseComObject(books); }
         }
 
         private void ImportSignedUpdate()

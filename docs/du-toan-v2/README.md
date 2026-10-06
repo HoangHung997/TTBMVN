@@ -2,6 +2,8 @@
 
 Thu muc nay la ho so rieng cho huong thiet ke moi cua module du toan RPBM sau khi tiep quan lai du an hien co.
 
+Quan ly/tao/sua/xoa/chon goi tu muc 7: [PACKAGE-MANAGEMENT.md](PACKAGE-MANAGEMENT.md).
+
 > Muc tieu: giu Excel la ho so du toan chinh, dung add-in de gan dinh muc, sinh bang, sinh cong thuc/link va kiem tra. Khong bien add-in thanh mot phan mem dong tinh xong roi do so chet vao Excel.
 
 ## 1. Da doc va nam duoc add-in hien tai

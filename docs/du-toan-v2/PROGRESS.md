@@ -23,9 +23,13 @@ Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
 | V2-601 | Tương thích file cũ và migration | DONE - implementation / runtime pending |
 | V2-701 | Thiết lập chung theo workbook | DONE - implementation / runtime pending |
 | V2-801 | Gói pháp lý & Dữ liệu | DONE - implementation / targeted Excel service tests PASS; full UI regression pending |
+| V2-802 | Quản lý, tạo/sửa/xóa gói và định mức; mục 7 | DONE - implementation / 83 Core tests and authoring UI smoke PASS; full regression pending |
 | V2-901 | Báo cáo & Xuất in | DONE - implementation / PDF service tests PASS; full UI regression pending |
 
 Tiếp quản 2026-10-06: chi tiết triển khai và bằng chứng V2-801 ở [V2-801.md](V2-801.md).
+Mở rộng V2-802: [PACKAGE-MANAGEMENT.md](PACKAGE-MANAGEMENT.md). Build Release x64
+sạch và 83 test PASS. Đã mở mục 7, kiểm tra gói từ mẫu và lưu bản nháp trong Excel thật.
+Chưa đánh dấu full UI CRUD/pin hoặc đối chiếu tài chính PASS.
 V2-901: [V2-901.md](V2-901.md). Không còn task implementation chưa bắt đầu trong roadmap này;
 việc kế tiếp là runtime regression và đối chiếu dự toán chuẩn, không tự đổi thành full PASS.
 
