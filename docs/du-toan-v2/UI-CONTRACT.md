@@ -38,6 +38,8 @@ Bộ ảnh chuẩn trong quá trình thiết kế:
 
 Các ảnh này là **reference bắt buộc**, không phải ý tưởng tham khảo.
 
+**Trạng thái file tham chiếu tại thời điểm bàn giao:** `/mnt/data/chuan_UI` hiện có file ảnh 01–08. Chưa thấy file ảnh chuẩn 09–10 trong folder này. Khi bắt đầu màn hình 09 hoặc 10, nếu ảnh vẫn thiếu thì phải dựng/chốt mockup cùng đúng ngôn ngữ của 01–08 hoặc bám đặc tả đã ghi trong contract; không tự chuyển sang form/modal hay phong cách UI khác.
+
 ## 3. Mapping màn hình -> code
 
 | Ảnh chuẩn | View / code V2 |
