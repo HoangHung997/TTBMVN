@@ -24,6 +24,11 @@ Các task đã triển khai ở mức code:
 
 **Quan trọng:** chưa có bằng chứng build VSTO/Excel runtime end-to-end trong môi trường triển khai hiện tại. Không được đổi các trạng thái trên thành runtime PASS nếu chưa chạy thật trên Windows + Excel + VSTO.
 
+**Cập nhật tiếp quản Windows 2026-10-06:** đã sửa ba lỗi biên dịch và build Release x64
+thành công trên MSBuild 18.10.1; 80 test Core chạy PASS. Excel/VSTO end-to-end và đối chiếu
+ảnh UI vẫn pending. Xem [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md) để biết
+lệnh chạy, lỗi đã sửa và giới hạn kiểm chứng. Task NEXT vẫn là V2-801.
+
 ## 2. Mục tiêu kiến trúc đã chốt
 
 ### Excel là hồ sơ chính
@@ -576,4 +581,3 @@ Quy trình:
 8. cập nhật `HANDOVER.md` nếu kiến trúc/roadmap thay đổi;
 9. commit rõ ràng;
 10. không sang task tiếp theo trong cùng lượt nếu task hiện tại chưa được chốt.
-

@@ -1,5 +1,5 @@
 using Microsoft.Office.Core;
-using Microsoft.Office.Tools;
+using CustomTaskPane = Microsoft.Office.Tools.CustomTaskPane;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;

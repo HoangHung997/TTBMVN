@@ -6,6 +6,10 @@
 
 ## Trạng thái tổng quan
 
+**Tiếp quản Windows 2026-10-06:** build Release x64 và 80 test Core đã chạy thành công
+sau khi sửa ba lỗi biên dịch. Các task bên dưới vẫn runtime pending vì chưa kiểm thử
+end-to-end trong Excel/VSTO. Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
+
 | Mã | Task | Trạng thái |
 |---|---|---|
 | V2-001 | Bỏ gate khởi động Dự toán | DONE - implementation / runtime pending |

@@ -119,4 +119,7 @@ Task tiep theo:
 
 **Luu y:** cac task tren moi o muc implementation/runtime pending. Moi truong phat trien hien tai chua co bang chung build VSTO/Excel end-to-end, vi vay khong duoc coi la runtime PASS.
 
+Tiep quan Windows ngay 2026-10-06 da build Release x64 thanh cong va chay PASS 80 test Core.
+Chua xac nhan Excel/VSTO end-to-end; xem [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
+
 Nguoi tiep quan bat dau tai [HANDOVER.md](HANDOVER.md), sau do xem [PROGRESS.md](PROGRESS.md) de biet commit, checklist va trang thai chi tiet.

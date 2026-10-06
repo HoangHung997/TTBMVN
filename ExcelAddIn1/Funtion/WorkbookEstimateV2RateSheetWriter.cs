@@ -244,7 +244,7 @@ namespace ExcelAddIn1.Funtion
                 rows.Add(RateSheetRow.RateTitle(
                     rate.Title,
                     rate));
-                rows.Add(RateSheetRow.NormCode(
+                rows.Add(RateSheetRow.NormCodeRow(
                     "Số hiệu định mức: " +
                     DisplayNorm(rate.NormCode, rate.VariantCode),
                     rate));
@@ -1549,7 +1549,7 @@ namespace ExcelAddIn1.Funtion
                     rate);
             }
 
-            internal static RateSheetRow NormCode(
+            internal static RateSheetRow NormCodeRow(
                 string text,
                 EstimateV2RateItem rate)
             {
