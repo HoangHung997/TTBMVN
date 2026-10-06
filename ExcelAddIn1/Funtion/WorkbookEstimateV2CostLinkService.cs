@@ -271,9 +271,12 @@ namespace ExcelAddIn1.Funtion
             Excel.Range used = null;
             try
             {
-                sheet = FindWorksheet(
-                    workbook,
-                    "THKP-TC");
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            WorksheetRole.CostSummary,
+                            "THKP-TC");
                 if (sheet == null)
                     return false;
 
