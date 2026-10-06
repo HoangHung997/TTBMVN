@@ -243,36 +243,133 @@ namespace ExcelAddIn1.Winform
         {
             projectNameValue.Text = SafeWorkbookName();
 
-            EstimateV2State state;
-            bool hasState = WorkbookEstimateV2StateService.TryLoad(workbook, out state);
-            int total = hasState ? state.WorkItems.Count(item => !item.IsOrphaned) : 0;
-            int bound = hasState ? state.WorkItems.Count(item => !item.IsOrphaned && item.HasNormBinding) : 0;
+            EstimateV2State state = null;
+            bool hasState = false;
+            string stateWarning = string.Empty;
+            try
+            {
+                hasState =
+                    WorkbookEstimateV2StateService.TryLoad(
+                        workbook,
+                        out state);
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(
+                    ex,
+                    "Read Estimate V2 state on overview");
+                stateWarning =
+                    "Metadata V2 cũ/corrupt; module vẫn mở để đăng ký hoặc migration lại.";
+            }
+
+            int total = hasState && state != null
+                ? state.WorkItems.Count(item => !item.IsOrphaned)
+                : 0;
+            int bound = hasState && state != null
+                ? state.WorkItems.Count(item =>
+                    !item.IsOrphaned &&
+                    item.HasNormBinding)
+                : 0;
             int unbound = Math.Max(0, total - bound);
             int sheets = CountMainOutputSheets();
 
-            ProjectProfile profile;
-            bool hasProfile = WorkbookProjectProfileService.TryLoad(workbook, out profile);
-            bool packageReady = hasProfile &&
-                !string.IsNullOrWhiteSpace(profile.RegulationPackageId);
+            ProjectProfile profile = null;
+            bool hasProfile = false;
+            string profileWarning = string.Empty;
+            try
+            {
+                hasProfile =
+                    WorkbookProjectProfileService.TryLoad(
+                        workbook,
+                        out profile);
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(
+                    ex,
+                    "Read project profile on Estimate V2 overview");
+                profileWarning =
+                    "Project profile cũ/corrupt; không khóa module và không tự đổi package.";
+            }
 
-            projectStatusValue.Text = packageReady
-                ? "Workbook đã có hồ sơ dự toán. Gói pháp lý: " +
-                    profile.RegulationPackageId + " v" + profile.RegulationPackageVersion + "."
-                : "Có thể làm việc ngay. Chưa có gói pháp lý không làm khóa module; chỉ các chức năng tra/gắn định mức cần dữ liệu pháp lý.";
+            bool packageReady =
+                hasProfile &&
+                profile != null &&
+                !string.IsNullOrWhiteSpace(
+                    profile.RegulationPackageId);
 
-            totalCard.SetValue(total.ToString("N0"), total == 0 ? "chưa đăng ký" : "công tác");
-            boundCard.SetValue(bound.ToString("N0"), unbound == 0 && total > 0
-                ? "đã gắn đủ"
-                : unbound.ToString("N0") + " chưa gắn");
-            sheetCard.SetValue(sheets.ToString("N0"), "bảng sẵn sàng");
-            packageCard.SetValue(packageReady ? "1" : "0", packageReady ? "đã thiết lập" : "chưa chọn");
+            if (profileWarning.Length > 0)
+            {
+                projectStatusValue.Text =
+                    profileWarning;
+            }
+            else
+            {
+                projectStatusValue.Text = packageReady
+                    ? "Workbook đã có hồ sơ dự toán. Gói pháp lý: " +
+                        profile.RegulationPackageId + " v" +
+                        profile.RegulationPackageVersion + "."
+                    : "Có thể làm việc ngay. Chưa có gói pháp lý không làm khóa module; chỉ các chức năng tra/gắn định mức cần dữ liệu pháp lý.";
+            }
 
-            SetStep(0, total > 0 ? StepState.Done : StepState.Ready);
-            SetStep(1, total > 0 && unbound == 0 ? StepState.Done :
-                total > 0 ? StepState.Warning : StepState.Ready);
-            SetStep(2, SheetExists("VL-NC-M") ? StepState.Done : StepState.Ready);
-            SetStep(3, SheetExists("DG Can") ? StepState.Done : StepState.Ready);
-            SetStep(4, SheetExists("DG Nuoc") || SheetExists("DG Nước") ? StepState.Done : StepState.Ready);
+            totalCard.SetValue(
+                total.ToString("N0"),
+                total == 0 ? "chưa đăng ký" : "công tác");
+            boundCard.SetValue(
+                bound.ToString("N0"),
+                unbound == 0 && total > 0
+                    ? "đã gắn đủ"
+                    : unbound.ToString("N0") + " chưa gắn");
+            sheetCard.SetValue(
+                sheets.ToString("N0"),
+                "bảng sẵn sàng");
+            packageCard.SetValue(
+                packageReady ? "1" : "0",
+                packageReady
+                    ? "đã thiết lập"
+                    : profileWarning.Length > 0
+                        ? "cần kiểm tra"
+                        : "chưa chọn");
+
+            SetStep(
+                0,
+                total > 0
+                    ? StepState.Done
+                    : StepState.Ready);
+            SetStep(
+                1,
+                total > 0 && unbound == 0
+                    ? StepState.Done
+                    : total > 0
+                        ? StepState.Warning
+                        : StepState.Ready);
+            SetStep(
+                2,
+                OutputExists(
+                    WorksheetRole.ResourcePrices,
+                    EstimateV2LegacySheetKind.ResourcePrices,
+                    "VL-NC-M")
+                    ? StepState.Done
+                    : StepState.Ready);
+            SetStep(
+                3,
+                OutputExists(
+                    WorksheetRole.UnitRateLand,
+                    EstimateV2LegacySheetKind.UnitRateLand,
+                    "DG Can",
+                    "DG Cạn")
+                    ? StepState.Done
+                    : StepState.Ready);
+            SetStep(
+                4,
+                OutputExists(
+                    WorksheetRole.UnitRateWater,
+                    EstimateV2LegacySheetKind.UnitRateWater,
+                    "DG Nuoc",
+                    "DG Nước")
+                    ? StepState.Done
+                    : StepState.Ready);
+
             bool thkpLinked = false;
             try
             {
@@ -290,7 +387,17 @@ namespace ExcelAddIn1.Winform
                     : StepState.Ready);
 
             RebuildSheetTiles();
-            footerText.Text = "Có thể mở và sử dụng module này ngay cả khi chưa gắn THKP-TC hoặc chưa chọn gói pháp lý.";
+
+            var footerParts = new List<string>
+            {
+                "Có thể mở và sử dụng module này ngay cả khi chưa gắn THKP-TC hoặc chưa chọn gói pháp lý."
+            };
+            if (stateWarning.Length > 0)
+                footerParts.Add(stateWarning);
+            if (profileWarning.Length > 0)
+                footerParts.Add(profileWarning);
+            footerText.Text =
+                string.Join(" ", footerParts);
         }
 
         private Control BuildHeader()
@@ -445,24 +552,84 @@ namespace ExcelAddIn1.Winform
                 old.Dispose();
             sheetTiles.Controls.Clear();
 
-            AddSheetTile("THKP-TC", "Tổng hợp chi phí", Color.FromArgb(48, 143, 214));
-            AddSheetTile("Gia DT TC", "Bảng dự toán giá", Green);
-            AddSheetTile("DG Can", "Đơn giá thi công cạn", Amber);
-            AddSheetTile(
-                SheetExists("DG Nước") ? "DG Nước" : "DG Nuoc",
+            AddResolvedSheetTile(
+                WorksheetRole.CostSummary,
+                EstimateV2LegacySheetKind.CostSummary,
+                "THKP-TC",
+                "Tổng hợp chi phí",
+                Color.FromArgb(48, 143, 214));
+            AddResolvedSheetTile(
+                WorksheetRole.EstimateAppendix,
+                EstimateV2LegacySheetKind.EstimateAppendix,
+                "Gia DT TC",
+                "Bảng dự toán giá",
+                Green);
+            AddResolvedSheetTile(
+                WorksheetRole.UnitRateLand,
+                EstimateV2LegacySheetKind.UnitRateLand,
+                "DG Can",
+                "Đơn giá thi công cạn",
+                Amber,
+                "DG Cạn");
+            AddResolvedSheetTile(
+                WorksheetRole.UnitRateWater,
+                EstimateV2LegacySheetKind.UnitRateWater,
+                "DG Nuoc",
                 "Đơn giá thi công nước",
-                Color.FromArgb(42, 125, 213));
-            if (SheetExists("DG Bien") || SheetExists("DG Biển"))
+                Color.FromArgb(42, 125, 213),
+                "DG Nước");
+
+            string seaName =
+                ResolveOutputNameByKind(
+                    EstimateV2LegacySheetKind.UnitRateSea,
+                    "DG Bien",
+                    "DG Biển");
+            if (seaName.Length > 0)
             {
                 AddSheetTile(
-                    SheetExists("DG Biển") ? "DG Biển" : "DG Bien",
+                    seaName,
                     "Đơn giá thi công biển",
                     Color.FromArgb(32, 134, 163));
             }
-            AddSheetTile("VL-NC-M", "Vật liệu, nhân công, máy", Color.FromArgb(130, 75, 196));
+
+            AddResolvedSheetTile(
+                WorksheetRole.ResourcePrices,
+                EstimateV2LegacySheetKind.ResourcePrices,
+                "VL-NC-M",
+                "Vật liệu, nhân công, máy",
+                Color.FromArgb(130, 75, 196));
         }
 
-        private void AddSheetTile(string name, string detail, Color color)
+        private void AddResolvedSheetTile(
+            WorksheetRole role,
+            EstimateV2LegacySheetKind kind,
+            string canonicalName,
+            string detail,
+            Color color,
+            params string[] aliases)
+        {
+            string[] names =
+                new[] { canonicalName }
+                    .Concat(aliases ??
+                        new string[0])
+                    .ToArray();
+            string actual =
+                ResolveOutputName(
+                    role,
+                    kind,
+                    names);
+            AddSheetTile(
+                actual.Length > 0
+                    ? actual
+                    : canonicalName,
+                detail,
+                color);
+        }
+
+        private void AddSheetTile(
+            string name,
+            string detail,
+            Color color)
         {
             var tile = new EstimateCardPanel
             {
@@ -475,7 +642,10 @@ namespace ExcelAddIn1.Winform
             };
             var icon = new PictureBox
             {
-                Image = EstimateUiIcons.Create(EstimateUiIconKind.Document, 22, color),
+                Image = EstimateUiIcons.Create(
+                    EstimateUiIconKind.Document,
+                    22,
+                    color),
                 Location = new Point(8, 10),
                 Size = new Size(27, 27),
                 SizeMode = PictureBoxSizeMode.CenterImage
@@ -485,7 +655,10 @@ namespace ExcelAddIn1.Winform
                 Text = name,
                 Location = new Point(39, 8),
                 Size = new Size(76, 23),
-                Font = new Font("Segoe UI", 8.2f, FontStyle.Bold),
+                Font = new Font(
+                    "Segoe UI",
+                    8.2f,
+                    FontStyle.Bold),
                 ForeColor = TextDark,
                 AutoEllipsis = true
             };
@@ -506,64 +679,198 @@ namespace ExcelAddIn1.Winform
 
         private int CountMainOutputSheets()
         {
-            string[] names = { "THKP-TC", "Gia DT TC", "DG Can", "DG Nuoc", "DG Nước", "VL-NC-M", "DG Bien", "DG Biển" };
-            var found = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-            Excel.Sheets sheets = null;
+            var keys =
+                new HashSet<string>(
+                    StringComparer.OrdinalIgnoreCase);
+
+            AddOutputKey(
+                keys,
+                WorksheetRole.CostSummary,
+                EstimateV2LegacySheetKind.CostSummary,
+                "THKP-TC");
+            AddOutputKey(
+                keys,
+                WorksheetRole.EstimateAppendix,
+                EstimateV2LegacySheetKind.EstimateAppendix,
+                "Gia DT TC");
+            AddOutputKey(
+                keys,
+                WorksheetRole.UnitRateLand,
+                EstimateV2LegacySheetKind.UnitRateLand,
+                "DG Can",
+                "DG Cạn");
+            AddOutputKey(
+                keys,
+                WorksheetRole.UnitRateWater,
+                EstimateV2LegacySheetKind.UnitRateWater,
+                "DG Nuoc",
+                "DG Nước");
+            AddOutputKey(
+                keys,
+                WorksheetRole.ResourcePrices,
+                EstimateV2LegacySheetKind.ResourcePrices,
+                "VL-NC-M");
+
+            string sea =
+                ResolveOutputKeyByKind(
+                    EstimateV2LegacySheetKind.UnitRateSea,
+                    "DG Bien",
+                    "DG Biển");
+            if (sea.Length > 0)
+                keys.Add(sea);
+
+            return keys.Count;
+        }
+
+        private void AddOutputKey(
+            ISet<string> keys,
+            WorksheetRole role,
+            EstimateV2LegacySheetKind kind,
+            params string[] names)
+        {
+            string key =
+                ResolveOutputKey(
+                    role,
+                    kind,
+                    names);
+            if (key.Length > 0)
+                keys.Add(key);
+        }
+
+        private bool OutputExists(
+            WorksheetRole role,
+            EstimateV2LegacySheetKind kind,
+            params string[] names)
+        {
+            return ResolveOutputKey(
+                role,
+                kind,
+                names).Length > 0;
+        }
+
+        private string ResolveOutputName(
+            WorksheetRole role,
+            EstimateV2LegacySheetKind kind,
+            params string[] names)
+        {
+            Excel.Worksheet sheet = null;
             try
             {
-                sheets = workbook.Worksheets;
-                for (int index = 1; index <= sheets.Count; index++)
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            role,
+                            names);
+                if (sheet == null)
                 {
-                    Excel.Worksheet sheet = null;
-                    try
-                    {
-                        sheet = sheets.Item[index] as Excel.Worksheet;
-                        if (sheet == null)
-                            continue;
-                        if (names.Any(name => string.Equals(name, sheet.Name, StringComparison.OrdinalIgnoreCase)))
-                            found.Add(sheet.Name);
-                    }
-                    finally
-                    {
-                        Release(sheet);
-                    }
+                    sheet =
+                        WorkbookEstimateV2CompatibilityService
+                            .ResolveOutputWorksheetByKind(
+                                workbook,
+                                kind,
+                                names);
                 }
-                return found.Count;
+                return sheet == null
+                    ? string.Empty
+                    : sheet.Name;
             }
             finally
             {
-                Release(sheets);
+                Release(sheet);
             }
         }
 
-        private bool SheetExists(string name)
+        private string ResolveOutputKey(
+            WorksheetRole role,
+            EstimateV2LegacySheetKind kind,
+            params string[] names)
         {
-            Excel.Sheets sheets = null;
+            Excel.Worksheet sheet = null;
             try
             {
-                sheets = workbook.Worksheets;
-                for (int index = 1; index <= sheets.Count; index++)
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheet(
+                            workbook,
+                            role,
+                            names);
+                if (sheet == null)
                 {
-                    Excel.Worksheet sheet = null;
-                    try
-                    {
-                        sheet = sheets.Item[index] as Excel.Worksheet;
-                        if (sheet != null && string.Equals(
-                            sheet.Name,
-                            name,
-                            StringComparison.OrdinalIgnoreCase))
-                            return true;
-                    }
-                    finally
-                    {
-                        Release(sheet);
-                    }
+                    sheet =
+                        WorkbookEstimateV2CompatibilityService
+                            .ResolveOutputWorksheetByKind(
+                                workbook,
+                                kind,
+                                names);
                 }
-                return false;
+                if (sheet == null)
+                    return string.Empty;
+
+                string key =
+                    (sheet.CodeName ??
+                        string.Empty).Trim();
+                return key.Length > 0
+                    ? key
+                    : (sheet.Name ??
+                        string.Empty).Trim();
             }
             finally
             {
-                Release(sheets);
+                Release(sheet);
+            }
+        }
+
+        private string ResolveOutputNameByKind(
+            EstimateV2LegacySheetKind kind,
+            params string[] names)
+        {
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheetByKind(
+                            workbook,
+                            kind,
+                            names);
+                return sheet == null
+                    ? string.Empty
+                    : sheet.Name;
+            }
+            finally
+            {
+                Release(sheet);
+            }
+        }
+
+        private string ResolveOutputKeyByKind(
+            EstimateV2LegacySheetKind kind,
+            params string[] names)
+        {
+            Excel.Worksheet sheet = null;
+            try
+            {
+                sheet =
+                    WorkbookEstimateV2CompatibilityService
+                        .ResolveOutputWorksheetByKind(
+                            workbook,
+                            kind,
+                            names);
+                if (sheet == null)
+                    return string.Empty;
+
+                string key =
+                    (sheet.CodeName ??
+                        string.Empty).Trim();
+                return key.Length > 0
+                    ? key
+                    : (sheet.Name ??
+                        string.Empty).Trim();
+            }
+            finally
+            {
+                Release(sheet);
             }
         }
 
