@@ -7,7 +7,7 @@ namespace ExcelAddIn1.Core
 {
     public sealed class EstimateV2ResourceRequirement
     {
-        internal EstimateV2ResourceRequirement(
+        public EstimateV2ResourceRequirement(
             NormResourceKind kind,
             string code,
             string unit,
