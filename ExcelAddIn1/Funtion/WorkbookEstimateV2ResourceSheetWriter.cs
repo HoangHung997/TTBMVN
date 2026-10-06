@@ -229,7 +229,10 @@ namespace ExcelAddIn1.Funtion
             PreservedInputs preserved)
         {
             int existingLastColumn = ExistingLastColumn(sheet);
-            int metadataStart = Math.Max(8, existingLastColumn + 1);
+            int existingMetadataStart = FindMetadataStartColumn(sheet);
+            int metadataStart = existingMetadataStart > 0
+                ? existingMetadataStart
+                : Math.Max(8, existingLastColumn + 1);
             if (metadataStart + MetadataColumnCount - 1 > 16384)
                 throw new InvalidOperationException("Khong con cot trong de luu metadata VL-NC-M.");
 
@@ -1018,22 +1021,89 @@ namespace ExcelAddIn1.Funtion
             ExcelBatchWriteTransaction transaction)
         {
             int lastRow = Math.Max(requiredLastRow, ExistingLastRow(sheet));
-            int lastColumn = Math.Max(
-                metadataStart + MetadataColumnCount - 1,
-                ExistingLastColumn(sheet));
-            Excel.Range range = null;
+            Excel.Range visible = null;
+            Excel.Range metadata = null;
             try
             {
-                range = sheet.Range[
+                visible = sheet.Range[
                     "A1",
-                    ExcelColumnAddress.ToLetters(lastColumn) +
+                    "F" + lastRow.ToString(CultureInfo.InvariantCulture)];
+                transaction.WriteValue2(
+                    visible,
+                    new object[lastRow, VisibleLastColumn]);
+
+                int metadataLastColumn =
+                    metadataStart + MetadataColumnCount - 1;
+                metadata = sheet.Range[
+                    ExcelColumnAddress.ToLetters(metadataStart) + "1",
+                    ExcelColumnAddress.ToLetters(metadataLastColumn) +
                     lastRow.ToString(CultureInfo.InvariantCulture)];
-                object[,] empty = new object[lastRow, lastColumn];
-                transaction.WriteValue2(range, empty);
+                transaction.WriteValue2(
+                    metadata,
+                    new object[lastRow, MetadataColumnCount]);
             }
             finally
             {
-                Release(range);
+                Release(metadata);
+                Release(visible);
+            }
+        }
+
+        private static int FindMetadataStartColumn(
+            Excel.Worksheet sheet)
+        {
+            Excel.Range used = null;
+            Excel.Range header = null;
+            try
+            {
+                used = sheet.UsedRange;
+                int first = Math.Max(1, used.Column);
+                int last = Math.Min(
+                    16384 - MetadataColumnCount + 1,
+                    used.Column + used.Columns.Count - 1);
+                for (int column = first; column <= last; column++)
+                {
+                    header = sheet.Cells[1, column] as Excel.Range;
+                    string value = (Convert.ToString(
+                        header?.Value2,
+                        CultureInfo.InvariantCulture) ?? string.Empty).Trim();
+                    Release(header);
+                    header = null;
+                    if (!string.Equals(
+                        value,
+                        MetadataHeaders[0],
+                        StringComparison.Ordinal))
+                    {
+                        continue;
+                    }
+
+                    bool matches = true;
+                    for (int offset = 1; offset < MetadataHeaders.Length; offset++)
+                    {
+                        header = sheet.Cells[1, column + offset] as Excel.Range;
+                        string candidate = (Convert.ToString(
+                            header?.Value2,
+                            CultureInfo.InvariantCulture) ?? string.Empty).Trim();
+                        Release(header);
+                        header = null;
+                        if (!string.Equals(
+                            candidate,
+                            MetadataHeaders[offset],
+                            StringComparison.Ordinal))
+                        {
+                            matches = false;
+                            break;
+                        }
+                    }
+                    if (matches)
+                        return column;
+                }
+                return 0;
+            }
+            finally
+            {
+                Release(header);
+                Release(used);
             }
         }
 
