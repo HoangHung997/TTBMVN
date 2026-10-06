@@ -444,11 +444,12 @@ namespace ExcelAddIn1.Funtion
                     else
                     {
                         rowId = EstimateV2WorkItemState.CreateId();
-                        string importedNorm = visibleNorm;
+                        // Gia tri dinh muc dang hien tren workbook legacy chi la display.
+                        // Khong tu nhan no thanh binding phap ly khi chua co package/key/variant xac dinh.
                         existing = new EstimateV2WorkItemState(
                             rowId,
                             sourceKey,
-                            importedNorm,
+                            string.Empty,
                             string.Empty,
                             string.Empty,
                             string.Empty,
