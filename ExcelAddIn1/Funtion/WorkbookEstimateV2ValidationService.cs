@@ -351,6 +351,15 @@ namespace ExcelAddIn1.Funtion
                 WorkbookEstimateV2RegistrationService.ListRegistered(
                     workbook);
 
+            if (sources.Count == 0)
+            {
+                findings.Add(new EstimateV2ValidationFinding(
+                    "NO_REGISTERED_SOURCE",
+                    "Chưa đăng ký bảng công tác",
+                    "Module vẫn mở bình thường; hãy đăng ký bảng công tác trước khi tổng hợp.",
+                    EstimateV2CostIssueSeverity.Warning));
+            }
+
             ScanPhysicalIdentity(
                 workbook,
                 state,
@@ -400,7 +409,12 @@ namespace ExcelAddIn1.Funtion
 
             bool thkpLinked =
                 WorkbookEstimateV2CostLinkService
-                    .HasDirectCostLinks(workbook);
+                    .HasDirectCostLinks(workbook) &&
+                !overwrittenCells.Values.Any(item =>
+                    string.Equals(
+                        item.Code,
+                        "THKP_FORMULA_OVERWRITTEN",
+                        StringComparison.OrdinalIgnoreCase));
             if (thkpLinked)
             {
                 findings.Add(new EstimateV2ValidationFinding(
@@ -498,8 +512,15 @@ namespace ExcelAddIn1.Funtion
                         before.Findings.Any(item =>
                             item.Recoverable &&
                             (item.Code == "RATE_FORMULA_OVERWRITTEN" ||
-                             item.Code == "MANAGED_FORMULA_ERROR" ||
-                             item.Code == "RATE_NAME_MISSING"));
+                             item.Code == "RATE_NAME_MISSING" ||
+                             (item.Code == "MANAGED_FORMULA_ERROR" &&
+                              (string.Equals(
+                                   item.WorksheetName,
+                                   "VL-NC-M",
+                                   StringComparison.OrdinalIgnoreCase) ||
+                               item.WorksheetName.StartsWith(
+                                   "DG ",
+                                   StringComparison.OrdinalIgnoreCase)))));
 
                     if (!needsRepair)
                         continue;
@@ -525,7 +546,15 @@ namespace ExcelAddIn1.Funtion
                         (item.Code == "COST_FORMULA_OVERWRITTEN" ||
                          item.Code == "THKP_FORMULA_OVERWRITTEN" ||
                          item.Code == "THKP_LINK" ||
-                         item.Code == "MANAGED_FORMULA_ERROR")))
+                         (item.Code == "MANAGED_FORMULA_ERROR" &&
+                          (item.WorksheetName.Length == 0 ||
+                           string.Equals(
+                               item.WorksheetName,
+                               "THKP-TC",
+                               StringComparison.OrdinalIgnoreCase) ||
+                           !item.WorksheetName.StartsWith(
+                               "DG ",
+                               StringComparison.OrdinalIgnoreCase))))))
                 {
                     WorkbookEstimateV2CostLinkWriter.Apply(
                         workbook);
@@ -1076,14 +1105,24 @@ namespace ExcelAddIn1.Funtion
                             cell.Worksheet;
                         try
                         {
-                            foreach (string id in affected)
+                            int errorCode;
+                            if (TryGetExcelErrorCode(
+                                cell.Value2,
+                                out errorCode))
                             {
-                                AddErrorIfAny(
-                                    errorCells,
-                                    errorSheet,
-                                    cell,
-                                    id);
+                                foreach (string id in affected)
+                                {
+                                    formulaIssueWorkItems.Add(id);
+                                    warningWorkItems.Add(id);
+                                }
                             }
+
+                            AddErrorIfAny(
+                                errorCells,
+                                errorSheet,
+                                cell,
+                                affected.FirstOrDefault() ??
+                                    string.Empty);
                         }
                         finally
                         {
