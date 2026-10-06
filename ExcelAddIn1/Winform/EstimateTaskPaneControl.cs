@@ -51,6 +51,8 @@ namespace ExcelAddIn1.Winform
             };
             Controls.Add(overviewRoot);
 
+            TryReconcileOnOpen();
+
             var content = new TableLayoutPanel
             {
                 Dock = DockStyle.Top,
@@ -206,6 +208,19 @@ namespace ExcelAddIn1.Winform
             content.Controls.Add(footer, 0, content.RowCount++);
 
             RefreshOverview();
+        }
+
+        private void TryReconcileOnOpen()
+        {
+            try
+            {
+                WorkbookEstimateV2RegistrationService.ReconcileAll(workbook);
+            }
+            catch (Exception ex)
+            {
+                // Missing/legacy metadata khong duoc phep chan viec mo task pane.
+                RuntimeLogger.Log(ex, "Reconcile Estimate V2 on open");
+            }
         }
 
         internal void RefreshOverview()
