@@ -2083,6 +2083,7 @@ namespace ExcelAddIn1.Tests
                 "density-1",
                 "BQP-RPBM-2025",
                 "2.0.1",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "WORKITEM",
                 fingerprint,
                 false);
@@ -2100,6 +2101,7 @@ namespace ExcelAddIn1.Tests
             AssertEqual("density-1", restored.WorkItems[0].VariantCode);
             AssertEqual("BQP-RPBM-2025", restored.WorkItems[0].PackageId);
             AssertEqual("2.0.1", restored.WorkItems[0].DataVersion);
+            AssertEqual("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", restored.WorkItems[0].PackageChecksum);
             AssertEqual("WORKITEM", restored.WorkItems[0].Kind);
             AssertEqual(fingerprint, restored.WorkItems[0].Fingerprint);
             AssertFalse(restored.WorkItems[0].IsOrphaned);
@@ -2120,6 +2122,7 @@ namespace ExcelAddIn1.Tests
             AssertThrows<ArgumentException>(() => new EstimateV2WorkItemState(
                 "not-a-guid",
                 "SheetEstimate",
+                string.Empty,
                 string.Empty,
                 string.Empty,
                 string.Empty,
