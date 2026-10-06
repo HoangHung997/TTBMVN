@@ -156,8 +156,16 @@ namespace ExcelAddIn1.Winform
                 "VL-NC-M",
                 "Kiểm tra, cập nhật giá vật liệu, nhân công, máy thi công.",
                 ShowResources);
-            AddStep(stepsPanel, "DG Cạn", "Tính đơn giá cho điều kiện thi công trên cạn.", null);
-            AddStep(stepsPanel, "DG Nước", "Tính đơn giá cho điều kiện thi công dưới nước.", null);
+            AddStep(
+                stepsPanel,
+                "DG Cạn",
+                "Tính đơn giá cho điều kiện thi công trên cạn.",
+                ShowLandRates);
+            AddStep(
+                stepsPanel,
+                "DG Nước",
+                "Tính đơn giá cho điều kiện thi công dưới nước.",
+                ShowWaterRates);
             AddStep(stepsPanel, "THKP-TC & Kiểm tra", "Tổng hợp chi phí, cập nhật THKP-TC, kiểm tra dữ liệu.", null);
             stepsPanel.SizeChanged += (s, e) =>
             {
@@ -346,6 +354,31 @@ namespace ExcelAddIn1.Winform
                 ShowOverview));
         }
 
+        private void ShowLandRates()
+        {
+            ShowChild(new EstimateUnitRatesPaneView(
+                workbook,
+                EstimateV2RateEnvironment.Land,
+                ShowOverview));
+        }
+
+        private void ShowWaterRates()
+        {
+            ShowChild(new EstimateUnitRatesPaneView(
+                workbook,
+                EstimateV2RateEnvironment.InlandWater,
+                ShowOverview,
+                ShowSeaRates));
+        }
+
+        private void ShowSeaRates()
+        {
+            ShowChild(new EstimateUnitRatesPaneView(
+                workbook,
+                EstimateV2RateEnvironment.Sea,
+                ShowOverview));
+        }
+
         private void ShowOverview()
         {
             if (activeChild != null)
@@ -394,6 +427,13 @@ namespace ExcelAddIn1.Winform
                 SheetExists("DG Nước") ? "DG Nước" : "DG Nuoc",
                 "Đơn giá thi công nước",
                 Color.FromArgb(42, 125, 213));
+            if (SheetExists("DG Bien") || SheetExists("DG Biển"))
+            {
+                AddSheetTile(
+                    SheetExists("DG Biển") ? "DG Biển" : "DG Bien",
+                    "Đơn giá thi công biển",
+                    Color.FromArgb(32, 134, 163));
+            }
             AddSheetTile("VL-NC-M", "Vật liệu, nhân công, máy", Color.FromArgb(130, 75, 196));
         }
 
