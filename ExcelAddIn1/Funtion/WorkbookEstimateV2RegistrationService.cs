@@ -195,6 +195,154 @@ namespace ExcelAddIn1.Funtion
             }
         }
 
+        public static EstimateV2RegisteredSource EnsureTechnicalColumnsAfter(
+            Excel.Workbook workbook,
+            EstimateV2RegisteredSource source,
+            int minimumFirstTechnicalColumn)
+        {
+            if (workbook == null)
+                throw new ArgumentNullException(nameof(workbook));
+            if (source == null)
+                throw new ArgumentNullException(nameof(source));
+            if (minimumFirstTechnicalColumn < 1 ||
+                minimumFirstTechnicalColumn > 16381)
+            {
+                throw new ArgumentOutOfRangeException(
+                    nameof(minimumFirstTechnicalColumn));
+            }
+
+            if (source.Columns.TechnicalIdColumn >=
+                minimumFirstTechnicalColumn)
+            {
+                return source;
+            }
+
+            Excel.Worksheet worksheet = null;
+            Excel.Range oldRange = null;
+            Excel.Range newRange = null;
+            Excel.Range oldColumns = null;
+            Excel.Range newColumns = null;
+            try
+            {
+                worksheet = ResolveWorksheet(workbook, source);
+
+                int oldStart = source.Columns.TechnicalIdColumn;
+                int oldEnd =
+                    source.Columns.TechnicalFingerprintColumn;
+                int newStart = Math.Max(
+                    minimumFirstTechnicalColumn,
+                    ExistingLastColumn(worksheet) + 1);
+                if (newStart + 3 > 16384)
+                {
+                    throw new InvalidOperationException(
+                        "Khong con du cot Excel de di chuyen metadata Du toan V2.");
+                }
+
+                int firstRow = source.HeaderRow;
+                int lastRow = Math.Max(
+                    source.LastDataRow,
+                    source.HeaderRow);
+                string oldAddress =
+                    ExcelColumnAddress.ToLetters(oldStart) +
+                    firstRow.ToString(CultureInfo.InvariantCulture) +
+                    ":" +
+                    ExcelColumnAddress.ToLetters(oldEnd) +
+                    lastRow.ToString(CultureInfo.InvariantCulture);
+                string newAddress =
+                    ExcelColumnAddress.ToLetters(newStart) +
+                    firstRow.ToString(CultureInfo.InvariantCulture) +
+                    ":" +
+                    ExcelColumnAddress.ToLetters(newStart + 3) +
+                    lastRow.ToString(CultureInfo.InvariantCulture);
+
+                oldRange = worksheet.Range[oldAddress];
+                newRange = worksheet.Range[newAddress];
+
+                object metadata = oldRange.Value2;
+                int rowCount = lastRow - firstRow + 1;
+                using (var transaction =
+                    new ExcelBatchWriteTransaction())
+                {
+                    transaction.WriteValue2(
+                        newRange,
+                        metadata);
+                    transaction.WriteValue2(
+                        oldRange,
+                        new object[rowCount, 4]);
+                    transaction.Commit();
+                }
+
+                // Bao dam header metadata van dung ngay ca voi workbook cu
+                // co header bi xoa/doi ten.
+                WriteCell(
+                    worksheet,
+                    firstRow,
+                    newStart,
+                    WorkbookEstimateV2StateService.HeaderId);
+                WriteCell(
+                    worksheet,
+                    firstRow,
+                    newStart + 1,
+                    WorkbookEstimateV2StateService.HeaderNorm);
+                WriteCell(
+                    worksheet,
+                    firstRow,
+                    newStart + 2,
+                    WorkbookEstimateV2StateService.HeaderKind);
+                WriteCell(
+                    worksheet,
+                    firstRow,
+                    newStart + 3,
+                    WorkbookEstimateV2StateService.HeaderFingerprint);
+
+                oldColumns = worksheet.Range[
+                    ExcelColumnAddress.ToLetters(oldStart) + ":" +
+                    ExcelColumnAddress.ToLetters(oldEnd)];
+                oldColumns.EntireColumn.Hidden = false;
+
+                newColumns = worksheet.Range[
+                    ExcelColumnAddress.ToLetters(newStart) + ":" +
+                    ExcelColumnAddress.ToLetters(newStart + 3)];
+                newColumns.EntireColumn.Hidden = true;
+
+                var columns = new EstimateV2ColumnLayout(
+                    source.Columns.WorkCodeColumn,
+                    source.Columns.NormDisplayColumn,
+                    source.Columns.DescriptionColumn,
+                    source.Columns.UnitColumn,
+                    source.Columns.QuantityColumn,
+                    newStart,
+                    newStart + 1,
+                    newStart + 2,
+                    newStart + 3);
+
+                SaveSourceProperties(
+                    worksheet,
+                    source.SourceAddress,
+                    source.HeaderRow,
+                    source.FirstDataRow,
+                    source.LastDataRow,
+                    columns);
+
+                return new EstimateV2RegisteredSource(
+                    worksheet.CodeName,
+                    worksheet.Name,
+                    source.SourceAddress,
+                    source.HeaderRow,
+                    source.FirstDataRow,
+                    source.LastDataRow,
+                    columns);
+            }
+            finally
+            {
+                Release(newColumns);
+                Release(oldColumns);
+                Release(newRange);
+                Release(oldRange);
+                Release(worksheet);
+            }
+        }
+
         public static EstimateV2ReconcileResult ReconcileAll(
             Excel.Workbook workbook)
         {
@@ -304,6 +452,41 @@ namespace ExcelAddIn1.Funtion
                     "Metadata bang cong tac Du toan V2 tren sheet '" +
                     worksheet.Name + "' khong hop le.",
                     ex);
+            }
+        }
+
+        private static int ExistingLastColumn(
+            Excel.Worksheet worksheet)
+        {
+            Excel.Range used = null;
+            try
+            {
+                used = worksheet.UsedRange;
+                return Math.Max(
+                    1,
+                    used.Column + used.Columns.Count - 1);
+            }
+            finally
+            {
+                Release(used);
+            }
+        }
+
+        private static void WriteCell(
+            Excel.Worksheet worksheet,
+            int row,
+            int column,
+            string value)
+        {
+            Excel.Range cell = null;
+            try
+            {
+                cell = worksheet.Cells[row, column] as Excel.Range;
+                cell.Value2 = value ?? string.Empty;
+            }
+            finally
+            {
+                Release(cell);
             }
         }
 
