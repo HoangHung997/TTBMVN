@@ -66,6 +66,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2RatePlan", TestEstimateV2RatePlan);
             Run("EstimateV2CostLinkPlan", TestEstimateV2CostLinkPlan);
             Run("EstimateV2ValidationRules", TestEstimateV2ValidationRules);
+            Run("EstimateV2CompatibilityRules", TestEstimateV2CompatibilityRules);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2494,6 +2495,96 @@ namespace ExcelAddIn1.Tests
             AssertEqual(
                 "#N/A",
                 EstimateV2ValidationRules.ExcelErrorText(2042));
+        }
+
+        private static void TestEstimateV2CompatibilityRules()
+        {
+            EstimateV2LegacySheetClassification canonical =
+                EstimateV2CompatibilityRules.ClassifySheetName(
+                    "DG Cạn");
+            AssertEqual(
+                EstimateV2LegacySheetKind.UnitRateLand,
+                canonical.Kind);
+            AssertTrue(canonical.IsCanonicalName);
+            AssertEqual(
+                EstimateV2LegacyAudienceHint.None,
+                canonical.AudienceHint);
+
+            EstimateV2LegacySheetClassification landVt =
+                EstimateV2CompatibilityRules.ClassifySheetName(
+                    "DG Can_VT");
+            AssertEqual(
+                EstimateV2LegacySheetKind.UnitRateLand,
+                landVt.Kind);
+            AssertTrue(landVt.IsLegacyAlias);
+            AssertEqual(
+                EstimateV2LegacyAudienceHint.StateBudgetSalary,
+                landVt.AudienceHint);
+
+            EstimateV2LegacySheetClassification resourceDn =
+                EstimateV2CompatibilityRules.ClassifySheetName(
+                    "VL-NC-M_DN");
+            AssertEqual(
+                EstimateV2LegacySheetKind.ResourcePrices,
+                resourceDn.Kind);
+            AssertEqual(
+                EstimateV2LegacyAudienceHint.NonStateSalary,
+                resourceDn.AudienceHint);
+
+            EstimateV2LegacySheetClassification summaryCopy =
+                EstimateV2CompatibilityRules.ClassifySheetName(
+                    "THKP-TC (2)");
+            AssertEqual(
+                EstimateV2LegacySheetKind.CostSummary,
+                summaryCopy.Kind);
+            AssertTrue(summaryCopy.IsLegacyAlias);
+
+            EstimateV2LegacySheetClassification estimateDn =
+                EstimateV2CompatibilityRules.ClassifySheetName(
+                    "Gia DT TC_DN");
+            AssertEqual(
+                EstimateV2LegacySheetKind.EstimateAppendix,
+                estimateDn.Kind);
+            AssertEqual(
+                EstimateV2LegacyAudienceHint.NonStateSalary,
+                estimateDn.AudienceHint);
+
+            AssertTrue(
+                EstimateV2CompatibilityRules.LooksLikeV2EstimateHeader(
+                    new[]
+                    {
+                        "TT",
+                        "Mã công tác",
+                        "Định mức",
+                        "Mô tả công việc",
+                        "Đơn vị",
+                        "Khối lượng",
+                        "Đơn giá (đồng)",
+                        "Thành tiền (đồng)"
+                    }));
+
+            AssertTrue(
+                EstimateV2CompatibilityRules.LooksLikeLegacyEstimateHeader(
+                    new[]
+                    {
+                        "TT",
+                        "Mô tả công việc",
+                        "Đơn vị",
+                        "Khối lượng",
+                        "Nghiệm thu",
+                        "Đơn giá (đồng)",
+                        "Thành tiền (đồng)"
+                    }));
+
+            AssertFalse(
+                EstimateV2CompatibilityRules.LooksLikeV2EstimateHeader(
+                    new[]
+                    {
+                        "TT",
+                        "Mô tả công việc",
+                        "Đơn vị",
+                        "Khối lượng"
+                    }));
         }
 
         private static void TestEstimateRateGrouping()
