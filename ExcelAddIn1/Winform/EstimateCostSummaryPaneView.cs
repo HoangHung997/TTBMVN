@@ -574,8 +574,8 @@ namespace ExcelAddIn1.Winform
             };
             var value = new Label
             {
-                Location = new Point(7, 39),
-                Height = 38,
+                Location = new Point(7, 35),
+                Height = 35,
                 Font = new Font(
                     "Segoe UI",
                     16f,
@@ -583,13 +583,25 @@ namespace ExcelAddIn1.Winform
                 ForeColor = color,
                 TextAlign = ContentAlignment.MiddleCenter
             };
+            var detail = new Label
+            {
+                Text = "công tác",
+                Location = new Point(7, 70),
+                Height = 18,
+                Font = new Font("Segoe UI", 6.9f),
+                ForeColor = TextMuted,
+                TextAlign = ContentAlignment.TopCenter
+            };
             card.Controls.Add(titleLabel);
             card.Controls.Add(value);
+            card.Controls.Add(detail);
             card.Resize += (s, e) =>
             {
                 titleLabel.Width =
                     Math.Max(38, card.ClientSize.Width - 42);
                 value.Width =
+                    Math.Max(48, card.ClientSize.Width - 14);
+                detail.Width =
                     Math.Max(48, card.ClientSize.Width - 14);
             };
             parent.Controls.Add(card, column, 0);
