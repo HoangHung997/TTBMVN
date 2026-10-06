@@ -180,6 +180,11 @@ namespace ExcelAddIn1.Core
                 int variantIndex = ResolveVariantIndex(
                     definition,
                     sample.VariantCode);
+                string resolvedVariantCode =
+                    definition.Variants != null &&
+                    definition.Variants.Count > variantIndex
+                        ? definition.Variants[variantIndex]
+                        : (sample.VariantCode ?? string.Empty).Trim();
                 var resources = new List<EstimateV2RateResource>();
                 foreach (NormResourceRate rate in definition.Rates)
                 {
@@ -219,10 +224,10 @@ namespace ExcelAddIn1.Core
                     CreateRateId(
                         packageIdentity,
                         definition.Key,
-                        sample.VariantCode),
+                        resolvedVariantCode),
                     packageIdentity,
                     definition.Key,
-                    sample.VariantCode,
+                    resolvedVariantCode,
                     definition.Title,
                     definition.WorkUnit,
                     ClassifyEnvironment(definition.Key),
