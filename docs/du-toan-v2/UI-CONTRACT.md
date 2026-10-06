@@ -147,7 +147,7 @@ V2-501 mở rộng chính màn hình 07, **không tạo thêm một kiểu UI kh
   - phục hồi ô hiển thị định mức từ binding Custom XML;
 - tuyệt đối không tự điền giá thị trường bị thiếu, không tự suy đoán điều kiện định mức và không tự thay công thức pháp lý ngoài vùng V2 quản lý;
 - engine có `RepairRecoverable` để tái sinh công thức/link V2 qua đúng writer sở hữu (VL-NC-M / DG / Gia DT TC / THKP-TC); thao tác kiểm tra thông thường không âm thầm ghi lại giá đầu vào của người dùng;
-- bước 6 ở Tổng quan chỉ được `Đã xong` khi THKP đã link và validation không còn warning/error.
+- Tổng quan phải tiếp tục nhẹ và không chạy full validation/package scan ở startup; bước 6 chỉ phản ánh nhanh trạng thái THKP link, còn full validation chạy khi người dùng mở `THKP-TC & Kiểm tra` hoặc bấm `Kiểm tra hồ sơ`.
 
 ## 9. Quy tắc mở lại workbook
 
