@@ -279,6 +279,9 @@
     <Compile Include="RandomDaodat.Selection.cs" />
     <Compile Include="RandomDaodat.TableData.cs" />
     <Compile Include="RandomDaodat.Helpers.cs" />
+    <Compile Include="Winform\EstimateUiIcons.cs" />
+    <Compile Include="Winform\EstimateTaskPaneControl.cs" />
+    <Compile Include="Winform\EstimateTaskPaneManager.cs" />
     <Compile Include="Winform\Dutoan.cs">
       <SubType>Form</SubType>
     </Compile>
