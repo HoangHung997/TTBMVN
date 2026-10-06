@@ -406,6 +406,7 @@ namespace ExcelAddIn1.Funtion
                             importedNorm,
                             string.Empty,
                             string.Empty,
+                            string.Empty,
                             DefaultKind,
                             fingerprint,
                             false);
@@ -422,6 +423,7 @@ namespace ExcelAddIn1.Funtion
                     existing = new EstimateV2WorkItemState(
                         rowId,
                         existing.NormCode,
+                        existing.VariantCode,
                         existing.PackageId,
                         existing.DataVersion,
                         existing.Kind.Length == 0 ? DefaultKind : existing.Kind,
@@ -443,6 +445,7 @@ namespace ExcelAddIn1.Funtion
                 EstimateV2WorkItemState normalized = new EstimateV2WorkItemState(
                     rowId,
                     existing.NormCode.Length > 0 ? existing.NormCode : visibleNorm,
+                    existing.VariantCode,
                     existing.PackageId,
                     existing.DataVersion,
                     kind,
@@ -527,6 +530,7 @@ namespace ExcelAddIn1.Funtion
             Excel.Workbook workbook,
             string workItemId,
             string normCode,
+            string variantCode,
             string packageId,
             string dataVersion)
         {
@@ -541,6 +545,7 @@ namespace ExcelAddIn1.Funtion
                 throw new ArgumentException("Ma dinh muc khong duoc trong.", nameof(normCode));
             EstimateV2WorkItemState updated = item.WithBinding(
                 code,
+                variantCode,
                 packageId,
                 dataVersion).WithOrphaned(false);
             if (Equivalent(item, updated))
@@ -595,6 +600,7 @@ namespace ExcelAddIn1.Funtion
                 right != null &&
                 string.Equals(left.WorkItemId, right.WorkItemId, StringComparison.OrdinalIgnoreCase) &&
                 string.Equals(left.NormCode, right.NormCode, StringComparison.Ordinal) &&
+                string.Equals(left.VariantCode, right.VariantCode, StringComparison.Ordinal) &&
                 string.Equals(left.PackageId, right.PackageId, StringComparison.Ordinal) &&
                 string.Equals(left.DataVersion, right.DataVersion, StringComparison.Ordinal) &&
                 string.Equals(left.Kind, right.Kind, StringComparison.Ordinal) &&
