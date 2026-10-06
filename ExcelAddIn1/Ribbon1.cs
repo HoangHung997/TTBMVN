@@ -40,6 +40,15 @@ namespace ExcelAddIn1
             edPrefix.Text = "Bằng chữ: ";
             edSuffix.Text = "./.";
             edVND.Text = "E25";
+
+            btnEstimateSettings.Image =
+                EstimateUiIcons.Create(
+                    EstimateUiIconKind.Settings,
+                    32,
+                    System.Drawing.Color.FromArgb(
+                        0, 103, 55));
+            btnEstimateSettings.ShowImage = true;
+
             // Đăng ký sự kiện Workbook
 
             //Excel.Application excelApp = Globals.ThisAddIn.Application;
@@ -362,6 +371,40 @@ namespace ExcelAddIn1
                 MessageBox.Show(
                     ex.Message,
                     "Không mở được Trợ lý Dự toán",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnEstimateSettings_Click(
+            object sender,
+            RibbonControlEventArgs e)
+        {
+            Excel.Workbook currentWorkbook =
+                Globals.ThisAddIn.Application.ActiveWorkbook;
+            if (currentWorkbook == null)
+            {
+                MessageBox.Show(
+                    "Không có file Excel nào đang mở!",
+                    "Thông báo",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                EstimateTaskPaneManager.ShowSettings(
+                    currentWorkbook);
+            }
+            catch (Exception ex)
+            {
+                RuntimeLogger.Log(
+                    ex,
+                    "Open Estimate V2 settings");
+                MessageBox.Show(
+                    ex.Message,
+                    "Không mở được Thiết lập chung",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
             }
