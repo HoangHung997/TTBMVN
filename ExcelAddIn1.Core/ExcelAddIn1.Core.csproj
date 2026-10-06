@@ -32,6 +32,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DaodatFeasibility.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="UnitRateCalculator.cs" />
     <Compile Include="EstimateAppendixCalculator.cs" />
     <Compile Include="EstimateWorkspace.cs" />
+    <Compile Include="EstimateV2State.cs" />
     <Compile Include="CostSummaryCalculator.cs" />
     <Compile Include="ResultAuditTrail.cs" />
     <Compile Include="WorkbookValidation.cs" />
