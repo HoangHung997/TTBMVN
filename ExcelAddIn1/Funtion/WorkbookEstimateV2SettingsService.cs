@@ -34,8 +34,11 @@ namespace ExcelAddIn1.Funtion
                     .Where(item => item != null)
                     .ToList());
             SheetKeys = new ReadOnlyDictionary<EstimateV2OutputSlot, string>(
-                new Dictionary<EstimateV2OutputSlot, string>(
-                    sheetKeys ?? new Dictionary<EstimateV2OutputSlot, string>()));
+                sheetKeys == null
+                    ? new Dictionary<EstimateV2OutputSlot, string>()
+                    : sheetKeys.ToDictionary(
+                        item => item.Key,
+                        item => item.Value));
             MetadataValid = metadataValid;
         }
 
