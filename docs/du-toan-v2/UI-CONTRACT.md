@@ -45,9 +45,9 @@ Các ảnh này là **reference bắt buộc**, không phải ý tưởng tham k
 | 01 Tổng quan | `EstimateTaskPaneControl` |
 | 02 Công tác | `EstimateWorkItemsPaneView` |
 | 03 Gắn định mức | `EstimateNormBindingPaneView` |
-| 04 VL-NC-M | V2-201 |
-| 05 DG Cạn | V2-301 |
-| 06 DG Nước | V2-301 |
+| 04 VL-NC-M | `EstimateResourcesPaneView` |
+| 05 DG Cạn | `EstimateUnitRatesPaneView` (`Land`) |
+| 06 DG Nước | `EstimateUnitRatesPaneView` (`InlandWater`) |
 | 07 THKP-TC & Kiểm tra | V2-401 / V2-501 |
 | 08 Thiết lập chung | task settings sau V2-101 |
 | 09 Gói pháp lý & Dữ liệu | package UI on-demand |
@@ -90,7 +90,19 @@ Màn hình phải có:
 - nút Gắn dòng này / Gắn các dòng đã chọn / Đổi định mức / Bỏ gắn;
 - thông báo rõ: xóa ô hiển thị định mức trên sheet **không làm mất binding**.
 
-## 7. Quy tắc mở lại workbook
+## 7. Đơn giá Cạn / Nước / Biển
+
+Implementation V2-301 phải bám trực tiếp `05-DG-Can.png` và `06-DG-Nuoc.png`:
+
+- DG Cạn: 4 metric, 3 bước, bảng chọn định mức, tùy chọn sinh, preview VL/NC/M/Tổng, nút xanh `Sinh đơn giá`, ghi chú formula/link.
+- DG Nước: 4 metric, quy trình 4 bước, danh sách định mức nước, trạng thái và ghi chú liên kết.
+- DG Biển: chỉ xuất hiện khi có định mức biển đang dùng; dùng cùng ngôn ngữ thiết kế của DG Nước.
+- mỗi `package + NormCode + VariantCode` chỉ có một RateId và một block đơn giá dùng chung;
+- các cột kết quả phải liên kết tới `VL-NC-M` bằng workbook Name/công thức, không chép giá chết;
+- sheet in dùng A:H; metadata/helper đặt từ I trở đi và phải ẩn;
+- header bảng đơn giá dùng hai tầng như file mẫu: A:E gộp dọc, F:H có `Thành tiền (đồng)` phía trên `Vật liệu / Nhân công / Máy`.
+
+## 8. Quy tắc mở lại workbook
 
 Khi mở pane:
 
@@ -101,7 +113,7 @@ Khi mở pane:
 - không bắt quét lại bảng đã đăng ký;
 - không dùng RowIndex làm identity.
 
-## 8. Trạng thái triển khai hiện tại
+## 9. Trạng thái triển khai hiện tại
 
 Đã có:
 
@@ -114,5 +126,7 @@ Khi mở pane:
 - Reconcile khi mở pane.
 - Fingerprint recovery khi chèn/xóa/sort/copy.
 - Missing package không chặn task pane.
+- VL-NC-M.
+- DG Cạn / DG Nước; DG Biển dùng cùng view và chỉ hiện khi có định mức biển.
 
 Các màn hình còn lại phải tiếp tục cùng phong cách và kích thước này.
