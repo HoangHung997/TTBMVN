@@ -63,6 +63,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2Fingerprint", TestEstimateV2Fingerprint);
             Run("EstimateV2ResourcePlan", TestEstimateV2ResourcePlan);
             Run("EstimateV2PriceSheetProjection", TestEstimateV2PriceSheetProjection);
+            Run("EstimateV2RatePlan", TestEstimateV2RatePlan);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2257,6 +2258,95 @@ namespace ExcelAddIn1.Tests
                 item.Code == "M010.029");
             AssertEqual(3, diving029.UsageCount);
             AssertEqual(2, diving029.NormKeys.Count);
+        }
+
+        private static void TestEstimateV2RatePlan()
+        {
+            RegulationPackageBundle bundle = LoadBqpPackageBundle("BQP-RPBM-2025");
+            NormCatalog catalog = NormCatalog.Load(
+                bundle.Modules[RegulationModuleKind.Norm]);
+
+            string packageId = bundle.Package.PackageId;
+            string version = bundle.Package.DataVersion;
+            string checksum = bundle.Package.PackageChecksum;
+
+            var land1 = new EstimateV2WorkItemState(
+                "00000000000000000000000000000011",
+                "SRC-A",
+                "NORM-020.0500",
+                "depth-5",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                EstimateV2Fingerprint.Compute("L1", "Can 1", "ha", "WORKITEM"),
+                false);
+            var land2 = new EstimateV2WorkItemState(
+                "00000000000000000000000000000012",
+                "SRC-A",
+                "NORM-020.0500",
+                "depth-5",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                EstimateV2Fingerprint.Compute("L2", "Can 2", "ha", "WORKITEM"),
+                false);
+            var water = new EstimateV2WorkItemState(
+                "00000000000000000000000000000013",
+                "SRC-A",
+                "NORM-030.0400",
+                "water-0.5-12",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                EstimateV2Fingerprint.Compute("W1", "Nuoc", "signal", "WORKITEM"),
+                false);
+            var sea = new EstimateV2WorkItemState(
+                "00000000000000000000000000000014",
+                "SRC-A",
+                "NORM-040.0300",
+                "water-25-50",
+                packageId,
+                version,
+                checksum,
+                "WORKITEM",
+                EstimateV2Fingerprint.Compute("S1", "Bien", "signal", "WORKITEM"),
+                false);
+
+            EstimateV2RatePlan plan = EstimateV2RatePlanBuilder.Build(
+                new[] { land1, land2, water, sea },
+                item => catalog.FindRequired(item.NormCode));
+
+            AssertEqual(3, plan.Items.Count);
+            AssertEqual(1, plan.ForEnvironment(EstimateV2RateEnvironment.Land).Count);
+            AssertEqual(1, plan.ForEnvironment(EstimateV2RateEnvironment.InlandWater).Count);
+            AssertEqual(1, plan.ForEnvironment(EstimateV2RateEnvironment.Sea).Count);
+
+            EstimateV2RateItem landRate =
+                plan.ForEnvironment(EstimateV2RateEnvironment.Land).Single();
+            AssertEqual(2, landRate.UsageCount);
+            AssertTrue(landRate.RateId.StartsWith("DG-", StringComparison.Ordinal));
+            AssertEqual(
+                landRate.RateId,
+                EstimateV2RatePlanBuilder.CreateRateId(
+                    EstimateV2ResourcePlanBuilder.PackageIdentity(land1),
+                    land1.NormCode,
+                    land1.VariantCode));
+
+            EstimateV2RateItem waterRate =
+                plan.ForEnvironment(EstimateV2RateEnvironment.InlandWater).Single();
+            EstimateV2RateResource diving = waterRate.Resources.Single(item =>
+                item.ResourceCode == "M010.DIVING");
+            AssertTrue(diving.PriceCandidates.Contains("M010.029"));
+            AssertTrue(diving.PriceCandidates.Contains("M010.033"));
+            AssertTrue(waterRate.RequiresConditionReview);
+
+            EstimateV2RateItem seaRate =
+                plan.ForEnvironment(EstimateV2RateEnvironment.Sea).Single();
+            AssertTrue(seaRate.Resources.Any(item =>
+                item.ResourceCode == "M010.018-OR-M010.028"));
         }
 
         private static void TestEstimateRateGrouping()
