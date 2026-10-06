@@ -80,15 +80,15 @@ Truong hop cu co hai doi tuong luong VT/DN van duoc xem la yeu cau mo rong can h
 2. `DU TOAN RPBM-VD4- Ver1.2.xls` - mau 2023 co ca huong luong NSNN va khong huong luong NSNN.
 3. `Du toan RPBM HoaLuNamDinh_Ver1.xlsx` - mau moi nhat, chon lam huong chinh cho V2; du an co 2 khu vuc nhung kien truc khong phu thuoc so khu vuc.
 
-## 4. Anh tham chieu
+## 4. Anh tham chieu du an
 
-### Mau tab cu co VT/DN
+Cac anh duoi day duoc tach rieng vao thu muc `images/` de dung khi doi chieu giao dien va mau in:
 
-![Mau 2023 co VT/DN](images/tabs-2023-vt-dn.png)
-
-### Mau tab hien hanh uu tien
-
-![Mau hien hanh](images/tabs-current-standard.png)
+- [THKP-TC](images/THKP-TC.png)
+- [Gia DT TC](images/Gia-DT-TC.png)
+- [DG Can](images/DG-Can.png)
+- [DG Nuoc](images/DG-Nuoc.png)
+- [VL-NC-M](images/VL-NC-M.png)
 
 ## 5. Tai lieu trong thu muc nay
 
