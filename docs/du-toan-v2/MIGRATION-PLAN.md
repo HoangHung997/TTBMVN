@@ -198,6 +198,34 @@ Writer cu neu ghi snapshot so can duoc chuyen sang FormulaBuilder.
 - Mo lai tren may khong co add-in: cong thuc van doc/in duoc.
 - Neu can, viet converter cho workbook legacy sau khi V2 on dinh.
 
+### V2-701 - Thiet lap chung
+
+- Cau hinh theo workbook, khong tao sheet settings visible.
+- Map 6 output theo persistent identity.
+- Auto restore norm display, validate-on-open nhe, auto-sync row, mapping-loss warning.
+- Formula/Custom XML/hidden technical columns la invariant khong duoc tat.
+- Auto-save co interval, khong Save As workbook moi.
+- Mapping save co rollback.
+- UI mo trong cung CustomTaskPane qua Ribbon, khong modal.
+
+### V2-801 - Goi phap ly & Du lieu
+
+- Hien package workbook dang pin: PackageId / DataVersion / checksum.
+- Phan biet ready / missing / corrupt / chua cau hinh.
+- Cai/chon package on-demand.
+- Khong auto latest.
+- Neu doi package phai preview impact + confirm + rollback.
+- Tai su dung package store/offline update/effective-date/transition/migration engine hien co.
+- Khong dua package scan thanh startup gate.
+
+### V2-901 - Bao cao & Xuat in
+
+- Chon cac sheet ho so can in/xuat.
+- Kiem tra PrintArea/page setup.
+- Loai technical columns ra khoi output.
+- Ho tro Can/Nuoc/Bien theo sheet thuc te.
+- Khong tao tab bao cao rac chi de export.
+
 ## 7. Gate nghiem thu V2 co ban
 
 Mot luong V2 chi duoc coi la dat khi:
