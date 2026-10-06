@@ -67,6 +67,7 @@ namespace ExcelAddIn1.Tests
             Run("EstimateV2CostLinkPlan", TestEstimateV2CostLinkPlan);
             Run("EstimateV2ValidationRules", TestEstimateV2ValidationRules);
             Run("EstimateV2CompatibilityRules", TestEstimateV2CompatibilityRules);
+            Run("EstimateV2SettingsPolicy", TestEstimateV2SettingsPolicy);
             Run("EstimateRateGrouping", TestEstimateRateGrouping);
             Run("CostSummaryCalculation", TestCostSummaryCalculation);
             Run("CostSummaryValidation", TestCostSummaryValidation);
@@ -2585,6 +2586,65 @@ namespace ExcelAddIn1.Tests
                         "Đơn vị",
                         "Khối lượng"
                     }));
+        }
+
+        private static void TestEstimateV2SettingsPolicy()
+        {
+            EstimateV2Settings defaults =
+                EstimateV2SettingsPolicy.Defaults();
+
+            AssertTrue(defaults.AutoRestoreNormDisplay);
+            AssertTrue(defaults.ValidateOnOpen);
+            AssertTrue(defaults.FormulaLinksRequired);
+            AssertTrue(defaults.AutoSyncRows);
+            AssertTrue(defaults.UseCustomXml);
+            AssertTrue(defaults.HideTechnicalColumns);
+            AssertTrue(defaults.WarnOnMappingLoss);
+            AssertTrue(defaults.AutoSaveEnabled);
+            AssertEqual(
+                EstimateV2SettingsPolicy.DefaultAutoSaveMinutes,
+                defaults.AutoSaveMinutes);
+
+            EstimateV2Settings normalized =
+                EstimateV2SettingsPolicy.Normalize(
+                    new EstimateV2Settings(
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        false,
+                        true,
+                        500));
+
+            AssertFalse(normalized.AutoRestoreNormDisplay);
+            AssertFalse(normalized.ValidateOnOpen);
+            AssertTrue(normalized.FormulaLinksRequired);
+            AssertFalse(normalized.AutoSyncRows);
+            AssertTrue(normalized.UseCustomXml);
+            AssertTrue(normalized.HideTechnicalColumns);
+            AssertFalse(normalized.WarnOnMappingLoss);
+            AssertTrue(normalized.AutoSaveEnabled);
+            AssertEqual(
+                EstimateV2SettingsPolicy.MaximumAutoSaveMinutes,
+                normalized.AutoSaveMinutes);
+
+            EstimateV2Settings low =
+                EstimateV2SettingsPolicy.Normalize(
+                    new EstimateV2Settings(
+                        true,
+                        true,
+                        true,
+                        true,
+                        true,
+                        true,
+                        true,
+                        true,
+                        -3));
+            AssertEqual(
+                EstimateV2SettingsPolicy.MinimumAutoSaveMinutes,
+                low.AutoSaveMinutes);
         }
 
         private static void TestEstimateRateGrouping()
