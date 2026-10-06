@@ -1165,9 +1165,21 @@ namespace ExcelAddIn1.Winform
                     WorkbookEstimateV2SettingsService
                         .CaptureSnapshot(workbook);
                 ApplySnapshot(snapshot);
-                ShowStatus(
-                    "Thiết lập được lưu trong workbook; không tạo thêm sheet kỹ thuật.",
-                    false);
+                if (snapshot.MappingLossDetected &&
+                    snapshot.Settings.WarnOnMappingLoss)
+                {
+                    ShowStatus(
+                        "Phát hiện " +
+                        snapshot.MappingLossCount +
+                        " mapping đầu ra bị mất hoặc không còn đúng identity. Hãy chọn lại sheet và Lưu thiết lập.",
+                        true);
+                }
+                else
+                {
+                    ShowStatus(
+                        "Thiết lập được lưu trong workbook; không tạo thêm sheet kỹ thuật.",
+                        false);
+                }
             }
             catch (Exception ex)
             {
@@ -1195,9 +1207,11 @@ namespace ExcelAddIn1.Winform
                     .ToString() +
                 "/6";
             roleDetail.Text =
-                value.ConfiguredSheetCount == 6
-                    ? "Đã cấu hình"
-                    : "Chưa đủ";
+                value.MappingLossDetected
+                    ? "Cần kiểm tra"
+                    : value.ConfiguredSheetCount == 6
+                        ? "Đã cấu hình"
+                        : "Chưa đủ";
 
             metadataValue.Text =
                 value.MetadataValid
