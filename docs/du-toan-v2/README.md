@@ -95,15 +95,28 @@ Cac anh duoi day duoc tach rieng vao thu muc `images/` de dung khi doi chieu gia
 - [ARCHITECTURE.md](ARCHITECTURE.md): kien truc dich V2.
 - [MIGRATION-PLAN.md](MIGRATION-PLAN.md): ke hoach tiep quan, phan nao giu/phan nao sua va cac moc trien khai.
 - [PROGRESS.md](PROGRESS.md): trang thai task dang lam, task da xong, commit va viec tiep theo.
-- [UI-CONTRACT.md](UI-CONTRACT.md): bo UI bat buoc phai bam theo 10 anh da chot.
+- [UI-CONTRACT.md](UI-CONTRACT.md): bo UI bat buoc phai bam theo anh da chot.
+- [HANDOVER.md](HANDOVER.md): diem vao ban giao cho nguoi tiep quan, kien truc bat buoc, rui ro runtime va task tiep theo.
 
 ## 6. Trang thai
 
-Da bat dau trien khai V2.
+V2 da trien khai qua cac moc chinh:
 
-- `V2-001` da bo gate `FrmProjectSetup`: bam Du toan mo ngay CustomTaskPane ben phai, khong bat map THKP/7 role.
-- `V2-002` da co shell UI + Tong quan + Cong tac + Gan dinh muc theo bo anh chot.
-- `V2-101` da co WorkItemId, Custom XML state, cot ky thuat an, fingerprint recovery va UI gan dinh muc.
-- Task dang lam tiep la `V2-201`: gom resource unique va sinh/cap nhat `VL-NC-M` bang formula/link Excel.
+- `V2-001`: bo gate khoi dong, bam Du toan mo ngay CustomTaskPane.
+- `V2-002`: shell UI theo bo anh chot.
+- `V2-101`: WorkItemId + Custom XML + fingerprint/reconcile.
+- `V2-201`: VL-NC-M bang formula/link.
+- `V2-301`: DG Can / DG Nuoc / DG Bien theo RateId unique.
+- `V2-401`: link Gia DT TC + THKP-TC.
+- `V2-501`: validation / safe repair.
+- `V2-601`: legacy migration, VT/DN, rename sheet, package missing graceful degradation.
+- `V2-701`: Thiet lap chung theo workbook, output mapping, auto-sync, auto-save va mapping-loss warning.
 
-Xem [PROGRESS.md](PROGRESS.md) de biet trang thai chinh xac va commit moi nhat.
+Task tiep theo:
+
+- **`V2-801` — Goi phap ly & Du lieu**.
+- Sau do `V2-901` — Bao cao & Xuat in.
+
+**Luu y:** cac task tren moi o muc implementation/runtime pending. Moi truong phat trien hien tai chua co bang chung build VSTO/Excel end-to-end, vi vay khong duoc coi la runtime PASS.
+
+Nguoi tiep quan bat dau tai [HANDOVER.md](HANDOVER.md), sau do xem [PROGRESS.md](PROGRESS.md) de biet commit, checklist va trang thai chi tiet.
