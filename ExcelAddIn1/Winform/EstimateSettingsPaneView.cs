@@ -163,7 +163,7 @@ namespace ExcelAddIn1.Winform
                     metrics,
                     3,
                     "Tự động lưu",
-                    EstimateUiIconKind.Refresh,
+                    EstimateUiIconKind.Cloud,
                     Blue);
             autosaveValue =
                 autosaveMetric.Value;
@@ -378,7 +378,7 @@ namespace ExcelAddIn1.Winform
                 BuildFixedProtectionRow(
                     "Sử dụng vùng Custom XML",
                     "Lưu thông tin cấu hình, mapping trong Custom XML ẩn",
-                    EstimateUiIconKind.Settings));
+                    EstimateUiIconKind.Lock));
 
             hiddenColumnsToggle =
                 AddToggleRow(
@@ -423,19 +423,22 @@ namespace ExcelAddIn1.Winform
 
             Button save =
                 ActionButton(
-                    "💾  Lưu thiết lập",
+                    "Lưu thiết lập",
+                    EstimateUiIconKind.Save,
                     Green,
                     Color.White,
                     true);
             Button reset =
                 ActionButton(
-                    "↻  Khôi phục mặc định",
+                    "Khôi phục mặc định",
+                    EstimateUiIconKind.Refresh,
                     Color.White,
                     TextDark,
                     false);
             Button openFolder =
                 ActionButton(
-                    "▱  Mở thư mục cấu hình",
+                    "Mở thư mục cấu hình",
+                    EstimateUiIconKind.Folder,
                     Color.White,
                     TextDark,
                     false);
@@ -1064,17 +1067,18 @@ namespace ExcelAddIn1.Winform
                     AutoEllipsis = true
                 };
             var lockLabel =
-                new Label
+                new PictureBox
                 {
-                    Text = "🔒",
+                    Image =
+                        EstimateUiIcons.Create(
+                            EstimateUiIconKind.Lock,
+                            19,
+                            Color.FromArgb(
+                                49, 78, 104)),
                     Width = 34,
                     Height = 30,
-                    TextAlign =
-                        ContentAlignment.MiddleCenter,
-                    Font =
-                        new Font(
-                            "Segoe UI Emoji",
-                            10f),
+                    SizeMode =
+                        PictureBoxSizeMode.CenterImage,
                     Anchor =
                         AnchorStyles.Top |
                         AnchorStyles.Right
@@ -1107,6 +1111,7 @@ namespace ExcelAddIn1.Winform
 
         private static Button ActionButton(
             string text,
+            EstimateUiIconKind iconKind,
             Color background,
             Color foreground,
             bool bold)
@@ -1130,7 +1135,18 @@ namespace ExcelAddIn1.Winform
                             bold
                                 ? FontStyle.Bold
                                 : FontStyle.Regular),
-                    Cursor = Cursors.Hand
+                    Cursor = Cursors.Hand,
+                    Image =
+                        EstimateUiIcons.Create(
+                            iconKind,
+                            17,
+                            background == Green
+                                ? Color.White
+                                : GreenDark),
+                    ImageAlign =
+                        ContentAlignment.MiddleLeft,
+                    TextImageRelation =
+                        TextImageRelation.ImageBeforeText
                 };
             button.FlatAppearance.BorderColor =
                 Border;
