@@ -98,6 +98,9 @@ namespace ExcelAddIn1.Funtion
                 thkp = ResolveOrCreateThkp(
                     workbook,
                     out createdThkp);
+                WorksheetRoleService.SetRole(
+                    thkp,
+                    WorksheetRole.CostSummary);
 
                 if (createdThkp)
                     BuildBasicThkpTemplate(thkp);
@@ -334,6 +337,16 @@ namespace ExcelAddIn1.Funtion
                 }
 
                 ConfigureThkpPrint(thkp, createdThkp);
+                WorkbookEstimateV2CompatibilityService
+                    .NormalizeOutputSheetName(
+                        workbook,
+                        thkp,
+                        ThkpName);
+                WorkbookEstimateV2CompatibilityService
+                    .HideSupersededLegacyOutputs(
+                        workbook,
+                        EstimateV2LegacySheetKind.CostSummary,
+                        thkp.CodeName);
 
                 int missing =
                     plan.Links.Count(item =>
@@ -728,9 +741,10 @@ namespace ExcelAddIn1.Funtion
             out bool created)
         {
             Excel.Worksheet existing =
-                WorkbookEstimateV2CostLinkService
-                    .FindWorksheet(
+                WorkbookEstimateV2CompatibilityService
+                    .ResolveOutputWorksheet(
                         workbook,
+                        WorksheetRole.CostSummary,
                         ThkpName);
             if (existing != null)
             {
