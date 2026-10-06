@@ -138,13 +138,25 @@ namespace ExcelAddIn1.Funtion
         public static WorkbookEstimateV2ValidationReport Scan(
             Excel.Workbook workbook)
         {
+            return ScanCore(workbook, true);
+        }
+
+        public static WorkbookEstimateV2ValidationReport ScanReadOnly(Excel.Workbook workbook)
+        {
+            return ScanCore(workbook, false);
+        }
+
+        private static WorkbookEstimateV2ValidationReport ScanCore(Excel.Workbook workbook, bool reconcileRows)
+        {
             if (workbook == null)
                 throw new ArgumentNullException(nameof(workbook));
 
             EstimateV2ReconcileResult reconcile;
             try
             {
-                reconcile =
+                reconcile = !reconcileRows
+                    ? new EstimateV2ReconcileResult(0, 0, 0, 0, 0, 0, false, new string[0])
+                    :
                     WorkbookEstimateV2RegistrationService
                         .ReconcileAll(workbook);
             }

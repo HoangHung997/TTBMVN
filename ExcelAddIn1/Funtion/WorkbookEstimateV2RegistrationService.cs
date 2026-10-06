@@ -706,7 +706,7 @@ namespace ExcelAddIn1.Funtion
                         worksheet = sheets.Item[index] as Excel.Worksheet;
                         if (worksheet == null)
                             continue;
-                        if (string.Equals(
+                        if (!string.IsNullOrWhiteSpace(source.WorksheetCodeName) && string.Equals(
                             worksheet.CodeName,
                             source.WorksheetCodeName,
                             StringComparison.OrdinalIgnoreCase))

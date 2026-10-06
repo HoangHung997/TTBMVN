@@ -114,6 +114,12 @@ namespace ExcelAddIn1.Winform
             Entries[WorkbookKey(workbook)].Control.ShowPackages();
         }
 
+        internal static void ShowReports(Excel.Workbook workbook)
+        {
+            Show(workbook);
+            Entries[WorkbookKey(workbook)].Control.ShowReports();
+        }
+
         internal static void CloseForWorkbook(Excel.Workbook workbook)
         {
             if (workbook == null)

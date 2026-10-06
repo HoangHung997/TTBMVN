@@ -28,6 +28,7 @@ namespace ExcelAddIn1.Winform
 
         private readonly Excel.Workbook workbook;
         private readonly Action backAction;
+        private readonly Action reportAction;
         private readonly Label totalValue;
         private readonly Label ratedValue;
         private readonly Label warningValue;
@@ -38,11 +39,12 @@ namespace ExcelAddIn1.Winform
 
         internal EstimateCostSummaryPaneView(
             Excel.Workbook workbook,
-            Action backAction)
+            Action backAction, Action reportAction = null)
         {
             this.workbook = workbook ??
                 throw new ArgumentNullException(nameof(workbook));
             this.backAction = backAction;
+            this.reportAction = reportAction;
 
             Dock = DockStyle.Fill;
             BackColor = Color.White;
@@ -823,6 +825,7 @@ namespace ExcelAddIn1.Winform
 
         private void ShowReportSheet()
         {
+            if (reportAction != null) { reportAction(); return; }
             if (!ActivateCostSummarySheet())
             {
                 ShowStatus(

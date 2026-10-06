@@ -15,6 +15,7 @@ namespace ExcelAddIn1.Winform
         protected EstimateActionPane(string title, EstimateUiIconKind icon, Action back)
         {
             Dock = DockStyle.Fill; BackColor = Color.White; AutoScaleMode = AutoScaleMode.Dpi;
+            ForeColor = Color.FromArgb(33, 43, 54);
             Font = new Font("Segoe UI", 9f);
             var scroll = new Panel { Dock = DockStyle.Fill, AutoScroll = true, BackColor = Color.White };
             Controls.Add(scroll);
@@ -34,6 +35,7 @@ namespace ExcelAddIn1.Winform
             Add(Command("Tổng quan", EstimateUiIconKind.Clipboard, back, false));
             Status = new Label { AutoSize = true, Dock = DockStyle.Top, Padding = new Padding(10),
                 BackColor = Color.FromArgb(237, 244, 255), ForeColor = Blue, MinimumSize = new Size(0, 45) };
+            SizeChanged += (s, e) => Status.MaximumSize = new Size(Math.Max(200, ClientSize.Width - 48), 0);
         }
 
         protected void Add(Control control)

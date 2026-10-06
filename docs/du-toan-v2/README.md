@@ -112,10 +112,12 @@ V2 da trien khai qua cac moc chinh:
 - `V2-601`: legacy migration, VT/DN, rename sheet, package missing graceful degradation.
 - `V2-701`: Thiet lap chung theo workbook, output mapping, auto-sync, auto-save va mapping-loss warning.
 
-Task tiep theo:
+Da bo sung tren Windows 2026-10-06:
 
-- **`V2-801` — Goi phap ly & Du lieu**.
-- Sau do `V2-901` — Bao cao & Xuat in.
+- [V2-801 — Goi phap ly & Du lieu](V2-801.md): preview, pin, backup/rollback; targeted Excel tests PASS.
+- [V2-901 — Bao cao & Xuat in](V2-901.md): PDF, Print Preview, kiem tra truoc xuat; PDF tests PASS.
+
+Buoc tiep theo la runtime regression va doi chieu so tien voi workbook chuan.
 
 **Luu y:** cac task tren moi o muc implementation/runtime pending. Moi truong phat trien hien tai chua co bang chung build VSTO/Excel end-to-end, vi vay khong duoc coi la runtime PASS.
 

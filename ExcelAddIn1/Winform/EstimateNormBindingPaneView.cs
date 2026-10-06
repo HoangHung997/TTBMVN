@@ -416,10 +416,10 @@ namespace ExcelAddIn1.Winform
                 EstimateV2RegisteredSource source = WorkbookEstimateV2RegistrationService
                     .ListRegistered(workbook)
                     .FirstOrDefault(item =>
-                        string.Equals(
+                        (!string.IsNullOrWhiteSpace(item.WorksheetCodeName) && string.Equals(
                             item.WorksheetCodeName,
                             activeSheet.CodeName,
-                            StringComparison.OrdinalIgnoreCase) ||
+                            StringComparison.OrdinalIgnoreCase)) ||
                         string.Equals(
                             item.WorksheetName,
                             activeSheet.Name,
@@ -499,7 +499,7 @@ namespace ExcelAddIn1.Winform
                     {
                         sheet = sheets.Item[index] as Excel.Worksheet;
                         if (sheet != null && (
-                            string.Equals(sheet.CodeName, source.WorksheetCodeName, StringComparison.OrdinalIgnoreCase) ||
+                            (!string.IsNullOrWhiteSpace(source.WorksheetCodeName) && string.Equals(sheet.CodeName, source.WorksheetCodeName, StringComparison.OrdinalIgnoreCase)) ||
                             string.Equals(sheet.Name, source.WorksheetName, StringComparison.OrdinalIgnoreCase)))
                         {
                             Excel.Worksheet result = sheet;

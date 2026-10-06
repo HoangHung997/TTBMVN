@@ -277,3 +277,10 @@ Khi mở pane:
 - V2-701 Thiết lập chung theo ảnh 08: mapping output, hành vi runtime, bảo vệ metadata và auto-save theo workbook.
 
 Các màn hình 09–10 phải tiếp tục cùng phong cách và kích thước này.
+
+### Màn hình 10 triển khai Windows
+
+`EstimateReportsPaneView`: header và back giống pane 09, bảng chọn sheet/vùng in,
+lệnh đọc lại/mở sheet/kiểm tra/xuất PDF/xem trước, status cuối pane.
+Không modal hóa giao diện chính. Dialog chọn PDF và xác nhận cảnh báo chỉ mở theo lệnh.
+Chi tiết scope và giới hạn kiểm chứng: `V2-901.md`.

@@ -46,6 +46,7 @@ namespace ExcelAddIn1.Winform
             this.workbook = workbook ?? throw new ArgumentNullException(nameof(workbook));
             Dock = DockStyle.Fill;
             BackColor = Color.White;
+            ForeColor = TextDark;
             AutoScaleMode = AutoScaleMode.Dpi;
 
             runtimeSettings = LoadRuntimeSettings();
@@ -762,7 +763,7 @@ namespace ExcelAddIn1.Winform
         {
             ShowChild(new EstimateCostSummaryPaneView(
                 workbook,
-                ShowOverview));
+                ShowOverview, ShowReports));
         }
 
         internal void ShowSettings()
@@ -776,6 +777,11 @@ namespace ExcelAddIn1.Winform
         internal void ShowPackages()
         {
             ShowChild(new EstimatePackagesPaneView(workbook, ShowOverview));
+        }
+
+        internal void ShowReports()
+        {
+            ShowChild(new EstimateReportsPaneView(workbook, ShowOverview));
         }
 
         private void ApplyRuntimeSettings(

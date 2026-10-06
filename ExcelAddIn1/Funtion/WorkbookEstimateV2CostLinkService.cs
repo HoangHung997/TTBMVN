@@ -400,7 +400,7 @@ namespace ExcelAddIn1.Funtion
                         if (sheet == null)
                             continue;
 
-                        if (string.Equals(
+                        if (!string.IsNullOrWhiteSpace(source.WorksheetCodeName) && string.Equals(
                             sheet.CodeName,
                             source.WorksheetCodeName,
                             StringComparison.OrdinalIgnoreCase))

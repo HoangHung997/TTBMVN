@@ -173,7 +173,7 @@ namespace ExcelAddIn1.Tests
                 AssertEqual(expiry, actualExpiry);
                 AssertFalse(ProductKeyCodec.TryValidate(key, "1111-2222-3333-4444", publicKey, out _));
                 AssertFalse(ProductKeyCodec.TryValidate(
-                    key.Substring(0, key.Length - 1) + "A",
+                    key.Substring(0, key.Length - 1) + (key[key.Length - 1] == 'A' ? "B" : "A"),
                     machineId,
                     publicKey,
                     out _));

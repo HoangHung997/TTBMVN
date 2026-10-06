@@ -6,9 +6,10 @@
 
 ## Trạng thái tổng quan
 
-**Tiếp quản Windows 2026-10-06:** build Release x64 và 80 test Core đã chạy thành công
-sau khi sửa ba lỗi biên dịch. Các task bên dưới vẫn runtime pending vì chưa kiểm thử
-end-to-end trong Excel/VSTO. Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
+**Tiếp quản Windows 2026-10-06:** build Release x64 và 81 test Core PASS, đã chạy service
+Excel và mở task pane V2 trong Excel thật. Full regression và đối chiếu tiền toàn bộ
+vẫn pending. File mẫu gốc có sẵn lỗi #REF!; không bypass validation để xuất hồ sơ lỗi.
+Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
 
 | Mã | Task | Trạng thái |
 |---|---|---|
@@ -22,9 +23,11 @@ end-to-end trong Excel/VSTO. Bằng chứng: [WINDOWS-VERIFICATION.md](WINDOWS-V
 | V2-601 | Tương thích file cũ và migration | DONE - implementation / runtime pending |
 | V2-701 | Thiết lập chung theo workbook | DONE - implementation / runtime pending |
 | V2-801 | Gói pháp lý & Dữ liệu | DONE - implementation / targeted Excel service tests PASS; full UI regression pending |
-| V2-901 | Báo cáo & Xuất in | NEXT |
+| V2-901 | Báo cáo & Xuất in | DONE - implementation / PDF service tests PASS; full UI regression pending |
 
 Tiếp quản 2026-10-06: chi tiết triển khai và bằng chứng V2-801 ở [V2-801.md](V2-801.md).
+V2-901: [V2-901.md](V2-901.md). Không còn task implementation chưa bắt đầu trong roadmap này;
+việc kế tiếp là runtime regression và đối chiếu dự toán chuẩn, không tự đổi thành full PASS.
 
 ---
 

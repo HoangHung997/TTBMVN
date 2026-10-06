@@ -59,6 +59,7 @@
             this.btnDutoan = this.Factory.CreateRibbonButton();
             this.btnEstimateSettings = this.Factory.CreateRibbonButton();
             this.btnEstimatePackages = this.Factory.CreateRibbonButton();
+            this.btnEstimateReports = this.Factory.CreateRibbonButton();
             this.button3 = this.Factory.CreateRibbonButton();
             this.button4 = this.Factory.CreateRibbonButton();
             this.btnRandom3m = this.Factory.CreateRibbonButton();
@@ -85,7 +86,7 @@
             // 
             // tab1
             // 
-            this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
+            this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Custom;
             this.tab1.Groups.Add(this.group1);
             this.tab1.Groups.Add(this.group2);
             this.tab1.Groups.Add(this.group3);
@@ -100,6 +101,7 @@
             this.group1.Items.Add(this.btnDutoan);
             this.group1.Items.Add(this.btnEstimateSettings);
             this.group1.Items.Add(this.btnEstimatePackages);
+            this.group1.Items.Add(this.btnEstimateReports);
             this.group1.Label = "Cập nhật lại đơn giá";
             this.group1.Name = "group1";
             // 
@@ -239,6 +241,9 @@
             this.btnEstimatePackages.Label = "Gói pháp lý\nDữ liệu";
             this.btnEstimatePackages.Name = "btnEstimatePackages";
             this.btnEstimatePackages.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnEstimatePackages_Click);
+            this.btnEstimateReports.Label = "Báo cáo / Xuất in";
+            this.btnEstimateReports.Name = "btnEstimateReports";
+            this.btnEstimateReports.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnEstimateReports_Click);
             // 
             // btnEstimateSettings
             // 
@@ -381,6 +386,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button5;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnDutoan;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEstimatePackages;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEstimateReports;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnEstimateSettings;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnRandom3m;
         internal Microsoft.Office.Tools.Ribbon.RibbonButtonGroup buttonGroup1;

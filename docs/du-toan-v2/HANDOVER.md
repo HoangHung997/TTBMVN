@@ -20,14 +20,22 @@ Các task đã triển khai ở mức code:
 | V2-601 | Legacy / migration / VT-DN / rename | DONE - implementation / runtime pending |
 | V2-701 | Thiết lập chung | DONE - implementation / runtime pending |
 | V2-801 | Gói pháp lý & Dữ liệu | DONE - implementation / targeted Excel service tests PASS; full UI regression pending |
-| V2-901 | Báo cáo & Xuất in | **NEXT** |
+| V2-901 | Báo cáo & Xuất in | DONE - implementation / PDF service tests PASS; full UI regression pending |
 
-**Quan trọng:** chưa có bằng chứng build VSTO/Excel runtime end-to-end trong môi trường triển khai hiện tại. Không được đổi các trạng thái trên thành runtime PASS nếu chưa chạy thật trên Windows + Excel + VSTO.
+**Quan trọng:** đã có build, kiểm thử service Excel và smoke test task pane trên Windows,
+nhưng chưa có full regression end-to-end hoặc đối chiếu tài chính toàn bộ. Không được
+đổi toàn bộ trạng thái thành runtime PASS từ các kiểm thử mục tiêu này.
 
 **Cập nhật tiếp quản Windows 2026-10-06:** đã sửa ba lỗi biên dịch và build Release x64
-thành công trên MSBuild 18.10.1; 80 test Core chạy PASS. Excel/VSTO end-to-end và đối chiếu
+thành công trên MSBuild 18.10.1; 81 test Core chạy PASS. Full Excel/VSTO regression và đối chiếu
 ảnh UI vẫn pending. Xem [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md) để biết
-lệnh chạy, lỗi đã sửa và giới hạn kiểm chứng. Task NEXT vẫn là V2-801.
+lệnh chạy, lỗi đã sửa và giới hạn kiểm chứng. V2-801 và V2-901 hiện đã có code và
+targeted Excel service tests; xem V2-801.md/V2-901.md. NEXT là regression runtime,
+không phải tiếp tục dựa trên trạng thái cũ trong các mục lịch sử bên dưới.
+
+File mẫu HoaLuNamDinh có sẵn lỗi #REF! (285 cached errors, 91 công thức tham chiếu hỏng).
+Không dùng tổng có sẵn của file để khẳng định V2 đúng toàn bộ. Test riêng từng fixture,
+giữ nguyên nguồn và xử lý tham chiếu mất bằng dữ liệu có căn cứ, không suy đoán số tiền.
 
 ## 2. Mục tiêu kiến trúc đã chốt
 

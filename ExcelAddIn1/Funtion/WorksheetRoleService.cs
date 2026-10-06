@@ -208,7 +208,8 @@ namespace ExcelAddIn1.Funtion
                         worksheet = worksheets.Item[index] as Excel.Worksheet;
                         if (worksheet == null)
                             continue;
-                        if (string.Equals(worksheet.CodeName, assignment.SheetKey, StringComparison.OrdinalIgnoreCase))
+                        if (!string.IsNullOrWhiteSpace(assignment.SheetKey) &&
+                            string.Equals(worksheet.CodeName, assignment.SheetKey, StringComparison.OrdinalIgnoreCase))
                         {
                             Excel.Worksheet result = worksheet;
                             worksheet = null;
