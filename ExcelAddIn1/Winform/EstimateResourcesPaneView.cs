@@ -310,9 +310,18 @@ namespace ExcelAddIn1.Winform
                 if (!item.RequiresUnitPrice)
                     continue;
 
-                PriceProfilePrice price;
-                bool hasPrice = previewProfile != null &&
-                    previewProfile.TryFind(item.Code, out price);
+                decimal workbookPrice;
+                bool hasPrice = WorkbookEstimateV2ResourceService.TryReadWorkbookUnitPrice(
+                    workbook,
+                    item,
+                    out workbookPrice);
+                if (!hasPrice)
+                {
+                    PriceProfilePrice price;
+                    hasPrice = previewProfile != null &&
+                        previewProfile.TryFind(item.Code, out price) &&
+                        price.AppliedUnitPriceVnd > 0m;
+                }
                 if (hasPrice)
                     continue;
 
@@ -370,20 +379,35 @@ namespace ExcelAddIn1.Winform
             int priced = 0;
             foreach (EstimateV2ResourceRequirement item in items)
             {
+                if (!item.RequiresUnitPrice)
+                    continue;
+
+                decimal current;
+                if (WorkbookEstimateV2ResourceService.TryReadWorkbookUnitPrice(
+                    workbook,
+                    item,
+                    out current))
+                {
+                    total += current;
+                    priced++;
+                    continue;
+                }
+
                 PriceProfilePrice price;
                 if (previewProfile != null &&
-                    item.RequiresUnitPrice &&
-                    previewProfile.TryFind(item.Code, out price))
+                    previewProfile.TryFind(item.Code, out price) &&
+                    price.AppliedUnitPriceVnd > 0m)
                 {
                     total += price.AppliedUnitPriceVnd;
                     priced++;
                 }
             }
 
-            if (previewProfile == null)
-                return items.Count.ToString("N0") + " khoản mục\r\nChưa có hồ sơ giá";
+            string secondLine = priced == 0
+                ? "Chưa có giá"
+                : priced.ToString("N0") + " có giá";
             return items.Count.ToString("N0") + " khoản mục\r\n" +
-                priced.ToString("N0") + " có giá" +
+                secondLine +
                 (total > 0m
                     ? " • " + total.ToString("#,##0", CultureInfo.CurrentCulture) + " đ"
                     : string.Empty);
