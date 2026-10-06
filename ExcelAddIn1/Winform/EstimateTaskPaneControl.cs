@@ -273,33 +273,21 @@ namespace ExcelAddIn1.Winform
             SetStep(2, SheetExists("VL-NC-M") ? StepState.Done : StepState.Ready);
             SetStep(3, SheetExists("DG Can") ? StepState.Done : StepState.Ready);
             SetStep(4, SheetExists("DG Nuoc") || SheetExists("DG Nước") ? StepState.Done : StepState.Ready);
-            StepState validationState =
-                total > 0
-                    ? StepState.Ready
-                    : StepState.Ready;
-            if (total > 0)
+            bool thkpLinked = false;
+            try
             {
-                try
-                {
-                    WorkbookEstimateV2ValidationReport validation =
-                        WorkbookEstimateV2ValidationService.Scan(
-                            workbook);
-                    validationState =
-                        validation.ThkpLinked &&
-                        !validation.HasErrors &&
-                        !validation.HasWarnings
-                            ? StepState.Done
-                            : validation.HasErrors ||
-                              validation.HasWarnings
-                                ? StepState.Warning
-                                : StepState.Ready;
-                }
-                catch
-                {
-                    validationState = StepState.Warning;
-                }
+                thkpLinked =
+                    WorkbookEstimateV2CostLinkService
+                        .HasDirectCostLinks(workbook);
             }
-            SetStep(5, validationState);
+            catch
+            {
+            }
+            SetStep(
+                5,
+                thkpLinked
+                    ? StepState.Done
+                    : StepState.Ready);
 
             RebuildSheetTiles();
             footerText.Text = "Có thể mở và sử dụng module này ngay cả khi chưa gắn THKP-TC hoặc chưa chọn gói pháp lý.";
