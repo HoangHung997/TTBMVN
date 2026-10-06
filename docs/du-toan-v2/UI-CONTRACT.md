@@ -49,7 +49,7 @@ Các ảnh này là **reference bắt buộc**, không phải ý tưởng tham k
 | 05 DG Cạn | `EstimateUnitRatesPaneView` (`Land`) |
 | 06 DG Nước | `EstimateUnitRatesPaneView` (`InlandWater`) |
 | 07 THKP-TC & Kiểm tra | `EstimateCostSummaryPaneView` (V2-401; V2-501 mở rộng validation) |
-| 08 Thiết lập chung | task settings sau V2-101 |
+| 08 Thiết lập chung | `EstimateSettingsPaneView` (V2-701) |
 | 09 Gói pháp lý & Dữ liệu | package UI on-demand |
 | 10 Báo cáo & Xuất in | report/export phase |
 
@@ -186,7 +186,65 @@ Về giao diện:
 - các pane VL-NC-M, DG và THKP phải mở đúng sheet hiện hành kể cả khi người dùng đã đổi tên tab;
 - không thêm wizard/modal bắt buộc trước khi vào module.
 
-## 10. Quy tắc mở lại workbook
+## 10. Thiết lập chung
+
+Implementation V2-701 phải bám trực tiếp `08-Thiet-lap-chung.png`.
+
+Bố cục bắt buộc:
+
+- header `Trợ lý Dự toán / Thiết lập chung` với icon bánh răng;
+- subtitle `Cấu hình workbook và hành vi của Trợ lý Dự toán`;
+- 4 card trạng thái:
+  - Workbook;
+  - Vai trò sheet;
+  - Metadata;
+  - Tự động lưu;
+- mục 1 `Sheet đầu ra` gồm 6 mapping:
+  - THKP-TC / Tổng hợp chi phí;
+  - Gia DT TC / Bảng dự toán;
+  - DG Cạn / Đơn giá cạn;
+  - DG Nước / Đơn giá nước;
+  - VL-NC-M / Vật liệu - Nhân công - Máy;
+  - DG Biển / Đơn giá biển;
+- mục 2 `Hành vi cập nhật`:
+  - Tự phục hồi ô định mức hiển thị;
+  - Kiểm tra khi mở file;
+  - Tạo công thức thay vì số chết;
+  - Tự động đồng bộ khi chèn/xóa dòng;
+- mục 3 `Bảo vệ dữ liệu`:
+  - Sử dụng vùng Custom XML;
+  - Cột kỹ thuật ẩn;
+  - Cảnh báo khi phát hiện xóa mapping;
+- ba nút cuối pane:
+  - `Lưu thiết lập`;
+  - `Khôi phục mặc định`;
+  - `Mở thư mục cấu hình`.
+
+Quy tắc dữ liệu/behavior:
+
+- settings là **theo workbook**, lưu trong Custom Document Properties; không tạo sheet settings visible;
+- mapping sheet dùng Worksheet Role / CodeName / environment metadata, không phụ thuộc tên tab;
+- một sheet không được gán đồng thời cho nhiều output V2;
+- `Khôi phục mặc định` chỉ reset hành vi, **không xóa mapping sheet**;
+- `Tạo công thức thay vì số chết` là invariant bắt buộc và luôn ON;
+- `Sử dụng vùng Custom XML` là invariant bắt buộc và luôn ON;
+- `Cột kỹ thuật ẩn` là invariant bắt buộc và luôn ON;
+- các invariant bắt buộc có thể hiển thị như switch/lock theo ảnh nhưng không cho phép tắt;
+- `Tự phục hồi ô định mức hiển thị` điều khiển việc reconcile có ghi lại ô display bị xóa hay không; binding thật trong Custom XML không bị xóa;
+- `Kiểm tra khi mở file` chỉ chạy kiểm tra/reconcile cấu trúc nhẹ; không được kéo full package/validation nặng trở lại startup gate;
+- `Tự động đồng bộ khi chèn/xóa dòng` dùng event + debounce trên các bảng công tác đã đăng ký, không poll toàn workbook liên tục;
+- tự động lưu mặc định 5 phút; chỉ Save workbook đã có đường dẫn, không tự bật Save As cho workbook mới;
+- cảnh báo mapping chỉ là status mềm, không khóa module;
+- nút `Mở thư mục cấu hình` mở thư mục ứng dụng TTBMVN trong LocalAppData;
+- icon Save / Lock / Cloud / Info phải dùng renderer nội bộ, không dùng emoji/icon lệch phong cách.
+
+Điểm vào UI:
+
+- Ribbon có nút `Thiết lập Chung`;
+- nút mở cùng CustomTaskPane hiện tại, không mở form modal mới;
+- quay lại Tổng quan vẫn giữ pane rộng khoảng 430 px.
+
+## 11. Quy tắc mở lại workbook
 
 Khi mở pane:
 
@@ -197,7 +255,7 @@ Khi mở pane:
 - không bắt quét lại bảng đã đăng ký;
 - không dùng RowIndex làm identity.
 
-## 11. Trạng thái triển khai hiện tại
+## 12. Trạng thái triển khai hiện tại
 
 Đã có:
 
@@ -214,5 +272,6 @@ Khi mở pane:
 - DG Cạn / DG Nước; DG Biển dùng cùng view và chỉ hiện khi có định mức biển.
 - THKP-TC & Kiểm tra theo ảnh 07; V2-401 đã nối chi phí trực tiếp và V2-501 đã mở rộng validation/phục hồi an toàn.
 - V2-601 tương thích workbook legacy/VT-DN/đổi tên sheet theo identity bền vững mà không thêm startup gate hay UI modal mới.
+- V2-701 Thiết lập chung theo ảnh 08: mapping output, hành vi runtime, bảo vệ metadata và auto-save theo workbook.
 
-Các màn hình còn lại phải tiếp tục cùng phong cách và kích thước này.
+Các màn hình 09–10 phải tiếp tục cùng phong cách và kích thước này.
