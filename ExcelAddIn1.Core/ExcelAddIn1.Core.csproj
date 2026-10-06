@@ -58,6 +58,7 @@
     <Compile Include="EstimateV2State.cs" />
     <Compile Include="EstimateV2Resources.cs" />
     <Compile Include="EstimateV2Rates.cs" />
+    <Compile Include="EstimateV2CostLinks.cs" />
     <Compile Include="EstimateV2ResourcePriceSheetProjector.cs" />
     <Compile Include="EstimateV2ResourceNames.cs" />
     <Compile Include="EstimateV2ExcelNames.cs" />
