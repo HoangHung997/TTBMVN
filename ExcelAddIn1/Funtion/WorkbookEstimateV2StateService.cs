@@ -335,6 +335,10 @@ namespace ExcelAddIn1.Funtion
                 columns.TechnicalIdColumn,
                 columns.TechnicalFingerprintColumn);
 
+            string sourceKey = (worksheet.CodeName ?? string.Empty).Trim();
+            if (sourceKey.Length == 0)
+                sourceKey = (worksheet.Name ?? string.Empty).Trim();
+
             EstimateV2State state = LoadOrCreate(workbook);
             var stateById = state.WorkItems.ToDictionary(
                 item => item.WorkItemId,
@@ -381,12 +385,23 @@ namespace ExcelAddIn1.Funtion
 
                 bool validId = EstimateV2WorkItemState.IsValidId(rowId);
                 if (validId)
+                {
                     stateById.TryGetValue(rowId, out existing);
+                    if (existing != null &&
+                        existing.SourceKey.Length > 0 &&
+                        !string.Equals(existing.SourceKey, sourceKey, StringComparison.OrdinalIgnoreCase))
+                    {
+                        // ID bi copy sang mot bang/sheet khac: coi nhu duplicate va cap ID moi.
+                        existing = null;
+                        validId = false;
+                    }
+                }
 
                 if (!validId || existing == null)
                 {
                     string recoveredId = TryRecoverByFingerprint(
                         fingerprint,
+                        sourceKey,
                         fingerprintCandidates,
                         seenIds);
                     if (recoveredId.Length > 0)
@@ -403,6 +418,7 @@ namespace ExcelAddIn1.Funtion
                         string importedNorm = visibleNorm;
                         existing = new EstimateV2WorkItemState(
                             rowId,
+                            sourceKey,
                             importedNorm,
                             string.Empty,
                             string.Empty,
@@ -422,6 +438,7 @@ namespace ExcelAddIn1.Funtion
                     rowId = EstimateV2WorkItemState.CreateId();
                     existing = new EstimateV2WorkItemState(
                         rowId,
+                        sourceKey,
                         existing.NormCode,
                         existing.VariantCode,
                         existing.PackageId,
@@ -444,6 +461,7 @@ namespace ExcelAddIn1.Funtion
                 string kind = existing.Kind.Length == 0 ? DefaultKind : existing.Kind;
                 EstimateV2WorkItemState normalized = new EstimateV2WorkItemState(
                     rowId,
+                    sourceKey,
                     existing.NormCode.Length > 0 ? existing.NormCode : visibleNorm,
                     existing.VariantCode,
                     existing.PackageId,
@@ -501,12 +519,22 @@ namespace ExcelAddIn1.Funtion
             int orphanedCount = 0;
             foreach (EstimateV2WorkItemState item in output.Values.ToList())
             {
+                bool belongsToCurrentSource =
+                    item.SourceKey.Length == 0 ||
+                    string.Equals(item.SourceKey, sourceKey, StringComparison.OrdinalIgnoreCase);
+                if (!belongsToCurrentSource)
+                    continue;
+
                 bool orphaned = !seenIds.Contains(item.WorkItemId);
                 if (orphaned)
                     orphanedCount++;
-                if (item.IsOrphaned == orphaned)
+                EstimateV2WorkItemState scoped = item.SourceKey.Length == 0
+                    ? item.WithSourceKey(sourceKey)
+                    : item;
+                if (scoped.IsOrphaned == orphaned &&
+                    string.Equals(scoped.SourceKey, item.SourceKey, StringComparison.Ordinal))
                     continue;
-                output[item.WorkItemId] = item.WithOrphaned(orphaned);
+                output[item.WorkItemId] = scoped.WithOrphaned(orphaned);
                 changed = true;
             }
 
@@ -587,6 +615,7 @@ namespace ExcelAddIn1.Funtion
 
         private static string TryRecoverByFingerprint(
             string fingerprint,
+            string sourceKey,
             IReadOnlyDictionary<string, List<EstimateV2WorkItemState>> candidates,
             ISet<string> seenIds)
         {
@@ -594,7 +623,10 @@ namespace ExcelAddIn1.Funtion
             if (!candidates.TryGetValue(fingerprint, out matches))
                 return string.Empty;
             List<EstimateV2WorkItemState> available = matches
-                .Where(item => !seenIds.Contains(item.WorkItemId))
+                .Where(item =>
+                    !seenIds.Contains(item.WorkItemId) &&
+                    (item.SourceKey.Length == 0 ||
+                     string.Equals(item.SourceKey, sourceKey, StringComparison.OrdinalIgnoreCase)))
                 .ToList();
             return available.Count == 1 ? available[0].WorkItemId : string.Empty;
         }
@@ -618,6 +650,7 @@ namespace ExcelAddIn1.Funtion
             return left != null &&
                 right != null &&
                 string.Equals(left.WorkItemId, right.WorkItemId, StringComparison.OrdinalIgnoreCase) &&
+                string.Equals(left.SourceKey, right.SourceKey, StringComparison.Ordinal) &&
                 string.Equals(left.NormCode, right.NormCode, StringComparison.Ordinal) &&
                 string.Equals(left.VariantCode, right.VariantCode, StringComparison.Ordinal) &&
                 string.Equals(left.PackageId, right.PackageId, StringComparison.Ordinal) &&
