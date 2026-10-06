@@ -121,10 +121,16 @@ namespace ExcelAddIn1.Funtion
                     environment.ToString());
 
                 string[] previousRateIds = ReadExistingRateIds(sheet).ToArray();
+                IReadOnlyDictionary<string, string> machineNames =
+                    BuildMachineNames(
+                        workbook,
+                        desired);
+
                 RateSheetBuild build = BuildSheet(
                     workbook,
                     desired,
-                    environment);
+                    environment,
+                    machineNames);
 
                 using (new ExcelWriteContext(workbook.Application))
                 using (var transaction = new ExcelBatchWriteTransaction())
@@ -193,7 +199,8 @@ namespace ExcelAddIn1.Funtion
         private static RateSheetBuild BuildSheet(
             Excel.Workbook workbook,
             IEnumerable<EstimateV2RateItem> rates,
-            EstimateV2RateEnvironment environment)
+            EstimateV2RateEnvironment environment,
+            IReadOnlyDictionary<string, string> machineNames)
         {
             EstimateV2RateItem[] items = (rates ??
                 Enumerable.Empty<EstimateV2RateItem>())
@@ -233,6 +240,7 @@ namespace ExcelAddIn1.Funtion
                     rows,
                     rate,
                     NormResourceKind.Material,
+                    machineNames,
                     "I",
                     "Vật liệu",
                     6,
@@ -242,6 +250,7 @@ namespace ExcelAddIn1.Funtion
                     rows,
                     rate,
                     NormResourceKind.Labor,
+                    machineNames,
                     "II",
                     "Nhân công",
                     7,
@@ -251,6 +260,7 @@ namespace ExcelAddIn1.Funtion
                     rows,
                     rate,
                     NormResourceKind.Machine,
+                    machineNames,
                     "III",
                     "Máy thi công",
                     8,
@@ -291,6 +301,7 @@ namespace ExcelAddIn1.Funtion
             IList<RateSheetRow> rows,
             EstimateV2RateItem rate,
             NormResourceKind kind,
+            IReadOnlyDictionary<string, string> machineNames,
             string roman,
             string title,
             int amountColumn,
@@ -331,7 +342,10 @@ namespace ExcelAddIn1.Funtion
 
                 rows.Add(RateSheetRow.Resource(
                     index,
-                    ResolveDisplayName(resource),
+                    ResolveDisplayName(
+                        resource,
+                        rate.PackageIdentity,
+                        machineNames),
                     resource.Unit,
                     resource.Quantity,
                     priceFormula,
@@ -422,7 +436,9 @@ namespace ExcelAddIn1.Funtion
         }
 
         private static string ResolveDisplayName(
-            EstimateV2RateResource resource)
+            EstimateV2RateResource resource,
+            string packageIdentity,
+            IReadOnlyDictionary<string, string> machineNames)
         {
             if (resource.Kind == NormResourceKind.Material ||
                 resource.Kind == NormResourceKind.Labor)
@@ -434,14 +450,159 @@ namespace ExcelAddIn1.Funtion
                 ".DIVING",
                 StringComparison.OrdinalIgnoreCase))
             {
-                return "Thiết bị lặn (tự chọn giá khả dụng)";
+                return "Thiết bị lặn theo độ sâu";
+            }
+
+            if (resource.PriceCandidates.Count == 1)
+            {
+                string key = MachineNameKey(
+                    packageIdentity,
+                    resource.PriceCandidates[0]);
+                string title;
+                return machineNames != null &&
+                    machineNames.TryGetValue(key, out title)
+                    ? title
+                    : resource.PriceCandidates[0];
             }
 
             if (resource.PriceCandidates.Count > 1)
-                return resource.ResourceCode + " (lựa chọn)";
-            return resource.PriceCandidates.Count == 1
-                ? resource.PriceCandidates[0]
-                : resource.ResourceCode;
+            {
+                string[] titles = resource.PriceCandidates
+                    .Take(2)
+                    .Select(code =>
+                    {
+                        string key = MachineNameKey(
+                            packageIdentity,
+                            code);
+                        string title;
+                        return machineNames != null &&
+                            machineNames.TryGetValue(key, out title)
+                            ? title
+                            : code;
+                    })
+                    .ToArray();
+                return string.Join(" / ", titles);
+            }
+
+            return resource.ResourceCode;
+        }
+
+        private static IReadOnlyDictionary<string, string> BuildMachineNames(
+            Excel.Workbook workbook,
+            IEnumerable<EstimateV2RateItem> rates)
+        {
+            var result = new Dictionary<string, string>(
+                StringComparer.OrdinalIgnoreCase);
+            EstimateV2State state;
+            if (!WorkbookEstimateV2StateService.TryLoad(
+                workbook,
+                out state))
+            {
+                return result;
+            }
+
+            RegulationPackageBootstrapService.LoadAvailablePackages();
+            var store = new RegulationPackageStore(
+                AppPaths.RegulationPackageDirectory);
+
+            foreach (string packageIdentity in (rates ??
+                Enumerable.Empty<EstimateV2RateItem>())
+                .Select(item => item.PackageIdentity)
+                .Where(value => !string.IsNullOrWhiteSpace(value))
+                .Distinct(StringComparer.OrdinalIgnoreCase))
+            {
+                EstimateV2WorkItemState sample = state.WorkItems
+                    .FirstOrDefault(item => string.Equals(
+                        EstimateV2ResourcePlanBuilder.PackageIdentity(item),
+                        packageIdentity,
+                        StringComparison.OrdinalIgnoreCase));
+                if (sample == null)
+                    continue;
+
+                try
+                {
+                    RegulationPackageBundle bundle =
+                        store.LoadBundleRequired(
+                            sample.PackageId,
+                            sample.DataVersion,
+                            sample.PackageChecksum);
+                    RegulationDataModule module;
+                    if (!bundle.Modules.TryGetValue(
+                        RegulationModuleKind.MachineRate,
+                        out module))
+                    {
+                        continue;
+                    }
+
+                    MachineRateCatalog catalog =
+                        MachineRateCatalog.Load(
+                            module,
+                            MachineRateAudience.NonStateSalary);
+
+                    foreach (string code in (rates ??
+                        Enumerable.Empty<EstimateV2RateItem>())
+                        .Where(item => string.Equals(
+                            item.PackageIdentity,
+                            packageIdentity,
+                            StringComparison.OrdinalIgnoreCase))
+                        .SelectMany(item => item.Machines)
+                        .SelectMany(item => item.PriceCandidates)
+                        .Where(value => !string.IsNullOrWhiteSpace(value))
+                        .Distinct(StringComparer.OrdinalIgnoreCase))
+                    {
+                        try
+                        {
+                            MachineRateDefinition definition =
+                                ResolveMachine(
+                                    catalog,
+                                    code);
+                            result[MachineNameKey(
+                                packageIdentity,
+                                code)] =
+                                definition.Title;
+                        }
+                        catch (KeyNotFoundException)
+                        {
+                        }
+                    }
+                }
+                catch (Exception ex) when (
+                    ex is System.IO.IOException ||
+                    ex is System.IO.InvalidDataException ||
+                    ex is ArgumentException ||
+                    ex is KeyNotFoundException)
+                {
+                    RuntimeLogger.Log(
+                        ex,
+                        "Resolve V2 DG machine names");
+                }
+            }
+
+            return result;
+        }
+
+        private static MachineRateDefinition ResolveMachine(
+            MachineRateCatalog catalog,
+            string resourceCode)
+        {
+            string code = (resourceCode ?? string.Empty).Trim();
+            if (code.StartsWith(
+                "M010.",
+                StringComparison.OrdinalIgnoreCase))
+            {
+                return catalog.FindRequiredByKey(
+                    "MACHINE-" + code.ToUpperInvariant());
+            }
+            return catalog.FindRequiredByCode(code);
+        }
+
+        private static string MachineNameKey(
+            string packageIdentity,
+            string code)
+        {
+            return (packageIdentity ?? string.Empty).Trim() +
+                "|" +
+                (code ?? string.Empty).Trim().ToUpperInvariant();
         }
 
         private static void WriteMatrix(
