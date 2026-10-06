@@ -15,7 +15,12 @@ namespace ExcelAddIn1.Winform
         Folder,
         Settings,
         Refresh,
-        Link
+        Link,
+        Materials,
+        Worker,
+        Excavator,
+        Formula,
+        Calculator
     }
 
     internal static class EstimateUiIcons
@@ -96,6 +101,67 @@ namespace ExcelAddIn1.Winform
                             float x2 = s * .5f + (float)Math.Cos(angle) * s * .39f;
                             float y2 = s * .5f + (float)Math.Sin(angle) * s * .39f;
                             graphics.DrawLine(pen, x1, y1, x2, y2);
+                        }
+                        break;
+                    case EstimateUiIconKind.Materials:
+                        graphics.DrawRectangle(pen, s * .12f, s * .18f, s * .29f, s * .23f);
+                        graphics.DrawRectangle(pen, s * .47f, s * .18f, s * .29f, s * .23f);
+                        graphics.DrawRectangle(pen, s * .29f, s * .49f, s * .29f, s * .23f);
+                        graphics.DrawLine(pen, s * .12f, s * .46f, s * .76f, s * .46f);
+                        break;
+                    case EstimateUiIconKind.Worker:
+                        graphics.DrawArc(pen, s * .27f, s * .14f, s * .46f, s * .30f, 180, 180);
+                        graphics.DrawLine(pen, s * .22f, s * .31f, s * .78f, s * .31f);
+                        graphics.DrawEllipse(pen, s * .34f, s * .29f, s * .32f, s * .30f);
+                        graphics.DrawArc(pen, s * .18f, s * .54f, s * .64f, s * .34f, 180, 180);
+                        break;
+                    case EstimateUiIconKind.Excavator:
+                        graphics.DrawRectangle(pen, s * .20f, s * .48f, s * .33f, s * .20f);
+                        graphics.DrawEllipse(pen, s * .18f, s * .67f, s * .21f, s * .15f);
+                        graphics.DrawEllipse(pen, s * .43f, s * .67f, s * .21f, s * .15f);
+                        graphics.DrawLines(pen, new[]
+                        {
+                            new PointF(s * .48f, s * .48f),
+                            new PointF(s * .63f, s * .28f),
+                            new PointF(s * .78f, s * .36f),
+                            new PointF(s * .69f, s * .55f)
+                        });
+                        graphics.DrawPolygon(pen, new[]
+                        {
+                            new PointF(s * .68f, s * .55f),
+                            new PointF(s * .89f, s * .58f),
+                            new PointF(s * .82f, s * .76f),
+                            new PointF(s * .64f, s * .68f)
+                        });
+                        break;
+                    case EstimateUiIconKind.Formula:
+                        using (var font = new Font(
+                            "Segoe UI",
+                            Math.Max(10f, s * .52f),
+                            FontStyle.Bold | FontStyle.Italic,
+                            GraphicsUnit.Pixel))
+                        {
+                            graphics.DrawString(
+                                "fx",
+                                font,
+                                brush,
+                                new PointF(s * .08f, s * .18f));
+                        }
+                        break;
+                    case EstimateUiIconKind.Calculator:
+                        graphics.DrawRectangle(pen, s * .22f, s * .10f, s * .56f, s * .78f);
+                        graphics.DrawRectangle(pen, s * .31f, s * .20f, s * .38f, s * .16f);
+                        for (int row = 0; row < 3; row++)
+                        {
+                            for (int column = 0; column < 3; column++)
+                            {
+                                graphics.FillRectangle(
+                                    brush,
+                                    s * (.31f + column * .15f),
+                                    s * (.47f + row * .12f),
+                                    s * .07f,
+                                    s * .06f);
+                            }
                         }
                         break;
                     case EstimateUiIconKind.Refresh:
