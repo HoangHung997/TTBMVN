@@ -149,7 +149,44 @@ V2-501 mở rộng chính màn hình 07, **không tạo thêm một kiểu UI kh
 - engine có `RepairRecoverable` để tái sinh công thức/link V2 qua đúng writer sở hữu (VL-NC-M / DG / Gia DT TC / THKP-TC); thao tác kiểm tra thông thường không âm thầm ghi lại giá đầu vào của người dùng;
 - Tổng quan phải tiếp tục nhẹ và không chạy full validation/package scan ở startup; bước 6 chỉ phản ánh nhanh trạng thái THKP link, còn full validation chạy khi người dùng mở `THKP-TC & Kiểm tra` hoặc bấm `Kiểm tra hồ sơ`.
 
-## 9. Quy tắc mở lại workbook
+## 9. Tương thích workbook cũ / migration V2-601
+
+V2-601 **không tạo thêm một kiểu UI mới**. Các trạng thái tương thích được đưa vào đúng các màn hình đã chốt, chủ yếu là `Tổng quan` và `Công tác`.
+
+Nguyên tắc bắt buộc:
+
+- mở module vẫn phải nhẹ; không chạy converter/package scan nặng như một gate khởi động;
+- migration legacy chỉ chạy on-demand khi vào `Công tác`, nơi người dùng đang thao tác với bảng công tác;
+- workbook chưa có bất kỳ sheet dự toán nào vẫn mở được bình thường;
+- workbook có 1/2/3 khu vực dùng cùng một kiến trúc WorkItem; dòng tiêu đề khu vực không được coi là công tác;
+- các tên legacy `Gia DT TC_DN`, `DG Can_VT`, `DG Can_DN`, `DG Nuoc_VT`, `DG Nuoc_DN`, `VL-NC-M_VT`, `VL-NC-M_DN`, `THKP-TC (2)` phải được nhận diện là alias/copy cũ;
+- nếu có đồng thời VT/DN hoặc nhiều bản copy cùng vai trò mà không có một lựa chọn duy nhất, add-in **không được tự đoán**; phải giữ nguyên và yêu cầu người dùng chọn đúng nguồn khi cần;
+- nếu chỉ có một `Gia DT TC_*` legacy phù hợp, converter được phép chuẩn hóa về layout V2:
+  - A TT;
+  - B Mã công tác;
+  - C Định mức;
+  - D Mô tả công việc;
+  - E Đơn vị;
+  - F Khối lượng;
+  - G:I Đơn giá VL/NC/M;
+  - J:L Thành tiền VL/NC/M;
+  - dữ liệu nghiệm thu/tail legacy được giữ ở vùng cột ẩn ngoài vùng in;
+- mã công tác được tạo cho dòng legacy chỉ nhằm tạo anchor visible ổn định; **không** được tự biến nội dung ô Định mức cũ thành binding pháp lý;
+- binding định mức chỉ hợp lệ khi được gắn qua state/package V2; text legacy ở ô hiển thị chỉ là display;
+- technical metadata mới phải đặt sau vùng visible/output đang dùng, không chèn đè G:L;
+- sheet output V2 dùng Worksheet Role / CodeName / custom environment metadata làm identity bền vững; đổi tên tab không được làm mất liên kết;
+- sau khi writer V2 đã tạo/cập nhật thành công sheet chuẩn, các bản output legacy VT/DN/copy thừa cùng loại có thể bị ẩn để giảm tab rác; không xóa dữ liệu cũ một cách âm thầm;
+- project profile/package pin bị thiếu/corrupt không được làm task pane crash; không tự chuyển sang package latest;
+- workbook generated phải dùng công thức Excel + workbook Name chuẩn, không dùng UDF của add-in cho kết quả in, để vẫn xem/tính/in được khi máy không cài add-in.
+
+Về giao diện:
+
+- `Công tác` giữ đúng ảnh 02; chỉ bổ sung thông điệp trạng thái migration trong footer/status;
+- `Tổng quan` giữ đúng ảnh 01; trạng thái sheet phải nhận được cả sheet đã đổi tên qua identity bền vững;
+- các pane VL-NC-M, DG và THKP phải mở đúng sheet hiện hành kể cả khi người dùng đã đổi tên tab;
+- không thêm wizard/modal bắt buộc trước khi vào module.
+
+## 10. Quy tắc mở lại workbook
 
 Khi mở pane:
 
@@ -160,7 +197,7 @@ Khi mở pane:
 - không bắt quét lại bảng đã đăng ký;
 - không dùng RowIndex làm identity.
 
-## 10. Trạng thái triển khai hiện tại
+## 11. Trạng thái triển khai hiện tại
 
 Đã có:
 
@@ -176,5 +213,6 @@ Khi mở pane:
 - VL-NC-M.
 - DG Cạn / DG Nước; DG Biển dùng cùng view và chỉ hiện khi có định mức biển.
 - THKP-TC & Kiểm tra theo ảnh 07; V2-401 đã nối chi phí trực tiếp và V2-501 đã mở rộng validation/phục hồi an toàn.
+- V2-601 tương thích workbook legacy/VT-DN/đổi tên sheet theo identity bền vững mà không thêm startup gate hay UI modal mới.
 
 Các màn hình còn lại phải tiếp tục cùng phong cách và kích thước này.
