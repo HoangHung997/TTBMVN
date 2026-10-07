@@ -34,6 +34,24 @@ Chưa đánh dấu full UI CRUD/pin hoặc đối chiếu tài chính PASS.
 V2-901: [V2-901.md](V2-901.md). Không còn task implementation chưa bắt đầu trong roadmap này;
 việc kế tiếp là runtime regression và đối chiếu dự toán chuẩn, không tự đổi thành full PASS.
 
+### Điểm bàn giao hiện tại — 2026-10-07
+
+Roadmap feature V2 đã triển khai xong ở mức code qua V2-901. **Không mở thêm task feature mới trước khi chạy regression/acceptance.**
+
+Người tiếp quản tiếp tục theo thứ tự:
+
+1. chạy lại build Release x64 + toàn bộ Core tests trên `main`;
+2. chạy `scripts/test-estimate-v2.ps1` trên bản sao workbook, tuyệt đối không ghi vào file mẫu gốc;
+3. regression end-to-end: Công tác -> Gắn định mức -> VL-NC-M -> DG -> Gia DT TC -> THKP -> Validation -> PDF;
+4. kiểm tra WorkItem insert/delete/sort/copy và save/close/reopen;
+5. kiểm tra DG Nước/Biển và hai đối tượng lương;
+6. regression V2-802/V2-803: sửa cell, đổi mã, draft reopen, thêm/bớt variant theo rule, cài/xóa/pin package trên kho test;
+7. đối chiếu UI ảnh chuẩn 01-08 ở DPI 100/125/150%; ảnh 09-10 chưa có file chuẩn thì **không tuyên bố pixel-match 100%**;
+8. đối chiếu tài chính trên fixture/workbook không có lỗi nguồn. File HoaLuNamDinh gốc có sẵn `#REF!`, không dùng tổng có sẵn để chứng minh engine đúng;
+9. chỉ sau khi có bằng chứng runtime mới nâng trạng thái tương ứng từ `runtime pending` sang PASS.
+
+Nguồn bàn giao chính: [HANDOVER.md](HANDOVER.md) và [WINDOWS-VERIFICATION.md](WINDOWS-VERIFICATION.md).
+
 ---
 
 ## UI CONTRACT — BẮT BUỘC
