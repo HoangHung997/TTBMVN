@@ -934,7 +934,7 @@ Core rule chịu trách nhiệm:
 | V2-301 | Sinh DG Cạn / DG Nước / DG Biển | DONE - implementation / runtime pending |
 | V2-401 | Link Gia DT TC + THKP-TC | DONE - implementation / runtime pending |
 | V2-501 | Validation / phục hồi / phát hiện lỗi | DONE - implementation / runtime pending |
-| V2-601 | Tương thích file cũ và migration | NEXT |
+| V2-601 | Tương thích file cũ và migration | DONE - implementation / runtime pending |
 
 ---
 
@@ -2900,7 +2900,7 @@ V2-401 đã chốt. V2-501 đã được triển khai ở section bên dưới.
 
 #### Việc tiếp theo
 
-V2-501 dừng ở đây. Task kế tiếp là **V2-601 — Tương thích file cũ và migration**. Chưa triển khai V2-601 trong task này.
+V2-501 dừng ở đây. **V2-601 — Tương thích file cũ và migration** đã được triển khai ở section kế tiếp.
 
 ### V2-601 — Migration / compatibility
 
@@ -3567,36 +3567,25 @@ V2-801 phải tiếp tục nguyên tắc: package pháp lý là dependency on-de
 
 ---
 
-## Roadmap còn lại
+## Roadmap feature hiện tại
 
-### V2-801 — Gói pháp lý & Dữ liệu
+Các feature task V2-001 đến V2-901 trong roadmap hiện tại đã được triển khai ở mức code. Không còn task feature `NEXT` chưa bắt đầu.
 
-**Trạng thái:** NEXT
+**NEXT hiện tại: regression/acceptance toàn V2.**
 
-Mục tiêu:
+Ưu tiên:
 
-- UI package/pháp lý theo CustomTaskPane;
-- hiển thị rõ package đang pin: PackageId / DataVersion / checksum;
-- phân biệt Installed / Missing / Corrupt / Available;
-- cài/chọn package on-demand;
-- dùng lại package store/offline update/effective-date/transition/migration engine hiện có;
-- nếu đổi package đã pin phải có preview/confirm và rollback an toàn;
-- không thay binding pháp lý âm thầm;
-- không tự chọn `latest` khi package workbook đang pin bị thiếu.
+- baseline build Release x64 + toàn bộ Core tests;
+- `scripts/test-estimate-v2.ps1` trên bản sao an toàn;
+- end-to-end formula chain Công tác -> Định mức -> VL-NC-M -> DG -> Gia DT TC -> THKP -> Validation -> PDF;
+- identity insert/delete/sort/copy + save/reopen;
+- DG Nước/Biển + hai đối tượng lương;
+- V2-802/V2-803 full editing/package regression trên kho test;
+- UI 01–08 ở DPI 100/125/150%;
+- report/print;
+- đối chiếu tài chính trên fixture/workbook không có lỗi nguồn.
 
-### V2-901 — Báo cáo & Xuất in
-
-**Trạng thái:** TODO
-
-Mục tiêu:
-
-- UI theo phong cách ảnh 10;
-- chọn các sheet hồ sơ chính cần in/xuất;
-- kiểm tra PrintArea/print setup trước khi xuất;
-- không xuất các cột metadata/technical;
-- hỗ trợ bộ output thực tế Cạn/Nước/Biển;
-- không tạo tab báo cáo rác chỉ để xuất;
-- phần export phải dùng workbook hiện tại làm nguồn sự thật.
+Chi tiết bàn giao: `HANDOVER.md`. Bằng chứng Windows: `WINDOWS-VERIFICATION.md`.
 
 ---
 
